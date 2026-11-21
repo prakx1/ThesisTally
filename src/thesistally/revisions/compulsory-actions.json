@@ -1,0 +1,17 @@
+[
+  {
+    "predecessor_isin": "IN9155A01020",
+    "successor_isin": "INE155A01022",
+    "type": "compulsory_conversion",
+    "suspended": "2024-08-30",
+    "last_trade": "2024-08-29",
+    "effective": "2024-09-01",
+    "credited": "2024-09-25",
+    "tradable": "2024-09-26",
+    "new_shares": 7,
+    "old_shares": 10,
+    "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+    "suspension_source": "https://nsearchives.nseindia.com/content/circulars/CML63585.pdf",
+    "credit_source": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf"
+  }
+]

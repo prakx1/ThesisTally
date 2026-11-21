@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "thesistally"
+version = "0.1.0"
+description = "A point-in-time swing research journal for NSE equities"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "numpy>=1.26,<3",
+    "rich>=13",
+    "duckdb>=1.2,<2",
+    "pandas>=2.2,<3",
+    "pyarrow>=18",
+    "httpx>=0.27,<1",
+    "typer>=0.15,<1",
+    "pyyaml>=6,<7",
+    "apscheduler>=3.10,<4",
+    "textual>=6,<9",
+    "python-telegram-bot==22.5",
+    "pydantic>=2.11,<3",
+    "openai>=1.86,<3",
+    "tradingagents==0.2.5",
+]
+
+[project.scripts]
+radar = "thesistally.cli:app"
+
+[project.optional-dependencies]
+# Older launch scripts use --extra research.
+research = []
+ranking = [
+    "lightgbm==4.6.0",
+    "scikit-learn>=1.6,<2",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.9"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.uv.sources]
+tradingagents = { git = "https://github.com/TauricResearch/TradingAgents.git", rev = "a5cb7cbd61d217fb0bc43f017392a861257afe6a" }

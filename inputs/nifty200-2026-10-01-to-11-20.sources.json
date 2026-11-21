@@ -1,0 +1,14 @@
+{
+  "dated_symbol_list": "https://raw.githubusercontent.com/floyds1995/Auto-Index-Constituents-Tracker/6fa23e1a9becf96bbdb1f88eb685d12afaf816b0/NSE/Nifty_200.csv",
+  "observation": "2026-10-01",
+  "current_comparison": "https://nsearchives.nseindia.com/content/indices/ind_nifty200list.csv",
+  "exchange_notice_register": "https://www.niftyindices.com/media",
+  "review": "All 200 symbols in the dated October 1 archive match the November 20 NSE file. The equity change notices between observations concern other indices. Each session verifies member ISIN and exchange security ID against its own bhavcopy.",
+  "reviewed_general_equity_notices": [
+    "https://www.niftyindices.com/Press_Release/ind_prs12102026.pdf",
+    "https://www.niftyindices.com/Press_Release/ind_prs12112026_1.pdf",
+    "https://www.niftyindices.com/Press_Release/ind_prs13112026.pdf",
+    "https://www.niftyindices.com/Press_Release/ind_prs23102026_1.pdf",
+    "https://www.niftyindices.com/Press_Release/ind_prs28102026.pdf"
+  ]
+}

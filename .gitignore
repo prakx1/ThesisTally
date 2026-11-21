@@ -1,0 +1,11 @@
+.venv/
+data/
+.env
+.env.*
+.secrets/
+.radar-credentials
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
