@@ -100,11 +100,15 @@ The five originally disputed closes matched official NSE cash prices and a separ
 
 Both settings passed the aggregate return and drawdown requirements. Each missed the seven required annual wins. The 126-session primary was frozen as **candidate, under observation** after the 20 November 2026 anchor close. The 252-session version remains a historical comparison. Only subsequent paper sessions count toward the prospective test. [Table source, annual comparisons and freeze](A126_CANDIDATE_REPORT.md) · [Decision register](EXPERIMENTS.md)
 
+![How much A126 beat or trailed the index in each annual test.](figures/a126-window-returns.png)
+
 ### Follow one investor through the tax years
 
 A separate simulation ran one continuous ₹10 lakh account per setting from the 30 December 2016 close through 20 November 2026. It carried individual purchase lots across years and assessed capital gains at historical financial-year rates. The investor paid tax from outside the portfolio. The benchmark proxy held a fund tracking the TRI and sold once at the end. Its model assumes zero fund fees and tracking error. [Tax method and year-by-year ledger](A_MOMENTUM_TAX.md)
 
 On actual sales, continuous pre-tax CAGR was 15.97% for A126 and 13.15% for A252, against 14.28% for the index. **Investor XIRR** is the annualised return that accounts for the dates of deposits, tax payments and ending proceeds. It was **13.62% for A126, 11.51% for A252 and 13.34% for the benchmark**. An illustrative sale of all remaining holdings at the end gave 13.61% and 11.50% for the strategies. A126 roughly matched the benchmark after tax under these assumptions. Comparing 19.00% directly to 13.62% would mix fresh annual accounts with a continuous account. [After-tax results and terminal-sale sensitivity](A_MOMENTUM_TAX.md) · [Annual-account results](A126_CANDIDATE_REPORT.md)
+
+![Annualised after-tax returns for both momentum variants and the index under a common final sale.](figures/momentum-after-tax.png)
 
 ## Range Bouncers · Test whether past bounces persist
 
@@ -141,5 +145,7 @@ The first study could verify all four figures for **610 of 10,221** eligible sto
 D2 kept both D trading definitions and used the first official XBRL publication. XBRL is a structured filing format whose tags identify figures, units and reporting periods. The historical replay required at least five annual windows with 80% verified coverage. The earlier **NSE-only** count found two, in 2025 and 2026. A search of newly retrieved BSE catalogues showed that another exchange sometimes named an earlier original. A later file could confirm the number while leaving the earlier publication time unresolved. For Reliance’s March 2025 consolidated result, a catalogue gave an April date but linked to a rendering associated with June. [D2 registration](PREREGISTRATION.md) · [Final cross-exchange coverage report](STRATEGY_D2_XBRL_COVERAGE.md)
 
 The combined NSE/BSE audit **superseded the NSE-only count**. It confirmed **zero of ten** windows. Verified first-edition coverage was 312 of 800 stock-quarters in 2025 and 10 of 801 in 2026 through 20 November. Even granting favorable publication ordering for every uncertain quarter with figures in the recovered archive, only those two years could reach 80%. The retrieval tests sometimes received errors for known-good files. An unavailable attachment leaves that company's original figures and release time unverified. [Final coverage and source limitations](STRATEGY_D2_XBRL_COVERAGE.md) · [Independent numerical audit](../data/fundamentals/review/d2-bse-final-1382fc21f57b.json)
+
+![Verified first-filing coverage and its upper bound for each year, compared with the 80% requirement.](figures/d2-filing-coverage.png)
 
 D2 was parked without a historical backtest. The proposed AI pass over PDF-only filings was declined. Forward collection started on 23 November 2026. Its scheduled poll captured BCSSL’s September-quarter filing with NSE’s publication time of 20:03:13 IST and a separate retrieval time of 20:06:49 IST. Keeping the two times and the original bytes gives a future earnings study a verifiable starting point. [Decision receipt](../data/fundamentals/d2-bse/decision.json) · [Forward filing receipt](../data/fundamentals/d2-forward/first-live-filing-20261123.json)
