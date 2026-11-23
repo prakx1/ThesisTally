@@ -7,7 +7,7 @@ from pathlib import Path
 
 import pytest
 
-from thesistally.discovery_registry import digest, encoded
+from thesistally.discovery_registry import digest, encoded, write_once
 from thesistally.fundamental_bse_recheck import (
     package_scan,
     references,
@@ -137,7 +137,7 @@ def test_new_or_pending_bse_references_cannot_silently_pass_the_terminal_gate(tm
     assert pending == {"missing_official_sources": [BSE], "require_dissemination_review": []}
 
 
-def test_denied_attachment_is_archived_and_never_used_as_an_earnings_clock(tmp_path):
+def test_denied_attachment_is_archived_and_never_used_as_an_earnings_clock(tmp_path, monkeypatch):
     import httpx
 
     from thesistally.fundamental_bse_links import capture, summary
@@ -151,9 +151,28 @@ def test_denied_attachment_is_archived_and_never_used_as_an_earnings_clock(tmp_p
         result = capture(root, BSE, client)
         assert capture(root, BSE, client) == result
     assert result["status"] == 406
-    link = summary(tmp_path, [BSE], {})["per_link"][BSE]
+    monkeypatch.setenv("PATH", "")
+    report = summary(tmp_path, [BSE], {})
+    assert report["pdftotext_sha256"] is None
+    link = report["per_link"][BSE]
     assert link["document_purpose"] == "attachment unavailable"
     assert link["verified_bse_disseminated_at"] is None
+
+
+def test_archived_pdf_needs_pdftotext_before_summary_can_be_published(tmp_path, monkeypatch):
+    from thesistally.fundamental_bse_links import summary
+
+    bse = tmp_path / "bse"
+    pdf = pdf_with_link()
+    sha = digest(pdf)
+    write_once(bse / "source-objects" / (sha + ".gz"), gzip.compress(pdf, mtime=0))
+    write_once(
+        bse / "linked-sources" / (digest(BSE.encode()) + ".json"),
+        encoded({"url": BSE, "status": 200, "sha256": sha}),
+    )
+    monkeypatch.setenv("PATH", "")
+    with pytest.raises(FileNotFoundError, match="pdftotext"):
+        summary(tmp_path, [BSE], {})
 
 
 def test_existing_link_with_explicit_clock_cue_needs_a_proven_original(tmp_path):
@@ -275,6 +294,9 @@ def test_completed_cross_exchange_receipt_is_stable_and_a_new_clock_requires_rep
     assert a["packages"] == 1 and a["unresolved_nse_sources"] == 0
     raw = (tmp_path / a["receipt"]).read_bytes()
     assert digest(raw) == a["receipt_sha256"]
+    assert json.loads(raw)["linked_bse_sources"]["pdftotext_sha256"] == digest(
+        Path(shutil.which("pdftotext")).read_bytes()
+    )
     meta["filing_sources"]["bse"]["sha256"] = digest(b"new original")
     (tmp_path / "coverage.json").write_bytes(encoded(meta))
     with pytest.raises(ValueError, match="rebuild canonical coverage"):

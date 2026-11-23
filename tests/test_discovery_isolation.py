@@ -21,27 +21,40 @@ def test_worker_cannot_write_to_paper_journal_frozen_config_or_tag(tmp_path):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_bytes(b"frozen")
     worker = """
-import os, sqlite3, sys
+import errno
+import os
+import sqlite3
+import sys
 from pathlib import Path
+
+import pytest
+
 out, paper, config, tag = map(Path, sys.argv[1:])
+write_denials = {errno.EACCES, errno.EPERM, errno.EROFS}
 (out / "allowed").write_text("ok")
-for p in [paper, config, tag]:
-    try: p.open('r+b').close()
-    except PermissionError: pass
-    else: raise AssertionError(p)
+for path in (paper, config, tag):
+    with pytest.raises(OSError) as error:
+        path.open("r+b").close()
+    assert error.value.errno in write_denials, error.value
+with sqlite3.connect(paper) as db:
+    with pytest.raises(sqlite3.OperationalError) as error:
+        db.execute("insert into fills values(1)")
+    assert (error.value.sqlite_errorcode & 0xFF) == sqlite3.SQLITE_READONLY, error.value
+hard = out / "hard"
 try:
-    with sqlite3.connect(paper) as db: db.execute('insert into fills values(1)')
-except sqlite3.OperationalError: pass
-else: raise AssertionError('SQL write escaped')
-try:
-    os.link(config, out/'hard')
-    (out/'hard').write_text('escape')
-except PermissionError: pass
-else: raise AssertionError('hardlink escaped')
-(out/'alias').symlink_to(config)
-try: (out/'alias').write_text('escape')
-except PermissionError: pass
-else: raise AssertionError('symlink escaped')
+    os.link(config, hard)
+except OSError as error:
+    # Linux exposes the writable output as a separate bind mount.
+    assert error.errno in write_denials | {errno.EXDEV}, error
+else:
+    with pytest.raises(OSError) as error:
+        hard.write_text("escape")
+    assert error.value.errno in write_denials, error.value
+alias = out / "alias"
+alias.symlink_to(config)
+with pytest.raises(OSError) as error:
+    alias.write_text("escape")
+assert error.value.errno in write_denials, error.value
 """
     result = confined(
         [sys.executable, "-B", "-c", worker, *map(str, [owned, paper, config, tag])],

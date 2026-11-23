@@ -18,16 +18,17 @@ def test_public_collectors_still_cannot_modify_paper_and_database(tmp_path):
     package.mkdir()
     (package / "__init__.py").write_text("")
     (package / "fundamental_sources.py").write_text("""
-from pathlib import Path
+import errno
 import os
-root=Path(os.environ["TEST_ROOT"])
-(root/"work/data/fundamentals/request").write_text("ok")
-try:
-    (root/"frozen-journal").write_text("bad")
-except PermissionError:
-    pass
-else:
-    raise ValueError("escaped collector boundary")
+from pathlib import Path
+
+import pytest
+
+root = Path(os.environ["TEST_ROOT"])
+(root / "work/data/fundamentals/request").write_text("ok")
+with pytest.raises(OSError) as error:
+    (root / "frozen-journal").write_text("bad")
+assert error.value.errno in {errno.EACCES, errno.EPERM, errno.EROFS}, error.value
 """)
     command = worker_command("structured")
     confined(

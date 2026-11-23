@@ -92,11 +92,13 @@ def terminal(entry):
     )
 
 
-def document_purpose(raw):
+def document_purpose(raw, pdftotext="pdftotext"):
     if not raw.startswith(b"%PDF"):
         return "no verified PDF attachment"
+    if pdftotext is None:
+        raise FileNotFoundError("Inspecting a BSE PDF requires Poppler's pdftotext executable")
     p = subprocess.run(
-        ["pdftotext", "-layout", "-", "-"], input=raw, capture_output=True, timeout=90, check=False
+        [pdftotext, "-layout", "-", "-"], input=raw, capture_output=True, timeout=90, check=False
     )
     if p.returncode:
         return "PDF text unavailable"
@@ -218,6 +220,7 @@ def observed_urls(root):
 
 def summary(data, urls, clocks):
     bse = data / "bse"
+    pdftotext = shutil.which("pdftotext")
     states = {}
     missing = []
     pending = []
@@ -233,7 +236,9 @@ def summary(data, urls, clocks):
         if r["url"] != url:
             raise ValueError("BSE archive response is attributed to a different URL")
         payload = checked_gzip(bse / "source-objects" / (r["sha256"] + ".gz"), r["sha256"])
-        purpose = document_purpose(payload) if r["status"] == 200 else "attachment unavailable"
+        purpose = (
+            document_purpose(payload, pdftotext) if r["status"] == 200 else "attachment unavailable"
+        )
         if r.get("official_clock_cues"):
             decision = bse / "linked-clock-reviews" / (key + ".json")
             if not decision.exists():
@@ -276,7 +281,7 @@ def summary(data, urls, clocks):
     return {
         "per_link": states,
         "clock_review_sha256": proofs,
-        "pdftotext_sha256": digest(Path(shutil.which("pdftotext")).read_bytes()),
+        "pdftotext_sha256": digest(Path(pdftotext).read_bytes()) if pdftotext is not None else None,
     }
 
 

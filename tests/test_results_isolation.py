@@ -12,18 +12,21 @@ def test_results_worker_cannot_overwrite_frozen_or_discovery_files(tmp_path):
     paper.write_bytes(b"original")
     blocked = other / "samples"
     code = """
-from pathlib import Path
+import errno
 import sys
+from pathlib import Path
+
+import pytest
+
 out, journal, discovery = map(Path, sys.argv[1:])
 (out / 'quarter').write_text('ok')
 for path in (journal, discovery):
-    try:
+    with pytest.raises(OSError) as error:
         path.write_text('wrong')
-    except PermissionError:
-        continue
-    raise ValueError(f'escaped: {path}')
+    assert error.value.errno in {errno.EACCES, errno.EPERM, errno.EROFS}, error.value
 """
     confined([sys.executable, "-B", "-c", code, str(root), str(paper), str(blocked)], root)
+    assert (root / "quarter").read_text() == "ok"
     assert paper.read_bytes() == b"original" and not blocked.exists()
     with pytest.raises(ValueError):
         output_root(tmp_path, workstream="../forward")
