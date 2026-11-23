@@ -1,0 +1,41 @@
+{
+  "version": "range-holder-gail-2022-v1",
+  "actions": [
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE129A01019",
+      "successor_isin": "INE129A01019",
+      "new_shares": 1,
+      "old_shares": 1,
+      "suspended": "2022-09-06",
+      "effective": "2022-09-06",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 2,
+        "record_date": "2022-09-07",
+        "allotted": "2022-09-09",
+        "credited": "2022-09-20",
+        "tradable": "2022-09-21",
+        "subjects": [
+          "Bonus 1:2"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/FAOP53495.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML53755.pdf",
+        "credit_evidence_basis": "NSE confirmed credit to a temporary depository ISIN in the 20 September listing notice. Use that confirmation date. The exact account-specific date is unknown.",
+        "fraction_evidence_basis": "The shareholders' AGM resolution authorised sale and distribution of fractional entitlements. No per-share net proceeds were located; flag the convention's first tradable close fallback."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "file": "GAIL-CML53755.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML53755.pdf",
+      "sha256": "b2ba0a168d270cf8f8b282fda23f9eaade27aa26c533ef426664c3cc1b2d6b27"
+    },
+    {
+      "file": "GAIL-FAOP53495.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/FAOP53495.pdf",
+      "sha256": "48f34e75e08c13ec76d4516c0a4954e4757e4fa1c81bdc033bc70f93f160589a"
+    }
+  ]
+}

@@ -1,0 +1,1396 @@
+{
+  "all_reports_archive_from": "2024-01-22",
+  "complete": true,
+  "days": [
+    {
+      "day": "2024-01-17",
+      "files": [],
+      "known_opening_bands": 0,
+      "known_surveillance": 0,
+      "member_observations": 201,
+      "not_published": {
+        "surveillance.csv": "https://nsearchives.nseindia.com/content/cm/REG_IND170124.csv"
+      },
+      "sources_sha256": "678a077e500e61feb1714eee9e693d3a5bfd4a08ef023dbfa1445240bb7f8ef0"
+    },
+    {
+      "day": "2024-01-18",
+      "files": [],
+      "known_opening_bands": 0,
+      "known_surveillance": 0,
+      "member_observations": 201,
+      "not_published": {
+        "surveillance.csv": "https://nsearchives.nseindia.com/content/cm/REG_IND180124.csv"
+      },
+      "sources_sha256": "4ddb42fee563062e232b203f3823da2ab934244bd17d2119938c3e332d40f629"
+    },
+    {
+      "day": "2024-01-19",
+      "files": [],
+      "known_opening_bands": 0,
+      "known_surveillance": 0,
+      "member_observations": 201,
+      "not_published": {
+        "surveillance.csv": "https://nsearchives.nseindia.com/content/cm/REG_IND190124.csv"
+      },
+      "sources_sha256": "7c8a014aa22ee44f9557a406bd42889c6634df5ca2bb9d540811035700b61aa0"
+    },
+    {
+      "day": "2024-01-20",
+      "files": [],
+      "known_opening_bands": 0,
+      "known_surveillance": 0,
+      "member_observations": 201,
+      "not_published": {
+        "surveillance.csv": "https://nsearchives.nseindia.com/content/cm/REG_IND200124.csv"
+      },
+      "sources_sha256": "8b223a3b368075e19c1672d30d1da750916d3f25871ff548f935e3021731e649"
+    },
+    {
+      "day": "2024-01-23",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "55dfd1328f2685cb39e3b2d7a55c3205ca9fb14e588d5510ab0e71974b76a2d5"
+    },
+    {
+      "day": "2024-01-24",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "9d6c713ad537dad4a5b757120f070b3e3c9c853c920141c01399d0d294c586ad"
+    },
+    {
+      "day": "2024-01-25",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "97c231366621e9e54ee898bdac84790362fff1738b8d6ba9a263b1a1e9a1d4b4"
+    },
+    {
+      "day": "2024-01-29",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "462deedf478eacb48a50a91c323f55d28dba68b259ed1035fbfbf5ccba190d1a"
+    },
+    {
+      "day": "2024-01-30",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "173d0fd513957070ee13ea016de0df8e029779b7bf507bd2325732c668433c56"
+    },
+    {
+      "day": "2024-01-31",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "67f249cb99c47124b1962f5076b3e4f61edd44448a42ce18eba6edc082f7c654"
+    },
+    {
+      "day": "2024-02-01",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "5ab316481ff5eaae4196e3f2275b6a00a3f9c4e689709fca01fabf93d99e025a"
+    },
+    {
+      "day": "2024-02-02",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "4c8eee93ab632b2cfa0e89897da705b7aa59f7a50361b38dbc1af4eb38d83bcc"
+    },
+    {
+      "day": "2024-02-05",
+      "files": [
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 0,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "e8e355b113ed5f7df9829be49145ab2e79d7444348840ad4315380bac93e8ccc"
+    },
+    {
+      "day": "2024-02-06",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "84e07601c7c995d5d3d7775ab29537cf787e41b272e884be561ddba98eb02e12"
+    },
+    {
+      "day": "2024-02-07",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "5e9e5754cc69b9f0b949607ec705e91261ff7dfeac68a8d62bfa89532b3db81b"
+    },
+    {
+      "day": "2024-02-08",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "7015327916f3d76d8a8c91270efbf0d67f8bb82b77b966774607ace81ecd54e4"
+    },
+    {
+      "day": "2024-02-09",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "ab968d2037c40786ed96267e39852f6fb33b697100a4b1b4908b35d326078de3"
+    },
+    {
+      "day": "2024-02-12",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "96d5a58765d860235561cfd2f1e719cd223f161c9c1978725a4c66ac44f96728"
+    },
+    {
+      "day": "2024-02-13",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "e13f2ed38189b1d09d8f19f3d31860115c487cd56eaa1a88a80b98083e8eca6d"
+    },
+    {
+      "day": "2024-02-14",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "3e509692b0d297d28e5de4dff1fe8c7dbd7cd65e08d21bcf0d14fde15d729761"
+    },
+    {
+      "day": "2024-02-15",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "9c95089adc829d0dfe7848bf60af97bce7304fb3f70a67b2f78098f1e6043efa"
+    },
+    {
+      "day": "2024-02-16",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "cc5d6efb677044083312fe7c279a66dce44aa552e7e33ddfd86ae87415485181"
+    },
+    {
+      "day": "2024-02-19",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "22cf943874a5c022cc82c7e8e424d05aa2ea4dfffa1a940c701a1fde2ce16091"
+    },
+    {
+      "day": "2024-02-20",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "a6d39eb0afadb9eb0952afae62320d9f5aa1018e2234e2de6ed1df1d4d00c523"
+    },
+    {
+      "day": "2024-02-21",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "1ac69e5d51594dc0be1926f75d1801c3c4193afa1573985f07c3e480dbf7aac9"
+    },
+    {
+      "day": "2024-02-22",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "a5ded28ac3e3d6f1e4b6347cdf2dd3e035575e87ec4c05540acfd35716f733e7"
+    },
+    {
+      "day": "2024-02-23",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "0bd706eef3f07178b89b192290404e53c24bd59f11e2650eada2610b41dedec4"
+    },
+    {
+      "day": "2024-02-26",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "462a6409a81e4ad6abc7905fb23d9bfd5688f1fa5c95bedf8ea90e51cf801971"
+    },
+    {
+      "day": "2024-02-27",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "09cb4dc597b6b45fb7c4edd4ceb401fac8102c9dd4d35f65be44ff219fd06595"
+    },
+    {
+      "day": "2024-02-28",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "2dec26d4d7b8f674c5faec853408869b49bbfea70d531230fa1c3fc0e8f271fa"
+    },
+    {
+      "day": "2024-02-29",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "74bd2f24b90ed77f9cc96ab43953c73ccd37a688ba0d8a54ccb822e7f2f32122"
+    },
+    {
+      "day": "2024-03-01",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "7655879fdf8cefdc4a3eeeb9a4b139b9e9ac7e01b6f1a7310893a3b2fbdb5f33"
+    },
+    {
+      "day": "2024-03-02",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "d6347c9130bbd256b71cbf516ba143c2dc489be9bef44740bed970b4ebc8a8cd"
+    },
+    {
+      "day": "2024-03-04",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "d26783db8ac82d21118d81d4aa220e04a49754fe4bcedc3835883ee53051fe19"
+    },
+    {
+      "day": "2024-03-05",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "596a92ba439eae12c36102aea25e80b3276d0f421f2233ebceff3e8abfe5af5c"
+    },
+    {
+      "day": "2024-03-06",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "0907d0913473ecfb153f8a0b994d61a3c63a6845e358ded8db1eae2b3e4a18a0"
+    },
+    {
+      "day": "2024-03-07",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "fbce2d755f87156646eec7b1010f838072f30de82e36215421ca90f74efab7e0"
+    },
+    {
+      "day": "2024-03-11",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "8f4cde79f30201447970f8182298b05aa9c26dc261df9f233e443aadf99af52e"
+    },
+    {
+      "day": "2024-03-12",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "3690fb4611787ed60f2bce4525d83e10307c43e3b094e3f70786121feee42c2b"
+    },
+    {
+      "day": "2024-03-13",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "6f6e3fb10077f1895b3e48865817c54b3639adb7810e18ea2d879e7507aec231"
+    },
+    {
+      "day": "2024-03-14",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "cca3d57b79b300c6e2edd78d7e2ec3201307379addf2470c833cb71cc1acbcdf"
+    },
+    {
+      "day": "2024-03-15",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 200,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "59668d02d04da146a916b5d9a30079b1437e80fbd298bc027b98b820c2fcd5a0"
+    },
+    {
+      "day": "2024-03-18",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "d48d767688b1237db70ef208502d74a5e932ae59e830ee8195503d21b3d230a1"
+    },
+    {
+      "day": "2024-03-19",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "a6bdf258b9feee4664099e2d65eccb83e0dafebca60d879593509fad1f3e0de2"
+    },
+    {
+      "day": "2024-03-20",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "84b27b829a9b9696cf22760e592d92a8cf6fdfba41d36cebb8fdfc3fd5f53113"
+    },
+    {
+      "day": "2024-03-21",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "e64aa448f6ab9019d4bb4315312fc8adf1a6cbe95f30e00e0d3236c5227218bf"
+    },
+    {
+      "day": "2024-03-22",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "2a4ed8c4833389e0809928393bf919c4ec65c12a644c498bb42376e79bda4681"
+    },
+    {
+      "day": "2024-03-26",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "76045e27f5e86e2d7e540f666f646009fedfb2fe350d1976ef8dddd1a64b7579"
+    },
+    {
+      "day": "2024-03-27",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "9db39ba5044cce118eaa7e0cb1f500c6cc80ce628a7ae8078505275ef507181d"
+    },
+    {
+      "day": "2024-03-28",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "631528beef1687482af3214c7f63d254fc82f9a5925fca301aa8fc33f17d83ab"
+    },
+    {
+      "day": "2024-04-01",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "4c772fe2e9f4eb6104911293e6c82958de66173d1e52ffc3709231b113977431"
+    },
+    {
+      "day": "2024-04-02",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "9aab3cccb2a32947f9a0e0e5c1bd2431bf5e4b3633b7b72bbedb8bca135cc6eb"
+    },
+    {
+      "day": "2024-04-03",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "6095f020a189debaf1fa4a19a9b7538487e0acd82fdcccd52f163ae11f7e94bc"
+    },
+    {
+      "day": "2024-04-04",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "54a19b763658a557b168e8333b4e9f1354c251960183bf39519bb53c8ed33cee"
+    },
+    {
+      "day": "2024-04-05",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "e111e1ae40151f6ace4ef0c38f0b869520a86061d43cdf6022251cb2ee65060b"
+    },
+    {
+      "day": "2024-04-08",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "7bd29929e1dd30ef73736fde6c2ce5c60287e45d3a8a674650cc3febf982588b"
+    },
+    {
+      "day": "2024-04-09",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "59a1a49da185f32f1e03d504e7431b0d308b697285ba25670c02a1756b96edc1"
+    },
+    {
+      "day": "2024-04-10",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "498d45cc0b86383d8b25b13b507512d0c6123d80b49476c033009185cf59097a"
+    },
+    {
+      "day": "2024-04-12",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "1fd2455b97d186359603ceeb3e8da233567c976850a79550a0b6a7ee01238b66"
+    },
+    {
+      "day": "2024-04-15",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "df803efd947656289884a84155b1cc058b43d15bac18baad40e00db7cbcc187a"
+    },
+    {
+      "day": "2024-04-16",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "f8c9ddd6c4dc2a70a904954187cf58e72d20922e3596ee3dcf52a2b4f7cafba4"
+    },
+    {
+      "day": "2024-04-18",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "c31824706c7ba6f750009a7c2082309529692dd6549013778cc99dc37d448118"
+    },
+    {
+      "day": "2024-04-19",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 200,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "8576ef041acb0d3e414f5d3de820718e84c110ab3f35b6c2148992c86625bc2f"
+    },
+    {
+      "day": "2024-04-22",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 200,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "b1c34f6802fbdd3c8fea707e937cc2f48ec9f417a6442fdb1432c32e55a072d2"
+    },
+    {
+      "day": "2024-04-23",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "3d011b4c117c8a01f8da04f0681523ceba23f714b32d36f0720778501b7eac4a"
+    },
+    {
+      "day": "2024-04-24",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 200,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "a58b2ccce38d6676939c23c24c7c557c7f73f42270683174b7618c4571c86dcf"
+    },
+    {
+      "day": "2024-04-25",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "4b848eb7f8f4ba56fba7005c926e3afac144c6ac61602f06d8f934861f819fc1"
+    },
+    {
+      "day": "2024-04-26",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "ea7b2430d6c42c53c59024bee6acebf6073ccd0b132e957aebb5650c7ee34ceb"
+    },
+    {
+      "day": "2024-04-29",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "20993bb8439ad8cfe7fc87dac679b47c3d0c9d3049faf4705e35d653d4ec6d0e"
+    },
+    {
+      "day": "2024-04-30",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "8c44ef274e10edaea6ea589260239312d5c26cf365af703582d883fa809a3da3"
+    },
+    {
+      "day": "2024-05-02",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "32a514a14c35db8b892713a13bd741825528cff0895b352e8e19aca8db639387"
+    },
+    {
+      "day": "2024-05-03",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "cd2c8a96089d9804485e030f33194f74e463e3c81a70063f19f811de4bcb801b"
+    },
+    {
+      "day": "2024-05-06",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "595e06e2401dca2cef0cfc4cfe6dff3f629999aee99b80f1685d0029a8ce9e0f"
+    },
+    {
+      "day": "2024-05-07",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "424e8d528b2afc04b27e82f0a38ad574afbb3c60cd5c5b2f18c14f27cb10f8be"
+    },
+    {
+      "day": "2024-05-08",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "34f0a530b2d691f6b71df653723a0bd9a2e0f0e858fa7f64f5e19f86b24e1c8b"
+    },
+    {
+      "day": "2024-05-09",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "12929fd25bf5ce2871f9b111820fc939c1a354104782b44096f26e0eae591d89"
+    },
+    {
+      "day": "2024-05-10",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "5f7d869b4b88e98e8ec1660a18e7d7759817562f0f346d18d4615a740d6862a5"
+    },
+    {
+      "day": "2024-05-13",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "c14e95c035e853863cafd4ed2cf717b55d4fe375198cf22a4b0c7956b4e7d531"
+    },
+    {
+      "day": "2024-05-14",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "ab336a1bb44048f9ca725660d31182f8c01cdbe33507fd6f5b2463f014e67ca5"
+    },
+    {
+      "day": "2024-05-15",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "522955d31bda0e2c93883ede0c7b9e5c0aaa08df8e03b15490d8cb20362fd85d"
+    },
+    {
+      "day": "2024-05-16",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "9cb9e0664466c60e5f7722677303d586a63955e6372168c6f5a3c89b211e0b74"
+    },
+    {
+      "day": "2024-05-17",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "56a61b96088b309aabf338ce793b6428d9d5a977fa70f75b5a81915d4f7fdccb"
+    },
+    {
+      "day": "2024-05-18",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "183ebe2af6766567c7e0a344a7d89e78f4a06f1dbd673469b3e49f64478481ec"
+    },
+    {
+      "day": "2024-05-21",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "8e0aa205fd79dd48a1c71ea68c57b00cf7871d6b8f777f3d11ac3cd9a1bf3463"
+    },
+    {
+      "day": "2024-05-22",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "633acc59b8be9c2c701da30b8033fb29109a45104105cbc6c12f8e622b52b9b1"
+    },
+    {
+      "day": "2024-05-23",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "77514eb1ee8de45d1a7fc1fdf37f9ab3be2c2522c0037b654fbdc382ea7009e3"
+    },
+    {
+      "day": "2024-05-24",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 200,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "4959f461d86da17a65319e2474a74bc52eb6fcf4b460eb4b7d7e59749118a22a"
+    },
+    {
+      "day": "2024-05-27",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "2d55301bfb6e2209f4021f3b0768087f22db79943a53b62781ecdf7800e75295"
+    },
+    {
+      "day": "2024-05-28",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "33d31b4da49ba752f560d9aa6bf520e67eeaf77d49cf3b2629c4bd51c67be794"
+    },
+    {
+      "day": "2024-05-29",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "2e2fa4c1e64d47627df4d14d51436be21dbf521c2d20dba98668674691d84af4"
+    },
+    {
+      "day": "2024-05-30",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "c1c8b65b550fde0375af445c3945227c12eb5c92070e24d3c09a4e566b7a9589"
+    },
+    {
+      "day": "2024-05-31",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "66a9a00689019536f92ca2b1ad90040819e922de6efeb5517ab7d81c6e7b6db1"
+    },
+    {
+      "day": "2024-06-03",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "016ba635209dd7dfb06aa21ce4ca2cc6a6adb32abc4bf51c35e6aecf17f137a5"
+    },
+    {
+      "day": "2024-06-04",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "79882ba5eedaf6df4d2562ea7958af7b921419441e19db1522fca7cc7545d78f"
+    },
+    {
+      "day": "2024-06-05",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "8860b4bea7f6682ea2c6008bd156628af98cdfd501aff1c90d163f33b8ff9dfa"
+    },
+    {
+      "day": "2024-06-06",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 200,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "3899cfec75ad9d0c0a59e31409dacfcf646fae6741afcc241a4bb4d93830ab49"
+    },
+    {
+      "day": "2024-06-07",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 200,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "5dbc462e5a3564af13f51e96468d951d05d6ab4c23a458e1968f8415289d10a2"
+    },
+    {
+      "day": "2024-06-10",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "bb1ea09a7e1dfa984e6e42814553fd56d02ea4edbc3e932e1681269cca93c1e9"
+    },
+    {
+      "day": "2024-06-11",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "57540d27618ab589bc710b215d23ea92630534c9be3cde15bee01d26e8741c5f"
+    },
+    {
+      "day": "2024-06-12",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "d4be783734b013f1610e5b1ccd42f4acf25f7c9b4df27e33563ca3c6a39f5ea3"
+    },
+    {
+      "day": "2024-06-13",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "68d9f6cfdd9721190535ff14e4969add732a5d8fd1a78d465c34c91df6d5b8df"
+    },
+    {
+      "day": "2024-06-14",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "42a3a4b83a7f41197130562a391132a782b1286d36a1dee7a8247530cb1b6c56"
+    },
+    {
+      "day": "2024-06-18",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "b8e8bf5e4b27e1dc366858ccaef1ea79ac42ba75c7969c2caa9423ff1d195e88"
+    },
+    {
+      "day": "2024-06-19",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "44e00605d82d91fed50ab0c19c895c352bc95046c7a89b0869de3db7e452add5"
+    },
+    {
+      "day": "2024-06-20",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "91c9484560fa34a349471b466edbbbfe5b61f957f3053170f962b5520ee82e2f"
+    },
+    {
+      "day": "2024-06-21",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "c30405902fb64f71fc00a67697441a9c50ad7f17232a325845cdc0923c1ec7c7"
+    },
+    {
+      "day": "2024-06-24",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "114b4fb99d00ede1ff5a41ad238724f86ae893b15e5de5dc62f4834f2fd4382a"
+    },
+    {
+      "day": "2024-06-25",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "9eefef6a1322c85356d3ddae4186d9efccc3826b584bd044b7d6841f357cdfab"
+    },
+    {
+      "day": "2024-06-26",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "1e9660e17b6a079507fa8cdb5bfd7d28a5e485c5e2d5ee696408d7bc4d6f59ef"
+    },
+    {
+      "day": "2024-06-27",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "920b4b487db5d16f760c7de1219a81a442e0dd7c3f4cc093afa18682446fa55d"
+    },
+    {
+      "day": "2024-06-28",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "eef81a85f3b5c60b49048f8287d26248acd54182fe1fb22e593fcf49d5110da1"
+    },
+    {
+      "day": "2024-07-01",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "4dc59df593835ff105965ca3903100a1d5c780477e5fb35930ef5180c0ed0bdd"
+    },
+    {
+      "day": "2024-07-02",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "68aa057076c5759e2be11b30ed9b766979907478b8f07d055697d292ef1a714a"
+    },
+    {
+      "day": "2024-07-03",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "61cf182ee019bd9c7d39c78446250fd19d6c2e39d858e03a39ba1cddc336a300"
+    },
+    {
+      "day": "2024-07-04",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "cdbdae6e7ae61b80aa12e31aa046f76131694d1345fbec504434b6006d29d715"
+    },
+    {
+      "day": "2024-07-05",
+      "files": [
+        "security.csv.gz",
+        "surveillance.csv"
+      ],
+      "known_opening_bands": 201,
+      "known_surveillance": 201,
+      "member_observations": 201,
+      "not_published": {},
+      "sources_sha256": "1fed5178c2c6ed029735c5e28f6e31d96cfa7dd71a5e35ce9ec20d819f13e063"
+    }
+  ],
+  "from": "2024-01-17",
+  "known_opening_bands": 20702,
+  "known_surveillance": 22506,
+  "publication_basis": "EOD flags on signal session D govern next session; opening price range from the prior exchange session master.",
+  "sessions": 116,
+  "sessions_with_files": 112,
+  "source_notices": [
+    "https://nsearchives.nseindia.com/content/circulars/SURV60281.zip",
+    "https://nsearchives.nseindia.com/content/circulars/MSD60315.pdf"
+  ],
+  "to": "2024-07-05"
+}

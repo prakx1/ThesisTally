@@ -1,0 +1,3969 @@
+{
+  "checked": 84,
+  "months": [
+    {
+      "half_month_omissions": [],
+      "month": "2017-02",
+      "monthly_omissions": [],
+      "monthly_sha256": "d341a8088bfc57b3f5c5af33dcdf05507242e2310b32095ccfcb18c6dbd7a618",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-02-01_2017-02-15.json",
+          "sha256": "e1ca61abe38fe790e85ae9c76b54366f736c332cfaab2e9d5d2137b1443d8d94",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2017&toDate=15-02-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-02-16_2017-02-28.json",
+          "sha256": "3452542ec48ce305a9de61fa95984fc113619527795458f65c48a1e81ce29cfa",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-02-2017&toDate=28-02-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-02-01_2017-02-07.json",
+          "sha256": "185d7c97f1bda98aadbaf0a3a02130874b8c39695d2bdb4928c688eb49fd7b91",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2017&toDate=07-02-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-02-08_2017-02-14.json",
+          "sha256": "51cab995d06e87b9983b5a086685886acaa2b8ea11dff2bcc7e507d990bd06fa",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-02-2017&toDate=14-02-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-02-15_2017-02-21.json",
+          "sha256": "f82f015d272273c1bf3990c394ebb543342da54b799e73767ee9fd3da8710847",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-02-2017&toDate=21-02-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-02-22_2017-02-28.json",
+          "sha256": "c828deeb1f4ccda8679db5ce2e98e6de163afc8f1ba09ed899e4475b382c1652",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-02-2017&toDate=28-02-2017"
+        }
+      ],
+      "unique_surveillance_notices": 4,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "c6d7e3c260dcc74338a35bf089c04f2937c50ebdab2164f37b0f02e313e4b7b8",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-03",
+      "monthly_omissions": [],
+      "monthly_sha256": "b2b45ff57a3df548dd56b3a256627c77908c0b4488bd078f474b749fbe23958c",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-03-01_2017-03-15.json",
+          "sha256": "8ae0a42d06587945ca952b1dd00a24d37a5db8eed5955b144f541c88ac78249d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2017&toDate=15-03-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-03-16_2017-03-31.json",
+          "sha256": "6eb83b194533e88356da36f1bcc6ed406230c69cf0680cc981aad138c02c7a5b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-03-2017&toDate=31-03-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-03-01_2017-03-07.json",
+          "sha256": "4f5ef33babe9dfa14b0157dc5b3c32d8da82f3d860ab877e11c79459b00e1b7b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2017&toDate=07-03-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-03-08_2017-03-14.json",
+          "sha256": "688a9d4e5018699b5bc52c9990891cb7c2aa29fa8436542501e6452328eccd0d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-03-2017&toDate=14-03-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-03-15_2017-03-21.json",
+          "sha256": "7c6083c10252512c80d88466c90767b3eae63d77736879aec41d4e7d4648de31",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-03-2017&toDate=21-03-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-03-22_2017-03-28.json",
+          "sha256": "c618db093fe81ab82f5ea57cd8bd16cbe43046b7818050cdc88fa4204f5cd909",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-03-2017&toDate=28-03-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-03-29_2017-03-31.json",
+          "sha256": "fbea91eb9fe37e949dd7bfbc6662d11b3925bfa049a828355bc0224810292ed2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-03-2017&toDate=31-03-2017"
+        }
+      ],
+      "unique_surveillance_notices": 15,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "dcdfc09ae9ac44a1db998bb9e9eddd4691f6cd3c75f8dfa9a2841753d72d9e59",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-04",
+      "monthly_omissions": [],
+      "monthly_sha256": "e65e558450392474793cc376fc8b4023959b1321a1207629cae1f27a60159ccc",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-04-01_2017-04-15.json",
+          "sha256": "6258a7455787912617d409ded0382f797adbc3e9fcd962fa8243d96e02b517d3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2017&toDate=15-04-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-04-16_2017-04-30.json",
+          "sha256": "104978ab61659383e6b8922fd4117a5a3eeab8586ab90b5bd4f5a55ea6dc84bd",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-04-2017&toDate=30-04-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-04-01_2017-04-07.json",
+          "sha256": "3a3ebbc6d31ebec1d9448065d615185b637b8fe20ba57b0bbd65906750a51cf8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2017&toDate=07-04-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-04-08_2017-04-14.json",
+          "sha256": "02816f8d4e71c4790ee4867b6639a2a79f51310ec9d1da00a6e583bf0c680549",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-04-2017&toDate=14-04-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-04-15_2017-04-21.json",
+          "sha256": "4312a76a8dfa0326815490ea26c83c2194b411c3c0ba69f5c1b5cc7aef3be948",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-04-2017&toDate=21-04-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-04-22_2017-04-28.json",
+          "sha256": "6d783226a2d3560270be45d347f3a0a98304f4d1d67bb69a370f0ded78b75ca5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-04-2017&toDate=28-04-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-04-29_2017-04-30.json",
+          "sha256": "bb1ac42fc8c20d678035f2ba9b4abc36a55b115d486efb823e1980e55224f1b0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-04-2017&toDate=30-04-2017"
+        }
+      ],
+      "unique_surveillance_notices": 19,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "b041ea073f4c7bcdaac16435961bc463c5bddff8551814871d4d69d9d0ba0b08",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-05",
+      "monthly_omissions": [],
+      "monthly_sha256": "1f338aec829a496f5f174132ae9aa8dd20812852b37e0cacb43469d00790223a",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-05-01_2017-05-15.json",
+          "sha256": "4718c3d86241db6e9c3e98fad82d398a2a98c464d55653275d41859c122b9d1c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2017&toDate=15-05-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-05-16_2017-05-31.json",
+          "sha256": "00209ccc7712a1d0bec246a71ee5c997d3995d472613cda2ed6b1bdc7d0956c0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-05-2017&toDate=31-05-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-05-01_2017-05-07.json",
+          "sha256": "74b74cfc058d97cc408e99f0a25c5d534c1e17e14a33a632d6cc118f7705efa8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2017&toDate=07-05-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-05-08_2017-05-14.json",
+          "sha256": "4e14e0b2258b526053c58bcb1407fdb508220b4d9ccfad78724d85608417d73c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-05-2017&toDate=14-05-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-05-15_2017-05-21.json",
+          "sha256": "1f99062171eb2e6ea25fc748c640914611f193ad155b46127bdbb440e57e4a4a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-05-2017&toDate=21-05-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-05-22_2017-05-28.json",
+          "sha256": "786bb37ec7b846e47537073bf05b56930c19848cd4adea0dc1650d83f95979ee",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-05-2017&toDate=28-05-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-05-29_2017-05-31.json",
+          "sha256": "364ccd88fe6ec4313d16d03ad72f272ea40670e4eab1b3b58e00a78245b06436",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-05-2017&toDate=31-05-2017"
+        }
+      ],
+      "unique_surveillance_notices": 20,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "e996d9610d7d114011948cb67747dcb6c555083076d82b39db1f8d3ca4ddac4f",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-06",
+      "monthly_omissions": [],
+      "monthly_sha256": "c69fd8bba1438fca0f8fe36258c131d224d83716194cb26c14057b4b2e7a53a2",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-06-01_2017-06-15.json",
+          "sha256": "d0c545d0b559f6144452422afd981e393805baa53c865a5528f15efbebff81fc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2017&toDate=15-06-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-06-16_2017-06-30.json",
+          "sha256": "4a6709f0d5eb38a0308c7f3d8f0854260c448f70d98b033cca552349ee76e3d7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-06-2017&toDate=30-06-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-06-01_2017-06-07.json",
+          "sha256": "d5c8a4de1104f2ba6f2b3d0c636bbe0a1492dff882dafb85ce5c5e1f520b24ed",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2017&toDate=07-06-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-06-08_2017-06-14.json",
+          "sha256": "a2c90933df3cd690d43d04951a0e567c8656f67037e25e244412d765958d39c2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-06-2017&toDate=14-06-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-06-15_2017-06-21.json",
+          "sha256": "8e970d7a4205f336d06d4292809232eea06caaa86beb029e3b0b1818a0ae38a1",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-06-2017&toDate=21-06-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-06-22_2017-06-28.json",
+          "sha256": "e3335308a32be9efeca10b870a8a622b57ba48d38440b8d37d444d01df1dc0ce",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-06-2017&toDate=28-06-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-06-29_2017-06-30.json",
+          "sha256": "46fc46c37f050d12859be4cb6aa715cb379f66b81006765e7af3d7ca79a21496",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-06-2017&toDate=30-06-2017"
+        }
+      ],
+      "unique_surveillance_notices": 29,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "47f927965faaf765b456ec7f3b32fa03daeecb29dc79a310bd8f3d91cad39f01",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-07",
+      "monthly_omissions": [],
+      "monthly_sha256": "8a9fb1c706f32cacc6070b125e9a9fd7e68ae24193110dad83d3aa5c31ae4dfd",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-07-01_2017-07-15.json",
+          "sha256": "bd2a812725007cbcf6122580c4d0d9ccfa07246b90188b503f8db5887af24711",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2017&toDate=15-07-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-07-16_2017-07-31.json",
+          "sha256": "23f8700a5eb74b62731e5bb4ea63029a56475807a13ae22d7e477386425c8523",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-07-2017&toDate=31-07-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-07-01_2017-07-07.json",
+          "sha256": "a375fd32727d98e4878b25f3a36c352d38427d460a72ae88606792f2a7abf3b5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2017&toDate=07-07-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-07-08_2017-07-14.json",
+          "sha256": "2d3adcf2c1bff471b5458b30cf86e4169a84c4bbac650698ba8b6a555677123c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-07-2017&toDate=14-07-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-07-15_2017-07-21.json",
+          "sha256": "bab8703827d6fe3f7cd4e3c8d656855b530e958fab0a01b20e8841edd584891d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-07-2017&toDate=21-07-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-07-22_2017-07-28.json",
+          "sha256": "4720c489000d0ab35cf89f9ae5a87f37115a0d3095c78e65591d83ffe5a21685",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-07-2017&toDate=28-07-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-07-29_2017-07-31.json",
+          "sha256": "109ccc27eac781c1095c3f1a1baf8cdb7ec8ef643b750b1ffea6f7d807dd5fd5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-07-2017&toDate=31-07-2017"
+        }
+      ],
+      "unique_surveillance_notices": 25,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "f42399926061b170c3002575b6fbd8fb927a0321b4d60f6a4f57da96d785aab6",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-08",
+      "monthly_omissions": [],
+      "monthly_sha256": "7adf30b5c07df627b9580952d8243e2f85463a67cbf25b55a9f06a9209a7da06",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-08-01_2017-08-15.json",
+          "sha256": "6f59afa1571fc8790b60dec720ac12fcc4115bcce670f41ba6382387e5489dcb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2017&toDate=15-08-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-08-16_2017-08-31.json",
+          "sha256": "cc59eabcdef067485ee97a98584a1dcecc0c9fe652db5004d77502971c4d9f68",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-08-2017&toDate=31-08-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-08-01_2017-08-07.json",
+          "sha256": "4c1dd14aa77a98794c9da2d4aadccc37969bcc5719d267b6203d82eac7c3d7b9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2017&toDate=07-08-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-08-08_2017-08-14.json",
+          "sha256": "63807f0cb976d6b80c16a3155babff2f777b343416125a1681cb69330fdd8bcb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-08-2017&toDate=14-08-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-08-15_2017-08-21.json",
+          "sha256": "8b9db4c3d5a2654a2598e7ea26cc22d3a15400a0ae9d9e90a46a819937f369ff",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-08-2017&toDate=21-08-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-08-22_2017-08-28.json",
+          "sha256": "7072742fd372899fee48faceab12e9a375915c1dee9a75f4a71fda7f23d1518c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-08-2017&toDate=28-08-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-08-29_2017-08-31.json",
+          "sha256": "341e7c5d09a51b8711340326fbb3882057ded85d4177320418dd1a528c9c3a38",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-08-2017&toDate=31-08-2017"
+        }
+      ],
+      "unique_surveillance_notices": 17,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "db53eeba56b1c9a2f0e80c27b16ac2fb2113ca3a71c270b0d55e9d365f637e0d",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-09",
+      "monthly_omissions": [],
+      "monthly_sha256": "aa1ce233a8e6f527bf29d54d43af0a1df1d9268875c6479f3a240e25eee96964",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-09-01_2017-09-15.json",
+          "sha256": "c8ba7fa50b79c49e06396bb1812e67c6dbea5a0495654b3b2cdc7dbc6296d0e4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2017&toDate=15-09-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-09-16_2017-09-30.json",
+          "sha256": "341e891522627fe6922225e70d64ecd516e06e2c62605a85a2150996a1b86897",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-09-2017&toDate=30-09-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-09-01_2017-09-07.json",
+          "sha256": "5ebaead9f7f0265674a58423c75dc402b072e1547ffa53af873298a982a8a29c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2017&toDate=07-09-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-09-08_2017-09-14.json",
+          "sha256": "21b60a88cd4b74bb2c9407858b44bdbe1ed03cccbde7bd4353a5943113afc614",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-09-2017&toDate=14-09-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-09-15_2017-09-21.json",
+          "sha256": "ebc9b894655b3337f3a8725bb95a76e899bec38de9279564d2958f87cda0edab",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-09-2017&toDate=21-09-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-09-22_2017-09-28.json",
+          "sha256": "df65ddb6cf31f8f349c456daa554fbe7de578e1d86a89125f24f5bdeea864511",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-09-2017&toDate=28-09-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-09-29_2017-09-30.json",
+          "sha256": "b9b2f56f1054c34d088060035b7628076e73cc7360b6f02ccdf91b457e302d52",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-09-2017&toDate=30-09-2017"
+        }
+      ],
+      "unique_surveillance_notices": 16,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "4d971165a00b97647b10e595b0e447562da5f5dcf4e87a0ee438044f9571ba37",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-10",
+      "monthly_omissions": [],
+      "monthly_sha256": "7152952789160e236e04ad3243eed14b12484c6e52c0b513db4748ecad552a8e",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-10-01_2017-10-15.json",
+          "sha256": "7b294b9387ce101e850ed4e0a7b87698e5a5567d2d8cdeac71667cb95d52ddef",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2017&toDate=15-10-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-10-16_2017-10-31.json",
+          "sha256": "350e0122565162bc89f52315d03a335700a95bbde6815203b86516683353a2f8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-10-2017&toDate=31-10-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-10-01_2017-10-07.json",
+          "sha256": "8c2fe5cfaac06a6ee48d184b07894879e9911dd59d8fca4313886161bc796c8d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2017&toDate=07-10-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-10-08_2017-10-14.json",
+          "sha256": "a1ebb365ea2b7423dc5fab3ecc2a55a1ddc18c8aabc60bdbd9461412486dd0fe",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-10-2017&toDate=14-10-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-10-15_2017-10-21.json",
+          "sha256": "7cbd11d0cde806a6dd6cfdd2f05b39b964da2c2a96a0fc71b38cb2d2f3d584f9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-10-2017&toDate=21-10-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-10-22_2017-10-28.json",
+          "sha256": "16ba0bf622ccef202569ddee22b3ebe7a0fe7b4fb65b6ac5ac8064248e7e7b5b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-10-2017&toDate=28-10-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-10-29_2017-10-31.json",
+          "sha256": "9ebd436f93aed83c24497d73923e741528138d3f2463be63af55495b79519e00",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-10-2017&toDate=31-10-2017"
+        }
+      ],
+      "unique_surveillance_notices": 21,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "d251c87659b8c2991041e3c188965b49cb9d1aad8bb2067786bf3118f1f12cc1",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-11",
+      "monthly_omissions": [],
+      "monthly_sha256": "17347f8a4f9346b7e043f9d8d3ee5a24dac02b91e014bb7a14ada7589a6e5106",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-11-01_2017-11-15.json",
+          "sha256": "d43b9abe568196bbf6e44d79d6a7e65203f536024efc702145e501270a081dcf",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2017&toDate=15-11-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-11-16_2017-11-30.json",
+          "sha256": "cc788dd53f695e852bb86f7a904153075069dd61e84f21320653368e031e750e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-11-2017&toDate=30-11-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-11-01_2017-11-07.json",
+          "sha256": "a57a2624a5d0887b4dba633871cd41f40096c4cf66db02aa840e0e311ef0b8ad",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2017&toDate=07-11-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-11-08_2017-11-14.json",
+          "sha256": "1b6fa813c8fb55b609ac9b49ec4d89617e745d325a67a014638e8b980ea3e154",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-11-2017&toDate=14-11-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-11-15_2017-11-21.json",
+          "sha256": "0c6d04f8ee648e609f95db4c203696a0fc1e3ca2d5432b96497a6dceb9104d3c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-11-2017&toDate=21-11-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-11-22_2017-11-28.json",
+          "sha256": "feab5185ed564ebd31185e8ebc4a5184b2be5b000f30b71fa4c7fb16d5fcc36e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-11-2017&toDate=28-11-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-11-29_2017-11-30.json",
+          "sha256": "9a8364c2018ba8e85ecefa60a8f34f51b8b044d6d2285e5453bd722cc2184d47",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-11-2017&toDate=30-11-2017"
+        }
+      ],
+      "unique_surveillance_notices": 19,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "7b32a1b0dece9c8173931609fcd39e55a342c40dff5bdcbb83ee21c12ac2705b",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2017-12",
+      "monthly_omissions": [],
+      "monthly_sha256": "87633912fb39d5184bd8bffd4e67db299175e8cb226643c13a918b67d8251cae",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2017-12-01_2017-12-15.json",
+          "sha256": "869653c64cc2715c5b5352f860c2c848985ec329d11450812cd4c3e260e3f886",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2017&toDate=15-12-2017"
+        },
+        {
+          "file": "catalogue-halves/2017-12-16_2017-12-31.json",
+          "sha256": "162425c58cc3ad8468e0d3a5ae18e33e9a94a5fca521c11c58ff7a551854a5f1",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-12-2017&toDate=31-12-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-12-01_2017-12-07.json",
+          "sha256": "f3e5c2c6ca2b30b51517717022a65229877ffe2f6aab761c7c97e58fa918b861",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2017&toDate=07-12-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-12-08_2017-12-14.json",
+          "sha256": "4fb48ed7cc1a1f2db9a4ef554cdd576bda71662873c31c8d2c5813cf79f5c4f0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-12-2017&toDate=14-12-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-12-15_2017-12-21.json",
+          "sha256": "f26d34db6132b68373285eac8832d01a6d91815c546f8cb2a8737ab05a01dc08",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-12-2017&toDate=21-12-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-12-22_2017-12-28.json",
+          "sha256": "9bbbfb1aa4a5f29c2eb49a21512fde2c727bfd758c037b9573d91854f6b3f50b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-12-2017&toDate=28-12-2017"
+        },
+        {
+          "file": "catalogue-weeks/2017-12-29_2017-12-31.json",
+          "sha256": "166d966ccc734f56379e54d383b5e4c90ed5a9899f6e06be7b162bcf1343e25f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-12-2017&toDate=31-12-2017"
+        }
+      ],
+      "unique_surveillance_notices": 20,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "f57f2f0f54e602fdaa19476836ee98bf100fd19672e2056deae6c9eb96e6582e",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-01",
+      "monthly_omissions": [],
+      "monthly_sha256": "3da3769b7ddbb374e81b5ec5876b1591bd3e82632e3593a107e04be00a95c0b6",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-01-01_2018-01-15.json",
+          "sha256": "9e7b3d6941030555f49778f9d4d60c21ffcc655c9412916333f1539be1f638ae",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2018&toDate=15-01-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-01-16_2018-01-31.json",
+          "sha256": "377582942fec0324b0f64ec39d20794289d46731b67592fa48c96fb3bb63fd26",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-01-2018&toDate=31-01-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-01-01_2018-01-07.json",
+          "sha256": "d7e9cc0a5df0e9386db912604da5b8fe1a44852ceac3927da7b3b3c7aae14656",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2018&toDate=07-01-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-01-08_2018-01-14.json",
+          "sha256": "fd71188c2c6a4010709f44aa4a1e6ed965ecb346a244ce36f581f3f168023c70",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-01-2018&toDate=14-01-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-01-15_2018-01-21.json",
+          "sha256": "acb112eb817b5e1c212e560c0116838b44eb2e3f7f75c29bb5ab2a1f0b6306a3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-01-2018&toDate=21-01-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-01-22_2018-01-28.json",
+          "sha256": "49727ddc301206232958832205b451dd1414fac21aeba7d50ea2bd8b496741f7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-01-2018&toDate=28-01-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-01-29_2018-01-31.json",
+          "sha256": "e2c527b5db5f8ea8454c5b7c1b25e6fedbd9d0b9d48827db5ea79c29cc7001ed",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-01-2018&toDate=31-01-2018"
+        }
+      ],
+      "unique_surveillance_notices": 34,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "975a88875a7867cbb52aaacd06bc932f8007431ce26dae93eb1819ec668d8e30",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-02",
+      "monthly_omissions": [],
+      "monthly_sha256": "6b0814f723a712197668f98e705c7a7bc4286e3ac043322d1bf0284e5f921c2d",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-02-01_2018-02-15.json",
+          "sha256": "ccc62d4cbed4676418b2c0ef5f03bcb13434eea6aff7bdc66b6100b71351a868",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2018&toDate=15-02-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-02-16_2018-02-28.json",
+          "sha256": "cfe68ab85dfc2b5048c1e39e59b51140dfe8d706c73bc41c373bb38a2dcd98b6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-02-2018&toDate=28-02-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-02-01_2018-02-07.json",
+          "sha256": "5d03e46ee1bdd3ed78d9bbaa34cc715deda78cfa6f59365c382cc82f1c57b03e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2018&toDate=07-02-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-02-08_2018-02-14.json",
+          "sha256": "8aff8b8289610151a7d5753317cb4b66dc64226b52c318050d61eae41f89c16a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-02-2018&toDate=14-02-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-02-15_2018-02-21.json",
+          "sha256": "fb7345e38fd8432f26a60a31f34ee6430bf36cf4fca3a26b10c60602a81a315c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-02-2018&toDate=21-02-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-02-22_2018-02-28.json",
+          "sha256": "cd252272da6525cc643fa533f5c62574a4c9c86bf1f4f420e33615dd6d5de097",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-02-2018&toDate=28-02-2018"
+        }
+      ],
+      "unique_surveillance_notices": 10,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "dd8045d8ac53e26523735cb2b25110e7cb0d1adb4485c84fdf774846d5f53076",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-03",
+      "monthly_omissions": [],
+      "monthly_sha256": "368d4a1d78f6ed997f76869dfd09379c71035ed3f9a4a215abd57dba58ff49d7",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-03-01_2018-03-15.json",
+          "sha256": "fd6a923c35b9548ff68d747916f6a82575459bf0ae99ec6fe019e6bd495631ff",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2018&toDate=15-03-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-03-16_2018-03-31.json",
+          "sha256": "1800603d9f875a0fb2a5b687e267547f6e4760c9d739af5d2be1f33d66c86c8e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-03-2018&toDate=31-03-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-03-01_2018-03-07.json",
+          "sha256": "229164efa30e002a8310faabbc8a87dbaa6ceec85e382386593d87a02b0193d9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2018&toDate=07-03-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-03-08_2018-03-14.json",
+          "sha256": "1d0163741d0bceb878a816a1b3d68abda624b219ed027016e37ca6f1e8741538",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-03-2018&toDate=14-03-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-03-15_2018-03-21.json",
+          "sha256": "110d9f9cf3f9f276938465d8580c53d399ad2900283bec939f688432e903ee7e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-03-2018&toDate=21-03-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-03-22_2018-03-28.json",
+          "sha256": "32c280d7fb99cb9a3934f34d6aba4bf39c8fae830f3f073ad225f39e04da4029",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-03-2018&toDate=28-03-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-03-29_2018-03-31.json",
+          "sha256": "02d6777ea0e5d44457655f98e3dde7fae19a1cfd6fb0d709b179801708964487",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-03-2018&toDate=31-03-2018"
+        }
+      ],
+      "unique_surveillance_notices": 17,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "b8b1010f478d2b4072ee3e5e6fa7ea4fca7c7b978916eafcd163cb63b5eedd83",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-04",
+      "monthly_omissions": [],
+      "monthly_sha256": "ee956b4858b465c8704fab4a4a430831aff10e0922742c7a1446c79f349aa64c",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-04-01_2018-04-15.json",
+          "sha256": "9ba6adece1b5d1dd2109b5d68eb511171b971bc4a622ab0c48ce895966a52c70",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2018&toDate=15-04-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-04-16_2018-04-30.json",
+          "sha256": "29f2a3977b3890b7ae506308723cd3a3955c9d231445531c5a96b4cda809133c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-04-2018&toDate=30-04-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-04-01_2018-04-07.json",
+          "sha256": "be4fa916349050d976fdc1ebb8d85725aa538ebb217ad35b9222e3be30bddcb0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2018&toDate=07-04-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-04-08_2018-04-14.json",
+          "sha256": "4a600c5093e6ad3eac3b745d00b7da43b519a62615cafbbabfb2d51e3d828afe",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-04-2018&toDate=14-04-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-04-15_2018-04-21.json",
+          "sha256": "ef4e521a5609eb89c2f2deff5f6a2929a56dd476668f9d96e57117ea2583bb50",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-04-2018&toDate=21-04-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-04-22_2018-04-28.json",
+          "sha256": "104f9dffb2fc1140cfb4583c6784fa36f076381f509f410802c78c2defc73d47",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-04-2018&toDate=28-04-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-04-29_2018-04-30.json",
+          "sha256": "0a45211cda737bc321cd0a460582d5149278e0149ed149b20fdec2776b0096c4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-04-2018&toDate=30-04-2018"
+        }
+      ],
+      "unique_surveillance_notices": 43,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "24c882849d574699189d1ebd7132e9e2b98505d278fb5dda0c87ad32da5511d9",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-05",
+      "monthly_omissions": [],
+      "monthly_sha256": "03969d97a8acb7b764fc2392d1e16e97b45bc66a5001fedda65bc65863fd6f25",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-05-01_2018-05-15.json",
+          "sha256": "79b596080e05952c1520dda27766e322d852921f1ae620a9f3ddcd4e1d67c409",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2018&toDate=15-05-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-05-16_2018-05-31.json",
+          "sha256": "7c7903a221a294f161bf3a0d82b433af83f318c1725c86d3797b7bdf75335010",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-05-2018&toDate=31-05-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-05-01_2018-05-07.json",
+          "sha256": "01af3150b5419441e6a2c1edb195b6b5e833958e435d6c6611c94656ce6d5d67",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2018&toDate=07-05-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-05-08_2018-05-14.json",
+          "sha256": "fed486db82d91742b8a203b1c708e005b467ff6a8bd559931584457c8864996b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-05-2018&toDate=14-05-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-05-15_2018-05-21.json",
+          "sha256": "40267cedc2abe61186743d1eb3230b6ba4ce74bf1af8b4db88029dd09c473f40",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-05-2018&toDate=21-05-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-05-22_2018-05-28.json",
+          "sha256": "d96cf94698af00a64cf407ef714659ec7e782be0bcc55333f108f2452aaa0910",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-05-2018&toDate=28-05-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-05-29_2018-05-31.json",
+          "sha256": "e6864304361dab0da836bf7d6b3950c0913fdd588c5c5c21597b4f1e7dbd9423",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-05-2018&toDate=31-05-2018"
+        }
+      ],
+      "unique_surveillance_notices": 23,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "d802780fea11e1c70058650cabf09413a8913cddd6a0564abaec7cf764d7ff15",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-06",
+      "monthly_omissions": [],
+      "monthly_sha256": "7549f539f0e713e648623cd239208ec48f6ba27c30570f3c995b81116a71ea76",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-06-01_2018-06-15.json",
+          "sha256": "9f08ad95cb9f948cd4ecbf214292b8f3ed347bb0456972314f01d395e0291b61",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2018&toDate=15-06-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-06-16_2018-06-30.json",
+          "sha256": "302eb57af1c91cf6448589227bdb7416610e8120e2a00427f9f87f31cf7f5c41",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-06-2018&toDate=30-06-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-06-01_2018-06-07.json",
+          "sha256": "002e1859139749fa0171be5880e16b164a904b3eb45e5dd01f597facd7a5e9b2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2018&toDate=07-06-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-06-08_2018-06-14.json",
+          "sha256": "387390e70e8438b07383009fde6f7c4c6c0e02f8212669be441ac5274fa1bbb0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-06-2018&toDate=14-06-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-06-15_2018-06-21.json",
+          "sha256": "b957dc02ede3cdea945ad7afd58e156beb04946cecce27ff930be8e9ec7ab674",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-06-2018&toDate=21-06-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-06-22_2018-06-28.json",
+          "sha256": "78ad435821d855ab6ed48386090470cc4d5bf6fbf858bc353886f4905e6b675d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-06-2018&toDate=28-06-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-06-29_2018-06-30.json",
+          "sha256": "7a81be9d8cf9441e13d0037f0a8e9644609ee31b68f091179bbb6a72c2205a3a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-06-2018&toDate=30-06-2018"
+        }
+      ],
+      "unique_surveillance_notices": 44,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "d7462f0ec03b881b96cb751098c20f8a99448287490beaefbae29ce82878d80f",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-07",
+      "monthly_omissions": [],
+      "monthly_sha256": "ec40381c0423642a367ad234cab32189e2e9defb01fc128b10487442ff92bf17",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-07-01_2018-07-15.json",
+          "sha256": "4ac06b12d40cf0d437507ac98431324022dfbbc905cef6e611ac74ca2d8b0a0b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2018&toDate=15-07-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-07-16_2018-07-31.json",
+          "sha256": "de6824bffc2a3386bbd095d7206da99d1d5daebac36b76e64503c2611477e72d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-07-2018&toDate=31-07-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-07-01_2018-07-07.json",
+          "sha256": "0ffce7e85ad3bf2e5fb24da0d1ae345297a96d14db3e7d42e1ff78bcebdb72fc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2018&toDate=07-07-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-07-08_2018-07-14.json",
+          "sha256": "af7d5862ea7e7688e9c3309ada99b1cf1778424d981bf653e901461ebefc1d36",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-07-2018&toDate=14-07-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-07-15_2018-07-21.json",
+          "sha256": "c464737018141425cb34ac297059321c0f5fda03b8caa74bb084fd475dd70533",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-07-2018&toDate=21-07-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-07-22_2018-07-28.json",
+          "sha256": "b04892f5d4c998fbf5dacc1f100fefae6db63a64430c75366723ea5743e55b76",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-07-2018&toDate=28-07-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-07-29_2018-07-31.json",
+          "sha256": "0800bd7eb4609b6ac1db0c61900ce94c080096bd9e218cac76ec7ceefc872dea",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-07-2018&toDate=31-07-2018"
+        }
+      ],
+      "unique_surveillance_notices": 30,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "f166f18f500a626ea5a3641db8104c308a1ea8b874e3a4d9e937d2f6719d152d",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-08",
+      "monthly_omissions": [],
+      "monthly_sha256": "446a27ed8dfb5d8b2c04c7de73bdac069ba25e66bf5d71c0e24915667210eb70",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-08-01_2018-08-15.json",
+          "sha256": "83808b54fe0a290601bc571cda99c56fa14d3c751164e68c17b50957cfb92cfd",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2018&toDate=15-08-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-08-16_2018-08-31.json",
+          "sha256": "5e3cec93d94e799d552e368b71e5b54340ae67752c43ef80ddde48ce8eda4644",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-08-2018&toDate=31-08-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-08-01_2018-08-07.json",
+          "sha256": "a42f7962063997a64b87e6363e74bb18d1ebdc36fcf802706fe87f3418502eed",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2018&toDate=07-08-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-08-08_2018-08-14.json",
+          "sha256": "a2802faa24160b696c9e3dc2debcdf23fb3fbf268ace286070787162fcc7f609",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-08-2018&toDate=14-08-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-08-15_2018-08-21.json",
+          "sha256": "7f6c1596718b766db45726734fd1ef05ee723641bfe17dd932499297dffb783a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-08-2018&toDate=21-08-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-08-22_2018-08-28.json",
+          "sha256": "ac138452a2ec496510aad424ced94a0b2b44a57f12ebeed4e7bccd7898280bd9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-08-2018&toDate=28-08-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-08-29_2018-08-31.json",
+          "sha256": "c91dbedb7e44a9ad9f530f095ba19618897ac63d8361dbdda1002bc4ddd5327a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-08-2018&toDate=31-08-2018"
+        }
+      ],
+      "unique_surveillance_notices": 38,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "847389261f81572fcd3125c880d474b31f4a19aac65caccd35c1d0f12da282bf",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-09",
+      "monthly_omissions": [],
+      "monthly_sha256": "414b40d2ad10d337fe962c9ad41c76988bd39f3b37fee4b8d1f0d5ca400804fc",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-09-01_2018-09-15.json",
+          "sha256": "5facbf9f6d0b2704e2534ed2a776616391bb107e08e54bb5ab3d252eade1a82a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2018&toDate=15-09-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-09-16_2018-09-30.json",
+          "sha256": "15246598f53a918deffc11f078c6529085833a45cc13bc28789be1f37e3d4bb8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-09-2018&toDate=30-09-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-09-01_2018-09-07.json",
+          "sha256": "2c31bd8e02a9d054a9a7a5ff503ba2e2fa450c4c0014ae78c28bd84c81b26fbf",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2018&toDate=07-09-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-09-08_2018-09-14.json",
+          "sha256": "bc579d2d677e6918abaf151b245023045be0db9edf11b0073bc71d18d38db029",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-09-2018&toDate=14-09-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-09-15_2018-09-21.json",
+          "sha256": "16e7456149802042e7432918cc9694cdb4eeb119a80755f3c3f4859ac2780ffe",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-09-2018&toDate=21-09-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-09-22_2018-09-28.json",
+          "sha256": "23d1ea642438d557d0f7843b0223456e9b0aa70125e7e028845dabecb2db51c7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-09-2018&toDate=28-09-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-09-29_2018-09-30.json",
+          "sha256": "fadccd198ed5ccff91998052a7501f06d83471a858db5ad98a4e81cbd60133c2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-09-2018&toDate=30-09-2018"
+        }
+      ],
+      "unique_surveillance_notices": 31,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "d38e0bafb711371dd13c826a3e9f6af918c92d4a7bf1f4557f893a0505ec07df",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-10",
+      "monthly_omissions": [],
+      "monthly_sha256": "ce4b55e007fcc0b2aa49e5983b96fe5ef6ac5881609211673684846a66196fe0",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-10-01_2018-10-15.json",
+          "sha256": "94d45d8473f19ad9bf5e7ae0d9a8b6d554018c9204cce0fb38889a5e1da39d3e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2018&toDate=15-10-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-10-16_2018-10-31.json",
+          "sha256": "d21a0a81632e3d73bc141ea6767820ec592e19a9aab875307f6a7d232dcc1e87",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-10-2018&toDate=31-10-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-10-01_2018-10-07.json",
+          "sha256": "db02c901e383ec3ad9f86792974cc1da10954b59a6e27c6ddf96b3535b6f96aa",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2018&toDate=07-10-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-10-08_2018-10-14.json",
+          "sha256": "c7e59b43e017639483e09c97f32d0c942e940c8da04c83ceade0ba1a739a8f00",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-10-2018&toDate=14-10-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-10-15_2018-10-21.json",
+          "sha256": "03cb0fab08173fe2d90fce9662883e36313dea8c9e8681c317d1fe5cc2bb5c63",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-10-2018&toDate=21-10-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-10-22_2018-10-28.json",
+          "sha256": "7f0e2d71765c393bc134e8b66ed7cbecb51eee3b219cd6f36ed2ef24b85740a2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-10-2018&toDate=28-10-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-10-29_2018-10-31.json",
+          "sha256": "b5ca250a280ae5d5764e5943449477b15a137620245f95a2f816c2a1dadc977b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-10-2018&toDate=31-10-2018"
+        }
+      ],
+      "unique_surveillance_notices": 43,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "a39e755bf73b4253e1b489b8b6959b559813281cd6291b38e9efbb00b06447dc",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-11",
+      "monthly_omissions": [],
+      "monthly_sha256": "a6fb96d571fae94f6322e2ce89588661d1a85f59f4513c7c4cd141b957f43392",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-11-01_2018-11-15.json",
+          "sha256": "fe8f1d0c46d20a34899d277314124ea57b1f73203f2983bf7bf4f27985a1d087",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2018&toDate=15-11-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-11-16_2018-11-30.json",
+          "sha256": "131160f7476476222cec8ad8a868a85c2d91d49c816a82300ffb082041cbd954",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-11-2018&toDate=30-11-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-11-01_2018-11-07.json",
+          "sha256": "d5c499eaf7b5b46bc224a9cda3caec5717da91c44ad3e98cc2912b4a442ec0a5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2018&toDate=07-11-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-11-08_2018-11-14.json",
+          "sha256": "24403b02b24494be53667f3e01aff0e61e216ab6b2b67fa348f390a1832aa4d5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-11-2018&toDate=14-11-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-11-15_2018-11-21.json",
+          "sha256": "01a98750f29b2489b0da8f7b5300d1c1af809e2ae57384e47a47cf04aa176aa9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-11-2018&toDate=21-11-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-11-22_2018-11-28.json",
+          "sha256": "d1f6e1b6344ce83ee81160a921d75b9756ac36c4920ff6e9013c92f93b77f825",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-11-2018&toDate=28-11-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-11-29_2018-11-30.json",
+          "sha256": "60229f795fd9fcb53aa65e9db4be3d94f7ca778b5473d423ee611d52d28d54af",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-11-2018&toDate=30-11-2018"
+        }
+      ],
+      "unique_surveillance_notices": 35,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "3e8dfe373b094ec74fe91ef747408eb62645e1d289cffaf0823b2d291cd5f7f9",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2018-12",
+      "monthly_omissions": [],
+      "monthly_sha256": "7abb21040d84c59fe861abbec4e8afc85887b6a2271f5c013a8776093f5bbedd",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2018-12-01_2018-12-15.json",
+          "sha256": "6fc4561c6f2f6065a51d509feb1b7b7836af61bd733737fa16058ec3e0652c44",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2018&toDate=15-12-2018"
+        },
+        {
+          "file": "catalogue-halves/2018-12-16_2018-12-31.json",
+          "sha256": "852f5ab11b33b49b98f08f082301a7181356df60ec279630f2eb8ddc02d60e5d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-12-2018&toDate=31-12-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-12-01_2018-12-07.json",
+          "sha256": "a282bcfd7f8329892b55aacd90a952abffe0541055b49f6f39a447f876ca2f93",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2018&toDate=07-12-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-12-08_2018-12-14.json",
+          "sha256": "0a84352ef2a06b6da0551bd8b92ba7a60b543de1d11e94a7d0855841c6328cd8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-12-2018&toDate=14-12-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-12-15_2018-12-21.json",
+          "sha256": "92256f5f096e6ddaddfc9fb0058eb8e30924791c29c43511336809c2d8e96c8c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-12-2018&toDate=21-12-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-12-22_2018-12-28.json",
+          "sha256": "dc5ca7adbc6143a41a70a0326ddd199b40afe66bba75c39ea3b7dc684cecb16e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-12-2018&toDate=28-12-2018"
+        },
+        {
+          "file": "catalogue-weeks/2018-12-29_2018-12-31.json",
+          "sha256": "803137e099c5c5a40a8054451a2e8c2d09b1f43eab079a6fd5fb8b088c89da23",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-12-2018&toDate=31-12-2018"
+        }
+      ],
+      "unique_surveillance_notices": 54,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "bb3dd73454bc1a6ce5eb367a4ba2089f7add5763b94ee9f42dc43ed8892b6be5",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-01",
+      "monthly_omissions": [],
+      "monthly_sha256": "15345c6d0192654cfe41f5ce6d04c0f5ec132c2f12e817e5a6416108301b666a",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-01-01_2019-01-15.json",
+          "sha256": "9fdad5bef931c0c351af9ed9e643633cbdee2e8d8f8e6772065c9845dc4ea641",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2019&toDate=15-01-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-01-16_2019-01-31.json",
+          "sha256": "ef0f265b982611ef42e90fa6c069da0b87cff16b8dc9c5e260b78fe07e670cf4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-01-2019&toDate=31-01-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-01-01_2019-01-07.json",
+          "sha256": "662f449491cc5643d3098d7a341a128547b9c36ec860e3f2104dbfb86266c39e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2019&toDate=07-01-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-01-08_2019-01-14.json",
+          "sha256": "8cd6b436a164fd5bd61876accafd2c4387bd2863e74decd2bdc987111cde3a6a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-01-2019&toDate=14-01-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-01-15_2019-01-21.json",
+          "sha256": "5363cce2e04d3adee773062b63c48b8a4f38c59dd09dbfe283589df0dccaeb06",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-01-2019&toDate=21-01-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-01-22_2019-01-28.json",
+          "sha256": "f43e08b7be5b5d62b3a17d1f1138f04848a970cdb34ef2062fdca7ea41415199",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-01-2019&toDate=28-01-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-01-29_2019-01-31.json",
+          "sha256": "22d5b6a1f606ddec6dbe4820fdccb000716a371b3952bb28ecb0d301feb7d553",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-01-2019&toDate=31-01-2019"
+        }
+      ],
+      "unique_surveillance_notices": 49,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "ef71045d20082b09a0d2638e81b9dee76e0ba5ebeb630c15aa68c3abf4a1921b",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-02",
+      "monthly_omissions": [],
+      "monthly_sha256": "d8351e914cad1ffc1478f11b8267c6e6a9b721ea6aa219e090a83b68c237d4bb",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-02-01_2019-02-15.json",
+          "sha256": "42f1683125fa4e934fed403c72043e46331d1feacde507cc36c2e3d79d17262b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2019&toDate=15-02-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-02-16_2019-02-28.json",
+          "sha256": "bdf004c966064d5a06aea71a96950c03aa246c5ea6d9ba2b09af5330779a534d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-02-2019&toDate=28-02-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-02-01_2019-02-07.json",
+          "sha256": "7051dd428ef611bcfb69b53f0c2e03f9446058600d3d239b327aadfcd21985a8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2019&toDate=07-02-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-02-08_2019-02-14.json",
+          "sha256": "9766a2b071786e5a6e52be3f4e879dc1808ba3ac979b184cd84d40f30d73f159",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-02-2019&toDate=14-02-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-02-15_2019-02-21.json",
+          "sha256": "5fd8c8af686b49114e4b6247efddc88ed1735fc6e2173ea5959670ede864188f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-02-2019&toDate=21-02-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-02-22_2019-02-28.json",
+          "sha256": "033a062967834a10cb1cfa88dd2fbccd85e14368654e143ba5a0d6b2a978a946",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-02-2019&toDate=28-02-2019"
+        }
+      ],
+      "unique_surveillance_notices": 43,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "11441ef822cd066a17236a99240e87a7883354216fd6bbcb25d3c2730a7c53b8",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-03",
+      "monthly_omissions": [],
+      "monthly_sha256": "88436ac5bb81ecc9b5bfee93ab90b14ef92b6c3b9da9e7d74b3fe941ea6338c8",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-03-01_2019-03-15.json",
+          "sha256": "34420be6d4eb43b66444c8c5b41f933e6737bc6b30d9d083586be663f3d16944",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2019&toDate=15-03-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-03-16_2019-03-31.json",
+          "sha256": "8dd765a807be6642a96d0bd2bde30749c7ea30813c9fa8371110fd7217e4d82d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-03-2019&toDate=31-03-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-03-01_2019-03-07.json",
+          "sha256": "7eff03a9d6d98063afc390bb6ff26293f4af4bd5ff19ad4562f5aed1b3f3916e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2019&toDate=07-03-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-03-08_2019-03-14.json",
+          "sha256": "9b6aea871be69b9df91c0911ee0dca802dba7853ae95eac860733b9bb5028acc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-03-2019&toDate=14-03-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-03-15_2019-03-21.json",
+          "sha256": "2d882bd6086f56b17287a04d4c18b22c1161d84c19a5255403a31a8f65bd0fbb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-03-2019&toDate=21-03-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-03-22_2019-03-28.json",
+          "sha256": "5595d61350128ea6c5a97e6d545420bc094f788ac7c1570dc259ae2c98f1b781",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-03-2019&toDate=28-03-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-03-29_2019-03-31.json",
+          "sha256": "e35ac741a84e2b0ffb34ad4e75f014cbfb9090c5e8afc0327e984fe85c127f2b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-03-2019&toDate=31-03-2019"
+        }
+      ],
+      "unique_surveillance_notices": 39,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "7a9ba54b920a31403dc5e17babb78fe8faeeefff75c69ba11d5df17fabef388a",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-04",
+      "monthly_omissions": [],
+      "monthly_sha256": "dbee8d3a0605ce8cfd1d023f381ce6d17c28b050993cb875b3809c7f4baf574b",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-04-01_2019-04-15.json",
+          "sha256": "3889917f233636abff1255d54703c226b616ed61f9db8313c84db24b1c578e27",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2019&toDate=15-04-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-04-16_2019-04-30.json",
+          "sha256": "9e8c7e60ed781b878beb2ca7d321c125cfb46955fb171030130c3368db59d245",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-04-2019&toDate=30-04-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-04-01_2019-04-07.json",
+          "sha256": "f9a46558fff7262554248e27c680fe061b568f256a29ac8f6d8e25c45cd3221e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2019&toDate=07-04-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-04-08_2019-04-14.json",
+          "sha256": "cc8b5665c9b20fed12265e6c0a569419f74f53fda94edff01098e445d072e82d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-04-2019&toDate=14-04-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-04-15_2019-04-21.json",
+          "sha256": "876d736b87d1b7dff5d72686dc7c23bd3167b938a3e24624c5a52d6b5877847d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-04-2019&toDate=21-04-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-04-22_2019-04-28.json",
+          "sha256": "1ce034a161f5588bfa0e20b77666578015e40ce72cf2014d710708cd74bfb500",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-04-2019&toDate=28-04-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-04-29_2019-04-30.json",
+          "sha256": "6243c9d33f58ca0d2d31647957a49030501ca6adcc42b9a092e8c7d8dcea6260",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-04-2019&toDate=30-04-2019"
+        }
+      ],
+      "unique_surveillance_notices": 41,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "a4b51f03c57b2f16d041e07f26de07d199c2f55ff36fc5c53772787676dbd2be",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-05",
+      "monthly_omissions": [],
+      "monthly_sha256": "56f691fd53a2da6a9e21ea61e07035226c9803f95bcf3fc9b1e0bdccabd2ac20",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-05-01_2019-05-15.json",
+          "sha256": "04358bf5bf6454df392df94fbc485ab304b04055f46d38e64021cfe324e7a001",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2019&toDate=15-05-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-05-16_2019-05-31.json",
+          "sha256": "cc9ac199973ed886ab10ad45b52f8ab9e8cfb41ad09939ee830f0db2d4df6396",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-05-2019&toDate=31-05-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-05-01_2019-05-07.json",
+          "sha256": "6b24e068eb162d0f01a01205579a0b35bb3c3209e2dc16722d5261d006326927",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2019&toDate=07-05-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-05-08_2019-05-14.json",
+          "sha256": "52cf167bf8b6cf9ae0f35a921833724b46b7f6edc7c0062c26d8d2641be1244b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-05-2019&toDate=14-05-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-05-15_2019-05-21.json",
+          "sha256": "c29a0a0ae8aecda9c4fd55a5593f44f0eed0ffb92240d3f69db9caca2622b11e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-05-2019&toDate=21-05-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-05-22_2019-05-28.json",
+          "sha256": "030c946e4daf9d44ad67b581b4eb435cd5890dcb323c76453c79bc3ae746e642",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-05-2019&toDate=28-05-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-05-29_2019-05-31.json",
+          "sha256": "5c40150e3ebc63b5b233949456a2bf5da05089e8341d096253609af6440cecff",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-05-2019&toDate=31-05-2019"
+        }
+      ],
+      "unique_surveillance_notices": 46,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "0fc061d0be4c2424a32e1e9d06e5e30c230a2c7b81648ccee4eccfe7c9ceb37d",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-06",
+      "monthly_omissions": [],
+      "monthly_sha256": "ccba984d1207b026364e465a784109c9166fe011f222318d2296b29368fdf046",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-06-01_2019-06-15.json",
+          "sha256": "8a5cf9450f8c1e64fe68de7785cca8efc967d4ee31b8eec3b3fc0a5b3c9bad1f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2019&toDate=15-06-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-06-16_2019-06-30.json",
+          "sha256": "42500c1babeca50e72c53d2a218454d304d1e7abe8d69c7cdbea058997ca803d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-06-2019&toDate=30-06-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-06-01_2019-06-07.json",
+          "sha256": "eac020c74333400bcd77020e2e69273099bdf00be028e7883cfa30b8d9d7d352",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2019&toDate=07-06-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-06-08_2019-06-14.json",
+          "sha256": "9b34e2b958ec5cfeca6faf79429ce9b79fb77213e17f3b4b337779fb25cd1132",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-06-2019&toDate=14-06-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-06-15_2019-06-21.json",
+          "sha256": "6908e516beeb9c31203da832d750320ffe370b0d556ef895d5e0a3c1e41044e0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-06-2019&toDate=21-06-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-06-22_2019-06-28.json",
+          "sha256": "ceb5993f4725881a03eb79291924c91e7c624242c9da32b68c569bd4cfef4753",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-06-2019&toDate=28-06-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-06-29_2019-06-30.json",
+          "sha256": "1fc459a3b5ff458e674937734a0753f6c616f8222bed9e3d182b85d47e128880",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-06-2019&toDate=30-06-2019"
+        }
+      ],
+      "unique_surveillance_notices": 47,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "c8ff483ddfb689fcecf3e81151304358c7ce75ad46bc104b4da86808cbaf6176",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-07",
+      "monthly_omissions": [],
+      "monthly_sha256": "3116af3128b027a8edf7b1ac718098e499e1331f0c95dd03917367a35910585a",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-07-01_2019-07-15.json",
+          "sha256": "6d22ea05666e469c5293ef34c27c3dd7a0e7bb839592a17934804d526849c85f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2019&toDate=15-07-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-07-16_2019-07-31.json",
+          "sha256": "7c4d79428fb108069113177057aa43fd0718eb88e6ab2afd228f7085ecc86185",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-07-2019&toDate=31-07-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-07-01_2019-07-07.json",
+          "sha256": "d55a48a0c65e5753d139f5aa85733e360660037530c896bfa966119026b160fd",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2019&toDate=07-07-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-07-08_2019-07-14.json",
+          "sha256": "26877cc3d1daaaaa0ed01061058715d587d6beba022f7cb5d66b5935a12d11dc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-07-2019&toDate=14-07-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-07-15_2019-07-21.json",
+          "sha256": "7b7de010920e43d421f85bc356ca93ee3d527cf42c99ea2a97449712c8e08365",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-07-2019&toDate=21-07-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-07-22_2019-07-28.json",
+          "sha256": "adbf54b493dc0255bbdf41f84068bf6c7303b859ec3e1fa26fe0aa4d2a7b0b1e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-07-2019&toDate=28-07-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-07-29_2019-07-31.json",
+          "sha256": "a27dbfee0ab96487952fd267d2546bd90f83c82d3453d84f29322c6b0deed2b8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-07-2019&toDate=31-07-2019"
+        }
+      ],
+      "unique_surveillance_notices": 59,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "7d96ced337490ba1d8d67c1ba262312870b5b49febc3b845c0b03e499e0c55f1",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-08",
+      "monthly_omissions": [],
+      "monthly_sha256": "0a95c09aa766bc6b2b4f40f53efe74693037053cfe16033095ce97797803f452",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-08-01_2019-08-15.json",
+          "sha256": "cbc0272f5486041f8b5cf1b06911c142ac53c03510b8ec5f5c66d865d43cd842",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2019&toDate=15-08-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-08-16_2019-08-31.json",
+          "sha256": "f0c6ecf10d8eb3b1dffed7a9506124ce57a1487c3111ab8360e7c39c4ee841b3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-08-2019&toDate=31-08-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-08-01_2019-08-07.json",
+          "sha256": "bc72926ac28263728cac4846e9196269d190b7d055fe3402eb5516087b356428",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2019&toDate=07-08-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-08-08_2019-08-14.json",
+          "sha256": "b5314751131955a8b6124681d9c3e7b3dd41fafd70ef09aab2c2699b5f85c518",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-08-2019&toDate=14-08-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-08-15_2019-08-21.json",
+          "sha256": "1142c068c27dfd077b61d7c9165690dcfe2086071c1bc7bf3b0085fbaf677a14",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-08-2019&toDate=21-08-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-08-22_2019-08-28.json",
+          "sha256": "a169b79727364fd869523101425758ce3d92c33e429759eaf7842df3c3298323",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-08-2019&toDate=28-08-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-08-29_2019-08-31.json",
+          "sha256": "b9cb9f7c5c2f34ace501b74333e4c9335f9683cc8ba6b93c3df61d50dba878ca",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-08-2019&toDate=31-08-2019"
+        }
+      ],
+      "unique_surveillance_notices": 48,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "7bed98362719ef3b17562093edea3d837a361bd0870148a9326c3309b898adaf",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-09",
+      "monthly_omissions": [],
+      "monthly_sha256": "ce874674bc20498500f2bafe797b82ce792e40ebae5180070a47d2344270984b",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-09-01_2019-09-15.json",
+          "sha256": "3e025958215d3daa5f2f2bfb999563fd61d09692adb720fdbe1da52e7f150bbe",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2019&toDate=15-09-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-09-16_2019-09-30.json",
+          "sha256": "7badab920bd9c3adfc4bec43668923913e85f486955409da2041e58ff1c6cf67",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-09-2019&toDate=30-09-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-09-01_2019-09-07.json",
+          "sha256": "f173b1dae00a49cd11f2570ae455b909bf212ab5cc753b42cd6a8502990f368f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2019&toDate=07-09-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-09-08_2019-09-14.json",
+          "sha256": "944cebaf632168a506016658758e0c5c834a7761109afbd0a2df7f54c0a028e5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-09-2019&toDate=14-09-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-09-15_2019-09-21.json",
+          "sha256": "9baf57f559acbb41729180f3e22fb4ed6599e20f6901181a9bacc79889752344",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-09-2019&toDate=21-09-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-09-22_2019-09-28.json",
+          "sha256": "af3464ed1118abfe6c955c1c6fd7fb0705f2b019499ffd018ab4b3bece0847f0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-09-2019&toDate=28-09-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-09-29_2019-09-30.json",
+          "sha256": "d0bc91c82a3c2278ddef57a8d6ef3cb8609b1a8e23b579dc3adc62eb698ad724",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-09-2019&toDate=30-09-2019"
+        }
+      ],
+      "unique_surveillance_notices": 47,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "b29dbdf004f21ddc04c98834562009f238342cc633533e158ba984648ffebfde",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-10",
+      "monthly_omissions": [],
+      "monthly_sha256": "80878653a6e9caaaa7c662dd943c28ea96c88352fd197061e7c07245711f5435",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-10-01_2019-10-15.json",
+          "sha256": "5c57b91a5aa7aea1d1063c9968bc64be5fcd0527aa01203172caf88a044b39a4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2019&toDate=15-10-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-10-16_2019-10-31.json",
+          "sha256": "236d6cfb22fcd77246bc60ca7056af30c44235a0c99111ceb5a5fda5d34075da",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-10-2019&toDate=31-10-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-10-01_2019-10-07.json",
+          "sha256": "94ef0e08ceebe655356211734f20cd8692c1d12a92a86eb50a1e8b5be0dde5dc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2019&toDate=07-10-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-10-08_2019-10-14.json",
+          "sha256": "e1423b36436d4b573681b66978dbfd83df7a878a9bebb32d65681af6853ec5eb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-10-2019&toDate=14-10-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-10-15_2019-10-21.json",
+          "sha256": "64945fb205cdb4d6cd4886283309d222eaa6a63f19ddf15c39e86a8f822862d3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-10-2019&toDate=21-10-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-10-22_2019-10-28.json",
+          "sha256": "c1e9603269c849bb90e4a421c25d740e08a2970adac9e94545dadac3aef1540b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-10-2019&toDate=28-10-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-10-29_2019-10-31.json",
+          "sha256": "84fdb652101f5ebd4b03f9b3bacc7dff051bc0b28437ac1a4ba6c4efc92a248f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-10-2019&toDate=31-10-2019"
+        }
+      ],
+      "unique_surveillance_notices": 49,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "7ac18a95dd329e5c63733e4f9d202283bcad3a0dba19330402b5812f61bcb84d",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-11",
+      "monthly_omissions": [],
+      "monthly_sha256": "2835d6853ff6e6df848416c53884ff5e3fb4ab923661fbf745954977dcc587ae",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-11-01_2019-11-15.json",
+          "sha256": "a2fa27a122de66bf06147bb93b0e2c49e783ed90e980729ba1b4796d114dc9e6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2019&toDate=15-11-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-11-16_2019-11-30.json",
+          "sha256": "f37ce82debffc9c57ee85c53fc78977bc62937a576068251123e3da924319bf6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-11-2019&toDate=30-11-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-11-01_2019-11-07.json",
+          "sha256": "905b3691e703e1558fadc28700f3089b9f1c70854d61d7a35163b35c065ff5b1",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2019&toDate=07-11-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-11-08_2019-11-14.json",
+          "sha256": "24c133af06ec959e02b44e6f45a354fec509e7fda38e9103b96418ce841a7390",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-11-2019&toDate=14-11-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-11-15_2019-11-21.json",
+          "sha256": "dd4788b18eaa323da2d3c876f1e5e2903ffc2215d7aadef469a48312b925abe4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-11-2019&toDate=21-11-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-11-22_2019-11-28.json",
+          "sha256": "b8e6ec238203d1be8782daca103ab3ee67bedb83e2a7f02b342c610a83f608d2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-11-2019&toDate=28-11-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-11-29_2019-11-30.json",
+          "sha256": "beb8f3af6bb5c9a66ae5e876d3745c74d1b1b0107c8a6dd3dae91853a07c1c0d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-11-2019&toDate=30-11-2019"
+        }
+      ],
+      "unique_surveillance_notices": 51,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "823de324756a33005052e4bd9f8922e50a23cf0d3ea8de3434703191d4c386d6",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2019-12",
+      "monthly_omissions": [],
+      "monthly_sha256": "dc5107fe93fa62098b3b64b0bfb0ea4dfc120703784e0269cb053043c5f68aee",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2019-12-01_2019-12-15.json",
+          "sha256": "bb5c8d4a0a13b77fec8aa7b16f2da05cba6ca7a95c5aa6cd58015069a173d68f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2019&toDate=15-12-2019"
+        },
+        {
+          "file": "catalogue-halves/2019-12-16_2019-12-31.json",
+          "sha256": "3ec600810e07b02aa161ff89aadea243f4190be61cf511643714ad4d3c13b15e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-12-2019&toDate=31-12-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-12-01_2019-12-07.json",
+          "sha256": "3ddcc56cfc2f9f25e47f1823a069b2b984158e32762e1c4091d5f4b64bd6ffc3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2019&toDate=07-12-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-12-08_2019-12-14.json",
+          "sha256": "60219af8b3bb86182f1b499e802c3987716b8c32a463cd49f1d048081905b937",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-12-2019&toDate=14-12-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-12-15_2019-12-21.json",
+          "sha256": "4017266e33c24bd4649f55a351249142930bdf58ca752821879f2e75f0fd7458",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-12-2019&toDate=21-12-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-12-22_2019-12-28.json",
+          "sha256": "3121d3e5db33bc58d9e0177b4052b8576f9c322b641f04ffd52b641eff7a180a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-12-2019&toDate=28-12-2019"
+        },
+        {
+          "file": "catalogue-weeks/2019-12-29_2019-12-31.json",
+          "sha256": "0b6e1967a6d71aa7aa42e8e94d74893b04f3d125d506e8379e9284e4b0831631",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-12-2019&toDate=31-12-2019"
+        }
+      ],
+      "unique_surveillance_notices": 53,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "fe44211e521997988f7cae8363eb4e1a6bf8113e53e97c2d4e2c29d92aa72402",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-01",
+      "monthly_omissions": [],
+      "monthly_sha256": "dd20219c6a773f0d7b57136d8218ec4a9933617f75a4f3547144afe4af87f4b8",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-01-01_2020-01-15.json",
+          "sha256": "7d58671723fbf09d0f2b4ec6e0be577a9a8ed640022f33e9343bddb89e99d3ba",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2020&toDate=15-01-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-01-16_2020-01-31.json",
+          "sha256": "58b7360072129c8f98781c0d29efa235f159570385defeefd4050352e60a22f1",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-01-2020&toDate=31-01-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-01-01_2020-01-07.json",
+          "sha256": "1a33e35065ff77b388d50589ee62624347a5e759efb486681acef9826c4e1398",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2020&toDate=07-01-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-01-08_2020-01-14.json",
+          "sha256": "4abfe3dd36a485a4f21a24f619d6a2c114df80e80fe128e8820c68890e072f60",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-01-2020&toDate=14-01-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-01-15_2020-01-21.json",
+          "sha256": "76fd6a08c9b7703a257dd95be6155ffd849a79ad95fa7b03283dcb0663a7046e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-01-2020&toDate=21-01-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-01-22_2020-01-28.json",
+          "sha256": "e55b0922500e38711c43dba6e4d3d870c831adc97051c2fb4e8b2a616505d40a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-01-2020&toDate=28-01-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-01-29_2020-01-31.json",
+          "sha256": "f24e6530d0dbcf9de2f8886d9c80f9ad9511c39888c46d6af6314c6b3ec91b7f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-01-2020&toDate=31-01-2020"
+        }
+      ],
+      "unique_surveillance_notices": 61,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "da95c56182c038cdcaeb9e680fb721400d204a0eb8ae9e5ce0abd192e5b7779f",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-02",
+      "monthly_omissions": [],
+      "monthly_sha256": "9087aca41a2321f276b697b2a1455b3f174f8b2958a37b2c0078984188258e13",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-02-01_2020-02-15.json",
+          "sha256": "53d32ca44ca17a955452a029695f2e31b1ea689bd4635f22f0b8152feb2083b9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2020&toDate=15-02-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-02-16_2020-02-29.json",
+          "sha256": "31fe1256a14ae75ec6300b0cfc90fb0d1838bfb6fb64dba0340197cc61dcf246",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-02-2020&toDate=29-02-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-02-01_2020-02-07.json",
+          "sha256": "f198e282f3f503d93db54732b092e95a06908b59fe2fbebc135cbb0d0ff71cf6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2020&toDate=07-02-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-02-08_2020-02-14.json",
+          "sha256": "a0dac8a6b378473ce6dbc58cb148b18a9d46e32f3824103524e3a7bae34f413a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-02-2020&toDate=14-02-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-02-15_2020-02-21.json",
+          "sha256": "e080592722f4d9dcf821ccc1a3d5428f8fed06f3e6859ef473b527c80f2a543f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-02-2020&toDate=21-02-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-02-22_2020-02-28.json",
+          "sha256": "4944a5d32a81b8fee74c970d48ec0dedecd6e9d4a55c526e41f5091a78d59b69",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-02-2020&toDate=28-02-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-02-29_2020-02-29.json",
+          "sha256": "98c7f0e08e9253081363ff25943e758bf815cc84aacebe25913078dd154f6d86",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-02-2020&toDate=29-02-2020"
+        }
+      ],
+      "unique_surveillance_notices": 53,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "33b252eb5c75c538ccd88dce18c98ba1081401d602d7305a79a69981a1af254b",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-03",
+      "monthly_omissions": [],
+      "monthly_sha256": "ea2570e90fccddeff89bf1a561382f4ca8206fea60dc8d1125bde5b160de3586",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-03-01_2020-03-15.json",
+          "sha256": "c2ab27a61903f28efdd7dba5b1bd09fa45257ea1e165ae897c4b4ab3402b66d3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2020&toDate=15-03-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-03-16_2020-03-31.json",
+          "sha256": "40cbfbed1a1e47fb4f8da051e6b2d86152d03212c60445584c2f8fb70da7da5c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-03-2020&toDate=31-03-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-03-01_2020-03-07.json",
+          "sha256": "943fb95fb5460297039bd01a10a07cb9a21ef4f90cd957ed2b7ec3ebbea03469",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2020&toDate=07-03-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-03-08_2020-03-14.json",
+          "sha256": "7826aab53d879349cd0d194d45687186f92b449dc673c7f85026d01ce2f55618",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-03-2020&toDate=14-03-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-03-15_2020-03-21.json",
+          "sha256": "3a8ea48ddfc78a2e46dff307390cab0702806bb3890fab1264ac64009610535a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-03-2020&toDate=21-03-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-03-22_2020-03-28.json",
+          "sha256": "746c829402ee44e00fbc452573c74370d92aec9b3488b909633196ad5c779427",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-03-2020&toDate=28-03-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-03-29_2020-03-31.json",
+          "sha256": "14aa46defe98beef28e04d9c30c54c987e62515b4874de5f0dd1c388f0709ac2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-03-2020&toDate=31-03-2020"
+        }
+      ],
+      "unique_surveillance_notices": 55,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "60a7c396c1b3e7e49c00f1490cdca2807d7e61f39f6d3056037313cc905ccd4f",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-04",
+      "monthly_omissions": [],
+      "monthly_sha256": "a87535d198fd407fd66b206badd934f3776496592d6ef470b854adb4847a75b5",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-04-01_2020-04-15.json",
+          "sha256": "b9054630321d0b77dde9669885426afde3b705eb86f2b571413e5332e1928c26",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2020&toDate=15-04-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-04-16_2020-04-30.json",
+          "sha256": "9b3b823723673c4e9e300f529f4b732a3316b8eb5e6a58a75068aafd0ba9c9c4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-04-2020&toDate=30-04-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-04-01_2020-04-07.json",
+          "sha256": "9ebc24595844f2e31e9fe9952b1d887351142f39ef6867a8141e006579e12ee1",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2020&toDate=07-04-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-04-08_2020-04-14.json",
+          "sha256": "5e1d8ddbf6ab6e605e7d0ef44c5a904e6a7e374944f90bffd1c999bf55683cbf",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-04-2020&toDate=14-04-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-04-15_2020-04-21.json",
+          "sha256": "facf43a930d61537eb9b332bbf4104e05d61fa03b68f41c9d0a26c1471d9ea92",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-04-2020&toDate=21-04-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-04-22_2020-04-28.json",
+          "sha256": "4f4bff8019ede4a8843f45a3d93c903ec251d239d2bc1b17fd7ec96d11c05c9a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-04-2020&toDate=28-04-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-04-29_2020-04-30.json",
+          "sha256": "75f64ba912f7eb0560b4834a2b49bc4bd53126f23e1bc7f4a1810e0097f1602e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-04-2020&toDate=30-04-2020"
+        }
+      ],
+      "unique_surveillance_notices": 80,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "9e7003ef05b8347e44fd41c9dfb54593ebbcb85ccb7623c6444deefd5359f8f4",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-05",
+      "monthly_omissions": [],
+      "monthly_sha256": "0c16ad0b3d2e0f786e99e8fa6cac631b451f5fb4b7ab2e7117d2ea58ecfdb2f6",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-05-01_2020-05-15.json",
+          "sha256": "1c9626baed72de1268f1dd0b9c6572feacdb9ae30042913ea1a0e0f7bcfcb3a0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2020&toDate=15-05-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-05-16_2020-05-31.json",
+          "sha256": "5128051a779c3905bf676b434cca379b76dafbbb890bbf050118693c97fb6f3e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-05-2020&toDate=31-05-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-05-01_2020-05-07.json",
+          "sha256": "6dc244adaaa5d3f4fca025cb9136c75ca3cab799ce0029596df07df75cffb6e0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2020&toDate=07-05-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-05-08_2020-05-14.json",
+          "sha256": "9404806d4266be1ad27c3bcaf4e066ba3d374b1bf44681a3af531f12b7be9329",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-05-2020&toDate=14-05-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-05-15_2020-05-21.json",
+          "sha256": "ef2128abcbdeab1b417ac334154579cd1ecc7bfc3f66390173cc7a7c3042d476",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-05-2020&toDate=21-05-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-05-22_2020-05-28.json",
+          "sha256": "26ba6ec9a81529a8e2f47869620697e5f4912a60964bc3e60e4bc4dca2c02d4f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-05-2020&toDate=28-05-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-05-29_2020-05-31.json",
+          "sha256": "aae420c34850a1aad9befe2480f21fabbe1fe171de925a998b604043dd2fa365",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-05-2020&toDate=31-05-2020"
+        }
+      ],
+      "unique_surveillance_notices": 57,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "b2708b8f3dea4487b4a9a1a3a875c926570c04559fc44550bf6e01401fa15996",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-06",
+      "monthly_omissions": [],
+      "monthly_sha256": "6872b5d7bdeca3bba99f4c55d0e3c7b4241e3ac166baceaddacdd1fd4db1dbef",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-06-01_2020-06-15.json",
+          "sha256": "0c186356f1625b3385ee5ede136560fd14ec45e45f1155299d0dbdd786c4aded",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2020&toDate=15-06-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-06-16_2020-06-30.json",
+          "sha256": "29b7c155049a81876a292a8060801c05f6234f411d9b0dc3e44ba3ff115ab67f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-06-2020&toDate=30-06-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-06-01_2020-06-07.json",
+          "sha256": "cc407a07de787274f260f34cb5648226805a4bf87721c38f54573019c89a9d38",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2020&toDate=07-06-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-06-08_2020-06-14.json",
+          "sha256": "ace37bb707e1f97d6376ca527bfe36073ec8b2a823d2777082d8a98f2d51e4da",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-06-2020&toDate=14-06-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-06-15_2020-06-21.json",
+          "sha256": "97dcb094a6cc06b4a0383c393e9b334edb933fd93676f8e5d3e4a5d19d243c0b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-06-2020&toDate=21-06-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-06-22_2020-06-28.json",
+          "sha256": "428c9b4785a711b9beb25eb939f52445971d2e3cb865962609f70b65bea6941e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-06-2020&toDate=28-06-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-06-29_2020-06-30.json",
+          "sha256": "bf741b5ff5d8f072b1750eaaee701cafab5de96ccde857abbe4a8f67621b3475",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-06-2020&toDate=30-06-2020"
+        }
+      ],
+      "unique_surveillance_notices": 102,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "068506002f63522aaa8ea8c2d2574a71b5b7c3a021b1f1044ba2bb7fa90d75b4",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-07",
+      "monthly_omissions": [],
+      "monthly_sha256": "6ff6a21e9a169ab738f08ffb6581da460e8e3e9e3259f42bcb92e580b1a72d4c",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-07-01_2020-07-15.json",
+          "sha256": "09e7ffda64dec4181cc53ddc09176a69cf70a07b2d33dd6f6df8e3e1ea32365b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2020&toDate=15-07-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-07-16_2020-07-31.json",
+          "sha256": "53620cef184c55a3fc0e25e95091cce39dae43fae77077f9c1980f67bed1b471",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-07-2020&toDate=31-07-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-07-01_2020-07-07.json",
+          "sha256": "a8c1ba777155f230367115e99aa8c58cab13a1aacda6d7d1a35a7cd865dd10f7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2020&toDate=07-07-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-07-08_2020-07-14.json",
+          "sha256": "8888bfdd3c3a2bd521c8130b98cb77d73d43f7796a2941e6632204f1b0b52e9c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-07-2020&toDate=14-07-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-07-15_2020-07-21.json",
+          "sha256": "e9b7883a019416efe8e6ec0c45491f2a14de16f1e6f66aaf8b2b0b85b779bf3e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-07-2020&toDate=21-07-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-07-22_2020-07-28.json",
+          "sha256": "398b02211c8605747b472b24d535da606dfdb25421edb934959b680b2a45daa6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-07-2020&toDate=28-07-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-07-29_2020-07-31.json",
+          "sha256": "0fa077f344d7559b696374dad248e01a0650ec7f6ddd1fc9a2cdc6b259f8760c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-07-2020&toDate=31-07-2020"
+        }
+      ],
+      "unique_surveillance_notices": 78,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "c31d15afb62e76e06430889d7343d26609366575d1f667afb8a36b9002aae3dc",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-08",
+      "monthly_omissions": [],
+      "monthly_sha256": "84cc866731d1bf83736c84b14314fcbe8bccaade54d329c4c5facffecbeaf60d",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-08-01_2020-08-15.json",
+          "sha256": "f6013af54dc16fdd0c99021cdd5f63430b8a2fc5ba1f409bcc3f7a0514a0fe92",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2020&toDate=15-08-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-08-16_2020-08-31.json",
+          "sha256": "7cb4dd5364045df00d508af76089a288ced2d3685bf0098b5fdc1f7362d14075",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-08-2020&toDate=31-08-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-08-01_2020-08-07.json",
+          "sha256": "4fbcb64b81d558fc9f46080ab54b4e6e6a20a6fb02e093b535b006f42172a844",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2020&toDate=07-08-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-08-08_2020-08-14.json",
+          "sha256": "051f5c8c42ea1618d8d15ca0a82c1cc28c6a14a8a5cd5403b0b1777efc00249b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-08-2020&toDate=14-08-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-08-15_2020-08-21.json",
+          "sha256": "a6f12efb715c08de2f0e64f1324896417c9f1442b98889df56ae28d61c23a353",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-08-2020&toDate=21-08-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-08-22_2020-08-28.json",
+          "sha256": "fd406749a9d954ca18b702854b95ec21dd282d27792042697f9e9195d67863c6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-08-2020&toDate=28-08-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-08-29_2020-08-31.json",
+          "sha256": "660402387e9f0edf3dda8df0be0e46a0491bf18840fb40a71d1cfce3721c225f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-08-2020&toDate=31-08-2020"
+        }
+      ],
+      "unique_surveillance_notices": 74,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "186d3ea49a2f3146f7c1f7888c61333c165c6ad5bd854f015aae1c61d4754a37",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-09",
+      "monthly_omissions": [],
+      "monthly_sha256": "e3fdaaffadeb0835287f48dbdda95b1f875a35355b2ba8547f5a7b521ae7069c",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-09-01_2020-09-15.json",
+          "sha256": "5ce739e6180012741361c9fc25bbeb61b4cabe962e496405f7df740901d9ce73",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2020&toDate=15-09-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-09-16_2020-09-30.json",
+          "sha256": "0654e67a90bf7498f03484b9a9cad88903be63ad7f572f5e52c5a2e9d2d0fe86",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-09-2020&toDate=30-09-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-09-01_2020-09-07.json",
+          "sha256": "bff5d630d921f36e1633a47a61918f568d86763e30568a6b7d1e3001b630abbc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2020&toDate=07-09-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-09-08_2020-09-14.json",
+          "sha256": "a2360a8821080533cb6de5272985211e5861104fc98e8a8da5816fe52bd2f15c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-09-2020&toDate=14-09-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-09-15_2020-09-21.json",
+          "sha256": "411e9e46e4f2b86fc464552cb653af1ae4648dfd4d587b71e512d7348341da57",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-09-2020&toDate=21-09-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-09-22_2020-09-28.json",
+          "sha256": "ae5c702f92bf8bcc0026ee67cba42357b9801c088f199c8b5b2025e9a56bf1ea",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-09-2020&toDate=28-09-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-09-29_2020-09-30.json",
+          "sha256": "1a29e5c6c4260728359ca13f851c81b0e40a4bbff2658a063901a68314b4b4bb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-09-2020&toDate=30-09-2020"
+        }
+      ],
+      "unique_surveillance_notices": 70,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "f1af4641ea5602b2ce0346d4a5d37d50c7610bc4ccd18cde2825a5f9891f1201",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-10",
+      "monthly_omissions": [],
+      "monthly_sha256": "e873e04886e778c308810b2ff449b6fdfabdd0efb08edf20a58d65dd94cd4507",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-10-01_2020-10-15.json",
+          "sha256": "b0b4ba5e1631083d1155d378efbc6a9ffed372ef59025950ce67e7b61a951f7a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2020&toDate=15-10-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-10-16_2020-10-31.json",
+          "sha256": "caa389778becb020b2d23553a9313ac3d372392f0b67e8c58dc4e8ff59d0480a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-10-2020&toDate=31-10-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-10-01_2020-10-07.json",
+          "sha256": "29ff95b52f5d934836db080d56d3526c9b3fa9e7b9fd17c7571d47bbeac643b5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2020&toDate=07-10-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-10-08_2020-10-14.json",
+          "sha256": "d0e89c81b94929706000cd65cbff18add7be008b118f4bf235a84ea12c9088dd",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-10-2020&toDate=14-10-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-10-15_2020-10-21.json",
+          "sha256": "dbada211a0c767f0855ad95ccdcb80de0a7f0bec05c609cb8346ff548cb8b9a0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-10-2020&toDate=21-10-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-10-22_2020-10-28.json",
+          "sha256": "a6eb0d12be10128e8453e60e2efaf6731c9ca122eed370efed4985d2b3131397",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-10-2020&toDate=28-10-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-10-29_2020-10-31.json",
+          "sha256": "4ee37576dcd7b3671dedffa7ddda3b0c31afc849dfb1c58bd1b6b96306a36bbf",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-10-2020&toDate=31-10-2020"
+        }
+      ],
+      "unique_surveillance_notices": 61,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "95eaf5094aa47cbb3acbdd21c3b83e0d7a39d4e9aa44348775839d569055ba83",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-11",
+      "monthly_omissions": [],
+      "monthly_sha256": "a65785e44d4f18c2545cc030475fac686bb602d413c042586385189ddae5c969",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-11-01_2020-11-15.json",
+          "sha256": "a1a26e3dc15a59a28f9b5d2c9b8788dca729d350a9b98bddbbd0f63843df78a8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2020&toDate=15-11-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-11-16_2020-11-30.json",
+          "sha256": "7348f208af8c8688ad9f17bbbe348ac9abf3d6c8aaa432078cd65f0d61611bf6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-11-2020&toDate=30-11-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-11-01_2020-11-07.json",
+          "sha256": "9054124a67fa0d030b353a1a37d3107b6e852590a4cadc7fe014bcb9d089aab1",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2020&toDate=07-11-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-11-08_2020-11-14.json",
+          "sha256": "bc3cd294aed1c8f5b43970b6d5b21240f380d76017f0789c6b8ff4688fb3f801",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-11-2020&toDate=14-11-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-11-15_2020-11-21.json",
+          "sha256": "2e04d13cb44a7b5e17cfa8e5b0c8c4d044e9be8ccfb959b6d83c95e656474536",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-11-2020&toDate=21-11-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-11-22_2020-11-28.json",
+          "sha256": "6be3bef7d090990bc84a43a634dcd4036dcce282f1e1bacf7931805f19d588b2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-11-2020&toDate=28-11-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-11-29_2020-11-30.json",
+          "sha256": "edf9671649c8a50f7aebec465abb763d72e3ed2c8b075fa9a7fa2c923c3285e5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-11-2020&toDate=30-11-2020"
+        }
+      ],
+      "unique_surveillance_notices": 55,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "40bb734042f68f4795434d53bef5e8ae919eb8467171e094323ef630ec331a41",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2020-12",
+      "monthly_omissions": [],
+      "monthly_sha256": "8363a831c5b21e8ae9cd33cbaed5d28287c760e06ffadaeec35539c5acb366f1",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2020-12-01_2020-12-15.json",
+          "sha256": "2e9da15b312ebc8d20afc4ac4335d249a9cdd227dd9272ba518feffbb60caf14",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2020&toDate=15-12-2020"
+        },
+        {
+          "file": "catalogue-halves/2020-12-16_2020-12-31.json",
+          "sha256": "c37f52b6c0eae47d58d9a09f01b3219a9d550be2231887516abde9be1dcc1ec9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-12-2020&toDate=31-12-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-12-01_2020-12-07.json",
+          "sha256": "f907c32f5d4e720c33440856480e0eab2613388a2a75d1b85c64ae0a9e140f13",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2020&toDate=07-12-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-12-08_2020-12-14.json",
+          "sha256": "f725a77b22b1cb8661aaba0b37062a4ec233c787b886e87828ed20c7b11a43ef",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-12-2020&toDate=14-12-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-12-15_2020-12-21.json",
+          "sha256": "c8318433a4a4a8b4625b816ba010997cde0a1b24e710a3cc11edd8eacf36e4c2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-12-2020&toDate=21-12-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-12-22_2020-12-28.json",
+          "sha256": "a882044769cdbfd494a0a850020a0fd95f9b64fa3ddbb727989a6aabaeb9745b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-12-2020&toDate=28-12-2020"
+        },
+        {
+          "file": "catalogue-weeks/2020-12-29_2020-12-31.json",
+          "sha256": "b15b57ff173ea88ab3c109a8bbbe6f93d265bdc865735e773dc56d9ad00bb9f5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-12-2020&toDate=31-12-2020"
+        }
+      ],
+      "unique_surveillance_notices": 90,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "8c0941f2db0933449437fbe66d9bc37af3a00bb820a3f1429f72d581648882c3",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-01",
+      "monthly_omissions": [],
+      "monthly_sha256": "7d2b6e522a1cc103ea03bdbab6fa8844a01f59a2dd247d91a134bfd44c592d5d",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-01-01_2021-01-15.json",
+          "sha256": "c045b979f0dd2fa791a201588a887dfbb42fbcce7b699b671d0672cb1b98094c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2021&toDate=15-01-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-01-16_2021-01-31.json",
+          "sha256": "1e606a9e5d6c61d33921e9553df148f3e971fda1e9d94801743d4350c7bae7c4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-01-2021&toDate=31-01-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-01-01_2021-01-07.json",
+          "sha256": "13f41b7ae7806c2c0806b455cee672cf56591a808b27867cb39df27ba77ba841",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2021&toDate=07-01-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-01-08_2021-01-14.json",
+          "sha256": "0464df92da0281b7c2b7ce899f97688552447d8a99c28544ddb232640cdd1d78",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-01-2021&toDate=14-01-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-01-15_2021-01-21.json",
+          "sha256": "a10333b234375503defb2293fa1b35a8e47198fcb4742e62d1336366e8abde37",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-01-2021&toDate=21-01-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-01-22_2021-01-28.json",
+          "sha256": "1f9ef3e82396dc2f2ebe226da039982a63d452696a2692d420bac4406c3a119c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-01-2021&toDate=28-01-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-01-29_2021-01-31.json",
+          "sha256": "4f2b7e5fb596c80f9a0d3018950cccf98a39f24abba37fa7573c83898e929185",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-01-2021&toDate=31-01-2021"
+        }
+      ],
+      "unique_surveillance_notices": 80,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "a36ffc357d9b83c926698668ea6e97e5fef72cef2976b2051ddf518f8d455e49",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-02",
+      "monthly_omissions": [],
+      "monthly_sha256": "d0a728d468de9d94d18032752f202bc5f80b74a6d6bf5a813f4349a3032e6424",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-02-01_2021-02-15.json",
+          "sha256": "91efcd5de85a21221c60f312573d9fc2b013344f7da368be69b939a4d4ad6cb0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2021&toDate=15-02-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-02-16_2021-02-28.json",
+          "sha256": "392a2f924a946e4a703284552bbbcfb96da59a923066d4302ad10363b7ff76ba",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-02-2021&toDate=28-02-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-02-01_2021-02-07.json",
+          "sha256": "6e69bb5ba23e85813cee616e07ee854501ab66ebd259cfe9037eab1239ffb709",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2021&toDate=07-02-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-02-08_2021-02-14.json",
+          "sha256": "ec31be2cd7909af106e60e041883f2a8435f04ffe74a9b2dcdc73ddf02f92edd",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-02-2021&toDate=14-02-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-02-15_2021-02-21.json",
+          "sha256": "aa3a922aade5bc3aab6419692d79f5769df820aea86dd64f1ce1f824cf2df0d6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-02-2021&toDate=21-02-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-02-22_2021-02-28.json",
+          "sha256": "4d1f9be10ca1f7d495d96e6c148d162daa859bb49f1694cc9ead1f215fccb0ae",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-02-2021&toDate=28-02-2021"
+        }
+      ],
+      "unique_surveillance_notices": 60,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "3a06c1796fb0439eddcb7c0ada34d3e5c24c4d7e36b54a173316ab5040e41b1a",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-03",
+      "monthly_omissions": [],
+      "monthly_sha256": "6f8e4b5199af5f4eec79c897e416d4cf2785604a6bd8e21faee264233b0f2600",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-03-01_2021-03-15.json",
+          "sha256": "e06c093ff3ecf6e41e7e9218f3cdd582f9585192b350e293252539eeadfb0732",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2021&toDate=15-03-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-03-16_2021-03-31.json",
+          "sha256": "0a498b7c8133d75c7bed06a0f44f5f7c1fb08155e7cf2490bfe08f1a4c074ba1",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-03-2021&toDate=31-03-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-03-01_2021-03-07.json",
+          "sha256": "8bf488f68cfc733b500c503fcd68ec4bc0b01806fcb939537e5293d8f3c1b674",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2021&toDate=07-03-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-03-08_2021-03-14.json",
+          "sha256": "d5166eb8b9f6183cb54efa35e265facafce3c4bf0e534fb8bd085c1eb37c56b0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-03-2021&toDate=14-03-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-03-15_2021-03-21.json",
+          "sha256": "4ab9014bb73c26247aceeb3dd61e515b222404178b5dabc6d0c278bcb629e48c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-03-2021&toDate=21-03-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-03-22_2021-03-28.json",
+          "sha256": "737e3a5dfdaa5ff874c9fba859b60c06ddbeded3e41e538d837a7fdfe5839358",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-03-2021&toDate=28-03-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-03-29_2021-03-31.json",
+          "sha256": "d0cd9d8520cd195300920a7c63cc29c5dea2c7a52a1271bb604590dc97a6a345",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-03-2021&toDate=31-03-2021"
+        }
+      ],
+      "unique_surveillance_notices": 70,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "6e6ea989e1fbe4d22e252640205c68e3ac136fd596ce1478e3ea2d4abda4d86f",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-04",
+      "monthly_omissions": [],
+      "monthly_sha256": "c122d2921b0e146a48033861dfe8b0f568ea8cc24fed3b58fa3231829c0f2aeb",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-04-01_2021-04-15.json",
+          "sha256": "e15e716d6516b0a0c7ed19cce16b31d4ff4fdfe3b2499704c6a88e9df9ad1afb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2021&toDate=15-04-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-04-16_2021-04-30.json",
+          "sha256": "21fda20d6e95b81b380dafbe8786e0427be929f03136a96a307f2448c73f8078",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-04-2021&toDate=30-04-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-04-01_2021-04-07.json",
+          "sha256": "73010b6d42ee83e115a0ed6ec4e5321ba7178138491be99b8bc1df6c9b996b31",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2021&toDate=07-04-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-04-08_2021-04-14.json",
+          "sha256": "2548101093d7ebb571cc09f73ad3cbd426306c8cb5c639488db8166629050515",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-04-2021&toDate=14-04-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-04-15_2021-04-21.json",
+          "sha256": "d70bedf6f927dc93bb1f16f19aad24345d9ff81d069e199e862e01b45b7cbe12",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-04-2021&toDate=21-04-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-04-22_2021-04-28.json",
+          "sha256": "7fa872418116a0e020cd5bb8e61577811f262e89c38f365c18586cb453ed0789",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-04-2021&toDate=28-04-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-04-29_2021-04-30.json",
+          "sha256": "abf47af02cd9075edc7ceb4f0bca9e5bf6007c0f791d39226ef94b6e899d6f25",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-04-2021&toDate=30-04-2021"
+        }
+      ],
+      "unique_surveillance_notices": 64,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "850ea22f5e9746122a0294ed0cc008392d72c1a852e39951cbf94b8960bd40bf",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-05",
+      "monthly_omissions": [],
+      "monthly_sha256": "1a310f44abbdf1730083a5a3f2e1f4222df25e43a937c8841cfef441f25fadb7",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-05-01_2021-05-15.json",
+          "sha256": "28ebc944f8718275d2e5bac9c3c7fe3d65efd401b4c90cd408f3e5e279dedf0b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2021&toDate=15-05-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-05-16_2021-05-31.json",
+          "sha256": "e1c05493d64dbed7a63e82f4b8a6afea3ef8648157365d1cbea677311af54bac",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-05-2021&toDate=31-05-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-05-01_2021-05-07.json",
+          "sha256": "eb3f01116e53d197943b9a89b84443407e60095e5b2fd79aa73fdd2e6b26ba3d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2021&toDate=07-05-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-05-08_2021-05-14.json",
+          "sha256": "6c29a3159d0f56c6c2ab8b8b368f893de02d6882472afaf8b027575819151886",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-05-2021&toDate=14-05-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-05-15_2021-05-21.json",
+          "sha256": "61c9089e188542a9ed139031ec2456a532056ba89e500578be1367f065f798dd",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-05-2021&toDate=21-05-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-05-22_2021-05-28.json",
+          "sha256": "fe52efb643847b3ae1a52c079f9eac7a0044214935a9d8908e190127d69c4f6f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-05-2021&toDate=28-05-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-05-29_2021-05-31.json",
+          "sha256": "4c611c15f6cf73224d6ecdc73163f25869427eeb4bdd69d5719d22f71db79242",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-05-2021&toDate=31-05-2021"
+        }
+      ],
+      "unique_surveillance_notices": 78,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "92887400b60f31a8ce2282f28225fd2dbdfed111018a5aed98371c96494352bf",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-06",
+      "monthly_omissions": [],
+      "monthly_sha256": "8455eec4a0422e5adeb4951a4f855ef3888b1a866611af3b1a655b5ba2a792f0",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-06-01_2021-06-15.json",
+          "sha256": "8eaab79a08362e06f2978388c7a836c202e3f97944dc5a58d3f19a353918aa81",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2021&toDate=15-06-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-06-16_2021-06-30.json",
+          "sha256": "667eeeece20121bf6662589e3fe40de369317e126d29c138fdd63aec869ddf73",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-06-2021&toDate=30-06-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-06-01_2021-06-07.json",
+          "sha256": "b3fe5b64aa980c5fcc2db55e2cab70ec6ca7a13766c9224c128c35187f5395d6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2021&toDate=07-06-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-06-08_2021-06-14.json",
+          "sha256": "4b456fde55018f5da337688cd2a54c25cd789439ef02dd6b05690ee8a49ca97b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-06-2021&toDate=14-06-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-06-15_2021-06-21.json",
+          "sha256": "285016bd41a2aee7fb1ca79cfc5678e1f3ecdb3e76773bb7522b7d4946a52ad2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-06-2021&toDate=21-06-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-06-22_2021-06-28.json",
+          "sha256": "ddcfaf53da559ba0a688d8eeebd3ca83434bd09fcf8a8ae1ea31373fec499d1b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-06-2021&toDate=28-06-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-06-29_2021-06-30.json",
+          "sha256": "f16e8dbe9c6714fca91695c8b47d999e67ee1af8721d49a4955fd9c699a9c869",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-06-2021&toDate=30-06-2021"
+        }
+      ],
+      "unique_surveillance_notices": 96,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "39b7fbe333e0ec1c3a9d985917b2ff983f6e919c5e219fc90819085c412511a4",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-07",
+      "monthly_omissions": [],
+      "monthly_sha256": "6d48d9d2144bd86d926fac30ef0299862516a83d032c8d38d5adacf412c27d21",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-07-01_2021-07-15.json",
+          "sha256": "be527071db1412d0b5648fdc7d1c723e8069393100086dde475f4a5216109e16",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2021&toDate=15-07-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-07-16_2021-07-31.json",
+          "sha256": "8be66dd0c6c1409d2c7a855e9fa83c2ff76f15a8e66458a6cd20bcf4724eb4a8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-07-2021&toDate=31-07-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-07-01_2021-07-07.json",
+          "sha256": "f0e066317ff62df82e1ec5b88df669929701b9d216ef8143e807e573c6ff8e25",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2021&toDate=07-07-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-07-08_2021-07-14.json",
+          "sha256": "7fe71bb1121cce952e309ac4843a3d348cdf3e4fa0f61edb3508eb2711e23fbe",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-07-2021&toDate=14-07-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-07-15_2021-07-21.json",
+          "sha256": "2669aa964a3181d8b83e54d2ee1c9723ae47aa59df48ac7195fd0150372bdcef",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-07-2021&toDate=21-07-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-07-22_2021-07-28.json",
+          "sha256": "067fa7a00b144008154134ea9ebd57ee88544118df3a73d17c917a2a188112c8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-07-2021&toDate=28-07-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-07-29_2021-07-31.json",
+          "sha256": "9f13d08703e78449edd77cfe2afee5c8bb54a2e2a15cf8e13c7c992c92ea7fa6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-07-2021&toDate=31-07-2021"
+        }
+      ],
+      "unique_surveillance_notices": 87,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "33858d593d38764753aff68d3d5adf79e22bef8844fa132340fd9f360daf4de3",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-08",
+      "monthly_omissions": [],
+      "monthly_sha256": "890585bc81794cf400162866ecbff238d5bc5ec2044b56dd0b8b77d13c25525a",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-08-01_2021-08-15.json",
+          "sha256": "d4b079be75b5ada9343df58eda32ba11156f3a8ead76611830ed6010c87a2cc0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2021&toDate=15-08-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-08-16_2021-08-31.json",
+          "sha256": "f8a71d1072fc35e42b17208347a3f35d4b072b4a1313f9cc71951e1edb5af7ca",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-08-2021&toDate=31-08-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-08-01_2021-08-07.json",
+          "sha256": "187519c5b5572b50de2a34cfffcc3499e0dc8b5b70f30981108aee97e5c36d55",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2021&toDate=07-08-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-08-08_2021-08-14.json",
+          "sha256": "6334c06919174bbe30e48281904e93a481622a73426e0bd81c135aa8e43a7c77",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-08-2021&toDate=14-08-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-08-15_2021-08-21.json",
+          "sha256": "60864de26e9cef281a33aa92119509f51122ae27c7df0bc4c15a5b98b7414969",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-08-2021&toDate=21-08-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-08-22_2021-08-28.json",
+          "sha256": "ed8501e095bfa8b5cef68285c3acd4d05cda209c0ae62d368aab0d8842f1aef4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-08-2021&toDate=28-08-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-08-29_2021-08-31.json",
+          "sha256": "463b5015ce7af7d87cc11c37a9940415835ee6dc7cc77c10e9e5663bcac89f80",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-08-2021&toDate=31-08-2021"
+        }
+      ],
+      "unique_surveillance_notices": 59,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "5adcc96aeb7da9af312e53642cdd0bce3ee490efc71fadae113575e465b64c73",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-09",
+      "monthly_omissions": [],
+      "monthly_sha256": "47a9188481ad11d106da2b4e29f5d32087dcc656281efd357d53f6632d793ddc",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-09-01_2021-09-15.json",
+          "sha256": "3e737cd35ce5cd5f7c115c1f782a479b50136522a1d9d235c4e63329c72e5761",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2021&toDate=15-09-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-09-16_2021-09-30.json",
+          "sha256": "027101b3d1bd90733730303c770bf50ee3738a47ff05e811b1d3b554b5932b1d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-09-2021&toDate=30-09-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-09-01_2021-09-07.json",
+          "sha256": "6e6d02fd07ae5f92b871c7f07c2be17865fdc5b35e28ea6deb0c405ca56b7b34",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2021&toDate=07-09-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-09-08_2021-09-14.json",
+          "sha256": "948c0d818dc657ee97f37b97c8b2ad5f45b1aeaa12453fd4e6fd4df2bd0d7b6f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-09-2021&toDate=14-09-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-09-15_2021-09-21.json",
+          "sha256": "144eec354353ffe785f5943f395f2ce615ad45cd6d68090ceb77a6544f09c6f8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-09-2021&toDate=21-09-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-09-22_2021-09-28.json",
+          "sha256": "2f0945a2c5cd526dd3a05e9e7729659ebbc8d30dbe4f13d8a578c1b4ef1874e4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-09-2021&toDate=28-09-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-09-29_2021-09-30.json",
+          "sha256": "063fd525e22b6107d35ac016f427ef1a87376d2f654851bd0275462889c02948",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-09-2021&toDate=30-09-2021"
+        }
+      ],
+      "unique_surveillance_notices": 60,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "9ad328553681221d91f291ed5bab10dd15e2d80720c2fa05feb7b3f8b60a2526",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-10",
+      "monthly_omissions": [],
+      "monthly_sha256": "dbebc63926a84a25dc6919f4b7a64e4190e2245f614043f80a42dca0fb349a18",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-10-01_2021-10-15.json",
+          "sha256": "a9becb59a8f7dcf90bc12283e012ed226052f456f28c34fd9ce6f8c7a9ad1cb3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2021&toDate=15-10-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-10-16_2021-10-31.json",
+          "sha256": "a9a795273df71644269149046ba97bbf314788f707f2346fefcac65a5be8f0ba",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-10-2021&toDate=31-10-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-10-01_2021-10-07.json",
+          "sha256": "b073c77489be8b90ed4a492f11f3500a6f5af18d074eb45f9eb5d13e75cdb61e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2021&toDate=07-10-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-10-08_2021-10-14.json",
+          "sha256": "da0ad4572d6cfdd48bc5fbca8970f4c3efc974d19ce90be3a48afa1101c4f89f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-10-2021&toDate=14-10-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-10-15_2021-10-21.json",
+          "sha256": "95ea58e4a50cdb153bebeec846e9177ce0e7094ee5028c28dcced3512f8c606e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-10-2021&toDate=21-10-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-10-22_2021-10-28.json",
+          "sha256": "d59d7167342f36943c48f6b3e009f0138db1334c2f82a705d16e49d4b196d0e7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-10-2021&toDate=28-10-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-10-29_2021-10-31.json",
+          "sha256": "e51bd1094f29360d23dc6d57a1f85f51cd7c3e7b23bd692ad8a54e38752bbb9a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-10-2021&toDate=31-10-2021"
+        }
+      ],
+      "unique_surveillance_notices": 72,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "cd31bcc8b2779870b5f7701fe13370ff8f2234479fb398db4c8dca8b53a1c291",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-11",
+      "monthly_omissions": [],
+      "monthly_sha256": "ff813e6fa9aaa45290d3abe43183fdaabec25d1019cd3e5a5c58e60a205c924e",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-11-01_2021-11-15.json",
+          "sha256": "a34d976588ee72fa19734f9d18d7776acde3c2a9922963f9ee696fe3ce86feec",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2021&toDate=15-11-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-11-16_2021-11-30.json",
+          "sha256": "f90473aa3e341f9d8ac8c1fd023f2c7daf8240df6c4a748bdcfbdf2bd6f439c4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-11-2021&toDate=30-11-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-11-01_2021-11-07.json",
+          "sha256": "59a42eea905f07af7953eb670f2f4516ff7152c8f854e510cb2454c6354193e4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2021&toDate=07-11-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-11-08_2021-11-14.json",
+          "sha256": "d4efc0ccb31744a4fc93cbdbfa870910c05255696c0a6bd42da56af33a95811d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-11-2021&toDate=14-11-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-11-15_2021-11-21.json",
+          "sha256": "2d9cdc1cce28150b004e146a14c2acfb5c7dec799fc993889386513586268ce6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-11-2021&toDate=21-11-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-11-22_2021-11-28.json",
+          "sha256": "9f932df45e2a013800ccf480097c7b6c0275dcca04e3efc8518c559d85444bf6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-11-2021&toDate=28-11-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-11-29_2021-11-30.json",
+          "sha256": "5e347b1dc358fda9f2c4dcc6497e4fec25254e8bb3d35ad46863eb0276ad7891",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-11-2021&toDate=30-11-2021"
+        }
+      ],
+      "unique_surveillance_notices": 60,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "a21cebbca1e6b96a3510928f1b3d82795be06b2c10af5c9277272d9bf91a663b",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2021-12",
+      "monthly_omissions": [],
+      "monthly_sha256": "ddad806a7162f129ca1de42960dc3325f4dccf6b0e76cf225f1e7e0d46d64bc9",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2021-12-01_2021-12-15.json",
+          "sha256": "1dbb40c2e48b69ad7ea497a77aac867041b3352356d9ab4053d3036116633659",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2021&toDate=15-12-2021"
+        },
+        {
+          "file": "catalogue-halves/2021-12-16_2021-12-31.json",
+          "sha256": "2a2e482322301a7eabf0b1243678c9ea8808a77749c40796b27629c92756c62b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-12-2021&toDate=31-12-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-12-01_2021-12-07.json",
+          "sha256": "47464584912be7ee3b15344ec9a73d0406b9655d39506cc444fab101c3a12b26",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2021&toDate=07-12-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-12-08_2021-12-14.json",
+          "sha256": "1082980c8e0b39ccf4b9f8257ebf51d06173e229f2b9fe11c3fdc32cd1982a6e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-12-2021&toDate=14-12-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-12-15_2021-12-21.json",
+          "sha256": "58a594129a10646dd1d8aead5386d721c2f50de4af19042c1778a58c2406f317",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-12-2021&toDate=21-12-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-12-22_2021-12-28.json",
+          "sha256": "94a0b02c357bbeb62d3f12e219dc8448aedc1a65c927058da7afda36b6f69d5b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-12-2021&toDate=28-12-2021"
+        },
+        {
+          "file": "catalogue-weeks/2021-12-29_2021-12-31.json",
+          "sha256": "9b3067301825d10f862fbd5ba38f2951e48d1ac6964104059b383ecdf2bd592d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-12-2021&toDate=31-12-2021"
+        }
+      ],
+      "unique_surveillance_notices": 101,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "a4936741d816bd4d3d08301c7c1d7aa211b58d0e88cbe78fd7d1426f8e744c18",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-01",
+      "monthly_omissions": [],
+      "monthly_sha256": "b237cbd79c67269485c74b61e90b8eb78883129448b2ecb4113a7e6e4a779752",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-01-01_2022-01-15.json",
+          "sha256": "f7683053f85a27a6be9da96ec8fc133f9a5151d13b0aa335c7ba6de31fe506c9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2022&toDate=15-01-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-01-16_2022-01-31.json",
+          "sha256": "167b713366ceaa0ebd681e2d90fac2d02a392b8df979b397bf07e72eccf78865",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-01-2022&toDate=31-01-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-01-01_2022-01-07.json",
+          "sha256": "693455583fe5647bd80b5d3556e65048bbc2cfca4f81cbdb597e7bd8c9133326",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2022&toDate=07-01-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-01-08_2022-01-14.json",
+          "sha256": "7e7d98b7dd7848744f3514f40af9fcee2e9616bda4eb197014289ad718646f62",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-01-2022&toDate=14-01-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-01-15_2022-01-21.json",
+          "sha256": "b0d38737cd8cec9c043513b5979b1ad202f36f93f274a37ae9b4b32f38a513cf",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-01-2022&toDate=21-01-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-01-22_2022-01-28.json",
+          "sha256": "44cf0415c72af7ac1680022002cbd585bc58479020025b327d332bdd7b235942",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-01-2022&toDate=28-01-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-01-29_2022-01-31.json",
+          "sha256": "b22df7fba8729bd129f1678531da9c8888d21ae440f8832a6a5897abc1716bf5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-01-2022&toDate=31-01-2022"
+        }
+      ],
+      "unique_surveillance_notices": 79,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "24f1fab5368bb3b05f6db4802a5647b45d7c7fb332ac09d90003261b61d9f392",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-02",
+      "monthly_omissions": [],
+      "monthly_sha256": "7dd50fff158b9c615e378cd35f87a61c485a88e5db143b300bd30e51b37622d2",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-02-01_2022-02-15.json",
+          "sha256": "8c95f4710bc8e5115191f0de9b21e92f213c7af2440ddda0fb0125faea1017c8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2022&toDate=15-02-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-02-16_2022-02-28.json",
+          "sha256": "f705a6b76296be900858785935819d801ea3fed4e03c77c3cf916a122da8e73b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-02-2022&toDate=28-02-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-02-01_2022-02-07.json",
+          "sha256": "37ab9903e085ba886304d7749757f5c355e3dc72125706a913630141e20a9ff2",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2022&toDate=07-02-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-02-08_2022-02-14.json",
+          "sha256": "b9b6fc2ca1fe557e2e9ba3bf27c3ad6ff3ad7519d9f3dfd99f8d729390e60434",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-02-2022&toDate=14-02-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-02-15_2022-02-21.json",
+          "sha256": "dba2d4846d81ca993c9f5df5a720d3cd21b7fed64d79ea70d86647c884f9b740",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-02-2022&toDate=21-02-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-02-22_2022-02-28.json",
+          "sha256": "166687d8bd0b64c432cbda75aa05abb0d094e6dac86d6ae8cae5319c35fccefc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-02-2022&toDate=28-02-2022"
+        }
+      ],
+      "unique_surveillance_notices": 57,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "9ce8aaef16f30c6a8efad233262f6e581e35fd8764b3c930c45423d43cd98f56",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-03",
+      "monthly_omissions": [],
+      "monthly_sha256": "071c47edc300ac18f7aad8da9647138909bb672e40774449cf00dbc3d9535f6c",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-03-01_2022-03-15.json",
+          "sha256": "526f8f8fd2d95d8643d35f1d40a8ac98e48d356e641b7bc0a2df872654a7ddb0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2022&toDate=15-03-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-03-16_2022-03-31.json",
+          "sha256": "0d7ece7bacb19760bd5cd36fdcfd9a8ae820882dbe00a19457a16b2acd55ae99",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-03-2022&toDate=31-03-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-03-01_2022-03-07.json",
+          "sha256": "99a25c490efd4801b7779e6f48077a4feb9416727ed386b7e0a6990e47cd62db",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2022&toDate=07-03-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-03-08_2022-03-14.json",
+          "sha256": "a79699fd3fbbc59ef98fe0641027c56f0f4158c6a47a6d30687a397583060c38",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-03-2022&toDate=14-03-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-03-15_2022-03-21.json",
+          "sha256": "62d021dce744b5745d9b62264e90280f8ec982eedd0e562b85a12930503aaaec",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-03-2022&toDate=21-03-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-03-22_2022-03-28.json",
+          "sha256": "a6ae97940648dfc3f39d9889a6a0afcbdc630d62145c4a8a117aefc88d32a7e4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-03-2022&toDate=28-03-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-03-29_2022-03-31.json",
+          "sha256": "6730e0ab1458163730f39c6be36aafe6b98836e84ab9b3f78700e1b6fb37016f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-03-2022&toDate=31-03-2022"
+        }
+      ],
+      "unique_surveillance_notices": 64,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "56466a7a0971a8d71f993d3cacb83663dbffdb7266f6a57432d1e6a8b34fa504",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-04",
+      "monthly_omissions": [],
+      "monthly_sha256": "52eb920172c8722c8cf044c76c1350d8afdf02cb24a3e7647fa4ca959cbd3b24",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-04-01_2022-04-15.json",
+          "sha256": "7fd50808cf4faa2ecb2988a46b66b638c2f882ffdeacbb107c6ebfeafb16dad7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2022&toDate=15-04-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-04-16_2022-04-30.json",
+          "sha256": "e0eeddf99663a00d11076b37394f026a4767b2146822ea0f46038fb7868f4b35",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-04-2022&toDate=30-04-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-04-01_2022-04-07.json",
+          "sha256": "12dbd70ff8e293b8c2226b63d6d0abffb3b02f155905c6b515448a838a4953d3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2022&toDate=07-04-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-04-08_2022-04-14.json",
+          "sha256": "de65a5bf6a32bcb139c312f73f878cb42e1d45a1b09812b2051ef2d4f12605d7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-04-2022&toDate=14-04-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-04-15_2022-04-21.json",
+          "sha256": "74e94fb19a560e96108d025daaee278ce001e9f0decf1f2eef292419bc8a8ba7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-04-2022&toDate=21-04-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-04-22_2022-04-28.json",
+          "sha256": "e40d1507b2398cd7cad7e0d50967bb9ce1cd5fd62b4caaa95c638502aee72922",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-04-2022&toDate=28-04-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-04-29_2022-04-30.json",
+          "sha256": "c86b0514300221b6884193934596f03599c06dea5a3af50c2786f7e1e204f703",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-04-2022&toDate=30-04-2022"
+        }
+      ],
+      "unique_surveillance_notices": 72,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "5f0c5b02937e5207025294bf47d0f089b4392d84c3d9654c0a79ace79ded7e20",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-05",
+      "monthly_omissions": [],
+      "monthly_sha256": "d722da15738a96d1706cb384c0d8a97b311fa84bfe206d8c05f82d9b744ac856",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-05-01_2022-05-15.json",
+          "sha256": "4f1bc3950c346341166ffa67bdc199680416a9dbcb054fb8c09ffe7caff68f66",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2022&toDate=15-05-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-05-16_2022-05-31.json",
+          "sha256": "5ec7be0d2d8e42dad4e82c545cddcdc6e2f25458ef72525fbdb33dfca020a824",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-05-2022&toDate=31-05-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-05-01_2022-05-07.json",
+          "sha256": "6588b13e85d06228f083a365b3453338849f256f0b1f5ac106f171d0b652db27",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2022&toDate=07-05-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-05-08_2022-05-14.json",
+          "sha256": "dc998dc06a65e0cf8faff5b8568cc9b42469ce1b596aaa5610e3cac8d419d56e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-05-2022&toDate=14-05-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-05-15_2022-05-21.json",
+          "sha256": "27b2fed0706424481de15f741e75ce025b115a1dcd880a0bdd71bbf6fa7b604e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-05-2022&toDate=21-05-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-05-22_2022-05-28.json",
+          "sha256": "83a14da165c99231711a46b4adbce7934e8bcd3e11f3965648f5bc575b0620c4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-05-2022&toDate=28-05-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-05-29_2022-05-31.json",
+          "sha256": "a502cfac99e1d558486130f2ba73a538b72decf7bd4722408c25b4d8c18d57ab",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-05-2022&toDate=31-05-2022"
+        }
+      ],
+      "unique_surveillance_notices": 65,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "ba6675b29683330265a0cbe6b297fbdafbd0fbeccaef410d060a7ab70990dbf7",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-06",
+      "monthly_omissions": [],
+      "monthly_sha256": "7e9ac712ad60f2ca369ad738c3ff5f3ed32f54e91338c7fa573fc876f23ea60d",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-06-01_2022-06-15.json",
+          "sha256": "1d9a1421aba7d0031bc28469b924a5cf811ae11a300f09e9ad6427df9c9d5641",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2022&toDate=15-06-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-06-16_2022-06-30.json",
+          "sha256": "26daf5d43b7963091a7976c7c66c1999d1ed05fa49e3f25f18a1b581ade58aa3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-06-2022&toDate=30-06-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-06-01_2022-06-07.json",
+          "sha256": "38136c98c934fc4e1d06f5cb11029e18f1040f8bf91f8b625bcf0b2adc8b797b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2022&toDate=07-06-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-06-08_2022-06-14.json",
+          "sha256": "a66863826c43c8d68980194a6e7d780b1d3f217a22a74597ebc387a0c8d62a47",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-06-2022&toDate=14-06-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-06-15_2022-06-21.json",
+          "sha256": "071c8774c266332de965a5f53380c0907f72e66daa939a65b7924bc18adebc6e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-06-2022&toDate=21-06-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-06-22_2022-06-28.json",
+          "sha256": "82f69d0bf06070cfbdec31775b0f90a3582ca00db037af4184352d9986156612",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-06-2022&toDate=28-06-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-06-29_2022-06-30.json",
+          "sha256": "5707846c9d313fc44a59e5119503ea23ba32086b856c9b96740cc3dc25f23a19",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-06-2022&toDate=30-06-2022"
+        }
+      ],
+      "unique_surveillance_notices": 83,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "b15da50de1d371ba5461cc03f859cd40a9ffc86478c537256a6e247b0e9f3d49",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-07",
+      "monthly_omissions": [],
+      "monthly_sha256": "4f5afd89c2513e730b33079dc26db77cfddb55d872fa91f397296f6f7dd8962f",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-07-01_2022-07-15.json",
+          "sha256": "a408190b05b53aa4cc5f91d7d9df92a9dcd1ff49141d1f361d7c6845755871e8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2022&toDate=15-07-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-07-16_2022-07-31.json",
+          "sha256": "0400d367a7109625c8adaf52d68e1333b1c77ddbf61e5f22c21ef482ec2b7207",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-07-2022&toDate=31-07-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-07-01_2022-07-07.json",
+          "sha256": "d3527804933c9a780847dec5a40800d8f990e84b7540717b596f1e6cdeeb5edb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2022&toDate=07-07-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-07-08_2022-07-14.json",
+          "sha256": "163c74e499185a72ede4f3c2a870af1a0c9212f947c919d88c8f0d84421d1ed3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-07-2022&toDate=14-07-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-07-15_2022-07-21.json",
+          "sha256": "33673cf5bbc588c5f805715d22fad0f0455bb8863a3fd2430ad8d12bc9ea618f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-07-2022&toDate=21-07-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-07-22_2022-07-28.json",
+          "sha256": "e923a1a6b9911783da7d4d91eccbec634475542b87706a2e537df43cbdeee672",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-07-2022&toDate=28-07-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-07-29_2022-07-31.json",
+          "sha256": "2005b6e18465ff9d5b977db0dfa06a04a2a9958f8ee722a0319801945babd374",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-07-2022&toDate=31-07-2022"
+        }
+      ],
+      "unique_surveillance_notices": 73,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "32cd3549cfca34e9ce9961038d05bd783cf9e23ffae58fa48bb0594eec9832ec",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-08",
+      "monthly_omissions": [],
+      "monthly_sha256": "54e31dab924e77cf7b49954f7a19d71db6ca0c5a887feaaa4513dab97f7b403a",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-08-01_2022-08-15.json",
+          "sha256": "23b4d16d644eb5d2b9450e0b01cb5110fe0ab20529fdb6298d435e3767438202",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2022&toDate=15-08-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-08-16_2022-08-31.json",
+          "sha256": "4ef8d10aa149c79536555cb580b92d7b4726bac30fcbfec0fbffd2dd987d4b87",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-08-2022&toDate=31-08-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-08-01_2022-08-07.json",
+          "sha256": "0ab6070b725a0d07b03a7ab680929e2a46fbbd06a86a87c127ba7e322c0c2bdc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2022&toDate=07-08-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-08-08_2022-08-14.json",
+          "sha256": "a0035b714830a69df1eab4b741e7aac4a931c83421916659d19c448e65d78cc3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-08-2022&toDate=14-08-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-08-15_2022-08-21.json",
+          "sha256": "3a0089186c9d1a65476c98c14b55e7a66af082f92115ab3509d47f86b4cdafd7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-08-2022&toDate=21-08-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-08-22_2022-08-28.json",
+          "sha256": "86026f9e4fa60f3020307549ec28737f65012675c3be07dcda53d5f4c35bbb65",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-08-2022&toDate=28-08-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-08-29_2022-08-31.json",
+          "sha256": "f1edeb30dc572b29753d18df1d40f67615eac1d6e1579c15368fa5800e163cc9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-08-2022&toDate=31-08-2022"
+        }
+      ],
+      "unique_surveillance_notices": 76,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "8dc1b6ad9eae74f92e4021eb42e50c44260e41bd846ed63976bd24ee4a21f9a4",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-09",
+      "monthly_omissions": [],
+      "monthly_sha256": "3d46e558f7a07bfb343071e5b619329ca9fd333957567e9b92068eafe6c27a24",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-09-01_2022-09-15.json",
+          "sha256": "a74c2aa8f4f805f4fb92b858a8799f441da5db81a75179189c890c851ae65354",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2022&toDate=15-09-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-09-16_2022-09-30.json",
+          "sha256": "6f39a5cdfe9cf6365de265d2dd422c19099bbc3bc1da38a20b34d02898c61c19",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-09-2022&toDate=30-09-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-09-01_2022-09-07.json",
+          "sha256": "f7095ba798109137484758d1c9791891ded7c8c4d63852651805da568309e560",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2022&toDate=07-09-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-09-08_2022-09-14.json",
+          "sha256": "c37b0c14685e813e6b8c54735af928a75273063921af5fab01124eff8f76e3d7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-09-2022&toDate=14-09-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-09-15_2022-09-21.json",
+          "sha256": "69f9af6b2d0903b0ee5b86c20e30defda3a87022d9c52eb8f4e615279dd2ac62",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-09-2022&toDate=21-09-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-09-22_2022-09-28.json",
+          "sha256": "676dedb638e3a9394b608185769a5d4867b0a05cf3c10896827ec3578cf7dc19",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-09-2022&toDate=28-09-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-09-29_2022-09-30.json",
+          "sha256": "bcd0f318ed5be5ac002582462c84bf66d098b9d195538d44b0d0ea4381fbc61e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-09-2022&toDate=30-09-2022"
+        }
+      ],
+      "unique_surveillance_notices": 84,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "40763651b7ae010a0151eb40185e17b1af2dbdfe0a7dde7305362994965abbf2",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-10",
+      "monthly_omissions": [],
+      "monthly_sha256": "b394ade56aff5cbd4ea2188e6ea3032679d4135e677fd67567d3b40ece7ddb39",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-10-01_2022-10-15.json",
+          "sha256": "dda3f0cd9a51a999871885d0317cfae6bf9122d1e07d9eb21192e0baa1266821",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2022&toDate=15-10-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-10-16_2022-10-31.json",
+          "sha256": "638ba564a642b276fa71e6c2a1a78444daff680c403cffcaf3a0976e1029d87b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-10-2022&toDate=31-10-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-10-01_2022-10-07.json",
+          "sha256": "8f7acd626a58fa90b0052f1218de5aff8eb07f2fe6cd2127b36bd63fec2225c7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2022&toDate=07-10-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-10-08_2022-10-14.json",
+          "sha256": "23f677db7f7e063f7b2ba6101d63679dfda6867e5997936cf1671ff78b2f3261",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-10-2022&toDate=14-10-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-10-15_2022-10-21.json",
+          "sha256": "166663bfb63102007b6d982b40ae3c16b3a0e2f0b0144fbf87573f989c2b06b4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-10-2022&toDate=21-10-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-10-22_2022-10-28.json",
+          "sha256": "5f243241a03a2458347329fa3356add43066b59f2fff17a8847ca9ce2830239d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-10-2022&toDate=28-10-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-10-29_2022-10-31.json",
+          "sha256": "60482569f280962a1a84ee15e1175c728f22185e37f040d247e1e23ffe33b95c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-10-2022&toDate=31-10-2022"
+        }
+      ],
+      "unique_surveillance_notices": 56,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "f216961d591d747114930e70cc9d62756ccce3e54a0c256595a57d52e026c9bd",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-11",
+      "monthly_omissions": [],
+      "monthly_sha256": "0ed51572a883b938daea39c669360ca89fff6350ee2e137ad25f949938beef64",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-11-01_2022-11-15.json",
+          "sha256": "6ec5de3c011cdddd03cd2a3f2fd9d9b3c183147e39e4c58cbc58976c0be6725a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2022&toDate=15-11-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-11-16_2022-11-30.json",
+          "sha256": "995827f50968e47b62baee0e81b6966991568c8f69dbb195940d84db4a782989",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-11-2022&toDate=30-11-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-11-01_2022-11-07.json",
+          "sha256": "170ccb306991c7c48c7935e4cf42ed5ed46a92af9e2932903f54b7de2bc3da73",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2022&toDate=07-11-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-11-08_2022-11-14.json",
+          "sha256": "d236098740f149429c4a41199f7b37fafcbc6a896c2a44f6e0d85ad70e1c4b83",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-11-2022&toDate=14-11-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-11-15_2022-11-21.json",
+          "sha256": "552298545c8ed899b81086125ee02163fd441ec78a98baf68f70ad06035faf0d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-11-2022&toDate=21-11-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-11-22_2022-11-28.json",
+          "sha256": "4d1ee27a402b2fee97fdf46d2d8cff0ff413af1e91476e16135429861a15d515",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-11-2022&toDate=28-11-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-11-29_2022-11-30.json",
+          "sha256": "e05b7b1b7150ff5ee2ab8e97dbeb623e44a9b343861fb1368741791d99da9067",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-11-2022&toDate=30-11-2022"
+        }
+      ],
+      "unique_surveillance_notices": 71,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "ead29c0bd0856109e25ca08dd1ce9639bcaaf89166c6d313559695842bfbc0b3",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2022-12",
+      "monthly_omissions": [],
+      "monthly_sha256": "a3520aced5ff1db5993d2016c9dbf17fa52f927b7e917e58724b4165ed7019b2",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2022-12-01_2022-12-15.json",
+          "sha256": "cd67edc5736a0c1488bab98b1a22dd66a608e61e16ac64b2a6dbcdf4630df836",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2022&toDate=15-12-2022"
+        },
+        {
+          "file": "catalogue-halves/2022-12-16_2022-12-31.json",
+          "sha256": "a08194faf03df359bc1999983bab98f7d48e670f3ee5cc2c68a777f04fc8b59b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-12-2022&toDate=31-12-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-12-01_2022-12-07.json",
+          "sha256": "7af7f82a02c136da7166bf1244aedc96904ffd2a4cf0542109bfb616077a3d03",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2022&toDate=07-12-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-12-08_2022-12-14.json",
+          "sha256": "69adbc76173e7ef15b7e3ce3a8dbe9d66fdca07a00a2f0aa3400e7e7fdfda0a4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-12-2022&toDate=14-12-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-12-15_2022-12-21.json",
+          "sha256": "8a4521fea33ef43d1ee46c6789f4f52b17d53ff5abaada831689e4f4d816e9fd",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-12-2022&toDate=21-12-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-12-22_2022-12-28.json",
+          "sha256": "45a9f0e3036fe19c62d32d742a0b58663050de05cab29859dbe1fc734e5b7ceb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-12-2022&toDate=28-12-2022"
+        },
+        {
+          "file": "catalogue-weeks/2022-12-29_2022-12-31.json",
+          "sha256": "fbf67ac4f47f1ec6bd75660f4e0a2e14c54a8e0e3ee0141ddde096693d16c162",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-12-2022&toDate=31-12-2022"
+        }
+      ],
+      "unique_surveillance_notices": 86,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "a03b1824d518daa982bd97dc794066d722d61eb769c4910b4d4a52b0583b5bca",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-01",
+      "monthly_omissions": [],
+      "monthly_sha256": "076885b688b773eb34006d5c3b301e8d5b07ce7a16f662fedb512b2fbb91473e",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-01-01_2023-01-15.json",
+          "sha256": "8624451b0f3ba87c8ee666fcefbff2631c8778543ddec9df7ec1eb07ea827acd",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2023&toDate=15-01-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-01-16_2023-01-31.json",
+          "sha256": "525ec7c83c70cce8c5b6fb90c66508889967f438ded1702c15897599fe1b3fc6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-01-2023&toDate=31-01-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-01-01_2023-01-07.json",
+          "sha256": "c4ee29c0465cfe88f4f1a7cad91765866cde9fc95ee44c0a044a327df2f2c1dc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2023&toDate=07-01-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-01-08_2023-01-14.json",
+          "sha256": "b8b2a12cad3e9c6cbb62b706b6a216ecfcd63b698408cf47ccd288168ad0772c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-01-2023&toDate=14-01-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-01-15_2023-01-21.json",
+          "sha256": "4eb0f0af1e25ce957601ecb1ec01e28d5984b49c951aa3067374c3c6dbcc4f54",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-01-2023&toDate=21-01-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-01-22_2023-01-28.json",
+          "sha256": "27477915d0f1c8ac160299e8f1acbc4530bc08072d3b22243920da620c796f93",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-01-2023&toDate=28-01-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-01-29_2023-01-31.json",
+          "sha256": "bf7b2f2c4be0e1151449d54c2af5f1a6c477021535b47f8e14dc100a2c5a9bb3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-01-2023&toDate=31-01-2023"
+        }
+      ],
+      "unique_surveillance_notices": 68,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "dae5bb8a056acff1fc01623c8358044e61cb2d3479e09a199fca56b1fb52065e",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-02",
+      "monthly_omissions": [],
+      "monthly_sha256": "ede930c8a3681227ca8a193703c88aabb295e23392a2136c9f3d5710db02214c",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-02-01_2023-02-15.json",
+          "sha256": "8c461cd6e297d4b820798598079eb4110d3eb5b610aa44782125db65a0b735f8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2023&toDate=15-02-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-02-16_2023-02-28.json",
+          "sha256": "900fed53f8a54f9e80c891d2f3d07b7bb592a80d88d1d46eb8ef9fdc18acd5aa",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-02-2023&toDate=28-02-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-02-01_2023-02-07.json",
+          "sha256": "807d7415f897cda439361ba6f7dfe5018805a1409276e22d80b2d6aa7d9d4dd9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-02-2023&toDate=07-02-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-02-08_2023-02-14.json",
+          "sha256": "39141f61bbe64548d1d0bd262f6178bab3e7cd4d4d8dd553e62457779e490c2b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-02-2023&toDate=14-02-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-02-15_2023-02-21.json",
+          "sha256": "a46549c66fbcbbe9e685d90553d494088f28285491748c55a405a23abd7b5156",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-02-2023&toDate=21-02-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-02-22_2023-02-28.json",
+          "sha256": "e39ea97cafc3b7959ee3e0402ba7209099d075be94b684796778331874e1d253",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-02-2023&toDate=28-02-2023"
+        }
+      ],
+      "unique_surveillance_notices": 72,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "cbe7e7ee364c5cdfd5bec743951a7a89b56a95f7a4d8f1fe2df14d0a107c27bc",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-03",
+      "monthly_omissions": [],
+      "monthly_sha256": "50ed4c3239049c86d929438a3d80b2cab3aa7292fff03175b75c52d17581bf6f",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-03-01_2023-03-15.json",
+          "sha256": "e536cc8561ec654ef07bd224f792488eced32f8c82e4a36b93e59527861172de",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2023&toDate=15-03-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-03-16_2023-03-31.json",
+          "sha256": "37f5b8cd4441ec05dc069908acc72bc9357b142ae269980c5908c2d7d4554f6e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-03-2023&toDate=31-03-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-03-01_2023-03-07.json",
+          "sha256": "3d2ee50ed17a2a86ea90187bd7128d2225cc0bc1a314a87bf45123e88bb1d249",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-03-2023&toDate=07-03-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-03-08_2023-03-14.json",
+          "sha256": "24c80ac04432d56ba042d9eabdc5b17aac942775f01452d4c80e8f0d713c9917",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-03-2023&toDate=14-03-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-03-15_2023-03-21.json",
+          "sha256": "6102abc2e3bc05161121e2674982edcbf853c474d94eefd395ad021a4b6570a0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-03-2023&toDate=21-03-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-03-22_2023-03-28.json",
+          "sha256": "7c310972e13e29a614c6d0f05bd7b5b62c05f4c3dd425b30a5aa5adf2b64a740",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-03-2023&toDate=28-03-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-03-29_2023-03-31.json",
+          "sha256": "9158fc354f58e2846fad9f4cfb8c6927c21a6aa86979db2b28f0b957085c2cb6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-03-2023&toDate=31-03-2023"
+        }
+      ],
+      "unique_surveillance_notices": 68,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "e688668d339fbb2c2a67d8713485fa7307c62433ca429a83d2ca0765f0745736",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-04",
+      "monthly_omissions": [],
+      "monthly_sha256": "14bbf6edfcf474e59099ce1206aa3cae41d736490c35314392ac44c31492eeb2",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-04-01_2023-04-15.json",
+          "sha256": "6802d0de85c3234869a294c2b16e93a0e7ad2d0c9b9fe17f131b76eeaf560b30",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2023&toDate=15-04-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-04-16_2023-04-30.json",
+          "sha256": "b8a145af4f93098d80fabab162162c2716c08000225643ae69b3a9f87621dcc7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-04-2023&toDate=30-04-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-04-01_2023-04-07.json",
+          "sha256": "72448dd7dfa6d823c7df3555c8ff356212c7241e9b62a2f00a6c2a5de4b58d80",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-04-2023&toDate=07-04-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-04-08_2023-04-14.json",
+          "sha256": "ebc7d2879dd06f57efc219ac862245486e6d82480f1851806afcd96e166b6dc1",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-04-2023&toDate=14-04-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-04-15_2023-04-21.json",
+          "sha256": "2567b5012c2180f8e71aad9158d5c08ad80772351fe176bbf6667d6cec4d9602",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-04-2023&toDate=21-04-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-04-22_2023-04-28.json",
+          "sha256": "b1016a5ef6c22e9134a8f9a224e3c74fa21cb698903e209de947f42cce0b0dd3",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-04-2023&toDate=28-04-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-04-29_2023-04-30.json",
+          "sha256": "a3ddbc9667a3ea27aa8e78d635336ba6a33bd48cde8fe0cadfa2d2d7f54bffd0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-04-2023&toDate=30-04-2023"
+        }
+      ],
+      "unique_surveillance_notices": 66,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "eed995ad840659d772ea16cdb78ed0e857a0298762d87af261f5c529c93d80a3",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-05",
+      "monthly_omissions": [],
+      "monthly_sha256": "e0cc9f9abf68b193c648f4b0e96bad9338de0b45f5a8a24f4225642cd5b8787c",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-05-01_2023-05-15.json",
+          "sha256": "40cb70f0863bde626d2680c057c7a90029d682d5a11a3abf1978c4b6bf870d73",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2023&toDate=15-05-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-05-16_2023-05-31.json",
+          "sha256": "4c6f54394b8ee62ee991a7edb442f73876c7ca89c08082260b73b5400a68a8fa",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-05-2023&toDate=31-05-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-05-01_2023-05-07.json",
+          "sha256": "92679cf96498a98488995b5a75994ca7cdccb5143cb82af03f369e9efd05dc2d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-05-2023&toDate=07-05-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-05-08_2023-05-14.json",
+          "sha256": "abe36a1383aab3d1c5461ca8b73899abecf35c9dbf4e4d24c7f88babcbf00d9c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-05-2023&toDate=14-05-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-05-15_2023-05-21.json",
+          "sha256": "b4431cc53759b565ebdf88be112ad4623a5a8fc8f53388b9242a4579256552ee",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-05-2023&toDate=21-05-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-05-22_2023-05-28.json",
+          "sha256": "3d6c809a203efcc8ba135357b07c1ab866f50645d12f0d5ec294c0176530254f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-05-2023&toDate=28-05-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-05-29_2023-05-31.json",
+          "sha256": "97b1b9a374d0803ec11e02d4739ceb57214137b1e0229c43146ebe3fd2055910",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-05-2023&toDate=31-05-2023"
+        }
+      ],
+      "unique_surveillance_notices": 68,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "d52f384e55bec2804b20cbfc99bc0507d69ce89cf67c4319116f861c35cfaee9",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-06",
+      "monthly_omissions": [],
+      "monthly_sha256": "4a45b1c4cfa9a31e06067fa57386cb45666a0a62a9524c957ed042e878ed8841",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-06-01_2023-06-15.json",
+          "sha256": "882240a05210be47897edd3828ab3538c02738efe649b14baa4633af1e0cced8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2023&toDate=15-06-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-06-16_2023-06-30.json",
+          "sha256": "73a1a1ff7060233b5015f1b96ea412440a1028eef4612a9ff3e159487a5cd6ae",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-06-2023&toDate=30-06-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-06-01_2023-06-07.json",
+          "sha256": "7800b16f37811227d11ec8eb0eddbd1428d556772d36481a12b2fc71b27775e5",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-06-2023&toDate=07-06-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-06-08_2023-06-14.json",
+          "sha256": "ecbe0241151ec510de38989f28f1642ec20fe916454d5aadcabdb2ebd979661b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-06-2023&toDate=14-06-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-06-15_2023-06-21.json",
+          "sha256": "e16900fe715306443c8174d540ec5f383958d67523561e684fb5f0214e70bc98",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-06-2023&toDate=21-06-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-06-22_2023-06-28.json",
+          "sha256": "336f589a068af68652277b0bcbcf6069e5a807a1283cd670ed45073835b01a87",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-06-2023&toDate=28-06-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-06-29_2023-06-30.json",
+          "sha256": "73af2e31d73155c07a7eee73071f27a656328e41681e25e7c4a349337b507fcb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-06-2023&toDate=30-06-2023"
+        }
+      ],
+      "unique_surveillance_notices": 106,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "eadae27a10a2df91a364e8fc8b45bf913cc24ba60adb7a2888b8de03d2395671",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-07",
+      "monthly_omissions": [],
+      "monthly_sha256": "7f2ce8424c0de04798b6723a36073c69f76ce61b0ee275bc8cd0ed4b40746e97",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-07-01_2023-07-15.json",
+          "sha256": "52c042887cb0828d728853a673824b30f8c8ef7ff8960394b7371e5084c2a418",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2023&toDate=15-07-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-07-16_2023-07-31.json",
+          "sha256": "5d5dd0751123bab3d024db97f40974c27d94a873ced9e493b1082e801c2faf77",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-07-2023&toDate=31-07-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-07-01_2023-07-07.json",
+          "sha256": "fe6677ca8a38c538bee1906b66cb1fa3fddb141d12a385c0a04429daf3ce0579",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-07-2023&toDate=07-07-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-07-08_2023-07-14.json",
+          "sha256": "fba7034ce49f862d1728b195d99ee86458466746c609289304bf6b1905412c61",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-07-2023&toDate=14-07-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-07-15_2023-07-21.json",
+          "sha256": "a308e378b45f43e1e8457539a2ea2965c074254097b7dc7b16166387efce158c",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-07-2023&toDate=21-07-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-07-22_2023-07-28.json",
+          "sha256": "b47ca54a05f30784d9d01f7c2f806a8c221d9f01a474b58479d364ebd89b6470",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-07-2023&toDate=28-07-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-07-29_2023-07-31.json",
+          "sha256": "c6ebb8a20d0463993c2be4e6d1138bad5c8a9421024ede9638cb55c512ea568d",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-07-2023&toDate=31-07-2023"
+        }
+      ],
+      "unique_surveillance_notices": 89,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "229245d1fd3c6307ade179207ca07ec6589422c5749bfd4aa41ffb4e36006066",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-08",
+      "monthly_omissions": [
+        "SURV57872.zip",
+        "SURV57874.zip",
+        "SURV57875.zip",
+        "SURV57877.zip",
+        "SURV57889.zip",
+        "SURV57944.zip",
+        "SURV57948.zip",
+        "SURV57952.zip",
+        "SURV57955.zip"
+      ],
+      "monthly_sha256": "91208425a39c61cbe55a039674c4d44ff9215e50464d50eff8d9fccf3a5b40d4",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-08-01_2023-08-15.json",
+          "sha256": "c59a2ba8ecfb50d1b747e17c0a15ec5798e21e53613967d37f8f548b79937552",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2023&toDate=15-08-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-08-16_2023-08-31.json",
+          "sha256": "ba49a79c46a54c808f0fae7479d3e4636b4035d7254785991cddc452acd39aaf",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-08-2023&toDate=31-08-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-08-01_2023-08-07.json",
+          "sha256": "5b06439b58280ec51cf7977982df4a744144b57d2b943c22941f02437a2779da",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-08-2023&toDate=07-08-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-08-08_2023-08-14.json",
+          "sha256": "63e48a20930f2dc2f92fe5f1b8b57470aae92b9b912ba99398310c57c76bb56f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-08-2023&toDate=14-08-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-08-15_2023-08-21.json",
+          "sha256": "f7090c0055b52e7ab380e76753d452eeacbc0ac21fe08221df37ccbfd73d08ea",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-08-2023&toDate=21-08-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-08-22_2023-08-28.json",
+          "sha256": "7c4ecf65af49c91ec0cef613f5bdc66db19b566bb02bf8e14572dbffd8928895",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-08-2023&toDate=28-08-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-08-29_2023-08-31.json",
+          "sha256": "b57e95214d796ba3d74b165aec767c527f16210852fbb78c213233d28ad88e7f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-08-2023&toDate=31-08-2023"
+        },
+        {
+          "file": "catalogue-days/2023-08-07_2023-08-07.json",
+          "sha256": "e50d471a00bb992c4a64d36ced16ca39097ff009f49a224ff511a63e13e21e12",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=07-08-2023&toDate=07-08-2023"
+        },
+        {
+          "file": "catalogue-checks/2023-08-06_2023-08-08.json",
+          "sha256": "2328e15b30bec4cdf9a3b5a389f27894961c8c097e24e412c576259ed3fdec59",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=06-08-2023&toDate=08-08-2023"
+        },
+        {
+          "file": "catalogue-days/2023-08-08_2023-08-08.json",
+          "sha256": "98a3520d29b6927bb9a2b4eb171a70bacd932c3d729b8564f026f0b382cf24b7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-08-2023&toDate=08-08-2023"
+        },
+        {
+          "file": "catalogue-checks/2023-08-07_2023-08-09.json",
+          "sha256": "7dc98a0632d9522354133f1ea8d7cc216009662f85e3fdb327406998aa8f07fc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=07-08-2023&toDate=09-08-2023"
+        },
+        {
+          "file": "catalogue-days/2023-08-11_2023-08-11.json",
+          "sha256": "648ae62d3e5f4512d05d54e39a01ed3e31d089e5bb24e45d0fd2198673066ce9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=11-08-2023&toDate=11-08-2023"
+        },
+        {
+          "file": "catalogue-checks/2023-08-10_2023-08-12.json",
+          "sha256": "77ce3f7e068f2a5ccb9c1bc42517a01f1b786b1f082e78ee1d7757373767effc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=10-08-2023&toDate=12-08-2023"
+        }
+      ],
+      "unique_surveillance_notices": 94,
+      "unresolved_daily_inventory": [
+        "2023-08-07"
+      ],
+      "verified_sha256": "4b8f9dbc9488a40508fe0255c66176a9ab23ccce388692f7662140a8f2cb58f2",
+      "weekly_omissions": [
+        "SURV57872.zip",
+        "SURV57874.zip",
+        "SURV57875.zip",
+        "SURV57877.zip",
+        "SURV57889.zip",
+        "SURV57944.zip",
+        "SURV57948.zip",
+        "SURV57952.zip",
+        "SURV57955.zip"
+      ]
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-09",
+      "monthly_omissions": [],
+      "monthly_sha256": "4f91a2c2c63d5bfd4e5fa52e4dcdb7941679a6fb2c7a20089fbb67dcb17bc9d7",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-09-01_2023-09-15.json",
+          "sha256": "ec3f92e7d54be8a86d8e52bc9158b8fdf01f40e52043914a6ae6e6222e8b9539",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2023&toDate=15-09-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-09-16_2023-09-30.json",
+          "sha256": "5a77022f23924cdd417846b4ec00af83755f8409c1ac1072c6b486acba1cb6b6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-09-2023&toDate=30-09-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-09-01_2023-09-07.json",
+          "sha256": "ab9892d4a94c32625e4efedbd8c1c87b9a0c4f6a482b337184c5568556b67d51",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-09-2023&toDate=07-09-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-09-08_2023-09-14.json",
+          "sha256": "c33cf89a653188ef0586172a127496dea5262050cbab1971af3363e3fff4b97a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-09-2023&toDate=14-09-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-09-15_2023-09-21.json",
+          "sha256": "652b150c98e8158e2630eaa981c10bbff4fccd89686ba457afc1183bffe36766",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-09-2023&toDate=21-09-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-09-22_2023-09-28.json",
+          "sha256": "877decdf89e0e4e25c9171e643fcfb3773c78d767a6e9e2441ec0a87fd6dea84",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-09-2023&toDate=28-09-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-09-29_2023-09-30.json",
+          "sha256": "d1b39cd56c34632cf302805ede6404039ce8001ad51c12e02606c911c6f4b7f0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-09-2023&toDate=30-09-2023"
+        }
+      ],
+      "unique_surveillance_notices": 93,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "6ee68cfd71bc2de4a2724c1158df4863fb3b038eae4bf4776509e45e817e8ed4",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-10",
+      "monthly_omissions": [
+        "SURV59053.zip",
+        "SURV59054.zip",
+        "SURV59055.zip"
+      ],
+      "monthly_sha256": "2f650d659795ea462ae402f6795c022648f4e393055731f34b8aff4cc633a8f5",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-10-01_2023-10-15.json",
+          "sha256": "08d991aa270c590718376e8d8c53f60d23c8bb8120db4e5a4b8b1fc5e3b55453",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2023&toDate=15-10-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-10-16_2023-10-31.json",
+          "sha256": "363c5e9c9161e53f307cc0130ba6662706eb9f7f441188897eea109dd0668078",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-10-2023&toDate=31-10-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-10-01_2023-10-07.json",
+          "sha256": "5742b7e7d466a9ebda93e9af74faeff3fcbaa9f52a72913ac8a4ac7510594c4a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-10-2023&toDate=07-10-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-10-08_2023-10-14.json",
+          "sha256": "d4b53ed97fa818aae052c568d2876007cafc7ae96f769e4fc5ef364ab99832b9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-10-2023&toDate=14-10-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-10-15_2023-10-21.json",
+          "sha256": "258935629b1bd20d155c1b4181b7120dcaf930b203636dc0f92a59cd67ce5658",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-10-2023&toDate=21-10-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-10-22_2023-10-28.json",
+          "sha256": "98d6e0446500d52c8fd12673d7741726097d697c1cd220f6b794ec159facfdc4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-10-2023&toDate=28-10-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-10-29_2023-10-31.json",
+          "sha256": "5d0e6d4b8b0c09624d068a66ccbede246e52df57d53629c3a5369851531656a8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-10-2023&toDate=31-10-2023"
+        }
+      ],
+      "unique_surveillance_notices": 83,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "4b757125de846c2bbdce7e00034f22f5cbe928a367071c0cedd0beb39d5f1add",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-11",
+      "monthly_omissions": [],
+      "monthly_sha256": "a8db8c8725f262f8f4193a31ad1230aa7dd753d9580c9e7a0a268159124f1c38",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-11-01_2023-11-15.json",
+          "sha256": "ce32f800c77437878295977337adacf75b84c43a59c5627658425ce4b27320e8",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2023&toDate=15-11-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-11-16_2023-11-30.json",
+          "sha256": "67af3da363382fe28ae82e1aeee167fe2cfdc8f544fa4f97a96f8bcd9623d1d4",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-11-2023&toDate=30-11-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-11-01_2023-11-07.json",
+          "sha256": "2151e1f4df789be71ab0fecc654d0fb6442225d3d3a3ff02e59db77bf3c4f1cc",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-11-2023&toDate=07-11-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-11-08_2023-11-14.json",
+          "sha256": "25cfce7d3c2f73cd2d4f8ceecafc19bf09db27144237c9d33bacb16d723c701b",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-11-2023&toDate=14-11-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-11-15_2023-11-21.json",
+          "sha256": "3953c63ad7476927cf3c39e71d5396f9ada2cce04a33414627865ed89419ffbb",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-11-2023&toDate=21-11-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-11-22_2023-11-28.json",
+          "sha256": "8828c584468cd2787c924f693d18b346b34646c6bcea94908e402bf4fdfbc981",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-11-2023&toDate=28-11-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-11-29_2023-11-30.json",
+          "sha256": "ff7c85260ca58b07482f0eb12477c26ef80ab21bd0d89f965b8f0848732e5ef7",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-11-2023&toDate=30-11-2023"
+        }
+      ],
+      "unique_surveillance_notices": 92,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "85fce725a367735e8f2249102e164da8f87b5863901fbfdef76f9792cf54f3a1",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2023-12",
+      "monthly_omissions": [],
+      "monthly_sha256": "c174471ebba40d0ba4f862eae4b72d82ecca446a8c0725abeb627582008f1115",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2023-12-01_2023-12-15.json",
+          "sha256": "6074891217951a66aeb305d04256f4f371fae6f291a6e77864334aa3c786068a",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2023&toDate=15-12-2023"
+        },
+        {
+          "file": "catalogue-halves/2023-12-16_2023-12-31.json",
+          "sha256": "76fd044f49604ad562e7ce4d97d060827defe971aaf9afe3dfac1450099ac3a0",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-12-2023&toDate=31-12-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-12-01_2023-12-07.json",
+          "sha256": "2c6ba0be6a1df96b083b51488a60c1887a64bc10635f162f51c18126fec90a01",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-12-2023&toDate=07-12-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-12-08_2023-12-14.json",
+          "sha256": "5c148afeb17c2824bf4ec98a93c9e865abb5fec34794c4c21178257969bb2d6e",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-12-2023&toDate=14-12-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-12-15_2023-12-21.json",
+          "sha256": "57b7c6d8d31595fb1d04f47aa820be2c8dd6f0320306ff6820e253f1b0ab831f",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-12-2023&toDate=21-12-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-12-22_2023-12-28.json",
+          "sha256": "ea5f054bc20e31738f3754ebf7c90ddad5f99936783c0f972eb022b000ca4b54",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=22-12-2023&toDate=28-12-2023"
+        },
+        {
+          "file": "catalogue-weeks/2023-12-29_2023-12-31.json",
+          "sha256": "1d1b0c36fd9c4134a2d0acdd3acb26388e56c97b3ae0c734f6a494685eb9b9a9",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=29-12-2023&toDate=31-12-2023"
+        }
+      ],
+      "unique_surveillance_notices": 90,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "903a642772becfb03f5591ec074f5bbcd2ad73ca3019be19011375c1687b892a",
+      "weekly_omissions": []
+    },
+    {
+      "half_month_omissions": [],
+      "month": "2024-01",
+      "monthly_omissions": [],
+      "monthly_sha256": "ec47690bc9c67b1e858a456eed5110b1b64918fca2ff5fa4bfec81af54a13252",
+      "observed_sources": [
+        {
+          "file": "catalogue-halves/2024-01-01_2024-01-15.json",
+          "sha256": "a56f824aff747e890d03a222cd40460e7427351de278b42abc4c5027658d66f6",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2024&toDate=15-01-2024"
+        },
+        {
+          "file": "catalogue-halves/2024-01-16_2024-01-21.json",
+          "sha256": "ace21ccb62d16b790637a425f3a42b6d2ab1f6a707f61ba219ac1c11b1124ede",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=16-01-2024&toDate=21-01-2024"
+        },
+        {
+          "file": "catalogue-weeks/2024-01-01_2024-01-07.json",
+          "sha256": "b2e192e892824da6af0082cc959a3ab6e12847aab5061850318975fb893d8702",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=01-01-2024&toDate=07-01-2024"
+        },
+        {
+          "file": "catalogue-weeks/2024-01-08_2024-01-14.json",
+          "sha256": "cb6d463d8ee5759005c48e6b03fcbebe04e666b16f0972a5c01da66b68866621",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=08-01-2024&toDate=14-01-2024"
+        },
+        {
+          "file": "catalogue-weeks/2024-01-15_2024-01-21.json",
+          "sha256": "74745f9568714312277a04e9691461999cc8ab837ad44f6773f18b5e1b01e046",
+          "url": "https://www.nseindia.in/api/circulars?fromDate=15-01-2024&toDate=21-01-2024"
+        }
+      ],
+      "unique_surveillance_notices": 79,
+      "unresolved_daily_inventory": [],
+      "verified_sha256": "ec840cec9d435a2d6dd9bc61000557923e22a44ea261a5032c6917178189287e",
+      "weekly_omissions": []
+    }
+  ]
+}

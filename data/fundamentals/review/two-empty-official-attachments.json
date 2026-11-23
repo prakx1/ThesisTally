@@ -1,0 +1,56 @@
+[
+  {
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "content_type": "application/zip",
+    "head_hex": "",
+    "requested": "https://archives.nseindia.com/corporate/67LetterQ1Results_14072020133601.zip",
+    "status": 200,
+    "url": "https://archives.nseindia.com/corporate/67LetterQ1Results_14072020133601.zip"
+  },
+  {
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "content_type": "application/zip",
+    "head_hex": "",
+    "requested": "https://nsearchives.nseindia.com/corporate/67LetterQ1Results_14072020133601.zip",
+    "status": 200,
+    "url": "https://nsearchives.nseindia.com/corporate/67LetterQ1Results_14072020133601.zip"
+  },
+  {
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "content_type": "application/zip",
+    "head_hex": "",
+    "requested": "https://nsearchives.nseindia.in/corporate/67LetterQ1Results_14072020133601.zip",
+    "status": 200,
+    "url": "https://nsearchives.nseindia.in/corporate/67LetterQ1Results_14072020133601.zip"
+  },
+  {
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "content_type": "application/zip",
+    "head_hex": "",
+    "requested": "https://archives.nseindia.com/corporate/KARURVYSYA_31MAR2012_S_Q4A.zip",
+    "status": 200,
+    "url": "https://archives.nseindia.com/corporate/KARURVYSYA_31MAR2012_S_Q4A.zip"
+  },
+  {
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "content_type": "application/zip",
+    "head_hex": "",
+    "requested": "https://nsearchives.nseindia.com/corporate/KARURVYSYA_31MAR2012_S_Q4A.zip",
+    "status": 200,
+    "url": "https://nsearchives.nseindia.com/corporate/KARURVYSYA_31MAR2012_S_Q4A.zip"
+  },
+  {
+    "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "content_type": "application/zip",
+    "head_hex": "",
+    "requested": "https://nsearchives.nseindia.in/corporate/KARURVYSYA_31MAR2012_S_Q4A.zip",
+    "status": 200,
+    "url": "https://nsearchives.nseindia.in/corporate/KARURVYSYA_31MAR2012_S_Q4A.zip"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "books": {
+    "equal_risk": {
+      "qualified": false,
+      "verdict": "not enough data"
+    },
+    "funded": {
+      "qualified": false,
+      "verdict": "not enough data"
+    }
+  },
+  "evaluation": "insufficient data",
+  "evidence": "data/fundamentals/replays/80439cf03f306663141a/report.json",
+  "evidence_sha256": "4530fc5fd9b1dc4cc3194fdbc0e4d80283b815f1cd6b951108d2483faa8ae9ce",
+  "family": "results-d-v1",
+  "filing_coverage_eligible_years": [],
+  "id": "results-d20",
+  "registration_commit": "af36fef9ddcd7b7458dbc94b9d7e1b716f3ee3da",
+  "registration_sha256": "75ce440d51705dc950d0592b939e7bf4336cacede2012017614e50c153788744",
+  "source_processing": {
+    "path": "data/fundamentals/processing-history/0e93eb357fb6e0905f52fd9a518a571f1738030a5b38ec4a97b0dca9ea7bb6ce.json",
+    "sha256": "5da677beb1e30db686ec6f5f4278bbbe6006978a597c323c115fb93933d008ba"
+  },
+  "status": "proposed"
+}

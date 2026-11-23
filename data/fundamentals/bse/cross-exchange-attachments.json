@@ -1,0 +1,147 @@
+[
+  {
+    "symbol": "TCS",
+    "exchange": "bse",
+    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/bba9ac32-1e95-4c4a-a1fb-7ca9742c180e.pdf",
+    "announced_at": null,
+    "attempts": [
+      {
+        "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/bba9ac32-1e95-4c4a-a1fb-7ca9742c180e.pdf",
+        "status": 200
+      }
+    ],
+    "sha256": "fd59a27f69aa63e888325d45f1e68f6a0cd7a8820301edc3ba89d8128a58b018",
+    "bytes": 633434,
+    "cover_signature_if_printed": "2024.10.10 16:03:28"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "nse",
+    "url": "https://nsearchives.nseindia.in/corporate/TCS_10102024160940_SEIntfinancials.pdf",
+    "announced_at": "2024-10-10T16:09:40+05:30",
+    "attempts": [
+      {
+        "url": "https://archives.nseindia.com/corporate/TCS_10102024160940_SEIntfinancials.pdf",
+        "status": 200
+      }
+    ],
+    "sha256": "fd59a27f69aa63e888325d45f1e68f6a0cd7a8820301edc3ba89d8128a58b018",
+    "bytes": 633434,
+    "cover_signature_if_printed": "2024.10.10 16:03:28"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "nse",
+    "url": "https://nsearchives.nseindia.in/corporate/SEIntfinancials_10102024160639.pdf",
+    "announced_at": "2024-10-10T16:06:39+05:30",
+    "attempts": [
+      {
+        "url": "https://archives.nseindia.com/corporate/SEIntfinancials_10102024160639.pdf",
+        "status": 200
+      }
+    ],
+    "sha256": "fd59a27f69aa63e888325d45f1e68f6a0cd7a8820301edc3ba89d8128a58b018",
+    "bytes": 633434,
+    "cover_signature_if_printed": "2024.10.10 16:03:28"
+  },
+  {
+    "symbol": "APLAPOLLO",
+    "exchange": "bse",
+    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5d292b8f-2868-4552-8681-c3bdb5615667.pdf",
+    "announced_at": null,
+    "attempts": [
+      {
+        "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5d292b8f-2868-4552-8681-c3bdb5615667.pdf",
+        "status": 200
+      }
+    ],
+    "sha256": "aa7a486e7a26f2f879b8e66a91d87eb497f2760c7eba961bbf35d3bb8396ba08",
+    "bytes": 2008015,
+    "cover_signature_if_printed": null
+  },
+  {
+    "symbol": "APLAPOLLO",
+    "exchange": "nse",
+    "url": "https://nsearchives.nseindia.in/corporate/APLAPOLLO_20012025145033_BM_Outcome20_financials.pdf",
+    "announced_at": "2025-01-20T14:51:02+05:30",
+    "attempts": [
+      {
+        "url": "https://archives.nseindia.com/corporate/APLAPOLLO_20012025145033_BM_Outcome20_financials.pdf",
+        "status": 200
+      }
+    ],
+    "sha256": "aa7a486e7a26f2f879b8e66a91d87eb497f2760c7eba961bbf35d3bb8396ba08",
+    "bytes": 2008015,
+    "cover_signature_if_printed": null
+  },
+  {
+    "symbol": "APLAPOLLO",
+    "exchange": "nse",
+    "url": "https://nsearchives.nseindia.in/corporate/BM_Outcome20_financials_20012025144700.pdf",
+    "announced_at": "2025-01-20T14:47:01+05:30",
+    "attempts": [
+      {
+        "url": "https://archives.nseindia.com/corporate/BM_Outcome20_financials_20012025144700.pdf",
+        "status": 404
+      },
+      {
+        "url": "https://nsearchives.nseindia.in/corporate/BM_Outcome20_financials_20012025144700.pdf",
+        "error": "The read operation timed out"
+      },
+      {
+        "url": "https://nsearchives.nseindia.com/corporate/BM_Outcome20_financials_20012025144700.pdf",
+        "error": "The read operation timed out"
+      }
+    ]
+  },
+  {
+    "symbol": "MAXHEALTH",
+    "exchange": "bse",
+    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5dd3862f-a0c0-4354-83e9-9398cc9027b0.pdf",
+    "announced_at": null,
+    "attempts": [
+      {
+        "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5dd3862f-a0c0-4354-83e9-9398cc9027b0.pdf",
+        "status": 200
+      }
+    ],
+    "sha256": "91e48583dcc3b7a192941a0cb21f2e35b57bab797d579d9c92395d7db069189f",
+    "bytes": 3068240,
+    "cover_signature_if_printed": "2025.01.30 19:32:03"
+  },
+  {
+    "symbol": "MAXHEALTH",
+    "exchange": "nse",
+    "url": "https://nsearchives.nseindia.in/corporate/MAXHEALTH_30012025141421_BM_Outcome.pdf",
+    "announced_at": "2025-01-30T14:14:45+05:30",
+    "attempts": [
+      {
+        "url": "https://archives.nseindia.com/corporate/MAXHEALTH_30012025141421_BM_Outcome.pdf",
+        "status": 200
+      }
+    ],
+    "sha256": "15c12e280d4fb7b123294c8f78b7ab526011f1aa2955356035c8b16b4bc60175",
+    "bytes": 2757067,
+    "cover_signature_if_printed": null
+  },
+  {
+    "symbol": "MAXHEALTH",
+    "exchange": "nse",
+    "url": "https://nsearchives.nseindia.in/corporate/BM_Outcome_30012025141341.pdf",
+    "announced_at": "2025-01-30T14:13:41+05:30",
+    "attempts": [
+      {
+        "url": "https://archives.nseindia.com/corporate/BM_Outcome_30012025141341.pdf",
+        "status": 404
+      },
+      {
+        "url": "https://nsearchives.nseindia.in/corporate/BM_Outcome_30012025141341.pdf",
+        "error": "The read operation timed out"
+      },
+      {
+        "url": "https://nsearchives.nseindia.com/corporate/BM_Outcome_30012025141341.pdf",
+        "error": "The read operation timed out"
+      }
+    ]
+  }
+]

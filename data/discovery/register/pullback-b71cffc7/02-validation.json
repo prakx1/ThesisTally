@@ -1,0 +1,9 @@
+{
+  "evidence": "data/discovery/families/discovery-v1/validation.json",
+  "evidence_sha256": "7e3c3f8c4d7a9aff136fef4f0b584f85ee580e02c3a42f874b2ebae32dcddaee",
+  "family": "discovery-v1",
+  "id": "pullback-b71cffc7",
+  "registration_commit": "fbf15eca292d569c58272217d86dfdbeca29e9d5",
+  "registration_sha256": "bed32ec1ce3713865261602f431a5e00f410955e7f33b7b71818b5b9c18c8cc2",
+  "status": "failed"
+}

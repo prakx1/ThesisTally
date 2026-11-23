@@ -1,0 +1,14 @@
+{
+  "anchor": "2016-12-30",
+  "code_sha256": "d5c4304db99b592ed69c976457a7217c9e436f89d70a78217bc7ca2be56afbd0",
+  "holder_sha256": "dbbb97cbb9ade3667ecb4013614fe1b7197c6b3f73649a801f90bd15701348d3",
+  "journal_sha256": "d9a80e1954e560f1ba1351b2a744ea26ea5f565b6df3ca7f52391aee9beabc1d",
+  "last_by_book": {
+    "A126-tax-continuous": "2026-11-20",
+    "A252-tax-continuous": "2026-11-20"
+  },
+  "purpose": "tax-report-only",
+  "scheduled_last": "2026-11-20",
+  "snapshot": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+  "valuation_gaps": {}
+}

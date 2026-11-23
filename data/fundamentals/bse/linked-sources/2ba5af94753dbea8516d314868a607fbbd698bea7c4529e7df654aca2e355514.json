@@ -1,0 +1,49 @@
+{
+  "attempted_at_utc": "2026-11-22T13:27:21.886765+00:00",
+  "bytes": 687056,
+  "content": "PDF",
+  "layout_sha256": "ae05a5bd69e6ba29928acccc6d084c71255019f4f2cd62981cd95a073ec70cf6",
+  "official_clock_cues": [],
+  "outcome": "BSE public dissemination time unverified",
+  "pages": 12,
+  "readable_pages": 12,
+  "requests": [
+    {
+      "status": 200,
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf"
+    }
+  ],
+  "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf",
+  "return_code": 0,
+  "search_scope": "topic candidates in the first four native-text pages; explicit exchange clock or acknowledgement cues on every native-text page",
+  "server_response_date": "Sun, 22 Nov 2026 13:27:22 GMT",
+  "sha256": "af0eddf3a5b352565ee579f3923d98cc8331ca64d3a13796148ecfd86e82d99b",
+  "status": 200,
+  "topic_cues": [
+    {
+      "page": 1,
+      "topic": "board_or_audit_report"
+    },
+    {
+      "page": 1,
+      "topic": "annual_general_meeting_or_voting"
+    },
+    {
+      "page": 1,
+      "topic": "other_corporate_action"
+    },
+    {
+      "page": 2,
+      "topic": "annual_general_meeting_or_voting"
+    },
+    {
+      "page": 3,
+      "topic": "board_or_audit_report"
+    },
+    {
+      "page": 4,
+      "topic": "board_or_audit_report"
+    }
+  ],
+  "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf"
+}

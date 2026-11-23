@@ -1,0 +1,32 @@
+{
+  "strategy": "A126",
+  "mode": "paper",
+  "lookback": 126,
+  "tag": "a126-forward-2026-11-21",
+  "status": "candidate, under observation",
+  "freeze_date": "2026-11-21",
+  "anchor_session": "2026-11-20",
+  "engine_sha256": "75dbe40707565b37ef38cb33d434b5db63660713820773cacdfd6f5073548512",
+  "anchor_tri": {
+    "close": 19649.87,
+    "source": {
+      "query": {
+        "endDate": "20-Nov-2026",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2026"
+      },
+      "sha256": "9a1f2a91b9e1f93532d8a0e93eff4cf38e2de1386a11ea2dc6a650705af04e7a",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    }
+  },
+  "anchor_manifest_sha256": "90f8b9bf3452733a8df9045c31c1f9cf25e2b6abfc9c4502f01a3abaf1101dcf",
+  "historical_review": {
+    "results_path": "data/stage3/close-verification/runs/a79daa45cf9271df5dbf/ebacb99feeda3ad7d4c0/results.json",
+    "sha256": "1438e3ba902e8c0ae3ecf6ceb4269f3cb7597a35a7426bd0af28258179cb9f7c",
+    "market_sha256": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+    "completed_windows": 10,
+    "winning_windows": 5,
+    "wins_required": 7
+  }
+}

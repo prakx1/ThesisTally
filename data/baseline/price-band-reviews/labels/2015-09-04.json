@@ -1,0 +1,18 @@
+{
+  "day": "2015-09-04",
+  "labels": {
+    "VAKRANGEE": {
+      "isin": "INE051B01021",
+      "percent": 10,
+      "published": "2015-09-03",
+      "sources": [
+        {
+          "published": "2015-09-03",
+          "sha256": "aa24ea6d7f5dcb153b1ea0ec7c3f98a47b4df31b038da14f83a646eeec3fffa4",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV30678.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2015-09-03"
+}

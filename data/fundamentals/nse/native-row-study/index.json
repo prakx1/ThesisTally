@@ -1,0 +1,827 @@
+{
+  "furthest_step_counts": {
+    "accounting basis not established": 1,
+    "explicit original currency and scale not established for monetary figures": 2,
+    "fields or exact independent numerical agreement unresolved": 1,
+    "legal issuer heading not established": 13,
+    "no unique financial results heading among native candidate pages": 3,
+    "one or more current-quarter figures recovered": 3,
+    "quarter and comparison columns not established": 7
+  },
+  "issuers": [
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "no unique financial results heading among native candidate pages",
+      "id": "legacy/CGPOWER/INE067A01029/2021-03-31/consolidated/1110057",
+      "isin": "INE067A01029",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 5,
+          "sha256": "d57fff21c69ac046fcc2400b3ea9ced1977bbc5da74125c3f4bb21ecceed8ab4"
+        }
+      ],
+      "period_end": "2021-03-31",
+      "source_sha256": "d57fff21c69ac046fcc2400b3ea9ced1977bbc5da74125c3f4bb21ecceed8ab4",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_71234_458546_12062021055408_WEB.xml",
+      "symbol": "CGPOWER",
+      "url": "https://nsearchives.nseindia.in/corporate/CGPOWER_11052021183808_SEDisclosure11052021.pdf"
+    },
+    {
+      "additional_fields": [
+        "operating_profit",
+        "revenue"
+      ],
+      "basis": "consolidated",
+      "farthest_observed_step": "one or more current-quarter figures recovered",
+      "filing": {
+        "basis": "consolidated",
+        "eps": 4.86,
+        "isin": "INE769A01020",
+        "metadata": {
+          "audited": "Audited",
+          "bank": "N",
+          "broadCastDate": "31-Oct-2021 12:02:13",
+          "companyName": "Aarti Industries Limited",
+          "consolidated": "Consolidated",
+          "cumulative": "Non-cumulative",
+          "difference": "00:03:48",
+          "exchdisstime": "31-Oct-2021 12:06:01",
+          "filingDate": "31-Oct-2021 12:02",
+          "financialYear": "01-Apr-2021 To 31-Mar-2022",
+          "format": "New",
+          "fromDate": "01-Jul-2021",
+          "indAs": "Ind-AS New",
+          "industry": "-",
+          "isin": "INE769A01020",
+          "oldNewFlag": "N",
+          "params": "01-Jul-202130-Sep-2021Q2ANNCNEAARTIIND",
+          "period": "Quarterly",
+          "reInd": "N",
+          "relatingTo": "Second Quarter",
+          "resultDescription": null,
+          "resultDetailedDataLink": null,
+          "seqNumber": "1119277",
+          "symbol": "AARTIIND",
+          "toDate": "30-Sep-2021",
+          "xbrl": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_77454_549829_31102021120213_WEB.xml"
+        },
+        "net_profit": 1760500000.0,
+        "operating_profit": 2387100000.0,
+        "period_end": "2021-09-30",
+        "revenue": 15515800000.0,
+        "source_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_77454_549829_31102021120213_WEB.xml",
+        "symbol": "AARTIIND",
+        "tags": {
+          "eps": "BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations",
+          "net_profit": "ProfitLossForPeriod",
+          "operating_profit": "RevenueFromOperations-Expenses+FinanceCosts",
+          "quarter_context": "NSE quarterly duration plus current segment contexts",
+          "revenue": "RevenueFromOperations"
+        }
+      },
+      "id": "legacy/AARTIIND/INE769A01020/2021-09-30/consolidated/1119277",
+      "isin": "INE769A01020",
+      "native_fields_before": [],
+      "new_method_fields": [
+        "operating_profit",
+        "revenue"
+      ],
+      "pdfs": [
+        {
+          "pages": 17,
+          "sha256": "9c043d75f0a83a774421e2678b64e41d1875257382d698ba191f0700b7dd19e7"
+        }
+      ],
+      "period_end": "2021-09-30",
+      "source_sha256": "9c043d75f0a83a774421e2678b64e41d1875257382d698ba191f0700b7dd19e7",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_77454_549829_31102021120213_WEB.xml",
+      "symbol": "AARTIIND",
+      "url": "https://nsearchives.nseindia.in/corporate/AARTIIND_33_31102021115823.pdf",
+      "witnesses": {
+        "operating_profit": {
+          "page": 3,
+          "page_text_sha256": "a2789795c3e411f37311eaa90763694416ec6ae38cef3148ea51689ed697c5f9",
+          "pdf_sha256": "9c043d75f0a83a774421e2678b64e41d1875257382d698ba191f0700b7dd19e7"
+        },
+        "revenue": {
+          "page": 3,
+          "page_text_sha256": "a2789795c3e411f37311eaa90763694416ec6ae38cef3148ea51689ed697c5f9",
+          "pdf_sha256": "9c043d75f0a83a774421e2678b64e41d1875257382d698ba191f0700b7dd19e7"
+        }
+      }
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/ASHOKLEY/INE208A01029/2021-03-31/consolidated/1111194",
+      "isin": "INE208A01029",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 23,
+          "sha256": "a40f2664fd6d370d9765a7bb31d8408f9bc1aa5a76a851ea49ac9efea6d096fa"
+        }
+      ],
+      "period_end": "2021-03-31",
+      "source_sha256": "a40f2664fd6d370d9765a7bb31d8408f9bc1aa5a76a851ea49ac9efea6d096fa",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_71802_463890_25062021030823_WEB.xml",
+      "symbol": "ASHOKLEY",
+      "url": "https://nsearchives.nseindia.in/corporate/StockExchangeCommunicationFinResults24062021_24062021220127.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/LT/INE018A01030/2021-09-30/standalone/1118373",
+      "isin": "INE018A01030",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 21,
+          "sha256": "e9c820e0687e3eede9833bd90297011e6e24f578d8b742e8f290ff98279468ef"
+        }
+      ],
+      "period_end": "2021-09-30",
+      "source_sha256": "e9c820e0687e3eede9833bd90297011e6e24f578d8b742e8f290ff98279468ef",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_76998_547644_28102021045436_WEB.xml",
+      "symbol": "LT",
+      "url": "https://nsearchives.nseindia.in/corporate/LTCFSSEP21_27102021172222.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/GLENMARK/INE935A01035/2021-03-31/standalone/1108984",
+      "isin": "INE935A01035",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 48,
+          "sha256": "f9148e99c282d4b2d64ca37c492c05e63c561a3015467f50aecd0caa0f5e3d90"
+        }
+      ],
+      "period_end": "2021-03-31",
+      "source_sha256": "f9148e99c282d4b2d64ca37c492c05e63c561a3015467f50aecd0caa0f5e3d90",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_70676_453244_29052021090323_WEB.xml",
+      "symbol": "GLENMARK",
+      "url": "https://nsearchives.nseindia.in/corporate/BSE_NSE_RESULT_28052021_signed1_28052021222405.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "explicit original currency and scale not established for monetary figures",
+      "id": "legacy/NLCINDIA/INE589A01014/2022-06-30/standalone/3239",
+      "isin": "INE589A01014",
+      "native_fields_before": [
+        "operating_profit",
+        "revenue"
+      ],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 36,
+          "sha256": "687612229726aef9715de6013bb51604620ffe1ee9e9072df22ad5511525fdb0"
+        }
+      ],
+      "period_end": "2022-06-30",
+      "source_sha256": "687612229726aef9715de6013bb51604620ffe1ee9e9072df22ad5511525fdb0",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_661192_2816_13082022130628_WEB.xml",
+      "symbol": "NLCINDIA",
+      "url": "https://nsearchives.nseindia.in/corporate/NLCINDIA_12082022170154_Jointaccounts.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "no unique financial results heading among native candidate pages",
+      "id": "legacy/TATACONSUM/INE192A01025/2022-09-30/consolidated/4679",
+      "isin": "INE192A01025",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 56,
+          "sha256": "087d0acd4c3e77c548c2d25dca4e3d24830cc43ece0f22d99385f82bbd426770"
+        }
+      ],
+      "period_end": "2022-09-30",
+      "source_sha256": "087d0acd4c3e77c548c2d25dca4e3d24830cc43ece0f22d99385f82bbd426770",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_784491_4917_21102022123906_WEB.xml",
+      "symbol": "TATACONSUM",
+      "url": "https://nsearchives.nseindia.in/corporate/TATACONSUM_20102022164524_TCPL_SE_Reg30_PressReleaseInvestorPresentation.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/SBIN/INE062A01020/2022-09-30/consolidated/725",
+      "isin": "INE062A01020",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 4,
+          "sha256": "1fb479e3c9c1e4bc8b7877f4c5751e135dbd27c2bc199b3121fd29852f478297"
+        }
+      ],
+      "period_end": "2022-09-30",
+      "source_sha256": "1fb479e3c9c1e4bc8b7877f4c5751e135dbd27c2bc199b3121fd29852f478297",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/BANKING_841469_4686_06112022053317_WEB.xml",
+      "symbol": "SBIN",
+      "url": "https://nsearchives.nseindia.in/corporate/SBIN_05112022134436_BSENSEAnnouncePressRelease05112022.pdf"
+    },
+    {
+      "additional_fields": [
+        "operating_profit"
+      ],
+      "basis": "consolidated",
+      "farthest_observed_step": "one or more current-quarter figures recovered",
+      "filing": {
+        "basis": "consolidated",
+        "eps": 18.04,
+        "isin": "INE628A01036",
+        "metadata": {
+          "audited": "Audited",
+          "bank": "N",
+          "broadCastDate": "10-May-2022 11:42:43",
+          "companyName": "UPL Limited",
+          "consolidated": "Consolidated",
+          "cumulative": "Non-cumulative",
+          "difference": "00:03:29",
+          "exchdisstime": "10-May-2022 11:46:12",
+          "filingDate": "10-May-2022 11:42",
+          "financialYear": "01-Apr-2021 To 31-Mar-2022",
+          "format": "New",
+          "fromDate": "01-Jan-2022",
+          "indAs": "Ind-AS New",
+          "industry": "-",
+          "isin": "INE628A01036",
+          "oldNewFlag": "N",
+          "params": "01-Jan-202231-Mar-2022Q4ANNCNEUPL",
+          "period": "Quarterly",
+          "reInd": "N",
+          "relatingTo": "Fourth Quarter",
+          "resultDescription": null,
+          "resultDetailedDataLink": null,
+          "seqNumber": "1132164",
+          "symbol": "UPL",
+          "toDate": "31-Mar-2022",
+          "xbrl": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_84151_652442_10052022114242_WEB.xml"
+        },
+        "net_profit": 17350000000.0,
+        "operating_profit": 27380000000.0,
+        "period_end": "2022-03-31",
+        "revenue": 158610000000.0,
+        "source_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_84151_652442_10052022114242_WEB.xml",
+        "symbol": "UPL",
+        "tags": {
+          "eps": "BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations",
+          "net_profit": "ProfitLossForPeriod",
+          "operating_profit": "RevenueFromOperations-Expenses+FinanceCosts",
+          "quarter_context": "NSE quarterly duration plus current segment contexts",
+          "revenue": "RevenueFromOperations"
+        }
+      },
+      "id": "legacy/UPL/INE628A01036/2022-03-31/consolidated/1132164",
+      "isin": "INE628A01036",
+      "native_fields_before": [
+        "eps",
+        "net_profit",
+        "revenue"
+      ],
+      "new_method_fields": [
+        "eps",
+        "net_profit",
+        "operating_profit",
+        "revenue"
+      ],
+      "pdfs": [
+        {
+          "pages": 37,
+          "sha256": "1bf585769f750fe1bccebddd6e0c913e7e06c53b1d58227149c8c65071d55421"
+        }
+      ],
+      "period_end": "2022-03-31",
+      "source_sha256": "1bf585769f750fe1bccebddd6e0c913e7e06c53b1d58227149c8c65071d55421",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_84151_652442_10052022114242_WEB.xml",
+      "symbol": "UPL",
+      "url": "https://nsearchives.nseindia.in/corporate/UPL_09052022121755_ResultsDividendUPL.pdf",
+      "witnesses": {
+        "eps": {
+          "page": 16,
+          "page_text_sha256": "7ba9f120d5de451c0cb0645c37e42ba28afab2ac88382950d9ffd680c7d85f2b",
+          "pdf_sha256": "1bf585769f750fe1bccebddd6e0c913e7e06c53b1d58227149c8c65071d55421"
+        },
+        "net_profit": {
+          "page": 16,
+          "page_text_sha256": "7ba9f120d5de451c0cb0645c37e42ba28afab2ac88382950d9ffd680c7d85f2b",
+          "pdf_sha256": "1bf585769f750fe1bccebddd6e0c913e7e06c53b1d58227149c8c65071d55421"
+        },
+        "operating_profit": {
+          "page": 16,
+          "page_text_sha256": "7ba9f120d5de451c0cb0645c37e42ba28afab2ac88382950d9ffd680c7d85f2b",
+          "pdf_sha256": "1bf585769f750fe1bccebddd6e0c913e7e06c53b1d58227149c8c65071d55421"
+        },
+        "revenue": {
+          "page": 16,
+          "page_text_sha256": "7ba9f120d5de451c0cb0645c37e42ba28afab2ac88382950d9ffd680c7d85f2b",
+          "pdf_sha256": "1bf585769f750fe1bccebddd6e0c913e7e06c53b1d58227149c8c65071d55421"
+        }
+      }
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/COFORGE/INE591G01017/2022-09-30/consolidated/4663",
+      "isin": "INE591G01017",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 5,
+          "sha256": "52cb2a6013b90e9ea5f6cd3e982b0068530a7d7c621c1649f564e391c8669f64"
+        }
+      ],
+      "period_end": "2022-09-30",
+      "source_sha256": "52cb2a6013b90e9ea5f6cd3e982b0068530a7d7c621c1649f564e391c8669f64",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_783729_5245_21102022112701_WEB.xml",
+      "symbol": "COFORGE",
+      "url": "https://nsearchives.nseindia.in/corporate/COFORGE_20102022153518_PressRelease.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "no unique financial results heading among native candidate pages",
+      "id": "legacy/ACC/INE012A01025/2023-06-30/consolidated/1152404",
+      "isin": "INE012A01025",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 19,
+          "sha256": "4d063082fd31ccfab7b9442816e217a0612641bf4d078b5da4d28a5911de1e15"
+        }
+      ],
+      "period_end": "2023-06-30",
+      "source_sha256": "4d063082fd31ccfab7b9442816e217a0612641bf4d078b5da4d28a5911de1e15",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_94738_902035_27072023083722.xml",
+      "symbol": "ACC",
+      "url": "https://nsearchives.nseindia.in/corporate/ACC_27072023150732_Reg_30_signed.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "quarter and comparison columns not established",
+      "id": "legacy/INDHOTEL/INE053A01029/2023-06-30/consolidated/1152416",
+      "isin": "INE053A01029",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 14,
+          "sha256": "87a249c5817013aeaa044f749fddc96e75b3f551d9e79ec043cb7e6509cb7758"
+        }
+      ],
+      "period_end": "2023-06-30",
+      "source_sha256": "87a249c5817013aeaa044f749fddc96e75b3f551d9e79ec043cb7e6509cb7758",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_94750_902161_28072023110649.xml",
+      "symbol": "INDHOTEL",
+      "url": "https://nsearchives.nseindia.in/corporate/430_27072023163807.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "quarter and comparison columns not established",
+      "id": "legacy/VOLTAS/INE226A01021/2023-03-31/consolidated/1145418",
+      "isin": "INE226A01021",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 21,
+          "sha256": "d1f78eec2defedadd9dfd9f9791a528f4fe4c39a6f1d580fafa8aa107bbf0857"
+        }
+      ],
+      "period_end": "2023-03-31",
+      "source_sha256": "d1f78eec2defedadd9dfd9f9791a528f4fe4c39a6f1d580fafa8aa107bbf0857",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_90892_833748_27042023040225.xml",
+      "symbol": "VOLTAS",
+      "url": "https://nsearchives.nseindia.in/corporate/VoltasFinancialResults31032023_26042023182526.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/VEDL/INE205A01025/2023-06-30/standalone/1152032",
+      "isin": "INE205A01025",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 21,
+          "sha256": "7b472fa64cebe215f8181c550ff696fd2cdb475f4bd213ae1917610b28234439"
+        }
+      ],
+      "period_end": "2023-06-30",
+      "source_sha256": "7b472fa64cebe215f8181c550ff696fd2cdb475f4bd213ae1917610b28234439",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_94374_898121_21072023073327.xml",
+      "symbol": "VEDL",
+      "url": "https://nsearchives.nseindia.in/corporate/VEDL_21072023184301_1VEDLOutcomeofBM21July2023FinancialResults.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "quarter and comparison columns not established",
+      "id": "legacy/ABB/INE117A01022/2023-09-30/standalone/1159871",
+      "isin": "INE117A01022",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 5,
+          "sha256": "8970322780cda0127c9b99f3d12368ac206d2858f17d650d8b7ec3ce37cceb6c"
+        }
+      ],
+      "period_end": "2023-09-30",
+      "source_sha256": "8970322780cda0127c9b99f3d12368ac206d2858f17d650d8b7ec3ce37cceb6c",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_99895_982933_09112023045743.xml",
+      "symbol": "ABB",
+      "url": "https://nsearchives.nseindia.in/corporate/ABBFSQ32023_09112023150719.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/TORNTPOWER/INE813H01021/2024-03-31/consolidated/1173159",
+      "isin": "INE813H01021",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 33,
+          "sha256": "39f6fb94a6a364ea5782e99127c0c17144dfbe63e57327f261717b76f4a8d6cd"
+        }
+      ],
+      "period_end": "2024-03-31",
+      "source_sha256": "39f6fb94a6a364ea5782e99127c0c17144dfbe63e57327f261717b76f4a8d6cd",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_106729_1134258_22052024064114.xml",
+      "symbol": "TORNTPOWER",
+      "url": "https://nsearchives.nseindia.in/corporate/TORNTPOWER_22052024171945_Outcome.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "quarter and comparison columns not established",
+      "id": "legacy/JIOFIN/INE758E01017/2024-12-31/standalone/1189901",
+      "isin": "INE758E01017",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 13,
+          "sha256": "d5ce4b33be8272df44f5f059cfb5f8efb28d0b9265c5dc17f14ca58733b8ec5c"
+        }
+      ],
+      "period_end": "2024-12-31",
+      "source_sha256": "d5ce4b33be8272df44f5f059cfb5f8efb28d0b9265c5dc17f14ca58733b8ec5c",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/NBFC_INDAS_117339_1350260_17012025075945.xml",
+      "symbol": "JIOFIN",
+      "url": "https://nsearchives.nseindia.in/corporate/JFSLUFRQ32025_17012025180301.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "accounting basis not established",
+      "id": "legacy/PNB/INE160A01022/2024-06-30/standalone/1178219",
+      "isin": "INE160A01022",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 25,
+          "sha256": "8c47dc277f046705f9c206c7655ee680cfe185280ad7919864564b0470ef5b40"
+        }
+      ],
+      "period_end": "2024-06-30",
+      "source_sha256": "8c47dc277f046705f9c206c7655ee680cfe185280ad7919864564b0470ef5b40",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/BANKING_109660_1204562_27072024055145.xml",
+      "symbol": "PNB",
+      "url": "https://nsearchives.nseindia.in/corporate/Intimation_BM_outcome_27072024_0001DS_Final_27072024152733.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/CUMMINSIND/INE298A01020/2024-03-31/consolidated/1175989",
+      "isin": "INE298A01020",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 20,
+          "sha256": "1dc13224a9e1b0c143d374be8f1798d35d585fab67c541df21961a564fab14b5"
+        }
+      ],
+      "period_end": "2024-03-31",
+      "source_sha256": "1dc13224a9e1b0c143d374be8f1798d35d585fab67c541df21961a564fab14b5",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_108164_1147225_30052024030836.xml",
+      "symbol": "CUMMINSIND",
+      "url": "https://nsearchives.nseindia.in/corporate/SignedFinalOutcomeBM_29052024210312.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "legacy/SONACOMS/INE073K01018/2024-06-30/consolidated/1177930",
+      "isin": "INE073K01018",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 15,
+          "sha256": "71690ae16273dae10eadd7eaf491cb4307d3630de547f43462647011419e1eb5"
+        }
+      ],
+      "period_end": "2024-06-30",
+      "source_sha256": "71690ae16273dae10eadd7eaf491cb4307d3630de547f43462647011419e1eb5",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INDAS_109368_1201215_24072024045703.xml",
+      "symbol": "SONACOMS",
+      "url": "https://nsearchives.nseindia.in/corporate/SONACOMS_24072024155605_OutcomeBM.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "explicit original currency and scale not established for monetary figures",
+      "id": "integrated/SJVN/INE002L01015/2025-03-31/consolidated/96088",
+      "isin": "INE002L01015",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 35,
+          "sha256": "1d85458dae88db3da8b27cf935fad6191e82a88ecc09460a34193844376616b9"
+        }
+      ],
+      "period_end": "2025-03-31",
+      "source_sha256": "1d85458dae88db3da8b27cf935fad6191e82a88ecc09460a34193844376616b9",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1457861_29052025083514_WEB.xml",
+      "symbol": "SJVN",
+      "url": "https://nsearchives.nseindia.in/corporate/SJVN_29052025201933_1.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "fields or exact independent numerical agreement unresolved",
+      "id": "integrated/FORTIS/INE061F01013/2025-06-30/standalone/108960",
+      "isin": "INE061F01013",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 49,
+          "sha256": "2faf7a8f929ff113ff441a52f2de45f79f8148dafc66f27a8f34df5f735d8b91"
+        }
+      ],
+      "period_end": "2025-06-30",
+      "source_sha256": "2faf7a8f929ff113ff441a52f2de45f79f8148dafc66f27a8f34df5f735d8b91",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1504620_06082025093632_WEB.xml",
+      "symbol": "FORTIS",
+      "url": "https://nsearchives.nseindia.in/corporate/FORTIS_06082025205221_FHLOUTCOMESR.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "quarter and comparison columns not established",
+      "id": "integrated/MUTHOOTFIN/INE414G01012/2025-12-31/standalone/142419",
+      "isin": "INE414G01012",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 128,
+          "sha256": "5ca3ff45103436102898e8daffc6e854329094c1a7c4d8b464d062a8c0935eb3"
+        }
+      ],
+      "period_end": "2025-12-31",
+      "source_sha256": "5ca3ff45103436102898e8daffc6e854329094c1a7c4d8b464d062a8c0935eb3",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1624206_12022026051808_WEB.xml",
+      "symbol": "MUTHOOTFIN",
+      "url": "https://nsearchives.nseindia.in/corporate/MUTHOOTFIN_12022026153636_MFIN_BM_Outcome_SD.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "quarter and comparison columns not established",
+      "id": "integrated/SHREECEM/INE070A01015/2025-12-31/standalone/140867",
+      "isin": "INE070A01015",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 10,
+          "sha256": "f6fdfc7ff2c9f2006330425f46546f23aa407ac2dc3ef58ec35962f598820e42"
+        }
+      ],
+      "period_end": "2025-12-31",
+      "source_sha256": "f6fdfc7ff2c9f2006330425f46546f23aa407ac2dc3ef58ec35962f598820e42",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1620385_06022026061021_WEB.xml",
+      "symbol": "SHREECEM",
+      "url": "https://nsearchives.nseindia.in/corporate/SHREECEM_06022026162444_NSE_BSE_Results_060226.pdf"
+    },
+    {
+      "additional_fields": [
+        "net_profit",
+        "operating_profit",
+        "revenue"
+      ],
+      "basis": "consolidated",
+      "farthest_observed_step": "one or more current-quarter figures recovered",
+      "filing": {
+        "basis": "consolidated",
+        "eps": 10.6,
+        "isin": "INE849A01020",
+        "metadata": {
+          "attFileSize": "0 Bytes",
+          "audited": "Un-Audited",
+          "broadcast_Date": "07-Nov-2025 17:39:48",
+          "cmName": "Trent Limited",
+          "consolidated": "Consolidated",
+          "creation_Date": "07-Nov-2025 17:39:49",
+          "diff": "00:00:01",
+          "ixbrl": "https://nsearchives.nseindia.in/corporate/ixbrl/INTEGRATED_FILING_INDAS_125146_07112025173948_iXBRL_WEB.html",
+          "ixbrlFileSize": "74.12 KB",
+          "pdf_attach": null,
+          "qe_Date": "30-SEP-2025",
+          "revised_Date": null,
+          "revision_Remark": null,
+          "seq_Id": "125146",
+          "smName": "Trent Limited",
+          "symbol": "TRENT",
+          "type": "Integrated Filing- Financials",
+          "type_Sub": "Original",
+          "xbrl": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1568155_07112025053948_WEB.xml",
+          "xbrlFileSize": "56.36 KB"
+        },
+        "net_profit": 3734200000.0,
+        "operating_profit": 4921500000.0,
+        "period_end": "2025-09-30",
+        "revenue": 48176800000.0,
+        "source_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1568155_07112025053948_WEB.xml",
+        "symbol": "TRENT",
+        "tags": {
+          "eps": "BasicEarningsLossPerShareFromContinuingAndDiscontinuedOperations",
+          "net_profit": "ProfitLossForPeriod",
+          "operating_profit": "RevenueFromOperations-Expenses+FinanceCosts",
+          "quarter_context": "OneD",
+          "revenue": "RevenueFromOperations"
+        }
+      },
+      "id": "integrated/TRENT/INE849A01020/2025-09-30/consolidated/125146",
+      "isin": "INE849A01020",
+      "native_fields_before": [],
+      "new_method_fields": [
+        "net_profit",
+        "operating_profit",
+        "revenue"
+      ],
+      "pdfs": [
+        {
+          "pages": 16,
+          "sha256": "0b5beede0393e693d9bf3c870f7c6cec309f42a6cd7a0ea246002472beea6aaf"
+        }
+      ],
+      "period_end": "2025-09-30",
+      "source_sha256": "0b5beede0393e693d9bf3c870f7c6cec309f42a6cd7a0ea246002472beea6aaf",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1568155_07112025053948_WEB.xml",
+      "symbol": "TRENT",
+      "url": "https://nsearchives.nseindia.in/corporate/TRENT_07112025164345_Results_Q2_FY26.pdf",
+      "witnesses": {
+        "net_profit": {
+          "page": 8,
+          "page_text_sha256": "135e39ef746fcd6617e4b64adb8252a3ef89523842b114b2e000b5083ccbb4cf",
+          "pdf_sha256": "0b5beede0393e693d9bf3c870f7c6cec309f42a6cd7a0ea246002472beea6aaf"
+        },
+        "operating_profit": {
+          "page": 8,
+          "page_text_sha256": "135e39ef746fcd6617e4b64adb8252a3ef89523842b114b2e000b5083ccbb4cf",
+          "pdf_sha256": "0b5beede0393e693d9bf3c870f7c6cec309f42a6cd7a0ea246002472beea6aaf"
+        },
+        "revenue": {
+          "page": 8,
+          "page_text_sha256": "135e39ef746fcd6617e4b64adb8252a3ef89523842b114b2e000b5083ccbb4cf",
+          "pdf_sha256": "0b5beede0393e693d9bf3c870f7c6cec309f42a6cd7a0ea246002472beea6aaf"
+        }
+      }
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "quarter and comparison columns not established",
+      "id": "integrated/HDFCBANK/INE040A01034/2026-09-30/standalone/202131",
+      "isin": "INE040A01034",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 25,
+          "sha256": "1a25f460842bbd8e3632a000cdbc625d7aa1ec2934d3b0d8b60d270bb33e3bdf"
+        }
+      ],
+      "period_end": "2026-09-30",
+      "source_sha256": "1a25f460842bbd8e3632a000cdbc625d7aa1ec2934d3b0d8b60d270bb33e3bdf",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1740912_17102026054806_WEB.xml",
+      "symbol": "HDFCBANK",
+      "url": "https://nsearchives.nseindia.in/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "integrated/ETERNAL/INE758T01015/2026-09-30/standalone/202851",
+      "isin": "INE758T01015",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 22,
+          "sha256": "9016456b7cf397223442067cd65ade58e212ba34b435713fd4f1f45fba040eef"
+        }
+      ],
+      "period_end": "2026-09-30",
+      "source_sha256": "9016456b7cf397223442067cd65ade58e212ba34b435713fd4f1f45fba040eef",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1743409_21102026064836_WEB.xml",
+      "symbol": "ETERNAL",
+      "url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21102026152051_OutcomeSIGNED.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "integrated/MEESHO/INE0VDM01015/2026-03-31/standalone/155902",
+      "isin": "INE0VDM01015",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 23,
+          "sha256": "99cf34beac0d2f6f72247eef2de448ba8c2c9a72df2bf533a58b43c43336a7eb"
+        }
+      ],
+      "period_end": "2026-03-31",
+      "source_sha256": "99cf34beac0d2f6f72247eef2de448ba8c2c9a72df2bf533a58b43c43336a7eb",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1664240_06052026090814_WEB.xml",
+      "symbol": "MEESHO",
+      "url": "https://nsearchives.nseindia.in/corporate/MEESHO_06052026170126_ML.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "consolidated",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "integrated/CANBK/INE476A01022/2026-03-31/consolidated/156802",
+      "isin": "INE476A01022",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 45,
+          "sha256": "4d7857f87fec5959b5a80498ca56af37df870fdb24673bf1468a4d0a1c89138b"
+        }
+      ],
+      "period_end": "2026-03-31",
+      "source_sha256": "4d7857f87fec5959b5a80498ca56af37df870fdb24673bf1468a4d0a1c89138b",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_BANKING_1665782_11052026113120_WEB.xml",
+      "symbol": "CANBK",
+      "url": "https://nsearchives.nseindia.in/corporate/CANBK_11052026130600_LettertoSEOutcome11052026FinalSd.pdf"
+    },
+    {
+      "additional_fields": [],
+      "basis": "standalone",
+      "farthest_observed_step": "legal issuer heading not established",
+      "id": "integrated/IRFC/INE053F01010/2026-03-31/standalone/157549",
+      "isin": "INE053F01010",
+      "native_fields_before": [],
+      "new_method_fields": [],
+      "pdfs": [
+        {
+          "pages": 19,
+          "sha256": "485f1c98cba93b5c462553511ef17f899a0c2ce0b2e3a48725137e7db2815cd0"
+        }
+      ],
+      "period_end": "2026-03-31",
+      "source_sha256": "485f1c98cba93b5c462553511ef17f899a0c2ce0b2e3a48725137e7db2815cd0",
+      "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_NBFC_INDAS_1667120_14052026053912_WEB.xml",
+      "symbol": "IRFC",
+      "url": "https://nsearchives.nseindia.in/corporate/IRFC_14052026141427_OUTCOMEOFBM.pdf"
+    }
+  ],
+  "ledger_sha256": "1259069185386509a381ed410824f4dde6f888c7c12f3c1d8a9a738332a8ca8d",
+  "observer_sha256": "e36a1186d0ea261dfea9390195b70b8ad39b2b561ef5a236f6c7038d26b88044",
+  "selection": "Five distinct ISINs per period-end year 2021\u20132026, ordered by SHA256 of filing ID within each year. Retain an unresolved signed XBRL with four structured facts and an accessible native original, one filing per issuer across all years. Package hashes pin this fixed sample."
+}

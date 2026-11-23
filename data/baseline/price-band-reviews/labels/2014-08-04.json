@@ -1,0 +1,30 @@
+{
+  "day": "2014-08-04",
+  "labels": {
+    "PIPAVAVDOC": {
+      "isin": "INE542F01012",
+      "percent": 5,
+      "published": "2014-08-01",
+      "sources": [
+        {
+          "published": "2014-08-01",
+          "sha256": "6e1751cf2049dfcb690dab228bbc92c375c9d75501e48e66db800bca0cc479d3",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV27267.zip"
+        }
+      ]
+    },
+    "TV18BRDCST": {
+      "isin": "INE886H01027",
+      "percent": 10,
+      "published": "2014-08-01",
+      "sources": [
+        {
+          "published": "2014-08-01",
+          "sha256": "6e1751cf2049dfcb690dab228bbc92c375c9d75501e48e66db800bca0cc479d3",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV27267.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2014-08-01"
+}

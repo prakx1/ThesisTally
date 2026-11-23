@@ -1,3 +1,4 @@
+from contextlib import closing
 from copy import deepcopy
 from datetime import date
 from pathlib import Path
@@ -6,8 +7,8 @@ import pandas as pd
 import pytest
 
 from thesistally import evaluation, market
-from thesistally.journal import exclusion, journal
-from thesistally.signals import Candidate, features, rules, scan_frame
+from thesistally.journal import exclusion, journal, process, run_report
+from thesistally.signals import Candidate, feature_frames, features, rules, scan_frame
 from thesistally.trading_calendar import holding_horizon
 
 CFG = rules()
@@ -23,11 +24,15 @@ def inputs(symbol, prices):
 def test_coforge_golden_and_future_append():
     prices = pd.read_csv(Path(__file__).parent / "fixtures" / "coforge-2026-11-20.csv")
     bars, members, ctx = inputs("COFORGE", prices)
+    members["isin"] = "INE591G01025"
     day = "2026-11-20"
     r, c, f = scan_frame(bars, members, CFG, ctx, as_of=day)
     assert [(x.strategy, x.entry, x.stop, x.target) for x in c] == [
         ("trend_pullback", 2086.7, 2011.2, pytest.approx(2237.7))
     ]
+    assert c[0].isin == "INE591G01025"
+    assert c[0].features["atr"] == pytest.approx(68.79332654191587)
+    assert c[0].features["volume"] == 9_300_662
     extra = bars[bars.day == day].assign(
         day="2026-11-23", close=1, low=0.1, high=10000, volume=999999999
     )
@@ -56,9 +61,37 @@ def test_breakout_golden(setup, stop):
         p.loc[247:251, ["low", "volume"]] = [98.0, 800000]
     p.loc[252, ["high", "close", "volume"]] = [104.0, 103.0, 2500000]
     bars, m, ctx = inputs("EXAMPLE", p)
-    _, c, _ = scan_frame(bars, m, CFG, ctx)
-    actual = next(x for x in c if x.strategy == setup)
-    assert (actual.entry, actual.stop, actual.target) == (103.0, stop, 103 + 2 * (103 - stop))
+    # A later-listed peer contributes to cross-sectional strength and breadth.
+    peer = p.iloc[25:].assign(symbol="PEER", close=99.0)
+    bars = pd.concat([bars, peer], ignore_index=True)
+    m = pd.concat([m, m.assign(symbol="PEER", isin="IN0000000002")], ignore_index=True)
+    ctx["PEER"] = ctx["EXAMPLE"].copy()
+    day = p.day.iloc[-1]
+    regime, candidates, frames = scan_frame(bars, m, CFG, ctx, as_of=day)
+    actual = [(c.symbol, c.strategy, c.entry, c.stop, c.target) for c in candidates]
+    assert actual == [
+        ("EXAMPLE", "trend_pullback", 103.0, 97.0, 115.0),
+        ("EXAMPLE", setup, 103.0, stop, 103 + 2 * (103 - stop)),
+    ]
+    assert all(c.features["rs_percentile"] == 1 for c in candidates)
+
+    # Push the peer above the breakout’s rank on the following session.
+    future = bars.loc[bars.day == day].copy()
+    future["day"] = (pd.Timestamp(day) + pd.offsets.BDay()).date()
+    future.loc[future.symbol == "PEER", ["open", "low", "high", "close", "volume"]] = [
+        150.0,
+        150.0,
+        200.0,
+        200.0,
+        9_000_000,
+    ]
+    extended = pd.concat([bars, future], ignore_index=True)
+    past_regime, past_candidates, past_frames = scan_frame(extended, m, CFG, ctx, as_of=day)
+    assert past_regime == regime and past_candidates == candidates
+    full_frames = feature_frames(extended, CFG)
+    for symbol, frame in frames.items():
+        pd.testing.assert_frame_equal(frame, past_frames[symbol])
+        pd.testing.assert_frame_equal(frame, full_frames[symbol].loc[:day])
 
 
 def test_bounds_blackout_and_announced_holidays(tmp_path):
@@ -79,6 +112,58 @@ def test_bounds_blackout_and_announced_holidays(tmp_path):
     assert exclusion(call(95), cfg, regime) == "upcoming_results"
     assert holding_horizon(tmp_path, date(2026, 11, 6), 1) == 2
     assert holding_horizon(tmp_path, date(2026, 11, 20), 2) == 5
+
+
+@pytest.mark.parametrize(
+    "entry,stop,atr14,allocation",
+    [
+        (55.00, 53.35, 4, "portfolio"),  # exactly 3%
+        (55.00, 53.36, 4, "stop_out_of_bounds"),  # less than 3%
+        (10.50, 9.45, 1, "portfolio"),  # exactly 10%
+        (10.50, 9.44, 1, "stop_out_of_bounds"),  # more than 10%
+        (80.80, 78.35, 0.98, "portfolio"),  # exactly 2.5 ATR
+        (80.80, 78.34, 0.98, "stop_out_of_bounds"),
+    ],
+)
+def test_stop_bounds_record_funded_or_shadow_at_the_signal_close(
+    tmp_path, entry, stop, atr14, allocation
+):
+    day = date(2024, 1, 1)
+    c = Candidate(
+        "A",
+        "IN1",
+        "IT",
+        "trend_pullback",
+        entry,
+        stop,
+        entry + 2 * (entry - stop),
+        {"atr": atr14, "rs_percentile": 1.0},
+    )
+    frames = {"NIFTY 50": pd.DataFrame(index=[day])}
+    with closing(journal(tmp_path / "journal.sqlite")) as db:
+        process(db, "pilot-test", day, {"enabled": True}, [c], frames, CFG)
+        call = db.execute("SELECT id, allocation, status FROM calls").fetchone()
+        assert (call["allocation"], call["status"]) == (allocation, "confirmed")
+        events = db.execute(
+            "SELECT kind, detail FROM events WHERE call_id=? ORDER BY id", (call["id"],)
+        )
+        assert [tuple(e) for e in events] == [
+            ("detected", ""),
+            ("watching", allocation),
+            ("confirmed", "Completed daily candle"),
+        ]
+        report = run_report(db, "pilot-test")
+        assert report["portfolio"]["calls"] == int(allocation == "portfolio")
+        assert report["shadow"]["calls"] == int(allocation != "portfolio")
+        assert db.execute("SELECT count(*) FROM fills").fetchone()[0] == 0
+
+
+def test_stop_distance_is_bound_to_fourteen_session_atr():
+    cfg = deepcopy(CFG)
+    cfg["trend"]["atr"] = 10
+    features = {"atr": 10.0, "atr14": 1.0}
+    candidate = Candidate("A", "IN1", "IT", "trend_pullback", 100, 95, 110, features)
+    assert exclusion(candidate, cfg, {"enabled": True}) == "stop_out_of_bounds"
 
 
 def test_gate_sample_weak_window_and_bootstrap():

@@ -1,0 +1,87 @@
+{
+  "reviewed_utc": "2026-11-23T11:44:25.741882+00:00",
+  "collector": {
+    "service": "com.thesistally.results-filings",
+    "interval_seconds": 1800,
+    "run_at_load": true,
+    "observed_launches": 1,
+    "last_exit_code": 0,
+    "release": "b3728e12aea531a4",
+    "archive_path_relative_to_separate_support_directory": "data/fundamentals/forward/filings.sqlite3"
+  },
+  "a126": {
+    "freeze_commit": "dc8e45c791c4f8485eaa869a6985f492805039b3",
+    "unchanged_service_plist_sha256": "8782573a5e109a8b769d8b0d354bbdfd2c4d269248b45f4f396a0ac17685d489"
+  },
+  "first_poll": {
+    "start_on": "2026-11-23",
+    "sources": [
+      {
+        "feed": "announcements",
+        "day": "2026-11-23",
+        "last_success": "2026-11-23T17:12:19.698754+05:30",
+        "error": null
+      },
+      {
+        "feed": "bse-results",
+        "day": "2026-11-23",
+        "last_success": "2026-11-23T17:12:20.156153+05:30",
+        "error": null
+      },
+      {
+        "feed": "integrated",
+        "day": "2026-11-23",
+        "last_success": "2026-11-23T17:12:19.461756+05:30",
+        "error": null
+      },
+      {
+        "feed": "legacy-annual",
+        "day": "2026-11-23",
+        "last_success": "2026-11-23T17:12:19.327055+05:30",
+        "error": null
+      },
+      {
+        "feed": "legacy-quarterly",
+        "day": "2026-11-23",
+        "last_success": "2026-11-23T17:12:19.224470+05:30",
+        "error": null
+      }
+    ],
+    "records": [
+      {
+        "feed": "announcements",
+        "kind": "notice",
+        "records": 8,
+        "official_timestamps": 8,
+        "linked_xml": 0
+      },
+      {
+        "feed": "bse-results",
+        "kind": "notice",
+        "records": 2,
+        "official_timestamps": 2,
+        "linked_xml": 0
+      }
+    ],
+    "distinct_payloads_rehashed": 4,
+    "pages": 5,
+    "errors": 0,
+    "verified_record_page_and_payload_links": true,
+    "sqlite_integrity_check": "ok"
+  },
+  "separate_live_control": {
+    "day": "2026-11-20",
+    "written_to_forward_archive": false,
+    "integrated_catalogue_records_with_xml": 2,
+    "verified_sample": {
+      "symbol": "GVPTECH",
+      "accession": "215948",
+      "period_end": "2026-09-30",
+      "exchange_published_ist": "2026-11-20T20:03:51+05:30",
+      "url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760563_20112026080349_WEB.xml",
+      "sha256": "84ef7fb2b6ef11ea3ecd598eae42fd736033e2ece1c61ea2255ac3e14234d562",
+      "bytes": 44636,
+      "xbrl_contexts": 12
+    }
+  }
+}

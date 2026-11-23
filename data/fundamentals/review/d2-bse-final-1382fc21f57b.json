@@ -1,0 +1,126 @@
+{
+  "catalogues_rehashed": 339,
+  "distinct_bse_instances_selected": 33,
+  "integrated_catalogues_rehashed": 236,
+  "lower_bound_passing_years": [],
+  "nse_cohort_sha256": "04423314a259e75ac30523dfc09f31df07ec0cdb8fb9f9201b9ba047e367a63e",
+  "observations": {
+    "catalogue": 345,
+    "http_error": 14076,
+    "inline_catalogue": 242,
+    "transport_error": 1945,
+    "xbrl": 45
+  },
+  "raw_bse_documents_rehashed": 45,
+  "report_sha256": "4258c037271a8c8be21ae40c80086d8434a1dab47893580420b82d7b30e024b6",
+  "sealed_exchange_sources_sha256": "7ab348b5840b42e80c2cf1e12512bdb87fab3be13c768099b280bf0c780b631a",
+  "selected_bse_facts_verified": 132,
+  "upper_bound_passing_years": [
+    "2025",
+    "2026"
+  ],
+  "windows": {
+    "2017": {
+      "as_archived_upper_bound": 0,
+      "conservative_combined_lower_bound": 0,
+      "eligible": 804
+    },
+    "2018": {
+      "any_catalogued_dated_file": 154,
+      "as_archived_upper_bound": 309,
+      "conservative_combined_lower_bound": 105,
+      "eligible": 804,
+      "nse_original_unresolved_catalogues": 1,
+      "nse_original_unresolved_cross_venue_clock": 203,
+      "nse_proved_under_both_venue_clocks": 105,
+      "nse_signed": 309
+    },
+    "2019": {
+      "any_catalogued_dated_file": 316,
+      "any_retrieved_dated_file": 1,
+      "as_archived_upper_bound": 461,
+      "conservative_combined_lower_bound": 235,
+      "eligible": 804,
+      "nse_original_unresolved_catalogues": 9,
+      "nse_original_unresolved_cross_venue_clock": 216,
+      "nse_proved_under_both_venue_clocks": 235,
+      "nse_signed": 460
+    },
+    "2020": {
+      "any_catalogued_dated_file": 215,
+      "any_retrieved_dated_file": 1,
+      "as_archived_upper_bound": 569,
+      "bse_verified": 1,
+      "conservative_combined_lower_bound": 463,
+      "eligible": 802,
+      "nse_original_unresolved_catalogues": 16,
+      "nse_original_unresolved_cross_venue_clock": 90,
+      "nse_proved_under_both_venue_clocks": 462,
+      "nse_signed": 568
+    },
+    "2021": {
+      "any_catalogued_dated_file": 226,
+      "as_archived_upper_bound": 561,
+      "conservative_combined_lower_bound": 492,
+      "eligible": 800,
+      "nse_original_unresolved_catalogues": 23,
+      "nse_original_unresolved_cross_venue_clock": 46,
+      "nse_proved_under_both_venue_clocks": 492,
+      "nse_signed": 561
+    },
+    "2022": {
+      "any_catalogued_dated_file": 186,
+      "any_retrieved_dated_file": 1,
+      "as_archived_upper_bound": 602,
+      "conservative_combined_lower_bound": 539,
+      "eligible": 800,
+      "nse_original_unresolved_catalogues": 30,
+      "nse_original_unresolved_cross_venue_clock": 32,
+      "nse_proved_under_both_venue_clocks": 539,
+      "nse_signed": 601
+    },
+    "2023": {
+      "any_catalogued_dated_file": 226,
+      "as_archived_upper_bound": 559,
+      "conservative_combined_lower_bound": 390,
+      "eligible": 801,
+      "nse_original_unresolved_catalogues": 30,
+      "nse_original_unresolved_cross_venue_clock": 139,
+      "nse_proved_under_both_venue_clocks": 390,
+      "nse_signed": 559
+    },
+    "2024": {
+      "any_catalogued_dated_file": 184,
+      "as_archived_upper_bound": 600,
+      "conservative_combined_lower_bound": 557,
+      "eligible": 803,
+      "nse_original_unresolved_catalogues": 12,
+      "nse_original_unresolved_cross_venue_clock": 31,
+      "nse_proved_under_both_venue_clocks": 557,
+      "nse_signed": 600
+    },
+    "2025": {
+      "any_catalogued_dated_file": 84,
+      "any_retrieved_dated_file": 1,
+      "as_archived_upper_bound": 712,
+      "bse_verified": 1,
+      "bse_verified_previously_covered": 31,
+      "conservative_combined_lower_bound": 312,
+      "eligible": 800,
+      "nse_original_unresolved_catalogues": 4,
+      "nse_original_unresolved_cross_venue_clock": 427,
+      "nse_proved_under_both_venue_clocks": 280,
+      "nse_signed": 711
+    },
+    "2026": {
+      "any_catalogued_dated_file": 27,
+      "as_archived_upper_bound": 772,
+      "conservative_combined_lower_bound": 10,
+      "eligible": 801,
+      "nse_original_unresolved_catalogues": 4,
+      "nse_original_unresolved_cross_venue_clock": 758,
+      "nse_proved_under_both_venue_clocks": 10,
+      "nse_signed": 772
+    }
+  }
+}

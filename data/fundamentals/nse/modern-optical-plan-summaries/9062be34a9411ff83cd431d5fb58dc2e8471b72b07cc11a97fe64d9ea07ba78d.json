@@ -1,0 +1,59 @@
+{
+  "complete_generic_ocr_member_inventory": 8858,
+  "complete_native_package_inventory": 15546,
+  "controls": {
+    "all_page_control_cases": 16,
+    "all_reference_pages": 226,
+    "control_plan_sha256": "54467b39543fa668eb7561839c5ea380bed9d846a55da205d46412bd0f13f374",
+    "edition_sha256": "fd10f4d2b9985fc82b3413d67b5e1f78c33fc4803436c653320edfefeb6e5873",
+    "field_controls_nominated": 5,
+    "interpretation": "Recall is measured only against physically corroborated fields in the separate all-page control. Omitted pages elsewhere can contain unobserved fields or conflicts.",
+    "misses": [],
+    "non_null_control_fields": 5,
+    "positive_source_pages_nominated": 2,
+    "reference_pages_nominated": 58,
+    "status": "checked",
+    "unique_positive_source_pages": 2
+  },
+  "counts": {
+    "distinct_nominated_pages": 36775,
+    "distinct_physical_members": 5837,
+    "distinct_physical_pages": 124800,
+    "eligible_accessions": 11008,
+    "eligible_issuer_quarter_basis": 10401,
+    "members_across_jobs": 5839,
+    "original_container_leaves": 5840,
+    "original_url_jobs": 5837,
+    "page_reads_nominated_across_jobs": 36781,
+    "physical_pages_across_jobs": 124821,
+    "sparse_pages_without_readable_text": 964,
+    "unaccounted_container_entries": 1,
+    "zero_decoded_member_packets": 1,
+    "zero_nomination_packets": 780
+  },
+  "excluded_ledger_rows": {
+    "first_packet_unavailable": 31,
+    "later_or_other_edition": 2394,
+    "no_first_notice_packet_url": 9,
+    "no_verified_structured_figures": 5386,
+    "non_xml_structured_source": 10624,
+    "original_four_fields_already_complete": 915,
+    "revision": 8
+  },
+  "frozen_ledger_inputs_sha256": "8c87e4964b721998846061445dbdab526a2edab83c4249151ac3ebad7ee206fb",
+  "limits": [
+    "Page nomination consumes only the archived native text and original generic OCR. Empty, garbled and omitted pages can hide facts or contradictory values.",
+    "A selected page is a proposed physical read. Issuer identity, source chronology, legal scope, explicitly printed units, value agreement and cross-page conflicts still require verification."
+  ],
+  "native_inventory_sha256": "3544d83628453174d58612dbfcad9e5ff29e4c936682f1426036e3698a613b5c",
+  "plan_sha256": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "selection_version": "modern_income_statement_text_v1",
+  "selector_sha256": "a013236735607f752330017b41bc4e76c0288c2665342262937356390cece600",
+  "source_census_sha256": "f33041cbc5287f75d5933d09f06553747bbb5247f8dfeb973e4fed0ed6555dd1",
+  "source_edition": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "structured_plans": {
+    "dated_aliases": "ddeb683169e04c498246abc48f3fb3e9b8de2c2fefa4ffcc9207598e362e63cf",
+    "primary": "f55329cd3d65b70768e721699845af250dcc4dedc35282297d1dcb2333c6ad84"
+  },
+  "used_ocr_receipts_sha256": "ddce32d031cfcd76a842525900b9c02162d7ac2f2fe31166b3b1debd84086368"
+}

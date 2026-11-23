@@ -1,0 +1,193 @@
+{
+  "reviewed_nse_filing_sha256": "1259069185386509a381ed410824f4dde6f888c7c12f3c1d8a9a738332a8ca8d",
+  "cohort_membership_sha256": "f3170fbd094cfcbb6f85fac43ae6becd22a4c88940770b96d0957034c7ffb37f",
+  "initial_eligible_html_basis_editions": 4339,
+  "distinct_security_quarters": 2931,
+  "scope": "Original release chronology audit on the reviewed interim. It reads outcomes from the exchange documents only. Each fiscal year ends in March. Subsequent acquisition can add evidence.",
+  "rows_sha256": "a70881fc709b08a1a7e43ec832fb557bdd216d470e553a9788237de7ce0b3dec",
+  "category_counts_before_case_recovery": {
+    "unresolved_or_other_prior": 4334,
+    "no_earlier_known_release": 3,
+    "summary_then_other_prior": 2
+  },
+  "years": {
+    "2014": {
+      "unresolved_or_other_prior": 255,
+      "initial_basis_editions": 257,
+      "four_formal_values": 214,
+      "summary_then_other_prior": 2
+    },
+    "2015": {
+      "unresolved_or_other_prior": 1045,
+      "initial_basis_editions": 1046,
+      "four_formal_values": 850,
+      "no_earlier_known_release": 1
+    },
+    "2016": {
+      "unresolved_or_other_prior": 1084,
+      "initial_basis_editions": 1086,
+      "four_formal_values": 824,
+      "no_earlier_known_release": 2
+    },
+    "2017": {
+      "unresolved_or_other_prior": 1117,
+      "initial_basis_editions": 1117,
+      "four_formal_values": 672
+    },
+    "2018": {
+      "unresolved_or_other_prior": 833,
+      "initial_basis_editions": 833,
+      "four_formal_values": 29
+    }
+  },
+  "sample_selection": "For each fiscal year, take the first SHA-256 of the filing_id among initial legacy HTML editions with four parsed structured values and earlier archived submission; retrieve the actual preceding attachment.",
+  "physical_samples": [
+    {
+      "symbol": "CYIENT",
+      "isin": "INE136B01020",
+      "basis": "standalone",
+      "period_end": "2014-03-31",
+      "fiscal_year_ending": 2014,
+      "catalogue_accession": "legacy/CYIENT/INE136B01020/2014-03-31/standalone/116415",
+      "formal_at": "2014-04-29T10:24:03+05:30",
+      "structured_url": "https://nsearchives.nseindia.in/archives/financial_results/financial_res_CYIENT_116415.html",
+      "structured_sha256": "87c4778c6153bd487292145933f6853d1897a735defdebd90f0140ce656943c0",
+      "earlier_at": "2014-04-25T09:35:02+05:30",
+      "earlier_url": "https://nsearchives.nseindia.in/corporate/INFOTECENT_31mar2014_B_04252014093501_.zip",
+      "earlier_category": "Financial Result Updates",
+      "gap_at_reviewed_checkpoint": "first_release_attachment_unavailable",
+      "attachment_sha256": "99b1f5d9c9845898c33792413ae2a7a160497a108e8e27b8b57543954fb04796",
+      "retrieved_url": "https://archives.nseindia.com/corporate/INFOTECENT_31mar2014_B_04252014093501_.zip",
+      "pdf_members": [
+        {
+          "name": "INFOTECENT_31mar2014_B.pdf",
+          "pdf_sha256": "47af276c7126dda8227f02d10876fe3f9facb1a14811d2b7a76d4f84557199ec",
+          "pages": 4,
+          "pages_with_100_native_chars": 0,
+          "explicit_basic_eps_pages": [],
+          "mentions_financial_results": false
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "symbol": "UNITECH",
+      "isin": "INE694A01020",
+      "basis": "consolidated",
+      "period_end": "2014-09-30",
+      "fiscal_year_ending": 2015,
+      "catalogue_accession": "legacy/UNITECH/INE694A01020/2014-09-30/consolidated/123981",
+      "formal_at": "2014-11-19T16:40:06+05:30",
+      "structured_url": "https://nsearchives.nseindia.in/archives/financial_results/financial_res_UNITECH_123981.html",
+      "structured_sha256": "59ff92a9c69dbfa94430c7255f175f8bda5268c264d475f70150b7549e822416",
+      "earlier_at": "2014-11-12T18:07:03+05:30",
+      "earlier_url": "https://nsearchives.nseindia.in/corporate/UNITECH_30092014_B_LR_11122014180702_.zip",
+      "earlier_category": "Financial Result Updates",
+      "gap_at_reviewed_checkpoint": "first_release_attachment_unavailable",
+      "attachment_sha256": "1b2bb1c4ebec711ee42bb495011f5cb1d2c12e12957f21de533e867259417bf8",
+      "retrieved_url": "https://archives.nseindia.com/corporate/UNITECH_30092014_B_LR_11122014180702_.zip",
+      "pdf_members": [
+        {
+          "name": "UNITECH_30092014_B_LR.pdf",
+          "pdf_sha256": "17808d6fd39d40e7540ad48f5fb9ec34d0ba6845de9a477ea1da3750cd4d09df",
+          "pages": 16,
+          "pages_with_100_native_chars": 0,
+          "explicit_basic_eps_pages": [],
+          "mentions_financial_results": false
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "symbol": "IDEA",
+      "isin": "INE669E01016",
+      "basis": "standalone",
+      "period_end": "2015-09-30",
+      "fiscal_year_ending": 2016,
+      "catalogue_accession": "legacy/IDEA/INE669E01016/2015-09-30/standalone/1002293",
+      "formal_at": "2015-10-27T15:42:03+05:30",
+      "structured_url": "https://nsearchives.nseindia.in/archives/financial_results/financial_res_IDEA_1002293.html",
+      "structured_sha256": "5a9b498e673693ad69af4c7b2e3e385ebab16b0924733c1283d3cf7132de931d",
+      "earlier_at": "2015-10-21T16:00:03+05:30",
+      "earlier_url": "https://nsearchives.nseindia.in/corporate/IDEA_21102015160003.zip",
+      "earlier_category": "Financial Result Updates",
+      "gap_at_reviewed_checkpoint": "first_release_attachment_unavailable",
+      "attachment_sha256": "1fe6074e6eafb2d0f2faddd06191ffda556fadcbc63d13cff8548cae17f0534c",
+      "retrieved_url": "https://archives.nseindia.com/corporate/IDEA_21102015160003.zip",
+      "pdf_members": [
+        {
+          "name": "IDEA.pdf",
+          "pdf_sha256": "bbc7e05621751005165a95f29dfefab3521af6d9397a1270c92d69d5787f2c5f",
+          "pages": 15,
+          "pages_with_100_native_chars": 0,
+          "explicit_basic_eps_pages": [],
+          "mentions_financial_results": false
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "symbol": "DLF",
+      "isin": "INE271C01023",
+      "basis": "standalone",
+      "period_end": "2016-06-30",
+      "fiscal_year_ending": 2017,
+      "catalogue_accession": "legacy/DLF/INE271C01023/2016-06-30/standalone/1014199",
+      "formal_at": "2016-09-29T21:00:03+05:30",
+      "structured_url": "https://nsearchives.nseindia.in/archives/financial_results/financial_res_DLF_1014199.html",
+      "structured_sha256": "f12b9744c22d14d12c5614af29146b5604fa6e6476ac25a851d16405273a33f8",
+      "earlier_at": "2016-08-29T19:23:31+05:30",
+      "earlier_url": "https://nsearchives.nseindia.in/corporate/DLF29082016Q1_29082016192331.zip",
+      "earlier_category": "Financial Result Updates",
+      "gap_at_reviewed_checkpoint": "first_release_facts_unreconciled",
+      "attachment_sha256": "5fb61d4c07c696431a011ba783ec2db91ec156dd6469091cd637516a8c408258",
+      "retrieved_url": "https://archives.nseindia.com/corporate/DLF29082016Q1_29082016192331.zip",
+      "pdf_members": [
+        {
+          "name": "DLF29082016Q1.pdf",
+          "pdf_sha256": "1297bc6de281289fd4bf255612d3e47ad703779dffdc65eee28e0015cb99fa15",
+          "pages": 17,
+          "pages_with_100_native_chars": 0,
+          "explicit_basic_eps_pages": [],
+          "mentions_financial_results": false
+        }
+      ],
+      "other_members": []
+    },
+    {
+      "symbol": "RBLBANK",
+      "isin": "INE976G01028",
+      "basis": "standalone",
+      "period_end": "2017-09-30",
+      "fiscal_year_ending": 2018,
+      "catalogue_accession": "legacy/RBLBANK/INE976G01028/2017-09-30/standalone/1031864",
+      "formal_at": "2017-11-08T22:44:03+05:30",
+      "structured_url": "https://nsearchives.nseindia.in/archives/financial_results/financial_res_RBLBANK_1031864.html",
+      "structured_sha256": "8be415faa55a17becd5e03dc71fa2ca349900c7f1fcbb1f0fe10f399f3db7b65",
+      "earlier_at": "2017-10-25T15:32:00+05:30",
+      "earlier_url": "https://nsearchives.nseindia.in/corporate/Q2FY18BoardMeetingOutcomeResults_25102017153255_506.zip",
+      "earlier_category": "Outcome of Board Meeting",
+      "gap_at_reviewed_checkpoint": "first_release_attachment_unavailable",
+      "attachment_sha256": "176894e415c8a8d6281533e0c1de2b805fe59a090848930d4d049be005b870e2",
+      "retrieved_url": "https://archives.nseindia.com/corporate/Q2FY18BoardMeetingOutcomeResults_25102017153255_506.zip",
+      "pdf_members": [
+        {
+          "name": "Q2FY18BoardMeetingOutcomeResults.pdf",
+          "pdf_sha256": "93d0beca7e656c212d8a696c9c8c2a94484b1d9bdb508fe037562a6f90dd24fe",
+          "pages": 49,
+          "pages_with_100_native_chars": 34,
+          "explicit_basic_eps_pages": [],
+          "mentions_financial_results": true
+        }
+      ],
+      "other_members": []
+    }
+  ],
+  "preliminary_no_prior_filing_ids": [
+    "legacy/GSKCONS/INE264A01014/2015-03-31/standalone/127648",
+    "legacy/NATCOPHARM/INE987B01018/2015-09-30/consolidated/1003781",
+    "legacy/NATCOPHARM/INE987B01018/2015-09-30/standalone/1003778"
+  ],
+  "no_earlier_after_raw_case_review": 0,
+  "cases_manifest_sha256": "ba71c2bbfed32c92320165ac1cfb13ab9bf27a3e4bbb8060d9f5dcc7b59e8f6d"
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "symbol": "SBIN",
+    "effective": "2014-11-20",
+    "old_isin": "INE062A01012",
+    "new_isin": "INE062A01020",
+    "new_shares": 10,
+    "old_shares": 1,
+    "sources": [
+      {
+        "issued": "2014-11-12",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPT28035.pdf",
+        "sha256": "d34f53243285784cc5266dc7af51380de90375d554c0cfc7632e3b7dbf588fba"
+      },
+      {
+        "issued": "2014-11-11",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CML28031.pdf",
+        "sha256": "382454818c3fa3a88b4469bb0073315cafcc5f9a61b7f47c40679103d7db9fbb"
+      }
+    ],
+    "subject": "Face Value Split From Rs 10 To Rs 1"
+  },
+  {
+    "symbol": "CADILAHC",
+    "effective": "2015-10-06",
+    "old_isin": "INE010B01019",
+    "new_isin": "INE010B01027",
+    "new_shares": 5,
+    "old_shares": 1,
+    "sources": [
+      {
+        "issued": "2015-09-29",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPT30840.pdf",
+        "sha256": "abf8c8b7834e154caf1a6331bd23c307cce9cfa60510715e4c68f8b299a0e3e5"
+      },
+      {
+        "issued": "2015-10-01",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CML30874.pdf",
+        "sha256": "9825d69b938332300cdec06759da447ecd4fb69c3d9a7235cfc495a231de6b07"
+      }
+    ],
+    "subject": "Face Value Split From Rs 5 To Rs 1"
+  },
+  {
+    "symbol": "WELSPUNIND",
+    "effective": "2016-03-21",
+    "old_isin": "INE192B01023",
+    "new_isin": "INE192B01031",
+    "new_shares": 10,
+    "old_shares": 1,
+    "sources": [
+      {
+        "issued": "2016-03-17",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPT31999.pdf",
+        "sha256": "72a3b6fa8ecc7020b0c3aa9f4c4ba1d7979b92dcc9ae6f290b061a130ac9f9fe"
+      },
+      {
+        "issued": "2016-03-18",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CML32003.pdf",
+        "sha256": "f95f356e1420fbf2236b60e0b6ac431172bb01b7f2ec9e807be9677d60161c77"
+      }
+    ],
+    "subject": "Face Value Split From Rs 10 To Rs 1"
+  },
+  {
+    "symbol": "SOLARINDS",
+    "effective": "2016-07-13",
+    "old_isin": "INE343H01011",
+    "new_isin": "INE343H01029",
+    "new_shares": 5,
+    "old_shares": 1,
+    "sources": [
+      {
+        "issued": "2016-07-11",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPT32784.pdf",
+        "sha256": "35970c92de2ddfa82b1600fc30ed31986d55c9d833936c5671c136c6affbadb4"
+      },
+      {
+        "issued": "2016-07-11",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CML32786.pdf",
+        "sha256": "2f7c3e9a32b978b837880f0420abbb90bd698c1407d46483346eb18718827ff4"
+      }
+    ],
+    "subject": "Face Value Split From Rs 10 To Rs 2"
+  },
+  {
+    "symbol": "KARURVYSYA",
+    "effective": "2016-11-17",
+    "old_isin": "INE036D01010",
+    "new_isin": "INE036D01028",
+    "new_shares": 5,
+    "old_shares": 1,
+    "sources": [
+      {
+        "issued": "2016-11-07",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPT33588.pdf",
+        "sha256": "e17716387b94a8605760172856629bf5a11705e12b924d3b7ba7ad46fc487a90"
+      },
+      {
+        "issued": "2016-11-08",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CML33593.pdf",
+        "sha256": "ac6318698e95f332d57ea0a6b17094165ba0b88cd9d50a3ed5c9e378602f1f9f"
+      }
+    ],
+    "subject": "Face Value Split From Rs 10 To Rs 2"
+  },
+  {
+    "symbol": "JSWSTEEL",
+    "effective": "2017-01-04",
+    "old_isin": "INE019A01020",
+    "new_isin": "INE019A01038",
+    "new_shares": 10,
+    "old_shares": 1,
+    "sources": [
+      {
+        "issued": "2016-12-23",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPT33870.pdf",
+        "sha256": "a94fb58fd0c0107858dc1c2d328ef1372b484e342723ba1cc7563364fed70342"
+      },
+      {
+        "issued": "2016-12-30",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CML33914.pdf",
+        "sha256": "1193f6d1016fddf2a9ae56541ff862bdd1180087aedef7cc9abdd95cc04bc77c"
+      }
+    ],
+    "subject": "Face Value Split From Rs 10 To Rs 1"
+  },
+  {
+    "symbol": "MCDOWELL-N",
+    "effective": "2018-06-15",
+    "old_isin": "INE854D01016",
+    "new_isin": "INE854D01024",
+    "new_shares": 5,
+    "old_shares": 1,
+    "sources": [
+      {
+        "issued": "2018-06-11",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPT37985.pdf",
+        "sha256": "39b35eb968c157b30ec5fb6c1e9e372b7766d2085931884a35f49e65e31a4424"
+      },
+      {
+        "issued": "2018-06-13",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CML38003.pdf",
+        "sha256": "a26464c3adc45f9ed5245059d3ef507943978e5dc44b944617d56e29d4e3d576"
+      }
+    ],
+    "subject": "Face Value Split From Rs 10 To Rs 2"
+  },
+  {
+    "symbol": "GUJGASLTD",
+    "effective": "2019-01-15",
+    "old_isin": "INE844O01022",
+    "new_isin": "INE844O01030",
+    "new_shares": 5,
+    "old_shares": 1,
+    "sources": [
+      {
+        "issued": "2019-01-01",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CMPT39827.pdf",
+        "sha256": "cf0cb35fcbf7d39d23958eb69fdde3a71fb83f7e45add6abb5ef8fcb76f01040"
+      },
+      {
+        "issued": "2019-01-08",
+        "url": "https://nsearchives.nseindia.com/content/circulars/CML39901.pdf",
+        "sha256": "8a161332a56dce64c9b07e36b7f0262b2e4db35e2f1a91d5d79a3361b259fb0e"
+      }
+    ],
+    "subject": "Face Value Split From Rs 10 To Rs 2"
+  }
+]

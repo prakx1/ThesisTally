@@ -1,0 +1,42 @@
+{
+  "day": "2018-06-07",
+  "labels": {
+    "DBL": {
+      "isin": "INE917M01012",
+      "percent": 5,
+      "published": "2018-06-06",
+      "sources": [
+        {
+          "published": "2018-06-06",
+          "sha256": "3f681b766a9c31fb597db9d89584fc0b6173fde87cba39f7c5f6d2ccd11eabdf",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV37951.zip"
+        }
+      ]
+    },
+    "IBVENTURES": {
+      "isin": "INE274G01010",
+      "percent": 5,
+      "published": "2018-06-06",
+      "sources": [
+        {
+          "published": "2018-06-06",
+          "sha256": "3f681b766a9c31fb597db9d89584fc0b6173fde87cba39f7c5f6d2ccd11eabdf",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV37951.zip"
+        }
+      ]
+    },
+    "VAKRANGEE": {
+      "isin": "INE051B01021",
+      "percent": 5,
+      "published": "2018-06-06",
+      "sources": [
+        {
+          "published": "2018-06-06",
+          "sha256": "3f681b766a9c31fb597db9d89584fc0b6173fde87cba39f7c5f6d2ccd11eabdf",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV37951.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2018-06-06"
+}

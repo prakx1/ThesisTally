@@ -1,0 +1,128 @@
+{
+  "version": "stage3-holder-evidence-v1",
+  "evidence": [
+    {
+      "file": "BDL-nse.pdf",
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML62006.pdf",
+      "sha256": "c29524695961a9e744b919bb85759fb1e0c813634a41c593d72289911e0dcc29"
+    },
+    {
+      "file": "BDL-cdsl.pdf",
+      "url": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2024-264&method=communique",
+      "sha256": "a209e484b135fde15dae14aafe67f2fcbb3e220e3b3766fdde4a1cbcf449aef0"
+    },
+    {
+      "file": "BAJFINANCE-cdsl.pdf",
+      "url": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2025-398&method=communique",
+      "sha256": "314b930f8efbe3a3ec943e08122a057dcaac1eeef106dbc5385c1e143d96fdd4"
+    },
+    {
+      "file": "BAJFINANCE-allot.pdf",
+      "url": "https://archives.nseindia.com/corporate/BAJFINANCE_17062025163606_SEIntimation_Bonus_Allotment_June2025.pdf",
+      "sha256": "fcdd27958b012b355e3d1864b7c772a8423e2b15bf8ae353d39fd08711b2359a"
+    },
+    {
+      "file": "BAJFINANCE-listed.pdf",
+      "url": "https://archives.nseindia.com/corporate/BAJFINANCE_24072025153030_BSENSEOutcome.pdf",
+      "sha256": "4944f2e617ac796d6c9c4c17cffaa9284133af1d0003b82a522bd0ec0b8763a7"
+    },
+    {
+      "file": "BAJFINANCE-split.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML68472.pdf",
+      "sha256": "0513f355122e2af95a87ed9ccad859d7aca03625c59eaa5cf7795d8da7b7cb56"
+    },
+    {
+      "file": "OIL-allot.pdf",
+      "url": "https://www.oil-india.com/files/investor_services_documents/Regulation%2030%20Announcement%2004.07.2024.pdf",
+      "sha256": "0d6be43e30b1ed6f81253080877a0ee9e96ae122efdfedd2e3e23971163bb345"
+    },
+    {
+      "file": "OIL-listed.pdf",
+      "url": "https://www.oil-india.com/files/financial_results_documents/AnnualReport202324.pdf",
+      "sha256": "89fa0a4e3e246e497c87f219f28a78fa8b66d794a3702db7e5bfae4cb976e2b6"
+    },
+    {
+      "file": "PERSISTENT-nse.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CMPT61351.pdf",
+      "sha256": "461c8e7a3d859b7e91d383154e2b5f27110ecabe443b6760892e5249811f2d16"
+    },
+    {
+      "file": "PERSISTENT-cdsl175.pdf",
+      "url": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2024-175&method=communique",
+      "sha256": "a05818d4851a7275d5184991005e7b1c71d52184145015374c7f2ef5c78e83a1"
+    }
+  ],
+  "actions": [
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE171Z01018",
+      "successor_isin": "INE171Z01026",
+      "new_shares": 2,
+      "old_shares": 1,
+      "suspended": "2024-05-24",
+      "effective": "2024-05-24",
+      "credited": "2024-05-25",
+      "tradable": "2024-05-27",
+      "source_url": "https://nsearchives.nseindia.com/content/circulars/CML62006.pdf",
+      "credit_source": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2024-264&method=communique",
+      "last_trade": "2024-05-23"
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE296A01024",
+      "successor_isin": "INE296A01032",
+      "new_shares": 2,
+      "old_shares": 1,
+      "suspended": "2025-06-16",
+      "effective": "2025-06-16",
+      "credited": "2025-06-17",
+      "tradable": "2025-06-17",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML68472.pdf",
+      "credit_source": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2025-398&method=communique",
+      "bonus": {
+        "new_shares": 8,
+        "old_shares": 1,
+        "credited": "2025-06-17",
+        "tradable": "2025-06-18",
+        "source_url": "https://archives.nseindia.com/corporate/BAJFINANCE_17062025163606_SEIntimation_Bonus_Allotment_June2025.pdf",
+        "listing_source": "https://archives.nseindia.com/corporate/BAJFINANCE_24072025153030_BSENSEOutcome.pdf"
+      },
+      "last_trade": "2025-06-13"
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE274J01014",
+      "successor_isin": "INE274J01014",
+      "new_shares": 1,
+      "old_shares": 1,
+      "suspended": "2024-07-02",
+      "effective": "2024-07-02",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 2,
+        "credited": "2024-07-04",
+        "tradable": "2024-07-15",
+        "subjects": [
+          "Bonus 1:2"
+        ],
+        "source_url": "https://www.oil-india.com/files/investor_services_documents/Regulation%2030%20Announcement%2004.07.2024.pdf",
+        "listing_source": "https://www.oil-india.com/files/financial_results_documents/AnnualReport202324.pdf"
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE262H01013",
+      "successor_isin": "INE262H01021",
+      "new_shares": 2,
+      "old_shares": 1,
+      "last_trade": "2024-03-27",
+      "suspended": "2024-03-28",
+      "effective": "2024-03-28",
+      "record": "2024-04-01",
+      "credited": "2024-04-02",
+      "tradable": "2024-04-02",
+      "source_url": "https://archives.nseindia.com/content/circulars/CMPT61351.pdf",
+      "credit_source": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2024-175&method=communique"
+    }
+  ]
+}

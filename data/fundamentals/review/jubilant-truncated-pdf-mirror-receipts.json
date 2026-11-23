@@ -1,0 +1,32 @@
+[
+  {
+    "bytes": 278528,
+    "declared_length": "278528",
+    "http_range": null,
+    "http_status": 200,
+    "last_pdf_end_offset": 518,
+    "retrieved_url": "https://archives.nseindia.com/corporate/JUBLFOOD_12112020151048_OutcomeBM12Nov2020.pdf",
+    "sha256": "3e2a9920c5bebee6e19e70d040457399cc6546f31649d3e2a42bf4e876c29478",
+    "url": "https://archives.nseindia.com/corporate/JUBLFOOD_12112020151048_OutcomeBM12Nov2020.pdf"
+  },
+  {
+    "bytes": 278528,
+    "declared_length": "278528",
+    "http_range": null,
+    "http_status": 200,
+    "last_pdf_end_offset": 518,
+    "retrieved_url": "https://nsearchives.nseindia.com/corporate/JUBLFOOD_12112020151048_OutcomeBM12Nov2020.pdf",
+    "sha256": "3e2a9920c5bebee6e19e70d040457399cc6546f31649d3e2a42bf4e876c29478",
+    "url": "https://nsearchives.nseindia.com/corporate/JUBLFOOD_12112020151048_OutcomeBM12Nov2020.pdf"
+  },
+  {
+    "bytes": 278528,
+    "declared_length": "278528",
+    "http_range": null,
+    "http_status": 200,
+    "last_pdf_end_offset": 518,
+    "retrieved_url": "https://nsearchives.nseindia.in/corporate/JUBLFOOD_12112020151048_OutcomeBM12Nov2020.pdf",
+    "sha256": "3e2a9920c5bebee6e19e70d040457399cc6546f31649d3e2a42bf4e876c29478",
+    "url": "https://nsearchives.nseindia.in/corporate/JUBLFOOD_12112020151048_OutcomeBM12Nov2020.pdf"
+  }
+]

@@ -8,6 +8,7 @@ import shutil
 from collections import defaultdict
 from datetime import date, datetime, time, timedelta
 from functools import lru_cache
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -17,6 +18,77 @@ from .constituents import load_daily
 from .exchange import AMOUNT, context_file
 
 FIELDS = ["open", "high", "low", "close", "volume"]
+
+
+def large_moves(close, prior):
+    size = close.div(prior).sub(1).abs()
+    over = size.gt(0.20)
+    # Floating-point division can place an exact exchange price band just
+    # above the boundary. Only boundary cases require decimal arithmetic.
+    edge = size.sub(0.20).abs().lt(1e-12)
+    if edge.any():
+        over.loc[edge] = pd.Series(
+            [market.is_strict_move(now, last) for now, last in zip(close[edge], prior[edge])],
+            index=close[edge].index,
+            dtype=bool,
+        )
+    return over
+
+
+def bridge_delayed_split_identifiers(tape):
+    """Join a documented late bhavcopy identifier to its already adjusted ex-date chain."""
+    path = Path(__file__).with_name("revisions") / "delayed-split-identifiers.json"
+    terms = json.loads(path.read_bytes())
+    for term in terms:
+        effective = date.fromisoformat(term["effective"])
+        first_new = date.fromisoformat(term["first_printed_new_isin"])
+        security = tape[tape.symbol.eq(term["symbol"])].sort_values("day")
+        if security.empty:
+            continue
+        old_id = term["old_isin"]
+        new_id = term["new_isin"]
+        old = security[(security.day == effective) & security["isin"].eq(old_id)]
+        new = security[(security.day == first_new) & security["isin"].eq(new_id)]
+        if old.empty or new.empty:
+            # A historical prefix through the ex-date has no new identifier yet.
+            if security.day.min() <= effective and security.day.max() >= first_new:
+                raise market.MarketError(f"Changed split transition evidence for {term['symbol']}")
+            continue
+        prior = security[security.day.lt(effective) & security["isin"].eq(old_id)]
+        parent, child = old.iloc[0], new.iloc[0]
+        ratio = term["new_shares"] / term["old_shares"]
+        if not prior.empty:
+            previous = prior.iloc[-1]
+            if not (
+                np.isclose(parent.price_factor / previous.price_factor, 1 / ratio)
+                and np.isclose(parent.share_factor / previous.share_factor, ratio)
+            ):
+                raise market.MarketError(
+                    f"Split ex-date factors disagree with the circular for {old_id}"
+                )
+        if parent.chain == child.chain:
+            if not (
+                np.isclose(parent.price_factor, child.price_factor)
+                and np.isclose(parent.share_factor, child.share_factor)
+            ):
+                raise market.MarketError(
+                    f"Discontinuous factors across delayed identifier for {old_id}"
+                )
+            continue
+        affected = tape.chain.eq(child.chain) & tape.day.ge(first_new)
+        tape.loc[affected, "chain"] = parent.chain
+        for factor in ["price_factor", "share_factor"]:
+            tape.loc[affected, factor] *= parent[factor] / child[factor]
+        # Published annual caches already contain normalized OHLCV columns.
+        # A new raw tape receives those columns after its cumulative factors are set.
+        for field in FIELDS:
+            adjusted = "adjusted_" + field
+            if adjusted in tape:
+                factor = "share_factor" if field == "volume" else "price_factor"
+                tape.loc[affected, adjusted] = (
+                    tape.loc[affected, field] / tape.loc[affected, factor]
+                )
+    return terms
 
 
 def adjustment(subject, face_value, prior):
@@ -208,7 +280,7 @@ def prepare_tape(root, dates, members, actions, vix, progress):
     tape["share_factor"] = 1.0
     tape["chain"] = tape["isin"]
     tape["prior_close"] = tape.groupby("isin", sort=False).close.shift()
-    tape["unexplained_jump"] = (tape.close / tape.prior_close - 1).abs() > 0.20
+    tape["unexplained_jump"] = large_moves(tape.close, tape.prior_close)
     # Index moves are retained as observations. Quarantine concerns equity entries.
     tape.loc[tape.symbol.isin(market.BENCHMARKS), "unexplained_jump"] = False
     events = {
@@ -274,6 +346,7 @@ def prepare_tape(root, dates, members, actions, vix, progress):
         )
     tape["price_factor"] = tape.groupby("chain", sort=False).price_factor.cumprod()
     tape["share_factor"] = tape.groupby("chain", sort=False).share_factor.cumprod()
+    bridge_delayed_split_identifiers(tape)
     return tape, issues
 
 

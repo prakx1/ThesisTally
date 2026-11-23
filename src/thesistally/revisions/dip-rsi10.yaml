@@ -1,0 +1,12 @@
+version: dip-rsi10
+base_revision: r2
+base_sha256: 93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84
+execution_convention: stage3-v1
+dip:
+  eligible_count: 40
+  rsi_below: 10
+  stop_atr: 3
+filters:
+  max_stop_atr: 3
+exits:
+  max_days: 15

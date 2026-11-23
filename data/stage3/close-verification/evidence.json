@@ -1,0 +1,689 @@
+{
+  "cases": [
+    {
+      "close": 364.25,
+      "corporate_action_register": {
+        "matching_ex_date_events": [],
+        "path": "sources/reference/actions-2018-01-01_2018-12-31.json",
+        "sha256": "7355c4839750b41278cfc5228b2d2ca60214d486c6cad988327a267770ca720c",
+        "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018"
+      },
+      "corporate_announcements": {
+        "filings": [
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/InvestorCall_02022018125156_157.zip",
+            "exchange_id": "102424453",
+            "filed": "02-Feb-2018 12:51:00",
+            "subject": "Analysts/Institutional Investor Meet/Con. Call Updates"
+          },
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/PCJEWELLER_7311_reply_02022018115956.zip",
+            "exchange_id": "102424422",
+            "filed": "02-Feb-2018 11:59:00",
+            "subject": "Price movement"
+          },
+          {
+            "attachment": "-",
+            "exchange_id": "102424130",
+            "filed": "02-Feb-2018 10:37:00",
+            "subject": "Price movement"
+          }
+        ],
+        "path": "stage3/close-verification/sources/announcements-PCJEWELLER-2018-02-02.json",
+        "sha256": "ad706de733eaef0f30ae178bed2e000c1e8848d7d0f4e7b01c0a6b755db01912",
+        "url": "https://www.nseindia.in/api/corporate-announcements?index=equities&symbol=PCJEWELLER&from_date=30-01-2018&to_date=05-02-2018"
+      },
+      "day": "2018-02-02",
+      "historical_share_units": {
+        "adjusted_units_per_original": 10,
+        "effective": "2024-12-16",
+        "sources": [
+          {
+            "path": "stage3/close-verification/sources/CMPT65546.pdf",
+            "sha256": "b21da2c3469740b54bd03b9a242eef620dca0393f76702eae44cf4d4976c7086",
+            "url": "https://archives.nseindia.com/content/circulars/CMPT65546.pdf"
+          }
+        ]
+      },
+      "independent_checks": {
+        "Groww NSE cash chart": {
+          "both_closes_exact_in_original_units": true,
+          "both_ohlc_exact_in_original_units": true,
+          "path": "stage3/close-verification/sources/groww-PCJEWELLER-2018-02-02.json",
+          "quoted_ohlc": [
+            [
+              48.78,
+              49.885,
+              47.12,
+              48.43
+            ],
+            [
+              46.5,
+              47.49,
+              21.795,
+              36.425
+            ]
+          ],
+          "sha256": "715fc544c07b6f6555c95533752a3ef2a9e0757de396435b61ee02b56911107c",
+          "url": "https://groww.in/v1/api/charting_service/v2/chart/exchange/NSE/segment/CASH/PCJEWELLER?startTimeInMillis=1517337000000&endTimeInMillis=1517596200000&intervalInMinutes=1440"
+        },
+        "NSE Clearing volatility report": {
+          "both_closes_exact_in_original_units": true,
+          "path": "stage3/close-verification/sources/CMVOLT_02022018.CSV",
+          "reported_closes": [
+            484.3,
+            364.25
+          ],
+          "sha256": "b782812df71ab6aeb6f1811ab7d9b24c731e07af626ba93d7110463e39ee9328",
+          "url": "https://archives.nseindia.com/archives/nsccl/volt/CMVOLT_02022018.CSV"
+        },
+        "Zerodha Kite day archive": {
+          "both_closes_exact_in_original_units": false,
+          "close_differences_in_original_rupees": [
+            0.0,
+            -0.05
+          ],
+          "instrument_token": 7455745,
+          "path": "sources/kite-history/2012-11-01_2026-11-20/INE785M01013.parquet",
+          "quoted_ohlc": [
+            [
+              48.78,
+              49.88,
+              47.12,
+              48.43
+            ],
+            [
+              46.5,
+              47.49,
+              21.8,
+              36.42
+            ]
+          ],
+          "sha256": "73f39a9b9bfab29c192f845197e81a0c714aec3ae46bbfa2ebd08b9b033e0c14",
+          "url": "https://api.kite.trade/instruments/historical/7455745/day"
+        }
+      },
+      "isin": "INE785M01013",
+      "matching_price_sources": [
+        "NSE equity final",
+        "Groww NSE cash chart",
+        "NSE Clearing volatility report"
+      ],
+      "nse_ohlc": [
+        [
+          487.8,
+          498.85,
+          471.2,
+          484.3
+        ],
+        [
+          465.0,
+          474.9,
+          217.95,
+          364.25
+        ]
+      ],
+      "official_nse_finals": [
+        {
+          "sha256": "20fc743da68679557d742504b6841265d35f2553bd483e7d28b1be61032c2f88",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2018/FEB/cm01FEB2018bhav.csv.zip"
+        },
+        {
+          "sha256": "5dbf1da1e7e16d2269a3162fae464824f679b4a7daa21b4cc002a5408ed731cc",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2018/FEB/cm02FEB2018bhav.csv.zip"
+        }
+      ],
+      "prior_close": 484.3,
+      "prior_day": "2018-02-01",
+      "symbol": "PCJEWELLER",
+      "verified": true
+    },
+    {
+      "close": 2266.15,
+      "corporate_action_register": {
+        "matching_ex_date_events": [],
+        "path": "sources/reference/actions-2020-01-01_2020-12-31.json",
+        "sha256": "a7b88661c66c62aa5614833a1b42b67e5e8b01c89a5a42d38d4cf49c4267f26a",
+        "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020"
+      },
+      "corporate_announcements": {
+        "filings": [
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_25032020100317_BFLBSENSEClarification25032020_v2.pdf",
+            "exchange_id": "104211072",
+            "filed": "25-Mar-2020 10:03:00",
+            "subject": "Clarification"
+          }
+        ],
+        "path": "stage3/close-verification/sources/announcements-BAJFINANCE-2020-03-23.json",
+        "sha256": "30c08c0742f93c1d5aeb77d43d1f9b4565d339c93ca2e8cc60dc75433b2ccec3",
+        "url": "https://www.nseindia.in/api/corporate-announcements?index=equities&symbol=BAJFINANCE&from_date=20-03-2020&to_date=26-03-2020"
+      },
+      "day": "2020-03-23",
+      "historical_share_units": {
+        "adjusted_units_per_original": 10,
+        "effective": "2025-06-16",
+        "sources": [
+          {
+            "path": "stage3/close-verification/sources/FAOP68547.pdf",
+            "sha256": "decb99ba1de23d800b34ffef3293ce8b951e994f14c6b88c70d80f75e0af1c34",
+            "url": "https://archives.nseindia.com/content/circulars/FAOP68547.pdf"
+          },
+          {
+            "path": "stage3/close-verification/sources/CML68472.pdf",
+            "sha256": "0513f355122e2af95a87ed9ccad859d7aca03625c59eaa5cf7795d8da7b7cb56",
+            "url": "https://archives.nseindia.com/content/circulars/CML68472.pdf"
+          }
+        ]
+      },
+      "independent_checks": {
+        "Groww NSE cash chart": {
+          "both_closes_exact_in_original_units": true,
+          "both_ohlc_exact_in_original_units": true,
+          "path": "stage3/close-verification/sources/groww-BAJFINANCE-2020-03-23.json",
+          "quoted_ohlc": [
+            [
+              279.985,
+              304.4,
+              262.165,
+              295.19
+            ],
+            [
+              265.675,
+              270.0,
+              222.5,
+              226.615
+            ]
+          ],
+          "sha256": "65baae6b4829e5e90fdf5f94769667bad03ddcafeb7bd1b3de1a70402ce21ef4",
+          "url": "https://groww.in/v1/api/charting_service/v2/chart/exchange/NSE/segment/CASH/BAJFINANCE?startTimeInMillis=1584556200000&endTimeInMillis=1584988200000&intervalInMinutes=1440"
+        },
+        "NSE Clearing volatility report": {
+          "both_closes_exact_in_original_units": false,
+          "path": "stage3/close-verification/sources/FOVOLT_23032020.csv",
+          "reported_closes": [
+            2952.25,
+            2266.1
+          ],
+          "sha256": "67cd8f7bde2c040be7b60b387fd8f4b5e9f7afa2144c9093ec61d5b6ea1fde53",
+          "url": "https://archives.nseindia.com/archives/nsccl/volt/FOVOLT_23032020.csv"
+        },
+        "Zerodha Kite day archive": {
+          "both_closes_exact_in_original_units": false,
+          "close_differences_in_original_rupees": [
+            -1.9,
+            -1.15
+          ],
+          "instrument_token": 81153,
+          "path": "sources/kite-history/2012-11-01_2026-11-20/INE296A01024.parquet",
+          "quoted_ohlc": [
+            [
+              280.0,
+              304.5,
+              262.0,
+              295.0
+            ],
+            [
+              266.0,
+              270.0,
+              222.5,
+              226.5
+            ]
+          ],
+          "sha256": "5586a920bd0fd64b1b52c9f57bbe21a199d7268f4f2aec8c14328b22deb9e51a",
+          "url": "https://api.kite.trade/instruments/historical/81153/day"
+        }
+      },
+      "isin": "INE296A01024",
+      "matching_price_sources": [
+        "NSE equity final",
+        "Groww NSE cash chart"
+      ],
+      "nse_ohlc": [
+        [
+          2799.85,
+          3044.0,
+          2621.65,
+          2951.9
+        ],
+        [
+          2656.75,
+          2700.0,
+          2225.0,
+          2266.15
+        ]
+      ],
+      "official_nse_finals": [
+        {
+          "sha256": "a57e2f64fce2422720800b1c058c8c452df9b7e0870cdc91428472b39e899128",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/MAR/cm20MAR2020bhav.csv.zip"
+        },
+        {
+          "sha256": "2806459732d60d63adf7d3340307aa257d3677593dc5f27d118f5af89e1a7d32",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/MAR/cm23MAR2020bhav.csv.zip"
+        }
+      ],
+      "prior_close": 2951.9,
+      "prior_day": "2020-03-20",
+      "symbol": "BAJFINANCE",
+      "verified": true
+    },
+    {
+      "close": 101.9,
+      "corporate_action_register": {
+        "matching_ex_date_events": [],
+        "path": "sources/reference/actions-2020-01-01_2020-12-31.json",
+        "sha256": "a7b88661c66c62aa5614833a1b42b67e5e8b01c89a5a42d38d4cf49c4267f26a",
+        "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020"
+      },
+      "corporate_announcements": {
+        "filings": [
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/MANAPPURAM_28032020191753_ratingchangeintimation.pdf",
+            "exchange_id": "104217956",
+            "filed": "28-Mar-2020 19:17:00",
+            "subject": "Credit Rating"
+          },
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/MANAPPURAM_28032020122211_windowclosure.pdf",
+            "exchange_id": "104217669",
+            "filed": "28-Mar-2020 12:22:00",
+            "subject": "Trading Window"
+          },
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/MANAPPURAM_27032020123341_SEOutcome27032020.pdf",
+            "exchange_id": "104216664",
+            "filed": "27-Mar-2020 12:33:00",
+            "subject": "Committee Meeting Updates"
+          }
+        ],
+        "path": "stage3/close-verification/sources/announcements-MANAPPURAM-2020-03-25.json",
+        "sha256": "09ad22f1dd228b66c3e99f9d06f07550c1563838106fe9359355eb945aa7aa92",
+        "url": "https://www.nseindia.in/api/corporate-announcements?index=equities&symbol=MANAPPURAM&from_date=22-03-2020&to_date=28-03-2020"
+      },
+      "day": "2020-03-25",
+      "historical_share_units": {
+        "adjusted_units_per_original": 1,
+        "sources": []
+      },
+      "independent_checks": {
+        "Groww NSE cash chart": {
+          "both_closes_exact_in_original_units": true,
+          "both_ohlc_exact_in_original_units": true,
+          "path": "stage3/close-verification/sources/groww-MANAPPURAM-2020-03-25.json",
+          "quoted_ohlc": [
+            [
+              85.0,
+              91.05,
+              79.0,
+              84.3
+            ],
+            [
+              80.0,
+              105.35,
+              80.0,
+              101.9
+            ]
+          ],
+          "sha256": "bd628505081a1d0182fb173826cb8abbfbbd4cca1d1892e1b4b386df7fd33ce5",
+          "url": "https://groww.in/v1/api/charting_service/v2/chart/exchange/NSE/segment/CASH/MANAPPURAM?startTimeInMillis=1584901800000&endTimeInMillis=1585161000000&intervalInMinutes=1440"
+        },
+        "NSE Clearing volatility report": {
+          "both_closes_exact_in_original_units": true,
+          "path": "stage3/close-verification/sources/CMVOLT_25032020.CSV",
+          "reported_closes": [
+            84.3,
+            101.9
+          ],
+          "sha256": "d287c3c91c130696437beedcdff3b037499cdb24e21d2cf72a665555d9463e53",
+          "url": "https://archives.nseindia.com/archives/nsccl/volt/CMVOLT_25032020.CSV"
+        },
+        "Zerodha Kite day archive": {
+          "both_closes_exact_in_original_units": true,
+          "close_differences_in_original_rupees": [
+            0.0,
+            0.0
+          ],
+          "instrument_token": 4879617,
+          "path": "sources/kite-history/2012-11-01_2026-11-20/INE522D01027.parquet",
+          "quoted_ohlc": [
+            [
+              85.0,
+              91.05,
+              79.0,
+              84.3
+            ],
+            [
+              80.0,
+              105.35,
+              80.0,
+              101.9
+            ]
+          ],
+          "sha256": "011bbd9f867dc7d49a210a225263d4f4857d7c774fd293407c3b3e6b9bb9901d",
+          "url": "https://api.kite.trade/instruments/historical/4879617/day"
+        }
+      },
+      "isin": "INE522D01027",
+      "matching_price_sources": [
+        "NSE equity final",
+        "Groww NSE cash chart",
+        "Zerodha Kite day archive",
+        "NSE Clearing volatility report"
+      ],
+      "nse_ohlc": [
+        [
+          85.0,
+          91.05,
+          79.0,
+          84.3
+        ],
+        [
+          80.0,
+          105.35,
+          80.0,
+          101.9
+        ]
+      ],
+      "official_nse_finals": [
+        {
+          "sha256": "ff601937cd8a1163081edc57d11e400a851e6f837bb0c1a7f3e2c02728a64c65",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/MAR/cm24MAR2020bhav.csv.zip"
+        },
+        {
+          "sha256": "83227df529d7d7ff2c2ceab8a891ddc55e66ccab2fce2cdecd1ba80ad0add243",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/MAR/cm25MAR2020bhav.csv.zip"
+        }
+      ],
+      "prior_close": 84.3,
+      "prior_day": "2020-03-24",
+      "symbol": "MANAPPURAM",
+      "verified": true
+    },
+    {
+      "close": 16.0,
+      "corporate_action_register": {
+        "matching_ex_date_events": [],
+        "path": "sources/reference/actions-2023-01-01_2023-12-31.json",
+        "sha256": "b1b8c68277b86e53e735802a444cd5e58107ad34f698c52197c66026a1c04c91",
+        "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023"
+      },
+      "corporate_announcements": {
+        "filings": [
+          {
+            "attachment": "-",
+            "exchange_id": "105712557",
+            "filed": "01-Jan-2024 15:15:19",
+            "subject": "News Verification"
+          },
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/IDEA_29122023160417_SETradingWindow311223_signed.pdf",
+            "exchange_id": "105710438",
+            "filed": "29-Dec-2023 16:04:17",
+            "subject": "Trading Window"
+          }
+        ],
+        "path": "stage3/close-verification/sources/announcements-IDEA-2023-12-29.json",
+        "sha256": "392f2385925c077aa900a76c78bad11a50fe69880a22f30232bf9c0f231f364f",
+        "url": "https://www.nseindia.in/api/corporate-announcements?index=equities&symbol=IDEA&from_date=26-12-2023&to_date=01-01-2024"
+      },
+      "day": "2023-12-29",
+      "historical_share_units": {
+        "adjusted_units_per_original": 1,
+        "sources": []
+      },
+      "independent_checks": {
+        "Groww NSE cash chart": {
+          "both_closes_exact_in_original_units": true,
+          "both_ohlc_exact_in_original_units": true,
+          "path": "stage3/close-verification/sources/groww-IDEA-2023-12-29.json",
+          "quoted_ohlc": [
+            [
+              13.5,
+              13.6,
+              13.1,
+              13.25
+            ],
+            [
+              13.45,
+              16.25,
+              13.3,
+              16.0
+            ]
+          ],
+          "sha256": "9aa7c7bdd4de8ce8dec1dc9721e30c26aeb63fda332a20dc3dc1d36d446678af",
+          "url": "https://groww.in/v1/api/charting_service/v2/chart/exchange/NSE/segment/CASH/IDEA?startTimeInMillis=1703615400000&endTimeInMillis=1703874600000&intervalInMinutes=1440"
+        },
+        "NSE Clearing volatility report": {
+          "both_closes_exact_in_original_units": true,
+          "path": "stage3/close-verification/sources/CMVOLT_29122023.CSV",
+          "reported_closes": [
+            13.25,
+            16.0
+          ],
+          "sha256": "7314cdf668d7f8ca09cd3cb82267d38f2c10ec1d259fc49a14ae52bf0d7f0078",
+          "url": "https://archives.nseindia.com/archives/nsccl/volt/CMVOLT_29122023.CSV"
+        },
+        "Zerodha Kite day archive": {
+          "both_closes_exact_in_original_units": true,
+          "close_differences_in_original_rupees": [
+            0.0,
+            0.0
+          ],
+          "instrument_token": 3677697,
+          "path": "sources/kite-history/2012-11-01_2026-11-20/INE669E01016.parquet",
+          "quoted_ohlc": [
+            [
+              13.5,
+              13.6,
+              13.1,
+              13.25
+            ],
+            [
+              13.45,
+              16.25,
+              13.3,
+              16.0
+            ]
+          ],
+          "sha256": "f786d3fef7cee48b319cb7fb636e56f5654b2914ba4b39fe273b9bcb03f5c642",
+          "url": "https://api.kite.trade/instruments/historical/3677697/day"
+        }
+      },
+      "isin": "INE669E01016",
+      "matching_price_sources": [
+        "NSE equity final",
+        "Groww NSE cash chart",
+        "Zerodha Kite day archive",
+        "NSE Clearing volatility report"
+      ],
+      "nse_ohlc": [
+        [
+          13.5,
+          13.6,
+          13.1,
+          13.25
+        ],
+        [
+          13.45,
+          16.25,
+          13.3,
+          16.0
+        ]
+      ],
+      "official_nse_finals": [
+        {
+          "sha256": "8c296c0a66cf4008a98b1b5b8d2683c05834cd706b8778df4b375018de2ba9ca",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm28DEC2023bhav.csv.zip"
+        },
+        {
+          "sha256": "ba5c7e44708ea3df65a022cdf842eb3fd341421bbf4498c0ea06b3843f8a7cc3",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm29DEC2023bhav.csv.zip"
+        }
+      ],
+      "prior_close": 13.25,
+      "prior_day": "2023-12-28",
+      "symbol": "IDEA",
+      "verified": true
+    },
+    {
+      "close": 3878.45,
+      "corporate_action_register": {
+        "matching_ex_date_events": [],
+        "path": "sources/reference/actions-2024-01-01_2024-12-31.json",
+        "sha256": "bd1c34bbd8b199cb13dc85d0b0a35422e081d4d966c7fbed8c898a312e3fa62e",
+        "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024"
+      },
+      "corporate_announcements": {
+        "filings": [
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/POLYCAB_12012024175334_Clarification_letter_to_NSE.pdf",
+            "exchange_id": "105724230",
+            "filed": "12-Jan-2024 17:53:33",
+            "subject": "News Verification"
+          },
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/POLYCAB_11012024191023_Clarificationletter.pdf",
+            "exchange_id": "105723056",
+            "filed": "11-Jan-2024 19:10:23",
+            "subject": "Updates"
+          },
+          {
+            "attachment": "-",
+            "exchange_id": "105722285",
+            "filed": "11-Jan-2024 10:11:08",
+            "subject": "News Verification"
+          },
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/POLYCAB_10012024152011_POLYCAB_10012024111159_Clarification10012024.pdf",
+            "exchange_id": "105721278",
+            "filed": "10-Jan-2024 15:20:11",
+            "subject": "News Verification"
+          },
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/POLYCAB_10012024111159_Clarification10012024.pdf",
+            "exchange_id": "105721078",
+            "filed": "10-Jan-2024 11:11:59",
+            "subject": "Updates"
+          },
+          {
+            "attachment": "-",
+            "exchange_id": "105720466",
+            "filed": "09-Jan-2024 18:26:49",
+            "subject": "News Verification"
+          },
+          {
+            "attachment": "https://nsearchives.nseindia.in/corporate/POLYCAB_09012024181954_SELETTER09012024f.pdf",
+            "exchange_id": "105720457",
+            "filed": "09-Jan-2024 18:19:54",
+            "subject": "Press Release"
+          }
+        ],
+        "path": "stage3/close-verification/sources/announcements-POLYCAB-2024-01-11.json",
+        "sha256": "c2bdc3bb44abcff98db0398c6998a6732e3241314f00bab91eacc3cf8edb0a53",
+        "url": "https://www.nseindia.in/api/corporate-announcements?index=equities&symbol=POLYCAB&from_date=08-01-2024&to_date=14-01-2024"
+      },
+      "day": "2024-01-11",
+      "historical_share_units": {
+        "adjusted_units_per_original": 1,
+        "sources": []
+      },
+      "independent_checks": {
+        "Groww NSE cash chart": {
+          "both_closes_exact_in_original_units": true,
+          "both_ohlc_exact_in_original_units": true,
+          "path": "stage3/close-verification/sources/groww-POLYCAB-2024-01-11.json",
+          "quoted_ohlc": [
+            [
+              4995.95,
+              5035.25,
+              4863.35,
+              4911.85
+            ],
+            [
+              4420.7,
+              4420.7,
+              3801.0,
+              3878.45
+            ]
+          ],
+          "sha256": "2cb9dfb734bf4f14c60f03a654c8b70436bfb5f88f5b2de5fd4df01f16532b7f",
+          "url": "https://groww.in/v1/api/charting_service/v2/chart/exchange/NSE/segment/CASH/POLYCAB?startTimeInMillis=1704738600000&endTimeInMillis=1704997800000&intervalInMinutes=1440"
+        },
+        "NSE Clearing volatility report": {
+          "both_closes_exact_in_original_units": false,
+          "path": "stage3/close-verification/sources/CMVOLT_11012024.CSV",
+          "reported_closes": [
+            4911.9,
+            3878.4
+          ],
+          "sha256": "58f0d2147cd73b592793a61f2dda33d527c66a5ec3eb46aa1896168b45e4c97d",
+          "url": "https://archives.nseindia.com/archives/nsccl/volt/CMVOLT_11012024.CSV"
+        },
+        "Zerodha Kite day archive": {
+          "both_closes_exact_in_original_units": true,
+          "close_differences_in_original_rupees": [
+            0.0,
+            0.0
+          ],
+          "instrument_token": 2455041,
+          "path": "sources/kite-history/2012-11-01_2026-11-20/INE455K01017.parquet",
+          "quoted_ohlc": [
+            [
+              4995.95,
+              5035.25,
+              4863.35,
+              4911.85
+            ],
+            [
+              4420.7,
+              4420.7,
+              3801.0,
+              3878.45
+            ]
+          ],
+          "sha256": "f3e53f082d39f75837540cc21763d48a23f803150b45bc2a1cc5773a0f096954",
+          "url": "https://api.kite.trade/instruments/historical/2455041/day"
+        }
+      },
+      "isin": "INE455K01017",
+      "matching_price_sources": [
+        "NSE equity final",
+        "Groww NSE cash chart",
+        "Zerodha Kite day archive"
+      ],
+      "nse_ohlc": [
+        [
+          4995.95,
+          5035.25,
+          4863.35,
+          4911.85
+        ],
+        [
+          4420.7,
+          4420.7,
+          3801.0,
+          3878.45
+        ]
+      ],
+      "official_nse_finals": [
+        {
+          "sha256": "ac741b9d9ddd311c9c5f878fcb30b45e4a567c943f3205a9adb8a2680eba5239",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm10JAN2024bhav.csv.zip"
+        },
+        {
+          "sha256": "5b94cffc479a852fcb7f8290f954ccc919a8117e99252abfb376450c5d6b7ae5",
+          "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm11JAN2024bhav.csv.zip"
+        }
+      ],
+      "prior_close": 4911.85,
+      "prior_day": "2024-01-10",
+      "symbol": "POLYCAB",
+      "verified": true
+    }
+  ],
+  "independence": "Each source independently publishes an observation of the same exchange or a clearing risk price. None supplies another execution venue. Exact comparison uses published share-unit factors only. Later corporate-action records are evidence of the broker chart units, never trading inputs.",
+  "kite_provenance": "Authenticated historical NSE day candles archived by security and instrument in the original historical backfill. A fresh read on 21 November 2026 was rejected by Kite (session or entitlement). These are the stored observations.",
+  "original_scope_sha256": "0ea88e5ee41bb4de6be4f653528a02caf5b39f7cf62f6c73f59101b2cc9fcbbc",
+  "version": "independent-closes-v1"
+}

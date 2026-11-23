@@ -1,0 +1,41 @@
+{
+  "version": "range-holder-lt-2017-v1",
+  "actions": [
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE018A01030",
+      "successor_isin": "INE018A01030",
+      "new_shares": 1,
+      "old_shares": 1,
+      "suspended": "2017-07-13",
+      "effective": "2017-07-13",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 2,
+        "record_date": "2017-07-14",
+        "allotted": "2017-07-15",
+        "credited": "2017-07-18",
+        "tradable": "2017-07-19",
+        "subjects": [
+          "Bonus 1:2"
+        ],
+        "source_url": "https://investors.larsentoubro.com/upload/Announcements/ANRecord%20date%20advertisement.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML35388.pdf",
+        "credit_evidence_basis": "The 18 July exchange listing notice confirms temporary ISIN credits as of that day. The exact individual credit date is unknown.",
+        "fraction_evidence_basis": "The issuer confirms pro rata distribution from the sale. No per-share amount or payment date was found in the issuer notice, annual report or listing circular. Use the registered flagged first tradable close fallback."
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "file": "LT-CML35388.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML35388.pdf",
+      "sha256": "a8b5697bd739e706a817c083e0b44c9e203e4d6dda4aefef3c055284f4f94c26"
+    },
+    {
+      "file": "LT-record-20170714.pdf",
+      "url": "https://investors.larsentoubro.com/upload/Announcements/ANRecord%20date%20advertisement.pdf",
+      "sha256": "5f8907047618471c3c204146c06e572e13864506d1c3df05215dea90ba93b7e1"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "bse_fallback": {
+    "candidate_direct_urls": 30,
+    "checked_at_utc": "2026-11-23T06:55:56.896129+00:00",
+    "eligible_symbol_announcements": 434860,
+    "market_sources_sha256": "bedd4f1fe6383269d8764fa8eeb984526ae550b98edab6e545c069e55a25c45f",
+    "native_list_sha256": "7f4cca6204cf1a9d7e145eb355c9c80e9762b4dc881e672d6255b9f994d88e4b",
+    "packages": 15546,
+    "receipt": "bse/rechecks/066ada0e9d571e19fa0e7149797a096b285aa619d43d00d179c1914ce8361463.json",
+    "receipt_sha256": "8123947de1409912dd0a82711bec1d935446835115b5abca1257ce2182307bd6",
+    "source_census_sha256": "0d9900329b56e04e63d1563fc15dcd57af2c3c818dae123157e7e02c284970c5",
+    "unresolved_bse_clocks": 30,
+    "unresolved_nse_sources": 52,
+    "unsearched_annotation_inputs": 1,
+    "verified_bse_clocks": 0
+  },
+  "coverage_sha256": "0e93eb357fb6e0905f52fd9a518a571f1738030a5b38ec4a97b0dca9ea7bb6ce",
+  "filings_sha256": "cb381118ee9ad0593180b7d98ac5e7d976487621ce56e7b9b1136ecdf802b1f4",
+  "frozen_ledger_inputs_sha256": "119e063f91ca2432bf36511f620b4590d66ce6398ff05a9189fa0e1a9fa60d19",
+  "legacy": {
+    "attachments_checked": 5029,
+    "attempts_sha256": "bfd16ae93383f8fcbdd0a137b8891265361db45b9b2ed618af4be9597f335758",
+    "basis_quarters_checked": 7333,
+    "ledger": "cb381118ee9ad0593180b7d98ac5e7d976487621ce56e7b9b1136ecdf802b1f4",
+    "plan": "0cc8781e2feade51619d97aa57a02a9dc3ec5fb1e90770172fea475a82c2945b",
+    "with_verified_fields": 0
+  },
+  "modern_originals": {
+    "cohorts": {
+      "independent-earlier-release": {
+        "conflicting_fields": {},
+        "edition": "cf725a18ef3866438a7ed0317721d51ab9ca058de33d828cb05afc92f20f5b53",
+        "field_observations": {
+          "eps": 1,
+          "net_profit": 2,
+          "operating_profit": 2,
+          "revenue": 2
+        },
+        "filings_with_reads": 16,
+        "filings_without_nominated_pages": 0,
+        "marker_sha256": "5271de9efbc51bf745a3aae865f119a6c52034cf89f3bdd9f89f9988c7ac289e",
+        "nominated_page_reads": null,
+        "original_packages": 8,
+        "physical_pages_in_scope": null,
+        "plan": "ebb04228ad07de69145585ed95919e07bf55156e7cb08e85bd149614e8bbb454",
+        "verified_physical_reads": {
+          "failed_pages": 0,
+          "observed_pages": 226,
+          "omitted_pages": 0,
+          "original_packages": 8,
+          "packages_with_unreadable_members": 0
+        }
+      },
+      "modern-statement-pages": {
+        "conflicting_fields": {},
+        "edition": "673ac0fa810a56b55c1d7d0165a6cc98b4940f8634919a550fa73fa1238a2307",
+        "field_observations": {
+          "eps": 135,
+          "net_profit": 343,
+          "operating_profit": 229,
+          "revenue": 448
+        },
+        "filings_with_reads": 9496,
+        "filings_without_nominated_pages": 1512,
+        "marker_sha256": "222880897b4df01f48a803d0dbccae47f6f9d0e30632c257aea65bdfadb0d63c",
+        "nominated_page_reads": 36781,
+        "original_packages": 5837,
+        "physical_pages_in_scope": 124821,
+        "plan": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+        "verified_physical_reads": {
+          "failed_pages": 0,
+          "observed_pages": 36781,
+          "omitted_pages": 88040,
+          "original_packages": 5057,
+          "packages_with_unreadable_members": 0,
+          "packages_without_nominations": 780
+        }
+      }
+    },
+    "reference_filing_edition": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+    "scope_sha256": "c493c3649d042365e3fdb86334b2f46f68ff722642633ca9931405083ce8ac22"
+  },
+  "original_fields": {
+    "attempts_sha256": "a062e0fba860865ac28945ea9e5db40eb960d39ec76202ce202579966526a079",
+    "field_review_sha256": "00301b4b7a22a82a1aed59b2f08c5a1c9cd4560c036b590412895a59dfbce457",
+    "unique_field_reads": 1280,
+    "unmapped_source_accessions": [
+      "notice/BOSCHLTD/INE323A01026/2022-06-30/consolidated/5070343",
+      "notice/BOSCHLTD/INE323A01026/2022-06-30/standalone/5070343",
+      "notice/NMDC/INE584A01023/2025-03-31/consolidated/106250849",
+      "notice/PEL/INE140A01024/2022-06-30/standalone/5066401",
+      "notice/RAJESHEXPO/INE343B01030/2020-06-30/consolidated/137019"
+    ]
+  },
+  "scanned_pages": {
+    "packages": 15546,
+    "receipts_sha256": "39d6b7945f07db2abacd58eea1195dc683f874fa764f5ca484c539ed53544d84",
+    "scanned_documents": 8858,
+    "unreadable": []
+  },
+  "source_census_sha256": "0d9900329b56e04e63d1563fc15dcd57af2c3c818dae123157e7e02c284970c5"
+}

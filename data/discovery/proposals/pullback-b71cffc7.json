@@ -1,0 +1,25 @@
+{
+  "development_years": [
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "hypothesis": {
+    "description": "pullback entries in breadth_bucket = >60%",
+    "filters": [
+      {
+        "field": "breadth_bucket",
+        "values": [
+          ">60%"
+        ]
+      }
+    ],
+    "id": "pullback-b71cffc7",
+    "strategy": "pullback"
+  },
+  "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+  "sample_sha256": "204f30ab3f744f280f197c4d5278a29e4b360e1f37a5df0bac233a9e091279c1",
+  "status": "proposed",
+  "strategy": "pullback"
+}

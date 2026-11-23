@@ -1,0 +1,7 @@
+{
+  "coverage_sha256": "2df73aa331cbdd087a6ca0f46b18457dd98ebbbefc20cf4f117c531f81115b54",
+  "date": "2026-11-22",
+  "reason": "The original PDF text layer supplied incorrect basic EPS and mismatched profit and revenue rows in independently reviewed filings.",
+  "source_ledger_sha256": "d6ec706e94405b429e78a014e0d8bb5e06ab1272e1fbd564b393c71d84982808",
+  "log": "docs/RESEARCH_LOG.md"
+}

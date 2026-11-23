@@ -1,0 +1,2673 @@
+{
+  "alpha": 0.05,
+  "block_sessions": 20,
+  "family": "discovery-v1",
+  "family_size": 7,
+  "first_validation_year": 2021,
+  "global_null": {
+    "bh_count_95th_percentile": 0,
+    "expected_bh_discoveries": 0.0417,
+    "expected_full_passes_upper_bound": 0.0417,
+    "expected_unadjusted": 0.25,
+    "probability_any_bh_discovery": 0.0335
+  },
+  "hypotheses": [
+    {
+      "bh_pass": false,
+      "breadth_pass": false,
+      "comparable_windows": 5,
+      "description": "pullback entries in stop_distance_bucket = <5%",
+      "estimable": true,
+      "id": "pullback-2c1d26fa",
+      "p_bh": 0.9691697496916974,
+      "p_one_sided": 0.29127087291270876,
+      "paired_difference_ci90": [
+        -0.0704538620686049,
+        0.14067986339209787
+      ],
+      "paired_difference_r": 0.036188142775277224,
+      "passed": false,
+      "qualification": {
+        "counted_windows": [
+          "walk-5",
+          "walk-7",
+          "walk-8",
+          "walk-9",
+          "walk-10"
+        ],
+        "coverage_excluded_windows": [],
+        "criteria": {
+          "bootstrap_lower_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0,
+            "value": -0.19578046321374964
+          },
+          "closed_oos": {
+            "operator": ">=",
+            "passed": true,
+            "threshold": 100,
+            "value": 2050
+          },
+          "completed_replays": {
+            "operator": "==",
+            "passed": true,
+            "threshold": 6,
+            "value": 6
+          },
+          "counted_window_sample": {
+            "operator": "each >=",
+            "passed": true,
+            "threshold": 20,
+            "value": {
+              "walk-10": 166,
+              "walk-5": 32,
+              "walk-7": 34,
+              "walk-8": 1319,
+              "walk-9": 499
+            }
+          },
+          "mean_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0.25,
+            "value": -0.11164403856379052
+          },
+          "positive_window_fraction": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 0.6666666666666666,
+            "value": 0.3333333333333333
+          },
+          "profit_factor": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 1.4,
+            "value": 0.8264981154732483
+          }
+        },
+        "incomplete_windows": [],
+        "mature_closed_all": 2054,
+        "mature_closed_by_window": {
+          "walk-10": 166,
+          "walk-5": 32,
+          "walk-6": 4,
+          "walk-7": 34,
+          "walk-8": 1319,
+          "walk-9": 499
+        },
+        "mature_closed_in_counted_windows": 2050,
+        "mean_net_r_ci90": [
+          -0.19578046321374964,
+          -0.02728518169508998
+        ],
+        "positive_counted_windows": [
+          "walk-5",
+          "walk-7"
+        ],
+        "qualified": false,
+        "signal_date_clusters": 340,
+        "total_planned_windows": 6,
+        "verdict": "no edge"
+      },
+      "scheduled_windows": 6,
+      "strategy": "pullback",
+      "windows": [
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.048781010917084144,
+          "end": "2021-12-31",
+          "filtered": {
+            "mean_net_r": 0.5274029108632492,
+            "signal_dates": 28,
+            "trades": 32
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2021-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "<5%"
+                ]
+              }
+            ]
+          },
+          "start": "2021-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.47862189994616505,
+            "signal_dates": 43,
+            "trades": 60
+          },
+          "window": "walk-5",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.3129976385152643,
+          "end": "2022-12-30",
+          "filtered": {
+            "mean_net_r": -0.5541594542671091,
+            "signal_dates": 4,
+            "trades": 4
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2022-01-03",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "<5%"
+                ]
+              }
+            ]
+          },
+          "start": "2022-01-03",
+          "unfiltered": {
+            "mean_net_r": -0.24116181575184478,
+            "signal_dates": 14,
+            "trades": 15
+          },
+          "window": "walk-6",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.2871424824596742,
+          "end": "2023-12-29",
+          "filtered": {
+            "mean_net_r": 0.823132554292319,
+            "signal_dates": 26,
+            "trades": 34
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2023-01-02",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "<5%"
+                ]
+              }
+            ]
+          },
+          "start": "2023-01-02",
+          "unfiltered": {
+            "mean_net_r": 0.5359900718326448,
+            "signal_dates": 35,
+            "trades": 52
+          },
+          "window": "walk-7",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.004420485604400532,
+          "end": "2024-12-31",
+          "filtered": {
+            "mean_net_r": -0.012217256905482372,
+            "signal_dates": 147,
+            "trades": 1319
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2024-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "<5%"
+                ]
+              }
+            ]
+          },
+          "start": "2024-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.00779677130108184,
+            "signal_dates": 155,
+            "trades": 1844
+          },
+          "window": "walk-8",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.1116510002517373,
+          "end": "2025-12-31",
+          "filtered": {
+            "mean_net_r": -0.27040711433141645,
+            "signal_dates": 110,
+            "trades": 499
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2025-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "<5%"
+                ]
+              }
+            ]
+          },
+          "start": "2025-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.15875611407967916,
+            "signal_dates": 112,
+            "trades": 646
+          },
+          "window": "walk-9",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.0389112936442344,
+          "end": "2026-11-20",
+          "filtered": {
+            "mean_net_r": -0.7390720912025625,
+            "signal_dates": 29,
+            "trades": 166
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2026-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "<5%"
+                ]
+              }
+            ]
+          },
+          "start": "2026-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.700160797558328,
+            "signal_dates": 29,
+            "trades": 214
+          },
+          "window": "walk-10",
+          "won": false
+        }
+      ],
+      "windows_required": 4,
+      "windows_won": 2
+    },
+    {
+      "bh_pass": false,
+      "breadth_pass": false,
+      "comparable_windows": 5,
+      "description": "pullback entries in breadth_bucket = >60%",
+      "estimable": true,
+      "id": "pullback-b71cffc7",
+      "p_bh": 0.9691697496916974,
+      "p_one_sided": 0.21857814218578142,
+      "paired_difference_ci90": [
+        -0.03782868400031154,
+        0.10883906891169776
+      ],
+      "paired_difference_r": 0.03504511526952286,
+      "passed": false,
+      "qualification": {
+        "counted_windows": [
+          "walk-5",
+          "walk-7",
+          "walk-8",
+          "walk-9",
+          "walk-10"
+        ],
+        "coverage_excluded_windows": [],
+        "criteria": {
+          "bootstrap_lower_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0,
+            "value": -0.16352941636861298
+          },
+          "closed_oos": {
+            "operator": ">=",
+            "passed": true,
+            "threshold": 100,
+            "value": 2377
+          },
+          "completed_replays": {
+            "operator": "==",
+            "passed": true,
+            "threshold": 6,
+            "value": 6
+          },
+          "counted_window_sample": {
+            "operator": "each >=",
+            "passed": true,
+            "threshold": 20,
+            "value": {
+              "walk-10": 77,
+              "walk-5": 50,
+              "walk-7": 50,
+              "walk-8": 1701,
+              "walk-9": 499
+            }
+          },
+          "mean_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0.25,
+            "value": -0.07760207552403191
+          },
+          "positive_window_fraction": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 0.6666666666666666,
+            "value": 0.3333333333333333
+          },
+          "profit_factor": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 1.4,
+            "value": 0.8711616291270505
+          }
+        },
+        "incomplete_windows": [],
+        "mature_closed_all": 2389,
+        "mature_closed_by_window": {
+          "walk-10": 77,
+          "walk-5": 50,
+          "walk-6": 12,
+          "walk-7": 50,
+          "walk-8": 1701,
+          "walk-9": 499
+        },
+        "mature_closed_in_counted_windows": 2377,
+        "mean_net_r_ci90": [
+          -0.16352941636861298,
+          0.010361225559253083
+        ],
+        "positive_counted_windows": [
+          "walk-5",
+          "walk-7"
+        ],
+        "qualified": false,
+        "signal_date_clusters": 307,
+        "total_planned_windows": 6,
+        "verdict": "not enough data"
+      },
+      "scheduled_windows": 6,
+      "strategy": "pullback",
+      "windows": [
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.044415503413468616,
+          "end": "2021-12-31",
+          "filtered": {
+            "mean_net_r": 0.5230374033596337,
+            "signal_dates": 36,
+            "trades": 50
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2021-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "breadth_bucket",
+                "values": [
+                  ">60%"
+                ]
+              }
+            ]
+          },
+          "start": "2021-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.47862189994616505,
+            "signal_dates": 43,
+            "trades": 60
+          },
+          "window": "walk-5",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.007022845926058063,
+          "end": "2022-12-30",
+          "filtered": {
+            "mean_net_r": -0.23413896982578672,
+            "signal_dates": 11,
+            "trades": 12
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2022-01-03",
+            "signal_time_predicates": [
+              {
+                "field": "breadth_bucket",
+                "values": [
+                  ">60%"
+                ]
+              }
+            ]
+          },
+          "start": "2022-01-03",
+          "unfiltered": {
+            "mean_net_r": -0.24116181575184478,
+            "signal_dates": 14,
+            "trades": 15
+          },
+          "window": "walk-6",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.01194371797488969,
+          "end": "2023-12-29",
+          "filtered": {
+            "mean_net_r": 0.5479337898075345,
+            "signal_dates": 34,
+            "trades": 50
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2023-01-02",
+            "signal_time_predicates": [
+              {
+                "field": "breadth_bucket",
+                "values": [
+                  ">60%"
+                ]
+              }
+            ]
+          },
+          "start": "2023-01-02",
+          "unfiltered": {
+            "mean_net_r": 0.5359900718326448,
+            "signal_dates": 35,
+            "trades": 52
+          },
+          "window": "walk-7",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.05938609233970609,
+          "end": "2024-12-31",
+          "filtered": {
+            "mean_net_r": -0.06718286364078793,
+            "signal_dates": 138,
+            "trades": 1701
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2024-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "breadth_bucket",
+                "values": [
+                  ">60%"
+                ]
+              }
+            ]
+          },
+          "start": "2024-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.00779677130108184,
+            "signal_dates": 155,
+            "trades": 1844
+          },
+          "window": "walk-8",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.010247389171258087,
+          "end": "2025-12-31",
+          "filtered": {
+            "mean_net_r": -0.16900350325093724,
+            "signal_dates": 86,
+            "trades": 499
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2025-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "breadth_bucket",
+                "values": [
+                  ">60%"
+                ]
+              }
+            ]
+          },
+          "start": "2025-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.15875611407967916,
+            "signal_dates": 112,
+            "trades": 646
+          },
+          "window": "walk-9",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.18849983647022017,
+          "end": "2026-11-20",
+          "filtered": {
+            "mean_net_r": -0.5116609610881079,
+            "signal_dates": 13,
+            "trades": 77
+          },
+          "filtered_entry_coverage": {
+            "available": false,
+            "reason": "Parent book predates the planned-entry coverage census"
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2026-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "breadth_bucket",
+                "values": [
+                  ">60%"
+                ]
+              }
+            ]
+          },
+          "start": "2026-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.700160797558328,
+            "signal_dates": 29,
+            "trades": 214
+          },
+          "window": "walk-10",
+          "won": true
+        }
+      ],
+      "windows_required": 4,
+      "windows_won": 3
+    },
+    {
+      "bh_pass": false,
+      "breadth_pass": false,
+      "comparable_windows": 3,
+      "description": "b10 entries in stop_distance_bucket = 5\u2013<7%",
+      "estimable": true,
+      "id": "b10-962038cb",
+      "p_bh": 1.0,
+      "p_one_sided": 0.8739126087391261,
+      "paired_difference_ci90": [
+        -0.21616958060990596,
+        0.03893925251570776
+      ],
+      "paired_difference_r": -0.08898974499508788,
+      "passed": false,
+      "qualification": {
+        "counted_windows": [
+          "walk-5",
+          "walk-8",
+          "walk-9"
+        ],
+        "coverage_excluded_windows": [
+          "walk-6",
+          "walk-7"
+        ],
+        "criteria": {
+          "bootstrap_lower_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0,
+            "value": -0.14248325682866606
+          },
+          "closed_oos": {
+            "operator": ">=",
+            "passed": true,
+            "threshold": 100,
+            "value": 189
+          },
+          "completed_replays": {
+            "operator": "==",
+            "passed": true,
+            "threshold": 6,
+            "value": 6
+          },
+          "counted_window_sample": {
+            "operator": "each >=",
+            "passed": true,
+            "threshold": 20,
+            "value": {
+              "walk-5": 28,
+              "walk-8": 43,
+              "walk-9": 118
+            }
+          },
+          "mean_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0.25,
+            "value": -0.037657458547031473
+          },
+          "positive_window_fraction": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 0.6666666666666666,
+            "value": 0.0
+          },
+          "profit_factor": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 1.4,
+            "value": 0.8978077139681148
+          }
+        },
+        "incomplete_windows": [],
+        "mature_closed_all": 199,
+        "mature_closed_by_window": {
+          "walk-10": 10,
+          "walk-5": 28,
+          "walk-8": 43,
+          "walk-9": 118
+        },
+        "mature_closed_in_counted_windows": 189,
+        "mean_net_r_ci90": [
+          -0.14248325682866606,
+          0.07271452120005806
+        ],
+        "positive_counted_windows": [],
+        "qualified": false,
+        "signal_date_clusters": 119,
+        "total_planned_windows": 4,
+        "verdict": "not enough data"
+      },
+      "scheduled_windows": 6,
+      "strategy": "b10",
+      "windows": [
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.13518679293329142,
+          "end": "2021-12-31",
+          "filtered": {
+            "mean_net_r": -0.004815038190312285,
+            "signal_dates": 25,
+            "trades": 28
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 31,
+            "parent_planned": 461,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 2,
+            "selected_planned": 32,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 2,
+            "worst_case_fraction": 0.0625,
+            "worst_case_planned": 32
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2021-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2021-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.13037175474297913,
+            "signal_dates": 82,
+            "trades": 179
+          },
+          "window": "walk-5",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": 0.2305993821112464,
+          "end": "2022-12-30",
+          "filtered": {
+            "mean_net_r": -0.03915433976378476,
+            "signal_dates": 24,
+            "trades": 31
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": false,
+            "parent_data_blocked": 88,
+            "parent_planned": 289,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 8,
+            "selected_planned": 45,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 8,
+            "worst_case_fraction": 0.17777777777777778,
+            "worst_case_planned": 45
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2022-01-03",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2022-01-03",
+          "unfiltered": {
+            "mean_net_r": -0.26975372187503116,
+            "signal_dates": 56,
+            "trades": 131
+          },
+          "window": "walk-6",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": -0.007746716073896709,
+          "end": "2023-12-29",
+          "filtered": {
+            "mean_net_r": 0.3287883646329394,
+            "signal_dates": 52,
+            "trades": 83
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": false,
+            "parent_data_blocked": 56,
+            "parent_planned": 409,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 14,
+            "selected_planned": 104,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 14,
+            "worst_case_fraction": 0.1346153846153846,
+            "worst_case_planned": 104
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2023-01-02",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2023-01-02",
+          "unfiltered": {
+            "mean_net_r": 0.33653508070683613,
+            "signal_dates": 97,
+            "trades": 261
+          },
+          "window": "walk-7",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.2120063006648582,
+          "end": "2024-12-31",
+          "filtered": {
+            "mean_net_r": -0.04965827319826609,
+            "signal_dates": 35,
+            "trades": 43
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 472,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 45,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 45
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2024-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2024-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.1623480274665921,
+            "signal_dates": 102,
+            "trades": 273
+          },
+          "window": "walk-8",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.080223858612886,
+          "end": "2025-12-31",
+          "filtered": {
+            "mean_net_r": -0.041077397021481055,
+            "signal_dates": 59,
+            "trades": 118
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 340,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 125,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 125
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2025-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2025-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.12130125563436706,
+            "signal_dates": 86,
+            "trades": 291
+          },
+          "window": "walk-9",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.22255305569453523,
+          "end": "2026-11-20",
+          "filtered": {
+            "mean_net_r": -0.015474947884159476,
+            "signal_dates": 6,
+            "trades": 10
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 74,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 11,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 11
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2026-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2026-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.23802800357869472,
+            "signal_dates": 16,
+            "trades": 38
+          },
+          "window": "walk-10",
+          "won": false
+        }
+      ],
+      "windows_required": 4,
+      "windows_won": 1
+    },
+    {
+      "bh_pass": false,
+      "breadth_pass": false,
+      "comparable_windows": 3,
+      "description": "b10 entries in signal_rank_quintile = Q5",
+      "estimable": true,
+      "id": "b10-e2bd0f8c",
+      "p_bh": 1.0,
+      "p_one_sided": 0.5867413258674132,
+      "paired_difference_ci90": [
+        -0.12509045548366135,
+        0.09931606592547533
+      ],
+      "paired_difference_r": -0.016023107347328192,
+      "passed": false,
+      "qualification": {
+        "counted_windows": [
+          "walk-5",
+          "walk-8",
+          "walk-9"
+        ],
+        "coverage_excluded_windows": [
+          "walk-6",
+          "walk-7"
+        ],
+        "criteria": {
+          "bootstrap_lower_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0,
+            "value": -0.053853173793025746
+          },
+          "closed_oos": {
+            "operator": ">=",
+            "passed": true,
+            "threshold": 100,
+            "value": 156
+          },
+          "completed_replays": {
+            "operator": "==",
+            "passed": true,
+            "threshold": 6,
+            "value": 6
+          },
+          "counted_window_sample": {
+            "operator": "each >=",
+            "passed": true,
+            "threshold": 20,
+            "value": {
+              "walk-5": 44,
+              "walk-8": 61,
+              "walk-9": 51
+            }
+          },
+          "mean_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0.25,
+            "value": 0.04840892568219341
+          },
+          "positive_window_fraction": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 0.6666666666666666,
+            "value": 0.5
+          },
+          "profit_factor": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 1.4,
+            "value": 1.1563656358719159
+          }
+        },
+        "incomplete_windows": [],
+        "mature_closed_all": 159,
+        "mature_closed_by_window": {
+          "walk-10": 3,
+          "walk-5": 44,
+          "walk-8": 61,
+          "walk-9": 51
+        },
+        "mature_closed_in_counted_windows": 156,
+        "mean_net_r_ci90": [
+          -0.053853173793025746,
+          0.14770450654460776
+        ],
+        "positive_counted_windows": [
+          "walk-5",
+          "walk-8"
+        ],
+        "qualified": false,
+        "signal_date_clusters": 118,
+        "total_planned_windows": 4,
+        "verdict": "not enough data"
+      },
+      "scheduled_windows": 6,
+      "strategy": "b10",
+      "windows": [
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.011636184010050371,
+          "end": "2021-12-31",
+          "filtered": {
+            "mean_net_r": 0.1420079387530295,
+            "signal_dates": 36,
+            "trades": 44
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 31,
+            "parent_planned": 461,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 5,
+            "selected_planned": 90,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 5,
+            "worst_case_fraction": 0.05555555555555555,
+            "worst_case_planned": 90
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2021-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2021-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.13037175474297913,
+            "signal_dates": 82,
+            "trades": 179
+          },
+          "window": "walk-5",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": 0.1847767248857768,
+          "end": "2022-12-30",
+          "filtered": {
+            "mean_net_r": -0.08497699698925437,
+            "signal_dates": 27,
+            "trades": 38
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": false,
+            "parent_data_blocked": 88,
+            "parent_planned": 289,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 15,
+            "selected_planned": 63,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 15,
+            "worst_case_fraction": 0.23809523809523808,
+            "worst_case_planned": 63
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2022-01-03",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2022-01-03",
+          "unfiltered": {
+            "mean_net_r": -0.26975372187503116,
+            "signal_dates": 56,
+            "trades": 131
+          },
+          "window": "walk-6",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": 0.07495299627328234,
+          "end": "2023-12-29",
+          "filtered": {
+            "mean_net_r": 0.41148807698011847,
+            "signal_dates": 38,
+            "trades": 56
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": false,
+            "parent_data_blocked": 56,
+            "parent_planned": 409,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 9,
+            "selected_planned": 81,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 9,
+            "worst_case_fraction": 0.1111111111111111,
+            "worst_case_planned": 81
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2023-01-02",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2023-01-02",
+          "unfiltered": {
+            "mean_net_r": 0.33653508070683613,
+            "signal_dates": 97,
+            "trades": 261
+          },
+          "window": "walk-7",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.06315582718332555,
+          "end": "2024-12-31",
+          "filtered": {
+            "mean_net_r": 0.22550385464991765,
+            "signal_dates": 43,
+            "trades": 61
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 472,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 90,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 90
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2024-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2024-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.1623480274665921,
+            "signal_dates": 102,
+            "trades": 273
+          },
+          "window": "walk-8",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.1228613332353605,
+          "end": "2025-12-31",
+          "filtered": {
+            "mean_net_r": -0.24416258886972755,
+            "signal_dates": 39,
+            "trades": 51
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 340,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 55,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 55
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2025-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2025-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.12130125563436706,
+            "signal_dates": 86,
+            "trades": 291
+          },
+          "window": "walk-9",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.09767726702388349,
+          "end": "2026-11-20",
+          "filtered": {
+            "mean_net_r": -0.3357052706025782,
+            "signal_dates": 3,
+            "trades": 3
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 74,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 4,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 4
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2026-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2026-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.23802800357869472,
+            "signal_dates": 16,
+            "trades": 38
+          },
+          "window": "walk-10",
+          "won": false
+        }
+      ],
+      "windows_required": 4,
+      "windows_won": 2
+    },
+    {
+      "bh_pass": false,
+      "breadth_pass": false,
+      "comparable_windows": 0,
+      "description": "b10 entries in the top fifth of stocks by prior three-year mean net R, minimum five observed trades",
+      "estimable": false,
+      "id": "b10-95dce55e",
+      "p_bh": 1.0,
+      "p_one_sided": 1.0,
+      "paired_difference_ci90": [
+        null,
+        null
+      ],
+      "paired_difference_r": null,
+      "passed": false,
+      "qualification": {
+        "counted_windows": [],
+        "coverage_excluded_windows": [
+          "walk-6",
+          "walk-7"
+        ],
+        "criteria": {
+          "bootstrap_lower_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0,
+            "value": null
+          },
+          "closed_oos": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 100,
+            "value": 0
+          },
+          "completed_replays": {
+            "operator": "==",
+            "passed": true,
+            "threshold": 6,
+            "value": 6
+          },
+          "counted_window_sample": {
+            "operator": "each >=",
+            "passed": false,
+            "threshold": 20,
+            "value": {}
+          },
+          "mean_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0.25,
+            "value": null
+          },
+          "positive_window_fraction": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 0.6666666666666666,
+            "value": 0.0
+          },
+          "profit_factor": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 1.4,
+            "value": null
+          }
+        },
+        "incomplete_windows": [],
+        "mature_closed_all": 8,
+        "mature_closed_by_window": {
+          "walk-10": 2,
+          "walk-5": 0,
+          "walk-8": 0,
+          "walk-9": 6
+        },
+        "mature_closed_in_counted_windows": 0,
+        "mean_net_r_ci90": [
+          null,
+          null
+        ],
+        "positive_counted_windows": [],
+        "qualified": false,
+        "signal_date_clusters": 0,
+        "total_planned_windows": 4,
+        "verdict": "not enough data"
+      },
+      "scheduled_windows": 6,
+      "strategy": "b10",
+      "windows": [
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": null,
+          "end": "2021-12-31",
+          "filtered": {
+            "mean_net_r": null,
+            "signal_dates": 0,
+            "trades": 0
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 31,
+            "parent_planned": 461,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 0,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": null,
+            "worst_case_planned": 0
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2021-01-01",
+            "eligible_history_last_horizon": null,
+            "eligible_history_last_settlement": null,
+            "groups_meeting_floor": 0,
+            "historical_trades": 0,
+            "history_start": "2018-01-01",
+            "selected_history": [],
+            "selected_labels": [],
+            "selection_field": "stock",
+            "signal_time_predicates": []
+          },
+          "start": "2021-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.13037175474297913,
+            "signal_dates": 82,
+            "trades": 179
+          },
+          "window": "walk-5",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": null,
+          "end": "2022-12-30",
+          "filtered": {
+            "mean_net_r": null,
+            "signal_dates": 0,
+            "trades": 0
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 88,
+            "parent_planned": 289,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 0,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": null,
+            "worst_case_planned": 0
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2022-01-03",
+            "eligible_history_last_horizon": "2021-12-09",
+            "eligible_history_last_settlement": "2021-12-10",
+            "groups_meeting_floor": 9,
+            "historical_trades": 179,
+            "history_start": "2019-01-03",
+            "selected_history": [
+              {
+                "mean_net_r": 1.2018493114659161,
+                "trades": 6,
+                "value": "INE854D01024"
+              },
+              {
+                "mean_net_r": 0.3709177917624485,
+                "trades": 10,
+                "value": "INE075A01022"
+              }
+            ],
+            "selected_labels": [
+              "INE854D01024",
+              "INE075A01022"
+            ],
+            "selection_field": "stock",
+            "signal_time_predicates": []
+          },
+          "start": "2022-01-03",
+          "unfiltered": {
+            "mean_net_r": -0.26975372187503116,
+            "signal_dates": 56,
+            "trades": 131
+          },
+          "window": "walk-6",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": 0.5627097925941605,
+          "end": "2023-12-29",
+          "filtered": {
+            "mean_net_r": 0.8992448733009967,
+            "signal_dates": 5,
+            "trades": 5
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": false,
+            "parent_data_blocked": 56,
+            "parent_planned": 409,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 2,
+            "selected_planned": 7,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 2,
+            "worst_case_fraction": 0.2857142857142857,
+            "worst_case_planned": 7
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2023-01-02",
+            "eligible_history_last_horizon": "2021-12-09",
+            "eligible_history_last_settlement": "2021-12-10",
+            "groups_meeting_floor": 9,
+            "historical_trades": 179,
+            "history_start": "2020-01-02",
+            "selected_history": [
+              {
+                "mean_net_r": 1.2018493114659161,
+                "trades": 6,
+                "value": "INE854D01024"
+              },
+              {
+                "mean_net_r": 0.3709177917624485,
+                "trades": 10,
+                "value": "INE075A01022"
+              }
+            ],
+            "selected_labels": [
+              "INE854D01024",
+              "INE075A01022"
+            ],
+            "selection_field": "stock",
+            "signal_time_predicates": []
+          },
+          "start": "2023-01-02",
+          "unfiltered": {
+            "mean_net_r": 0.33653508070683613,
+            "signal_dates": 97,
+            "trades": 261
+          },
+          "window": "walk-7",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": null,
+          "end": "2024-12-31",
+          "filtered": {
+            "mean_net_r": null,
+            "signal_dates": 0,
+            "trades": 0
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 472,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 0,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": null,
+            "worst_case_planned": 0
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2024-01-01",
+            "eligible_history_last_horizon": "2021-12-09",
+            "eligible_history_last_settlement": "2021-12-10",
+            "groups_meeting_floor": 9,
+            "historical_trades": 179,
+            "history_start": "2021-01-01",
+            "selected_history": [
+              {
+                "mean_net_r": 1.2018493114659161,
+                "trades": 6,
+                "value": "INE854D01024"
+              },
+              {
+                "mean_net_r": 0.3709177917624485,
+                "trades": 10,
+                "value": "INE075A01022"
+              }
+            ],
+            "selected_labels": [
+              "INE854D01024",
+              "INE075A01022"
+            ],
+            "selection_field": "stock",
+            "signal_time_predicates": []
+          },
+          "start": "2024-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.1623480274665921,
+            "signal_dates": 102,
+            "trades": 273
+          },
+          "window": "walk-8",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.11722667577695883,
+          "end": "2025-12-31",
+          "filtered": {
+            "mean_net_r": -0.004074579857408223,
+            "signal_dates": 6,
+            "trades": 6
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 340,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 6,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 6
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2025-01-01",
+            "eligible_history_last_horizon": "2024-10-24",
+            "eligible_history_last_settlement": "2024-10-25",
+            "groups_meeting_floor": 22,
+            "historical_trades": 273,
+            "history_start": "2022-01-01",
+            "selected_history": [
+              {
+                "mean_net_r": 0.8254690948206601,
+                "trades": 5,
+                "value": "INE476A01014"
+              },
+              {
+                "mean_net_r": 0.6653523887499587,
+                "trades": 6,
+                "value": "INE066A01021"
+              },
+              {
+                "mean_net_r": 0.6393437698222039,
+                "trades": 5,
+                "value": "INE079A01024"
+              },
+              {
+                "mean_net_r": 0.5905625640581166,
+                "trades": 5,
+                "value": "INE010B01027"
+              },
+              {
+                "mean_net_r": 0.5494341233014638,
+                "trades": 6,
+                "value": "INE200M01021"
+              }
+            ],
+            "selected_labels": [
+              "INE476A01014",
+              "INE066A01021",
+              "INE079A01024",
+              "INE010B01027",
+              "INE200M01021"
+            ],
+            "selection_field": "stock",
+            "signal_time_predicates": []
+          },
+          "start": "2025-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.12130125563436706,
+            "signal_dates": 86,
+            "trades": 291
+          },
+          "window": "walk-9",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.11352818001957074,
+          "end": "2026-11-20",
+          "filtered": {
+            "mean_net_r": -0.12449982355912398,
+            "signal_dates": 2,
+            "trades": 2
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 74,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 2,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 2
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2026-01-01",
+            "eligible_history_last_horizon": "2025-12-11",
+            "eligible_history_last_settlement": "2025-12-11",
+            "groups_meeting_floor": 48,
+            "historical_trades": 564,
+            "history_start": "2023-01-01",
+            "selected_history": [
+              {
+                "mean_net_r": 0.9443322898550718,
+                "trades": 6,
+                "value": "INE067A01029"
+              },
+              {
+                "mean_net_r": 0.8254690948206601,
+                "trades": 5,
+                "value": "INE476A01014"
+              },
+              {
+                "mean_net_r": 0.8225607147058467,
+                "trades": 7,
+                "value": "INE101A01026"
+              },
+              {
+                "mean_net_r": 0.7619347497609047,
+                "trades": 6,
+                "value": "INE388Y01029"
+              },
+              {
+                "mean_net_r": 0.6560142387999124,
+                "trades": 5,
+                "value": "INE647A01010"
+              },
+              {
+                "mean_net_r": 0.6393437698222039,
+                "trades": 5,
+                "value": "INE079A01024"
+              },
+              {
+                "mean_net_r": 0.5905625640581166,
+                "trades": 5,
+                "value": "INE010B01027"
+              },
+              {
+                "mean_net_r": 0.5494341233014638,
+                "trades": 6,
+                "value": "INE200M01021"
+              },
+              {
+                "mean_net_r": 0.545265893039918,
+                "trades": 5,
+                "value": "INE245A01021"
+              },
+              {
+                "mean_net_r": 0.5316355082256143,
+                "trades": 5,
+                "value": "INE733E01010"
+              }
+            ],
+            "selected_labels": [
+              "INE067A01029",
+              "INE476A01014",
+              "INE101A01026",
+              "INE388Y01029",
+              "INE647A01010",
+              "INE079A01024",
+              "INE010B01027",
+              "INE200M01021",
+              "INE245A01021",
+              "INE733E01010"
+            ],
+            "selection_field": "stock",
+            "signal_time_predicates": []
+          },
+          "start": "2026-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.23802800357869472,
+            "signal_dates": 16,
+            "trades": 38
+          },
+          "window": "walk-10",
+          "won": false
+        }
+      ],
+      "windows_required": 4,
+      "windows_won": 0
+    },
+    {
+      "bh_pass": false,
+      "breadth_pass": false,
+      "comparable_windows": 3,
+      "description": "b5 entries in signal_rank_quintile = Q5",
+      "estimable": true,
+      "id": "b5-5d4dc82e",
+      "p_bh": 0.9691697496916974,
+      "p_one_sided": 0.41535846415358463,
+      "paired_difference_ci90": [
+        -0.11534251226409632,
+        0.1507997541002853
+      ],
+      "paired_difference_r": 0.015896735879616417,
+      "passed": false,
+      "qualification": {
+        "counted_windows": [
+          "walk-5",
+          "walk-8",
+          "walk-9"
+        ],
+        "coverage_excluded_windows": [
+          "walk-6",
+          "walk-7"
+        ],
+        "criteria": {
+          "bootstrap_lower_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0,
+            "value": -0.019179133713462457
+          },
+          "closed_oos": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 100,
+            "value": 71
+          },
+          "completed_replays": {
+            "operator": "==",
+            "passed": true,
+            "threshold": 6,
+            "value": 6
+          },
+          "counted_window_sample": {
+            "operator": "each >=",
+            "passed": true,
+            "threshold": 20,
+            "value": {
+              "walk-5": 20,
+              "walk-8": 31,
+              "walk-9": 20
+            }
+          },
+          "mean_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0.25,
+            "value": 0.11144744448009265
+          },
+          "positive_window_fraction": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 0.6666666666666666,
+            "value": 0.5
+          },
+          "profit_factor": {
+            "operator": ">",
+            "passed": true,
+            "threshold": 1.4,
+            "value": 1.4452509068556056
+          }
+        },
+        "incomplete_windows": [],
+        "mature_closed_all": 72,
+        "mature_closed_by_window": {
+          "walk-10": 1,
+          "walk-5": 20,
+          "walk-8": 31,
+          "walk-9": 20
+        },
+        "mature_closed_in_counted_windows": 71,
+        "mean_net_r_ci90": [
+          -0.019179133713462457,
+          0.23673019159017517
+        ],
+        "positive_counted_windows": [
+          "walk-5",
+          "walk-8"
+        ],
+        "qualified": false,
+        "signal_date_clusters": 61,
+        "total_planned_windows": 4,
+        "verdict": "not enough data"
+      },
+      "scheduled_windows": 6,
+      "strategy": "b5",
+      "windows": [
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.11297409615110911,
+          "end": "2021-12-31",
+          "filtered": {
+            "mean_net_r": 0.17734465719246428,
+            "signal_dates": 19,
+            "trades": 20
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 9,
+            "parent_planned": 219,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 2,
+            "selected_planned": 46,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 2,
+            "worst_case_fraction": 0.043478260869565216,
+            "worst_case_planned": 46
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2021-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2021-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.06437056104135518,
+            "signal_dates": 54,
+            "trades": 79
+          },
+          "window": "walk-5",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": -0.17478318041246638,
+          "end": "2022-12-30",
+          "filtered": {
+            "mean_net_r": -0.5384214702320932,
+            "signal_dates": 13,
+            "trades": 14
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": false,
+            "parent_data_blocked": 40,
+            "parent_planned": 116,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 5,
+            "selected_planned": 25,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 5,
+            "worst_case_fraction": 0.2,
+            "worst_case_planned": 25
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2022-01-03",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2022-01-03",
+          "unfiltered": {
+            "mean_net_r": -0.3636382898196268,
+            "signal_dates": 32,
+            "trades": 46
+          },
+          "window": "walk-6",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": 0.147846137734661,
+          "end": "2023-12-29",
+          "filtered": {
+            "mean_net_r": 0.43214330398734463,
+            "signal_dates": 24,
+            "trades": 26
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 25,
+            "parent_planned": 180,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 3,
+            "selected_planned": 36,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 3,
+            "worst_case_fraction": 0.08333333333333333,
+            "worst_case_planned": 36
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2023-01-02",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2023-01-02",
+          "unfiltered": {
+            "mean_net_r": 0.28429716625268364,
+            "signal_dates": 75,
+            "trades": 119
+          },
+          "window": "walk-7",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.003995788905173825,
+          "end": "2024-12-31",
+          "filtered": {
+            "mean_net_r": 0.27228962815042046,
+            "signal_dates": 24,
+            "trades": 31
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 223,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 43,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 43
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2024-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2024-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.2762854170555943,
+            "signal_dates": 67,
+            "trades": 127
+          },
+          "window": "walk-8",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.06128809960708603,
+          "end": "2025-12-31",
+          "filtered": {
+            "mean_net_r": -0.20375515292128696,
+            "signal_dates": 18,
+            "trades": 20
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 162,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 23,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 23
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2025-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2025-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.14246705331420093,
+            "signal_dates": 63,
+            "trades": 135
+          },
+          "window": "walk-9",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.5052340079282802,
+          "end": "2026-11-20",
+          "filtered": {
+            "mean_net_r": 0.21767242621089838,
+            "signal_dates": 1,
+            "trades": 1
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 35,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 1,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 1
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2026-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "signal_rank_quintile",
+                "values": [
+                  "Q5"
+                ]
+              }
+            ]
+          },
+          "start": "2026-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.28756158171738183,
+            "signal_dates": 12,
+            "trades": 19
+          },
+          "window": "walk-10",
+          "won": false
+        }
+      ],
+      "windows_required": 4,
+      "windows_won": 1
+    },
+    {
+      "bh_pass": false,
+      "breadth_pass": false,
+      "comparable_windows": 1,
+      "description": "b5 entries in stop_distance_bucket = 5\u2013<7%",
+      "estimable": false,
+      "id": "b5-980080c1",
+      "p_bh": 1.0,
+      "p_one_sided": 1.0,
+      "paired_difference_ci90": [
+        null,
+        null
+      ],
+      "paired_difference_r": 0.18402652882126244,
+      "passed": false,
+      "qualification": {
+        "counted_windows": [
+          "walk-9"
+        ],
+        "coverage_excluded_windows": [
+          "walk-6",
+          "walk-7"
+        ],
+        "criteria": {
+          "bootstrap_lower_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0,
+            "value": -0.11678338230479969
+          },
+          "closed_oos": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 100,
+            "value": 47
+          },
+          "completed_replays": {
+            "operator": "==",
+            "passed": true,
+            "threshold": 6,
+            "value": 6
+          },
+          "counted_window_sample": {
+            "operator": "each >=",
+            "passed": true,
+            "threshold": 20,
+            "value": {
+              "walk-9": 47
+            }
+          },
+          "mean_r": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 0.25,
+            "value": 0.04155947550706152
+          },
+          "positive_window_fraction": {
+            "operator": ">=",
+            "passed": false,
+            "threshold": 0.6666666666666666,
+            "value": 0.25
+          },
+          "profit_factor": {
+            "operator": ">",
+            "passed": false,
+            "threshold": 1.4,
+            "value": 1.1686424548291363
+          }
+        },
+        "incomplete_windows": [],
+        "mature_closed_all": 81,
+        "mature_closed_by_window": {
+          "walk-10": 6,
+          "walk-5": 11,
+          "walk-8": 17,
+          "walk-9": 47
+        },
+        "mature_closed_in_counted_windows": 47,
+        "mean_net_r_ci90": [
+          -0.11678338230479969,
+          0.2172328280323331
+        ],
+        "positive_counted_windows": [
+          "walk-9"
+        ],
+        "qualified": false,
+        "signal_date_clusters": 33,
+        "total_planned_windows": 4,
+        "verdict": "not enough data"
+      },
+      "scheduled_windows": 6,
+      "strategy": "b5",
+      "windows": [
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.022268517930124486,
+          "end": "2021-12-31",
+          "filtered": {
+            "mean_net_r": 0.04210204311123069,
+            "signal_dates": 11,
+            "trades": 11
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 9,
+            "parent_planned": 219,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 12,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 12
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2021-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2021-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.06437056104135518,
+            "signal_dates": 54,
+            "trades": 79
+          },
+          "window": "walk-5",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": 0.17259917493720559,
+          "end": "2022-12-30",
+          "filtered": {
+            "mean_net_r": -0.19103911488242123,
+            "signal_dates": 9,
+            "trades": 10
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": false,
+            "parent_data_blocked": 40,
+            "parent_planned": 116,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 2,
+            "selected_planned": 16,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 2,
+            "worst_case_fraction": 0.125,
+            "worst_case_planned": 16
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2022-01-03",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2022-01-03",
+          "unfiltered": {
+            "mean_net_r": -0.3636382898196268,
+            "signal_dates": 32,
+            "trades": 46
+          },
+          "window": "walk-6",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": false,
+          "difference_r": -0.1172196033848718,
+          "end": "2023-12-29",
+          "filtered": {
+            "mean_net_r": 0.16707756286781184,
+            "signal_dates": 27,
+            "trades": 30
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 25,
+            "parent_planned": 180,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 3,
+            "selected_planned": 35,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 3,
+            "worst_case_fraction": 0.08571428571428572,
+            "worst_case_planned": 35
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": false,
+          "selection": {
+            "as_of_exclusive": "2023-01-02",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2023-01-02",
+          "unfiltered": {
+            "mean_net_r": 0.28429716625268364,
+            "signal_dates": 75,
+            "trades": 119
+          },
+          "window": "walk-7",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": -0.37350167382544885,
+          "end": "2024-12-31",
+          "filtered": {
+            "mean_net_r": -0.09721625676985454,
+            "signal_dates": 16,
+            "trades": 17
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 223,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 17,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 17
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2024-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2024-01-01",
+          "unfiltered": {
+            "mean_net_r": 0.2762854170555943,
+            "signal_dates": 67,
+            "trades": 127
+          },
+          "window": "walk-8",
+          "won": false
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.18402652882126244,
+          "end": "2025-12-31",
+          "filtered": {
+            "mean_net_r": 0.041559475507061516,
+            "signal_dates": 33,
+            "trades": 47
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 162,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 52,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 52
+          },
+          "meets_comparison_sample": true,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2025-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2025-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.14246705331420093,
+            "signal_dates": 63,
+            "trades": 135
+          },
+          "window": "walk-9",
+          "won": true
+        },
+        {
+          "complete": true,
+          "coverage_eligible": true,
+          "difference_r": 0.3957452305554039,
+          "end": "2026-11-20",
+          "filtered": {
+            "mean_net_r": 0.10818364883802205,
+            "signal_dates": 5,
+            "trades": 6
+          },
+          "filtered_entry_coverage": {
+            "available": true,
+            "coverage_eligible": true,
+            "parent_data_blocked": 0,
+            "parent_planned": 35,
+            "possibly_selected_data_blocked": 0,
+            "selected_data_blocked": 0,
+            "selected_planned": 6,
+            "uncertain_membership": 0,
+            "worst_case_blocked": 0,
+            "worst_case_fraction": 0.0,
+            "worst_case_planned": 6
+          },
+          "meets_comparison_sample": false,
+          "parent_coverage_eligible": true,
+          "selection": {
+            "as_of_exclusive": "2026-01-01",
+            "signal_time_predicates": [
+              {
+                "field": "stop_distance_bucket",
+                "values": [
+                  "5\u2013<7%"
+                ]
+              }
+            ]
+          },
+          "start": "2026-01-01",
+          "unfiltered": {
+            "mean_net_r": -0.28756158171738183,
+            "signal_dates": 12,
+            "trades": 19
+          },
+          "window": "walk-10",
+          "won": false
+        }
+      ],
+      "windows_required": 4,
+      "windows_won": 1
+    }
+  ],
+  "null_draws": 10000,
+  "null_seed": 20261122,
+  "passed_ids": [],
+  "qualified_thresholds": {
+    "bootstrap_draws": 4000,
+    "bootstrap_seed": 716,
+    "bootstrap_unit": "signal_session",
+    "confidence": 0.9,
+    "min_cash_profit_factor_exclusive": 1.4,
+    "min_ci_lower_r_exclusive": 0,
+    "min_mature_closed": 100,
+    "min_mean_net_r_exclusive": 0.25,
+    "min_per_counted_window": 20,
+    "min_positive_window_fraction": [
+      2,
+      3
+    ],
+    "sha256": "d59b67cc9fc62cb8e2c4cdefdbac6add0c7b798e09b4522dbf05b914ac7d43e9",
+    "version": "stage-2-v1"
+  },
+  "registration_commit": "fbf15eca292d569c58272217d86dfdbeca29e9d5",
+  "registration_sha256": "bed32ec1ce3713865261602f431a5e00f410955e7f33b7b71818b5b9c18c8cc2",
+  "sample_sha256": {
+    "b10": "3685bc2e192a80ddff90daec924eddc37d2bb68c6b51d38aa175302954cff89f",
+    "b10-plans": "a8741091163ef75cad802ecf9ca083a010e3b8277f914c5ca68253ef200dbcb9",
+    "b10-receipt": "1d6b9de6882b1eca2c9b552cb68d6b0e8c3531b369d03c9101027a5938db4159",
+    "b5": "e96b56037bc6d3a6012f832403e4c4a1ccb6e568a4bcdd00660443592a617e9f",
+    "b5-plans": "639c8739f7d92a4b27fa77e6319a244d27325d4de9a5f87bc1ffd27fd28a0e8d",
+    "b5-receipt": "6293e2946795e6e18f2fa391fe0eb0fd794a6c37175c733139a7c6cd0f65ce86",
+    "pullback": "204f30ab3f744f280f197c4d5278a29e4b360e1f37a5df0bac233a9e091279c1",
+    "pullback-receipt": "992b56d8ec39226c49e070c1f91b0b4cda76aa91513dbcaf89551849e6de4323"
+  }
+}

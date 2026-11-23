@@ -1,0 +1,11 @@
+year,eligible,nse_verified,bse_recovered,gap_quarters_with_edition_candidates,first_edition_urls_across_quarters,gap_quarters_with_xml_bytes,signed_nse_with_unsettled_cross_venue_priority,previously_covered_global_first_confirmed_from_bse,verified_global_first_lower,verified_global_first_upper,combined_verified,signed_nse_plus_gap_verified,needed,coverage_pct,named_gap_ceiling_if_all_missing_bytes_were_verifiable,pass,signed_nse_plus_eligible_bse_gaps_pass
+2017,804,0,0,0,0,0,0,0,0,0,0,0,644,0.0,0,False,False
+2018,804,309,0,152,217,0,204,0,105,309,105,309,644,13.059701492537313,461,False,False
+2019,804,460,0,244,376,1,225,0,235,460,235,460,644,29.228855721393035,704,False,False
+2020,802,568,1,94,144,1,106,0,463,569,463,569,642,57.73067331670823,662,False,False
+2021,800,561,0,47,68,0,69,0,492,561,492,561,640,61.5,608,False,False
+2022,800,601,0,88,149,0,62,0,539,601,539,601,640,67.375,689,False,False
+2023,801,559,0,82,135,0,169,0,390,559,390,559,641,48.68913857677903,641,False,False
+2024,803,600,0,20,31,0,43,0,557,600,557,600,643,69.36488169364881,620,False,False
+2025,800,711,1,54,108,1,400,31,312,712,312,712,640,39.0,765,False,True
+2026,801,772,0,26,68,0,762,0,10,772,10,772,641,1.2484394506866416,798,False,True

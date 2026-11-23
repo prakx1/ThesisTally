@@ -1,0 +1,43 @@
+{
+  "point_in_time_symbols_including_13_aliases": 461,
+  "nse_all_market_items": 1538926,
+  "eligible_symbol_announcements_scanned": 434860,
+  "eligible_announcements_referencing_bse_domain": 9,
+  "explicit_bse_filing_links": 0,
+  "nse_notice_packages_scanned_for_bse_links": 7141,
+  "nse_notice_packages_with_explicit_bse_filing_links": 0,
+  "market_source_catalogue_sha256": "bedd4f1fe6383269d8764fa8eeb984526ae550b98edab6e545c069e55a25c45f",
+  "tcs": {
+    "bse_pdf_sha256": "fd59a27f69aa63e888325d45f1e68f6a0cd7a8820301edc3ba89d8128a58b018",
+    "archived_nse_original_layout_sha256": "541fe06e8f17e3817ff6f3d2b80fe7b22656d81eb5fe8398c83ead02fffa0491",
+    "full_layout_text_matches_bse": true,
+    "layout_text_bytes": 90619,
+    "basis": "standalone and consolidated",
+    "company_signed_at": "2024-10-10T16:03:28+05:30",
+    "earliest_known_nse_at": "2024-10-10T16:06:39+05:30",
+    "bse_disseminated_at": null,
+    "nse_matched_byte_identical": [
+      "https://nsearchives.nseindia.in/corporate/TCS_10102024160940_SEIntfinancials.pdf",
+      "https://nsearchives.nseindia.in/corporate/SEIntfinancials_10102024160639.pdf"
+    ],
+    "matched_or_different_bytes": true
+  },
+  "apl_apollo": {
+    "issuer_meeting_conclusion": "2025-01-20T14:35:00+05:30",
+    "issuer_signed_at": "2025-01-20T14:44:27+05:30",
+    "nse_financial_results_notice": "2025-01-20T14:47:01+05:30",
+    "bse_disseminated_at": null,
+    "nse_matched_byte_identical": [
+      "https://nsearchives.nseindia.in/corporate/APLAPOLLO_20012025145033_BM_Outcome20_financials.pdf"
+    ],
+    "matched_or_different_bytes": true
+  },
+  "max_healthcare": {
+    "bse_copy_type": "Later integrated financial filing",
+    "issuer_cover_signed_at": "2025-01-30T19:32:03+05:30",
+    "nse_initial_release": "2025-01-30T14:13:41+05:30",
+    "bse_disseminated_at": null,
+    "nse_matched_byte_identical": [],
+    "matched_or_different_bytes": true
+  }
+}

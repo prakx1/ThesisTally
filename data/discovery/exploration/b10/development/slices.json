@@ -1,0 +1,2264 @@
+{
+  "card_source": "2017\u20132020 development sample only",
+  "ci": "90% percentile bootstrap, entire signal dates resampled; trade-weighted mean",
+  "hypothesis_cards": [
+    {
+      "description": "b10 entries in stop_distance_bucket = 5\u2013<7%",
+      "filters": [
+        {
+          "field": "stop_distance_bucket",
+          "values": [
+            "5\u2013<7%"
+          ]
+        }
+      ],
+      "id": "b10-962038cb",
+      "strategy": "b10"
+    },
+    {
+      "description": "b10 entries in signal_rank_quintile = Q5",
+      "filters": [
+        {
+          "field": "signal_rank_quintile",
+          "values": [
+            "Q5"
+          ]
+        }
+      ],
+      "id": "b10-e2bd0f8c",
+      "strategy": "b10"
+    },
+    {
+      "description": "b10 entries in the top fifth of stocks by prior three-year mean net R, minimum five observed trades",
+      "id": "b10-95dce55e",
+      "selector": {
+        "field": "stock",
+        "lookback_years": 3,
+        "min_trades": 5,
+        "top_fraction": 0.2
+      },
+      "strategy": "b10"
+    }
+  ],
+  "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+  "period": "development",
+  "populated_slices": 169,
+  "sample_sha256": "3685bc2e192a80ddff90daec924eddc37d2bb68c6b51d38aa175302954cff89f",
+  "slices": [
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.544863974062271,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE001A01036"
+    },
+    {
+      "ci90": [
+        -0.18687884635857105,
+        0.4958548606100701
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.13602008734580318,
+      "signal_dates": 12,
+      "trades": 12,
+      "value": "INE002A01018"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5761790726749771,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE010B01027"
+    },
+    {
+      "ci90": [
+        -1.4176950649447886,
+        0.10877444624472166
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.6599925009764365,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE013A01015"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.5641214901572117,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE018A01030"
+    },
+    {
+      "ci90": [
+        0.1408054079038169,
+        0.6022895672576997
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.3792231986592946,
+      "signal_dates": 7,
+      "trades": 7,
+      "value": "INE019A01038"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -1.012068939419848,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE020B01018"
+    },
+    {
+      "ci90": [
+        -0.5184316883719015,
+        -0.19809472690421065
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.3527212019937077,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE029A01011"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.7253389399409675,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE030A01027"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.8893673213139167,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE034A01011"
+    },
+    {
+      "ci90": [
+        0.2129208690912648,
+        0.8477196246870973
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5158536373728604,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE036D01028"
+    },
+    {
+      "ci90": [
+        -0.23132562348859764,
+        0.7132831170342632
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.25936436914861805,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE038A01020"
+    },
+    {
+      "ci90": [
+        0.2647176495313718,
+        0.7568759920752047
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5107968208032883,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE040A01026"
+    },
+    {
+      "ci90": [
+        -0.14347259265005555,
+        -0.036377597502584805
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.08992509507632018,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE040H01021"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.08336947806218681,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE047A01021"
+    },
+    {
+      "ci90": [
+        0.4457555587040397,
+        0.6978135349398114
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5721349315715045,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE051B01021"
+    },
+    {
+      "ci90": [
+        -0.41380584723968505,
+        -0.1088244577567058
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.2613151524981954,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE053A01029"
+    },
+    {
+      "ci90": [
+        -0.15996662563817202,
+        0.659383369338575
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.2904281850491743,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE055A01016"
+    },
+    {
+      "ci90": [
+        -1.2616433076825893,
+        -0.3000533159608345
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.7808483118217119,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE066A01013"
+    },
+    {
+      "ci90": [
+        0.09824384615601638,
+        0.33009936066344114
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.21417160340972877,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE069A01017"
+    },
+    {
+      "ci90": [
+        -0.5352260232523316,
+        0.03563959572423493
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.24722335049827515,
+      "signal_dates": 11,
+      "trades": 11,
+      "value": "INE081A01012"
+    },
+    {
+      "ci90": [
+        -0.3466596349938454,
+        0.13130203660708725
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.10767879919337904,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE093A01033"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.9728444954090796,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE094A01015"
+    },
+    {
+      "ci90": [
+        -0.06337419546733129,
+        0.5844600240863259
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.26373304053554875,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE095A01012"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.6960945957134509,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE102D01028"
+    },
+    {
+      "ci90": [
+        0.4579993424871736,
+        0.5801270707935783
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.519063206640376,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE111A01017"
+    },
+    {
+      "ci90": [
+        -0.21917818325782004,
+        0.14496621641742793
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.03710598342019605,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE114A01011"
+    },
+    {
+      "ci90": [
+        -0.6083648906289953,
+        -0.14381191507132168
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.37608840285015854,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE115A01026"
+    },
+    {
+      "ci90": [
+        -0.32249124537441626,
+        -0.016428448063215393
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.16945984671881584,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE117A01022"
+    },
+    {
+      "ci90": [
+        -0.38953377660767324,
+        -0.20578356991750665
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.29765867326258993,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE121J01017"
+    },
+    {
+      "ci90": [
+        0.06123521210030104,
+        0.41292896808456653
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.23430552681945782,
+      "signal_dates": 7,
+      "trades": 7,
+      "value": "INE129A01019"
+    },
+    {
+      "ci90": [
+        0.14957007595578045,
+        0.7822598331404136
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.465914954548097,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE134E01011"
+    },
+    {
+      "ci90": [
+        -0.20530631411704436,
+        0.054202958043326525
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.07555167803685892,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE140A01024"
+    },
+    {
+      "ci90": [
+        -0.4326517603161102,
+        0.2735259995609049
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.09684055107521168,
+      "signal_dates": 9,
+      "trades": 9,
+      "value": "INE148I01020"
+    },
+    {
+      "ci90": [
+        -0.29738610249859004,
+        0.099678892268481
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.11397126547160007,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE151A01013"
+    },
+    {
+      "ci90": [
+        0.9142731735775715,
+        1.0003139213831302
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.9572935474803509,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE154A01025"
+    },
+    {
+      "ci90": [
+        -0.07439620390018013,
+        0.9181012152902362
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.4218525056950281,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE169A01031"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.29105290523749755,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE171A01029"
+    },
+    {
+      "ci90": [
+        -0.24881470499531638,
+        0.24500856113152372
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.010413773573609064,
+      "signal_dates": 8,
+      "trades": 8,
+      "value": "INE176A01028"
+    },
+    {
+      "ci90": [
+        -0.48792826239714876,
+        0.3974919588381152
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.04013636214581689,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE176B01034"
+    },
+    {
+      "ci90": [
+        1.0493024646402263,
+        1.1486684192149197
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 1.098985441927573,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE192A01025"
+    },
+    {
+      "ci90": [
+        0.5560296206507058,
+        0.5898631633189308
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5729463919848183,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE202B01012"
+    },
+    {
+      "ci90": [
+        0.1269069347962009,
+        0.6333963661385487
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.39935316472829163,
+      "signal_dates": 9,
+      "trades": 9,
+      "value": "INE203G01019"
+    },
+    {
+      "ci90": [
+        -0.9382310749482708,
+        -0.19094468727292896
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.6100823064650721,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE205A01025"
+    },
+    {
+      "ci90": [
+        0.1097480443345265,
+        0.36458806467923716
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.24070063841476358,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE212H01026"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.008552112003258599,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE213A01029"
+    },
+    {
+      "ci90": [
+        0.47484412482422095,
+        0.573452881771068
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5241485032976445,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE216A01022"
+    },
+    {
+      "ci90": [
+        0.031893019892653356,
+        0.6123732505176827
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.33018913516749715,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE226A01021"
+    },
+    {
+      "ci90": [
+        -1.4359023679272513,
+        -0.11799141042297626
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.7935114910740031,
+      "signal_dates": 7,
+      "trades": 7,
+      "value": "INE233A01035"
+    },
+    {
+      "ci90": [
+        -0.2574962081402814,
+        0.49859145896191653
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.12054762541081757,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE237A01028"
+    },
+    {
+      "ci90": [
+        -0.20576857998398412,
+        0.044490039930094094
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.07534240219856549,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE242A01010"
+    },
+    {
+      "ci90": [
+        -1.3960712705677931,
+        -0.31672246527934245
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.9596859157850357,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE257A01026"
+    },
+    {
+      "ci90": [
+        -0.048665627979939036,
+        0.7563039580354052
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.359676423485539,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE263A01016"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 1.103005502722252,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE263A01024"
+    },
+    {
+      "ci90": [
+        -0.2575027570060496,
+        0.6287421099407152
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.17779568987340835,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE267A01025"
+    },
+    {
+      "ci90": [
+        -1.822126497646487,
+        -1.6894400884626226
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -1.755783293054555,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE271C01023"
+    },
+    {
+      "ci90": [
+        -0.030815223832556735,
+        0.3159165588617867
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.15007206809807935,
+      "signal_dates": 8,
+      "trades": 8,
+      "value": "INE274J01014"
+    },
+    {
+      "ci90": [
+        0.5883076838467142,
+        0.9947403528052611
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.8082156084971647,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE280A01028"
+    },
+    {
+      "ci90": [
+        -0.44665057005775016,
+        -0.08565775718122406
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.26971035189134906,
+      "signal_dates": 11,
+      "trades": 11,
+      "value": "INE296A01024"
+    },
+    {
+      "ci90": [
+        -0.11635782836117016,
+        -0.11579440735714241
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.11607611785915628,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE299U01018"
+    },
+    {
+      "ci90": [
+        -0.7030023546113785,
+        0.061384052201063855
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.34390760018609345,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE302A01020"
+    },
+    {
+      "ci90": [
+        0.03733248335066571,
+        0.6921928236720603
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.38041085995511587,
+      "signal_dates": 8,
+      "trades": 8,
+      "value": "INE343B01030"
+    },
+    {
+      "ci90": [
+        0.18348724822722645,
+        0.6431888550969465
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.4124016004109574,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE347G01014"
+    },
+    {
+      "ci90": [
+        0.3866971665686308,
+        0.6618672548241465
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5242822106963887,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE356A01018"
+    },
+    {
+      "ci90": [
+        0.7229634285877072,
+        0.986633584783149
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.84909147165353,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE376G01013"
+    },
+    {
+      "ci90": [
+        -0.12757640312958643,
+        0.6861703874867013
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.27929699217855747,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE397D01024"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -1.0502212667077002,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE398R01022"
+    },
+    {
+      "ci90": [
+        0.7535338898221727,
+        0.9499715108057457
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.8517527003139592,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE406A01037"
+    },
+    {
+      "ci90": [
+        0.5850764284606451,
+        0.6592947687727482
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.6221855986166966,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE414G01012"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5222478629800776,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE438A01022"
+    },
+    {
+      "ci90": [
+        -0.9284978134981241,
+        -0.2232350568481096
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.5758664351731169,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE439L01019"
+    },
+    {
+      "ci90": [
+        0.4125232420530966,
+        1.0127415420915944
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.7390033842997547,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE465A01025"
+    },
+    {
+      "ci90": [
+        -0.8082496931317035,
+        -0.7009900142835318
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.7546198537076176,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE476A01014"
+    },
+    {
+      "ci90": [
+        -0.13949318942096267,
+        0.5200428562408157
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.1493438518674816,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE486A01013"
+    },
+    {
+      "ci90": [
+        0.5609475656531527,
+        0.8563768087018143
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.7086621871774836,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE494B01023"
+    },
+    {
+      "ci90": [
+        -0.6308404257104102,
+        0.08044759246132883
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.2818391135081399,
+      "signal_dates": 10,
+      "trades": 10,
+      "value": "INE498L01015"
+    },
+    {
+      "ci90": [
+        0.5145891358951399,
+        0.8098724260923333
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.6614422424662467,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE510A01028"
+    },
+    {
+      "ci90": [
+        -0.13132696829989024,
+        0.7549631558934639
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.3266345076070869,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "INE528G01019"
+    },
+    {
+      "ci90": [
+        -0.06730835183552353,
+        1.0803449050290115
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.6417881377095023,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE540L01014"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.006680507850269881,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE580B01029"
+    },
+    {
+      "ci90": [
+        -0.2619464350409154,
+        0.5082586390934983
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.10634848545354962,
+      "signal_dates": 7,
+      "trades": 7,
+      "value": "INE584A01023"
+    },
+    {
+      "ci90": [
+        -0.2052469016640784,
+        0.7356068039601902
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.27857480124373846,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE585B01010"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -1.1238660080245544,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE628A01036"
+    },
+    {
+      "ci90": [
+        0.46953493754588654,
+        0.582020579234085
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5257777583899857,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE646L01027"
+    },
+    {
+      "ci90": [
+        -0.5802724287756317,
+        0.7230603319186869
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.07795400968145956,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE669C01036"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.9920474983404733,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE700A01033"
+    },
+    {
+      "ci90": [
+        -0.7861861849625815,
+        -0.07091738298613132
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.42855178397435645,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE726G01019"
+    },
+    {
+      "ci90": [
+        -0.900341311585846,
+        -0.47354794138764306
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.6869446264867445,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE733E01010"
+    },
+    {
+      "ci90": [
+        0.085303130448519,
+        0.2624726958693399
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.17388791315892949,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE742F01042"
+    },
+    {
+      "ci90": [
+        -0.4362858224816315,
+        0.24201471740452968
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.09713555253855091,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "INE752E01010"
+    },
+    {
+      "ci90": [
+        0.49250251779467774,
+        0.7123984242601793
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.6024504710274285,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "INE774D01024"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.3820155176759123,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE775A01035"
+    },
+    {
+      "ci90": [
+        -0.1159919420072422,
+        0.34203999112632993
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.11302402455954387,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE797F01012"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 1.0564529703576393,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE813H01021"
+    },
+    {
+      "ci90": [
+        0.6553290581374803,
+        1.220379841451365
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.9378544497944226,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE848E01016"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.6816192657735178,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "INE860A01027"
+    },
+    {
+      "ci90": [
+        -0.2621795165171511,
+        -0.1488608793288368
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.20552019792299395,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE881D01027"
+    },
+    {
+      "ci90": [
+        -0.012852175690312773,
+        0.36689718603524024
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.17165186412987948,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE883A01011"
+    },
+    {
+      "ci90": [
+        -1.0158618539861204,
+        -0.43386053741694297
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.7254951957837049,
+      "signal_dates": 7,
+      "trades": 7,
+      "value": "INE918I01018"
+    },
+    {
+      "ci90": [
+        -0.5244818310826138,
+        -0.21466165472883206
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.3695717429057229,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INE939A01011"
+    },
+    {
+      "ci90": [
+        -1.684700829186032,
+        -0.24988149818212801
+      ],
+      "dimension": "stock",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.96729116368408,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "INE987B01026"
+    },
+    {
+      "ci90": [
+        0.9926440723537534,
+        1.0413203709907302
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 1.0169822216722417,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "ALUMINIUM"
+    },
+    {
+      "ci90": [
+        -0.7030023546113785,
+        0.061384052201063855
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.34390760018609345,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "AUTO ANCILLARIES"
+    },
+    {
+      "ci90": [
+        0.5940160100589802,
+        0.9334413077246977
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.773169347446202,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "AUTOMOBILE"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5210922593803422,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "AUTOMOBILES - 2 AND 3 WHEELERS"
+    },
+    {
+      "ci90": [
+        -0.8796377328637484,
+        -0.03861782274682992
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.4714346411082388,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "AUTOMOBILES - 4 WHEELERS"
+    },
+    {
+      "ci90": [
+        0.12368508522958678,
+        0.5625331798945408
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.3469469983078096,
+      "signal_dates": 19,
+      "trades": 20,
+      "value": "BANKS"
+    },
+    {
+      "ci90": [
+        0.26336597029749814,
+        1.006497748466455
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.6349318593819766,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "CASTINGS/FORGINGS"
+    },
+    {
+      "ci90": [
+        0.287118079932484,
+        0.6895666483173685
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.4954564351735964,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "CEMENT & CEMENT PRODUCTS"
+    },
+    {
+      "ci90": [
+        -0.6834929783547984,
+        0.030976114791096934
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.35133612757566013,
+      "signal_dates": 6,
+      "trades": 7,
+      "value": "CEMENT AND CEMENT PRODUCTS"
+    },
+    {
+      "ci90": [
+        0.9142731735775715,
+        1.0003139213831302
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.9572935474803509,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "CIGARETTES"
+    },
+    {
+      "ci90": [
+        -0.08293653019093258,
+        0.38794538837334763
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.1325303931859554,
+      "signal_dates": 10,
+      "trades": 12,
+      "value": "COMPUTERS - SOFTWARE"
+    },
+    {
+      "ci90": [
+        -1.800182086121493,
+        -0.19428451558629875
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -1.2264379399528784,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "CONSTRUCTION"
+    },
+    {
+      "ci90": [
+        -0.11635782836117016,
+        -0.11579440735714241
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.11607611785915628,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "CONSUMER DURABLES"
+    },
+    {
+      "ci90": [
+        -0.23988444810013926,
+        0.4321674483131842
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.126124557573007,
+      "signal_dates": 16,
+      "trades": 23,
+      "value": "CONSUMER GOODS"
+    },
+    {
+      "ci90": [
+        0.09824384615601638,
+        0.33009936066344114
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.21417160340972877,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "DIVERSIFIED"
+    },
+    {
+      "ci90": [
+        -0.4776634579784311,
+        0.006213654473695796
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.23823374642250558,
+      "signal_dates": 16,
+      "trades": 20,
+      "value": "ELECTRICAL EQUIPMENT"
+    },
+    {
+      "ci90": [
+        0.11892234127085699,
+        0.8478647588508732
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5083422393328816,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "ELECTRONICS - INDUSTRIAL"
+    },
+    {
+      "ci90": [
+        0.14140237100729108,
+        0.5006737275605568
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.31555930910839813,
+      "signal_dates": 7,
+      "trades": 11,
+      "value": "ENERGY"
+    },
+    {
+      "ci90": [
+        0.14341259766600678,
+        0.5891103422150182
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.37859401527490255,
+      "signal_dates": 11,
+      "trades": 11,
+      "value": "ENGINEERING"
+    },
+    {
+      "ci90": [
+        -0.07439620390018013,
+        0.9181012152902362
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.4218525056950281,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "FERTILISERS"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -1.1238660080245544,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "FERTILISERS & PESTICIDES"
+    },
+    {
+      "ci90": [
+        -0.590502702641982,
+        0.08111974790603203
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.23959729121963094,
+      "signal_dates": 13,
+      "trades": 17,
+      "value": "FINANCE"
+    },
+    {
+      "ci90": [
+        -0.06690468976979072,
+        0.5317976534251565
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.23981376838009633,
+      "signal_dates": 9,
+      "trades": 10,
+      "value": "FINANCE - HOUSING"
+    },
+    {
+      "ci90": [
+        -0.34055523316868114,
+        0.6457001681200835
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.17031817575450797,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "FINANCIAL INSTITUTION"
+    },
+    {
+      "ci90": [
+        -0.3999057666075427,
+        -0.10160292460409587
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.25254150446332707,
+      "signal_dates": 18,
+      "trades": 34,
+      "value": "FINANCIAL SERVICES"
+    },
+    {
+      "ci90": [
+        -1.562141109845247,
+        0.7811587501360007
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.36918570887560637,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "FOOD AND FOOD PROCESSING"
+    },
+    {
+      "ci90": [
+        0.16288110273097772,
+        0.531011763095997
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.32892032424826867,
+      "signal_dates": 12,
+      "trades": 16,
+      "value": "GAS"
+    },
+    {
+      "ci90": [
+        0.3734945420430068,
+        0.8018094947048725
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5987081031196304,
+      "signal_dates": 7,
+      "trades": 7,
+      "value": "GEMS JEWELLERY AND WATCHES"
+    },
+    {
+      "ci90": [
+        -0.41380584723968505,
+        -0.1088244577567058
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.2613151524981954,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "HOTELS"
+    },
+    {
+      "ci90": [
+        0.9159849659518084,
+        0.9783079023188138
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.9471464341353111,
+      "signal_dates": 2,
+      "trades": 2,
+      "value": "INDUSTRIAL MANUFACTURING"
+    },
+    {
+      "ci90": [
+        0.22952526274247967,
+        0.6523519736753796
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.44269781362892086,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "IT"
+    },
+    {
+      "ci90": [
+        0.01694117283109044,
+        0.07717314570218387
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.04705715926663715,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "LEATHER AND LEATHER PRODUCTS"
+    },
+    {
+      "ci90": [
+        -0.16890566253590547,
+        0.2804522439157484
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.042489605173492505,
+      "signal_dates": 16,
+      "trades": 24,
+      "value": "METALS"
+    },
+    {
+      "ci90": [
+        -0.36378197135505713,
+        0.33475282354418523
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.02427449533380537,
+      "signal_dates": 10,
+      "trades": 10,
+      "value": "MINING"
+    },
+    {
+      "ci90": [
+        -0.05866673693018668,
+        0.33548805427059386
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.14897796884623354,
+      "signal_dates": 7,
+      "trades": 7,
+      "value": "OIL EXPLORATION/PRODUCTION"
+    },
+    {
+      "ci90": [
+        -2.0781434926173303,
+        0.802643295068066
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.6254780205074425,
+      "signal_dates": 4,
+      "trades": 4,
+      "value": "PHARMA"
+    },
+    {
+      "ci90": [
+        -0.01656342950869966,
+        0.48693338585376394
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.23820740774594373,
+      "signal_dates": 21,
+      "trades": 22,
+      "value": "PHARMACEUTICALS"
+    },
+    {
+      "ci90": [
+        -0.15281387061497512,
+        0.46859790662102874
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.1377195678682454,
+      "signal_dates": 11,
+      "trades": 15,
+      "value": "POWER"
+    },
+    {
+      "ci90": [
+        -0.26735361214410935,
+        0.1805780023450658
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.06811821162984077,
+      "signal_dates": 15,
+      "trades": 19,
+      "value": "REFINERIES"
+    },
+    {
+      "ci90": [
+        0.085303130448519,
+        0.2624726958693399
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.17388791315892949,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "SHIPPING"
+    },
+    {
+      "ci90": [
+        -0.6339787007446211,
+        -0.007620332226481023
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.3280276515780228,
+      "signal_dates": 7,
+      "trades": 10,
+      "value": "STEEL AND STEEL PRODUCTS"
+    },
+    {
+      "ci90": [
+        -0.29560763841357507,
+        0.4187937578506548
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.061593059718539865,
+      "signal_dates": 3,
+      "trades": 3,
+      "value": "TELECOM"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.39158481145668816,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "TELECOMMUNICATION - EQUIPMENT"
+    },
+    {
+      "ci90": [
+        -0.2631335593389085,
+        0.05152233765515095
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.11669229300319732,
+      "signal_dates": 5,
+      "trades": 5,
+      "value": "TELECOMMUNICATION - SERVICES"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.8893673213139167,
+      "signal_dates": 1,
+      "trades": 1,
+      "value": "TEXTILE PRODUCTS"
+    },
+    {
+      "ci90": [
+        0.4721316390035936,
+        0.570833580875073
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.5224204825151809,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "TRAVEL AND TRANSPORT"
+    },
+    {
+      "ci90": [
+        0.04877810260010623,
+        0.3991093543297428
+      ],
+      "dimension": "sector",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.23008453060491252,
+      "signal_dates": 6,
+      "trades": 6,
+      "value": "TYRES"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "size_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "low"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "size_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "middle"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "size_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "high"
+    },
+    {
+      "ci90": [
+        -0.006149748359522916,
+        0.13716228589870538
+      ],
+      "dimension": "size_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.06546382122179539,
+      "signal_dates": 130,
+      "trades": 394,
+      "value": "unknown"
+    },
+    {
+      "ci90": [
+        -0.05665569422388492,
+        0.19816291650822626
+      ],
+      "dimension": "volatility_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.0750698430324956,
+      "signal_dates": 72,
+      "trades": 114,
+      "value": "low"
+    },
+    {
+      "ci90": [
+        -0.01068987969970269,
+        0.16547134683588594
+      ],
+      "dimension": "volatility_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.08069472402212921,
+      "signal_dates": 88,
+      "trades": 172,
+      "value": "middle"
+    },
+    {
+      "ci90": [
+        -0.07592479728846081,
+        0.13651481126187354
+      ],
+      "dimension": "volatility_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.03106750855441351,
+      "signal_dates": 74,
+      "trades": 108,
+      "value": "high"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "volatility_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "unknown"
+    },
+    {
+      "ci90": [
+        -0.1209430523002097,
+        0.2690520347879464
+      ],
+      "dimension": "liquidity_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.07889684138817254,
+      "signal_dates": 48,
+      "trades": 59,
+      "value": "low"
+    },
+    {
+      "ci90": [
+        0.07637015948961678,
+        0.27580795697298216
+      ],
+      "dimension": "liquidity_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.17746441212299194,
+      "signal_dates": 89,
+      "trades": 161,
+      "value": "middle"
+    },
+    {
+      "ci90": [
+        -0.13375852007642394,
+        0.046263294251993756
+      ],
+      "dimension": "liquidity_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.04272378409377295,
+      "signal_dates": 92,
+      "trades": 174,
+      "value": "high"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "liquidity_tercile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "unknown"
+    },
+    {
+      "ci90": [
+        -0.006149748359522916,
+        0.13716228589870538
+      ],
+      "dimension": "gate",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.06546382122179539,
+      "signal_dates": 130,
+      "trades": 394,
+      "value": "on"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "gate",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "off"
+    },
+    {
+      "ci90": [
+        -0.032069745330753095,
+        0.11555998634529502
+      ],
+      "dimension": "vix_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.04412663133214203,
+      "signal_dates": 122,
+      "trades": 370,
+      "value": "<15"
+    },
+    {
+      "ci90": [
+        0.22660322502475613,
+        0.5391223935095183
+      ],
+      "dimension": "vix_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.3944121653539514,
+      "signal_dates": 8,
+      "trades": 24,
+      "value": "15\u201322"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "vix_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": ">22"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "vix_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "unknown"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "breadth_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "<40%"
+    },
+    {
+      "ci90": [
+        -0.02088860822048325,
+        0.2874744607304269
+      ],
+      "dimension": "breadth_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.13700249988586227,
+      "signal_dates": 26,
+      "trades": 94,
+      "value": "40\u201360%"
+    },
+    {
+      "ci90": [
+        -0.03433809691631836,
+        0.12014895549465114
+      ],
+      "dimension": "breadth_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.043048368573721116,
+      "signal_dates": 104,
+      "trades": 300,
+      "value": ">60%"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "breadth_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "unknown"
+    },
+    {
+      "ci90": [
+        -0.006149748359522916,
+        0.13716228589870538
+      ],
+      "dimension": "year",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.06546382122179539,
+      "signal_dates": 130,
+      "trades": 394,
+      "value": "2017"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "year",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "2018"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "year",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "2019"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "year",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "2020"
+    },
+    {
+      "ci90": [
+        -0.1424146872024708,
+        0.11018027046159641
+      ],
+      "dimension": "signal_rank_quintile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.018421878889793436,
+      "signal_dates": 54,
+      "trades": 67,
+      "value": "Q1"
+    },
+    {
+      "ci90": [
+        -0.162323810759437,
+        0.06079576920777746
+      ],
+      "dimension": "signal_rank_quintile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": -0.04907080609169637,
+      "signal_dates": 67,
+      "trades": 93,
+      "value": "Q2"
+    },
+    {
+      "ci90": [
+        0.018035317967715108,
+        0.2953553422580727
+      ],
+      "dimension": "signal_rank_quintile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.15584773435197327,
+      "signal_dates": 61,
+      "trades": 71,
+      "value": "Q3"
+    },
+    {
+      "ci90": [
+        -0.12503936489491813,
+        0.14857564149831015
+      ],
+      "dimension": "signal_rank_quintile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.014023623331799415,
+      "signal_dates": 50,
+      "trades": 75,
+      "value": "Q4"
+    },
+    {
+      "ci90": [
+        0.09473837530124077,
+        0.3448901812401362
+      ],
+      "dimension": "signal_rank_quintile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.22129131278018466,
+      "signal_dates": 61,
+      "trades": 88,
+      "value": "Q5"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "signal_rank_quintile",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "unknown"
+    },
+    {
+      "ci90": [
+        0.1491387659762424,
+        0.8253936465952157
+      ],
+      "dimension": "stop_distance_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.506991116935936,
+      "signal_dates": 8,
+      "trades": 8,
+      "value": "<5%"
+    },
+    {
+      "ci90": [
+        0.07430221848352919,
+        0.403147264604739
+      ],
+      "dimension": "stop_distance_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.24787247690812245,
+      "signal_dates": 52,
+      "trades": 65,
+      "value": "5\u2013<7%"
+    },
+    {
+      "ci90": [
+        -0.05843147571491828,
+        0.08910298536221277
+      ],
+      "dimension": "stop_distance_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": 0.017523693541657125,
+      "signal_dates": 119,
+      "trades": 321,
+      "value": "\u22657%"
+    },
+    {
+      "ci90": [
+        null,
+        null
+      ],
+      "dimension": "stop_distance_bucket",
+      "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+      "mean_net_r": null,
+      "signal_dates": 0,
+      "trades": 0,
+      "value": "unknown"
+    }
+  ],
+  "slices_examined": 184,
+  "strategy": "b10",
+  "trades": 394,
+  "validation_config_sha256": "d59b67cc9fc62cb8e2c4cdefdbac6add0c7b798e09b4522dbf05b914ac7d43e9",
+  "years": [
+    2017
+  ]
+}

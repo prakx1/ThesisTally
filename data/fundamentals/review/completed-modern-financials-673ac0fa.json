@@ -1,0 +1,2442 @@
+[
+  {
+    "source_edition": "673ac0fa810a56b55c1d7d0165a6cc98b4940f8634919a550fa73fa1238a2307",
+    "verified_positive_proofs": {
+      "optical_quarter_columns": 536,
+      "optical_currency_and_cells": 801,
+      "original_indexed_expenses_operating_profit": 5
+    },
+    "physical_source_pages": 611,
+    "cases": {
+      "legacy/MANKIND/INE634S01028/2023-06-30/consolidated/1152816": {
+        "net_profit": "4941884000.00",
+        "revenue": "25786175000.00"
+      },
+      "legacy/MANKIND/INE634S01028/2023-12-31/consolidated/1163860": {
+        "net_profit": "4598137000.00",
+        "revenue": "26069589000.00"
+      },
+      "legacy/MANKIND/INE634S01028/2023-12-31/standalone/1163856": {
+        "net_profit": "4870733000.00",
+        "revenue": "23585662000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2020-09-30/consolidated/1097717": {
+        "revenue": "62357800000"
+      },
+      "legacy/PETRONET/INE347G01014/2020-09-30/standalone/1097713": {
+        "operating_profit": "11680300000",
+        "revenue": "62357800000"
+      },
+      "legacy/AARTIIND/INE769A01020/2022-06-30/standalone/2548": {
+        "net_profit": "1858400000",
+        "operating_profit": "2780100000",
+        "revenue": "19347100000"
+      },
+      "legacy/AARTIIND/INE769A01020/2022-06-30/consolidated/2549": {
+        "net_profit": "1890700000",
+        "operating_profit": "2828000000",
+        "revenue": "19720200000"
+      },
+      "legacy/AARTIIND/INE769A01020/2022-03-31/standalone/1135679": {
+        "net_profit": "1895100000",
+        "operating_profit": "2530800000",
+        "revenue": "17176700000"
+      },
+      "legacy/AARTIIND/INE769A01020/2021-03-31/standalone/1107908": {
+        "net_profit": "1338400000",
+        "operating_profit": "1862600000",
+        "revenue": "11431100000"
+      },
+      "legacy/ABFRL/INE647O01011/2019-09-30/standalone/1071906": {
+        "revenue": "22971800000.00"
+      },
+      "integrated/ADANIENT/INE423A01024/2026-06-30/standalone/180114": {
+        "eps": "-6.84"
+      },
+      "legacy/APLAPOLLO/INE702C01027/2022-09-30/consolidated/7298": {
+        "operating_profit": "2042500000.00",
+        "revenue": "39692100000.00"
+      },
+      "integrated/APLAPOLLO/INE702C01027/2025-12-31/consolidated/136719": {
+        "eps": "11.17",
+        "revenue": "58151300000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2022-06-30/standalone/1488": {
+        "revenue": "11603300000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2022-06-30/consolidated/1466": {
+        "revenue": "12621400000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2019-03-31/standalone/1059782": {
+        "net_profit": "1076600000.00",
+        "operating_profit": "1255300000.00",
+        "revenue": "8487000000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2019-03-31/consolidated/1059784": {
+        "operating_profit": "1480900000.00",
+        "revenue": "9269500000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2021-09-30/consolidated/1120777": {
+        "revenue": "12923200000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2018-12-31/consolidated/1054651": {
+        "operating_profit": "2131800000.00",
+        "revenue": "10181500000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2020-09-30/consolidated/1092793": {
+        "revenue": "14571000000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2020-03-31/consolidated/1082006": {
+        "revenue": "12068300000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2018-03-31/consolidated/1040525": {
+        "operating_profit": "1416600000.00",
+        "revenue": "8533100000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2018-09-30/consolidated/1049794": {
+        "operating_profit": "2737100000.00",
+        "revenue": "11270600000.00"
+      },
+      "legacy/APLLTD/INE901L01018/2019-09-30/standalone/1069446": {
+        "revenue": "11349000000.00"
+      },
+      "integrated/APOLLOHOSP/INE437A01024/2026-09-30/standalone/209699": {
+        "revenue": "29029000000"
+      },
+      "integrated/APOLLOHOSP/INE437A01024/2025-12-31/standalone/141665": {
+        "revenue": "23637000000"
+      },
+      "integrated/APOLLOHOSP/INE437A01024/2026-06-30/consolidated/186180": {
+        "revenue": "70435000000"
+      },
+      "legacy/APOLLOTYRE/INE438A01022/2018-12-31/consolidated/1056117": {
+        "eps": "3.46",
+        "net_profit": "1979530000.00",
+        "revenue": "47182720000.00"
+      },
+      "legacy/APOLLOTYRE/INE438A01022/2018-12-31/standalone/1056113": {
+        "net_profit": "1230030000.00"
+      },
+      "legacy/APOLLOTYRE/INE438A01022/2019-06-30/standalone/1065565": {
+        "eps": "2.62"
+      },
+      "legacy/APOLLOTYRE/INE438A01022/2020-06-30/standalone/1089475": {
+        "eps": "-0.90"
+      },
+      "legacy/APOLLOTYRE/INE438A01022/2023-06-30/consolidated/1153957": {
+        "eps": "6.25"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2026-09-30/consolidated/212120": {
+        "operating_profit": "189910000.00",
+        "revenue": "12491909000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2026-09-30/standalone/212112": {
+        "net_profit": "473427000.00",
+        "operating_profit": "48005000.00",
+        "revenue": "10737886000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2025-06-30/consolidated/110533": {
+        "operating_profit": "2073814000.00",
+        "revenue": "10685948000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2025-06-30/standalone/110531": {
+        "operating_profit": "2045069000.00",
+        "revenue": "9774241000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2025-09-30/consolidated/126981": {
+        "operating_profit": "427590000.00",
+        "revenue": "11185871000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2025-09-30/standalone/126980": {
+        "operating_profit": "300621000.00",
+        "revenue": "9512961000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2026-06-30/consolidated/187610": {
+        "operating_profit": "1608083000.00",
+        "revenue": "10942143000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2026-06-30/standalone/187602": {
+        "net_profit": "1357957000.00",
+        "operating_profit": "1295403000.00",
+        "revenue": "9099185000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2025-03-31/consolidated/91097": {
+        "operating_profit": "2386893000.00",
+        "revenue": "17576509000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2026-03-31/consolidated/158091": {
+        "net_profit": "2764844000.00",
+        "operating_profit": "2777674000.00",
+        "revenue": "14842781000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2026-03-31/standalone/158175": {
+        "net_profit": "2164016000.00",
+        "operating_profit": "1921635000.00",
+        "revenue": "12135983000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2025-12-31/standalone/138183": {
+        "net_profit": "1376873000.00",
+        "operating_profit": "1382543000.00",
+        "revenue": "11653722000.00"
+      },
+      "integrated/COCHINSHIP/INE704P01025/2025-12-31/consolidated/138186": {
+        "net_profit": "1446722000.00",
+        "operating_profit": "1536786000.00",
+        "revenue": "13504099000.00"
+      },
+      "legacy/NMDC/INE584A01023/2020-03-31/consolidated/1083359": {
+        "revenue": "31873400000.00"
+      },
+      "legacy/HAL/INE066F01012/2020-03-31/consolidated/1084405": {
+        "net_profit": "12506700000"
+      },
+      "legacy/HAL/INE066F01012/2020-03-31/standalone/1084403": {
+        "net_profit": "12411100000"
+      },
+      "legacy/HAL/INE066F01012/2023-09-30/consolidated/1160813": {
+        "eps": "18.49",
+        "net_profit": "12366700000",
+        "revenue": "56357000000"
+      },
+      "legacy/HAL/INE066F01012/2023-09-30/standalone/1160807": {
+        "eps": "18.47",
+        "net_profit": "12353000000",
+        "operating_profit": "11793700000",
+        "revenue": "56358100000"
+      },
+      "legacy/HAL/INE066F01012/2019-09-30/standalone/1071534": {
+        "net_profit": "6244600000"
+      },
+      "legacy/HAL/INE066F01012/2019-09-30/consolidated/1071538": {
+        "net_profit": "6216600000",
+        "revenue": "34510700000"
+      },
+      "legacy/HAL/INE066F01012/2018-09-30/standalone/1052112": {
+        "net_profit": "2894200000"
+      },
+      "legacy/SRF/INE647A01010/2023-03-31/standalone/1146439": {
+        "net_profit": "5807000000.00",
+        "revenue": "31424200000.00"
+      },
+      "legacy/SRF/INE647A01010/2023-03-31/standalone/1146438": {
+        "net_profit": "5807000000.00",
+        "revenue": "31424200000.00"
+      },
+      "integrated/INDUSTOWER/INE121J01017/2026-06-30/standalone/178843": {
+        "eps": "6.62"
+      },
+      "integrated/INDUSTOWER/INE121J01017/2026-06-30/consolidated/178844": {
+        "eps": "6.62"
+      },
+      "integrated/INDUSTOWER/INE121J01017/2025-03-31/standalone/89036": {
+        "eps": "6.73"
+      },
+      "integrated/INDUSTOWER/INE121J01017/2026-03-31/standalone/155122": {
+        "eps": "6.78"
+      },
+      "integrated/INDUSTOWER/INE121J01017/2025-06-30/standalone/107595": {
+        "eps": "6.57"
+      },
+      "legacy/BIOCON/INE376G01013/2023-12-31/consolidated/1166225": {
+        "eps": "5.52"
+      },
+      "legacy/BIOCON/INE376G01013/2023-12-31/standalone/1166205": {
+        "eps": "0.20"
+      },
+      "legacy/BIOCON/INE376G01013/2022-03-31/standalone/1131426": {
+        "revenue": "5177000000"
+      },
+      "legacy/MARUTI/INE585B01010/2023-06-30/standalone/1152636": {
+        "operating_profit": "22355000000",
+        "revenue": "323269000000"
+      },
+      "legacy/GSPL/INE246F01010/2020-06-30/standalone/1089598": {
+        "net_profit": "1993589000.00",
+        "operating_profit": "2973809000.00",
+        "revenue": "4643983000.00"
+      },
+      "legacy/GSPL/INE246F01010/2020-06-30/consolidated/1089599": {
+        "eps": "3.92",
+        "net_profit": "2481370000.00",
+        "revenue": "15299514000.00"
+      },
+      "legacy/GSPL/INE246F01010/2020-12-31/standalone/1103408": {
+        "eps": "4.39",
+        "net_profit": "2475127000.00",
+        "operating_profit": "3473106000.00",
+        "revenue": "5808016000.00"
+      },
+      "legacy/GSPL/INE246F01010/2020-12-31/consolidated/1103410": {
+        "net_profit": "6502644000.00",
+        "revenue": "33396688000.00"
+      },
+      "legacy/GSPL/INE246F01010/2021-03-31/consolidated/1109418": {
+        "eps": "7.39",
+        "net_profit": "5775058000.00",
+        "revenue": "38286581000.00"
+      },
+      "legacy/GSPL/INE246F01010/2021-03-31/standalone/1109416": {
+        "eps": "3.66"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2019-06-30/consolidated/1065085": {
+        "net_profit": "2160000000"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2019-09-30/standalone/1069252": {
+        "eps": "19.40",
+        "net_profit": "3280000000"
+      },
+      "legacy/IOB/INE565A01014/2021-06-30/standalone/1114656": {
+        "revenue": "51550300000"
+      },
+      "legacy/SHREECEM/INE070A01015/2023-09-30/standalone/1158673": {
+        "eps": "136.18"
+      },
+      "legacy/SHREECEM/INE070A01015/2023-09-30/consolidated/1158667": {
+        "eps": "123.78",
+        "net_profit": "4466200000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2023-12-31/consolidated/1163868": {
+        "eps": "194.54"
+      },
+      "legacy/SHREECEM/INE070A01015/2023-12-31/standalone/1163866": {
+        "eps": "203.49",
+        "net_profit": "7342300000.00"
+      },
+      "legacy/DIVISLAB/INE361B01024/2024-03-31/consolidated/1174161": {
+        "eps": "20.25"
+      },
+      "legacy/DIVISLAB/INE361B01024/2024-03-31/consolidated/1174162": {
+        "eps": "20.25"
+      },
+      "legacy/QUESS/INE615P01015/2018-06-30/standalone/1047130": {
+        "net_profit": "499498000.00",
+        "revenue": "12976928000.00"
+      },
+      "legacy/QUESS/INE615P01015/2018-06-30/consolidated/1047133": {
+        "net_profit": "544062000.00",
+        "revenue": "19683530000.00"
+      },
+      "legacy/DIVISLAB/INE361B01024/2024-09-30/consolidated/1185176": {
+        "net_profit": "5100000000",
+        "revenue": "23380000000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2024-09-30/standalone/1185172": {
+        "net_profit": "5180000000",
+        "operating_profit": "6310000000",
+        "revenue": "23020000000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2018-12-31/standalone/1054707": {
+        "net_profit": "545100000"
+      },
+      "legacy/PETRONET/INE347G01014/2020-12-31/standalone/1104562": {
+        "revenue": "73282300000"
+      },
+      "legacy/PETRONET/INE347G01014/2020-12-31/consolidated/1104576": {
+        "revenue": "73282300000"
+      },
+      "integrated/DIVISLAB/INE361B01024/2026-06-30/consolidated/181441": {
+        "eps": "33.95"
+      },
+      "legacy/DIVISLAB/INE361B01024/2022-09-30/standalone/6519": {
+        "net_profit": "4868500000",
+        "operating_profit": "5237800000",
+        "revenue": "18233800000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2022-09-30/consolidated/6492": {
+        "net_profit": "4936000000",
+        "operating_profit": "5353100000",
+        "revenue": "18545400000"
+      },
+      "integrated/DIVISLAB/INE361B01024/2025-09-30/standalone/125159": {
+        "operating_profit": "7820000000",
+        "revenue": "26600000000"
+      },
+      "integrated/DIVISLAB/INE361B01024/2026-09-30/consolidated/211780": {
+        "eps": "42.49",
+        "net_profit": "11270000000",
+        "revenue": "36760000000"
+      },
+      "integrated/DIVISLAB/INE361B01024/2026-09-30/standalone/211777": {
+        "eps": "42.97",
+        "net_profit": "11400000000",
+        "operating_profit": "14450000000",
+        "revenue": "36470000000"
+      },
+      "integrated/DIVISLAB/INE361B01024/2025-12-31/consolidated/141844": {
+        "eps": "21.98",
+        "net_profit": "5830000000",
+        "operating_profit": "7720000000",
+        "revenue": "26040000000"
+      },
+      "integrated/DIVISLAB/INE361B01024/2025-03-31/standalone/91696": {
+        "eps": "25.12"
+      },
+      "legacy/DIVISLAB/INE361B01024/2021-03-31/standalone/1108960": {
+        "eps": "18.38"
+      },
+      "integrated/DIXON/INE935N01020/2026-03-31/consolidated/157112": {
+        "net_profit": "2979700000",
+        "operating_profit": "3034000000",
+        "revenue": "105105100000"
+      },
+      "integrated/DIXON/INE935N01020/2025-09-30/standalone/120774": {
+        "net_profit": "4785300000",
+        "operating_profit": "580400000",
+        "revenue": "13858000000"
+      },
+      "integrated/DIXON/INE935N01020/2025-09-30/consolidated/120776": {
+        "net_profit": "7457000000",
+        "operating_profit": "4650500000",
+        "revenue": "148550400000"
+      },
+      "integrated/DIXON/INE935N01020/2025-03-31/standalone/92310": {
+        "net_profit": "2785500000",
+        "operating_profit": "513100000",
+        "revenue": "10856700000"
+      },
+      "legacy/DIXON/INE935N01020/2022-06-30/consolidated/804": {
+        "net_profit": "454300000",
+        "operating_profit": "760600000",
+        "revenue": "28550700000"
+      },
+      "legacy/DIXON/INE935N01020/2022-06-30/standalone/774": {
+        "net_profit": "392400000",
+        "operating_profit": "575500000",
+        "revenue": "15038800000"
+      },
+      "integrated/DIXON/INE935N01020/2025-12-31/standalone/138688": {
+        "revenue": "7925000000"
+      },
+      "integrated/DIXON/INE935N01020/2025-12-31/consolidated/138689": {
+        "net_profit": "3205600000",
+        "operating_profit": "3154200000",
+        "revenue": "106715900000"
+      },
+      "integrated/M&M/INE101A01026/2025-12-31/consolidated/141858": {
+        "revenue": "520997500000.00"
+      },
+      "legacy/FORTIS/INE061F01013/2024-03-31/standalone/1173519": {
+        "operating_profit": "434500000",
+        "revenue": "3074800000"
+      },
+      "legacy/FORTIS/INE061F01013/2024-03-31/standalone/1173518": {
+        "operating_profit": "434500000",
+        "revenue": "3074800000"
+      },
+      "legacy/HAL/INE066F01012/2021-09-30/consolidated/1121068": {
+        "eps": "25.32",
+        "net_profit": "8467400000",
+        "revenue": "55511600000"
+      },
+      "legacy/HAL/INE066F01012/2021-09-30/standalone/1121064": {
+        "eps": "25.37",
+        "net_profit": "8482200000",
+        "operating_profit": "9993300000",
+        "revenue": "55511700000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2021-09-30/consolidated/1119117": {
+        "net_profit": "2665900000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2020-09-30/consolidated/1098470": {
+        "revenue": "6173100000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2020-09-30/standalone/1098460": {
+        "revenue": "5917000000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2022-03-31/consolidated/1132805": {
+        "revenue": "10737800000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2022-03-31/standalone/1132801": {
+        "revenue": "10529700000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2019-12-31/consolidated/1080698": {
+        "revenue": "5711700000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2022-06-30/standalone/710": {
+        "revenue": "12582000000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2020-03-31/standalone/1088680": {
+        "revenue": "5621000000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2020-06-30/consolidated/1088682": {
+        "operating_profit": "1067700000",
+        "revenue": "5599600000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2020-03-31/consolidated/1088678": {
+        "revenue": "6327100000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2020-06-30/standalone/1088683": {
+        "revenue": "5565800000"
+      },
+      "legacy/FORTIS/INE061F01013/2022-06-30/standalone/1644": {
+        "operating_profit": "34900000",
+        "revenue": "2471500000"
+      },
+      "legacy/FORTIS/INE061F01013/2019-06-30/standalone/1065992": {
+        "operating_profit": "-22700000",
+        "revenue": "1788000000"
+      },
+      "legacy/FORTIS/INE061F01013/2019-06-30/consolidated/1065993": {
+        "operating_profit": "713300000",
+        "revenue": "11383100000"
+      },
+      "integrated/FORTIS/INE061F01013/2025-06-30/standalone/108960": {
+        "operating_profit": "579500000",
+        "revenue": "4330300000"
+      },
+      "integrated/FORTIS/INE061F01013/2026-06-30/consolidated/183403": {
+        "operating_profit": "4152400000",
+        "revenue": "25450300000"
+      },
+      "integrated/FORTIS/INE061F01013/2026-06-30/standalone/183402": {
+        "operating_profit": "739500000",
+        "revenue": "4894500000"
+      },
+      "legacy/FORTIS/INE061F01013/2021-06-30/standalone/1116356": {
+        "operating_profit": "-31100000",
+        "revenue": "2035200000"
+      },
+      "legacy/FORTIS/INE061F01013/2021-06-30/consolidated/1116359": {
+        "revenue": "14103100000"
+      },
+      "integrated/FORTIS/INE061F01013/2026-03-31/consolidated/160422": {
+        "operating_profit": "4103600000",
+        "revenue": "23646700000"
+      },
+      "legacy/FORTIS/INE061F01013/2022-03-31/consolidated/1134733": {
+        "operating_profit": "1439500000",
+        "revenue": "13781000000"
+      },
+      "legacy/FORTIS/INE061F01013/2021-03-31/standalone/1108968": {
+        "revenue": "1948200000"
+      },
+      "legacy/RVNL/INE415G01027/2024-09-30/standalone/1184628": {
+        "operating_profit": "2652800000.00",
+        "revenue": "48692200000.00"
+      },
+      "legacy/RVNL/INE415G01027/2024-09-30/consolidated/1184630": {
+        "revenue": "48549500000.00"
+      },
+      "legacy/SRF/INE647A01010/2022-03-31/standalone/1132128": {
+        "net_profit": "5004900000.00",
+        "revenue": "27972400000.00"
+      },
+      "legacy/MARICO/INE196A01026/2018-03-31/standalone/1039400": {
+        "net_profit": "1197800000.00",
+        "operating_profit": "1962700000.00",
+        "revenue": "12137600000.00"
+      },
+      "legacy/HAL/INE066F01012/2019-12-31/consolidated/1079134": {
+        "eps": "13.78",
+        "net_profit": "4606400000",
+        "operating_profit": "6708700000",
+        "revenue": "44563500000"
+      },
+      "legacy/HAL/INE066F01012/2019-12-31/standalone/1079128": {
+        "eps": "12.72",
+        "net_profit": "4253100000",
+        "operating_profit": "6393100000",
+        "revenue": "44564400000"
+      },
+      "legacy/PRESTIGE/INE811K01011/2021-03-31/consolidated/1109753": {
+        "revenue": "22681000000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2023-12-31/standalone/1166662": {
+        "net_profit": "3580000000",
+        "revenue": "18080000000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2023-12-31/consolidated/1166666": {
+        "net_profit": "3580000000",
+        "revenue": "18550000000"
+      },
+      "legacy/SUNTV/INE424H01027/2023-06-30/consolidated/1154247": {
+        "operating_profit": "7079000000.00",
+        "revenue": "13492200000.00"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2019-06-30/standalone/1065178": {
+        "net_profit": "711000000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2019-06-30/consolidated/1065179": {
+        "net_profit": "1520700000"
+      },
+      "legacy/HAL/INE066F01012/2020-12-31/consolidated/1104336": {
+        "eps": "25.52",
+        "net_profit": "8534600000",
+        "operating_profit": "10296600000",
+        "revenue": "54254600000"
+      },
+      "legacy/HAL/INE066F01012/2020-12-31/standalone/1104334": {
+        "eps": "25.52",
+        "net_profit": "8532700000",
+        "operating_profit": "10297200000",
+        "revenue": "54255800000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2024-03-31/standalone/1170407": {
+        "revenue": "10432000000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2024-03-31/standalone/1170406": {
+        "revenue": "10432000000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2023-09-30/standalone/1157751": {
+        "revenue": "9264600000"
+      },
+      "integrated/GLENMARK/INE935A01035/2025-12-31/standalone/139419": {
+        "eps": "10.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2025-06-30/consolidated/108100": {
+        "operating_profit": "-2653300000.00",
+        "revenue": "4345600000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2025-06-30/standalone/108099": {
+        "operating_profit": "-2753800000.00",
+        "revenue": "1060700000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2025-03-31/standalone/89183": {
+        "operating_profit": "656500000.00",
+        "revenue": "9116900000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2026-03-31/consolidated/155527": {
+        "revenue": "34581300000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2026-06-30/consolidated/182010": {
+        "operating_profit": "-3150900000.00",
+        "revenue": "5061700000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2026-06-30/standalone/182009": {
+        "operating_profit": "-2781400000.00",
+        "revenue": "1210900000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2025-12-31/consolidated/140580": {
+        "operating_profit": "-2143100000.00",
+        "revenue": "4983600000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2025-12-31/standalone/140579": {
+        "operating_profit": "-1936800000.00",
+        "revenue": "2684800000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2025-09-30/standalone/124942": {
+        "net_profit": "131000000.00",
+        "operating_profit": "-4240900000.00",
+        "revenue": "922600000.00"
+      },
+      "integrated/GODREJPROP/INE484J01027/2025-09-30/consolidated/124944": {
+        "operating_profit": "-5390900000.00",
+        "revenue": "7403800000.00"
+      },
+      "legacy/GSPL/INE246F01010/2019-03-31/standalone/1059906": {
+        "eps": "2.72",
+        "net_profit": "1533227000.00"
+      },
+      "legacy/HAL/INE066F01012/2022-09-30/standalone/8260": {
+        "eps": "36.16",
+        "net_profit": "12092200000",
+        "revenue": "51448900000"
+      },
+      "legacy/HAL/INE066F01012/2022-09-30/consolidated/8246": {
+        "net_profit": "12212200000",
+        "operating_profit": "13696600000",
+        "revenue": "51447900000"
+      },
+      "integrated/HAL/INE066F01020/2025-12-31/standalone/142274": {
+        "eps": "27.69",
+        "net_profit": "18517200000",
+        "operating_profit": "15593300000",
+        "revenue": "76988700000"
+      },
+      "integrated/HAL/INE066F01020/2025-06-30/standalone/110196": {
+        "eps": "20.59",
+        "net_profit": "13771500000",
+        "operating_profit": "10990400000",
+        "revenue": "48191400000"
+      },
+      "integrated/HAL/INE066F01020/2025-06-30/consolidated/110197": {
+        "net_profit": "13837700000"
+      },
+      "integrated/HAL/INE066F01020/2026-06-30/standalone/185599": {
+        "eps": "23.63",
+        "net_profit": "15806100000",
+        "operating_profit": "12228100000",
+        "revenue": "55152800000"
+      },
+      "integrated/HAL/INE066F01020/2025-09-30/consolidated/126513": {
+        "eps": "24.96",
+        "net_profit": "16690500000",
+        "operating_profit": "13323300000",
+        "revenue": "66286100000"
+      },
+      "legacy/HAL/INE066F01012/2021-03-31/consolidated/1111668": {
+        "net_profit": "16217600000",
+        "operating_profit": "20585700000",
+        "revenue": "107387400000"
+      },
+      "legacy/HAL/INE066F01012/2021-03-31/standalone/1111664": {
+        "eps": "48.29",
+        "net_profit": "16148000000",
+        "operating_profit": "20559500000",
+        "revenue": "107382100000"
+      },
+      "integrated/HAVELLS/INE176B01034/2025-09-30/consolidated/120669": {
+        "net_profit": "3182800000.00"
+      },
+      "integrated/HAVELLS/INE176B01034/2025-06-30/standalone/104425": {
+        "net_profit": "3523400000.00",
+        "operating_profit": "4148600000.00",
+        "revenue": "54378100000.00"
+      },
+      "integrated/HAVELLS/INE176B01034/2025-06-30/consolidated/104428": {
+        "net_profit": "3475300000.00",
+        "operating_profit": "4099300000.00",
+        "revenue": "54553500000.00"
+      },
+      "integrated/HAVELLS/INE176B01034/2025-03-31/standalone/86098": {
+        "net_profit": "5222600000.00",
+        "operating_profit": "6527200000.00",
+        "revenue": "65322100000.00"
+      },
+      "integrated/HAVELLS/INE176B01034/2026-03-31/standalone/152195": {
+        "net_profit": "7342400000.00",
+        "revenue": "66876800000.00"
+      },
+      "integrated/HAVELLS/INE176B01034/2026-09-30/consolidated/203136": {
+        "net_profit": "3492200000.00",
+        "revenue": "64319900000.00"
+      },
+      "legacy/HAVELLS/INE176B01034/2022-09-30/consolidated/4571": {
+        "net_profit": "1870100000.00",
+        "operating_profit": "2147500000.00",
+        "revenue": "36794900000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2022-03-31/standalone/1131709": {
+        "revenue": "74217300000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2022-09-30/consolidated/6028": {
+        "net_profit": "6822800000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2022-09-30/standalone/6026": {
+        "revenue": "90753500000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2023-03-31/standalone/1146037": {
+        "net_profit": "8589300000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2023-03-31/standalone/1146036": {
+        "net_profit": "8589300000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2019-12-31/standalone/1077107": {
+        "revenue": "69967300000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2024-03-31/standalone/1170720": {
+        "net_profit": "10160500000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2024-03-31/standalone/1170721": {
+        "net_profit": "10160500000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2021-06-30/standalone/1116130": {
+        "net_profit": "3654400000.00",
+        "revenue": "54870700000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2022-06-30/standalone/3049": {
+        "net_profit": "6245200000.00",
+        "revenue": "83925400000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2020-06-30/consolidated/1090336": {
+        "eps": "2.96",
+        "net_profit": "577800000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2019-09-30/standalone/1069358": {
+        "revenue": "75707000000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2019-06-30/standalone/1065559": {
+        "net_profit": "12573400000.00",
+        "revenue": "80302700000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2018-12-31/standalone/1055555": {
+        "revenue": "78648200000.00"
+      },
+      "integrated/INDIANB/INE562A01011/2025-06-30/standalone/105395": {
+        "net_profit": "29728200000.00"
+      },
+      "legacy/IOB/INE565A01014/2022-03-31/standalone/1133385": {
+        "revenue": "57186800000"
+      },
+      "legacy/IRB/INE821I01014/2018-03-31/standalone/1039198": {
+        "net_profit": "1278747000.00",
+        "operating_profit": "702946000.00",
+        "revenue": "7039629000.00"
+      },
+      "legacy/BIOCON/INE376G01013/2022-12-31/consolidated/1144868": {
+        "eps": "-0.35"
+      },
+      "legacy/BIOCON/INE376G01013/2023-09-30/consolidated/1161389": {
+        "eps": "1.05",
+        "net_profit": "1727000000"
+      },
+      "legacy/METROPOLIS/INE112L01020/2019-06-30/consolidated/1066263": {
+        "operating_profit": "467491000.00",
+        "revenue": "2032963000.00"
+      },
+      "integrated/KALYANKJIL/INE303R01014/2026-06-30/consolidated/182157": {
+        "operating_profit": "5174800000.00",
+        "revenue": "105889270000.00"
+      },
+      "integrated/KALYANKJIL/INE303R01014/2025-03-31/standalone/89747": {
+        "operating_profit": "2756210000.00",
+        "revenue": "53503880000.00"
+      },
+      "integrated/KALYANKJIL/INE303R01014/2026-03-31/consolidated/156290": {
+        "operating_profit": "6226360000.00",
+        "revenue": "102749420000.00"
+      },
+      "integrated/KALYANKJIL/INE303R01014/2026-03-31/standalone/156289": {
+        "revenue": "89943030000.00"
+      },
+      "integrated/LENSKART/INE956O01016/2026-09-30/consolidated/210020": {
+        "net_profit": "2324500000.00"
+      },
+      "legacy/NHPC/INE848E01016/2022-12-31/consolidated/1141597": {
+        "net_profit": "7759900000.00"
+      },
+      "legacy/BOSCHLTD/INE323A01026/2021-06-30/standalone/1114765": {
+        "net_profit": "2597600000",
+        "operating_profit": "2395400000",
+        "revenue": "24435300000"
+      },
+      "legacy/BOSCHLTD/INE323A01026/2023-06-30/standalone/1152652": {
+        "operating_profit": "3758000000",
+        "revenue": "41584000000"
+      },
+      "legacy/MANKIND/INE634S01028/2024-09-30/standalone/1184171": {
+        "revenue": "25297400000.00"
+      },
+      "legacy/MANKIND/INE634S01028/2023-03-31/consolidated/1151518": {
+        "net_profit": "2936982000.00",
+        "revenue": "20526670000.00"
+      },
+      "legacy/MANKIND/INE634S01028/2023-03-31/standalone/1151516": {
+        "revenue": "18721217000.00"
+      },
+      "legacy/MANKIND/INE634S01028/2023-03-31/consolidated/1151517": {
+        "net_profit": "2936982000.00",
+        "revenue": "20526670000.00"
+      },
+      "legacy/MANKIND/INE634S01028/2023-03-31/standalone/1151515": {
+        "revenue": "18721217000.00"
+      },
+      "integrated/MARUTI/INE585B01010/2025-12-31/standalone/138635": {
+        "operating_profit": "38374000000",
+        "revenue": "498915000000"
+      },
+      "integrated/MARUTI/INE585B01010/2025-06-30/standalone/107770": {
+        "operating_profit": "30578000000",
+        "revenue": "384136000000"
+      },
+      "integrated/MARUTI/INE585B01010/2025-09-30/consolidated/124007": {
+        "revenue": "423442000000"
+      },
+      "integrated/MARUTI/INE585B01010/2025-03-31/standalone/87026": {
+        "net_profit": "37111000000"
+      },
+      "integrated/MARUTI/INE585B01010/2026-09-30/standalone/205083": {
+        "eps": "76.81",
+        "operating_profit": "28037000000",
+        "revenue": "533402000000"
+      },
+      "integrated/MARUTI/INE585B01010/2026-03-31/consolidated/153810": {
+        "net_profit": "36590000000",
+        "revenue": "524625000000"
+      },
+      "integrated/MARUTI/INE585B01010/2026-06-30/consolidated/181271": {
+        "eps": "109.63",
+        "operating_profit": "25330000000",
+        "revenue": "524698000000"
+      },
+      "integrated/MARUTI/INE585B01010/2026-06-30/standalone/181270": {
+        "eps": "106.62",
+        "revenue": "524557000000"
+      },
+      "legacy/METROPOLIS/INE112L01020/2021-06-30/standalone/1115022": {
+        "operating_profit": "675630000.00",
+        "revenue": "2641018000.00"
+      },
+      "legacy/METROPOLIS/INE112L01020/2021-03-31/standalone/1108778": {
+        "operating_profit": "692793000.00",
+        "revenue": "2383569000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2024-12-31/consolidated/1195411": {
+        "revenue": "51897340000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2024-12-31/standalone/1195405": {
+        "revenue": "44234580000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2020-03-31/standalone/1083481": {
+        "revenue": "24003500000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2024-06-30/consolidated/1180652": {
+        "net_profit": "11956640000.00",
+        "revenue": "44738600000.00"
+      },
+      "legacy/MFSL/INE180A01020/2021-03-31/standalone/1109653": {
+        "eps": "2.52"
+      },
+      "legacy/MFSL/INE180A01020/2021-03-31/consolidated/1109657": {
+        "revenue": "97597500000.00"
+      },
+      "legacy/M&M/INE101A01026/2024-12-31/standalone/1193273": {
+        "revenue": "309637600000.00"
+      },
+      "integrated/MOTHERSON/INE775A01035/2025-09-30/consolidated/127733": {
+        "operating_profit": "13928600000.00",
+        "revenue": "301729700000.00"
+      },
+      "integrated/MOTHERSON/INE775A01035/2025-03-31/consolidated/95940": {
+        "operating_profit": "14292000000.00",
+        "revenue": "293168300000.00"
+      },
+      "legacy/MRF/INE883A01011/2022-09-30/standalone/6843": {
+        "revenue": "57190000000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2026-06-30/standalone/181531": {
+        "net_profit": "25504760000.00",
+        "operating_profit": "65546640000.00",
+        "revenue": "75888510000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2026-06-30/consolidated/181533": {
+        "eps": "69.72",
+        "net_profit": "28248400000.00",
+        "operating_profit": "72323050000.00",
+        "revenue": "86716020000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2023-09-30/consolidated/1160241": {
+        "net_profit": "10952860000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2023-09-30/standalone/1160237": {
+        "net_profit": "9909990000.00",
+        "revenue": "30596730000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2022-09-30/standalone/1427": {
+        "revenue": "24977310000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2022-09-30/consolidated/1433": {
+        "revenue": "28248510000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2025-12-31/consolidated/142420": {
+        "revenue": "81876010000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2025-12-31/standalone/142419": {
+        "revenue": "72427670000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2025-09-30/consolidated/127600": {
+        "revenue": "72827890000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2025-03-31/standalone/90760": {
+        "net_profit": "15078360000.00",
+        "operating_profit": "38660030000.00",
+        "revenue": "48544030000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2026-03-31/standalone/157696": {
+        "net_profit": "30861880000.00",
+        "operating_profit": "70154500000.00",
+        "revenue": "81799230000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2026-03-31/consolidated/157697": {
+        "net_profit": "33974790000.00",
+        "operating_profit": "77362860000.00",
+        "revenue": "92887090000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2024-09-30/consolidated/1188819": {
+        "eps": "31.67",
+        "net_profit": "13212230000.00",
+        "revenue": "49288220000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2023-03-31/consolidated/1147828": {
+        "net_profit": "10092560000.00",
+        "revenue": "32748810000.00"
+      },
+      "legacy/MUTHOOTFIN/INE414G01012/2023-03-31/consolidated/1147827": {
+        "net_profit": "10092560000.00",
+        "revenue": "32748810000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2026-09-30/consolidated/207981": {
+        "net_profit": "32780020000.00",
+        "revenue": "99977690000.00"
+      },
+      "integrated/MUTHOOTFIN/INE414G01012/2026-09-30/standalone/207984": {
+        "revenue": "88343480000.00"
+      },
+      "integrated/M&MFIN/INE774D01024/2026-06-30/consolidated/176599": {
+        "operating_profit": "35851500000.00",
+        "revenue": "57179100000.00"
+      },
+      "integrated/M&MFIN/INE774D01024/2025-06-30/consolidated/104737": {
+        "operating_profit": "29405800000.00",
+        "revenue": "49906100000.00"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2020-03-31/consolidated/1087013": {
+        "net_profit": "2509600000"
+      },
+      "integrated/SHRIRAMFIN/INE721A01047/2025-12-31/standalone/136984": {
+        "operating_profit": "85934700000.00",
+        "revenue": "121657500000.00"
+      },
+      "integrated/SHRIRAMFIN/INE721A01047/2026-09-30/standalone/203529": {
+        "operating_profit": "98872500000.00",
+        "revenue": "137894200000.00"
+      },
+      "integrated/SHRIRAMFIN/INE721A01047/2026-03-31/standalone/152738": {
+        "revenue": "125087200000.00"
+      },
+      "integrated/SHRIRAMFIN/INE721A01047/2026-06-30/standalone/177733": {
+        "operating_profit": "98079600000.00",
+        "revenue": "133936800000.00"
+      },
+      "integrated/SHRIRAMFIN/INE721A01047/2025-09-30/standalone/123991": {
+        "revenue": "119077900000.00"
+      },
+      "integrated/MFSL/INE180A01020/2026-06-30/standalone/186895": {
+        "eps": "0.02"
+      },
+      "integrated/NHPC/INE848E01016/2026-06-30/consolidated/182455": {
+        "net_profit": "11780900000.00"
+      },
+      "integrated/NHPC/INE848E01016/2026-06-30/standalone/182449": {
+        "net_profit": "11134100000.00"
+      },
+      "integrated/NHPC/INE848E01016/2025-09-30/standalone/124901": {
+        "net_profit": "9255200000.00"
+      },
+      "integrated/NHPC/INE848E01016/2025-09-30/consolidated/124905": {
+        "net_profit": "12192800000.00",
+        "revenue": "33652600000.00"
+      },
+      "legacy/NHPC/INE848E01016/2021-03-31/consolidated/1109919": {
+        "net_profit": "4646000000.00",
+        "revenue": "16091700000.00"
+      },
+      "legacy/NHPC/INE848E01016/2021-03-31/standalone/1109915": {
+        "net_profit": "4042100000.00",
+        "revenue": "13414800000.00"
+      },
+      "legacy/NHPC/INE848E01016/2022-06-30/consolidated/2515": {
+        "net_profit": "10537600000.00",
+        "revenue": "27851400000.00"
+      },
+      "legacy/NHPC/INE848E01016/2022-06-30/standalone/2489": {
+        "net_profit": "10495800000.00",
+        "revenue": "25943600000.00"
+      },
+      "legacy/NHPC/INE848E01016/2022-09-30/standalone/7840": {
+        "net_profit": "14330800000.00",
+        "revenue": "28876400000.00"
+      },
+      "legacy/NHPC/INE848E01016/2022-09-30/consolidated/7842": {
+        "net_profit": "16858100000.00",
+        "revenue": "33660200000.00"
+      },
+      "legacy/NHPC/INE848E01016/2020-12-31/standalone/1104158": {
+        "net_profit": "8081200000.00",
+        "revenue": "20922000000.00"
+      },
+      "legacy/NHPC/INE848E01016/2021-12-31/consolidated/1128830": {
+        "net_profit": "8887600000.00",
+        "revenue": "21567200000.00"
+      },
+      "legacy/NHPC/INE848E01016/2021-12-31/standalone/1128822": {
+        "revenue": "19323900000.00"
+      },
+      "legacy/NHPC/INE848E01016/2020-09-30/consolidated/1096830": {
+        "net_profit": "13004000000.00",
+        "revenue": "28995600000.00"
+      },
+      "legacy/NHPC/INE848E01016/2020-09-30/standalone/1096828": {
+        "net_profit": "12985000000.00",
+        "revenue": "25540300000.00"
+      },
+      "legacy/NHPC/INE848E01016/2021-09-30/consolidated/1121591": {
+        "net_profit": "13868100000.00"
+      },
+      "legacy/NHPC/INE848E01016/2021-09-30/standalone/1121575": {
+        "revenue": "27454400000.00"
+      },
+      "legacy/NHPC/INE848E01016/2021-06-30/standalone/1116342": {
+        "net_profit": "9122600000.00",
+        "revenue": "21702100000.00"
+      },
+      "legacy/NHPC/INE848E01016/2021-06-30/consolidated/1116346": {
+        "net_profit": "9828600000.00",
+        "revenue": "24171200000.00"
+      },
+      "integrated/NHPC/INE848E01016/2025-03-31/standalone/92335": {
+        "net_profit": "8939200000.00"
+      },
+      "integrated/NHPC/INE848E01016/2025-03-31/consolidated/92336": {
+        "net_profit": "9196300000.00"
+      },
+      "legacy/NHPC/INE848E01016/2022-03-31/consolidated/1134781": {
+        "revenue": "16743100000.00"
+      },
+      "legacy/NHPC/INE848E01016/2020-03-31/standalone/1085149": {
+        "net_profit": "3829100000.00",
+        "revenue": "19136200000.00"
+      },
+      "legacy/NHPC/INE848E01016/2020-03-31/consolidated/1085145": {
+        "net_profit": "2386400000.00",
+        "revenue": "21704100000.00"
+      },
+      "integrated/NLCINDIA/INE589A01014/2026-06-30/consolidated/183798": {
+        "eps": "3.49"
+      },
+      "legacy/NMDC/INE584A01023/2022-06-30/standalone/1704": {
+        "operating_profit": "18152900000.00",
+        "revenue": "47670700000.00"
+      },
+      "legacy/NMDC/INE584A01023/2022-06-30/consolidated/1705": {
+        "operating_profit": "18134700000.00",
+        "revenue": "47670700000.00"
+      },
+      "integrated/NMDC/INE584A01023/2026-09-30/consolidated/213185": {
+        "revenue": "66382300000.00"
+      },
+      "integrated/NMDC/INE584A01023/2026-06-30/consolidated/187876": {
+        "revenue": "67952500000.00"
+      },
+      "legacy/NMDC/INE584A01023/2024-09-30/consolidated/1185591": {
+        "operating_profit": "12825300000.00",
+        "revenue": "49189100000.00"
+      },
+      "legacy/MARUTI/INE585B01010/2021-06-30/standalone/1114238": {
+        "revenue": "177707000000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2023-06-30/consolidated/1153251": {
+        "net_profit": "743600000.00",
+        "operating_profit": "1937500000.00",
+        "revenue": "22466600000.00"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2018-09-30/standalone/1050538": {
+        "net_profit": "1144700000"
+      },
+      "legacy/VARROC/INE665L01035/2018-12-31/standalone/1056875": {
+        "revenue": "6460760000.00"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2019-03-31/consolidated/1061017": {
+        "revenue": "18560000000"
+      },
+      "legacy/SHREECEM/INE070A01015/2022-12-31/consolidated/1141683": {
+        "eps": "78.18"
+      },
+      "legacy/SHREECEM/INE070A01015/2020-09-30/standalone/1096971": {
+        "eps": "151.67",
+        "net_profit": "5472500000.00",
+        "operating_profit": "7093700000.00",
+        "revenue": "30223600000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2019-12-31/consolidated/1080194": {
+        "eps": "87.55",
+        "net_profit": "3118300000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2018-12-31/standalone/1054673": {
+        "eps": "86.49",
+        "operating_profit": "3739600000.00",
+        "revenue": "27806300000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2021-09-30/standalone/1118884": {
+        "eps": "160.11",
+        "net_profit": "5777000000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2021-06-30/consolidated/1115188": {
+        "eps": "174.58",
+        "net_profit": "6308900000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2021-06-30/standalone/1115187": {
+        "eps": "183.40",
+        "net_profit": "6617200000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2021-12-31/consolidated/1126620": {
+        "eps": "133.58",
+        "net_profit": "4827000000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2023-06-30/consolidated/1152259": {
+        "net_profit": "5719400000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2023-06-30/standalone/1152258": {
+        "net_profit": "5811200000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2020-12-31/consolidated/1101200": {
+        "eps": "174.85",
+        "net_profit": "6315800000.00",
+        "operating_profit": "8036600000.00",
+        "revenue": "35413800000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2020-12-31/standalone/1101198": {
+        "eps": "173.57",
+        "net_profit": "6262300000.00",
+        "operating_profit": "7983300000.00",
+        "revenue": "33094300000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2021-03-31/standalone/1108086": {
+        "operating_profit": "8778700000.00",
+        "revenue": "39308100000.00"
+      },
+      "integrated/PIDILITIND/INE318A01026/2025-06-30/consolidated/108848": {
+        "net_profit": "6781300000.00",
+        "operating_profit": "8443000000.00",
+        "revenue": "37531000000.00"
+      },
+      "integrated/PIDILITIND/INE318A01026/2025-03-31/standalone/89841": {
+        "net_profit": "4457600000.00",
+        "operating_profit": "4999400000.00",
+        "revenue": "28508600000.00"
+      },
+      "integrated/PIDILITIND/INE318A01026/2025-09-30/standalone/123745": {
+        "net_profit": "5859000000.00"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2022-12-31/standalone/1141411": {
+        "net_profit": "673900000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2022-12-31/consolidated/1141413": {
+        "net_profit": "512100000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2023-09-30/consolidated/1159793": {
+        "net_profit": "720000000.00"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2019-12-31/standalone/1075290": {
+        "net_profit": "948000000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2019-09-30/standalone/1069817": {
+        "net_profit": "1681500000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2022-03-31/standalone/1134051": {
+        "net_profit": "1240700000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2022-03-31/consolidated/1134055": {
+        "net_profit": "1182700000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2021-12-31/consolidated/1124828": {
+        "net_profit": "752400000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2021-12-31/standalone/1124826": {
+        "net_profit": "825700000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2021-03-31/standalone/1108252": {
+        "net_profit": "2143600000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2021-03-31/consolidated/1108250": {
+        "net_profit": "2159200000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2021-09-30/consolidated/1117780": {
+        "net_profit": "5167700000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2021-09-30/standalone/1117778": {
+        "net_profit": "5170800000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2021-06-30/consolidated/1114087": {
+        "net_profit": "1716700000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2021-06-30/standalone/1114086": {
+        "net_profit": "1689800000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2020-09-30/standalone/1093939": {
+        "net_profit": "2357700000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2020-12-31/consolidated/1101508": {
+        "net_profit": "2066900000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2020-12-31/standalone/1101506": {
+        "net_profit": "2013500000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2023-03-31/consolidated/1147562": {
+        "net_profit": "1506000000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2023-03-31/consolidated/1147561": {
+        "net_profit": "1506000000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2023-03-31/standalone/1147558": {
+        "net_profit": "1524100000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2023-03-31/standalone/1147557": {
+        "net_profit": "1524100000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2020-06-30/standalone/1090337": {
+        "net_profit": "1096000000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2020-06-30/consolidated/1090346": {
+        "net_profit": "1175000000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2020-03-31/standalone/1083727": {
+        "net_profit": "1461700000"
+      },
+      "integrated/OBEROIRLTY/INE093I01010/2026-03-31/consolidated/156450": {
+        "net_profit": "7032800000"
+      },
+      "integrated/OBEROIRLTY/INE093I01010/2026-09-30/consolidated/201981": {
+        "net_profit": "7616500000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2018-09-30/standalone/1049865": {
+        "net_profit": "900100000"
+      },
+      "legacy/MARICO/INE196A01026/2018-06-30/consolidated/1047696": {
+        "net_profit": "2601300000.00",
+        "revenue": "20267900000.00"
+      },
+      "legacy/RADICO/INE944F01028/2024-03-31/consolidated/1171522": {
+        "net_profit": "539126000.00",
+        "revenue": "38946384000.00"
+      },
+      "legacy/RADICO/INE944F01028/2024-03-31/consolidated/1171523": {
+        "net_profit": "539126000.00",
+        "revenue": "38946384000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2023-06-30/standalone/1153927": {
+        "net_profit": "8247200000.00",
+        "revenue": "87672700000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2024-06-30/standalone/1180476": {
+        "net_profit": "11226300000.00",
+        "revenue": "101437300000.00"
+      },
+      "legacy/RVNL/INE415G01027/2024-12-31/consolidated/1196705": {
+        "operating_profit": "2318900000.00",
+        "revenue": "45673800000.00"
+      },
+      "legacy/HEROMOTOCO/INE158A01026/2018-06-30/standalone/1046960": {
+        "revenue": "88098200000.00"
+      },
+      "legacy/NMDC/INE584A01023/2023-12-31/standalone/1168540": {
+        "operating_profit": "19478200000.00",
+        "revenue": "54099000000.00"
+      },
+      "legacy/NMDC/INE584A01023/2023-12-31/consolidated/1168546": {
+        "operating_profit": "19251700000.00",
+        "revenue": "54099000000.00"
+      },
+      "legacy/JUBLFOOD/INE797F01012/2021-12-31/standalone/1126032": {
+        "eps": "10.41"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2023-06-30/standalone/1153248": {
+        "eps": "9.55",
+        "net_profit": "3230000000"
+      },
+      "legacy/PRESTIGE/INE811K01011/2023-06-30/consolidated/1153549": {
+        "operating_profit": "3612000000",
+        "revenue": "16809000000"
+      },
+      "legacy/IRB/INE821I01014/2018-09-30/standalone/1050620": {
+        "operating_profit": "751774000.00",
+        "revenue": "6657848000.00"
+      },
+      "legacy/WHIRLPOOL/INE716A01013/2019-09-30/consolidated/1071027": {
+        "revenue": "13934600000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2024-12-31/standalone/1192133": {
+        "net_profit": "5940000000",
+        "revenue": "22970000000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2024-12-31/consolidated/1192135": {
+        "net_profit": "5890000000",
+        "revenue": "23190000000"
+      },
+      "legacy/CHOLAFIN/INE121A01016/2019-03-31/standalone/1059206": {
+        "net_profit": "2918600000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2020-06-30/standalone/1089736": {
+        "net_profit": "4922500000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2020-06-30/consolidated/1089737": {
+        "net_profit": "4920600000",
+        "revenue": "17304700000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2023-06-30/consolidated/1152697": {
+        "net_profit": "3216400000"
+      },
+      "legacy/SUNTV/INE424H01027/2023-03-31/consolidated/1147862": {
+        "net_profit": "3804000000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2023-03-31/standalone/1147859": {
+        "revenue": "8135300000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2023-03-31/consolidated/1147861": {
+        "net_profit": "3804000000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2023-03-31/standalone/1147860": {
+        "revenue": "8135300000.00"
+      },
+      "legacy/DIVISLAB/INE361B01024/2020-12-31/consolidated/1102314": {
+        "revenue": "17014400000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2022-03-31/standalone/1134041": {
+        "eps": "33.26"
+      },
+      "legacy/DIVISLAB/INE361B01024/2021-06-30/consolidated/1115066": {
+        "net_profit": "5571100000",
+        "operating_profit": "7787900000",
+        "revenue": "19606400000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2021-06-30/standalone/1115065": {
+        "net_profit": "5519700000",
+        "operating_profit": "7784600000",
+        "revenue": "19501600000"
+      },
+      "legacy/SYNGENE/INE398R01022/2018-06-30/consolidated/1047034": {
+        "revenue": "4060000000"
+      },
+      "legacy/DHFL/INE202B01012/2018-06-30/standalone/1048916": {
+        "net_profit": "4350200000"
+      },
+      "legacy/NYKAA/INE388Y01029/2023-06-30/consolidated/1154329": {
+        "net_profit": "54250000.00",
+        "operating_profit": "215460000.00",
+        "revenue": "14218240000.00"
+      },
+      "legacy/LTTS/INE010V01017/2023-06-30/consolidated/1151906": {
+        "eps": "29.45"
+      },
+      "legacy/LTTS/INE010V01017/2019-09-30/consolidated/1068832": {
+        "eps": "19.79"
+      },
+      "legacy/LTTS/INE010V01017/2018-09-30/consolidated/1050077": {
+        "eps": "18.51"
+      },
+      "legacy/LTTS/INE010V01017/2018-09-30/standalone/1050079": {
+        "eps": "18.43"
+      },
+      "legacy/PETRONET/INE347G01014/2023-12-31/consolidated/1163462": {
+        "operating_profit": "15099600000.00",
+        "revenue": "147472100000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2023-12-31/standalone/1163460": {
+        "net_profit": "11906700000.00",
+        "operating_profit": "15105100000.00",
+        "revenue": "147472100000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2023-06-30/standalone/1152616": {
+        "net_profit": "7898500000.00",
+        "operating_profit": "9899300000.00",
+        "revenue": "116560500000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2023-06-30/consolidated/1152619": {
+        "net_profit": "8192800000.00",
+        "revenue": "116563800000.00"
+      },
+      "legacy/DIVISLAB/INE361B01024/2023-09-30/consolidated/1157969": {
+        "eps": "13.11",
+        "net_profit": "3480000000"
+      },
+      "legacy/KALYANKJIL/INE303R01014/2024-12-31/consolidated/1191724": {
+        "revenue": "72868840000.00"
+      },
+      "integrated/GODFRYPHLP/INE260B01028/2025-09-30/standalone/124221": {
+        "revenue": "16330200000"
+      },
+      "integrated/GODFRYPHLP/INE260B01028/2025-06-30/consolidated/108366": {
+        "revenue": "18132600000"
+      },
+      "integrated/GODFRYPHLP/INE260B01028/2025-06-30/standalone/108357": {
+        "operating_profit": "3010800000",
+        "revenue": "18070100000"
+      },
+      "integrated/GODFRYPHLP/INE260B01028/2026-03-31/standalone/158162": {
+        "revenue": "34911100000"
+      },
+      "integrated/GODFRYPHLP/INE260B01028/2026-06-30/consolidated/178680": {
+        "revenue": "38195600000"
+      },
+      "legacy/PAYTM/INE982J01020/2021-12-31/standalone/1126664": {
+        "eps": "-12"
+      },
+      "legacy/PAYTM/INE982J01020/2022-06-30/standalone/1642": {
+        "eps": "-10"
+      },
+      "legacy/PEL/INE140A01024/2019-12-31/standalone/1076140": {
+        "operating_profit": "3361100000.00",
+        "revenue": "9156700000.00"
+      },
+      "legacy/PEL/INE140A01024/2018-09-30/standalone/1050110": {
+        "revenue": "9049400000.00"
+      },
+      "legacy/PEL/INE140A01024/2018-12-31/standalone/1055090": {
+        "operating_profit": "3827600000.00",
+        "revenue": "8903500000.00"
+      },
+      "legacy/PEL/INE140A01024/2018-06-30/standalone/1047459": {
+        "operating_profit": "3412500000.00",
+        "revenue": "8635000000.00"
+      },
+      "legacy/PEL/INE140A01024/2018-06-30/consolidated/1047417": {
+        "operating_profit": "13978800000.00",
+        "revenue": "29024900000.00"
+      },
+      "legacy/PEL/INE140A01024/2019-06-30/standalone/1065508": {
+        "revenue": "8719800000.00"
+      },
+      "legacy/PRESTIGE/INE811K01011/2019-09-30/standalone/1072240": {
+        "net_profit": "1521000000"
+      },
+      "legacy/PETRONET/INE347G01014/2023-03-31/standalone/1145999": {
+        "net_profit": "6142500000.00",
+        "operating_profit": "7545000000.00",
+        "revenue": "138739300000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2023-03-31/standalone/1145998": {
+        "net_profit": "6142500000.00",
+        "operating_profit": "7545000000.00",
+        "revenue": "138739300000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2022-06-30/standalone/1594": {
+        "operating_profit": "8731500000",
+        "revenue": "142638200000"
+      },
+      "legacy/PETRONET/INE347G01014/2022-06-30/consolidated/1593": {
+        "operating_profit": "8727500000",
+        "revenue": "142638200000"
+      },
+      "legacy/PETRONET/INE347G01014/2022-09-30/consolidated/7664": {
+        "net_profit": "7857300000",
+        "revenue": "159857300000"
+      },
+      "legacy/PETRONET/INE347G01014/2022-09-30/standalone/7662": {
+        "net_profit": "7442500000",
+        "operating_profit": "9807400000",
+        "revenue": "159857300000"
+      },
+      "legacy/PETRONET/INE347G01014/2022-03-31/standalone/1132567": {
+        "operating_profit": "9794300000",
+        "revenue": "111603700000"
+      },
+      "integrated/PETRONET/INE347G01014/2025-03-31/standalone/92067": {
+        "net_profit": "10701800000.00",
+        "operating_profit": "13071400000.00",
+        "revenue": "123157500000.00"
+      },
+      "integrated/PETRONET/INE347G01014/2025-03-31/consolidated/92069": {
+        "operating_profit": "13065600000.00",
+        "revenue": "123157500000.00"
+      },
+      "integrated/PETRONET/INE347G01014/2025-06-30/standalone/105807": {
+        "net_profit": "8505800000.00",
+        "revenue": "118798600000.00"
+      },
+      "integrated/PETRONET/INE347G01014/2025-06-30/consolidated/105808": {
+        "operating_profit": "9522500000.00",
+        "revenue": "118798600000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2021-09-30/consolidated/1120659": {
+        "revenue": "108130800000"
+      },
+      "legacy/PRESTIGE/INE811K01011/2019-06-30/standalone/1065695": {
+        "net_profit": "801000000"
+      },
+      "integrated/PRESTIGE/INE811K01011/2025-09-30/consolidated/127001": {
+        "eps": "9.99"
+      },
+      "legacy/PRESTIGE/INE811K01011/2020-06-30/standalone/1090409": {
+        "net_profit": "466000000"
+      },
+      "legacy/PRESTIGE/INE811K01011/2019-03-31/standalone/1064933": {
+        "net_profit": "1376000000"
+      },
+      "integrated/PRESTIGE/INE811K01011/2025-03-31/consolidated/96302": {
+        "revenue": "15284000000"
+      },
+      "integrated/M&M/INE101A01026/2026-03-31/standalone/155573": {
+        "operating_profit": "43088700000.00",
+        "revenue": "396009200000.00"
+      },
+      "integrated/M&M/INE101A01026/2026-09-30/consolidated/210367": {
+        "revenue": "575531300000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2024-03-31/standalone/1173340": {
+        "revenue": "137931600000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2024-03-31/standalone/1173339": {
+        "revenue": "137931600000.00"
+      },
+      "legacy/DIVISLAB/INE361B01024/2021-09-30/standalone/1120115": {
+        "eps": "22.84",
+        "net_profit": "6063900000",
+        "operating_profit": "7415000000",
+        "revenue": "19678600000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2021-09-30/consolidated/1120117": {
+        "net_profit": "6064600000",
+        "revenue": "19875100000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2020-09-30/consolidated/1095289": {
+        "net_profit": "5195900000",
+        "operating_profit": "6800100000",
+        "revenue": "17493000000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2020-09-30/standalone/1095287": {
+        "net_profit": "5133000000",
+        "operating_profit": "6715000000",
+        "revenue": "17137800000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2019-09-30/consolidated/1070277": {
+        "net_profit": "3567800000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2019-09-30/standalone/1070275": {
+        "net_profit": "3528300000"
+      },
+      "legacy/NYKAA/INE388Y01029/2023-03-31/consolidated/1148667": {
+        "net_profit": "22750000.00",
+        "operating_profit": "176520000.00",
+        "revenue": "13017240000.00"
+      },
+      "legacy/NYKAA/INE388Y01029/2023-03-31/consolidated/1148668": {
+        "net_profit": "22750000.00",
+        "operating_profit": "176520000.00",
+        "revenue": "13017240000.00"
+      },
+      "legacy/QUESS/INE615P01015/2020-06-30/standalone/1087969": {
+        "net_profit": "980000.00"
+      },
+      "legacy/PRESTIGE/INE811K01011/2018-12-31/standalone/1057639": {
+        "net_profit": "520000000"
+      },
+      "legacy/PRESTIGE/INE811K01011/2019-12-31/standalone/1074994": {
+        "net_profit": "724000000"
+      },
+      "integrated/RADICO/INE944F01028/2026-03-31/consolidated/155855": {
+        "net_profit": "1794643000.00",
+        "revenue": "51823078000.00"
+      },
+      "integrated/RADICO/INE944F01028/2025-12-31/standalone/136757": {
+        "net_profit": "1550915000.00"
+      },
+      "integrated/RADICO/INE944F01028/2026-09-30/consolidated/204796": {
+        "net_profit": "2323469000.00",
+        "operating_profit": "3140862000.00",
+        "revenue": "55827146000.00"
+      },
+      "integrated/RADICO/INE944F01028/2026-06-30/consolidated/179137": {
+        "net_profit": "2296014000.00"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2022-06-30/standalone/1138": {
+        "net_profit": "1122700000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2022-09-30/standalone/6970": {
+        "net_profit": "114700000"
+      },
+      "legacy/RAMCOCEM/INE331A01037/2022-09-30/consolidated/6972": {
+        "net_profit": "37100000"
+      },
+      "legacy/MRF/INE883A01011/2020-03-31/consolidated/1085371": {
+        "revenue": "36851600000.00"
+      },
+      "legacy/MRF/INE883A01011/2020-03-31/standalone/1085369": {
+        "revenue": "36251800000.00"
+      },
+      "legacy/MRF/INE883A01011/2019-09-30/consolidated/1070848": {
+        "revenue": "40076300000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2019-06-30/consolidated/1066096": {
+        "operating_profit": "8340300000",
+        "revenue": "86134400000"
+      },
+      "legacy/PETRONET/INE347G01014/2019-06-30/standalone/1066095": {
+        "operating_profit": "8340300000",
+        "revenue": "86134400000"
+      },
+      "integrated/RVNL/INE415G01027/2025-09-30/consolidated/126293": {
+        "operating_profit": "2079900000.00",
+        "revenue": "51229800000.00"
+      },
+      "integrated/RVNL/INE415G01027/2025-09-30/standalone/126274": {
+        "operating_profit": "2022100000.00",
+        "revenue": "49345900000.00"
+      },
+      "integrated/RVNL/INE415G01027/2025-06-30/standalone/110356": {
+        "revenue": "39253000000.00"
+      },
+      "integrated/RVNL/INE415G01027/2025-03-31/consolidated/92598": {
+        "net_profit": "4591200000.00",
+        "operating_profit": "4237800000.00",
+        "revenue": "64268800000.00"
+      },
+      "integrated/RVNL/INE415G01027/2025-03-31/standalone/92597": {
+        "net_profit": "3733400000.00",
+        "revenue": "63451100000.00"
+      },
+      "integrated/RVNL/INE415G01027/2026-03-31/consolidated/161086": {
+        "revenue": "66959100000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2018-06-30/standalone/1047388": {
+        "eps": "80.22"
+      },
+      "legacy/SHREECEM/INE070A01015/2024-06-30/standalone/1179071": {
+        "net_profit": "3177100000.00",
+        "operating_profit": "2735500000.00",
+        "revenue": "48346900000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2024-06-30/consolidated/1179072": {
+        "net_profit": "2784500000.00",
+        "operating_profit": "2229200000.00",
+        "revenue": "51239600000.00"
+      },
+      "legacy/KALYANKJIL/INE303R01014/2023-09-30/standalone/1161774": {
+        "operating_profit": "2165660000.00",
+        "revenue": "37543210000.00"
+      },
+      "legacy/NMDC/INE584A01023/2023-09-30/consolidated/1161778": {
+        "revenue": "40139800000.00"
+      },
+      "legacy/NMDC/INE584A01023/2023-09-30/standalone/1161768": {
+        "operating_profit": "11047800000.00",
+        "revenue": "40139800000.00"
+      },
+      "legacy/NMDC/INE584A01023/2024-03-31/consolidated/1174656": {
+        "operating_profit": "19910700000.00",
+        "revenue": "64893100000.00"
+      },
+      "legacy/NMDC/INE584A01023/2024-03-31/consolidated/1174655": {
+        "operating_profit": "19910700000.00",
+        "revenue": "64893100000.00"
+      },
+      "legacy/SRF/INE647A01010/2024-12-31/consolidated/1191293": {
+        "net_profit": "2710800000.00",
+        "operating_profit": "4253100000.00",
+        "revenue": "34913100000.00"
+      },
+      "legacy/SRF/INE647A01010/2024-12-31/standalone/1191291": {
+        "revenue": "27616400000.00"
+      },
+      "legacy/TATACONSUM/INE192A01025/2024-06-30/standalone/1178423": {
+        "operating_profit": "3582400000.00",
+        "revenue": "29234100000.00"
+      },
+      "legacy/DIVISLAB/INE361B01024/2021-12-31/standalone/1128475": {
+        "net_profit": "9072200000",
+        "operating_profit": "10202000000",
+        "revenue": "24667700000"
+      },
+      "legacy/RADICO/INE944F01028/2023-06-30/consolidated/1152927": {
+        "net_profit": "682688000.00",
+        "operating_profit": "951742000.00",
+        "revenue": "40233149000.00"
+      },
+      "legacy/UPL/INE628A01036/2019-12-31/consolidated/1077447": {
+        "revenue": "88920000000"
+      },
+      "legacy/SRF/INE647A01010/2024-03-31/standalone/1170524": {
+        "net_profit": "4371000000.00",
+        "revenue": "29196300000.00"
+      },
+      "legacy/SRF/INE647A01010/2024-03-31/consolidated/1170526": {
+        "net_profit": "4222100000.00",
+        "operating_profit": "5099300000.00",
+        "revenue": "35697400000.00"
+      },
+      "legacy/SRF/INE647A01010/2024-03-31/standalone/1170523": {
+        "net_profit": "4371000000.00",
+        "revenue": "29196300000.00"
+      },
+      "legacy/SRF/INE647A01010/2024-03-31/consolidated/1170525": {
+        "net_profit": "4222100000.00",
+        "operating_profit": "5099300000.00",
+        "revenue": "35697400000.00"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2024-03-31/standalone/1171710": {
+        "net_profit": "6860500000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2024-03-31/standalone/1171711": {
+        "net_profit": "6860500000"
+      },
+      "legacy/KALYANKJIL/INE303R01014/2023-03-31/standalone/1147046": {
+        "operating_profit": "1703480000.00",
+        "revenue": "28053650000.00"
+      },
+      "legacy/KALYANKJIL/INE303R01014/2023-03-31/standalone/1147047": {
+        "operating_profit": "1703480000.00",
+        "revenue": "28053650000.00"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2023-03-31/standalone/1147592": {
+        "net_profit": "1587800000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2023-03-31/standalone/1147591": {
+        "net_profit": "1587800000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2024-06-30/consolidated/1177709": {
+        "net_profit": "5845100000"
+      },
+      "legacy/PIDILITIND/INE318A01026/2018-12-31/consolidated/1054827": {
+        "net_profit": "2195600000.00",
+        "operating_profit": "3046600000.00",
+        "revenue": "18483000000.00"
+      },
+      "legacy/SRF/INE647A01010/2024-06-30/standalone/1177849": {
+        "net_profit": "2499400000.00",
+        "revenue": "27363000000.00"
+      },
+      "legacy/SRF/INE647A01010/2021-12-31/standalone/1124974": {
+        "net_profit": "4032500000.00",
+        "revenue": "26651700000.00"
+      },
+      "legacy/SRF/INE647A01010/2021-09-30/standalone/1117816": {
+        "net_profit": "3117000000.00",
+        "revenue": "22912300000.00"
+      },
+      "legacy/UPL/INE628A01036/2020-12-31/consolidated/1101028": {
+        "eps": "10.38"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2021-06-30/consolidated/1114440": {
+        "net_profit": "806300000"
+      },
+      "legacy/SRF/INE647A01010/2022-12-31/consolidated/1139834": {
+        "operating_profit": "6828700000.00",
+        "revenue": "34696600000.00"
+      },
+      "legacy/UPL/INE628A01036/2021-06-30/consolidated/1114441": {
+        "eps": "8.08",
+        "revenue": "85150000000"
+      },
+      "legacy/NHPC/INE848E01016/2019-09-30/standalone/1071516": {
+        "net_profit": "13394600000.00",
+        "revenue": "26054300000.00"
+      },
+      "legacy/NHPC/INE848E01016/2019-09-30/consolidated/1071518": {
+        "net_profit": "14576800000.00",
+        "revenue": "30684200000.00"
+      },
+      "legacy/UPL/INE628A01036/2023-09-30/consolidated/1156585": {
+        "revenue": "101700000000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2021-12-31/consolidated/1125464": {
+        "net_profit": "4675300000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2021-12-31/standalone/1125470": {
+        "net_profit": "1026800000"
+      },
+      "legacy/NHPC/INE848E01016/2024-12-31/consolidated/1193519": {
+        "net_profit": "3301300000.00"
+      },
+      "legacy/NHPC/INE848E01016/2024-12-31/standalone/1193517": {
+        "net_profit": "2736000000.00"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2019-03-31/standalone/1060129": {
+        "net_profit": "631100000"
+      },
+      "legacy/OBEROIRLTY/INE093I01010/2022-12-31/consolidated/1142194": {
+        "net_profit": "7025700000"
+      },
+      "legacy/UPL/INE628A01036/2023-03-31/consolidated/1146361": {
+        "eps": "10.68"
+      },
+      "legacy/UPL/INE628A01036/2023-03-31/consolidated/1146362": {
+        "eps": "10.68"
+      },
+      "legacy/SRF/INE647A01010/2023-06-30/consolidated/1152092": {
+        "net_profit": "3592900000.00",
+        "operating_profit": "5396400000.00",
+        "revenue": "33383800000.00"
+      },
+      "legacy/SRF/INE647A01010/2023-06-30/standalone/1152091": {
+        "net_profit": "3654000000.00",
+        "revenue": "27737200000.00"
+      },
+      "legacy/DIVISLAB/INE361B01024/2020-03-31/consolidated/1082813": {
+        "net_profit": "3882300000",
+        "operating_profit": "3946700000",
+        "revenue": "13897100000"
+      },
+      "legacy/DIVISLAB/INE361B01024/2020-03-31/standalone/1082811": {
+        "eps": "14.76",
+        "net_profit": "3918000000",
+        "operating_profit": "3991000000",
+        "revenue": "13762400000"
+      },
+      "legacy/RADICO/INE944F01028/2024-06-30/consolidated/1179250": {
+        "net_profit": "773839000.00",
+        "revenue": "42656235000.00"
+      },
+      "legacy/UPL/INE628A01036/2020-09-30/consolidated/1093703": {
+        "eps": "6.07",
+        "operating_profit": "11340000000",
+        "revenue": "89390000000"
+      },
+      "legacy/PAYTM/INE982J01020/2023-03-31/standalone/1146150": {
+        "eps": "-3"
+      },
+      "legacy/PAYTM/INE982J01020/2023-03-31/standalone/1146151": {
+        "eps": "-3"
+      },
+      "legacy/MFSL/INE180A01020/2022-03-31/consolidated/1132255": {
+        "eps": "3.41",
+        "operating_profit": "1595600000.00",
+        "revenue": "89596500000.00"
+      },
+      "legacy/INDUSTOWER/INE121J01017/2024-03-31/standalone/1170023": {
+        "eps": "6.88"
+      },
+      "legacy/INDUSTOWER/INE121J01017/2024-03-31/standalone/1170022": {
+        "eps": "6.88"
+      },
+      "legacy/INDUSTOWER/INE121J01017/2024-06-30/standalone/1178518": {
+        "eps": "7.15"
+      },
+      "legacy/INDUSTOWER/INE121J01017/2024-06-30/consolidated/1178520": {
+        "eps": "7.15"
+      },
+      "legacy/M&M/INE101A01026/2023-06-30/standalone/1153025": {
+        "eps": "23.15",
+        "revenue": "243683300000.00"
+      },
+      "legacy/M&M/INE101A01026/2023-06-30/consolidated/1153026": {
+        "revenue": "338916300000.00"
+      },
+      "legacy/M&M/INE101A01026/2024-06-30/consolidated/1178478": {
+        "revenue": "372177200000.00"
+      },
+      "legacy/M&M/INE101A01026/2024-06-30/standalone/1178477": {
+        "revenue": "271327600000.00"
+      },
+      "legacy/M&M/INE101A01026/2024-03-31/standalone/1171915": {
+        "revenue": "254360500000.00"
+      },
+      "legacy/M&M/INE101A01026/2024-03-31/standalone/1171916": {
+        "revenue": "254360500000.00"
+      },
+      "legacy/M&M/INE101A01026/2024-09-30/standalone/1184427": {
+        "revenue": "289193400000.00"
+      },
+      "legacy/SRF/INE647A01010/2023-09-30/standalone/1156161": {
+        "net_profit": "3087200000.00"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2020-12-31/standalone/1102522": {
+        "eps": "16.45",
+        "net_profit": "2780000000"
+      },
+      "legacy/NHPC/INE848E01016/2023-12-31/standalone/1166952": {
+        "net_profit": "5461300000.00"
+      },
+      "legacy/NHPC/INE848E01016/2023-12-31/consolidated/1166958": {
+        "net_profit": "6284400000.00"
+      },
+      "legacy/NHPC/INE848E01016/2023-09-30/consolidated/1158267": {
+        "net_profit": "16932600000.00"
+      },
+      "legacy/NHPC/INE848E01016/2024-06-30/consolidated/1179258": {
+        "net_profit": "11084600000.00"
+      },
+      "legacy/NHPC/INE848E01016/2024-06-30/standalone/1179257": {
+        "net_profit": "10235100000.00",
+        "revenue": "24178800000.00"
+      },
+      "legacy/NHPC/INE848E01016/2024-09-30/standalone/1184837": {
+        "net_profit": "9052500000.00",
+        "revenue": "25512100000.00"
+      },
+      "legacy/NHPC/INE848E01016/2023-03-31/standalone/1150606": {
+        "net_profit": "5694700000.00"
+      },
+      "legacy/NHPC/INE848E01016/2023-03-31/standalone/1150605": {
+        "net_profit": "5694700000.00"
+      },
+      "legacy/NHPC/INE848E01016/2023-06-30/standalone/1154454": {
+        "net_profit": "10529400000.00"
+      },
+      "legacy/NHPC/INE848E01016/2023-06-30/consolidated/1154455": {
+        "net_profit": "10953800000.00"
+      },
+      "legacy/NHPC/INE848E01016/2024-03-31/standalone/1172296": {
+        "net_profit": "6977600000.00"
+      },
+      "legacy/NHPC/INE848E01016/2024-03-31/consolidated/1172300": {
+        "net_profit": "6109300000.00",
+        "revenue": "18881400000.00"
+      },
+      "legacy/NHPC/INE848E01016/2024-03-31/consolidated/1172301": {
+        "net_profit": "6109300000.00",
+        "revenue": "18881400000.00"
+      },
+      "legacy/NHPC/INE848E01016/2024-03-31/standalone/1172297": {
+        "net_profit": "6977600000.00"
+      },
+      "legacy/INDIANB/INE562A01011/2023-06-30/standalone/1152391": {
+        "revenue": "147589900000.00"
+      },
+      "legacy/IDBI/INE008A01015/2020-12-31/consolidated/1100605": {
+        "eps": "0.38"
+      },
+      "integrated/SHREECEM/INE070A01015/2025-06-30/standalone/108260": {
+        "eps": "171.42",
+        "net_profit": "6185100000.00",
+        "operating_profit": "6766500000.00",
+        "revenue": "49479800000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2025-06-30/consolidated/108261": {
+        "eps": "178.12",
+        "net_profit": "6436600000.00",
+        "operating_profit": "6787900000.00",
+        "revenue": "52808800000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2025-12-31/standalone/140867": {
+        "operating_profit": "2735400000.00",
+        "revenue": "44163900000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2025-12-31/consolidated/140870": {
+        "eps": "73.92",
+        "net_profit": "2676500000.00",
+        "operating_profit": "2374800000.00",
+        "revenue": "48005200000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2026-03-31/consolidated/155879": {
+        "eps": "145.70",
+        "operating_profit": "6215300000.00",
+        "revenue": "61010000000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2026-03-31/standalone/155877": {
+        "revenue": "56429500000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2020-06-30/consolidated/1089831": {
+        "eps": "91.35",
+        "net_profit": "3303500000.00",
+        "operating_profit": "3878000000.00",
+        "revenue": "24801400000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2020-06-30/standalone/1089830": {
+        "eps": "102.77",
+        "net_profit": "3708000000.00",
+        "operating_profit": "4292500000.00",
+        "revenue": "23257900000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2024-09-30/consolidated/1185459": {
+        "revenue": "40541700000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2023-03-31/standalone/1148186": {
+        "eps": "151.39",
+        "net_profit": "5462100000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2023-03-31/standalone/1148185": {
+        "eps": "151.39",
+        "net_profit": "5462100000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2026-09-30/standalone/203666": {
+        "eps": "56.91",
+        "net_profit": "2053300000.00",
+        "operating_profit": "2533300000.00",
+        "revenue": "51074400000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2026-09-30/consolidated/203667": {
+        "eps": "72.56",
+        "revenue": "58965100000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2025-09-30/standalone/122431": {
+        "eps": "76.81",
+        "revenue": "43032000000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2025-09-30/consolidated/122432": {
+        "eps": "85.50",
+        "operating_profit": "3061000000.00",
+        "revenue": "47610700000.00"
+      },
+      "legacy/SHREECEM/INE070A01015/2024-12-31/consolidated/1191583": {
+        "net_profit": "1937200000.00",
+        "operating_profit": "1656900000.00",
+        "revenue": "45726800000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2026-06-30/consolidated/181278": {
+        "eps": "146.67",
+        "net_profit": "5311200000.00",
+        "operating_profit": "5862400000.00",
+        "revenue": "62331300000.00"
+      },
+      "integrated/SHREECEM/INE070A01015/2026-06-30/standalone/181277": {
+        "operating_profit": "4882700000.00",
+        "revenue": "56226800000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2022-09-30/consolidated/8288": {
+        "net_profit": "4074400000.00",
+        "operating_profit": "4574400000.00",
+        "revenue": "8256500000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2022-09-30/standalone/8318": {
+        "net_profit": "4007100000.00",
+        "operating_profit": "4493200000.00",
+        "revenue": "7964300000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2022-06-30/consolidated/2960": {
+        "net_profit": "4939900000.00",
+        "operating_profit": "5607500000.00",
+        "revenue": "12191400000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2022-06-30/standalone/2959": {
+        "net_profit": "4916800000.00",
+        "operating_profit": "5559000000.00",
+        "revenue": "11939000000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2021-06-30/consolidated/1116330": {
+        "net_profit": "3650300000.00",
+        "operating_profit": "4491700000.00",
+        "revenue": "8188700000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2020-06-30/consolidated/1090378": {
+        "net_profit": "2572100000.00",
+        "operating_profit": "2581800000.00",
+        "revenue": "6115100000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2020-06-30/standalone/1090377": {
+        "net_profit": "2828000000.00",
+        "operating_profit": "2710300000.00",
+        "revenue": "6061000000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2020-03-31/consolidated/1084720": {
+        "net_profit": "2452300000.00",
+        "operating_profit": "2679700000.00",
+        "revenue": "7581300000.00"
+      },
+      "legacy/SYNGENE/INE398R01022/2020-12-31/consolidated/1100101": {
+        "revenue": "5845000000"
+      },
+      "legacy/SYNGENE/INE398R01022/2024-09-30/consolidated/1182135": {
+        "eps": "2.64",
+        "net_profit": "1061000000",
+        "operating_profit": "1339000000",
+        "revenue": "8910000000"
+      },
+      "legacy/IDBI/INE008A01015/2020-09-30/consolidated/1093476": {
+        "eps": "0.32"
+      },
+      "integrated/TATACONSUM/INE192A01025/2026-06-30/standalone/177893": {
+        "revenue": "40283200000.00"
+      },
+      "integrated/TATACONSUM/INE192A01025/2026-09-30/consolidated/204391": {
+        "revenue": "56611300000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2023-12-31/consolidated/1168316": {
+        "revenue": "9231500000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2018-06-30/standalone/1048419": {
+        "net_profit": "4091400000.00",
+        "operating_profit": "5879400000.00",
+        "revenue": "11203900000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2024-06-30/standalone/1179602": {
+        "net_profit": "5469400000.00",
+        "operating_profit": "5974400000.00",
+        "revenue": "12761100000.00"
+      },
+      "legacy/SUNTV/INE424H01027/2024-06-30/consolidated/1179605": {
+        "net_profit": "5597700000.00",
+        "revenue": "13124000000.00"
+      },
+      "integrated/TATACAP/INE976I01016/2026-09-30/standalone/204913": {
+        "net_profit": "11432600000.00"
+      },
+      "legacy/TATACONSUM/INE192A01025/2020-09-30/standalone/1095075": {
+        "revenue": "17361400000.00"
+      },
+      "integrated/TECHM/INE669C01036/2026-06-30/consolidated/175121": {
+        "eps": "16.53"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2021-03-31/consolidated/1110560": {
+        "revenue": "8402600000"
+      },
+      "legacy/FLUOROCHEM/INE09N301011/2021-03-31/standalone/1110558": {
+        "revenue": "7765500000"
+      },
+      "integrated/TORNTPHARM/INE685A01028/2025-09-30/standalone/125222": {
+        "net_profit": "5970000000",
+        "operating_profit": "8830000000",
+        "revenue": "27620000000"
+      },
+      "integrated/TORNTPHARM/INE685A01028/2025-09-30/consolidated/125224": {
+        "eps": "17.45",
+        "net_profit": "5910000000",
+        "revenue": "33020000000"
+      },
+      "integrated/TORNTPHARM/INE685A01028/2026-03-31/standalone/160505": {
+        "net_profit": "4670000000",
+        "operating_profit": "8060000000",
+        "revenue": "27350000000"
+      },
+      "integrated/TORNTPHARM/INE685A01028/2026-03-31/consolidated/160371": {
+        "net_profit": "3640000000",
+        "operating_profit": "8480000000",
+        "revenue": "41970000000"
+      },
+      "integrated/TORNTPHARM/INE685A01028/2026-09-30/standalone/203699": {
+        "revenue": "41450000000"
+      },
+      "integrated/TORNTPHARM/INE685A01028/2025-06-30/consolidated/106263": {
+        "net_profit": "5480000000",
+        "revenue": "31780000000"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2022-06-30/standalone/918": {
+        "eps": "19.35",
+        "net_profit": "3270000000"
+      },
+      "integrated/TORNTPHARM/INE685A01028/2026-06-30/standalone/180670": {
+        "revenue": "41580000000"
+      },
+      "integrated/TRENT/INE849A01020/2026-06-30/consolidated/183170": {
+        "net_profit": "5180700000.00",
+        "operating_profit": "7187400000.00",
+        "revenue": "57547100000.00"
+      },
+      "integrated/TRENT/INE849A01020/2026-06-30/standalone/183169": {
+        "operating_profit": "7167600000.00",
+        "revenue": "56663000000.00"
+      },
+      "integrated/TRENT/INE849A01020/2025-09-30/standalone/125144": {
+        "operating_profit": "4979500000.00",
+        "revenue": "47240600000.00"
+      },
+      "integrated/TRENT/INE849A01020/2025-09-30/consolidated/125146": {
+        "operating_profit": "4921500000.00",
+        "revenue": "48176800000.00"
+      },
+      "integrated/TRENT/INE849A01020/2026-09-30/standalone/206711": {
+        "revenue": "57876400000.00"
+      },
+      "integrated/TVSMOTOR/INE494B01023/2025-12-31/standalone/138023": {
+        "net_profit": "9403700000.00"
+      },
+      "legacy/TVSMOTOR/INE494B01023/2022-06-30/standalone/826": {
+        "net_profit": "3205400000.00",
+        "revenue": "60087100000.00"
+      },
+      "legacy/TVSMOTOR/INE494B01023/2022-06-30/consolidated/827": {
+        "net_profit": "2967500000.00",
+        "revenue": "73157000000.00"
+      },
+      "integrated/TVSMOTOR/INE494B01023/2025-09-30/standalone/122428": {
+        "net_profit": "9060900000.00"
+      },
+      "legacy/UBL/INE686F01025/2022-06-30/standalone/740": {
+        "eps": "6.11"
+      },
+      "legacy/NMDC/INE584A01023/2021-09-30/consolidated/1121703": {
+        "operating_profit": "30525900000.00",
+        "revenue": "67935100000.00"
+      },
+      "legacy/NMDC/INE584A01023/2021-12-31/consolidated/1127364": {
+        "operating_profit": "25505200000.00",
+        "revenue": "58737700000.00"
+      },
+      "legacy/NMDC/INE584A01023/2021-12-31/standalone/1127362": {
+        "operating_profit": "25518300000.00",
+        "revenue": "58737700000.00"
+      },
+      "legacy/NMDC/INE584A01023/2022-12-31/standalone/1144844": {
+        "operating_profit": "10597700000.00",
+        "revenue": "37199900000.00"
+      },
+      "legacy/NMDC/INE584A01023/2022-12-31/consolidated/1144848": {
+        "operating_profit": "10569100000.00",
+        "revenue": "37199900000.00"
+      },
+      "legacy/PETRONET/INE347G01014/2022-12-31/consolidated/1138930": {
+        "net_profit": "11964600000",
+        "revenue": "157758700000"
+      },
+      "legacy/PETRONET/INE347G01014/2022-12-31/standalone/1138928": {
+        "net_profit": "11805400000",
+        "operating_profit": "14830400000",
+        "revenue": "157758700000"
+      },
+      "legacy/IDBI/INE008A01015/2019-06-30/consolidated/1067518": {
+        "eps": "-4.94"
+      },
+      "legacy/IDBI/INE008A01015/2019-09-30/consolidated/1070822": {
+        "eps": "-4.46"
+      },
+      "legacy/INDIANB/INE562A01011/2021-12-31/standalone/1127066": {
+        "net_profit": "6897300000.00"
+      },
+      "legacy/UPL/INE628A01036/2021-12-31/consolidated/1125678": {
+        "eps": "11.46",
+        "revenue": "112970000000"
+      },
+      "legacy/UPL/INE628A01036/2019-09-30/consolidated/1070596": {
+        "revenue": "78170000000"
+      },
+      "legacy/UPL/INE628A01036/2018-12-31/consolidated/1055679": {
+        "revenue": "49210000000"
+      },
+      "legacy/UPL/INE628A01036/2022-09-30/consolidated/5515": {
+        "eps": "10.83"
+      },
+      "legacy/FORTIS/INE061F01013/2023-06-30/standalone/1153084": {
+        "revenue": "2890700000"
+      },
+      "legacy/IDBI/INE008A01015/2020-06-30/standalone/1087827": {
+        "eps": "0.14"
+      },
+      "legacy/IDBI/INE008A01015/2020-06-30/consolidated/1087828": {
+        "eps": "0.15"
+      },
+      "legacy/NMDC/INE584A01023/2020-06-30/consolidated/1090915": {
+        "revenue": "19375000000.00"
+      },
+      "legacy/VARROC/INE665L01035/2019-03-31/consolidated/1061953": {
+        "eps": "11.08",
+        "net_profit": "1500340000.00"
+      },
+      "legacy/VARROC/INE665L01035/2020-06-30/consolidated/1090429": {
+        "net_profit": "-3085880000.00",
+        "operating_profit": "-3973270000.00",
+        "revenue": "12746930000.00"
+      },
+      "legacy/VOLTAS/INE226A01021/2022-03-31/consolidated/1131932": {
+        "net_profit": "1827100000.00"
+      },
+      "legacy/VOLTAS/INE226A01021/2022-03-31/standalone/1131930": {
+        "net_profit": "2165000000.00"
+      },
+      "legacy/WHIRLPOOL/INE716A01013/2022-09-30/standalone/5489": {
+        "revenue": "14889100000"
+      },
+      "legacy/WHIRLPOOL/INE716A01013/2021-06-30/consolidated/1115377": {
+        "operating_profit": "223700000",
+        "revenue": "13406100000"
+      },
+      "legacy/WHIRLPOOL/INE716A01013/2021-06-30/standalone/1115376": {
+        "operating_profit": "223700000",
+        "revenue": "13406100000"
+      },
+      "legacy/WHIRLPOOL/INE716A01013/2023-03-31/standalone/1147465": {
+        "revenue": "15652300000"
+      },
+      "legacy/WHIRLPOOL/INE716A01013/2023-03-31/consolidated/1147468": {
+        "operating_profit": "533300000",
+        "revenue": "16726500000"
+      },
+      "legacy/WHIRLPOOL/INE716A01013/2023-03-31/consolidated/1147467": {
+        "operating_profit": "533300000",
+        "revenue": "16726500000"
+      },
+      "legacy/WHIRLPOOL/INE716A01013/2023-03-31/standalone/1147466": {
+        "revenue": "15652300000"
+      },
+      "legacy/PETRONET/INE347G01014/2023-09-30/consolidated/1156638": {
+        "net_profit": "8557400000.00"
+      },
+      "integrated/SRF/INE647A01010/2025-06-30/standalone/104917": {
+        "net_profit": "3970000000.00",
+        "revenue": "30401700000.00"
+      },
+      "integrated/SRF/INE647A01010/2025-09-30/consolidated/121904": {
+        "net_profit": "3881800000.00"
+      },
+      "legacy/HAL/INE066F01012/2023-06-30/consolidated/1154169": {
+        "eps": "24.35",
+        "net_profit": "8140900000",
+        "revenue": "39153500000"
+      },
+      "legacy/APOLLOTYRE/INE438A01022/2018-09-30/consolidated/1052815": {
+        "net_profit": "1460460000.00"
+      },
+      "legacy/HAL/INE066F01012/2022-12-31/consolidated/1142025": {
+        "net_profit": "11551900000",
+        "operating_profit": "7165600000",
+        "revenue": "56655400000"
+      },
+      "legacy/HAL/INE066F01012/2022-12-31/standalone/1142015": {
+        "eps": "34.51",
+        "net_profit": "11539900000",
+        "operating_profit": "7168500000",
+        "revenue": "56658600000"
+      },
+      "legacy/HAL/INE066F01012/2022-03-31/standalone/1132729": {
+        "eps": "92.77",
+        "net_profit": "31019600000",
+        "operating_profit": "21154300000",
+        "revenue": "115610400000"
+      },
+      "legacy/HAL/INE066F01012/2022-03-31/consolidated/1132731": {
+        "eps": "92.86"
+      },
+      "legacy/HAL/INE066F01012/2021-06-30/consolidated/1116124": {
+        "net_profit": "1946800000",
+        "revenue": "16158300000"
+      },
+      "legacy/HAL/INE066F01012/2023-03-31/consolidated/1146765": {
+        "eps": "84.67",
+        "net_profit": "28311900000",
+        "operating_profit": "21901800000",
+        "revenue": "124946700000"
+      },
+      "legacy/HAL/INE066F01012/2023-03-31/standalone/1146763": {
+        "eps": "84.97",
+        "net_profit": "28413000000",
+        "operating_profit": "21870900000",
+        "revenue": "124945800000"
+      },
+      "legacy/HAL/INE066F01012/2023-03-31/standalone/1146762": {
+        "eps": "84.97",
+        "net_profit": "28413000000",
+        "operating_profit": "21870900000",
+        "revenue": "124945800000"
+      },
+      "legacy/HAL/INE066F01012/2023-03-31/consolidated/1146764": {
+        "eps": "84.67",
+        "net_profit": "28311900000",
+        "operating_profit": "21901800000",
+        "revenue": "124946700000"
+      },
+      "legacy/CANBK/INE476A01014/2020-03-31/standalone/1084337": {
+        "revenue": "142223900000.00"
+      },
+      "legacy/CANBK/INE476A01014/2020-03-31/consolidated/1084341": {
+        "revenue": "152852700000.00"
+      },
+      "legacy/GSPL/INE246F01010/2022-03-31/consolidated/1132599": {
+        "eps": "7.73",
+        "net_profit": "6395107000.00",
+        "revenue": "50942171000.00"
+      },
+      "integrated/MARICO/INE196A01026/2026-06-30/consolidated/182345": {
+        "net_profit": "6520000000"
+      },
+      "legacy/MFSL/INE180A01020/2020-06-30/consolidated/1088218": {
+        "net_profit": "1815300000.00",
+        "operating_profit": "1380700000.00",
+        "revenue": "55046100000.00"
+      },
+      "legacy/MANKIND/INE634S01028/2023-09-30/consolidated/1156831": {
+        "net_profit": "5111767000.00",
+        "revenue": "27080990000.00"
+      },
+      "legacy/HAL/INE066F01012/2019-06-30/standalone/1068060": {
+        "net_profit": "5661400000",
+        "operating_profit": "7355800000",
+        "revenue": "32916400000"
+      },
+      "legacy/HAL/INE066F01012/2019-06-30/consolidated/1067134": {
+        "eps": "16.89",
+        "net_profit": "5646900000",
+        "operating_profit": "7314100000",
+        "revenue": "32914400000"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2023-03-31/standalone/1150879": {
+        "eps": "6.46",
+        "net_profit": "2190000000"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2023-03-31/standalone/1150880": {
+        "eps": "6.46",
+        "net_profit": "2190000000"
+      },
+      "legacy/NHPC/INE848E01016/2019-12-31/standalone/1077233": {
+        "net_profit": "4036600000.00",
+        "revenue": "17950700000.00"
+      },
+      "legacy/NHPC/INE848E01016/2019-12-31/consolidated/1077241": {
+        "net_profit": "6391300000.00",
+        "revenue": "21592900000.00"
+      },
+      "legacy/KALYANKJIL/INE303R01014/2024-06-30/standalone/1178713": {
+        "operating_profit": "2589450000.00",
+        "revenue": "46874630000.00"
+      },
+      "legacy/KALYANKJIL/INE303R01014/2024-06-30/consolidated/1178714": {
+        "operating_profit": "3005580000.00",
+        "revenue": "55354790000.00"
+      },
+      "legacy/TORNTPHARM/INE685A01028/2021-12-31/standalone/1124978": {
+        "eps": "10.06",
+        "net_profit": "1700000000"
+      },
+      "legacy/NMDC/INE584A01023/2020-09-30/standalone/1096537": {
+        "operating_profit": "9767600000.00",
+        "revenue": "22298900000.00"
+      }
+    }
+  }
+]

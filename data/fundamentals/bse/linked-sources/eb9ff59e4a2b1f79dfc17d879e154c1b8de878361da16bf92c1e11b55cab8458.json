@@ -1,0 +1,33 @@
+{
+  "attempted_at_utc": "2026-11-22T13:19:54.327471+00:00",
+  "bytes": 251770,
+  "content": "PDF",
+  "layout_sha256": "a7a5744dcb72ef6effc5f480401bb7e2c6c0b9164291097c2c09f562d1a0d003",
+  "official_clock_cues": [],
+  "outcome": "BSE public dissemination time unverified",
+  "pages": 1,
+  "readable_pages": 1,
+  "requests": [
+    {
+      "status": 200,
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba338ec-7d03-41a2-9db1-29cdc5b83606.pdf"
+    }
+  ],
+  "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba338ec-7d03-41a2-9db1-29cdc5b83606.pdf",
+  "return_code": 0,
+  "search_scope": "topic candidates in the first four native-text pages; explicit exchange clock or acknowledgement cues on every native-text page",
+  "server_response_date": "Sun, 22 Nov 2026 13:19:54 GMT",
+  "sha256": "bcc43c062a20105ef10e6c47bd5f5d674e00af278012d90974b13f3844760e68",
+  "status": 200,
+  "topic_cues": [
+    {
+      "page": 1,
+      "topic": "statement_of_quarterly_results"
+    },
+    {
+      "page": 1,
+      "topic": "board_or_audit_report"
+    }
+  ],
+  "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba338ec-7d03-41a2-9db1-29cdc5b83606.pdf"
+}

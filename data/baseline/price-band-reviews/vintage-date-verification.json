@@ -1,0 +1,1124 @@
+{
+  "2014-01-07": {
+    "circular_eq_static_rows": 408,
+    "effective_file": {
+      "listed_changes": 151,
+      "match_circular": 110,
+      "sha256": "1077f8172998e704aeb1110f8f5dffe1689a4d5f0a0ced24be62570db5ea6dbe",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07012014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "3a08201141beaa84515c8cde83b138877956c746702011da0230ac43b601d770",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV25487.zip"
+      }
+    ],
+    "prior": "2014-01-06",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "f2186b52be27fb29ab36c7a2a5d114ade1a5f2fbde3e9ddda17652ff414ac8bd",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06012014.csv"
+    }
+  },
+  "2014-03-07": {
+    "circular_eq_static_rows": 441,
+    "effective_file": {
+      "listed_changes": 350,
+      "match_circular": 264,
+      "sha256": "70fda1ef229c9b31bfb882ec8d6343f6cef43826cb979badc8ac2d3a70b2a557",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07032014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "a979295780f865daf7e3439c9dba5b849b1dfb120972719e75bd2fe7bd4fc08c",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV26071.zip"
+      }
+    ],
+    "prior": "2014-03-06",
+    "prior_file": {
+      "listed_changes": 2,
+      "match_circular": 2,
+      "sha256": "d41bfb7f68cb7f50bef8b463485b6d4a3e9b0fa8249beb2e2113ef612a2e7ec7",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06032014.csv"
+    }
+  },
+  "2014-05-08": {
+    "circular_eq_static_rows": 222,
+    "effective_file": {
+      "listed_changes": 288,
+      "match_circular": 113,
+      "sha256": "cf2d1fed931ba90a1044018b4b87467968483407142eea8d5891d5b0d92492a9",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_08052014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "fd28ed5b89b93bda95af7a8d46729ac0cea1152e2d512edac6c2fa11f9531444",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV26628.zip"
+      }
+    ],
+    "prior": "2014-05-07",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "bd7f2fc6d602bd8da3335712bcbd28ab999fd09a5d4f0efda6b0aabba82a47d2",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07052014.csv"
+    }
+  },
+  "2014-07-07": {
+    "circular_eq_static_rows": 330,
+    "effective_file": {
+      "listed_changes": 192,
+      "match_circular": 97,
+      "sha256": "6b696b569b446e6d92eef514f4a302d39e77b59089242600ba1836c41498aa8f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07072014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "293c3e0ce9544a77c3340f3a6af045355e54ce84746c942b254e1d29c67c9b1c",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV27087.zip"
+      }
+    ],
+    "prior": "2014-07-04",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "4c11d1ef90b0d2a97e8b711af479ef046e603f72a837a36378863f2080341fb1",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04072014.csv"
+    }
+  },
+  "2014-08-04": {
+    "circular_eq_static_rows": 249,
+    "effective_file": {
+      "listed_changes": 239,
+      "match_circular": 146,
+      "sha256": "b69e9382ee3fc86d4d0fe656dc27fbe101f207544b14d2dd47da925935b1d565",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04082014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "6e1751cf2049dfcb690dab228bbc92c375c9d75501e48e66db800bca0cc479d3",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV27267.zip"
+      }
+    ],
+    "prior": "2014-08-01",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "dd4296a0c3e99565e41a1109f07fcc5248ab53d39eb06a759c9a6aae5984291f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01082014.csv"
+    }
+  },
+  "2014-09-05": {
+    "circular_eq_static_rows": 409,
+    "effective_file": {
+      "listed_changes": 382,
+      "match_circular": 244,
+      "sha256": "7d1b6458f3a52543edcb3f5b83221dcae21471cee2691273816ad10868621f0d",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05092014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "cc8b3a1e52d2bfd21d863fa8caa30ccd0a04728fb3451e93fd7b09beb1ce000f",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV27522.zip"
+      }
+    ],
+    "prior": "2014-09-04",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "a3d6a3253e4a4b61e527d835a3fa3edd71779de5ed33791e20a60c5df1b4c7bd",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04092014.csv"
+    }
+  },
+  "2014-10-08": {
+    "circular_eq_static_rows": 306,
+    "effective_file": {
+      "listed_changes": 294,
+      "match_circular": 126,
+      "sha256": "5a88870c524662e43692dcc01cd664a3ea5679e40ee8ddc0642b0f202ed6ccf6",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_08102014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "6f4883ced310f4e37007a6855bc9cc638daeb3654e224dcb612a3b61b5fd9dec",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV27762.zip"
+      }
+    ],
+    "prior": "2014-10-07",
+    "prior_file": {
+      "listed_changes": 5,
+      "match_circular": 4,
+      "sha256": "bb4912355b7aa54887ee573fc9fcf4bb2a7d7c4748accac607eb12b1d46d93c0",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07102014.csv"
+    }
+  },
+  "2014-11-11": {
+    "circular_eq_static_rows": 227,
+    "effective_file": {
+      "listed_changes": 223,
+      "match_circular": 127,
+      "sha256": "e4d8ab99b3a30f7f03ada50a5587c74045adf307e2955b70a8d59b3d5d1d63e8",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_11112014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "2c9d17a1d6fb6cfc963b166bc88bd5e639510dd09f6900dd696cfcc287e9a4b8",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV28026.zip"
+      }
+    ],
+    "prior": "2014-11-10",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 4,
+      "sha256": "d2f0b1d93658cc0b5b3ea021e731ab564f1ac060bb37ae5a21e14ade2dc42ecd",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_10112014.csv"
+    }
+  },
+  "2014-12-05": {
+    "circular_eq_static_rows": 184,
+    "effective_file": {
+      "listed_changes": 172,
+      "match_circular": 68,
+      "sha256": "4e3df666a576a371e5810f83f0c4d4484823b8e1e4445fd353e294422d125e3f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05122014.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "334e07dc1772e8699d70c72be39f2a99a0b8ccbb9fb16f00d46a0532b695d303",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV28272.zip"
+      }
+    ],
+    "prior": "2014-12-04",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "0f0686f0fc17d9ac0c7187c7ee3ed7b165de4bf9759f255ac75295068c3042f7",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04122014.csv"
+    }
+  },
+  "2015-01-02": {
+    "circular_eq_static_rows": 149,
+    "effective_file": {
+      "listed_changes": 133,
+      "match_circular": 59,
+      "sha256": "03ed03f8e72fa5e347f829cd165350b65e606f9296a6f8516ca74ceef6e8c402",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_02012015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "5f0d780d403c46618647da9cd58b77cc16e0fdc7a57ecf884e3db06276eaba2a",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV28533.zip"
+      }
+    ],
+    "prior": "2015-01-01",
+    "prior_file": {
+      "listed_changes": 6,
+      "match_circular": 6,
+      "sha256": "724ef81c0709c36988b89819af263bc6cb2337f92398ed85532ecb4e950752e3",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01012015.csv"
+    }
+  },
+  "2015-02-06": {
+    "circular_eq_static_rows": 132,
+    "effective_file": {
+      "listed_changes": 102,
+      "match_circular": 40,
+      "sha256": "79542101cc18c8a55b53aa2acbb68d629a814170cdc1dfe0936317cf3c98b6cd",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06022015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "f709237fe5194e5bf44f8558785b8a53dd91287b59784d2fc0cf9c91cba96a87",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV28795.zip"
+      }
+    ],
+    "prior": "2015-02-05",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 4,
+      "sha256": "6fd9603983482971277bb0dd70a3cfd05cc0aa4298040ad7553fc148df05c27d",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05022015.csv"
+    }
+  },
+  "2015-03-09": {
+    "circular_eq_static_rows": 132,
+    "effective_file": {
+      "listed_changes": 102,
+      "match_circular": 54,
+      "sha256": "f57bc99aafca821bf47f624266d36109860dc669662eeb51ccd09471ad434c97",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_09032015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "d72ca165bcd0d79ba4106e3e43c7066a4019bd8af80015c3656fcb9d9d642a7d",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV29056.zip"
+      }
+    ],
+    "prior": "2015-03-05",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 4,
+      "sha256": "ed73fb6b228f6b3da423d3a43433febfb29833a67beb236dd240aeaced3c214f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05032015.csv"
+    }
+  },
+  "2015-04-07": {
+    "circular_eq_static_rows": 132,
+    "effective_file": {
+      "listed_changes": 86,
+      "match_circular": 37,
+      "sha256": "cc8a56cb248bc9fb3e13b6fd644fb783e6292860376cd9bad1919c2a4d1f5cc5",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07042015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "9b5cce800ee672e3feb5b997e6c79a6ccaa22b6c3d6fdb76b32f6742f12f0f6e",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV29379.zip"
+      }
+    ],
+    "prior": "2015-04-06",
+    "prior_file": {
+      "listed_changes": 8,
+      "match_circular": 7,
+      "sha256": "e3895b59ec785bccaca0f6ae2dea964f6f7a13627bdf12280965f3742d7567d3",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06042015.csv"
+    }
+  },
+  "2015-05-04": {
+    "circular_eq_static_rows": 151,
+    "effective_file": {
+      "listed_changes": 101,
+      "match_circular": 48,
+      "sha256": "f7cd0fff5b2223fb2e39363666a904be7f5408a39b1353940c28072ff7884051",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04052015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "4df76fd05cf9d42349a9a67cdb2c5f577a2c6ef9ab9de04a7de6849d43bddd61",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV29605.zip"
+      }
+    ],
+    "prior": "2015-04-30",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 4,
+      "sha256": "43c448e0cde35116bec5b9226584d9ac578ce5747d5d6380e4fde5f11e44f391",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_30042015.csv"
+    }
+  },
+  "2015-06-05": {
+    "circular_eq_static_rows": 152,
+    "effective_file": {
+      "listed_changes": 93,
+      "match_circular": 48,
+      "sha256": "18a913b6da95a3a92b4f9761b9c4583ce5b21f40b902f26886957d6be06fcc1f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05062015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "7ed47eed462da431c9d6236e8538397216e7e4119b4cbfdeea45c4251b4915df",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV29890.zip"
+      }
+    ],
+    "prior": "2015-06-04",
+    "prior_file": {
+      "listed_changes": 7,
+      "match_circular": 7,
+      "sha256": "078f3995a39bea7165054adb8d13c85ec762885e6d66e586fd826b8750e68fde",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04062015.csv"
+    }
+  },
+  "2015-07-03": {
+    "circular_eq_static_rows": 162,
+    "effective_file": {
+      "listed_changes": 90,
+      "match_circular": 54,
+      "sha256": "b4f89909262144695ac72da914ef120e5094b4383287182edf36ab14a5cbd33e",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_03072015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "d7f633568d74fdb11188c61b85c25f2cff42dbcb20dc670c99ffe934878dee46",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV30159.zip"
+      }
+    ],
+    "prior": "2015-07-02",
+    "prior_file": {
+      "listed_changes": 2,
+      "match_circular": 2,
+      "sha256": "6f1887a8d71efb919052ab4c997aa9bcb458b102a5ab2509d4281ca52cf4ff80",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_02072015.csv"
+    }
+  },
+  "2015-08-07": {
+    "circular_eq_static_rows": 184,
+    "effective_file": {
+      "listed_changes": 121,
+      "match_circular": 46,
+      "sha256": "8a0a55eb9570f4edc269c161688ad7d3923db9de9605f79afad9377ef8271e7f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07082015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "d898f25ed3ca694f8e43e8f890e4d1b805f415c5f7bd7bbf374d7d27f621cba9",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV30442.zip"
+      }
+    ],
+    "prior": "2015-08-06",
+    "prior_file": {
+      "listed_changes": 7,
+      "match_circular": 7,
+      "sha256": "bcf3494a3d601176424a32174426655ca0903c23067e6c0689ee6c89528ba4e5",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06082015.csv"
+    }
+  },
+  "2015-09-04": {
+    "circular_eq_static_rows": 177,
+    "effective_file": {
+      "listed_changes": 93,
+      "match_circular": 49,
+      "sha256": "0d18c147f3b02632a86954e088c08c9fccd24b7152032cef5fea60e360a69be0",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04092015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "aa24ea6d7f5dcb153b1ea0ec7c3f98a47b4df31b038da14f83a646eeec3fffa4",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV30678.zip"
+      }
+    ],
+    "prior": "2015-09-03",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "a399168d6ce7f8cd5db17ff14f89381237a8cd407e2bb70e786cd30f31219b91",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_03092015.csv"
+    }
+  },
+  "2015-10-05": {
+    "circular_eq_static_rows": 157,
+    "effective_file": {
+      "listed_changes": 118,
+      "match_circular": 66,
+      "sha256": "6fa9ff680664a9c3ef32c91cba322d4c2faf88f9f12a9479808abc787dd36c5a",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05102015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "9e78918a4c476bb336ef5f944994558326e7ae5e64785208b68e4d9b4e8dd463",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV30873.zip"
+      }
+    ],
+    "prior": "2015-10-01",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 3,
+      "sha256": "c62fb9ffd9db7799e510ddc1dd8b930ecfbb2ee2ba6f01aace6b42b61c76afb6",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01102015.csv"
+    }
+  },
+  "2015-11-06": {
+    "circular_eq_static_rows": 174,
+    "effective_file": {
+      "listed_changes": 125,
+      "match_circular": 55,
+      "sha256": "cfc2a0e50eeb55500aa8d879aba48b717655927b14bd70908ec58b6852c03b82",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06112015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "8c092cefdd4cc267322c741518798ee2637cbea75040a0827fcb306250b3d8fc",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV31087.zip"
+      }
+    ],
+    "prior": "2015-11-05",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 4,
+      "sha256": "1f923cb14e31b5d2fab1a3eb5b40c73eed195ff56215b5eddedbe5f7829fe972",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05112015.csv"
+    }
+  },
+  "2015-12-04": {
+    "circular_eq_static_rows": 211,
+    "effective_file": {
+      "listed_changes": 88,
+      "match_circular": 48,
+      "sha256": "c915fc1e2a65c39c9f2edce6923e03002c9e303107a73e40501b6a0d861f3f51",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04122015.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "4f516b452240c67f3ce71741b4dcdc412d59fd92986dacad178d6c0beb511703",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV31280.zip"
+      }
+    ],
+    "prior": "2015-12-03",
+    "prior_file": {
+      "listed_changes": 6,
+      "match_circular": 6,
+      "sha256": "08eea2988181662a30a9d55ddb804427fd88252543376abe798163a39706256d",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_03122015.csv"
+    }
+  },
+  "2016-01-01": {
+    "circular_eq_static_rows": 192,
+    "effective_file": {
+      "listed_changes": 127,
+      "match_circular": 53,
+      "sha256": "bd198a2b5653c140f66648516f4e6f601e9be080d402899edca3d592aff0c3e7",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01012016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "7af16482f5c5d5dafa66ed5e7e5071d77581d4ff74092cdc07e1d3a767d9ffee",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV31477.zip"
+      }
+    ],
+    "prior": "2015-12-31",
+    "prior_file": {
+      "listed_changes": 7,
+      "match_circular": 7,
+      "sha256": "6ea15915519980ff5e5543c6ad832222da12a9adb08f0b10302f671bad2f3c7a",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_31122015.csv"
+    }
+  },
+  "2016-02-05": {
+    "circular_eq_static_rows": 210,
+    "effective_file": {
+      "listed_changes": 146,
+      "match_circular": 92,
+      "sha256": "2834d2a86007ebcf378ebbd4ee25abe85fec0dfdda23ee6fe2e080f83686be72",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05022016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "3216f396cb846d1cecb196b7e61333ca373d5133c08af3798482f4b497d5799b",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV31690.zip"
+      }
+    ],
+    "prior": "2016-02-04",
+    "prior_file": {
+      "listed_changes": 2,
+      "match_circular": 2,
+      "sha256": "c08aaa5fdcb5b6c77485a3a8b11fdb0b243c7268397deb65e4fe221b0f230363",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04022016.csv"
+    }
+  },
+  "2016-03-04": {
+    "circular_eq_static_rows": 169,
+    "effective_file": {
+      "listed_changes": 140,
+      "match_circular": 65,
+      "sha256": "f41abda7c55a410f332d2f3a850b3af1010ff4e7548000f72a70e7d545b3cb65",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04032016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "8b2c6c64bd55d214bfe2b1e13d3a9a2d7f28ac06ed93526d3c287dfefaa489e0",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV31894.zip"
+      }
+    ],
+    "prior": "2016-03-03",
+    "prior_file": {
+      "listed_changes": 2,
+      "match_circular": 2,
+      "sha256": "ca39d2867d181627b4c6d99485f7f1c1c4bdf26a39e7207f8fccf4ee290d23f5",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_03032016.csv"
+    }
+  },
+  "2016-04-01": {
+    "circular_eq_static_rows": 164,
+    "effective_file": {
+      "listed_changes": 115,
+      "match_circular": 60,
+      "sha256": "3d857e7924b64468701ef5ec212d3ff952c97ddec5b0633cb5d9b117dc39f0fb",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01042016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "4362d29c13fcf86f9a3e05d92ed56625adec5c8480ee2f5908fc06d32249b5d7",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV32119.zip"
+      }
+    ],
+    "prior": "2016-03-31",
+    "prior_file": {
+      "listed_changes": 6,
+      "match_circular": 6,
+      "sha256": "63da91f83b8449e474e86b8607e6867dcd71dead5ecd079a6ffa1f57957709fc",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_31032016.csv"
+    }
+  },
+  "2016-05-06": {
+    "circular_eq_static_rows": 141,
+    "effective_file": {
+      "listed_changes": 95,
+      "match_circular": 39,
+      "sha256": "fd747f72658134923ddfc1fff59794642f5ddc876b3c35e773d7687edeb458f1",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06052016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "cfeb3a1f06aeedca396d1e306b5b623077eb9155b0a37fa4605b8e6484968162",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV32336.zip"
+      }
+    ],
+    "prior": "2016-05-05",
+    "prior_file": {
+      "listed_changes": 0,
+      "match_circular": 0,
+      "sha256": "3e20215be7f24f89174bfcc50e1f354fa61bf4f4ab90120365afca9df467bb28",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05052016.csv"
+    }
+  },
+  "2016-06-03": {
+    "circular_eq_static_rows": 136,
+    "effective_file": {
+      "listed_changes": 75,
+      "match_circular": 36,
+      "sha256": "ef62f6b4e975949e7f7d7a26c9c4ae46e40130cc45cf844d589e3d32d30a6630",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_03062016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "2d293263744ec64858a139c391e0da428228e84a9a5a8db01f1c963315814215",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV32503.zip"
+      }
+    ],
+    "prior": "2016-06-02",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 4,
+      "sha256": "40459d1ab88d9b829a7dc4952a36368c67e119e905ef86b31204a8671f0af249",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_02062016.csv"
+    }
+  },
+  "2016-07-01": {
+    "circular_eq_static_rows": 155,
+    "effective_file": {
+      "listed_changes": 97,
+      "match_circular": 48,
+      "sha256": "7b03ebfc9eb83bcf965108f8f3905702d01b9b22e1dd4a52c6390b5161ad2344",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01072016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "20249e2c024afd1741b51401807087a49ba50b43df502817ce67d3315f8a5e65",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV32700.zip"
+      }
+    ],
+    "prior": "2016-06-30",
+    "prior_file": {
+      "listed_changes": 5,
+      "match_circular": 5,
+      "sha256": "6bed401a09bf30407c9d22fc95747755aa94e62e80d0c1a2e468fda4ce20f8bc",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_30062016.csv"
+    }
+  },
+  "2016-08-05": {
+    "circular_eq_static_rows": 137,
+    "effective_file": {
+      "listed_changes": 103,
+      "match_circular": 35,
+      "sha256": "ec3e534183e2aec562bd50583611a2321e6ca00ed492a9a0b027788801d8e9d4",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05082016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "b5fdfbe730d1763a5085dbb9fe0e251f39a92e5c8300ac586c72ba381b88e57d",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV32926.zip"
+      }
+    ],
+    "prior": "2016-08-04",
+    "prior_file": {
+      "listed_changes": 2,
+      "match_circular": 2,
+      "sha256": "354aa123f3ab8fcf040f35e7e36c5af2a146844ad6e76b93e9ade268f9e7f528",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04082016.csv"
+    }
+  },
+  "2016-09-02": {
+    "circular_eq_static_rows": 127,
+    "effective_file": {
+      "listed_changes": 91,
+      "match_circular": 45,
+      "sha256": "a719b789459ef11ba3943df00e333db1aef60a75e7d0d60fd064bbc788d72a33",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_02092016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "4aaa09af8b42632eac636440bdd1a80c5cd5d96328bc96b88d4d3d549d2125f3",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV33125.zip"
+      }
+    ],
+    "prior": "2016-09-01",
+    "prior_file": {
+      "listed_changes": 3,
+      "match_circular": 3,
+      "sha256": "fd41c65568a4ffc2327dbfab5fd559feb1e44a203ebfdca30e36766e01ef8860",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01092016.csv"
+    }
+  },
+  "2016-10-07": {
+    "circular_eq_static_rows": 130,
+    "effective_file": {
+      "listed_changes": 94,
+      "match_circular": 37,
+      "sha256": "4d2fa516d8135e833804b1d51ae90c2148c74259017176ad03f3501052f1f413",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07102016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "2834059fa112aeb563f117f11d2216ef91796a0565cffd8d59064a928e575cab",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV33373.zip"
+      }
+    ],
+    "prior": "2016-10-06",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 4,
+      "sha256": "6fc8ca6d0fe45fe3b9ea8c77a580ee8f5330021a8e84e47c3c5113ed7939e3c2",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06102016.csv"
+    }
+  },
+  "2016-11-04": {
+    "circular_eq_static_rows": 149,
+    "effective_file": {
+      "listed_changes": 88,
+      "match_circular": 27,
+      "sha256": "01bb1aa1812cff1e2b0791886c97bd72513c16f76d7e8dd90ed2623d3ac7db5e",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04112016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "adee5004b3841e3d14ea555c3b5fed0420d6768ee13c7c3e59f0f43a951843f4",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV33572.zip"
+      }
+    ],
+    "prior": "2016-11-03",
+    "prior_file": {
+      "listed_changes": 5,
+      "match_circular": 5,
+      "sha256": "357981a1147c66ea41945f9e776f4dfd98dc221740f54f808ba91b0781d1ea79",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_03112016.csv"
+    }
+  },
+  "2016-12-02": {
+    "circular_eq_static_rows": 150,
+    "effective_file": {
+      "listed_changes": 70,
+      "match_circular": 28,
+      "sha256": "f507c716f608cda2a09dab47535adb92c2101bdaed182b7a65a1aee158770491",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_02122016.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "6ee3d7654d412e448d47b93cfdf028dbc1dcc9e6e1fad65abdf418e6de28bda0",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV33729.zip"
+      }
+    ],
+    "prior": "2016-12-01",
+    "prior_file": {
+      "listed_changes": 3,
+      "match_circular": 3,
+      "sha256": "b683bd3ca439309952ba29338b4003be869cb6914d1711be8e885ce82c7dce8b",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01122016.csv"
+    }
+  },
+  "2017-02-07": {
+    "circular_eq_static_rows": 131,
+    "effective_file": {
+      "listed_changes": 130,
+      "match_circular": 69,
+      "sha256": "1c244eedd2c154ca4fdc22fe5c6f44a80faa5a40b00e12870482f5067708b51b",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07022017.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "e13e47096d997caa1e186dcb978fb03c907fde17d7fdb3deb035259888cc376d",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV34126.zip"
+      }
+    ],
+    "prior": "2017-02-06",
+    "prior_file": {
+      "listed_changes": 0,
+      "match_circular": 0,
+      "sha256": "c5c807f48490719f647bcbb1aa726d7a79e72710d5e45d324a0f605984ec521f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06022017.csv"
+    }
+  },
+  "2017-04-10": {
+    "circular_eq_static_rows": 138,
+    "effective_file": {
+      "listed_changes": 120,
+      "match_circular": 68,
+      "sha256": "16ea73cea69f6e074ac84856011dd3d8c773dccc0433172bf46e39530c8df471",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_10042017.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "a2ccebc5dea9dc6e716a9ff43aa01e0f90e430bd1946cd18277c9c2b46acc242",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV34593.zip"
+      }
+    ],
+    "prior": "2017-04-07",
+    "prior_file": {
+      "listed_changes": 7,
+      "match_circular": 7,
+      "sha256": "9ae9a59710779024ce5681ff8076459b41632e206a334a746e6aae915badb175",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07042017.csv"
+    }
+  },
+  "2017-06-07": {
+    "circular_eq_static_rows": 168,
+    "effective_file": {
+      "listed_changes": 156,
+      "match_circular": 93,
+      "sha256": "c690df1a9b8b73adf2e86caf2ff1417169ed9b7aff2bc0ba552e6530b5fcae14",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07062017.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "670a6402af6f501b4437feadac6f6f3dfdaeb7b0f66176e92a13b359bee5d746",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV35045.zip"
+      }
+    ],
+    "prior": "2017-06-06",
+    "prior_file": {
+      "listed_changes": 2,
+      "match_circular": 2,
+      "sha256": "cb4f51e7cefc0573255fda97f1ecc911a90b7e8524175c344594ba9587cc617d",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06062017.csv"
+    }
+  },
+  "2017-08-07": {
+    "circular_eq_static_rows": 110,
+    "effective_file": {
+      "listed_changes": 133,
+      "match_circular": 49,
+      "sha256": "1aa407b2b43def6b7b38444f281d0d9154853c5e2e06bee7437ac46f4c531938",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07082017.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "e40a2f1922325a5f33998cb52c6fff98adaefcf9820efabe83fc8d43f10ba3c3",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV35539.zip"
+      }
+    ],
+    "prior": "2017-08-04",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "bf49c44286be512bd3a6d8e7a07e72016b3b39f440801b87a5b02ecc6fe0d638",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04082017.csv"
+    }
+  },
+  "2017-10-09": {
+    "circular_eq_static_rows": 136,
+    "effective_file": {
+      "listed_changes": 141,
+      "match_circular": 75,
+      "sha256": "18adf09939de85f0d97efe6423478394d77c4f6b33c69e0f43c38c7a07fb88c9",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_09102017.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "478e326f099bf5d7db1271d4fc731e34222c4f15d2d678b69fd24981f8e96010",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV36051.zip"
+      }
+    ],
+    "prior": "2017-10-06",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 3,
+      "sha256": "9a518065e22f53fd014822c7f3f02891b8fbef12799dee43975adce53b161f32",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06102017.csv"
+    }
+  },
+  "2017-12-07": {
+    "circular_eq_static_rows": 150,
+    "effective_file": {
+      "listed_changes": 154,
+      "match_circular": 87,
+      "sha256": "130b37b1d54f8956b9bf7fdfdd1af40f494a8db580f4cc92ac5536182a3da5fd",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07122017.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "04ee28aa4e9745e760871647ce39933087ccd6cdc18a21e6e92f4bfe1c02fd76",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV36441.zip"
+      }
+    ],
+    "prior": "2017-12-06",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 3,
+      "sha256": "dcdb67daea07a4546ebc4942d41c29571bbf4b1c8630e6718ded114f442fae07",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06122017.csv"
+    }
+  },
+  "2018-02-07": {
+    "circular_eq_static_rows": 287,
+    "effective_file": {
+      "listed_changes": 101,
+      "match_circular": 30,
+      "sha256": "da4b736316c685cfa6cd8b815a8c466b7341a2863852b8498e09e447a2e317d5",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07022018.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "1811d58ac0342b2e13dc386815cbe20335f859e2608afd0a586fc5ddbbf61c51",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV36915.zip"
+      }
+    ],
+    "prior": "2018-02-06",
+    "prior_file": {
+      "listed_changes": 5,
+      "match_circular": 4,
+      "sha256": "0ac02ede656daa881d7d7d2f33d17805e42e2fbdf75a083238524ec0c2a60892",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06022018.csv"
+    }
+  },
+  "2018-04-06": {
+    "circular_eq_static_rows": 252,
+    "effective_file": {
+      "listed_changes": 224,
+      "match_circular": 183,
+      "sha256": "f7508aa0c61bb889034f15087333ae79f3656d799e47dee78c6194940ae8faf0",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06042018.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "4844c5bbb72f12e02be6b712f3874ad1c3da46966982a057d26af9ec7b28f722",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV37444.zip"
+      }
+    ],
+    "prior": "2018-04-05",
+    "prior_file": {
+      "listed_changes": 3,
+      "match_circular": 3,
+      "sha256": "05263357b31cccfd30849dbc4daa6a864610899aca3501250ca49a6686def273",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05042018.csv"
+    }
+  },
+  "2018-06-07": {
+    "circular_eq_static_rows": 204,
+    "effective_file": {
+      "listed_changes": 182,
+      "match_circular": 80,
+      "sha256": "8dd339c4b70b83a6c8b303a33cce8ba0bfe16279fc3a9569b9970167a48d1fae",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07062018.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "3f681b766a9c31fb597db9d89584fc0b6173fde87cba39f7c5f6d2ccd11eabdf",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV37951.zip"
+      }
+    ],
+    "prior": "2018-06-06",
+    "prior_file": {
+      "listed_changes": 7,
+      "match_circular": 7,
+      "sha256": "56b24888f4abf21517ccabc6a80c1de5f22b15c2fbfb6a260e399e232efdf593",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06062018.csv"
+    }
+  },
+  "2018-08-07": {
+    "circular_eq_static_rows": 225,
+    "effective_file": {
+      "listed_changes": 154,
+      "match_circular": 93,
+      "sha256": "b2a2ee4525ecc9b80cc478295c5907cf3f2c039ed64ad3995157345c5d329d48",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07082018.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "90eb77cd18b9e4e8c4714e9eba906c8bae87daba693d6128128f915281b0b41a",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV38532.zip"
+      }
+    ],
+    "prior": "2018-08-06",
+    "prior_file": {
+      "listed_changes": 3,
+      "match_circular": 3,
+      "sha256": "7ae63a1f92e6b962fcb4bab7d776e43d3c49476c88387023cf99a813bd2d57c1",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06082018.csv"
+    }
+  },
+  "2018-10-08": {
+    "circular_eq_static_rows": 187,
+    "effective_file": {
+      "listed_changes": 120,
+      "match_circular": 61,
+      "sha256": "39d834602f8b4b0f3fe2abb3f3533689b0c9da49d5142ef3b121068d7f147b21",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_08102018.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "7b7278d23362d04a2655344d878fd7d4d7067c1eb208e59b0a48484ecc3b128f",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV39067.zip"
+      }
+    ],
+    "prior": "2018-10-05",
+    "prior_file": {
+      "listed_changes": 4,
+      "match_circular": 4,
+      "sha256": "4abaacd7ddce04435f8931cfa19060e1fa6acdd2570a5fbc1b409cd40ecf1ea4",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05102018.csv"
+    }
+  },
+  "2018-12-07": {
+    "circular_eq_static_rows": 193,
+    "effective_file": {
+      "listed_changes": 197,
+      "match_circular": 106,
+      "sha256": "7ae699a844242bad579a1397931c07cf9cc4b700bff035ff2acf85daed181329",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07122018.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "ca94e46378a99d0e20686a66a5df4fb53a18cc69e02c233cd0fec6a06d9b1324",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV39600.zip"
+      }
+    ],
+    "prior": "2018-12-06",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "8f5b37f978c0da762265b2b75edc600e0d11930574788f0d6cd900be56ac7e3f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06122018.csv"
+    }
+  },
+  "2019-02-07": {
+    "circular_eq_static_rows": 184,
+    "effective_file": {
+      "listed_changes": 154,
+      "match_circular": 76,
+      "sha256": "5c26aa89665a52efde23dfefa9a634d851443dd33ddec4a1b1b7515d945c595a",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07022019.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "2d59126976edb9731feee8ba403250adc1f748894d54e16cc7a801c8aa592ec5",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV40150.zip"
+      }
+    ],
+    "prior": "2019-02-06",
+    "prior_file": {
+      "listed_changes": 5,
+      "match_circular": 5,
+      "sha256": "97a8299d8a38bdaf5727890a2e01b03aaf3906ce16b9d6d5daf5d28be64cba0a",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06022019.csv"
+    }
+  },
+  "2019-04-05": {
+    "circular_eq_static_rows": 170,
+    "effective_file": {
+      "listed_changes": 154,
+      "match_circular": 98,
+      "sha256": "2fec36c07baf7ba418edb276c83d2401a243c4b315052e9e3525ac0bc741cc3c",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05042019.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "25393dfddf7dc10ea4f0bf87fd381d9cda2306e1151908c84fe92ea83e0559a5",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV40670.zip"
+      }
+    ],
+    "prior": "2019-04-04",
+    "prior_file": {
+      "listed_changes": 1,
+      "match_circular": 1,
+      "sha256": "cdb480b1c651288c83bc22bdcf846944385781c335f9754fb25132b87e8f6829",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04042019.csv"
+    }
+  },
+  "2019-06-10": {
+    "circular_eq_static_rows": 125,
+    "effective_file": {
+      "listed_changes": 108,
+      "match_circular": 42,
+      "sha256": "b54aa04484239700ff79b1cd2d552425b6264cf53163e320920a75bea03ecd48",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_10062019.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "5af9f4ff7505072e0c01d5be791de8e0b31f7c9d6d09f8674bc5b5d5b95d3387",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV41253.zip"
+      }
+    ],
+    "prior": "2019-06-07",
+    "prior_file": {
+      "listed_changes": 5,
+      "match_circular": 5,
+      "sha256": "e2bc104bf2f728612109b10c83a2f4e3172a304eec9c79d88ef68e02e0db6f18",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07062019.csv"
+    }
+  },
+  "2019-08-07": {
+    "circular_eq_static_rows": 223,
+    "effective_file": {
+      "listed_changes": 80,
+      "match_circular": 51,
+      "sha256": "939c274da47aa3d307ee8ff502faf49c6c9b1b7ad27955601a6f994eb999be63",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07082019.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "1b9a1da3d762d50846e309d4934ef38a736d79fcc2861fa9a6c5444f5f6c2782",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV41821.zip"
+      }
+    ],
+    "prior": "2019-08-06",
+    "prior_file": {
+      "listed_changes": 6,
+      "match_circular": 6,
+      "sha256": "85f31c74f7806155148b8932de5767ad02aa41cbe0ae0cbcfc6ae4f6db0ad3f1",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06082019.csv"
+    }
+  },
+  "2019-10-09": {
+    "circular_eq_static_rows": 231,
+    "effective_file": {
+      "listed_changes": 132,
+      "match_circular": 80,
+      "sha256": "134d9a17ea058a9e4bbf1ad503ef35bf3ce645968a9c08117a891a9f9c3727df",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_09102019.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "84b9b02530a18fbf7a3c44cb839cb32b93243cb1efa432e12c725beeb360f1cc",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV42331.zip"
+      }
+    ],
+    "prior": "2019-10-07",
+    "prior_file": {
+      "listed_changes": 2,
+      "match_circular": 1,
+      "sha256": "37da85072b2f0080eaea57c8f709f0932d10c35f88df4adcb3ddc041fdfe4de8",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07102019.csv"
+    }
+  },
+  "2019-12-06": {
+    "circular_eq_static_rows": 225,
+    "effective_file": {
+      "listed_changes": 156,
+      "match_circular": 94,
+      "sha256": "f0bf6a9cdc070c7c352cddc7fbc681d2a7a754b1c97038c0d9d93736c4933452",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06122019.csv"
+    },
+    "notice_sources": [
+      {
+        "sha256": "50c8e9d3ab4e49b1e909b01de421aaa7f6287101e3982b8aa20633ac66400a20",
+        "url": "https://nsearchives.nseindia.in/content/circulars/SURV42845.zip"
+      }
+    ],
+    "prior": "2019-12-05",
+    "prior_file": {
+      "listed_changes": 3,
+      "match_circular": 3,
+      "sha256": "935664f5461a4339f758a1783216c38748a0270f4ce2255bcce3aae62b8fbf63",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05122019.csv"
+    }
+  }
+}

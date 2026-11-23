@@ -1,0 +1,6 @@
+{
+  "effective": "2026-11-21",
+  "decision": "no edge",
+  "strategies": ["trend_pullback", "vcp_breakout", "high_momentum"],
+  "basis": "Owner decision after the accepted Stage 2 baseline. Preserve history and track previously issued calls."
+}

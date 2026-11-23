@@ -1,0 +1,37 @@
+{
+  "profile": {
+    "method": "poppler-p6-rgb8-png-filter0-zlib1-vision3-v1",
+    "recognizer_source_sha256": "493135c2e4df66324439f3485368d9a0316f1a1a4a9bb8c141fa47640b679e62",
+    "renderer_source_sha256": "3d48d9c271c5452f0627f8d53ee2eeb71224a402d0a6447d069799f58deccb29",
+    "zlib": "1.2.12"
+  },
+  "checks": [
+    {
+      "field": "revenue",
+      "receipt": "notice-rendered-money/v2/01/01795a219bf1e5277ef042d30aadc24355c835c17f3fe83547761d6966697dff.json",
+      "original_pdf": "7e0073a6d1ece69795619e098e006118abc7199d6019d614d879f90c15f0b0a4",
+      "page": 4,
+      "period_end": "2023-12-31",
+      "what_matched": "1361500000.00",
+      "rgb_sha256": "864e70a17e963d729d1a5c34b8f1824ddc353c87f938431649d9011d20f7af30",
+      "old_png_sha256": "39ebb1424828e2c4a502362ee409cd66ccc0b04cd8918dd055f5168baca1033b",
+      "produced_png_sha256": "b3d220e7ca0ece445464c058a261777eb4c3b37ad57125ba1626b881ba9e7a72",
+      "boxes_sha256": "9dcdd79cf8085fa4a5ed05a3b258b7cafa94b1b70a6c3485552636a57208e3cb",
+      "render_s": 0.29700500005856156
+    },
+    {
+      "field": "eps",
+      "receipt": "notice-rendered-money/v2/51/516c35b185210b85799b450f286f6c66b94f7a08191ec13605563077b765afb2.json",
+      "original_pdf": "1c7513ac1b8aaa5a85b6d8bf3f0eac40a696a2c6d62933555407a4d8f9b5ce40",
+      "page": 10,
+      "period_end": "2020-03-31",
+      "what_matched": "6.79",
+      "rgb_sha256": "a92a5e61f71f4dd271b196b5697be121fdbd8428e6a73afc6fdcd68571c08b79",
+      "old_png_sha256": "dc2902ccf93e5aca51cf96a42decbad6fe735a9f903e98639b1ed816fd416cdb",
+      "produced_png_sha256": "2c0eba0c67c8d85ac63d33bc41c8b603f0ae18991c05074e8402ec0edc83630a",
+      "boxes_sha256": "5607605dca43c8e73ebe460a8ed21e221a48401d00e09b56e61bcf5e22cf8974",
+      "render_s": 0.36115870787762105
+    }
+  ],
+  "batch_ocr_s": 2.972022207919508
+}

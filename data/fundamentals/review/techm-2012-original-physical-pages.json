@@ -1,0 +1,110 @@
+{
+  "basis_receipts": {
+    "consolidated": {
+      "basis_cases": {
+        "basis_quarters_checked": 1,
+        "with_verified_fields": 0
+      },
+      "packet_attempt_sha256": "519155114a63900ecc44aa8f41a34e4f10c41e03b9c5aac9b78b17e8e7e1610b"
+    },
+    "standalone": {
+      "basis_cases": {
+        "basis_quarters_checked": 1,
+        "with_verified_fields": 0
+      },
+      "packet_attempt_sha256": "32eee29cb56fd5e0e11af676a2151b964a3addd257d4e19a9f3aff91187102c5"
+    }
+  },
+  "evaluator": "34969ae964bdb26f78381043a5b530bff59cffdde6ebad338e0f60db88ebcc54",
+  "input_package_sha256": "83acefef711c67f843f4589376f826761ba1243955fc83e1c8687ed65d5735d2",
+  "legacy_plan": "306980ad1dc390e1f5783a82d733bceb2284161d8072bcdf1f550342d624f584",
+  "raw_archive_sha256": "313179a3482ac9a30d3d295f20aec3d87139001727bdfd1a29d6f52f849d6fe7",
+  "source_edition": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "source_url": "https://nsearchives.nseindia.in/corporate/TECHM_30SEP2012_B_Q2.zip",
+  "verified": [
+    {
+      "cache_path": "rendered-page-cache/v1/a5/a5385d2eb7c6c3bf0a95f03efc2a5f6b8f8608026000a252ac8919b84c2b419a.json",
+      "direct_poppler_png_sha256": "6a9f2d72e591b944ebc8c363549c7254239e06f4b646f8820f9e82d237665022",
+      "height": 2400,
+      "page": 1,
+      "pdf_sha256": "901ed522e0cd1133189810cccd16b76ca87f735e9a155d1f2dd7bf0501f7e86c",
+      "rgb_sha256": "9235acfc71e889981836f69bfcb5fddcbb42e452cb75466a50d6df73cce3e00a",
+      "source_member": "TECHM_C.pdf",
+      "width": 1716,
+      "word_box_count": 420,
+      "word_boxes": "5e7acffa9c98d8d7f30e42e5302887060675a9deb7406fb42efba00892baa6b7"
+    },
+    {
+      "cache_path": "rendered-page-cache/v1/60/60c8cdd436edf6ecf81fdd0c9ab2258189a749aec631327b68efa8a85315413d.json",
+      "direct_poppler_png_sha256": "376be330419fc1307e3ee46533ff63e32f0128eca795f4f9a18c2ae3706d5079",
+      "height": 2400,
+      "page": 1,
+      "pdf_sha256": "d6c12ee3285540ce7f2328db14cc6380b2322d0dbd181d6d9cfbc6c89ada78b6",
+      "rgb_sha256": "7c2fabd8b35dccda337d73faacb89fd1483eae136e25b80e7b500cf711b076ea",
+      "source_member": "TECHM_C_AR.pdf",
+      "width": 1639,
+      "word_box_count": 47,
+      "word_boxes": "ba8402dab8c14e6fd04f947f359147bda19da333978f0007a4aaefe8bc3d2771"
+    },
+    {
+      "cache_path": "rendered-page-cache/v1/cf/cfdb55b45f700d3c058db083ff5245290bdd9e3effcfbbbf9a9be68abce48794.json",
+      "direct_poppler_png_sha256": "42d13a3abf6995755158068409a09a4f0f99f1392f35cdc36ab722d2fb9c0f4e",
+      "height": 2400,
+      "page": 2,
+      "pdf_sha256": "d6c12ee3285540ce7f2328db14cc6380b2322d0dbd181d6d9cfbc6c89ada78b6",
+      "rgb_sha256": "0190febb44a4d5de10f5c1f9bcfdeb770e43ca32cf987cb4315d36dc574d656c",
+      "source_member": "TECHM_C_AR.pdf",
+      "width": 1596,
+      "word_box_count": 40,
+      "word_boxes": "81f04e0d2c9a7ac714812c0d039258569aaf6b6115fe71c1d0e8c3dc4f8a4d84"
+    },
+    {
+      "cache_path": "rendered-page-cache/v1/9b/9ba8a198dddd68f1f249b1e431ba9818e5ba690b55a17d56765d4b0fdc8aa447.json",
+      "direct_poppler_png_sha256": "5516af228d63bad8d73194eccdfb59cb9a77da50c30db94224f39d5bf0f8a8fb",
+      "height": 2400,
+      "page": 3,
+      "pdf_sha256": "d6c12ee3285540ce7f2328db14cc6380b2322d0dbd181d6d9cfbc6c89ada78b6",
+      "rgb_sha256": "003e91480286719599f06105d9458752e70f144990f5b9fbb1f78232074bd011",
+      "source_member": "TECHM_C_AR.pdf",
+      "width": 1464,
+      "word_box_count": 32,
+      "word_boxes": "59ddafbd16ef9cff66e9b423a20a844bb8a78e02407d9f83af63146a64472f68"
+    },
+    {
+      "cache_path": "rendered-page-cache/v1/a7/a711e683af337969662d01451fe813f71b079f1cf30eb33638ce4cec40e09d1a.json",
+      "direct_poppler_png_sha256": "2e5c5bbe56ae87e20b19deb15cfe767d8c3c1f653709fc6e2d03f56bdf685aae",
+      "height": 2400,
+      "page": 1,
+      "pdf_sha256": "4d427de3dce676b4dc78ec67b246ed37615b8c1336b5b66efc3d22e11ec960c2",
+      "rgb_sha256": "cd62a7f5c8d77b00ab41781e3de9b87c39e936edcf7ad2efe46210c077bfe177",
+      "source_member": "TECHM_S.pdf",
+      "width": 1855,
+      "word_box_count": 332,
+      "word_boxes": "dcce3b9333205ea20401c55fe64362600ae0f41251400ec0840e057cfe94589e"
+    },
+    {
+      "cache_path": "rendered-page-cache/v1/a7/a7d2451056f36df18f7a63db264b6fd143c2e56afe4c807455e30f8a03ec41c9.json",
+      "direct_poppler_png_sha256": "bf4c2fe77b8806491cd046e68773a08b977927e6f354fb4504e0e16ccb7d998c",
+      "height": 2400,
+      "page": 1,
+      "pdf_sha256": "43254f7ff90902f492491aa710af80381220573d17e1d5bd1a82f4c6c1856160",
+      "rgb_sha256": "9a58f44891397393493fc268bc5a670af2b7e0e4f67112268deba760bb64ebf8",
+      "source_member": "TECHM_S_AR.pdf",
+      "width": 1672,
+      "word_box_count": 40,
+      "word_boxes": "d2ecc7cdf97fc92fb6b9dded0b3bd8c37e67e9cc41e0828a6e0f81134fa73ec2"
+    },
+    {
+      "cache_path": "rendered-page-cache/v1/18/18cf202e68c1ed526ff04508349daa6fefc0af04b7c0555e32689bba366da7f6.json",
+      "direct_poppler_png_sha256": "ad8eee98137a6fb360fd740f1722382f8c1d330f7e95d0720f13bc7b3a18949d",
+      "height": 2400,
+      "page": 2,
+      "pdf_sha256": "43254f7ff90902f492491aa710af80381220573d17e1d5bd1a82f4c6c1856160",
+      "rgb_sha256": "45824ce7d2e11693967ad1cbe00eeb9976689468b3fd4d251448ed28578baf03",
+      "source_member": "TECHM_S_AR.pdf",
+      "width": 2401,
+      "word_box_count": 15,
+      "word_boxes": "beb1373f309a5aab762711ed5f0c15e29421995e16460fe83bd988778a793aed"
+    }
+  ]
+}

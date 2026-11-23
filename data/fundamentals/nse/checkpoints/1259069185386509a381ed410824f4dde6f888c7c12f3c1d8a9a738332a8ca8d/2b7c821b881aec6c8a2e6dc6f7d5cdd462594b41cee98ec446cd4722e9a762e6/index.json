@@ -1,0 +1,52 @@
+{
+  "field_reviews": {
+    "file": "field-reviews/1ed673a899bbd755f30c83f2f0ea74601d9e14a79d21710a7f7685f63589456b.json.gz",
+    "observations": 247,
+    "reasons": {
+      "conflicting_original_text_and_structured": 150,
+      "no_independent_numeric_confirmation": 458
+    },
+    "sha256": "1ed673a899bbd755f30c83f2f0ea74601d9e14a79d21710a7f7685f63589456b"
+  },
+  "filings_receipt_sha256": "fe48344dfb810b659cbeabd670364fe442f32047cdb4dfb76c603dc52f46d677",
+  "filings_sha256": "1259069185386509a381ed410824f4dde6f888c7c12f3c1d8a9a738332a8ca8d",
+  "git_head_at_checkpoint": "6f4d4760bab525ef72ee9841ae5e79605c63a411",
+  "notice_probe_gaps_sha256": "08226920400b7ae861f277411ffbeb749f0b01a053c423c7603df75761ef238e",
+  "rows": 28728,
+  "source_acquisition": {
+    "by_status": {
+      "archived": 7497,
+      "awaiting_healthy_network_retry": 929,
+      "pending": 5900,
+      "unavailable": 23
+    },
+    "complete": false,
+    "completed_batches": {
+      "alias": false,
+      "calendar": true,
+      "initial": false,
+      "language": true,
+      "market": true,
+      "reconcile": true
+    },
+    "planned_urls": 14349
+  },
+  "source_census_sha256": "2b7c821b881aec6c8a2e6dc6f7d5cdd462594b41cee98ec446cd4722e9a762e6",
+  "source_vintages": {
+    "first-reported": {
+      "file": "editions/first-reported-c5c88bc76b03fbf727a087a355b7eff7f4fcd7b1bf79071748bcedb8d90cfd39.jsonl.gz",
+      "records": 1053,
+      "sha256": "c5c88bc76b03fbf727a087a355b7eff7f4fcd7b1bf79071748bcedb8d90cfd39"
+    },
+    "later-vintages": {
+      "file": "editions/later-vintages-5b95d17cc79fdce1e6e393a661cc2f61e21f6a35fb0e00c620a83db949b96cd4.jsonl.gz",
+      "records": 1815,
+      "sha256": "5b95d17cc79fdce1e6e393a661cc2f61e21f6a35fb0e00c620a83db949b96cd4"
+    },
+    "source-editions": {
+      "file": "editions/source-editions-fb58e84ee1251d930f6b79af7939cf42a0e9da3115ecf5734dcf5b5c2555164e.jsonl.gz",
+      "records": 360,
+      "sha256": "fb58e84ee1251d930f6b79af7939cf42a0e9da3115ecf5734dcf5b5c2555164e"
+    }
+  }
+}

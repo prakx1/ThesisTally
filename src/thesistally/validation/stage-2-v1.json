@@ -1,0 +1,13 @@
+{
+  "version": "stage-2-v1",
+  "min_mature_closed": 100,
+  "min_per_counted_window": 20,
+  "min_mean_net_r_exclusive": 0.25,
+  "min_ci_lower_r_exclusive": 0,
+  "min_cash_profit_factor_exclusive": 1.4,
+  "min_positive_window_fraction": [2, 3],
+  "confidence": 0.90,
+  "bootstrap_unit": "signal_session",
+  "bootstrap_draws": 4000,
+  "bootstrap_seed": 716
+}

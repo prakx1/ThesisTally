@@ -1,0 +1,70 @@
+{
+  "field_reviews": {
+    "file": "field-reviews/8db1b86aa753a8efc2257ae20f153ab27d038b5b112f7ea3c84f19080a9aa2c8.json.gz",
+    "native_cell_restorations": {},
+    "observations": 460,
+    "reasons": {
+      "conflicting_original_text_and_structured": 273,
+      "no_independent_numeric_confirmation": 735
+    },
+    "remaining_unknown_fields": {
+      "eps": 197,
+      "net_profit": 230,
+      "operating_profit": 251,
+      "revenue": 239
+    },
+    "rendered_field_restorations": {
+      "eps": 9,
+      "net_profit": 20,
+      "operating_profit": 27,
+      "revenue": 35
+    },
+    "sha256": "8db1b86aa753a8efc2257ae20f153ab27d038b5b112f7ea3c84f19080a9aa2c8"
+  },
+  "filings_receipt_sha256": "c5472e6bbcb0b5a8af398eaa14a7766ee1d9d6d059ba01bb1641717e0417f152",
+  "filings_sha256": "c3972ed02de4155f7664742921bec183c6f24cdf85dba5bce5cc1974f701cdd6",
+  "git_head_at_checkpoint": "66d7edf3221ad0adb423fd9c180f695d1547c667",
+  "notice_probe_gaps_sha256": "ddb1ddc04bcede3800b2c9dc7a6cadb1efb0f32d663ab8479fd7b73f2b52a1cf",
+  "rows": 30356,
+  "source_acquisition": {
+    "all_planned_documents_archived": false,
+    "bounded_transport_exhaustions": 0,
+    "by_status": {
+      "archived": 13168,
+      "awaiting_healthy_network_retry": 19,
+      "awaiting_official_mirror_audit": 27,
+      "pending": 1592,
+      "unavailable": 4
+    },
+    "complete": false,
+    "completed_batches": {
+      "alias": true,
+      "calendar": true,
+      "case": false,
+      "initial": false,
+      "language": true,
+      "market": true,
+      "reconcile": true
+    },
+    "planned_urls": 14810,
+    "status_definition": "Acquisition is complete after every public request is terminal. Unavailable files and exhausted healthy-network attempts remain missing source data."
+  },
+  "source_census_sha256": "b73548f67fc4786a8f51359e07d42584c9fced779983b8c2ae17eed5d2974436",
+  "source_vintages": {
+    "first-reported": {
+      "file": "editions/first-reported-022b8833dda70077b33b29cd5a5e14b88e8a18c90a9fe8ce76549fb7c03d17f1.jsonl.gz",
+      "records": 1894,
+      "sha256": "022b8833dda70077b33b29cd5a5e14b88e8a18c90a9fe8ce76549fb7c03d17f1"
+    },
+    "later-vintages": {
+      "file": "editions/later-vintages-8e819e2be6a9a037db536b328de8e4e88b1ff771cb390bd9c9076c535aca1873.jsonl.gz",
+      "records": 1995,
+      "sha256": "8e819e2be6a9a037db536b328de8e4e88b1ff771cb390bd9c9076c535aca1873"
+    },
+    "source-editions": {
+      "file": "editions/source-editions-ad6fac5f4b5768cf6f8d29fd26669edddfce22afed15939e01dd2fcd5801b71c.jsonl.gz",
+      "records": 380,
+      "sha256": "ad6fac5f4b5768cf6f8d29fd26669edddfce22afed15939e01dd2fcd5801b71c"
+    }
+  }
+}

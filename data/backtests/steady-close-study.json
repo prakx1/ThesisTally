@@ -1,0 +1,14 @@
+{
+  "type": "stage3_study",
+  "start": "2017-01-02",
+  "end": "2026-11-20",
+  "rules": "Monthly momentum · independent closing-price review",
+  "market_sha256": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+  "preregistration_sha256": "1235886595a5e91789f7370d976ec0c8e03d79ada8692002e5d426761ba38cfc",
+  "studies": {
+    "docs/A126_CANDIDATE_REPORT.md": "84ffab9e9ee540d5a61815e224d84fff0fba8d3317751a06181f766f5cf2c24c",
+    "data/stage3/close-verification/runs/a79daa45cf9271df5dbf/ebacb99feeda3ad7d4c0/results.json": "1438e3ba902e8c0ae3ecf6ceb4269f3cb7597a35a7426bd0af28258179cb9f7c",
+    "data/stage3/close-verification/evidence-held-pair.json": "a79daa45cf9271df5dbf056a705fd850e82c76a0b18db96413f586cb6e584627"
+  },
+  "terminal_summary": "A126 candidate review\n\nA126 does not qualify. 10/10 windows reached their end. It won 5/10 eligible windows (required 7). Net CAGR 19.00% versus 14.28% for the TRI. Maximum drawdown 25.64% versus 38.03%. Average exposure 68.02% on eligible dates.\n\nA252 does not qualify. 10/10 windows reached their end. It won 5/10 eligible windows (required 7). Net CAGR 14.43% versus 14.28% for the TRI. Maximum drawdown 34.68% versus 38.03%. Average exposure 70.35% on eligible dates.\n\nBoth dip variants are parked as small gross edge, below hurdle after costs. Find the annual comparisons in docs/A126_CANDIDATE_REPORT.md. Run radar report --since-freeze for the prospective A126 account."
+}

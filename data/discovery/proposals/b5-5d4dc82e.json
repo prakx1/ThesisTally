@@ -1,0 +1,25 @@
+{
+  "development_years": [
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "hypothesis": {
+    "description": "b5 entries in signal_rank_quintile = Q5",
+    "filters": [
+      {
+        "field": "signal_rank_quintile",
+        "values": [
+          "Q5"
+        ]
+      }
+    ],
+    "id": "b5-5d4dc82e",
+    "strategy": "b5"
+  },
+  "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+  "sample_sha256": "e96b56037bc6d3a6012f832403e4c4a1ccb6e568a4bcdd00660443592a617e9f",
+  "status": "proposed",
+  "strategy": "b5"
+}

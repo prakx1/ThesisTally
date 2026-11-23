@@ -1,0 +1,389 @@
+{
+  "quarter_ends": 51,
+  "calendar_sessions_verified": 3190,
+  "stock_quarters": 10221,
+  "distinct_quarter_end_isins": 448,
+  "all_members_in_stock_coverage": 465,
+  "daily_panel_differences": [
+    [
+      "2025-12-31",
+      "INE2KCE01013",
+      false
+    ]
+  ],
+  "covered": 577,
+  "known_fields": {
+    "eps": 849,
+    "net_profit": 983,
+    "operating_profit": 933,
+    "revenue": 1166
+  },
+  "spot_checks": {
+    "INE246F01010/2020-12-31/consolidated": {
+      "eps": null
+    },
+    "INE918I01026/2025-09-30/standalone": {
+      "eps": 6.8
+    },
+    "INE918I01026/2025-09-30/consolidated": {
+      "net_profit": null
+    },
+    "INE013A01015/2013-06-30/consolidated": {
+      "revenue": 19300000000.0,
+      "operating_profit": null
+    },
+    "INE647A01010/2023-03-31/consolidated": {
+      "revenue": null,
+      "net_profit": null
+    },
+    "INE769A01020/2021-09-30/consolidated": {
+      "revenue": 15515800000.0,
+      "operating_profit": 2387100000.0
+    },
+    "INE628A01036/2022-03-31/consolidated": {
+      "eps": 18.04,
+      "revenue": 158610000000.0,
+      "operating_profit": 27380000000.0,
+      "net_profit": 17350000000.0
+    },
+    "INE849A01020/2025-09-30/consolidated": {
+      "revenue": 48176800000.0,
+      "operating_profit": 4921500000.0,
+      "net_profit": 3734200000.0
+    }
+  },
+  "reproduced_raster_fields": {
+    "legacy/RELCAPITAL/INE013A01015/2013-06-30/consolidated/109607/revenue": "19300000000",
+    "integrated/SHREECEM/INE070A01015/2025-06-30/standalone/108260/operating_profit": "6766500000.00",
+    "integrated/SHREECEM/INE070A01015/2025-06-30/standalone/108260/revenue": "49479800000.00",
+    "integrated/SHREECEM/INE070A01015/2026-06-30/consolidated/181278/operating_profit": "5862400000.00",
+    "integrated/SHREECEM/INE070A01015/2026-06-30/standalone/181277/operating_profit": "4882700000.00",
+    "integrated/SHREECEM/INE070A01015/2026-06-30/standalone/181277/revenue": "56226800000.00",
+    "integrated/DRREDDY/INE089A01031/2025-03-31/standalone/90096/eps": "14.41",
+    "legacy/DHFL/INE202B01012/2018-03-31/standalone/1039031/net_profit": "3124000000",
+    "legacy/DHFL/INE202B01012/2018-03-31/standalone/1039031/revenue": "28019300000",
+    "legacy/BRITANNIA/INE216A01030/2020-03-31/standalone/1082599/revenue": "26919400000.00",
+    "legacy/BOSCHLTD/INE323A01026/2023-06-30/standalone/1152652/operating_profit": "3758000000",
+    "legacy/BOSCHLTD/INE323A01026/2023-06-30/standalone/1152652/revenue": "41584000000",
+    "legacy/PETRONET/INE347G01014/2020-09-30/standalone/1097713/operating_profit": "11680300000",
+    "legacy/PETRONET/INE347G01014/2021-12-31/consolidated/1127777/revenue": "125972200000",
+    "legacy/AUROPHARMA/INE406A01037/2019-12-31/consolidated/1076933/net_profit": "7053100000",
+    "legacy/AUROPHARMA/INE406A01037/2019-12-31/standalone/1076931/net_profit": "4190700000",
+    "legacy/AUROPHARMA/INE406A01037/2021-06-30/consolidated/1115940/net_profit": "7699700000",
+    "legacy/APOLLOHOSP/INE437A01024/2017-06-30/standalone/1029774/revenue": "16807100000",
+    "legacy/GODREJPROP/INE484J01027/2020-03-31/standalone/1081602/net_profit": "955900000.00",
+    "legacy/GODREJPROP/INE484J01027/2020-03-31/standalone/1081602/operating_profit": "769700000.00",
+    "legacy/GODREJPROP/INE484J01027/2020-03-31/standalone/1081602/revenue": "7808300000.00",
+    "legacy/GODREJPROP/INE484J01027/2021-09-30/standalone/1119607/revenue": "1142500000.00",
+    "legacy/GODREJPROP/INE484J01027/2022-03-31/consolidated/1131671/operating_profit": "2523300000.00",
+    "legacy/GODREJPROP/INE484J01027/2022-03-31/consolidated/1131671/revenue": "13306400000.00",
+    "legacy/GODREJPROP/INE484J01027/2023-03-31/standalone/1145874/revenue": "6102200000.00",
+    "legacy/GODREJPROP/INE484J01027/2023-06-30/consolidated/1152812/operating_profit": "-1561300000.00",
+    "legacy/GODREJPROP/INE484J01027/2023-06-30/consolidated/1152812/revenue": "9360900000.00",
+    "legacy/GODREJPROP/INE484J01027/2023-06-30/standalone/1152811/operating_profit": "-439500000.00",
+    "legacy/GODREJPROP/INE484J01027/2023-06-30/standalone/1152811/revenue": "3099800000.00",
+    "legacy/GODREJPROP/INE484J01027/2023-12-31/standalone/1164875/operating_profit": "-606000000.00",
+    "legacy/GODREJPROP/INE484J01027/2023-12-31/standalone/1164875/revenue": "1361500000.00",
+    "legacy/GODREJPROP/INE484J01027/2024-06-30/standalone/1178485/operating_profit": "-2048400000.00",
+    "legacy/GODREJPROP/INE484J01027/2024-06-30/standalone/1178485/revenue": "1894700000.00",
+    "legacy/TVSMOTOR/INE494B01023/2019-09-30/standalone/1068779/net_profit": "2550100000.00",
+    "legacy/TVSMOTOR/INE494B01023/2019-09-30/standalone/1068779/revenue": "43478400000.00",
+    "legacy/TVSMOTOR/INE494B01023/2020-06-30/standalone/1088061/net_profit": "-1390700000.00",
+    "legacy/TVSMOTOR/INE494B01023/2020-09-30/standalone/1093408/net_profit": "1962500000.00",
+    "legacy/TVSMOTOR/INE494B01023/2020-09-30/standalone/1093408/revenue": "46054900000.00",
+    "legacy/TVSMOTOR/INE494B01023/2021-06-30/standalone/1114379/revenue": "39343600000.00",
+    "legacy/TVSMOTOR/INE494B01023/2021-09-30/standalone/1117579/net_profit": "2776000000.00",
+    "legacy/TVSMOTOR/INE494B01023/2021-12-31/standalone/1126960/net_profit": "2883100000.00",
+    "legacy/TVSMOTOR/INE494B01023/2021-12-31/standalone/1126960/revenue": "57064300000.00",
+    "legacy/TVSMOTOR/INE494B01023/2022-03-31/standalone/1131910/net_profit": "2745000000.00",
+    "legacy/TVSMOTOR/INE494B01023/2024-03-31/consolidated/1170754/net_profit": "4115300000.00",
+    "legacy/TVSMOTOR/INE494B01023/2024-03-31/consolidated/1170754/revenue": "100424700000.00",
+    "legacy/TVSMOTOR/INE494B01023/2024-03-31/standalone/1170752/net_profit": "4854300000.00",
+    "legacy/TVSMOTOR/INE494B01023/2024-06-30/standalone/1179100/net_profit": "5773200000.00",
+    "legacy/TVSMOTOR/INE494B01023/2024-06-30/standalone/1179100/revenue": "83755900000.00",
+    "legacy/TVSMOTOR/INE494B01023/2024-12-31/consolidated/1190899/net_profit": "6093500000.00",
+    "legacy/TVSMOTOR/INE494B01023/2024-12-31/consolidated/1190899/revenue": "111346300000.00",
+    "legacy/EMAMILTD/INE548C01032/2021-03-31/consolidated/1108354/eps": "1.97",
+    "legacy/INDIANB/INE562A01011/2023-06-30/standalone/1152391/revenue": "147589900000.00",
+    "legacy/UPL/INE628A01036/2015-09-30/consolidated/1002287/operating_profit": "5472500000",
+    "legacy/SRF/INE647A01010/2018-06-30/standalone/1047950/revenue": "14458800000.00",
+    "legacy/NHPC/INE848E01016/2019-12-31/standalone/1077233/revenue": "17950700000.00",
+    "legacy/APLLTD/INE901L01018/2018-03-31/standalone/1040523/operating_profit": "1788700000.00",
+    "legacy/APLLTD/INE901L01018/2018-03-31/standalone/1040523/revenue": "8382200000.00",
+    "legacy/APLLTD/INE901L01018/2018-06-30/consolidated/1047324/operating_profit": "1233900000.00",
+    "legacy/APLLTD/INE901L01018/2018-06-30/consolidated/1047324/revenue": "8625300000.00",
+    "legacy/APLLTD/INE901L01018/2018-06-30/standalone/1047323/net_profit": "1139800000.00",
+    "legacy/APLLTD/INE901L01018/2018-06-30/standalone/1047323/operating_profit": "1462400000.00",
+    "legacy/APLLTD/INE901L01018/2018-06-30/standalone/1047323/revenue": "8114200000.00",
+    "legacy/APLLTD/INE901L01018/2019-06-30/standalone/1065419/net_profit": "1552200000.00",
+    "legacy/APLLTD/INE901L01018/2019-06-30/standalone/1065419/operating_profit": "1922900000.00",
+    "legacy/APLLTD/INE901L01018/2019-06-30/standalone/1065419/revenue": "8967400000.00",
+    "legacy/APLLTD/INE901L01018/2019-09-30/consolidated/1069450/operating_profit": "3095600000.00",
+    "legacy/APLLTD/INE901L01018/2019-09-30/consolidated/1069450/revenue": "12408700000.00",
+    "legacy/APLLTD/INE901L01018/2020-03-31/consolidated/1082006/operating_profit": "2833800000.00",
+    "legacy/APLLTD/INE901L01018/2020-03-31/standalone/1082004/net_profit": "3143000000.00",
+    "legacy/APLLTD/INE901L01018/2020-03-31/standalone/1082004/operating_profit": "2599200000.00",
+    "legacy/APLLTD/INE901L01018/2020-03-31/standalone/1082004/revenue": "10485600000.00",
+    "legacy/APLLTD/INE901L01018/2020-06-30/standalone/1087366/net_profit": "3186400000.00",
+    "legacy/APLLTD/INE901L01018/2020-06-30/standalone/1087366/revenue": "12584300000.00",
+    "legacy/APLLTD/INE901L01018/2021-06-30/consolidated/1114012/revenue": "13260300000.00",
+    "legacy/APLLTD/INE901L01018/2021-06-30/standalone/1114011/net_profit": "1926900000.00",
+    "legacy/APLLTD/INE901L01018/2021-06-30/standalone/1114011/operating_profit": "2334800000.00",
+    "legacy/APLLTD/INE901L01018/2021-06-30/standalone/1114011/revenue": "12696900000.00",
+    "legacy/APLLTD/INE901L01018/2021-09-30/consolidated/1120777/operating_profit": "2026200000.00",
+    "legacy/APLLTD/INE901L01018/2021-09-30/standalone/1120775/net_profit": "1563600000.00",
+    "legacy/APLLTD/INE901L01018/2021-09-30/standalone/1120775/operating_profit": "1924200000.00",
+    "legacy/APLLTD/INE901L01018/2021-09-30/standalone/1120775/revenue": "11897700000.00",
+    "legacy/APLLTD/INE901L01018/2021-12-31/standalone/1128007/net_profit": "1935800000.00",
+    "legacy/APLLTD/INE901L01018/2021-12-31/standalone/1128007/operating_profit": "2374100000.00",
+    "legacy/APLLTD/INE901L01018/2021-12-31/standalone/1128007/revenue": "12328300000.00",
+    "legacy/APLLTD/INE901L01018/2022-06-30/consolidated/1466/operating_profit": "-524500000.00",
+    "legacy/APLLTD/INE901L01018/2022-06-30/standalone/1488/net_profit": "724600000.00",
+    "legacy/APLLTD/INE901L01018/2022-06-30/standalone/1488/operating_profit": "805300000.00",
+    "integrated/BAJAJFINSV/INE918I01026/2025-09-30/standalone/126387/eps": "6.8",
+    "legacy/RADICO/INE944F01028/2024-03-31/standalone/1171530/net_profit": "567884000.00"
+  },
+  "reproduced_native_fields": {
+    "eps": 51,
+    "net_profit": 92,
+    "revenue": 226,
+    "operating_profit": 119
+  },
+  "native_source_amounts_sha256": "afdd721a7eab4c845276153f55fe50408d84f759d0939965dd01a7f9bfb05c4b",
+  "cross_basis_timing_cases": {},
+  "demonstrated_early_originals": {
+    "INE04I401011/2025-03-31/consolidated": {
+      "symbol": "KPITTECH",
+      "observed_original_by": "2025-04-28T13:00:35+05:30",
+      "source_sequence": "106213571",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE04I401011/2025-03-31/standalone": {
+      "symbol": "KPITTECH",
+      "observed_original_by": "2025-04-28T13:00:35+05:30",
+      "source_sequence": "106213571",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE066F01020/2023-12-31/consolidated": {
+      "symbol": "HAL",
+      "observed_original_by": "2024-02-12T14:11:37+05:30",
+      "source_sequence": "105756046",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE066F01020/2023-12-31/standalone": {
+      "symbol": "HAL",
+      "observed_original_by": "2024-02-12T14:11:37+05:30",
+      "source_sequence": "105756046",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE070A01015/2025-03-31/consolidated": {
+      "symbol": "SHREECEM",
+      "observed_original_by": "2025-05-14T14:46:16+05:30",
+      "source_sequence": "106231110",
+      "canonical_earliest": "2025-05-14T14:46:16+05:30",
+      "eps_available_at": "2025-05-14T14:46:16+05:30",
+      "state": "retained_original_clock"
+    },
+    "INE070A01015/2025-03-31/standalone": {
+      "symbol": "SHREECEM",
+      "observed_original_by": "2025-05-14T14:46:16+05:30",
+      "source_sequence": "106231110",
+      "canonical_earliest": "2025-05-14T14:46:16+05:30",
+      "eps_available_at": null,
+      "state": "retained_original_clock"
+    },
+    "INE111A01025/2026-06-30/consolidated": {
+      "symbol": "CONCOR",
+      "observed_original_by": "2026-07-24T17:46:20+05:30",
+      "source_sequence": "106710081",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE111A01025/2026-06-30/standalone": {
+      "symbol": "CONCOR",
+      "observed_original_by": "2026-07-24T17:46:20+05:30",
+      "source_sequence": "106710081",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE111A01025/2026-09-30/consolidated": {
+      "symbol": "CONCOR",
+      "observed_original_by": "2026-11-02T16:51:09+05:30",
+      "source_sequence": "106839845",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE111A01025/2026-09-30/standalone": {
+      "symbol": "CONCOR",
+      "observed_original_by": "2026-11-02T16:51:09+05:30",
+      "source_sequence": "106839845",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE226A01021/2026-03-31/consolidated": {
+      "symbol": "VOLTAS",
+      "observed_original_by": "2026-05-14T17:42:49+05:30",
+      "source_sequence": "106622864",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE226A01021/2026-03-31/standalone": {
+      "symbol": "VOLTAS",
+      "observed_original_by": "2026-05-14T17:42:49+05:30",
+      "source_sequence": "106622864",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE249Z01020/2026-03-31/consolidated": {
+      "symbol": "MAZDOCK",
+      "observed_original_by": "2026-04-30T21:05:52+05:30",
+      "source_sequence": "106606491",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE249Z01020/2026-03-31/standalone": {
+      "symbol": "MAZDOCK",
+      "observed_original_by": "2026-04-30T21:05:52+05:30",
+      "source_sequence": "106606491",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE414G01012/2026-06-30/consolidated": {
+      "symbol": "MUTHOOTFIN",
+      "observed_original_by": "2026-08-01T15:13:20+05:30",
+      "source_sequence": "106720771",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE414G01012/2026-06-30/standalone": {
+      "symbol": "MUTHOOTFIN",
+      "observed_original_by": "2026-08-01T15:13:20+05:30",
+      "source_sequence": "106720771",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    },
+    "INE947Q01028/2025-03-31/consolidated": {
+      "symbol": "LAURUSLABS",
+      "observed_original_by": "2025-04-24T14:55:24+05:30",
+      "source_sequence": "106210554",
+      "canonical_earliest": "2025-04-24T14:55:24+05:30",
+      "eps_available_at": "2025-04-24T14:55:24+05:30",
+      "state": "retained_original_clock"
+    },
+    "INE947Q01028/2025-03-31/standalone": {
+      "symbol": "LAURUSLABS",
+      "observed_original_by": "2025-04-24T14:55:24+05:30",
+      "source_sequence": "106210554",
+      "canonical_earliest": null,
+      "eps_available_at": null,
+      "state": "unverified"
+    }
+  },
+  "annual_window_counts": {
+    "2017": [
+      0,
+      804
+    ],
+    "2018": [
+      17,
+      804
+    ],
+    "2019": [
+      30,
+      804
+    ],
+    "2020": [
+      57,
+      802
+    ],
+    "2021": [
+      60,
+      800
+    ],
+    "2022": [
+      66,
+      800
+    ],
+    "2023": [
+      62,
+      801
+    ],
+    "2024": [
+      62,
+      803
+    ],
+    "2025": [
+      95,
+      800
+    ],
+    "2026": [
+      128,
+      801
+    ]
+  },
+  "complete_years": [],
+  "original_attachment_hashes_verified": 1468,
+  "earlier_notice_hashes_verified": 1468,
+  "first_basis_records": 2454,
+  "scores_reproduced": 4,
+  "plans_reproduced": 2,
+  "filing_sources": {
+    "bse": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "nse": {
+      "checkpoint_index_sha256": "14a0d2ea849f06403763ba518f9c8ebd907663705fa7e7d582aacc7e67183709",
+      "sha256": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+      "source_acquisition": {
+        "all_planned_documents_archived": false,
+        "bounded_transport_exhaustions": 0,
+        "by_status": {
+          "archived": 15525,
+          "unavailable": 52
+        },
+        "complete": true,
+        "completed_batches": {
+          "alias": true,
+          "all_categories": true,
+          "calendar": true,
+          "case": true,
+          "fiscal_year": true,
+          "formal_audit": true,
+          "initial": true,
+          "language": true,
+          "market": true,
+          "reconcile": true,
+          "timing": true
+        },
+        "planned_urls": 15577,
+        "status_definition": "Acquisition is complete after every public request is terminal. Unavailable files and exhausted healthy-network attempts remain missing source data."
+      },
+      "source_census_sha256": "f33041cbc5287f75d5933d09f06553747bbb5247f8dfeb973e4fed0ed6555dd1"
+    }
+  },
+  "report_id": "8edb7016c98345f374483ac3e4b0d31aa298fc0479875b0d389eb5276d5e6975",
+  "registered_studies": {
+    "results-d40": [],
+    "results-d20": []
+  },
+  "coverage_sha256": "4e3a1e357a22fa22de3bd097c0a4900b27a178b63825fd79f9eedef5e3e4918c",
+  "signals_sha256": "7478a22800a8a34063ae9d68a95b018abd394607afeb9a723d062763de70a035"
+}

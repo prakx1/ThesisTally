@@ -1,0 +1,331 @@
+{
+  "conclusion": {
+    "A_source_commit": "0fd7ff20152cf0675f5606d609954d2736ac802b",
+    "B_source_commit": "a6012327d3efc1361a7933212482c813e83bdcdb",
+    "addressed_findings": [
+      "The initial B10 independent book stopped measuring one entered PERSISTENT position at a split. NSE and CDSL establish the 2:1 ratio and holder-effective 2 April 2024. The repeat preserved every scan and allocation, made no sale during the freeze, sold 16 shares on 2 April, and measured the loss in original risk units.",
+      "The revised monthly shareholder evidence reader initially assumed a nested historical market path. The corrected reader and regression cover the ordinary forward data root as well as the certified market.",
+      "Monthly predecessor delivery and tradable bonus tranches are verified separately for BDL, BAJFINANCE and OIL. All previously interrupted monthly windows complete under the original registered portfolio definitions."
+    ],
+    "all_B_unmeasurable_dispositions_by_allocation": {
+      "regime": 2,
+      "upcoming_results": 4
+    },
+    "equal_risk_windows_complete": {
+      "B10": 10,
+      "B5": 10
+    },
+    "funded_windows_complete": {
+      "A126": 10,
+      "A252": 10,
+      "B10": 10,
+      "B5": 10,
+      "r2": 10
+    },
+    "independently_checked_parent_controls": {
+      "B_before_after_identical_scan_rows": 9804,
+      "B_before_after_identical_signal_and_allocation_rows": 15866,
+      "holder_evidence_files_and_hashes_verified": 10,
+      "new_holder_register_sha256": "e65bb5373d5a1123beceb030d9e2fd7cfb066c0d84183b14f519f6da4f13e7ee",
+      "stage2_baseline_and_rule_files": {
+        "data/backtests/stage2-baseline-e923bed5c9d9448d7340.json": "ea051ec4a81048e0e2096eb4706abdba479bae3bf57cb42bfe00d4d8b02184dd",
+        "docs/BASELINE_REPORT.md": "497ea45e69f5eaca3f3903a948e6942584b80dfc19144849b11c1bff61359c82",
+        "src/thesistally/revisions/r1.yaml": "c8007c0a59b474484aed340d02ed8cf4029bca54b1d4406b88b61da39585be28",
+        "src/thesistally/revisions/r2.yaml": "93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84"
+      }
+    },
+    "limitations": [
+      "Early missing upper bands suppress purchases. All three first A annual accounts held cash throughout. Three annual windows meet the mature-close floor for primary B and two meet it for B5.",
+      "The dynamic-band releases use the previous exchange opening range, dated classification, final NSE close and same-session dated closing master. The archive does not give a timestamp for every intraday range extension.",
+      "OIL A252 held a half-share bonus entitlement. Available holder-specific net payment data did not identify a gross sale rate. The journal flags the first-tradable-close fallback of INR 319.35.",
+      "The equal-risk book measures independent overlapping calls. Bootstrap resamples signal dates; correlations between positions from different dates can persist.",
+      "The registered five-basis-point model applies to daily auction or pre-scheduled closing prices. Daily bars alone cannot establish executable size for an individual account."
+    ],
+    "no_measured_fill_or_return_discrepancies": true,
+    "post_removal_bands_directly_checked": {
+      "2024-10-07": {
+        "band": "3145.80-3844.80",
+        "fills": 6,
+        "isin": "INE600L01024",
+        "master_sha256": "da8418bb0b8ffb2961ba961dfba759cba0362e7ec3dcb2b8061034f9f9c5991e"
+      },
+      "2024-10-10": {
+        "band": "2504.10-3060.50",
+        "fills": 2,
+        "isin": "INE288B01029",
+        "master_sha256": "81bda0f3dd4099fff3343df69d6daf67cdaa6b8141ace240c969ebf3a32e6b96"
+      },
+      "2024-10-11": {
+        "band": "2493.50-3047.60",
+        "fills": 3,
+        "isin": "INE288B01029",
+        "master_sha256": "5505fdf199861bc7aaea4977d3af31890f4dfd953a02b0147102d1d5f23b7167"
+      }
+    },
+    "publication_verified": [
+      "Terminal study source hashes and bounds",
+      "Experiment register covers the two preregistered definitions and their two prescribed sensitivities",
+      "All four published registration rows reconciled with independently checked qualification outputs",
+      "All ten raw B journals and monthly actual cases audited"
+    ],
+    "registered_runs": [
+      "A126",
+      "A252",
+      "B10",
+      "B5"
+    ],
+    "registration_commit": "ad4dec1",
+    "reviewed_publication_sha256": {
+      "data/backtests/stage3-study.json": "fe4472c1e1176beba43f8e50882443e1ab90186baa8ea417f49ae5c1b83e339c",
+      "docs/EXPERIMENTS.md": "09c07f7ff1ab04edd2f85079c6d2bf0b9a2eeaa29cb393f280d22eb91b9dbdda",
+      "docs/STAGE3_REPORT.md": "3952f5c6dc2305d98d6ce2d1f0701a57e46be5903df6b97f51e7adac000e6497"
+    },
+    "score_checks": "Month-end decision sets and gate from separate per-symbol OLS, correlation, eligible ranks and Wilder recursion. Daily signal reconstruction was sampled at 118 unique test-month ends across ten years. Cash, holdings and measured fill checks cover all scheduled sessions.",
+    "status": "reviewed"
+  },
+  "dip": {
+    "audited_unknown_band_exits": 39,
+    "by_run": {
+      "dip-rsi10-equal-risk": {
+        "ci90": [
+          -0.08838794142125272,
+          0.0591178418967499
+        ],
+        "closed": 602,
+        "counted_mature": 579,
+        "counted_windows": 3,
+        "mean_r": -0.015633402698852602,
+        "positive_counted_windows": 1,
+        "qualified": false
+      },
+      "dip-rsi10-portfolio": {
+        "ci90": [
+          -0.13012997182590536,
+          0.07782361818310188
+        ],
+        "closed": 175,
+        "counted_mature": 159,
+        "counted_windows": 3,
+        "mean_r": -0.025668212312405174,
+        "positive_counted_windows": 1,
+        "qualified": false
+      },
+      "dip-rsi5-equal-risk": {
+        "ci90": [
+          -0.0397328683583506,
+          0.15219563163705488
+        ],
+        "closed": 286,
+        "counted_mature": 254,
+        "counted_windows": 2,
+        "mean_r": 0.05636128249582877,
+        "positive_counted_windows": 1,
+        "qualified": false
+      },
+      "dip-rsi5-portfolio": {
+        "ci90": [
+          0.06484104370309955,
+          0.31287718623189215
+        ],
+        "closed": 127,
+        "counted_mature": 105,
+        "counted_windows": 2,
+        "mean_r": 0.1916540124015777,
+        "positive_counted_windows": 2,
+        "qualified": false
+      }
+    },
+    "closed_paths_with_raw_ohlc_excursion_and_exit_scan": 1189,
+    "discrepancies": {},
+    "fill_band_controls_checked": 2414,
+    "fills_checked_against_bhavcopy": 2425,
+    "first_examples": {},
+    "funded_marks_checked_for_cash": 4902,
+    "original_fills_with_3atr_and_3_10pct": 1235,
+    "result_sha256": "9977fe4e087dd7801f4420efdde4c9bdb9dab00fb298c10d24d967c7cad3780f",
+    "scheme_calls": [
+      {
+        "call_id": 323,
+        "events": [
+          {
+            "day": "2024-03-28",
+            "kind": "suspended",
+            "ratio": [
+              2,
+              1
+            ]
+          },
+          {
+            "day": "2024-03-28",
+            "kind": "converted",
+            "ratio": [
+              2,
+              1
+            ]
+          },
+          {
+            "day": "2024-04-02",
+            "kind": "credited",
+            "ratio": [
+              2,
+              1
+            ]
+          },
+          {
+            "day": "2024-04-02",
+            "kind": "tradable",
+            "ratio": [
+              2,
+              1
+            ]
+          }
+        ],
+        "fills": [
+          {
+            "call_id": 323,
+            "day": "2024-03-06",
+            "fees": 78.37,
+            "id": 64,
+            "price": 8250.123,
+            "qty": 8,
+            "security": "INE262H01013",
+            "side": "buy"
+          },
+          {
+            "call_id": 323,
+            "day": "2024-04-02",
+            "fees": 81.52,
+            "id": 158,
+            "price": 3987.0055,
+            "qty": 16,
+            "security": "INE262H01021",
+            "side": "sell"
+          }
+        ],
+        "original_isin": "INE262H01013",
+        "run": "dip-rsi10-equal-risk",
+        "window": "walk-8"
+      }
+    ],
+    "session_book_controls": 9804,
+    "source_identity": "741213b1920a60c14e26f0f161544118f7270ed36946b9469b7c5571689cb1f4",
+    "transactions_checked_for_fees": 2425
+  },
+  "input_and_control": {
+    "benchmark": {
+      "last_close": "2026-11-20",
+      "levels_matched_to_raw_TRI_responses": 2452,
+      "opening_anchor": "2016-12-30",
+      "sha256": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41"
+    },
+    "market_convention": {
+      "after": 180,
+      "official_band_and_close_receipts_verified": 12,
+      "rights_ratio_arithmetic_verified": 39,
+      "unexplained_moves_before": 192
+    },
+    "membership": {
+      "documented_prelisting": 297,
+      "extra_funded_universe_ids": {},
+      "intervals": 597,
+      "missing_by_symbol": {
+        "DUMMYABFRL": 22,
+        "DUMMYHDLVR": 49,
+        "DUMMYITC": 17,
+        "DUMMYSIEMS": 49,
+        "DUMMYTATAM": 19,
+        "DUMMYVEDL1": 30,
+        "DUMMYVEDL2": 30,
+        "DUMMYVEDL3": 30,
+        "DUMMYVEDL4": 30,
+        "JIOFIN": 21
+      },
+      "missing_with_traded_bhavcopy": 0,
+      "other_missing": {},
+      "sessions": 3190,
+      "sessions_with_constituent_absent_from_equity_screen": 187,
+      "tradable_member_observations": 639334
+    },
+    "preregistration": {
+      "commit": "ad4dec1",
+      "revisions_since_registration": 0,
+      "sha256": "1235886595a5e91789f7370d976ec0c8e03d79ada8692002e5d426761ba38cfc",
+      "time_ist": "2026-11-21 21:42:22"
+    },
+    "r2": {
+      "funded_scans": 2451,
+      "result_sha256": "0d6b660feaf3ee9a6b1c6433acb3c6cad608c6dc66260d258173aaef2b1a7075",
+      "unknown_floor_sales_slippage_verified": 67,
+      "years": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026"
+      ]
+    },
+    "snapshot_sha256": "e722f88c7cc3e270f38902fb2f531023a6d9f0955faf5d29fc3a1e2c0c08158b"
+  },
+  "score_reconstruction": {
+    "dip_candidate_features_recomputed": 490,
+    "dip_feature_mismatches": [],
+    "dip_reconstructed_threshold_days": 236,
+    "dip_signal_discrepancies": [],
+    "full_monthly_rank_discrepancies": [],
+    "gate_discrepancies": [],
+    "member_eligibility_observations": 22894,
+    "method": "Separate per-symbol OLS, correlation, smoothers, rank order, raw Wilder recursion, official bars, membership and input quarantine. Monthly decision events plus all completed dip windows available during this check.",
+    "monthly_ledger_rank_checks": 256,
+    "monthly_ranking_read_sha256": "b132fc82b279f2823ae404803043001522146bbc7b58760e4db1cc473e39dcf7"
+  },
+  "steady": {
+    "cash_and_nav_daily_marks": 4902,
+    "company_event_counts": {
+      "bonus_credited": 4,
+      "bonus_entitlement": 4,
+      "bonus_fraction_paid": 1,
+      "bonus_tradable": 4,
+      "converted": 4,
+      "credited": 4,
+      "suspended": 4,
+      "tradable": 4
+    },
+    "discrepancies": {},
+    "examples": {},
+    "expected_month_end_decisions": 256,
+    "fills_checked_against_NSE_raw_open_and_fees": 642,
+    "journal_sha256": "b1e891c47afb3f5a8d364793dc9c15ab92d14013ad6945a460ca05499cf7e27d",
+    "journal_sha256_matches_study": true,
+    "reconstruction": {
+      "A126": {
+        "cagr_pct": 4.242901588119752,
+        "complete_windows": 10,
+        "drawdown_pct": 10.923488283386684,
+        "observed_sessions": 2451,
+        "qualified": false,
+        "tri_cagr_pct": 14.279059760458601,
+        "tri_drawdown_pct": 38.033598147550784,
+        "winning_windows": 1
+      },
+      "A252": {
+        "cagr_pct": 4.134753054833684,
+        "complete_windows": 10,
+        "drawdown_pct": 14.38376792637749,
+        "observed_sessions": 2451,
+        "qualified": false,
+        "tri_cagr_pct": 14.279059760458601,
+        "tri_drawdown_pct": 38.033598147550784,
+        "winning_windows": 1
+      }
+    },
+    "result_sha256": "e09656452f8a2becfd0585599a75e03011c747d46018876126a8c81c6d0b7da3",
+    "share_marks_checked_against_NSE_raw_close": 13949,
+    "source_identity": "51fd8295cc4c5919fe9996b079f29a11670a94888786aa72944317ccdf0e846e",
+    "unknown_floor_sales": 44
+  }
+}

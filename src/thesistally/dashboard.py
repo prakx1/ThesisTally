@@ -16,6 +16,25 @@ from . import market, paper
 from .journal import journal, metrics, read_call, record_action, run_report
 
 
+def _published_report(path):
+    report = json.loads(path.read_text())
+    if path.stem == "stage3-study" and report.get("type") == "stage3_study":
+        report["rules"] += " · Superseded"
+        report["terminal_summary"] = (
+            "Superseded for decisions. This study blocked buys when the upper band was "
+            "unknown. See the Stage 3 opening-band revision in Reports.\n\n"
+            + report["terminal_summary"]
+        )
+    if path.stem == "stage3-study-entry-v2" and report.get("type") == "stage3_study":
+        report["rules"] += " · Earlier momentum results"
+        report["terminal_summary"] = (
+            "The independent closing-price review completes the ten momentum windows. See the "
+            "monthly momentum review in Reports. The B10 and B5 books are parked.\n\n"
+            + report["terminal_summary"]
+        )
+    return report
+
+
 def _number(value):
     if isinstance(value, (int, float)) and math.isfinite(value):
         return value
@@ -123,10 +142,15 @@ class Dashboard:
         folder = self.root / "backtests"
         result = []
         for path in folder.glob("*.json"):
-            report = json.loads(path.read_text())
-            holdout = next(
-                (f["portfolio"] for f in report["folds"] if f["period"] == "holdout"), {}
-            )
+            report = _published_report(path)
+            if "variants" in report and "terminal_summary" not in report:
+                # The combined Stage 3 report links its machine-readable study inputs.
+                continue
+            holdout = {}
+            if report.get("type") not in ("stage2_baseline", "stage3_study"):
+                holdout = next(
+                    (f["portfolio"] for f in report["folds"] if f["period"] == "holdout"), {}
+                )
             result.append(
                 {
                     "id": path.stem,
@@ -163,7 +187,7 @@ class Dashboard:
             path = self.root / "rankers" / (report_id[5:] + ".json")
         if not path.is_file():
             raise KeyError("Unknown report.")
-        return json.loads(path.read_text())
+        return _published_report(path)
 
     def overview(self):
         archive = self.archive()
@@ -176,7 +200,10 @@ class Dashboard:
                 ).fetchone()
                 runs = [
                     r[0]
-                    for r in db.execute("SELECT id FROM runs ORDER BY id='observations' DESC,id")
+                    for r in db.execute(
+                        "SELECT id FROM runs WHERE id<>? ORDER BY id='observations' DESC,id",
+                        (paper.ENTRY_SHADOW,),
+                    )
                 ]
         return {
             **archive,
@@ -216,17 +243,20 @@ class Dashboard:
     def paper_account(self):
         with self.db() as db:
             if db is None:
-                return {"capital": None, "history": [], "trades": []}
+                return {"capital": None, "history": [], "trades": [], "comparisons": []}
             db.execute("BEGIN")
             return paper.portfolio(db)
 
-    def paper_trade(self, call_id):
+    def paper_trade(self, call_id, *, comparison=False):
         with self.db() as db:
             if db is None:
                 raise market.MarketError("No paper trades have been recorded.")
             db.execute("BEGIN")
             call = read_call(db, call_id)
-            if call["run"] != "observations" or call["allocation"] != "portfolio":
+            if comparison:
+                if call["run"] not in ("observations", paper.ENTRY_SHADOW):
+                    raise market.MarketError("This call is outside the forward comparison.")
+            elif call["run"] != "observations" or call["allocation"] != "portfolio":
                 raise market.MarketError("This call is outside the paper account.")
             call["marks"] = [
                 dict(row)

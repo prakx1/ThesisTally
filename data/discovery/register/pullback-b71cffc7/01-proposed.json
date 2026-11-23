@@ -1,0 +1,21 @@
+{
+  "evidence": "docs/discovery-families/discovery-v1.json",
+  "family": "discovery-v1",
+  "hypothesis": {
+    "description": "pullback entries in breadth_bucket = >60%",
+    "filters": [
+      {
+        "field": "breadth_bucket",
+        "values": [
+          ">60%"
+        ]
+      }
+    ],
+    "id": "pullback-b71cffc7",
+    "strategy": "pullback"
+  },
+  "id": "pullback-b71cffc7",
+  "registration_commit": "fbf15eca292d569c58272217d86dfdbeca29e9d5",
+  "registration_sha256": "bed32ec1ce3713865261602f431a5e00f410955e7f33b7b71818b5b9c18c8cc2",
+  "status": "proposed"
+}

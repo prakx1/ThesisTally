@@ -1,0 +1,97 @@
+{
+  "census": {
+    "accessions_with_verified_values": 637,
+    "checked_accessions": 9496,
+    "checked_packages": 5837,
+    "packages_without_selected_pages": 780,
+    "page_accession_reads": 72710,
+    "unreadable_page_accession_reads": 0,
+    "verified_eps": 135,
+    "verified_net_profit": 343,
+    "verified_operating_profit": 229,
+    "verified_revenue": 448
+  },
+  "cohort": "modern-statement-pages",
+  "edition": "673ac0fa810a56b55c1d7d0165a6cc98b4940f8634919a550fa73fa1238a2307",
+  "evaluator": "489904c9e32cdea765c68d98637661b44096577c6c0a6586d9996923b183eb51",
+  "fieldless_page_raw_pdf_pixel_checks": [
+    {
+      "page": 8,
+      "pdf_sha256": "5a214bc51dfef662e8d2151e135e151669ef9e62954ff7235b0f9bac57dba44b",
+      "rgb_sha256": "6179ed0aed3a292fe87f572c9fcd4a1b1b019eb4978d7a2b4f5527855b23289b",
+      "source_sha256": "5a214bc51dfef662e8d2151e135e151669ef9e62954ff7235b0f9bac57dba44b"
+    },
+    {
+      "page": 7,
+      "pdf_sha256": "2726caacc1598a8d40671e029e5d9096c2c2996c2dafd228dc5aaf57a262615d",
+      "rgb_sha256": "11b66fbc61334e3dafa560ded184ff52b25cd6caeee7d77eba73e5e219a5848b",
+      "source_sha256": "dcb3be3be1936928e3ee318ec3201914135d644b99c0ea4aff1b4ae005ed3717"
+    },
+    {
+      "page": 23,
+      "pdf_sha256": "34940106ebc0c5fecf67f19e35bf85b7d1394092f38159f011733602e65d44ed",
+      "rgb_sha256": "1cec5fca83d93b329956702dcbcd1fd9d37360baa3767b2b9d8405aa24f8a0c0",
+      "source_sha256": "f5d38062054278d6c2e738a7e5d2ee3eb35b7b036cf97af2914d2898f7105839"
+    },
+    {
+      "page": 23,
+      "pdf_sha256": "1de15938a06e8368f1bf3b63ce7a6ba0a78ec4cc68985277af308ec3d1f1c0f3",
+      "rgb_sha256": "7fb2a05aa7cbdefabc73e91859a620457b42796b624e03f110e6d653ae766b36",
+      "source_sha256": "1de15938a06e8368f1bf3b63ce7a6ba0a78ec4cc68985277af308ec3d1f1c0f3"
+    },
+    {
+      "page": 17,
+      "pdf_sha256": "8b6dab96779b3f3911ce103c49d2316d3a303573782b0a2f354632fa164c2aab",
+      "rgb_sha256": "67933672ee0a9e3c3168d7f67301541d733dea6e61c8595d821e00c1b22f0705",
+      "source_sha256": "8b6dab96779b3f3911ce103c49d2316d3a303573782b0a2f354632fa164c2aab"
+    },
+    {
+      "page": 10,
+      "pdf_sha256": "8282cc0f74dfb1277461be86696ce7be585be29ddc6dd5f012bf8bf918bba3b6",
+      "rgb_sha256": "fdc935d1e7b9344345198a8d81c7bc88279a08407645b9236321b112149e8b08",
+      "source_sha256": "8282cc0f74dfb1277461be86696ce7be585be29ddc6dd5f012bf8bf918bba3b6"
+    },
+    {
+      "page": 26,
+      "pdf_sha256": "d87697e33d937da3f163bbfb6f45457162f0a218e4947087ecb70daf5823adff",
+      "rgb_sha256": "eca04d82f74cf0b8a1614a996ef0d5cda3cc414f52d5eb98a4f7ac7f40d762d4",
+      "source_sha256": "d87697e33d937da3f163bbfb6f45457162f0a218e4947087ecb70daf5823adff"
+    },
+    {
+      "page": 32,
+      "pdf_sha256": "295a2874fed41f03bd8c057fe84a5dde43c16a9c9e06f1ab719407e9a8df89fc",
+      "rgb_sha256": "a5ed4377759a5e93c1cf8623e04bacafbceb6062bef2e6610ac63148acdb93bf",
+      "source_sha256": "295a2874fed41f03bd8c057fe84a5dde43c16a9c9e06f1ab719407e9a8df89fc"
+    },
+    {
+      "page": 51,
+      "pdf_sha256": "44029605c32c3377ecde79f130f7f34f70cbe56b91700e3bb63909e2d208c794",
+      "rgb_sha256": "1a68bd8abea9062025befbb79e2e669531334984c37800da0cd12c8733b1ff3d",
+      "source_sha256": "44029605c32c3377ecde79f130f7f34f70cbe56b91700e3bb63909e2d208c794"
+    },
+    {
+      "page": 30,
+      "pdf_sha256": "a606b632f7537ff0bafdc369f38f9913d7a9a452349167b392c2fd741d776b7f",
+      "rgb_sha256": "4cb534663dde077d110cba86eb554ae8221007c959a5aa63cea691403a1b0406",
+      "source_sha256": "5e1f0b5084b6e22584f3339c536ade2edae9ed6293c1afe437fa1abd33cc5c91"
+    },
+    {
+      "page": 8,
+      "pdf_sha256": "111b3deecf3dcb83847bff6101e361b2199c5eb0413ecaabd9c1dd1473410263",
+      "rgb_sha256": "797507a05fa0553400399cf57130f9dac29f86f59b3bf7ad5bd7f8948149dd2b",
+      "source_sha256": "111b3deecf3dcb83847bff6101e361b2199c5eb0413ecaabd9c1dd1473410263"
+    },
+    {
+      "page": 12,
+      "pdf_sha256": "7bc0c49269ab451818ff20e1dcf53d98b33b390915d057f92a3a4876f2466e79",
+      "rgb_sha256": "b750eddfd677199c7ce8adc7be47fff0b11888f325b66655bb252a7a228402be",
+      "source_sha256": "7bc0c49269ab451818ff20e1dcf53d98b33b390915d057f92a3a4876f2466e79"
+    }
+  ],
+  "live_marker_snapshot": null,
+  "plan": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "receipt_set_sha256": "54ee88ab0998146bab91dc75cc502b157ab15b1603eacca7d2b5e7daf1e69bbb",
+  "sampling_candidates_with_no_financial_cell_observation_at_that_accession": 36345,
+  "source_edition": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "unique_word_box_objects_rehashed": 36692
+}

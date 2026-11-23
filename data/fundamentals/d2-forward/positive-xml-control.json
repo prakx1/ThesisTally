@@ -1,0 +1,40 @@
+{
+  "purpose": "Separate read-only live exchange control from before the collection inception, no production data written",
+  "query_day": "2026-11-21",
+  "source_pages": [
+    {
+      "retrieved_url": "https://www.nseindia.in/api/integrated-filing-results?from_date=21-11-2026&to_date=21-11-2026&page=1&size=100",
+      "sha256": "970de34b84220cb14d9b703bd00b55d1b3eb9ea3c1a63cca2c65c6d2acd20c7d",
+      "url": "https://www.nseindia.in/api/integrated-filing-results?from_date=21-11-2026&to_date=21-11-2026&page=1&size=100"
+    }
+  ],
+  "verified_instances": [
+    {
+      "accession": "215977",
+      "announced_at": "2026-11-21T12:54:27+05:30",
+      "bytes": 71297,
+      "feed": "integrated",
+      "sha256": "2c39e95b2fa110211579d51d11dfb351aadb09c0932ce489cf43b05aaf166828",
+      "symbol": "GICL",
+      "xml_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760605_21112026125423_WEB.xml"
+    },
+    {
+      "accession": "215987",
+      "announced_at": "2026-11-21T14:04:32+05:30",
+      "bytes": 119340,
+      "feed": "integrated",
+      "sha256": "6283146791a61cb2e10fe1dbb143fbcc9598e56503684f96becc8f42105b9bd1",
+      "symbol": "VALECHAENG",
+      "xml_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760620_21112026020431_WEB.xml"
+    },
+    {
+      "accession": "215988",
+      "announced_at": "2026-11-21T14:04:49+05:30",
+      "bytes": 92672,
+      "feed": "integrated",
+      "sha256": "0401bb4cf9453a71bdbab5ff16bdbfeae28f819cebf2e3e53f04e06b8178e254",
+      "symbol": "VALECHAENG",
+      "xml_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1760621_21112026020449_WEB.xml"
+    }
+  ]
+}

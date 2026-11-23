@@ -1,0 +1,20 @@
+{
+  "day": "2019-10-17",
+  "labels": {
+    "IBVENTURES": {
+      "isin": "INE274G01010",
+      "percent": 5,
+      "published": "2019-10-16",
+      "sources": [
+        {
+          "effective": "2019-10-17",
+          "last_modified": "Wed, 16 Oct 2019 11:45:05 GMT",
+          "published": "2019-10-16",
+          "sha256": "4b40fd77203282f28750f341eb9e1c0360ad61e80925ca861dd44e0c85307f87",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_17102019.csv"
+        }
+      ]
+    }
+  },
+  "prior": "2019-10-16"
+}

@@ -1,0 +1,33 @@
+# Historical NSE surveillance inputs
+
+For each signal date through 20 January 2024, the Stage 2 overlay checks ordinary long-term ASM, short-term ASM and GSM for the next tradable open. One confirmed active component flags the security. Clearing it requires affirmative evidence for each applicable component. Each observation retains the point-in-time member ISIN. Every exported price floor and ceiling is null.
+
+## Coverage
+
+The overlay covers 2,488 daily sessions and 498,736 historical member observations. It confirmed 394,122 clear and 3,068 flagged. The remaining 101,546 observations stay unknown. All members had a determinate classification on 1,972 sessions. The data directory contains the dated primary bytes and ISIN-level symbol files for each session. The committed receipts fingerprint each date and list its counts. [Coverage](../data/baseline/legacy-surveillance/coverage.json) · [Dated gaps by component](../data/baseline/legacy-surveillance/gaps.json)
+
+Across 1,707 requested daily GSM listings, the archive supplied 1,007 tables. The first recovered dated file was 30 December 2019. There were 698 HTTP 404s and two HTTP 200 responses with empty bodies, dated 9 December 2021 and 10 May 2022. Where a quarterly fallback could establish an ISIN's status it was used. Other unresolved intervals include court or regulator notices with unverified membership effects, mixed-date ASM annexures and missing consolidated lists. [Daily acquisition](../data/baseline/legacy-surveillance/daily-gsm-acquisition.json)
+
+Independent comparison against modern REG_IND files on 23, 24, 25 and 29 January 2024 found 2,211 known scheme/member comparisons, including 12 flagged observations. All agreed. The LT-ASM list on 29 January failed legacy completeness checks and contributed zero of that day's 201 possible LT-ASM comparisons. [Overlap and effective-date verification](../data/baseline/legacy-surveillance/overlap/verification.json)
+
+## Which evidence applies
+
+- Before the first GSM shortlist was published on 3 March 2017, the framework had no identified securities. The 43 securities in that first list were scheduled for monitoring from 14 March. Unified ASM first published a shortlist on 21 March 2018 for 26 March. The separate short-term framework took effect on 14 November 2018. The first dedicated ST applicability notice found in the catalogue was published on 21 November. The interval after launch and before that shortlist has unknown ST status. Launch notices establish historical non-applicability without supplying any later security identities to an earlier signal. [First GSM list](https://nsearchives.nseindia.in/content/circulars/SURV34321.pdf) · [First ASM notice](https://nsearchives.nseindia.in/content/circulars/SURV37253.zip) · [Separate ST framework, page 7](https://nsearchives.nseindia.in/content/circulars/SURV39265.pdf)
+- ASM negatives require an explicitly consolidated list covering the next open, a complete numbered security table and verified ISINs. A changes-only annexure can establish an inclusion for a named security on its explicit effective date. A conflicting same-day update, missing ISIN or uncertain effective date limits coverage. Separate insolvency, inter-creditor and SME-only frameworks have different exchange fields. [Dated LT example](https://nsearchives.nseindia.in/content/circulars/SURV41470.zip) · [Dated ST example](https://nsearchives.nseindia.in/content/circulars/SURV41471.zip)
+- The daily NSE price-band complete list contains a GSM stage or an explicit dash in its remarks column. Symbol and series must match the identity observed in that session's bhavcopy. A transition among EQ, BE and BZ requires a unique contemporaneous equity identity. Ambiguous remarks and missing rows stay unknown. The EOD file dated 1 January 2020 already placed BALKRISHNA in Stage I, for the 2 January open specified by the circular. The 31 December file showed a dash. Wall-clock release times are unavailable. [Earlier daily file](https://nsearchives.nseindia.in/content/equities/sec_list_31122019.csv) · [Next daily file](https://nsearchives.nseindia.in/content/equities/sec_list_01012020.csv) · [Stage I effective date](https://nsearchives.nseindia.in/content/circulars/SURV43080.pdf)
+- Where a daily GSM file is missing, a complete quarterly review can establish a conservative set of possibly monitored ISINs. It includes all entrants, continuing members, departures and identified subsequent stage transfers. An ISIN outside this set can be cleared only while the chain of notices remains accounted for through the signal close. Ambiguous names within the set remain unknown. Unclassified orders break the chain. The August 2017 SEBI directive named 331 companies across exchanges. NSE identified 48 in its own Annexure II, which the reconstruction includes. [Quarterly annexures](https://nsearchives.nseindia.in/content/circulars/SURV36130.zip) · [NSE shell-company directive](https://nsearchives.nseindia.in/content/circulars/SURV35548.zip)
+- The source inventory covers 84 months. Monthly, half-monthly and weekly date ranges produced different results in August and October 2023. Additional date queries recovered twelve notices missing from the monthly responses. On 7 August 2023, the archive supplied conflicting inventories across query ranges. The legacy ASM classifications for that date remain unknown. Monthly catalogue files may contain later entries. The exporter applies only notices whose publication date is on or before the signal close.
+
+
+## Reproduce the dated input
+
+The repository needs session membership, official daily bhavcopy and the validated exchange calendar. The historical PDF reader uses the `pdftotext` utility. Re-running the acquisition checks cached source hashes and requests remaining attachments. Raw evidence occupies about 1.6 GiB locally.
+
+```sh
+uv run --frozen python -m thesistally.legacy_surveillance
+uv run --frozen python -m thesistally.legacy_surveillance --gsm-daily
+uv run --frozen python -m thesistally.legacy_snapshot
+uv run --frozen python scripts/check_legacy_surveillance.py
+```
+
+The catalogue contains 4,836 distinct SURV notices. The acquisition retained all 3,775 attachments selected by subject or individually reviewed policy exception. The registry preserves each manually assessed exception’s source hash and reasoning. [Inventory reconciliation](../data/baseline/legacy-surveillance/inventory-reconciliation.json) · [Circular acquisition](../data/baseline/legacy-surveillance/acquisition.json) · [Reviewed exception registry](../src/thesistally/validation/nse-legacy-notices.json)

@@ -1,0 +1,191 @@
+{
+  "publication_rule": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2018/1531376960294.pdf",
+  "sheets": [
+    {
+      "available": "2018-01-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:31 GMT",
+      "isin_count": 4991,
+      "period": "2017-12-31",
+      "sha256": "a637d8511a92ac9b40e4a181ee1f80bcfeb10e07c1edfb9345a92591ad5ee151",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Avg.%20Market%20Capitalization%20of%20listed%20companies%20during%20-Jul-Dec%202017.xlsx",
+      "workbook_modified": "2018-01-03"
+    },
+    {
+      "available": "2018-07-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:30 GMT",
+      "isin_count": 4887,
+      "period": "2018-06-30",
+      "sha256": "ab56009edf2f36df23793570026419c63506e29d5a7c721f3e0b7d6642fa07b4",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Avg.%20Market%20Capitalization%20of%20listed%20companies%20during%20-Jan-June%202018.xlsx",
+      "workbook_modified": "2018-07-05"
+    },
+    {
+      "available": "2019-01-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:32 GMT",
+      "isin_count": 4792,
+      "period": "2018-12-31",
+      "sha256": "afab6fc70f84c8bb5808b1ebc17fa878f199e08becc961dfee6df118a2cc6d81",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Avg.%20Market%20Capitalization%20of%20listed%20companies%20during%20Jul-Dec%202018.xlsx",
+      "workbook_modified": "2019-01-03"
+    },
+    {
+      "available": "2019-07-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:31 GMT",
+      "isin_count": 4883,
+      "period": "2019-06-30",
+      "sha256": "46b42b4eca04b1d8c58733f62a60d492588703fb1d55620ddc6e5705998c29bb",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Avg.%20Market%20Capitalization%20of%20listed%20companies%20during%20-Jan-June%202019.xlsx",
+      "workbook_modified": "2019-07-04"
+    },
+    {
+      "available": "2020-01-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:32 GMT",
+      "isin_count": 4930,
+      "period": "2019-12-31",
+      "sha256": "f50e5856c086bebb1f4b66ad62fad6ad5dcf980d8cbd347c50aa785541d8f96d",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Avg.%20Market%20Capitalization%20of%20listed%20companies%20during%20Jul-Dec%202019.xlsx",
+      "workbook_modified": "2020-01-03"
+    },
+    {
+      "available": "2020-07-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:25 GMT",
+      "isin_count": 4919,
+      "period": "2020-06-30",
+      "sha256": "bf6a30a825ae537b90f8b3a024a41ac8c83f7a878ed5a84a3e2e91787128443f",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Average%20Market%20Capitalization%20of%20Listed%20Companies%20during%20Jan%20-%20Jun%202020_Final.xlsx",
+      "workbook_modified": "2020-07-03"
+    },
+    {
+      "available": "2021-01-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:25 GMT",
+      "isin_count": 4961,
+      "period": "2020-12-31",
+      "sha256": "802613e5d03dbfd4b1ed494c07d245802a917da3a2d83e0f44faeed6b62ce0b3",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Average%20Market%20Capitalization%20of%20Listed%20Companies%20during%20Jul%20-%20Dec%202020_Final.xlsx",
+      "workbook_modified": "2021-01-04"
+    },
+    {
+      "available": "2021-07-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:25 GMT",
+      "isin_count": 4982,
+      "period": "2021-06-30",
+      "sha256": "0b4521e82a5991ca2ce3d0e4587f29318727ce3fe7973400a67be5d64fd91e8b",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Average%20Market%20Capitalization%20of%20List%20Companies%20during%20Jan-June%202021.xlsx",
+      "workbook_modified": "2021-07-05"
+    },
+    {
+      "available": "2022-01-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:24 GMT",
+      "isin_count": 5029,
+      "period": "2021-12-31",
+      "sha256": "fee038800ac0a597767b265659077d3f28c6cc40045e4691c926b7c60733fcfa",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/Average%20Market%20Capitalisation%20of%20Listed%20Companies%20during%20Jul%20-%20Dec%202021.xlsx",
+      "workbook_modified": "2022-01-04"
+    },
+    {
+      "available": "2022-07-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:27 GMT",
+      "isin_count": 5041,
+      "period": "2022-06-30",
+      "sha256": "2bc0c95e3f9e043d3d1ba8dd201e117559783589f1d4383d29de138dedaf64e7",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/AverageMarketCapitalizationoflistedcompaniesduringthesixmonthsended30June2022.xlsx",
+      "workbook_modified": "2022-07-02"
+    },
+    {
+      "available": "2023-01-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:28 GMT",
+      "isin_count": 5052,
+      "period": "2022-12-31",
+      "sha256": "3ea38c30142f062eaf011e87bd3e695bc5a3b317e83829ed8660cd64b1c67cc4",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/AverageMarketCapitalizationoflistedcompaniesduringthesixmonthsended31Dec2022.xlsx",
+      "workbook_modified": "2023-01-03"
+    },
+    {
+      "available": "2023-07-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:27 GMT",
+      "isin_count": 5009,
+      "period": "2023-06-30",
+      "sha256": "06e96ae66b817495ca6ba06d1c861906f092c34d63f3dc58f171f6729248368e",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/AverageMarketCapitalizationoflistedcompaniesduringthesixmonthsended30Jun2023.xlsx",
+      "workbook_modified": "2023-07-05"
+    },
+    {
+      "available": "2024-01-06",
+      "conflicting_isins": [
+        "INE040M01013",
+        "INE210F01016",
+        "INE319B01014",
+        "INE360C01024"
+      ],
+      "http_modified": "Tue, 19 Aug 2025 13:18:29 GMT",
+      "isin_count": 5002,
+      "period": "2023-12-31",
+      "sha256": "6bb48ee253c7dcd3e591f99c04eaef1eca6c2f788fb00dd0ca5b479e59da33a1",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/AverageMarketCapitalizationoflistedcompaniesduringthesixmonthsended31Dec2023.xlsx",
+      "workbook_modified": "2024-01-03"
+    },
+    {
+      "available": "2026-05-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 05 May 2026 05:46:16 GMT",
+      "isin_count": 5049,
+      "period": "2024-06-30",
+      "sha256": "7dcadc9fa72769dec6a9c8b68254c38610cbbe7bfe9b193691633543f9f293b9",
+      "url": "https://www.amfiindia.com/uploads/Average_Market_Capitalization_30_Jun2024_2a1ab4c1d8.xlsx",
+      "workbook_modified": "2024-07-11"
+    },
+    {
+      "available": "2025-01-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:29 GMT",
+      "isin_count": 5097,
+      "period": "2024-12-31",
+      "sha256": "b8f284584ca5a8c29f902befa63b6268846aecd6ae94e2603b1380aa5d3b9b6f",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/AverageMarketCapitalizationoflistedcompaniesduringthesixmonthsended31Dec2024.xlsx",
+      "workbook_modified": "2025-01-03"
+    },
+    {
+      "available": "2025-07-06",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 19 Aug 2025 13:18:26 GMT",
+      "isin_count": 5158,
+      "period": "2025-06-30",
+      "sha256": "91eb0254c360c4d02df2c22e0f1732aa589d2e7626a593330f4bc15fa7496dac",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/AverageMarketCapitalization30Jun2025.xlsx",
+      "workbook_modified": "2025-07-04"
+    },
+    {
+      "available": "2026-01-06",
+      "conflicting_isins": [],
+      "http_modified": "Mon, 05 Jan 2026 11:23:43 GMT",
+      "isin_count": 5372,
+      "period": "2025-12-31",
+      "sha256": "2257c50a74fe0e6610d121c9e02187358383ceb5fec0aee241c2426ce166c0af",
+      "url": "https://www.amfiindia.com/Themes/Theme1/downloads/AverageMarketCapitalization31Dec2025.xlsx",
+      "workbook_modified": "2026-01-05"
+    },
+    {
+      "available": "2026-07-08",
+      "conflicting_isins": [],
+      "http_modified": "Tue, 07 Jul 2026 13:19:46 GMT",
+      "isin_count": 5427,
+      "period": "2026-06-30",
+      "sha256": "8e1256541331be9929abfeb1cd8531d72bd5e610559ef3b4ff77916c790a97ed",
+      "url": "https://portal.amfiindia.com/spages/AverageMarketCapitalization30Jun2026.xlsx",
+      "workbook_modified": "2026-07-07"
+    }
+  ],
+  "source": "https://www.amfiindia.com/otherdata/categorisation-of-stocks"
+}

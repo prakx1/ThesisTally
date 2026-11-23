@@ -1,0 +1,39 @@
+{
+  "cases": {
+    "integrated/MUTHOOTFIN/INE414G01012/2026-03-31/consolidated/157697": {
+      "net_profit": "33974790000.00",
+      "operating_profit": "77362860000.00",
+      "revenue": "92887090000.00"
+    },
+    "integrated/MUTHOOTFIN/INE414G01012/2026-03-31/standalone/157696": {
+      "net_profit": "30861880000.00",
+      "operating_profit": "70154500000.00",
+      "revenue": "81799230000.00"
+    },
+    "integrated/MUTHOOTFIN/INE414G01012/2026-06-30/consolidated/181533": {
+      "eps": "69.72",
+      "net_profit": "28248400000.00",
+      "operating_profit": "72323050000.00",
+      "revenue": "86716020000.00"
+    },
+    "integrated/MUTHOOTFIN/INE414G01012/2026-06-30/standalone/181531": {
+      "net_profit": "25504760000.00",
+      "operating_profit": "65546640000.00",
+      "revenue": "75888510000.00"
+    }
+  },
+  "evaluator": "489904c9e32cdea765c68d98637661b44096577c6c0a6586d9996923b183eb51",
+  "markers": {
+    "0d9b1fbcb03751f4f038250912293a5573df57201f6b03b54f3b9d0a5c0d5feb": "ec0bfe5d4ae94b27552d80d04773f1ef6adfc1abf18e253b9ef5dd187381e9f7",
+    "6228b8131d43cf1017f3e2494583fa2737a0e3f955e115d5715f9e473d513770": "8a2dbfcf785b68cc35d84bb5406193a9df09db92435bd7bb3ad95c4f3fe7424c"
+  },
+  "physical_source_pages": 4,
+  "plan": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "source_edition": "f2313ad3b77ada2653f4e6878564256a60b8e10eb5567721ff5fc61d30c33385",
+  "source_ledger": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "verified_positive_proofs": {
+    "optical_currency_and_cells": 3,
+    "optical_quarter_columns": 9,
+    "original_indexed_expenses_operating_profit": 4
+  }
+}

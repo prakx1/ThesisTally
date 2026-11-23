@@ -1,0 +1,18 @@
+{
+  "day": "2019-04-05",
+  "labels": {
+    "DBL": {
+      "isin": "INE917M01012",
+      "percent": 10,
+      "published": "2019-04-04",
+      "sources": [
+        {
+          "published": "2019-04-04",
+          "sha256": "25393dfddf7dc10ea4f0bf87fd381d9cda2306e1151908c84fe92ea83e0559a5",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV40670.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2019-04-04"
+}

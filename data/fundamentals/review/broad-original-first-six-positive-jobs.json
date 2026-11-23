@@ -1,0 +1,113 @@
+[
+  {
+    "job_key": "0990b20208f579b433a02f879729794911ef950e2887563d08abe3499b1de024",
+    "match": {
+      "source_edition": "d4c557ef6240103da8e7eae7f2748bcbcb57a8519858a8b4693be4287ec78c72",
+      "verified_positive_proofs": {
+        "optical_quarter_columns": 2
+      },
+      "physical_source_pages": 1,
+      "cases": {
+        "legacy/MANKIND/INE634S01028/2023-06-30/consolidated/1152816": {
+          "net_profit": "4941884000.00",
+          "revenue": "25786175000.00"
+        }
+      }
+    }
+  },
+  {
+    "job_key": "161039d33417f99316fd2dd79c59cdb841ba41319b1efc8883e41fac33380a82",
+    "match": {
+      "source_edition": "07b1fe98fc896e9e2612421141b4902de4745985268ca12838993b13e7ea69c6",
+      "verified_positive_proofs": {
+        "optical_quarter_columns": 3
+      },
+      "physical_source_pages": 1,
+      "cases": {
+        "legacy/AARTIIND/INE769A01020/2021-03-31/standalone/1107908": {
+          "net_profit": "1338400000",
+          "operating_profit": "1862600000",
+          "revenue": "11431100000"
+        }
+      }
+    }
+  },
+  {
+    "job_key": "2e5f36c3de65a19cc0dbe80fbdc2e46295ce4c38f3e001b139c0ecd183e36181",
+    "match": {
+      "source_edition": "bbcc908e658e17e666feeb9e205f534209a66c09b0bd737268492d1e6927e7f1",
+      "verified_positive_proofs": {
+        "optical_currency_and_cells": 3
+      },
+      "physical_source_pages": 2,
+      "cases": {
+        "legacy/PETRONET/INE347G01014/2020-09-30/consolidated/1097717": {
+          "revenue": "62357800000"
+        },
+        "legacy/PETRONET/INE347G01014/2020-09-30/standalone/1097713": {
+          "operating_profit": "11680300000",
+          "revenue": "62357800000"
+        }
+      }
+    }
+  },
+  {
+    "job_key": "7850b842f2d0f41e3c978350147adf7cac27cb2500f5aa5de23f8ced3875437c",
+    "match": {
+      "source_edition": "d52b7988b03b327ce1d3d90f380bcd9d5ca6770078d953fc512a3e9c2c1e8e0e",
+      "verified_positive_proofs": {
+        "optical_quarter_columns": 3
+      },
+      "physical_source_pages": 1,
+      "cases": {
+        "legacy/AARTIIND/INE769A01020/2022-03-31/standalone/1135679": {
+          "net_profit": "1895100000",
+          "operating_profit": "2530800000",
+          "revenue": "17176700000"
+        }
+      }
+    }
+  },
+  {
+    "job_key": "8a38f3d33b8ef08d93594720a2c8d70aaef51204662e03ecbc6326def59029d3",
+    "match": {
+      "source_edition": "0bdd913f8feb810e8fac45a01656716622db4e838462367f42b162fb93bee509",
+      "verified_positive_proofs": {
+        "optical_quarter_columns": 6
+      },
+      "physical_source_pages": 2,
+      "cases": {
+        "legacy/AARTIIND/INE769A01020/2022-06-30/standalone/2548": {
+          "net_profit": "1858400000",
+          "operating_profit": "2780100000",
+          "revenue": "19347100000"
+        },
+        "legacy/AARTIIND/INE769A01020/2022-06-30/consolidated/2549": {
+          "net_profit": "1890700000",
+          "operating_profit": "2828000000",
+          "revenue": "19720200000"
+        }
+      }
+    }
+  },
+  {
+    "job_key": "cff0ed53d630fba8c0eb02425fd5ec197525dffb33c045876501fca405527c57",
+    "match": {
+      "source_edition": "ca86587380667fee9a7ee0e1afc3cbc7adfcb37312bc04ec2e3a91f651ff0269",
+      "verified_positive_proofs": {
+        "optical_quarter_columns": 4
+      },
+      "physical_source_pages": 2,
+      "cases": {
+        "legacy/MANKIND/INE634S01028/2023-12-31/consolidated/1163860": {
+          "net_profit": "4598137000.00",
+          "revenue": "26069589000.00"
+        },
+        "legacy/MANKIND/INE634S01028/2023-12-31/standalone/1163856": {
+          "net_profit": "4870733000.00",
+          "revenue": "23585662000.00"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1439 @@
+{
+  "days": {
+    "2014-03-19": {
+      "INE245A01021": {
+        "rights_issue": {
+          "day": "2014-03-19",
+          "factor": 0.9650168329046692,
+          "isin": "INE245A01021",
+          "prior_close": 83.9,
+          "sha256": "936c3bd622e6a0352a0224f48d3be24faad2fe2cde6e19ac66ce691d3a5d34bd",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2014&to_date=31-12-2014",
+          "subjects": [
+            "Rights 7:50 @ Premium Rs.59/- Per Equity Share"
+          ],
+          "terms": [
+            {
+              "new": 7,
+              "old": 50,
+              "price": 60.0
+            }
+          ],
+          "terp": 80.96491228070175
+        },
+        "symbol": "TATAPOWER"
+      }
+    },
+    "2014-09-18": {
+      "INE868B01028": {
+        "rights_issue": {
+          "day": "2014-09-18",
+          "factor": 0.6120518195989892,
+          "isin": "INE868B01028",
+          "prior_close": 71.55,
+          "sha256": "936c3bd622e6a0352a0224f48d3be24faad2fe2cde6e19ac66ce691d3a5d34bd",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2014&to_date=31-12-2014",
+          "subjects": [
+            "Rights 7 : 6 @ Premium Rs 18/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 7,
+              "old": 6,
+              "price": 20.0
+            }
+          ],
+          "terp": 43.79230769230768
+        },
+        "symbol": "NCC"
+      }
+    },
+    "2015-03-11": {
+      "INE776C01039": {
+        "rights_issue": {
+          "day": "2015-03-11",
+          "factor": 0.98109243697479,
+          "isin": "INE776C01039",
+          "prior_close": 16.8,
+          "sha256": "c55cdf111071990a705765001cce2d8615766474a7408491dd5fd036b605ba23",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2015&to_date=31-12-2015",
+          "subjects": [
+            "Rights 3:14 @ Premium Rs 14/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 3,
+              "old": 14,
+              "price": 15.0
+            }
+          ],
+          "terp": 16.482352941176472
+        },
+        "symbol": "GMRINFRA"
+      }
+    },
+    "2015-04-06": {
+      "IN9155A01020": {
+        "rights_issue": {
+          "day": "2015-04-06",
+          "factor": 0.9896516465920271,
+          "isin": "IN9155A01020",
+          "prior_close": 338.05,
+          "sha256": "c55cdf111071990a705765001cce2d8615766474a7408491dd5fd036b605ba23",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2015&to_date=31-12-2015",
+          "subjects": [
+            "Rights 6:109 @ Premium Rs.269/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 6,
+              "old": 109,
+              "price": 271.0
+            }
+          ],
+          "terp": 334.5517391304348
+        },
+        "symbol": "TATAMTRDVR"
+      },
+      "INE155A01022": {
+        "rights_issue": {
+          "day": "2015-04-06",
+          "factor": 0.9893878870442633,
+          "isin": "INE155A01022",
+          "prior_close": 564.9,
+          "sha256": "c55cdf111071990a705765001cce2d8615766474a7408491dd5fd036b605ba23",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2015&to_date=31-12-2015",
+          "subjects": [
+            "Rights 6:109 @ Premium Rs. 448/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 6,
+              "old": 109,
+              "price": 450.0
+            }
+          ],
+          "terp": 558.9052173913043
+        },
+        "symbol": "TATAMOTORS"
+      }
+    },
+    "2016-03-16": {
+      "INE232I01014": {
+        "rights_issue": {
+          "day": "2016-03-16",
+          "factor": 0.9932422709355575,
+          "isin": "INE232I01014",
+          "prior_close": 292.9,
+          "sha256": "75cbff778a8c92011758f3d0fcc2525e77e0b059031f11677fadff66abd722b1",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2016&to_date=31-12-2016",
+          "subjects": [
+            " Rights 5: 116 At Premium Rs 244/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 5,
+              "old": 116,
+              "price": 245.0
+            }
+          ],
+          "terp": 290.92066115702477
+        },
+        "symbol": "SPARC"
+      }
+    },
+    "2016-10-24": {
+      "INE614B01018": {
+        "rights_issue": {
+          "day": "2016-10-24",
+          "factor": 0.8145331643430502,
+          "isin": "INE614B01018",
+          "prior_close": 157.8,
+          "sha256": "75cbff778a8c92011758f3d0fcc2525e77e0b059031f11677fadff66abd722b1",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2016&to_date=31-12-2016",
+          "subjects": [
+            " Rights 1:2 @ Premium Rs 60/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 2,
+              "price": 70.0
+            }
+          ],
+          "terp": 128.53333333333333
+        },
+        "symbol": "KTKBANK"
+      }
+    },
+    "2017-02-16": {
+      "INE683A01023": {
+        "rights_issue": {
+          "day": "2017-02-16",
+          "factor": 0.9052106430155211,
+          "isin": "INE683A01023",
+          "prior_close": 22.55,
+          "sha256": "e068d1fcfa5130c3b6c087b4a33a1d13330c9af7926469e760517c4b885717d0",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2017&to_date=31-12-2017",
+          "subjects": [
+            " Rights 1:3 @ Premium Rs 13/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 3,
+              "price": 14.0
+            }
+          ],
+          "terp": 20.4125
+        },
+        "symbol": "SOUTHBANK"
+      }
+    },
+    "2017-02-17": {
+      "INE476A01014": {
+        "rights_issue": {
+          "day": "2017-02-17",
+          "factor": 0.9701985229767698,
+          "isin": "INE476A01014",
+          "prior_close": 296.05,
+          "sha256": "e068d1fcfa5130c3b6c087b4a33a1d13330c9af7926469e760517c4b885717d0",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2017&to_date=31-12-2017",
+          "subjects": [
+            " Rights 1:10 @ Prem Rs 197/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 10,
+              "price": 199.0
+            }
+          ],
+          "terp": 287.2272727272727
+        },
+        "symbol": "CANBK"
+      }
+    },
+    "2017-10-04": {
+      "INE053A01029": {
+        "rights_issue": {
+          "day": "2017-10-04",
+          "factor": 0.9358764014219306,
+          "isin": "INE053A01029",
+          "prior_close": 121.9,
+          "sha256": "e068d1fcfa5130c3b6c087b4a33a1d13330c9af7926469e760517c4b885717d0",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2017&to_date=31-12-2017",
+          "subjects": [
+            " Rights 1:5 @ Premium Rs 74/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 5,
+              "price": 75.0
+            }
+          ],
+          "terp": 114.08333333333334
+        },
+        "symbol": "INDHOTEL"
+      }
+    },
+    "2017-10-12": {
+      "INE036D01028": {
+        "rights_issue": {
+          "day": "2017-10-12",
+          "factor": 0.9316599666633982,
+          "isin": "INE036D01028",
+          "prior_close": 145.7,
+          "sha256": "e068d1fcfa5130c3b6c087b4a33a1d13330c9af7926469e760517c4b885717d0",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2017&to_date=31-12-2017",
+          "subjects": [
+            " Rights 1:6 @ Premium Rs 74/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 6,
+              "price": 76.0
+            }
+          ],
+          "terp": 135.7428571428571
+        },
+        "symbol": "KARURVYSYA"
+      }
+    },
+    "2018-01-31": {
+      "INE081A01012": {
+        "rights_issue": {
+          "day": "2018-01-31",
+          "factor": 0.9401655208543388,
+          "isin": "INE081A01012",
+          "prior_close": 775.85,
+          "sha256": "7355c4839750b41278cfc5228b2d2ca60214d486c6cad988327a267770ca720c",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018",
+          "subjects": [
+            " Rights - 4:25 Fully Paid Up Shares @ Premium Rs 500/- Per Share / 2:25 Partly Paid Up Shares @ Premium Rs 605/- Per Share"
+          ],
+          "terms": [
+            {
+              "new": 4,
+              "old": 25,
+              "price": 501.0
+            },
+            {
+              "new": 2,
+              "old": 25,
+              "price": 606.0
+            }
+          ],
+          "terp": 729.4274193548388
+        },
+        "symbol": "TATASTEEL"
+      },
+      "INE140A01024": {
+        "rights_issue": {
+          "day": "2018-01-31",
+          "factor": 0.9941730364962624,
+          "isin": "INE140A01024",
+          "prior_close": 2766.95,
+          "sha256": "7355c4839750b41278cfc5228b2d2ca60214d486c6cad988327a267770ca720c",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018",
+          "subjects": [
+            " Rights 1:23 @ Premium Rs 2378/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 23,
+              "price": 2380.0
+            }
+          ],
+          "terp": 2750.827083333333
+        },
+        "symbol": "PEL"
+      }
+    },
+    "2018-02-09": {
+      "INE274G01010": {
+        "rights_issue": {
+          "day": "2018-02-09",
+          "factor": 0.9989868066979704,
+          "isin": "INE274G01010",
+          "prior_close": 241.55,
+          "sha256": "7355c4839750b41278cfc5228b2d2ca60214d486c6cad988327a267770ca720c",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018",
+          "subjects": [
+            " Rights 3:16 @ Premium Rs 238/-"
+          ],
+          "terms": [
+            {
+              "new": 3,
+              "old": 16,
+              "price": 240.0
+            }
+          ],
+          "terp": 241.30526315789476
+        },
+        "symbol": "IBVENTURES"
+      }
+    },
+    "2019-03-29": {
+      "INE669E01016": {
+        "rights_issue": {
+          "day": "2019-03-29",
+          "factor": 0.604,
+          "isin": "INE669E01016",
+          "prior_close": 29.0,
+          "sha256": "4280bf542abada37b9f4cb4258c457b2a890abcadc28788e04c92ddb62297a7b",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2019&to_date=31-12-2019",
+          "subjects": [
+            " Rights 87:38 @ Premium Of Rs 2.50 Per Share"
+          ],
+          "terms": [
+            {
+              "new": 87,
+              "old": 38,
+              "price": 12.5
+            }
+          ],
+          "terp": 17.516
+        },
+        "symbol": "IDEA"
+      }
+    },
+    "2019-04-23": {
+      "INE397D01024": {
+        "rights_issue": {
+          "day": "2019-04-23",
+          "factor": 0.9181786717429216,
+          "isin": "INE397D01024",
+          "prior_close": 349.4,
+          "sha256": "4280bf542abada37b9f4cb4258c457b2a890abcadc28788e04c92ddb62297a7b",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2019&to_date=31-12-2019",
+          "subjects": [
+            " Rights 19:67 @ Premium Rs 215 Per Share"
+          ],
+          "terms": [
+            {
+              "new": 19,
+              "old": 67,
+              "price": 220.0
+            }
+          ],
+          "terp": 320.81162790697675
+        },
+        "symbol": "BHARTIARTL"
+      }
+    },
+    "2019-12-30": {
+      "INE140A01024": {
+        "rights_issue": {
+          "day": "2019-12-30",
+          "factor": 0.9761428238234284,
+          "isin": "INE140A01024",
+          "prior_close": 1632.9,
+          "sha256": "4280bf542abada37b9f4cb4258c457b2a890abcadc28788e04c92ddb62297a7b",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2019&to_date=31-12-2019",
+          "subjects": [
+            " Rights 11:83 @ Premium Rs 1298/-"
+          ],
+          "terms": [
+            {
+              "new": 11,
+              "old": 83,
+              "price": 1300.0
+            }
+          ],
+          "terp": 1593.9436170212764
+        },
+        "symbol": "PEL"
+      }
+    },
+    "2020-05-13": {
+      "INE002A01018": {
+        "rights_issue": {
+          "day": "2020-05-13",
+          "factor": 0.990609683961467,
+          "isin": "INE002A01018",
+          "prior_close": 1479.25,
+          "sha256": "a7b88661c66c62aa5614833a1b42b67e5e8b01c89a5a42d38d4cf49c4267f26a",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020",
+          "subjects": [
+            " Rights 1:15 @ Premium Rs 1247"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 15,
+              "price": 1257.0
+            }
+          ],
+          "terp": 1465.359375
+        },
+        "symbol": "RELIANCE"
+      }
+    },
+    "2020-06-30": {
+      "INE647O01011": {
+        "rights_issue": {
+          "day": "2020-06-30",
+          "factor": 0.9857069840458546,
+          "isin": "INE647O01011",
+          "prior_close": 127.4,
+          "sha256": "a7b88661c66c62aa5614833a1b42b67e5e8b01c89a5a42d38d4cf49c4267f26a",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020",
+          "subjects": [
+            " Rights 9:77 Partly Paid @ Premium Rs 100/-"
+          ],
+          "terms": [
+            {
+              "new": 9,
+              "old": 77,
+              "price": 110.0
+            }
+          ],
+          "terp": 125.57906976744188
+        },
+        "symbol": "ABFRL"
+      }
+    },
+    "2020-07-09": {
+      "INE721A01013": {
+        "rights_issue": {
+          "day": "2020-07-09",
+          "factor": 0.9732609615498359,
+          "isin": "INE721A01013",
+          "prior_close": 757.9,
+          "sha256": "a7b88661c66c62aa5614833a1b42b67e5e8b01c89a5a42d38d4cf49c4267f26a",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020",
+          "subjects": [
+            " Rights 3:26 @ Premium Rs 560/-"
+          ],
+          "terms": [
+            {
+              "new": 3,
+              "old": 26,
+              "price": 562.0
+            }
+          ],
+          "terp": 737.6344827586206
+        },
+        "symbol": "SRTRANSFIN"
+      }
+    },
+    "2020-07-22": {
+      "INE774D01024": {
+        "rights_issue": {
+          "day": "2020-07-22",
+          "factor": 0.609697235629662,
+          "isin": "INE774D01024",
+          "prior_close": 227.9,
+          "sha256": "a7b88661c66c62aa5614833a1b42b67e5e8b01c89a5a42d38d4cf49c4267f26a",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020",
+          "subjects": [
+            " Rights 1:1 @ Premium Rs 48/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 1,
+              "price": 50.0
+            }
+          ],
+          "terp": 138.95
+        },
+        "symbol": "M&MFIN"
+      }
+    },
+    "2020-07-23": {
+      "INE852F01015": {
+        "rights_issue": {
+          "day": "2020-07-23",
+          "factor": 0.9726124091197854,
+          "isin": "INE852F01015",
+          "prior_close": 91.4,
+          "sha256": "a7b88661c66c62aa5614833a1b42b67e5e8b01c89a5a42d38d4cf49c4267f26a",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020",
+          "subjects": [
+            " Rights 4:27 @ Premium Rs 62/-"
+          ],
+          "terms": [
+            {
+              "new": 4,
+              "old": 27,
+              "price": 72.0
+            }
+          ],
+          "terp": 88.8967741935484
+        },
+        "symbol": "GDL"
+      }
+    },
+    "2021-01-21": {
+      "INE498L01015": {
+        "rights_issue": {
+          "day": "2021-01-21",
+          "factor": 0.9301136994926114,
+          "isin": "INE498L01015",
+          "prior_close": 103.85,
+          "sha256": "291fbc6277d45c324f133f29cbbffe3f69501e70cb04acb5ddcf82b0f0cb8d0c",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021",
+          "subjects": [
+            " Rights 17:74@ Premium Rs 55 Per Share"
+          ],
+          "terms": [
+            {
+              "new": 17,
+              "old": 74,
+              "price": 65.0
+            }
+          ],
+          "terp": 96.59230769230768
+        },
+        "symbol": "L&TFH"
+      }
+    },
+    "2021-09-27": {
+      "INE397D01024": {
+        "rights_issue": {
+          "day": "2021-09-27",
+          "factor": 0.9815706428635831,
+          "isin": "INE397D01024",
+          "prior_close": 739.4,
+          "sha256": "291fbc6277d45c324f133f29cbbffe3f69501e70cb04acb5ddcf82b0f0cb8d0c",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021",
+          "subjects": [
+            " Rights 1:14 @ Premium Rs 530/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 14,
+              "price": 535.0
+            }
+          ],
+          "terp": 725.7733333333333
+        },
+        "symbol": "BHARTIARTL"
+      }
+    },
+    "2021-11-11": {
+      "INE053A01029": {
+        "rights_issue": {
+          "day": "2021-11-11",
+          "factor": 0.96967022758941,
+          "isin": "INE053A01029",
+          "prior_close": 215.3,
+          "sha256": "291fbc6277d45c324f133f29cbbffe3f69501e70cb04acb5ddcf82b0f0cb8d0c",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021",
+          "subjects": [
+            " Rights 1:9 @ Premium Rs 149/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 9,
+              "price": 150.0
+            }
+          ],
+          "terp": 208.76999999999998
+        },
+        "symbol": "INDHOTEL"
+      }
+    },
+    "2022-03-08": {
+      "INE049B01025": {
+        "rights_issue": {
+          "day": "2022-03-08",
+          "factor": 0.9218334934719945,
+          "isin": "INE049B01025",
+          "prior_close": 340.25,
+          "sha256": "6051a80636c8a827eadfbe14c3ee3cd535058df5455785dff1048e0e36aec98a",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022",
+          "subjects": [
+            "Rights 3:10@ Premium Rs 220 Per Share"
+          ],
+          "terms": [
+            {
+              "new": 3,
+              "old": 10,
+              "price": 225.0
+            }
+          ],
+          "terp": 313.65384615384613
+        },
+        "symbol": "WOCKPHARMA"
+      }
+    },
+    "2022-10-03": {
+      "INE040H01021": {
+        "rights_issue": {
+          "day": "2022-10-03",
+          "factor": 0.9182139699381078,
+          "isin": "INE040H01021",
+          "prior_close": 8.7,
+          "sha256": "6051a80636c8a827eadfbe14c3ee3cd535058df5455785dff1048e0e36aec98a",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022",
+          "subjects": [
+            "Rights 5:21 @ Premium Rs 3/-"
+          ],
+          "terms": [
+            {
+              "new": 5,
+              "old": 21,
+              "price": 5.0
+            }
+          ],
+          "terp": 7.988461538461537
+        },
+        "symbol": "SUZLON"
+      }
+    },
+    "2023-04-05": {
+      "INE572E01012": {
+        "rights_issue": {
+          "day": "2023-04-05",
+          "factor": 0.8282403045348337,
+          "isin": "INE572E01012",
+          "prior_close": 540.9,
+          "sha256": "b1b8c68277b86e53e735802a444cd5e58107ad34f698c52197c66026a1c04c91",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023",
+          "subjects": [
+            "Rights 29:54@ Premium Rs 265/-"
+          ],
+          "terms": [
+            {
+              "new": 29,
+              "old": 54,
+              "price": 275.0
+            }
+          ],
+          "terp": 447.9951807228915
+        },
+        "symbol": "PNBHOUSING"
+      }
+    },
+    "2024-01-10": {
+      "INE047A01021": {
+        "rights_issue": {
+          "day": "2024-01-10",
+          "factor": 0.9960395365448536,
+          "isin": "INE047A01021",
+          "prior_close": 2064.05,
+          "sha256": "bd1c34bbd8b199cb13dc85d0b0a35422e081d4d966c7fbed8c898a312e3fa62e",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024",
+          "subjects": [
+            "Rights 6:179 @ Premium Rs 1810/-"
+          ],
+          "terms": [
+            {
+              "new": 6,
+              "old": 179,
+              "price": 1812.0
+            }
+          ],
+          "terp": 2055.875405405405
+        },
+        "symbol": "GRASIM"
+      }
+    },
+    "2024-02-01": {
+      "INE148I01020": {
+        "rights_issue": {
+          "day": "2024-02-01",
+          "factor": 0.8913857677902622,
+          "isin": "INE148I01020",
+          "prior_close": 222.5,
+          "sha256": "bd1c34bbd8b199cb13dc85d0b0a35422e081d4d966c7fbed8c898a312e3fa62e",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024",
+          "subjects": [
+            "Rights 1:2 @ Premium Rs 148/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 2,
+              "price": 150.0
+            }
+          ],
+          "terp": 198.33333333333334
+        },
+        "symbol": "IBULHSGFIN"
+      }
+    },
+    "2024-02-27": {
+      "INE683A01023": {
+        "rights_issue": {
+          "day": "2024-02-27",
+          "factor": 0.918598382749326,
+          "isin": "INE683A01023",
+          "prior_close": 37.1,
+          "sha256": "bd1c34bbd8b199cb13dc85d0b0a35422e081d4d966c7fbed8c898a312e3fa62e",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024",
+          "subjects": [
+            "Rights 1:4 @ Premium Rs 21/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 4,
+              "price": 22.0
+            }
+          ],
+          "terp": 34.08
+        },
+        "symbol": "SOUTHBANK"
+      }
+    },
+    "2024-06-04": {
+      "INE020B01018": {
+        "quarantine_release": {
+          "close": 452.2,
+          "convention_version": "stage3-v1",
+          "day": "2024-06-04",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "98104a5ab9a65f469224adcc1480a77e58339c4123475c789a29b30ef7d6f5c0",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_03062024.csv"
+          },
+          "eod_master": {
+            "ceiling": 497.4,
+            "floor": 407.0,
+            "sha256": "072addc7036eb6f6c9cc31d729326b8c84532392de1e8b24550b61f0ca8da449",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_04062024.csv.gz"
+          },
+          "isin": "INE020B01018",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            594.0,
+            594.0,
+            446.0,
+            452.2
+          ],
+          "open": 594.0,
+          "opening_band": {
+            "ceiling": 664.95,
+            "floor": 544.05,
+            "sha256": "29871870113c3d0a471acb642a4b479fc54e9254ebb0abf64308118b00b488e5",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_03062024.csv.gz"
+          },
+          "prior_close": 604.5,
+          "source": {
+            "sha256": "436b60d00d22c0f304397928af2b5c6a748aa75fff0e2f7c2a116c85cdd5f953",
+            "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JUN/cm04JUN2024bhav.csv.zip"
+          },
+          "symbol": "RECLTD"
+        },
+        "symbol": "RECLTD"
+      },
+      "INE114A01011": {
+        "quarantine_release": {
+          "close": 133.05,
+          "convention_version": "stage3-v1",
+          "day": "2024-06-04",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "98104a5ab9a65f469224adcc1480a77e58339c4123475c789a29b30ef7d6f5c0",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_03062024.csv"
+          },
+          "eod_master": {
+            "ceiling": 146.35,
+            "floor": 119.75,
+            "sha256": "072addc7036eb6f6c9cc31d729326b8c84532392de1e8b24550b61f0ca8da449",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_04062024.csv.gz"
+          },
+          "isin": "INE114A01011",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            164.9,
+            164.9,
+            124.8,
+            133.05
+          ],
+          "open": 164.9,
+          "opening_band": {
+            "ceiling": 182.95,
+            "floor": 149.75,
+            "sha256": "29871870113c3d0a471acb642a4b479fc54e9254ebb0abf64308118b00b488e5",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_03062024.csv.gz"
+          },
+          "prior_close": 166.35,
+          "source": {
+            "sha256": "436b60d00d22c0f304397928af2b5c6a748aa75fff0e2f7c2a116c85cdd5f953",
+            "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JUN/cm04JUN2024bhav.csv.zip"
+          },
+          "symbol": "SAIL"
+        },
+        "symbol": "SAIL"
+      },
+      "INE134E01011": {
+        "quarantine_release": {
+          "close": 426.75,
+          "convention_version": "stage3-v1",
+          "day": "2024-06-04",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "98104a5ab9a65f469224adcc1480a77e58339c4123475c789a29b30ef7d6f5c0",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_03062024.csv"
+          },
+          "eod_master": {
+            "ceiling": 469.4,
+            "floor": 384.1,
+            "sha256": "072addc7036eb6f6c9cc31d729326b8c84532392de1e8b24550b61f0ca8da449",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_04062024.csv.gz"
+          },
+          "isin": "INE134E01011",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            544.9,
+            544.9,
+            416.1,
+            426.75
+          ],
+          "open": 544.9,
+          "opening_band": {
+            "ceiling": 610.25,
+            "floor": 499.35,
+            "sha256": "29871870113c3d0a471acb642a4b479fc54e9254ebb0abf64308118b00b488e5",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_03062024.csv.gz"
+          },
+          "prior_close": 554.8,
+          "source": {
+            "sha256": "436b60d00d22c0f304397928af2b5c6a748aa75fff0e2f7c2a116c85cdd5f953",
+            "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JUN/cm04JUN2024bhav.csv.zip"
+          },
+          "symbol": "PFC"
+        },
+        "symbol": "PFC"
+      },
+      "INE257A01026": {
+        "quarantine_release": {
+          "close": 246.55,
+          "convention_version": "stage3-v1",
+          "day": "2024-06-04",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "98104a5ab9a65f469224adcc1480a77e58339c4123475c789a29b30ef7d6f5c0",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_03062024.csv"
+          },
+          "eod_master": {
+            "ceiling": 271.2,
+            "floor": 221.9,
+            "sha256": "072addc7036eb6f6c9cc31d729326b8c84532392de1e8b24550b61f0ca8da449",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_04062024.csv.gz"
+          },
+          "isin": "INE257A01026",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            311.05,
+            311.05,
+            224.05,
+            246.55
+          ],
+          "open": 311.05,
+          "opening_band": {
+            "ceiling": 342.55,
+            "floor": 280.3,
+            "sha256": "29871870113c3d0a471acb642a4b479fc54e9254ebb0abf64308118b00b488e5",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_03062024.csv.gz"
+          },
+          "prior_close": 311.45,
+          "source": {
+            "sha256": "436b60d00d22c0f304397928af2b5c6a748aa75fff0e2f7c2a116c85cdd5f953",
+            "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JUN/cm04JUN2024bhav.csv.zip"
+          },
+          "symbol": "BHEL"
+        },
+        "symbol": "BHEL"
+      },
+      "INE742F01042": {
+        "quarantine_release": {
+          "close": 1248.95,
+          "convention_version": "stage3-v1",
+          "day": "2024-06-04",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "98104a5ab9a65f469224adcc1480a77e58339c4123475c789a29b30ef7d6f5c0",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_03062024.csv"
+          },
+          "eod_master": {
+            "ceiling": 1373.8,
+            "floor": 1124.05,
+            "sha256": "072addc7036eb6f6c9cc31d729326b8c84532392de1e8b24550b61f0ca8da449",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_04062024.csv.gz"
+          },
+          "isin": "INE742F01042",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            1558.0,
+            1558.0,
+            1188.0,
+            1248.95
+          ],
+          "open": 1558.0,
+          "opening_band": {
+            "ceiling": 1742.3,
+            "floor": 1425.55,
+            "sha256": "29871870113c3d0a471acb642a4b479fc54e9254ebb0abf64308118b00b488e5",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_03062024.csv.gz"
+          },
+          "prior_close": 1583.95,
+          "source": {
+            "sha256": "436b60d00d22c0f304397928af2b5c6a748aa75fff0e2f7c2a116c85cdd5f953",
+            "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JUN/cm04JUN2024bhav.csv.zip"
+          },
+          "symbol": "ADANIPORTS"
+        },
+        "symbol": "ADANIPORTS"
+      }
+    },
+    "2024-06-19": {
+      "INE671H01015": {
+        "rights_issue": {
+          "day": "2024-06-19",
+          "factor": 0.9733348709333319,
+          "isin": "INE671H01015",
+          "prior_close": 2159.7,
+          "sha256": "bd1c34bbd8b199cb13dc85d0b0a35422e081d4d966c7fbed8c898a312e3fa62e",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024",
+          "subjects": [
+            "Rights 6:47 @ Premium Rs 1641/-"
+          ],
+          "terms": [
+            {
+              "new": 6,
+              "old": 47,
+              "price": 1651.0
+            }
+          ],
+          "terp": 2102.111320754717
+        },
+        "symbol": "SOBHA"
+      }
+    },
+    "2024-07-26": {
+      "INE192A01025": {
+        "rights_issue": {
+          "day": "2024-07-26",
+          "factor": 0.9877229305146926,
+          "isin": "INE192A01025",
+          "prior_close": 1223.6,
+          "sha256": "bd1c34bbd8b199cb13dc85d0b0a35422e081d4d966c7fbed8c898a312e3fa62e",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024",
+          "subjects": [
+            "Rights 1:26 @ Premium Rs 817/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 26,
+              "price": 818.0
+            }
+          ],
+          "terp": 1208.5777777777778
+        },
+        "symbol": "TATACONSUM"
+      }
+    },
+    "2024-11-21": {
+      "INE423A01024": {
+        "quarantine_release": {
+          "close": 2183.65,
+          "convention_version": "stage3-v1",
+          "day": "2024-11-21",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "2c89de1f126a1bca61ff7f18e90f0c4e7349e00da5bb442bc4da7d967be17385",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_19112024.csv"
+          },
+          "eod_master": {
+            "ceiling": 2402.0,
+            "floor": 1965.3,
+            "sha256": "3a88bd1a6ef35ae0cb456b936f766903b4bbc1349e8a14fbf5bf045676413025",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_21112024.csv.gz"
+          },
+          "isin": "INE423A01024",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            2539.35,
+            2539.35,
+            2155.05,
+            2183.65
+          ],
+          "open": 2539.35,
+          "opening_band": {
+            "ceiling": 3103.65,
+            "floor": 2539.35,
+            "sha256": "f14ddea67e92c9288d243bf497a27a78ec1d3b442bbf129caa1ff93a9704192a",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_19112024.csv.gz"
+          },
+          "prior_close": 2821.5,
+          "source": {
+            "sha256": "2dcc93cce6d1a34523817a78a26bf098fd46f5889f8f63457ed09c27bb7190e8",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20241121_F_0000.csv.zip"
+          },
+          "symbol": "ADANIENT"
+        },
+        "symbol": "ADANIENT"
+      }
+    },
+    "2024-11-26": {
+      "INE628A01036": {
+        "rights_issue": {
+          "day": "2024-11-26",
+          "factor": 0.9592432992309872,
+          "isin": "INE628A01036",
+          "prior_close": 568.55,
+          "sha256": "bd1c34bbd8b199cb13dc85d0b0a35422e081d4d966c7fbed8c898a312e3fa62e",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024",
+          "subjects": [
+            "Rights 1:8 @ Premium Rs 358/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 8,
+              "price": 360.0
+            }
+          ],
+          "terp": 545.3777777777777
+        },
+        "symbol": "UPL"
+      }
+    },
+    "2024-11-29": {
+      "INE364U01010": {
+        "quarantine_release": {
+          "close": 1323.9,
+          "convention_version": "stage3-v1",
+          "day": "2024-11-29",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "4a0a9790ad750406e29cb7cf50ee8b557aeab95a846b26bf0821748954310a32",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_28112024.csv"
+          },
+          "eod_master": {
+            "ceiling": 1456.25,
+            "floor": 1191.55,
+            "sha256": "2ed1f1c1c26d6dbb37b9568c36e107f0dce9dee9c6a490daf3b3e2b291efc80b",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_29112024.csv.gz"
+          },
+          "isin": "INE364U01010",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            1149.0,
+            1368.0,
+            1138.5,
+            1323.9
+          ],
+          "open": 1149.0,
+          "opening_band": {
+            "ceiling": 1195.9,
+            "floor": 978.5,
+            "sha256": "e98a48c3b72fd6b8cfebf69c56e63340b68c8af4e2e8ee3721c3ad197ae057d3",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_28112024.csv.gz"
+          },
+          "prior_close": 1087.2,
+          "source": {
+            "sha256": "baf536a29884e35f8a02bf920ff22fad9ad0ef33102ef665662bd22245226a80",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20241129_F_0000.csv.zip"
+          },
+          "symbol": "ADANIGREEN"
+        },
+        "symbol": "ADANIGREEN"
+      }
+    },
+    "2025-01-24": {
+      "INE136B01020": {
+        "quarantine_release": {
+          "close": 1344.9,
+          "convention_version": "stage3-v1",
+          "day": "2025-01-24",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "e8cc5dc829ed560fe92533efba9abe3ca9ffff1d4b62d8aa9c17bc4fcfc85e5e",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_23012025.csv"
+          },
+          "eod_master": {
+            "ceiling": 1479.35,
+            "floor": 1210.45,
+            "sha256": "a6dab5e4dace10501fb25de8e0c3498238029b066ca0e21615221438842d1ac4",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_24012025.csv.gz"
+          },
+          "isin": "INE136B01020",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            1621.1,
+            1621.1,
+            1328.85,
+            1344.9
+          ],
+          "open": 1621.1,
+          "opening_band": {
+            "ceiling": 1930.75,
+            "floor": 1579.75,
+            "sha256": "a5d80f643a0a6fc9eddce72eb6d6b6db9568a797be943cf214e76fd9ace20bdd",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_23012025.csv.gz"
+          },
+          "prior_close": 1755.25,
+          "source": {
+            "sha256": "a43719006dbac688347d3e7d0244a8978909bc876b7e9a84062478df56afb64c",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250124_F_0000.csv.zip"
+          },
+          "symbol": "CYIENT"
+        },
+        "symbol": "CYIENT"
+      }
+    },
+    "2025-02-27": {
+      "INE878B01027": {
+        "quarantine_release": {
+          "close": 2999.05,
+          "convention_version": "stage3-v1",
+          "day": "2025-02-27",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "918bd3faebc1df5ac986a29ecc9203f2d6c1d6098edc650bd7023e8682755450",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_25022025.csv"
+          },
+          "eod_master": {
+            "ceiling": 3298.95,
+            "floor": 2699.15,
+            "sha256": "58d03992b3595740f40b9667ebbb4a9943aa6aed7c71786fe755a88ed0120cb0",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_27022025.csv.gz"
+          },
+          "isin": "INE878B01027",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            3450.0,
+            3450.0,
+            2974.4,
+            2999.05
+          ],
+          "open": 3450.0,
+          "opening_band": {
+            "ceiling": 4177.6,
+            "floor": 3418.1,
+            "sha256": "e255b1d1391f1d4598fe387e6482b5e1dcbd37e34e6dea8e9d91d156eb934457",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_25022025.csv.gz"
+          },
+          "prior_close": 3797.85,
+          "source": {
+            "sha256": "e0f8d2b6eb79a24e66e2560210357410b129465f8346ae039f979539c7cd7b01",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250227_F_0000.csv.zip"
+          },
+          "symbol": "KEI"
+        },
+        "symbol": "KEI"
+      }
+    },
+    "2025-03-11": {
+      "INE095A01012": {
+        "quarantine_release": {
+          "close": 655.95,
+          "convention_version": "stage3-v1",
+          "day": "2025-03-11",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "e1e7131e38c9cc0a73e4f9b44955d99ece11460aa15e9e8f2077e306ed990472",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_10032025.csv"
+          },
+          "eod_master": {
+            "ceiling": 721.5,
+            "floor": 590.35,
+            "sha256": "bd742d271cbbb24abbc053d2702f3dd710e77ecb4ab369a34675a385e68ae501",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_11032025.csv.gz"
+          },
+          "isin": "INE095A01012",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            810.45,
+            810.45,
+            649.0,
+            655.95
+          ],
+          "open": 810.45,
+          "opening_band": {
+            "ceiling": 990.55,
+            "floor": 810.45,
+            "sha256": "b8edb4aa6fbfe468dd962bf7d1c3d259c9d05faba9794c7b479d4cea75754573",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_10032025.csv.gz"
+          },
+          "prior_close": 900.5,
+          "source": {
+            "sha256": "370b4fdf2db0270549f9ada15dd412b1e325f12e7cd83d76d12fc4f2e9b3c2fc",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250311_F_0000.csv.zip"
+          },
+          "symbol": "INDUSINDBK"
+        },
+        "symbol": "INDUSINDBK"
+      }
+    },
+    "2025-05-14": {
+      "INE774D01024": {
+        "rights_issue": {
+          "day": "2025-05-14",
+          "factor": 0.9729917197728357,
+          "isin": "INE774D01024",
+          "prior_close": 256.3,
+          "sha256": "44bf71dfac764fe28533fe7f646945279b699260aafcefd7ea877a25c8efb3af",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025",
+          "subjects": [
+            "Rights 1:8 @ Premium Rs 192/-"
+          ],
+          "terms": [
+            {
+              "new": 1,
+              "old": 8,
+              "price": 194.0
+            }
+          ],
+          "terp": 249.3777777777778
+        },
+        "symbol": "M&MFIN"
+      }
+    },
+    "2025-07-24": {
+      "INE022Q01020": {
+        "quarantine_release": {
+          "close": 132.32,
+          "convention_version": "stage3-v1",
+          "day": "2025-07-24",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "d748cab443d5d79a8a3ef63deb9ee34ab9c61e17cecce267808f5b2d16d9c306",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_23072025.csv"
+          },
+          "eod_master": {
+            "ceiling": 145.55,
+            "floor": 119.08,
+            "sha256": "94448bb71cda9042a3bd3bb4a6f6f2a6484dc4ff457d198602be27cbc8fd86cd",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_24072025.csv.gz"
+          },
+          "isin": "INE022Q01020",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            169.1,
+            169.1,
+            131.5,
+            132.32
+          ],
+          "open": 169.1,
+          "opening_band": {
+            "ceiling": 206.67,
+            "floor": 169.1,
+            "sha256": "5b6deb4995190647eb41ab4bf152bfbbb5cf94d01f6fe19c65c46bc0b7bcfaa6",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_23072025.csv.gz"
+          },
+          "prior_close": 187.89,
+          "source": {
+            "sha256": "91112dff0fe18034313fc87c6df2f3604c28dabe32a0235f376da1a372e52afe",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250724_F_0000.csv.zip"
+          },
+          "symbol": "IEX"
+        },
+        "symbol": "IEX"
+      }
+    },
+    "2025-07-29": {
+      "INE066P01011": {
+        "rights_issue": {
+          "day": "2025-07-29",
+          "factor": 0.9857298829658856,
+          "isin": "INE066P01011",
+          "prior_close": 157.25,
+          "sha256": "44bf71dfac764fe28533fe7f646945279b699260aafcefd7ea877a25c8efb3af",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025",
+          "subjects": [
+            "Rights 5:78 @ Premium Rs 110/-"
+          ],
+          "terms": [
+            {
+              "new": 5,
+              "old": 78,
+              "price": 120.0
+            }
+          ],
+          "terp": 155.00602409638552
+        },
+        "symbol": "INOXWIND"
+      }
+    },
+    "2025-11-17": {
+      "INE423A01024": {
+        "rights_issue": {
+          "day": "2025-11-17",
+          "factor": 0.9694850603941513,
+          "isin": "INE423A01024",
+          "prior_close": 2516.8,
+          "sha256": "44bf71dfac764fe28533fe7f646945279b699260aafcefd7ea877a25c8efb3af",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025",
+          "subjects": [
+            "Rights 3:25 @ Premium Rs 1799/-"
+          ],
+          "terms": [
+            {
+              "new": 3,
+              "old": 25,
+              "price": 1800.0
+            }
+          ],
+          "terp": 2440.0
+        },
+        "symbol": "ADANIENT"
+      }
+    },
+    "2026-09-24": {
+      "INE417T01026": {
+        "quarantine_release": {
+          "close": 1207.2,
+          "convention_version": "stage3-v1",
+          "day": "2026-09-24",
+          "dynamic_list": {
+            "classification": "No Band",
+            "sha256": "56cd54d5f43898fd47ed7a76d503f60c19bbe4736f5ca41bbaa9c49a28f58d93",
+            "url": "https://nsearchives.nseindia.in/content/equities/sec_list_23092026.csv"
+          },
+          "eod_master": {
+            "ceiling": 1327.9,
+            "floor": 1086.5,
+            "sha256": "760080064417422c096ac3f5eda925071ee2418d2c5a02a095c41b9bc1d37d0a",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_24092026.csv.gz"
+          },
+          "isin": "INE417T01026",
+          "method": "published_dynamic_class_and_same_date_eod_band_reference",
+          "ohlc": [
+            1697.7,
+            1697.7,
+            1207.2,
+            1207.2
+          ],
+          "open": 1697.7,
+          "opening_band": {
+            "ceiling": 2074.9,
+            "floor": 1697.7,
+            "sha256": "582ed378c3a98121b5ca8e05ce1a8c6edaccc58632322124683b6d655fdaa2f1",
+            "url": "https://nsearchives.nseindia.com/content/cm/NSE_CM_security_23092026.csv.gz"
+          },
+          "prior_close": 1886.3,
+          "source": {
+            "sha256": "f6e4d459c5f13bdc123784318522abbae1fbf9a3b5358d333f09984cca94c444",
+            "url": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20260924_F_0000.csv.zip"
+          },
+          "symbol": "POLICYBZR"
+        },
+        "symbol": "POLICYBZR"
+      }
+    },
+    "2026-10-01": {
+      "INE987B01026": {
+        "rights_issue": {
+          "day": "2026-10-01",
+          "factor": 0.9918560357283593,
+          "isin": "INE987B01026",
+          "prior_close": 827.5,
+          "sha256": "e01ddddeeaaa0af4987b8b9bb902262bbb0cee9849107bbd0e84976b57155127",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026",
+          "subjects": [
+            "Rights 2:21 @ Premium Rs 748/-"
+          ],
+          "terms": [
+            {
+              "new": 2,
+              "old": 21,
+              "price": 750.0
+            }
+          ],
+          "terp": 820.7608695652174
+        },
+        "symbol": "NATCOPHARM"
+      }
+    },
+    "2026-10-13": {
+      "INE0LXG01040": {
+        "rights_issue": {
+          "day": "2026-10-13",
+          "factor": 0.9819797375851188,
+          "isin": "INE0LXG01040",
+          "prior_close": 35.68,
+          "sha256": "e01ddddeeaaa0af4987b8b9bb902262bbb0cee9849107bbd0e84976b57155127",
+          "source_url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026",
+          "subjects": [
+            "Rights 2:25 @ Premium Rs 17/-"
+          ],
+          "terms": [
+            {
+              "new": 2,
+              "old": 25,
+              "price": 27.0
+            }
+          ],
+          "terp": 35.03703703703704
+        },
+        "symbol": "OLAELEC"
+      }
+    }
+  },
+  "unresolved_rights": [],
+  "version": "stage3-v1"
+}

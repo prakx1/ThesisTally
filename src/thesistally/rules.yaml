@@ -1,4 +1,4 @@
-version: research-4
+version: r2
 corporate_action_convention: gross-entitlements-v1
 trend:
   fast: 20
@@ -29,6 +29,8 @@ filters:
   min_stop_fraction: 0.03
   max_stop_fraction: 0.10
   max_stop_atr: 2.5
+entries:
+  max_chase_atr: 0.5
 risk:
   capital: 1000000
   fraction: 0.005
@@ -37,6 +39,7 @@ risk:
   max_per_sector: 2
   half_risk_drawdown: 0.06
   pause_drawdown: 0.10
+  resume_regime_sessions: 10
 exits:
   target_r: 2.0
   no_progress_days: 10
@@ -63,4 +66,4 @@ validation:
   confidence: 0.90
   bootstrap_samples: 4000
   bootstrap_seed: 716
-  holdout_months: 18
+  final_test: forward_since_freeze

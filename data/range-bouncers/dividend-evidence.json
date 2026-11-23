@@ -1,0 +1,1266 @@
+{
+  "official_archives": {
+    "actions-2012-01-01_2012-12-31.json": {
+      "sha256": "6122593df6cd3d5b7e609137ae7e297adb267bae9ada2219514971c427ca6b88",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2012&to_date=31-12-2012"
+    },
+    "actions-2013-01-01_2013-12-31.json": {
+      "sha256": "c688ea519c53ef4dfe226abdbb8d5f3e0ed17bcd7ca5f7909dd7ef16b356f506",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2013&to_date=31-12-2013"
+    },
+    "actions-2014-01-01_2014-12-31.json": {
+      "sha256": "936c3bd622e6a0352a0224f48d3be24faad2fe2cde6e19ac66ce691d3a5d34bd",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2014&to_date=31-12-2014"
+    },
+    "actions-2015-01-01_2015-12-31.json": {
+      "sha256": "c55cdf111071990a705765001cce2d8615766474a7408491dd5fd036b605ba23",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2015&to_date=31-12-2015"
+    },
+    "actions-2016-01-01_2016-12-31.json": {
+      "sha256": "75cbff778a8c92011758f3d0fcc2525e77e0b059031f11677fadff66abd722b1",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2016&to_date=31-12-2016"
+    },
+    "actions-2017-01-01_2017-12-31.json": {
+      "sha256": "e068d1fcfa5130c3b6c087b4a33a1d13330c9af7926469e760517c4b885717d0",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2017&to_date=31-12-2017"
+    },
+    "actions-2018-01-01_2018-12-31.json": {
+      "sha256": "7355c4839750b41278cfc5228b2d2ca60214d486c6cad988327a267770ca720c",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018"
+    },
+    "actions-2019-01-01_2019-12-31.json": {
+      "sha256": "4280bf542abada37b9f4cb4258c457b2a890abcadc28788e04c92ddb62297a7b",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2019&to_date=31-12-2019"
+    },
+    "actions-2020-01-01_2020-12-31.json": {
+      "sha256": "a7b88661c66c62aa5614833a1b42b67e5e8b01c89a5a42d38d4cf49c4267f26a",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020"
+    },
+    "actions-2021-01-01_2021-12-31.json": {
+      "sha256": "291fbc6277d45c324f133f29cbbffe3f69501e70cb04acb5ddcf82b0f0cb8d0c",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021"
+    },
+    "actions-2022-01-01_2022-12-31.json": {
+      "sha256": "6051a80636c8a827eadfbe14c3ee3cd535058df5455785dff1048e0e36aec98a",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022"
+    },
+    "actions-2023-01-01_2023-12-31.json": {
+      "sha256": "b1b8c68277b86e53e735802a444cd5e58107ad34f698c52197c66026a1c04c91",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023"
+    },
+    "actions-2024-01-01_2024-12-31.json": {
+      "sha256": "bd1c34bbd8b199cb13dc85d0b0a35422e081d4d966c7fbed8c898a312e3fa62e",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024"
+    },
+    "actions-2025-01-01_2025-12-31.json": {
+      "sha256": "44bf71dfac764fe28533fe7f646945279b699260aafcefd7ea877a25c8efb3af",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025"
+    },
+    "actions-2026-01-01_2026-11-20.json": {
+      "sha256": "e01ddddeeaaa0af4987b8b9bb902262bbb0cee9849107bbd0e84976b57155127",
+      "url": "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+    }
+  },
+  "unresolved_ex_dates": [
+    {
+      "cash_per_share": null,
+      "day": "2012-11-01",
+      "isin": "INE571A01020",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE571A01020"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2012&to_date=31-12-2012"
+      ],
+      "subjects": [
+        "interim dividend"
+      ],
+      "symbol": "IPCALAB"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2013-06-26",
+      "isin": "INE548C01032",
+      "methods": [
+        "unique_dated_EQ_ticker_and_NSDL_issuer"
+      ],
+      "notice_isins": [
+        "INE548C01024"
+      ],
+      "source_urls": [
+        "https://nsearchives.nseindia.com/content/historical/EQUITIES/2013/JUN/cm26JUN2013bhav.csv.zip",
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2013&to_date=31-12-2013"
+      ],
+      "subjects": [
+        "bonus 1:2 and dividend rs.8/- per share"
+      ],
+      "symbol": "EMAMILTD"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2013-07-30",
+      "isin": "IN9155A01020",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "IN9155A01012"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2013&to_date=31-12-2013"
+      ],
+      "subjects": [
+        "annual general meeting and dividend rs.2.10 per share"
+      ],
+      "symbol": "TATAMTRDVR"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2013-11-01",
+      "isin": "INE196A01026",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE196A01026"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2013&to_date=31-12-2013"
+      ],
+      "subjects": [
+        "scheme of arrangement and first interim dividend"
+      ],
+      "symbol": "MARICO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2014-07-09",
+      "isin": "IN9155A01020",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "IN9155A01012"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2014&to_date=31-12-2014"
+      ],
+      "subjects": [
+        "annual general meeting / dividend - rs 2.10/- per share"
+      ],
+      "symbol": "TATAMTRDVR"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2014-07-18",
+      "isin": "INE429C01035",
+      "methods": [
+        "unique_dated_EQ_ticker_and_NSDL_issuer"
+      ],
+      "notice_isins": [
+        "INE429C01027"
+      ],
+      "source_urls": [
+        "https://nsearchives.nseindia.com/content/historical/EQUITIES/2014/JUL/cm18JUL2014bhav.csv.zip",
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2014&to_date=31-12-2014"
+      ],
+      "subjects": [
+        "annual general meeting/dividend rs:- 0.70/- per share"
+      ],
+      "symbol": "SINTEX"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2014-07-23",
+      "isin": "INE522D01027",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE522D01027"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2014&to_date=31-12-2014"
+      ],
+      "subjects": [
+        "annual general meeting / final dividend - re 0.45/- per share (22.5%)"
+      ],
+      "symbol": "MANAPPURAM"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2014-08-13",
+      "isin": "INE522D01027",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE522D01027"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2014&to_date=31-12-2014"
+      ],
+      "subjects": [
+        "interim dividend - re 0.45/- per share (22.5%)"
+      ],
+      "symbol": "MANAPPURAM"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2015-06-15",
+      "isin": "INE009A01021",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE009A01021"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2015&to_date=31-12-2015"
+      ],
+      "subjects": [
+        "annual general meeting/ dividend - rs 29.50/- per share and bonus 1:1"
+      ],
+      "symbol": "INFY"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2015-07-23",
+      "isin": "INE775A01035",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE775A01035"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2015&to_date=31-12-2015"
+      ],
+      "subjects": [
+        "annual general meeting / dividend - rs 3/- per share / bonus - 1:2"
+      ],
+      "symbol": "MOTHERSUMI"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2016-07-18",
+      "isin": "IN9155A01020",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "IN9155A01012"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2016&to_date=31-12-2016"
+      ],
+      "subjects": [
+        "dividend - re 0.30/- per share"
+      ],
+      "symbol": "TATAMTRDVR"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2017-06-20",
+      "isin": "INE090A01021",
+      "methods": [
+        "unique_dated_EQ_ticker_and_NSDL_issuer"
+      ],
+      "notice_isins": [
+        "INE090A01013"
+      ],
+      "source_urls": [
+        "https://nsearchives.nseindia.com/content/historical/EQUITIES/2017/JUN/cm20JUN2017bhav.csv.zip",
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2017&to_date=31-12-2017"
+      ],
+      "subjects": [
+        "annual general meeting/dividend - rs 2.50 per share/bonus 1:10 (revised)"
+      ],
+      "symbol": "ICICIBANK"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2017-08-16",
+      "isin": "INE647A01010",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE647A01010"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2017&to_date=31-12-2017"
+      ],
+      "subjects": [
+        "interim dividend",
+        "interim dividend - rs 6/- per share"
+      ],
+      "symbol": "SRF"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2017-09-14",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2017&to_date=31-12-2017"
+      ],
+      "subjects": [
+        "annual general meeting/dividend - re 0.05"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2018-03-08",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018"
+      ],
+      "subjects": [
+        "interim dividend - re 0.55 per share (purpose revised)"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2018-05-31",
+      "isin": "INE467B01029",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE467B01029"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018"
+      ],
+      "subjects": [
+        "bonus 1:1 /dividend- rs 29 per share"
+      ],
+      "symbol": "TCS"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2018-06-21",
+      "isin": "INE548C01032",
+      "methods": [
+        "unique_dated_EQ_ticker_and_NSDL_issuer"
+      ],
+      "notice_isins": [
+        "INE548C01024"
+      ],
+      "source_urls": [
+        "https://nsearchives.nseindia.com/content/historical/EQUITIES/2018/JUN/cm21JUN2018bhav.csv.zip",
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018"
+      ],
+      "subjects": [
+        "bonus 1:1/dividend- rs 7 per share"
+      ],
+      "symbol": "EMAMILTD"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2018-06-27",
+      "isin": "INE470Y01017",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE470Y01017"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018"
+      ],
+      "subjects": [
+        "bonus 1:1/ dividend- rs 5 per share"
+      ],
+      "symbol": "NIACL"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2018-07-12",
+      "isin": "INE481Y01014",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE481Y01014"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2018&to_date=31-12-2018"
+      ],
+      "subjects": [
+        "bonus 1:1/dividend- rs 13.5 per share"
+      ],
+      "symbol": "GICRE"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2019-03-20",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2019&to_date=31-12-2019"
+      ],
+      "subjects": [
+        "interim dividend - re 0.675 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2019-04-05",
+      "isin": "INE259A01022",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE259A01022"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2019&to_date=31-12-2019"
+      ],
+      "subjects": [
+        "interim dividend",
+        "interim dividend - rs 7 per share"
+      ],
+      "symbol": "COLPAL"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2019-09-12",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2019&to_date=31-12-2019"
+      ],
+      "subjects": [
+        "dividend - rs 0.15 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2020-03-26",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020"
+      ],
+      "subjects": [
+        "interim dividend - rs 0.75 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2020-09-10",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2020&to_date=31-12-2020"
+      ],
+      "subjects": [
+        "dividend - rs 2.35 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2021-02-17",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.05 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2021-03-25",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021"
+      ],
+      "subjects": [
+        "interim dividend - rs 0.75 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2021-04-29",
+      "isin": "INE239A01016",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE239A01016"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021"
+      ],
+      "subjects": [
+        "annual general meeting/dividend - rs 65 per share",
+        "interim dividend - rs 25 per share"
+      ],
+      "symbol": "NESTLEIND"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2021-05-25",
+      "isin": "INE216A01030",
+      "methods": [
+        "unique_dated_EQ_ticker_and_NSDL_issuer"
+      ],
+      "notice_isins": [
+        "INE216A01014"
+      ],
+      "source_urls": [
+        "https://nsearchives.nseindia.com/content/historical/EQUITIES/2021/MAY/cm25MAY2021bhav.csv.zip",
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021"
+      ],
+      "subjects": [
+        "dividend - rs 12.50 per share pursuant to scheme"
+      ],
+      "symbol": "BRITANNIA"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2021-09-16",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021"
+      ],
+      "subjects": [
+        "dividend - rs 1.425 per sh"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2021-11-10",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2021&to_date=31-12-2021"
+      ],
+      "subjects": [
+        "interim dividend - rs 0.77 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2022-03-09",
+      "isin": "INE205A01025",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE205A01025"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022"
+      ],
+      "subjects": [
+        "interim dividend"
+      ],
+      "symbol": "VEDL"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2022-03-29",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022"
+      ],
+      "subjects": [
+        "interim dividend - rs 0.75 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2022-08-12",
+      "isin": "INE0FS801015",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE0FS801015"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022"
+      ],
+      "subjects": [
+        "annual general meeting/dividend - rs per share"
+      ],
+      "symbol": "MSUMI"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2022-09-15",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022"
+      ],
+      "subjects": [
+        "dividend - rs 2.75 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2022-09-15",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022"
+      ],
+      "subjects": [
+        "dividend - re 0.63 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2022-11-17",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2022&to_date=31-12-2022"
+      ],
+      "subjects": [
+        "interim dividend - re 0.80 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2023-03-21",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023"
+      ],
+      "subjects": [
+        "interim dividend - re 0.75 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2023-07-28",
+      "isin": "IN9155A01020",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "IN9155A01012"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023"
+      ],
+      "subjects": [
+        "dividend - rs 2.10 per share"
+      ],
+      "symbol": "TATAMTRDVR"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2023-08-11",
+      "isin": "INE600L01024",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE600L01024"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023"
+      ],
+      "subjects": [
+        "dividend - rs 6 per share",
+        "interim dividend - rs 6 per share"
+      ],
+      "symbol": "LALPATHLAB"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2023-09-08",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023"
+      ],
+      "subjects": [
+        "dividend - rs 3.10 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2023-09-15",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023"
+      ],
+      "subjects": [
+        "dividend - re 0.70 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2023-11-10",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2023&to_date=31-12-2023"
+      ],
+      "subjects": [
+        "interim dividend - re 0.80 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2024-03-28",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.50 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2024-06-11",
+      "isin": "IN9155A01020",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "IN9155A01012"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024"
+      ],
+      "subjects": [
+        "dividend - rs 3.10 per share & special dividend - rs 3.10 per share"
+      ],
+      "symbol": "TATAMTRDVR"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2024-07-16",
+      "isin": "INE239A01024",
+      "methods": [
+        "unique_dated_EQ_ticker_and_NSDL_issuer"
+      ],
+      "notice_isins": [
+        "INE239A01016"
+      ],
+      "source_urls": [
+        "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20240716_F_0000.csv.zip",
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024"
+      ],
+      "subjects": [
+        "dividend - rs 8.50 per share",
+        "interim dividend - rs 2.75 per share"
+      ],
+      "symbol": "NESTLEIND"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2024-08-22",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024"
+      ],
+      "subjects": [
+        "dividend - rs 0.70 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2024-09-13",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024"
+      ],
+      "subjects": [
+        "dividend - rs 2.65 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2024-11-12",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2024&to_date=31-12-2024"
+      ],
+      "subjects": [
+        "interim dividend - re 0.80 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2025-01-30",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025"
+      ],
+      "subjects": [
+        "interim dividend - rs 2.05 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2025-03-13",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.05 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2025-03-21",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025"
+      ],
+      "subjects": [
+        "interim dividend - re 0.80 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2025-08-14",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.15 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2025-09-08",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025"
+      ],
+      "subjects": [
+        "dividend - re 1.05 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2025-10-24",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.05 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2025-11-19",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2025&to_date=31-12-2025"
+      ],
+      "subjects": [
+        "interim dividend - re 1 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-02-06",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.15 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-03-13",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.05 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-03-27",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.25 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-04-02",
+      "isin": "INE202E01016",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE202E07104"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "interim dividend - re 0.60 per share"
+      ],
+      "symbol": "IREDA"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-07-27",
+      "isin": "INE976I01016",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE976I07138"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "dividend - re 0.57 per share"
+      ],
+      "symbol": "TATACAP"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-07-31",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.25 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-08-17",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "dividend - rs 1.50 per share"
+      ],
+      "symbol": "HUDCO"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-08-21",
+      "isin": "INE619A01035",
+      "methods": [
+        "dated_isin"
+      ],
+      "notice_isins": [
+        "INE619A01035"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "interim dividend - re 0.80 per share",
+        "interim dividend - rs 1.50 per share"
+      ],
+      "symbol": "PATANJALI"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-09-11",
+      "isin": "INE202E01016",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE202E07104"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "dividend - re 0.75 per share"
+      ],
+      "symbol": "IREDA"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-10-23",
+      "isin": "INE053F01010",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE053F07520"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.15 per share"
+      ],
+      "symbol": "IRFC"
+    },
+    {
+      "cash_per_share": null,
+      "day": "2026-11-11",
+      "isin": "INE031A01017",
+      "methods": [
+        "unverified_notice_identity"
+      ],
+      "notice_isins": [
+        "INE031A07873"
+      ],
+      "source_urls": [
+        "https://www.nseindia.in/api/corporates-corporateActions?index=equities&from_date=01-01-2026&to_date=20-11-2026"
+      ],
+      "subjects": [
+        "interim dividend - rs 1.35 per share"
+      ],
+      "symbol": "HUDCO"
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 Design snapshot · 21 November 2026 · Latest completed session 20 November 2026
 
+The current execution revision is r2. The 718-session mechanics report documents its funded and independent books, entry rules and drawdown transitions. [R2 pilot](PILOT_R2_REPORT.md)
+
 ThesisTally is a local research terminal for long swing trades in the Nifty 200. It answers three questions in the same window. **What matched a rule at the close? What would our paper account actually have traded? What did the AI think before the outcome was known?** Each answer has its own record and time of observation.
 
 ```mermaid
@@ -114,9 +116,9 @@ flowchart TB
 | Market conditions | Nifty 50 above its 200 EMA, at least half of eligible members above their 50 EMA, and India VIX at or below 22. |
 | Security eligibility | Check price quality, stop bounds, surveillance and results coverage. The default results blackout excludes an upcoming results event within five calendar days. |
 | Capital and size | Starting equity ₹10 lakh. Budget 0.5% of marked equity at risk per new trade. Divide that budget by planned per-share risk and round down, then cap by available cash, entry costs and remaining portfolio risk. |
-| Concentration and drawdown | Up to eight positions, two per sector, one per ISIN, and 4% total open risk. At 6% drawdown halve new risk. At 10% pause new allocations. |
+| Concentration and drawdown | Up to eight positions, two per sector, one per ISIN, and 4% total open risk. At 6% drawdown halve new risk. At 10% pause new allocations. Ten consecutive passing regime closes restore half risk. A new equity high restores full risk. |
 
-**Two meanings of shadow.** A *shadow call* is a detected setup tracked independently outside the funded paper account, with its exclusion reason. *Shadow AI research* is an advisory opinion on a plan. A funded plan can have a shadow AI verdict. The 20 November journal contains eight funded plans and 16 position-limit exclusions. Its calls retain their original `mvp-2` revision. New default scans use `research-4`. [Portfolio allocation](../src/thesistally/journal.py) · [Ranking](../src/thesistally/ranking.py) · [Archived rule revision](../src/thesistally/revisions/mvp-2.yaml)
+**Two meanings of shadow.** A *shadow call* is a detected setup tracked independently outside the funded paper account, with its exclusion reason. *Shadow AI research* is an advisory opinion on a plan. A funded plan can have a shadow AI verdict. The 20 November journal contains eight funded plans and 16 position-limit exclusions. Its calls retain their original `mvp-2` revision. New default scans use r2. Each pre-existing call retains its saved execution revision. [Portfolio allocation](../src/thesistally/journal.py) · [Ranking](../src/thesistally/ranking.py) · [Archived rule revision](../src/thesistally/revisions/mvp-2.yaml)
 
 ## Execution and the life of a call
 
@@ -137,15 +139,17 @@ stateDiagram-v2
     AwaitingCash --> Closed: Entitlement settled
 ```
 
-**Entry.** The modeled buy is the next open plus slippage. Opening liquidity and the upper price band must allow entry. A fill at or below the stop invalidates the plan. If the remaining gain to target is below twice the risk from the modeled buy to the stop, the call is missed. A later intraday touch of the planned entry does not reopen it.
+**Entry.** The modeled buy is the next open plus slippage. Opening liquidity and the upper price band must allow entry. A raw open at or below the stop invalidates the plan. An open more than half a signal ATR above the close misses. The slipped fill must keep the original stop 3–10% from entry and within 2.5 ATR. The actual target is two risk units above the fill. A later intraday touch of the planned entry does not reopen it.
 
-**While held.** A daily high reaching target takes off half the original quantity, rounded down, or closes a single-share position. The remainder trails the higher of the existing stop, 20 EMA and 10-session low. The engine evaluates target touches before the closing-stop test. This ordering is a daily-bar convention. An intraday path is unavailable.
+**While held.** A daily high reaching target takes off half the original quantity, rounded down, or closes a single-share position. The remainder trails the higher of the existing stop, 20 EMA and 10-session low. If a daily bar reaches both the outstanding target and the stop, the engine records the stop first and schedules a full sale at the next tradable open with slippage. On a stop-only bar the closing price determines whether a sale is due.
 
 **Exit.** A close at or below the applicable stop queues a sale at the next tradable open. Ten sessions without reaching 1R of favourable excursion trigger a time exit. The maximum holding period is 20 sessions, normally exiting at that close if executable. A locked lower band can defer execution. In the diagram, *ExitDue* represents a pending-exit field and event on an active call. A funded call with an unresolved valuation can stop the account’s advance. [Fill and exit engine](../src/thesistally/journal.py) · [Execution regression tests](../tests/test_research.py)
 
 ## Paper account and daily valuation
 
-The Paper Trading tab reads the funded portion of the forward Observations run. A single journal transaction records fills and marks as the session advances. Each fill carries a side, quantity, modeled price and delivery fees. The cost model includes transaction taxes, exchange and regulatory charges, buy-side stamp duty and a sell-side depository charge. Both the Calls tab and the Paper Trading tab therefore refer to the same call ID and the same executions. A user can mark a call Taken or Skipped without changing the automatic paper account.
+The funded view in Paper Trading reads the funded portion of the forward Observations run. A single journal transaction records fills and marks as the session advances. Each fill carries a side, quantity, modeled price and delivery fees. The cost model includes transaction taxes, exchange and regulatory charges, buy-side stamp duty and a sell-side depository charge. Both the Calls tab and the Paper Trading tab therefore refer to the same call ID and the same executions. A user can mark a call Taken or Skipped without changing the automatic paper account.
+
+Press **V** in Paper Trading to compare both entry rules for every new forward signal, including portfolio exclusions. The shadow skips raw opens strictly above signal close + 0.5 × signal ATR(14). An accepted opening fill sets the target to fill + 2 × (fill − original stop). Each leg retains its fills, events and realized net R. The funded balance uses the call’s saved revision. New r2 calls also check stop distance at the actual fill. Symbols still open in either leg continue to receive daily bars.
 
 ```mermaid
 flowchart LR
@@ -245,15 +249,15 @@ flowchart TB
     W --> P["Fresh paper account for each test"]
     P --> G["Per-strategy qualification on mature test cohorts"]
     W --> L["Separate LightGBM versus relative-strength study"]
-    H --> F["Reserved final 18 months"]
-    F --> M["Sealed holdout performance"]
+    F["Rule freeze"] --> N["New forward paper sessions"]
+    N --> M["Final out-of-sample test"]
 ```
 
 **Evaluation design.** The sealed `research-4` study completed nine test windows and a separate 375-session holdout from 21 May 2025 to 20 November 2026. The holdout ledger records consumption by revision. Test windows compare the default five-calendar-day earnings exclusion with a holding-period alternative. Outputs include after-cost R, rupee P&L, cash profit factor, drawdown, exposure and returns alongside the Nifty 200.
 
-**Qualification gates.** Each strategy needs at least 100 closed out-of-sample calls and at least 20 per test window. Mean R must exceed 0.25, the lower bound of the 90% bootstrap interval must exceed zero, and cash profit factor must exceed 1.4. At least two thirds of windows must be positive, including one in which weak-market sessions are the majority. Mature test cohorts determine qualification. The final holdout is reported separately.
+**Qualification gates.** Each strategy needs at least 100 closed out-of-sample calls and at least 20 per test window. Mean R must exceed 0.25, the lower bound of the 90% bootstrap interval must exceed zero, and cash profit factor must exceed 1.4. At least two thirds of windows must be positive, including one in which weak-market sessions are the majority. Mature test cohorts determine qualification. The archived r1 study reported its historical holdout separately. The r2 final test begins after the rule freeze.
 
-**Measured result.** The holdout closed 74 simulated portfolio trades, with −0.270R mean, 0.56 profit factor and approximately ₹69,427 realised net loss. No strategy qualified. The original 35-session diagnostic had only five closed holdout trades and +0.134R mean. The longer sealed study is the reference for the current design.
+**Measured result.** The holdout closed 74 simulated portfolio trades, with −0.270R mean, 0.56 profit factor and approximately ₹69,427 realised net loss. No strategy qualified. The original 35-session diagnostic had only five closed holdout trades and +0.134R mean. Both historical results remain available for comparison with their original rule revisions.
 
 **Ranking experiment.** LightGBM uses detection-time features and a label indicating whether the call reached 2R of favourable excursion. A 20-session training gap limits overlap. Only one window had enough resolved examples. Relative strength closed nine trades at −0.140R mean and the model closed ten at −0.618R. Activation requires at least two comparable windows, 100 closed trades per arm and positive improvement. Relative strength remains active. [Evaluation code](../src/thesistally/evaluation.py) · [Sealed study](../data/backtests/research-4-c8007c0a59b4-dfcd44efeff588fa1ee2.json) · [Ranker comparison](../data/rankers/5ae687f2d13cc38ffd12.json)
 

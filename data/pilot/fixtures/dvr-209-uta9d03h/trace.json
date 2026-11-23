@@ -1,0 +1,339 @@
+{
+  "label": "Seeded plumbing fixture, excluded from all pilot results",
+  "seed": "209 shares, illustrative INR 700 stop, Aug 28 observed close, published 2R rule. No detector signal or sizing inference.",
+  "start": "2024-08-28",
+  "end": "2024-09-26",
+  "preflight_sha256": "c483cfa302f5fbceb0828017d57c937b315dcdbefb47b3c7af9c3a98162d7646",
+  "snapshot_sha256": "462665a5388bd9938f6bd9fa9b557e9943953f5e9ccba01164d6ce0fdcaf31a9",
+  "supplementary_inputs_sha256": "3ef81bd05d7bba00fbea4c7d90e7dab380862f54a7e64168f298b97bd3687657",
+  "sources": {
+    "source_url.pdf": {
+      "url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+      "sha256": "6ec1b01b1265e878e776129c9a27f2feeaed8501594abb23078b382de30cf19c"
+    },
+    "suspension_source.pdf": {
+      "url": "https://nsearchives.nseindia.com/content/circulars/CML63585.pdf",
+      "sha256": "4d7ae41d4fd40dc386bb029c243ea7f63487071297959ab11c40f7ef7b4b19d5"
+    },
+    "credit_source.pdf": {
+      "url": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf",
+      "sha256": "229fcff83c993475bb0cbb22a5211ede3d90c8955dde8c36d9f89ac483b68e89"
+    },
+    "scheme_faq.pdf": {
+      "url": "https://www.tatamotors.com/wp-content/uploads/2024/09/FAQs-Cancellation-of-A-Ordinary-Shares.pdf",
+      "sha256": "c453b979278bfbc6bbf1143da49af63ea0b031c0ab0b42b1fa19a2fab97d97c5"
+    },
+    "trustee_sale.pdf": {
+      "url": "https://cv.tatamotors.com/assets/cv/files/investors/2024/09/NSEBSELETTER-170924.pdf",
+      "sha256": "57a90fa8dad5a3a705ed95257512e782717f4701a6e55ce04b427428d24bf73f"
+    }
+  },
+  "original_levels": {
+    "entry": 746.8,
+    "buy": 746.1728999999999,
+    "stop": 700.0,
+    "target": 840.3999999999999
+  },
+  "fills": [
+    {
+      "id": 1,
+      "call_id": 1,
+      "day": "2024-08-29",
+      "side": "buy",
+      "qty": 209,
+      "price": 746.1728999999999,
+      "fees": 185.18,
+      "isin": "IN9155A01020"
+    },
+    {
+      "id": 2,
+      "call_id": 1,
+      "day": "2024-09-26",
+      "side": "sell",
+      "qty": 146,
+      "price": 970.3146,
+      "fees": 162.31,
+      "isin": "INE155A01022"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "call_id": 1,
+      "day": "2024-08-28",
+      "kind": "detected",
+      "detail": ""
+    },
+    {
+      "id": 2,
+      "call_id": 1,
+      "day": "2024-08-28",
+      "kind": "watching",
+      "detail": "portfolio"
+    },
+    {
+      "id": 3,
+      "call_id": 1,
+      "day": "2024-08-28",
+      "kind": "confirmed",
+      "detail": "Completed daily candle"
+    },
+    {
+      "id": 4,
+      "call_id": 1,
+      "day": "2024-08-29",
+      "kind": "fill",
+      "detail": "buy 209 @ 746.1729, fees 185.18"
+    },
+    {
+      "id": 5,
+      "call_id": 1,
+      "day": "2024-08-29",
+      "kind": "active",
+      "detail": "Next NSE session open"
+    },
+    {
+      "id": 6,
+      "call_id": 1,
+      "day": "2024-08-30",
+      "kind": "corporate_action",
+      "detail": {
+        "convention_version": "gross-entitlements-v1",
+        "effective_date": "2024-09-01",
+        "fractional_cash": null,
+        "last_traded_price": 768.65,
+        "predecessor_isin": "IN9155A01020",
+        "ratio": [
+          7,
+          10
+        ],
+        "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+        "stage": "suspended",
+        "successor_isin": "INE155A01022",
+        "suspension_date": "2024-08-30",
+        "suspension_source": "https://nsearchives.nseindia.com/content/circulars/CML63585.pdf",
+        "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded."
+      }
+    },
+    {
+      "id": 7,
+      "call_id": 1,
+      "day": "2024-09-02",
+      "kind": "corporate_action",
+      "detail": {
+        "convention_version": "gross-entitlements-v1",
+        "effective_date": "2024-09-01",
+        "fraction": 0.3,
+        "fractional_cash": null,
+        "original_qty": 209,
+        "predecessor_isin": "IN9155A01020",
+        "ratio": [
+          7,
+          10
+        ],
+        "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+        "stage": "converted",
+        "successor_isin": "INE155A01022",
+        "successor_qty": 146,
+        "suspension_date": "2024-08-30",
+        "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded.",
+        "translated_levels": {
+          "buy": 1065.9612857142856,
+          "entry": 1066.857142857143,
+          "stop": 1000.0,
+          "target": 1200.5714285714284
+        }
+      }
+    },
+    {
+      "id": 8,
+      "call_id": 1,
+      "day": "2024-09-11",
+      "kind": "exit_due",
+      "detail": "Closing stop breached during compulsory suspension"
+    },
+    {
+      "id": 9,
+      "call_id": 1,
+      "day": "2024-09-25",
+      "kind": "corporate_action",
+      "detail": {
+        "cash_date": "2024-09-25",
+        "convention_version": "gross-entitlements-v1",
+        "credit_source": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf",
+        "credited_date": "2024-09-25",
+        "effective_date": "2024-09-01",
+        "fallback_date": "2024-09-02",
+        "flagged": true,
+        "fraction": 0.3,
+        "fractional_cash": 327.8,
+        "fractional_cash_source": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20240902_F_0000.csv.zip",
+        "outstanding_fractional_estimate": 0,
+        "predecessor_isin": "IN9155A01020",
+        "price_basis": "first_successor_close_fallback",
+        "price_per_share": 1092.65,
+        "ratio": [
+          7,
+          10
+        ],
+        "sensitivity_first_close_cash": 327.8,
+        "sensitivity_zero_fraction_cash_delta": -327.8,
+        "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+        "stage": "credited",
+        "successor_isin": "INE155A01022",
+        "suspension_date": "2024-08-30",
+        "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded.",
+        "tradable_date": "2024-09-26"
+      }
+    },
+    {
+      "id": 10,
+      "call_id": 1,
+      "day": "2024-09-26",
+      "kind": "corporate_action",
+      "detail": {
+        "convention_version": "gross-entitlements-v1",
+        "credit_source": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf",
+        "effective_date": "2024-09-01",
+        "first_tradable_session": "2024-09-26",
+        "fractional_cash": null,
+        "predecessor_isin": "IN9155A01020",
+        "ratio": [
+          7,
+          10
+        ],
+        "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+        "stage": "tradable",
+        "successor_isin": "INE155A01022",
+        "suspension_date": "2024-08-30",
+        "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded."
+      }
+    },
+    {
+      "id": 11,
+      "call_id": 1,
+      "day": "2024-09-26",
+      "kind": "fill",
+      "detail": "sell 146 @ 970.3146, fees 162.31"
+    },
+    {
+      "id": 12,
+      "call_id": 1,
+      "day": "2024-09-26",
+      "kind": "closed",
+      "detail": "Closing stop breached during compulsory suspension"
+    }
+  ],
+  "daily_freeze": [
+    {
+      "day": "2024-08-29",
+      "phase": null,
+      "frozen_value": null
+    },
+    {
+      "day": "2024-08-30",
+      "phase": "suspended",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-02",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-03",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-04",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-05",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-06",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-09",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-10",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-11",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-12",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-13",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-16",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-17",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-18",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-19",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-20",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-23",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-24",
+      "phase": "entitled",
+      "frozen_value": 160647.85
+    },
+    {
+      "day": "2024-09-25",
+      "phase": "credited",
+      "frozen_value": 160320.05000000002
+    },
+    {
+      "day": "2024-09-26",
+      "phase": "trading",
+      "frozen_value": 160320.05000000002
+    }
+  ],
+  "net_inr": -14303.894499999955,
+  "net_r": -1.4822479550314303,
+  "zero_fraction_cash_delta_inr": -327.8,
+  "net_without_fraction_inr": -14631.694499999954,
+  "net_without_fraction_r": -1.5162163878704242
+}

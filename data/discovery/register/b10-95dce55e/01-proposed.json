@@ -1,0 +1,19 @@
+{
+  "evidence": "docs/discovery-families/discovery-v1.json",
+  "family": "discovery-v1",
+  "hypothesis": {
+    "description": "b10 entries in the top fifth of stocks by prior three-year mean net R, minimum five observed trades",
+    "id": "b10-95dce55e",
+    "selector": {
+      "field": "stock",
+      "lookback_years": 3,
+      "min_trades": 5,
+      "top_fraction": 0.2
+    },
+    "strategy": "b10"
+  },
+  "id": "b10-95dce55e",
+  "registration_commit": "fbf15eca292d569c58272217d86dfdbeca29e9d5",
+  "registration_sha256": "bed32ec1ce3713865261602f431a5e00f410955e7f33b7b71818b5b9c18c8cc2",
+  "status": "proposed"
+}

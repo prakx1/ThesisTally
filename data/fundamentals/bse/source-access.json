@@ -1,0 +1,67 @@
+[
+  {
+    "advertised_api": "https://api.bseindia.com/BseIndiaAPI/api",
+    "bytes": 3032,
+    "endpoint": "portal-settings",
+    "media_type": "application/json",
+    "sha256": "8d207dba822031b84905ad30e0230dc7e92f289a6595fbe309ede8dbe1e98f64",
+    "source_date": "Sat, 21 Nov 2026 21:01:40 GMT",
+    "status": 200,
+    "url": "https://www.bseindia.com/assets/data/appConfig.json"
+  },
+  {
+    "bytes": 420,
+    "endpoint": "issuer-master",
+    "media_type": "text/html",
+    "sha256": "5480e9127ccf459cf1567a9fc788077ff7088d78b6175baec6fac7e74ac6d38a",
+    "source_date": "Sat, 21 Nov 2026 21:01:40 GMT",
+    "status": 403,
+    "url": "https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&Scripcode=&industry=&segment=Equity&status=Active"
+  },
+  {
+    "bytes": 442,
+    "endpoint": "historical-results",
+    "media_type": "text/html",
+    "sha256": "0d0747b43847c45296dd5482248a3465a65f4942e7a4c4a6bf482696c53f8feb",
+    "source_date": "Sat, 21 Nov 2026 21:01:41 GMT",
+    "status": 403,
+    "url": "https://api.bseindia.com/BseIndiaAPI/api/Corp_FinanceResult_ng_new/w?SCRIP_CD=500325&FlagDur=7&HFQ=&ISUBGROUP_CODE=&segment=C"
+  },
+  {
+    "bytes": 447,
+    "endpoint": "result-archive",
+    "media_type": "text/html",
+    "sha256": "03ce9d6767755456dcb55787b964b1b46566dd91c0f79b101536eefb9a79ec1d",
+    "source_date": "Sat, 21 Nov 2026 21:01:42 GMT",
+    "status": 403,
+    "url": "https://api.bseindia.com/BseIndiaAPI/api/Corp_Archive_Wthxml_ng_new/w?SCRIP_CD=500325&CATNAME=Result&FROMDT=04%2F01%2F2024&TODT=04%2F30%2F2024&PER=D&SEGMENT=A"
+  },
+  {
+    "bytes": 426,
+    "endpoint": "dated-announcement",
+    "media_type": "text/html",
+    "sha256": "dc6b727f89cbf1e66786f7e04b447577b1bc7f81148850dae27ec81df1fdafa2",
+    "source_date": "Sat, 21 Nov 2026 21:01:43 GMT",
+    "status": 403,
+    "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w?pageno=1&strCat=Result&strPrevDate=20141016&strScrip=532540&strSearch=P&strToDate=20141016&strType=C&subcategory=-1"
+  },
+  {
+    "bytes": 569,
+    "endpoint": "latest-feed",
+    "items": 0,
+    "media_type": "application/rss+xml",
+    "sha256": "d72644ef0a6ddc3b34d9bd5b57e1af98e855ba6a74ed7974664cc945fe6daf59",
+    "source_date": "Sat, 21 Nov 2026 21:01:44 GMT",
+    "status": 200,
+    "url": "https://www.bseindia.com/Data/XML/FinancialResultsFeed.aspx"
+  },
+  {
+    "bytes": 1991231,
+    "endpoint": "filing-protocol",
+    "media_type": "application/pdf",
+    "sha256": "89e62f2c6ffc31eebc744e2b61500c8028fe39bfe58a5c5dfbad955854d4480e",
+    "source_date": "Sat, 21 Nov 2026 21:01:44 GMT",
+    "status": 200,
+    "url": "https://www.bseindia.com/markets/MarketInfo/DownloadAttach.aspx?attachedId=6b163bb8-fbe3-4e14-be9a-47b99f2cfaaf&id=20250523-40"
+  }
+]

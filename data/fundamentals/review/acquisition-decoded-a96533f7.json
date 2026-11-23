@@ -1,0 +1,75 @@
+{
+  "additional_relevant_urls_unplanned": 0,
+  "distinct_archived_files_hashed": 45031,
+  "empty_mirror_receipt_sha256": "af1eb03707bc4c74db429abc40c90e9bcbff9c2066d5ed520abf9133934e1b7f",
+  "first_notice_packages_with_decoded_documents": 15545,
+  "indexed_first_notice_packages": 15546,
+  "indexed_notice_packages_with_no_decoded_documents": [
+    {
+      "sha256": "3e2a9920c5bebee6e19e70d040457399cc6546f31649d3e2a42bf4e876c29478",
+      "url": "https://nsearchives.nseindia.in/corporate/JUBLFOOD_12112020151048_OutcomeBM12Nov2020.pdf"
+    }
+  ],
+  "jubilant_mirror_receipt_sha256": "99ecc8eff8efd157c650da4fc367984f66ad27623efd6039d08f766573062a16",
+  "network_census_sha256": "a96533f7cbbe930b32fc4ff492c8fd28e920806d7819251ce64353abf1115230",
+  "raw_and_readable_notice_overlap": 6340,
+  "rechecked_tables": {
+    "catalogues": 1660,
+    "first_notice": 15546,
+    "historical_path_requests": 797,
+    "mirror_attempts": 743,
+    "notice_requests": 15577,
+    "raw_notice_receipts": 6346,
+    "structured": 28362,
+    "structured_requests": 29062,
+    "transfer_recovery_attempts": 1572
+  },
+  "request_statuses": {
+    "notice_requests": {
+      "archived": 15525,
+      "unavailable": 52
+    },
+    "structured_requests": {
+      "archived": 28362,
+      "unavailable": 700
+    }
+  },
+  "retained_raw_sources_with_unreadable_statements": [
+    {
+      "reason": "No PDF in first results disclosure",
+      "sha256": "8eb311af0f4f295266b0b7589791618c96fd6417dcefffca915dcda971c643be",
+      "url": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_31MAR2011_S_Q4A.zip"
+    },
+    {
+      "reason": "File is not a zip file",
+      "sha256": "435970d3fb58bb6c5cf0e88a6aca02bef9a7a6a2211821c6384ecd74dcfb6745",
+      "url": "https://nsearchives.nseindia.in/corporate/GILSubmissionofFinancialResulsJune302018_15082018000726.zip"
+    },
+    {
+      "reason": "File is not a zip file",
+      "sha256": "abe8c8c59ae7d5f02d2cf3e1cbc0e58f1c2af1fb8d6d728d42dad3a22c986d97",
+      "url": "https://nsearchives.nseindia.in/corporate/JubilantLifeSciencesLtd_Results31032017_23052017164959_678.zip"
+    },
+    {
+      "reason": "File is not a zip file",
+      "sha256": "793174066165ef4ecf6d56fbc8f296fe3a69a5e40ba4c7e9da98447bdd663cf2",
+      "url": "https://nsearchives.nseindia.in/corporate/SEANN_05062020140912.zip"
+    },
+    {
+      "reason": "File is not a zip file",
+      "sha256": "30b47006b46c7bcf6e5f903887cd5b8f52da32ef3bd9a165bbbfc1dcd5844abf",
+      "url": "https://nsearchives.nseindia.in/corporate/accts_29052017210921_532.zip"
+    },
+    {
+      "reason": "File is not a zip file",
+      "sha256": "ea59ff3a97c79c409bee14193f06a2ab4e9101404d1dc7d7d6565a4076a9d806",
+      "url": "https://nsearchives.nseindia.in/corporate/intimationauditedresults31032017_22052017200500.zip"
+    }
+  ],
+  "source_handover_sha256": "e100c6c2cc63f3fb3e5f74bd7d1fe2789dc9051c4454e2258eb348eaa2c90aae",
+  "uncompressed_bytes_hashed": {
+    "catalogues": 1968644918,
+    "notice-objects": 51770039337,
+    "objects": 1871550184
+  }
+}

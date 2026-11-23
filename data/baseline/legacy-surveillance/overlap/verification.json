@@ -1,0 +1,185 @@
+{
+  "dates": {
+    "2024-01-23": {
+      "checks": {
+        "gsm": {
+          "compared": 201,
+          "flagged": 0,
+          "mismatches": []
+        },
+        "long_term_asm": {
+          "compared": 201,
+          "flagged": 3,
+          "mismatches": []
+        },
+        "short_term_asm": {
+          "compared": 201,
+          "flagged": 0,
+          "mismatches": []
+        }
+      },
+      "daily_gsm": {
+        "sha256": "082312b1d8870c732aeb5ff95a1deff2a32872991d18f4a23bf7302f4f4b5c32",
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_23012024.csv"
+      },
+      "next_open": "2024-01-24",
+      "reg_ind": {
+        "sha256": "48aafbc066cddf70f194355d45035b5862e14c71035103ae41906448d18e9c49",
+        "url": "https://nsearchives.nseindia.com/content/cm/REG_IND230124.csv"
+      },
+      "sources": [
+        {
+          "sha256": "b1041b1a24f7082898077bfaefb38f53a4282040606c2ee1ea250f4ec66ee8a4",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60387.zip"
+        },
+        {
+          "sha256": "514a8176a5c07f6aff231f6b38d3476f1d0c98f55d953565449c7a257b078599",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60385.zip"
+        }
+      ]
+    },
+    "2024-01-24": {
+      "checks": {
+        "gsm": {
+          "compared": 201,
+          "flagged": 0,
+          "mismatches": []
+        },
+        "long_term_asm": {
+          "compared": 201,
+          "flagged": 3,
+          "mismatches": []
+        },
+        "short_term_asm": {
+          "compared": 201,
+          "flagged": 1,
+          "mismatches": []
+        }
+      },
+      "daily_gsm": {
+        "sha256": "bd9aa19d1038eea0815f8cf6c222bb2b32b34802e69d5e97c36c5b54403d3772",
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_24012024.csv"
+      },
+      "next_open": "2024-01-25",
+      "reg_ind": {
+        "sha256": "229ca5a4e7f0e25b257a1ad1924efdf9aa20f33adc45b9f586a1b7273b1f9119",
+        "url": "https://nsearchives.nseindia.com/content/cm/REG_IND240124.csv"
+      },
+      "sources": [
+        {
+          "sha256": "6150442d30edf87f3eaccebf443fe71c957e09bfec51e29dad410a2039b609cd",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60401.zip"
+        },
+        {
+          "sha256": "03cb46c30e0f2e7739f3caff30776444cbb0ecd894a726c14d8bf040ba56b0f2",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60399.zip"
+        }
+      ]
+    },
+    "2024-01-25": {
+      "checks": {
+        "gsm": {
+          "compared": 201,
+          "flagged": 0,
+          "mismatches": []
+        },
+        "long_term_asm": {
+          "compared": 201,
+          "flagged": 3,
+          "mismatches": []
+        },
+        "short_term_asm": {
+          "compared": 201,
+          "flagged": 1,
+          "mismatches": []
+        }
+      },
+      "daily_gsm": {
+        "sha256": "58f14d439e3b48835163f421ced92b4ffc10eff41da49d26fc0f8da640528987",
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_25012024.csv"
+      },
+      "next_open": "2024-01-29",
+      "reg_ind": {
+        "sha256": "93b17daaf1846bc29b52ddbcf1168a07b4704027b151656247f7d365b07c6d7f",
+        "url": "https://nsearchives.nseindia.com/content/cm/REG_IND250124.csv"
+      },
+      "sources": [
+        {
+          "sha256": "eb609cee46778b2e2d71131cd120c32b6d68878a47ea31202f2cb191a4b7e677",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60420.zip"
+        },
+        {
+          "sha256": "9e424639c1ef8399884128e9875bf1cd522fabd1fd409fb0f0aef2b21c4fc612",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60419.zip"
+        }
+      ]
+    },
+    "2024-01-29": {
+      "checks": {
+        "gsm": {
+          "compared": 201,
+          "flagged": 0,
+          "mismatches": []
+        },
+        "long_term_asm": {
+          "compared": 0,
+          "flagged": 0,
+          "mismatches": []
+        },
+        "short_term_asm": {
+          "compared": 201,
+          "flagged": 1,
+          "mismatches": []
+        }
+      },
+      "daily_gsm": {
+        "sha256": "d959c9f5d8a8446eb938c30a56ca3450338dede13c87e906acc336068c829312",
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_29012024.csv"
+      },
+      "next_open": "2024-01-30",
+      "reg_ind": {
+        "sha256": "fee9eaba37a70c474c007f950534ddf0694354c26955d0cd0218ca43be97062e",
+        "url": "https://nsearchives.nseindia.com/content/cm/REG_IND290124.csv"
+      },
+      "sources": [
+        {
+          "sha256": "90ec2b8abaf5f61c2b0a00f3db06dec6c79e3fd17bbb466d2e87637adf999a58",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60447.zip"
+        },
+        {
+          "sha256": "7055a9b5699d956db6f2a6ef76994648c51d43c3111ab1dfa749632e4990aa87",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60444.zip"
+        },
+        {
+          "sha256": "44dbbeccaaed798f8c6ed9240c26821bbbf71701626fe2920d1e242c5780c29d",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV60442.zip"
+        }
+      ]
+    }
+  },
+  "vintage_transition": {
+    "circular": {
+      "sha256": "1fb57e81d31dac2fd50a66d3d9eae2775d53190af294555735c6d50376e509d9",
+      "url": "https://nsearchives.nseindia.in/content/circulars/SURV43080.pdf"
+    },
+    "files": {
+      "01012020": {
+        "ref": {
+          "sha256": "5667ddf6f1d5e58a5861638afc58ce5503e8883dd169308949396cc5ff727b4d",
+          "url": "https://nsearchives.nseindia.in/content/equities/sec_list_01012020.csv"
+        },
+        "remark": "GSM - Stage I"
+      },
+      "31122019": {
+        "ref": {
+          "sha256": "ea09852a17435083f54fdd794abe42f4a07a497b34720d0dcfe7a9b28ee1d7f2",
+          "url": "https://nsearchives.nseindia.in/content/equities/sec_list_31122019.csv"
+        },
+        "remark": "-"
+      }
+    },
+    "isin": "INE875R01011",
+    "open_effective": "2020-01-02",
+    "symbol": "BALKRISHNA"
+  }
+}

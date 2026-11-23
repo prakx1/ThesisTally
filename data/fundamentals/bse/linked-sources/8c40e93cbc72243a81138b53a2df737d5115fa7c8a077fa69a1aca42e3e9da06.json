@@ -1,0 +1,17 @@
+{
+  "attempted_at_utc": "2026-11-22T16:21:18.718363+00:00",
+  "bytes": 730,
+  "official_clock_cues": [],
+  "outcome": "BSE attachment unavailable",
+  "requests": [
+    {
+      "status": 406,
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/97330b7e-df7a-4615-a0dd-0fb4468c0fc0.pdf"
+    }
+  ],
+  "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/97330b7e-df7a-4615-a0dd-0fb4468c0fc0.pdf",
+  "server_response_date": "Sun, 22 Nov 2026 16:21:18 GMT",
+  "sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+  "status": 406,
+  "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/97330b7e-df7a-4615-a0dd-0fb4468c0fc0.pdf"
+}

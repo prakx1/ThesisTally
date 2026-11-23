@@ -1,0 +1,104 @@
+{
+  "review": "Independent Codex review of the Range Bouncers preregistered historical experiment",
+  "date": "2026-11-22",
+  "independence": "The reviewer did not write the strategy, simulation or report. Only this audit receipt was added by the reviewer.",
+  "verdict": "Accepted for reporting. Neither target meets the preregistered sample floor. Historical target-hit rates do not establish persistence.",
+  "registration_commit": "8a67849864b4c970d82515d039355ddea3d42e2a",
+  "replay_code_commit": "74e322947e6ca3b1c8b9eff14e31ee15212e3748",
+  "published_report_commit": "8179337",
+  "experiment_register_commit": "b7a146f",
+  "experiment_count": {
+    "this_study": 1,
+    "total_registered": 5,
+    "primary": "C50",
+    "only_sensitivity": "C80"
+  },
+  "identity": {
+    "replay": "d43053dce88276ffba1cac9ad82fa7903d0473a065152d0c310842a1e0055c43",
+    "snapshot_sha256": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+    "replay_sha256": "eb1ebe3e86dbda60ceca3053d23c9ea2c6082732804bd707bb6a0abdb0e8c818",
+    "signal_manifest_sha256": "f2cb2237726c299e11354a07c02f42abf2f3045826c2dc0f770e1853bdee030f",
+    "signals_sha256": "75a5df507783721b9138e1fd2626cef9a3c32dd753d1e26da49011bafef1584d",
+    "holder_cash_events_sha256": "4d9b93761d3c2f200b135a212975e3c34e1b9bdd4bc9bc19cb6d0a0d698d1de0",
+    "report_json_sha256": "986f8f81bc2b1ad318ca24b47cfaf2aaf8a13be8419c9857f494572901884d6d",
+    "markdown_sha256": "db6c7e83e1c7d2d05ed107ac91c5fdc56e7a3aafd05cc69fcd73e958f9eff3cc",
+    "original_r2_sha256": "93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84"
+  },
+  "selection_tests": {
+    "documented_unlisted_placeholder_stock_months": 15,
+    "all_monthly_isins": 23870,
+    "daily_pit_raw_signals": 24549,
+    "daily_setup_predicates": 1992,
+    "monthly_price_selections": 1643,
+    "simple_holder_total_returns": 1471,
+    "simple_holder_total_returns_with_dividends": 1282,
+    "entry_feature_vectors": 104
+  },
+  "execution_tests": {
+    "verified_fees_and_slipped_fills": 10031,
+    "independent_first_close_trigger": 3927,
+    "source_backed_held_cash_payments": 239,
+    "dated_first_close_fractional_cash": 6,
+    "bonus_entitlements_and_delivery_dates": 8,
+    "funded_daily_cash_and_marks": 4902,
+    "matched_persistence_pairs": 40,
+    "total_selected_book_dividend_receipts_vs_ex_date_and_pre_open_quantity": 253,
+    "journal_files_matched_to_published_sha256": 10,
+    "finished_book_windows": 60
+  },
+  "methods": [
+    "Checked every monthly ISIN against the point-in-time membership intervals and every raw daily signal against the contemporary tradable constituents. Matched month-end labels without using future months. The difference of 15 stock-months is exhaustively attributable to documented pre-listing placeholders.",
+    "Joined two overlapping contemporary exchange price panels 160 sessions apart. Independently recomputed 500-session geometry and 250-session traversal counts at the first month-end in each test year for stocks with verifiable overlap. Independently reconstructed simple gross shareholder returns with dated cash reinvestment. Compared daily RSI, ATR and range values using scalar recursions.",
+    "Checked every ledger fill against raw NSE-based opening or scheduled closing marks with 5bp slippage and independently recalculated the fee schedule, including once-per-ISIN/day DP charges in the funded portfolio. Reconstructed funded cash and exposure on every scheduled session. Checked equal risk and stop bounds on ordinary independent orders.",
+    "Replayed first stop, fixed target and time conditions directly from raw closes for uncomplicated completed positions. Reconciled all funded and independent dividend receipts to signed ex-date cash and pre-opening holdings. Independently parsed simple cash terms during ordinary holding periods. Traced selected GAIL and L&T orders to the official allocation, temporary credit and listing dates, restricted units, fractional cash and first-close fallback.",
+    "Counted target hits and full-horizon observable fills per year and cohort directly from first exit-due events and the session calendar. Recomputed the sample floor, profit-factor eligibility, mean-R eligibility and positive-window denominator for every book. No eligible 20-trade sample existed from which to estimate a qualifying bootstrap interval.",
+    "Independently checked the original r2 file hash, the frozen A126 tag commit, and radar report --since-freeze. The frozen report identified the verified tag, zero forward observations and a paper-only account."
+  ],
+  "findings_and_resolution": [
+    {
+      "finding": "NSE misspelled the October 2020 Nestlé dividend; an independently computed January 2021 shareholder return disagreed with the first selector.",
+      "resolution": "Audited archive spellings, cross-checked dated issue aliases and ambiguous notices. Confirmed the repaired January return of 11.2035218561% and reran the independent checks against the final data manifest. Relevant commits b9d4bab, c6086b1 and ee34ddf."
+    },
+    {
+      "finding": "The original publisher could read fresh selector or coverage files without verifying all three against the replay receipt.",
+      "resolution": "c083774 binds these products and the official market identity to the registered replay. Verified the negative regression and final journal fingerprints."
+    },
+    {
+      "finding": "Initial funded 2022 replay ended at GAIL bonus issue. L&T bonus terms also censored 2017 comparison calls.",
+      "resolution": "Final study uses NSE CML53755/FAOP53495 for GAIL, and CML35388 with the issuer record-date notice for L&T. Validated both independently. All 60 book-windows reached their scheduled end. The 56e3cf7b run is superseded."
+    }
+  ],
+  "remaining_limitations": [
+    "The annual action extracts lack reliable event broadcast timestamps. Effective-date observation can be checked, but later notice revisions cannot always be distinguished from the original vintage.",
+    "Three remaining quarantined closes (INDIANB, PNB, ZEEL) censor affected independent comparison calls. No uncertain price path is scored a loss.",
+    "Repeated observations in the same stock and on adjacent days are dependent. Three windows passed the entry-data gate in both persistence cohorts. The direction of the descriptive difference changes with the coverage selection."
+  ],
+  "per_book_qualification": {
+    "C50-funded": {
+      "count_n": 0,
+      "net_mean_r": null,
+      "profit_factor": null,
+      "breadth": 0.0
+    },
+    "C50-range_equal": {
+      "count_n": 0,
+      "net_mean_r": null,
+      "profit_factor": null,
+      "breadth": 0.0
+    },
+    "C80-funded": {
+      "count_n": 0,
+      "net_mean_r": null,
+      "profit_factor": null,
+      "breadth": 0.0
+    },
+    "C80-range_equal": {
+      "count_n": 0,
+      "net_mean_r": null,
+      "profit_factor": null,
+      "breadth": 0.0
+    }
+  },
+  "discrepancies_after_reconciliation": 0,
+  "frozen_a126_commit": "dc8e45c791c4f8485eaa869a6985f492805039b3"
+}

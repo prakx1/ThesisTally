@@ -1,0 +1,42 @@
+{
+  "day": "2018-10-08",
+  "labels": {
+    "CENTRALBK": {
+      "isin": "INE483A01010",
+      "percent": 5,
+      "published": "2018-10-05",
+      "sources": [
+        {
+          "published": "2018-10-05",
+          "sha256": "7b7278d23362d04a2655344d878fd7d4d7067c1eb208e59b0a48484ecc3b128f",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV39067.zip"
+        }
+      ]
+    },
+    "GRAPHITE": {
+      "isin": "INE371A01025",
+      "percent": 5,
+      "published": "2018-10-05",
+      "sources": [
+        {
+          "published": "2018-10-05",
+          "sha256": "7b7278d23362d04a2655344d878fd7d4d7067c1eb208e59b0a48484ecc3b128f",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV39067.zip"
+        }
+      ]
+    },
+    "VAKRANGEE": {
+      "isin": "INE051B01021",
+      "percent": 5,
+      "published": "2018-10-05",
+      "sources": [
+        {
+          "published": "2018-10-05",
+          "sha256": "7b7278d23362d04a2655344d878fd7d4d7067c1eb208e59b0a48484ecc3b128f",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV39067.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2018-10-05"
+}

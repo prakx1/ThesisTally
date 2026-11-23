@@ -1,0 +1,480 @@
+{
+  "scope": "Independent close-verification review and connection to the prospective A126 paper account",
+  "reviewer": "Independent Codex subagent; wrote no strategy, market, tax, replay, scheduler or reporting code for this revision.",
+  "replay_checkout": "78a31aecfd3a4db09ba3e93e3dce8eaf6c2ab194",
+  "evidence": {
+    "PCJEWELLER 2018-02-02": {
+      "date": "2018-02-02",
+      "close": 364.25,
+      "matched_prior_and_day_ohlc_source": "Groww",
+      "same_both_closes_as_Kite": false,
+      "no_NSE_ex_action": true
+    },
+    "BAJFINANCE 2020-03-23": {
+      "date": "2020-03-23",
+      "close": 2266.15,
+      "matched_prior_and_day_ohlc_source": "Groww",
+      "same_both_closes_as_Kite": false,
+      "no_NSE_ex_action": true
+    },
+    "MANAPPURAM 2020-03-25": {
+      "date": "2020-03-25",
+      "close": 101.9,
+      "matched_prior_and_day_ohlc_source": "Groww",
+      "same_both_closes_as_Kite": true,
+      "no_NSE_ex_action": true
+    },
+    "IDEA 2023-12-29": {
+      "date": "2023-12-29",
+      "close": 16.0,
+      "matched_prior_and_day_ohlc_source": "Groww",
+      "same_both_closes_as_Kite": true,
+      "no_NSE_ex_action": true
+    },
+    "POLYCAB 2024-01-11": {
+      "date": "2024-01-11",
+      "close": 3878.45,
+      "matched_prior_and_day_ohlc_source": "Groww",
+      "same_both_closes_as_Kite": true,
+      "no_NSE_ex_action": true
+    },
+    "ICICIPRULI 2020-03-23": {
+      "date": "2020-03-23",
+      "close": 238.8,
+      "matched_prior_and_day_ohlc_source": "Upstox",
+      "same_both_closes_as_Kite": true,
+      "no_NSE_ex_action": true
+    },
+    "ICICIPRULI 2020-03-25": {
+      "date": "2020-03-25",
+      "close": 320.45,
+      "matched_prior_and_day_ohlc_source": "Upstox",
+      "same_both_closes_as_Kite": true,
+      "no_NSE_ex_action": true
+    }
+  },
+  "market_history": {
+    "unchanged_anchor_manifest": "90f8b9bf3452733a8df9045c31c1f9cf25e2b6abfc9c4502f01a3abaf1101dcf",
+    "unchanged_anchor_bars": "dd1d12e4412b8c8c43b3714677bacecb619db6213682c0cf76941bbd2890a0b1",
+    "sessions": 3190,
+    "snapshot": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+    "released_count": 7,
+    "remaining_quarantines": 249,
+    "close_source_receipt": "a79daa45cf9271df5dbf056a705fd850e82c76a0b18db96413f586cb6e584627",
+    "case_histories": {
+      "PCJEWELLER 2018-02-02": {
+        "archived_history_rows": 1,
+        "restored_rows": 400,
+        "matched_preceding_prices": 399,
+        "max_relative_error": 0.0
+      },
+      "BAJFINANCE 2020-03-23": {
+        "archived_history_rows": 1,
+        "restored_rows": 400,
+        "matched_preceding_prices": 399,
+        "max_relative_error": 0.0
+      },
+      "MANAPPURAM 2020-03-25": {
+        "archived_history_rows": 1,
+        "restored_rows": 400,
+        "matched_preceding_prices": 399,
+        "max_relative_error": 0.0
+      },
+      "IDEA 2023-12-29": {
+        "archived_history_rows": 1,
+        "restored_rows": 221,
+        "matched_preceding_prices": 220,
+        "max_relative_error": 2.220446049250313e-16
+      },
+      "POLYCAB 2024-01-11": {
+        "archived_history_rows": 1,
+        "restored_rows": 400,
+        "matched_preceding_prices": 399,
+        "max_relative_error": 0.0
+      },
+      "ICICIPRULI 2020-03-23": {
+        "archived_history_rows": 1,
+        "restored_rows": 400,
+        "matched_preceding_prices": 399,
+        "max_relative_error": 0.0
+      },
+      "ICICIPRULI 2020-03-25": {
+        "archived_history_rows": 1,
+        "restored_rows": 400,
+        "matched_preceding_prices": 399,
+        "max_relative_error": 0.0
+      }
+    }
+  },
+  "dated_nifty200_TRI": {
+    "frequency": "daily",
+    "series": "Nifty 200 gross total return",
+    "start": "2016-12-30",
+    "start_close": 5249.39,
+    "end": "2026-11-20",
+    "end_close": 19649.87,
+    "matched_points": 2452,
+    "distinct_official_replies": 21,
+    "compiled_series_sha256": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41",
+    "source": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+  },
+  "walk_forward": {
+    "A126": {
+      "wins": 5,
+      "eligible_windows": 10,
+      "eligible": {
+        "net": {
+          "linked_return_pct": 458.766778474906,
+          "cagr_pct": 19.003394006190423,
+          "max_drawdown_pct": 25.635736105433228
+        },
+        "tri": {
+          "linked_return_pct": 274.32673129639704,
+          "cagr_pct": 14.279059760458601,
+          "max_drawdown_pct": 38.033598147550784
+        },
+        "session_count": 2451,
+        "mean_exposure_pct": 68.02340290046584
+      },
+      "registered_qualification": false,
+      "fees": 68942.89999999998,
+      "slippage": 26198.448384997126,
+      "purchases": 616,
+      "flagged_purchases": 465
+    },
+    "A252": {
+      "wins": 5,
+      "eligible_windows": 10,
+      "eligible": {
+        "net": {
+          "linked_return_pct": 279.4080346619309,
+          "cagr_pct": 14.434975324354271,
+          "max_drawdown_pct": 34.67543348051733
+        },
+        "tri": {
+          "linked_return_pct": 274.32673129639704,
+          "cagr_pct": 14.279059760458601,
+          "max_drawdown_pct": 38.033598147550784
+        },
+        "session_count": 2451,
+        "mean_exposure_pct": 70.35184971055176
+      },
+      "registered_qualification": false,
+      "fees": 51036.40000000006,
+      "slippage": 18644.501009997868,
+      "purchases": 585,
+      "flagged_purchases": 445
+    },
+    "official_open_slipped_fills": 2441,
+    "distinct_ranking_dates": 119,
+    "result_sha256": "1438e3ba902e8c0ae3ecf6ceb4269f3cb7597a35a7426bd0af28258179cb9f7c",
+    "journal_sha256": "b386558e02e70a340a2a42c823d290872a7e04c84c2b0300d037442d0970db62"
+  },
+  "annual_entry_coverage": {
+    "A126": {
+      "walk-1": {
+        "buys": 97,
+        "plans": 97,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-10": {
+        "buys": 15,
+        "plans": 15,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-2": {
+        "buys": 59,
+        "plans": 59,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-3": {
+        "buys": 56,
+        "plans": 56,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-4": {
+        "buys": 50,
+        "plans": 50,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-5": {
+        "buys": 79,
+        "plans": 79,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-6": {
+        "buys": 51,
+        "plans": 51,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-7": {
+        "buys": 64,
+        "plans": 64,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-8": {
+        "buys": 91,
+        "plans": 92,
+        "blocked_for_data": 0,
+        "other_blocked": {
+          "held_slot_pending_sale": 1
+        }
+      },
+      "walk-9": {
+        "buys": 54,
+        "plans": 54,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      }
+    },
+    "A252": {
+      "walk-1": {
+        "buys": 88,
+        "plans": 88,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-10": {
+        "buys": 15,
+        "plans": 15,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-2": {
+        "buys": 56,
+        "plans": 56,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-3": {
+        "buys": 62,
+        "plans": 62,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-4": {
+        "buys": 45,
+        "plans": 45,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-5": {
+        "buys": 72,
+        "plans": 72,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-6": {
+        "buys": 50,
+        "plans": 50,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-7": {
+        "buys": 68,
+        "plans": 68,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-8": {
+        "buys": 79,
+        "plans": 79,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      },
+      "walk-9": {
+        "buys": 50,
+        "plans": 50,
+        "blocked_for_data": 0,
+        "other_blocked": {}
+      }
+    }
+  },
+  "accounting": {
+    "official_evidence_hashes": {
+      "GRUH-CML37991.pdf": "fbe698ede5379af7e774f59b776c4a5686e40c159c208c69d04f942389136674",
+      "GRUH-allot20180608.zip": "498734be49cfd1505907b25722d741eee20f1814872df2d7245f9d29ca193fc0",
+      "BRITANNIA-CMPT39438.pdf": "d5109fd98ab9c1af67ebaede7168a38c06870512611cef0b59392c215797d635",
+      "BRITANNIA-CML39428.pdf": "094b7f19825c0550b7229ac14692d7eacfefb5cc7b0ec1c1d1bb99013fbbb43c"
+    },
+    "verified_2018_holder_events": [
+      {
+        "ledger": "journal.sqlite",
+        "reached_events": {
+          "A126-walk-2 INE580B01029": "bonus_entitlement",
+          "A126-walk-2 INE467B01029": "dividend",
+          "A252-walk-2 INE467B01029": "dividend",
+          "A252-walk-2 INE216A01022": "converted"
+        },
+        "relevant_fills_during_suspension_or_before_bonus_tradability": 0
+      },
+      {
+        "ledger": "tax-continuous.sqlite",
+        "reached_events": {
+          "A126-tax-continuous INE580B01029": "bonus_entitlement",
+          "A126-tax-continuous INE467B01029": "dividend",
+          "A252-tax-continuous INE467B01029": "dividend",
+          "A252-tax-continuous INE216A01022": "converted"
+        },
+        "relevant_fills_during_suspension_or_before_bonus_tradability": 0
+      }
+    ]
+  },
+  "continuous": {
+    "journal_sha256": "d9a80e1954e560f1ba1351b2a744ea26ea5f565b6df3ca7f52391aee9beabc1d",
+    "registrations_and_tax_report_sha256": "634a36d1344b3047d630811c58818632b03d36c06e247b76e8dbdd0d6b055891",
+    "FY_tax_config_sha256": "c2b3fde4055f311b70297b24b1211547a19705ad34bfae14272805b58f41c658",
+    "checks": {
+      "A126": {
+        "last": "2026-11-20",
+        "sessions": 2451,
+        "matched_fifo_gain_disposals": 1047,
+        "dividend_stripping_disallowed_inr": 23357.023666274967,
+        "bonus_stripping_transferred_inr": 330700.5546154882,
+        "tax_by_FY": {
+          "2016": 0.0,
+          "2017": 21006.46,
+          "2018": 0.0,
+          "2019": 917.51,
+          "2020": 31874.96,
+          "2021": 68253.45,
+          "2022": 25849.54,
+          "2023": 144513.48,
+          "2024": 238510.77,
+          "2025": 0.0,
+          "2026": 0.0
+        },
+        "total_tax_inr": 530926.1620354061,
+        "gross_mark_inr": 4328823.973350005,
+        "terminal_added_cost_inr": 1813.3493999999714,
+        "terminal_realised_increment_by_class_inr": {
+          "short": 115115.09926441805
+        },
+        "terminal_liquidation_tax_inr": 530926.1620354061,
+        "strategy": {
+          "investor_xirr_pct": 13.615194245546869,
+          "accrued_after_tax_cagr_pct": 14.446612954188897,
+          "capital_gains_tax_inr": 530926.1620354061
+        },
+        "hypothetical_terminal_liquidation": {
+          "investor_xirr_pct": 13.60972404272139,
+          "accrued_after_tax_cagr_pct": 14.441086228102385,
+          "capital_gains_tax_inr": 530926.1620354061
+        },
+        "tri_proxy": {
+          "investor_xirr_pct": 13.342911814573318,
+          "accrued_after_tax_cagr_pct": 13.352343752160746,
+          "capital_gains_tax_inr": 289561.13234109106
+        }
+      },
+      "A252": {
+        "last": "2026-11-20",
+        "sessions": 2451,
+        "matched_fifo_gain_disposals": 1044,
+        "dividend_stripping_disallowed_inr": 8090.198369771674,
+        "bonus_stripping_transferred_inr": 304501.1907330246,
+        "tax_by_FY": {
+          "2016": 465.61,
+          "2017": 25764.57,
+          "2018": 0.0,
+          "2019": 0.0,
+          "2020": 0.0,
+          "2021": 29837.86,
+          "2022": 0.0,
+          "2023": 82044.06,
+          "2024": 157680.82,
+          "2025": 36541.99,
+          "2026": 0.0
+        },
+        "total_tax_inr": 332334.9033442218,
+        "gross_mark_inr": 3392023.5274550035,
+        "terminal_added_cost_inr": 1861.2062499999604,
+        "terminal_realised_increment_by_class_inr": {
+          "short": 148589.98227977034
+        },
+        "terminal_liquidation_tax_inr": 332334.9033442218,
+        "strategy": {
+          "investor_xirr_pct": 11.50597419925949,
+          "accrued_after_tax_cagr_pct": 11.972477205723653,
+          "capital_gains_tax_inr": 332334.9033442219
+        },
+        "hypothetical_terminal_liquidation": {
+          "investor_xirr_pct": 11.499170582128787,
+          "accrued_after_tax_cagr_pct": 11.965587813904088,
+          "capital_gains_tax_inr": 332334.9033442219
+        },
+        "tri_proxy": {
+          "investor_xirr_pct": 13.342911814573318,
+          "accrued_after_tax_cagr_pct": 13.352343752160746,
+          "capital_gains_tax_inr": 289561.13234109106
+        }
+      }
+    }
+  },
+  "forward": {
+    "tag": "a126-forward-2026-11-21",
+    "tag_commit": "dc8e45c791c4f8485eaa869a6985f492805039b3",
+    "tag_configuration_sha256": "dd3b24b62fc61322a3b93213cbf146bede92ca600676d891aaa36d2153d1d2e7",
+    "engine_sha256": "75dbe40707565b37ef38cb33d434b5db63660713820773cacdfd6f5073548512",
+    "tagged_install_matches_repository": true,
+    "status": "candidate, under observation",
+    "paper_ledger_rows": {
+      "books": 1,
+      "sessions": 0,
+      "input_receipts": 0,
+      "fills": 0,
+      "events": 0
+    },
+    "next_expected_NSE_session": "2026-11-23",
+    "anchor": "2026-11-20",
+    "first": null,
+    "last": null,
+    "CLI_state": "awaiting first completed session",
+    "launchd": {
+      "label": "com.thesistally.a126-paper",
+      "checked_successful_run": true,
+      "interval_seconds": 600,
+      "run_at_login": true,
+      "command": "tagged radar forward-update",
+      "wrapper_sha256": "f476229e022360dbee0c9cefbb6edc01ea3d0eecb714183a209f0b663779127c",
+      "zero_exit_codes_verified": true,
+      "isolated_guard_checks": [
+        "clean dispatches forward-update",
+        "unstaged tracked change blocked",
+        "staged tracked change blocked",
+        "wrong checkout commit blocked",
+        "moved tag blocked"
+      ]
+    }
+  },
+  "preserved_artifacts": {
+    "docs/PREREGISTRATION.md": "1235886595a5e91789f7370d976ec0c8e03d79ada8692002e5d426761ba38cfc",
+    "data/backtests/stage3-study-entry-v2.json": "20a5e78edf025f5ee73c12ec7158ea2f9e3d4f2ecd9d53bf6cc1639ce221cec6",
+    "src/thesistally/revisions/steady-monthly.json": "b1665bc27e3171db356c4d91ac77faf3b60a36c1cacff48c0c8f36e2cd62f390"
+  },
+  "methods": [
+    "Reread the seven official cash bhavcopies, previous sessions, earnings/action notice registers and independent broker replies; used later splits only to reconcile broker quote units.",
+    "Used point-in-time constituent ISIN membership at each decision and only on-or-before candles. Independently reconstructed 119 scoring dates for both lookbacks, compared all recorded top-30 lists, reconciled planned fills and gap reasons, tested all 2,441 raw opens, slipped prices and charge rows against NSE quotes and account state against cash plus marked shares and entitlements.",
+    "Recomputed FIFO lot holding ages, grandfather FMV and allowance, short and long realised fiscal-year gains with loss carry and stripping, costs/turnover, terminal liquidation and single terminal benchmark tax. Valued each annual tax outflow on its dated ACT/365 XIRR and checked zero net present value.",
+    "Audited the tagged Application Support checkout and launchd interval, queried paper database read-only, and exercised the actual radar report --since-freeze entry point without inserting future sessions."
+  ],
+  "regressions": "38 passed across closing evidence, holder sources, momentum, FIFO tax and prospective paper test files; includes prospective public-only collection against the previous certified close and retry/idempotency.",
+  "resolutions": [
+    "The Documents-based macOS service could not read its repository under launchd. The deployed dedicated user LaunchAgent runs from a tagged Application Support checkout.",
+    "The independent ledger matches statutory realised capital gains. The benchmark modeling assumptions and external payment dates remain explicit in the report."
+  ],
+  "limitations": [
+    "A126 and A252 each win five out of ten complete windows, below seven required.",
+    "Two original Kite quote series differ in original share units; separate archived NSE cash broker replies exactly reproduce both NSE candles. Corroboration does not certify a margin table, auction band or individual investor tax position.",
+    "The 2026 annual window ends on 20 November; the paper book has no post-freeze observations as of this review. Local scheduling requires a running logged-in macOS session and network access when fetching recent official evidence."
+  ],
+  "conclusion": "Independent re-performance matched both annual and continuous reports and the active prospective paper service. No outstanding discrepancy in the tested scope."
+}

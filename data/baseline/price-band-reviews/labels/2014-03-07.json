@@ -1,0 +1,30 @@
+{
+  "day": "2014-03-07",
+  "labels": {
+    "FINANTECH": {
+      "isin": "INE111B01023",
+      "percent": 5,
+      "published": "2014-03-06",
+      "sources": [
+        {
+          "published": "2014-03-06",
+          "sha256": "a979295780f865daf7e3439c9dba5b849b1dfb120972719e75bd2fe7bd4fc08c",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV26071.zip"
+        }
+      ]
+    },
+    "PIPAVAVDOC": {
+      "isin": "INE542F01012",
+      "percent": 5,
+      "published": "2014-03-06",
+      "sources": [
+        {
+          "published": "2014-03-06",
+          "sha256": "a979295780f865daf7e3439c9dba5b849b1dfb120972719e75bd2fe7bd4fc08c",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV26071.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2014-03-06"
+}

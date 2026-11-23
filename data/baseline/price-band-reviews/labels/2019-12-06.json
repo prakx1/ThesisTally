@@ -1,0 +1,56 @@
+{
+  "day": "2019-12-06",
+  "labels": {
+    "EDELWEISS": {
+      "isin": "INE532F01054",
+      "percent": 10,
+      "published": "2019-12-05",
+      "sources": [
+        {
+          "published": "2019-12-05",
+          "sha256": "50c8e9d3ab4e49b1e909b01de421aaa7f6287101e3982b8aa20633ac66400a20",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV42845.zip"
+        },
+        {
+          "effective": "2019-12-06",
+          "last_modified": "Thu, 05 Dec 2019 13:50:06 GMT",
+          "published": "2019-12-05",
+          "sha256": "f0bf6a9cdc070c7c352cddc7fbc681d2a7a754b1c97038c0d9d93736c4933452",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06122019.csv"
+        }
+      ]
+    },
+    "IBVENTURES": {
+      "isin": "INE274G01010",
+      "percent": 5,
+      "published": "2019-12-05",
+      "sources": [
+        {
+          "published": "2019-12-05",
+          "sha256": "50c8e9d3ab4e49b1e909b01de421aaa7f6287101e3982b8aa20633ac66400a20",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV42845.zip"
+        }
+      ]
+    },
+    "NIACL": {
+      "isin": "INE470Y01017",
+      "percent": 10,
+      "published": "2019-12-05",
+      "sources": [
+        {
+          "published": "2019-12-05",
+          "sha256": "50c8e9d3ab4e49b1e909b01de421aaa7f6287101e3982b8aa20633ac66400a20",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV42845.zip"
+        },
+        {
+          "effective": "2019-12-06",
+          "last_modified": "Thu, 05 Dec 2019 13:50:06 GMT",
+          "published": "2019-12-05",
+          "sha256": "f0bf6a9cdc070c7c352cddc7fbc681d2a7a754b1c97038c0d9d93736c4933452",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06122019.csv"
+        }
+      ]
+    }
+  },
+  "prior": "2019-12-05"
+}

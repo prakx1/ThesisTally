@@ -1,0 +1,36 @@
+{
+  "revision": "in-resident-capital-gains-v1",
+  "from_fy": 2016,
+  "through_fy": 2026,
+  "loss_carry_years": 8,
+  "fund_redemption_stt": 0.00001,
+  "holding_months": 12,
+  "grandfather_day": "2018-01-31",
+  "taxable_ltcg_from": "2018-04-01",
+  "dividend_exemption_end": "2020-03-31",
+  "bonus_stripping_on_securities_from": "2022-04-01",
+  "rates": [
+    {"from": "2016-04-01", "short": 0.15, "long": 0.0},
+    {"from": "2018-04-01", "short": 0.15, "long": 0.10},
+    {"from": "2024-07-23", "short": 0.20, "long": 0.125}
+  ],
+  "fiscal_rules": [
+    {"from_fy": 2016, "long_exemption": 0, "cess": 0.03},
+    {"from_fy": 2018, "long_exemption": 100000, "cess": 0.04},
+    {"from_fy": 2024, "long_exemption": 125000, "cess": 0.04}
+  ],
+  "sources": {
+    "fund_redemption_stt": "https://incometaxindia.gov.in/Communications/Circular/910110000000000567.pdf",
+    "holding_period_and_fifo": "https://www.incometaxindia.gov.in/en/sale-of-shares",
+    "capital_gains_deductions": "https://wmstatic-prd.incometaxindia.gov.in/web/guest/w/section-48-62",
+    "education_cess": "https://www.indiabudget.gov.in/budget2018-2019/ub2018-19/frbm/frbm3.pdf",
+    "grandfather_and_2018_rates": "https://www.incometaxindia.gov.in/documents/20117/14614766/FAQ-on-LTCG.pdf/ee01c0b5-ce30-d9b6-2a63-4b3b48b86ae8?t=1767815955269",
+    "grandfather_fmv": "https://wm.incometaxindia.gov.in/w/section-55-66",
+    "finance_act_2024": "https://incometaxindia.gov.in/Documents/Finance-No.2-Act-2024.pdf",
+    "finance_act_2026": "https://www.incometaxindia.gov.in/documents/d/guest/income_tax_act_2025_as_amended_by_fa_act_2026-pdf",
+    "carryforward": "https://www.incometaxindia.gov.in/hi/w/section-74-63",
+    "stripping": "https://www.incometaxindia.gov.in/hi/w/section-94-63",
+    "share_bonus_extension": "https://www.incometaxindia.gov.in/documents/20117/6507196/Circular-23-2022.pdf/9ca2d322-35aa-b850-e8f0-00b97fec4952?t=1762868705065",
+    "dividends": "https://www.incometaxindia.gov.in/w/taxation-of-dividend-and-interest"
+  }
+}

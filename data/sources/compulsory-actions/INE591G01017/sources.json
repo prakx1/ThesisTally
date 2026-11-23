@@ -1,0 +1,18 @@
+{
+  "source_url.pdf": {
+    "url": "https://nsearchives.nseindia.com/content/circulars/CML68318.pdf",
+    "sha256": "20b4368a09f6214c1044aa0a77580ce1413cbdfd78d0b58219cc214d6967c180"
+  },
+  "credit_source.pdf": {
+    "url": "https://www.coforge.com/hubfs/Annual-Report-2025.pdf",
+    "sha256": "c56b2748e7701f3acff3be6990501b96fb528f69f6e35a4cd1b43a2e6701a3a0"
+  },
+  "ex_date_source.pdf": {
+    "url": "https://nsearchives.nseindia.com/content/circulars/CML68170.pdf",
+    "sha256": "cb2fcd84f036798f57d237729486a3e2eb6796da9adc9bf7dc6301102cbe067d"
+  },
+  "clearing_source.pdf": {
+    "url": "https://nsearchives.nseindia.com/content/circulars/CMPT68326.pdf",
+    "sha256": "f3a14870bd3255e4a8c692ab433cafb1a8b24c65ec2ee47b90f5871c88af3f07"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "day": "2014-12-05",
+  "labels": {
+    "PIPAVAVDOC": {
+      "isin": "INE542F01012",
+      "percent": 10,
+      "published": "2014-12-04",
+      "sources": [
+        {
+          "published": "2014-12-04",
+          "sha256": "334e07dc1772e8699d70c72be39f2a99a0b8ccbb9fb16f00d46a0532b695d303",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV28272.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2014-12-04"
+}

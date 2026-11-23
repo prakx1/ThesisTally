@@ -1,0 +1,114 @@
+{
+  "coverage": "4e3a1e357a22fa22de3bd097c0a4900b27a178b63825fd79f9eedef5e3e4918c",
+  "numerical_ledger": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "modern_plan": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "legacy_plan": "306980ad1dc390e1f5783a82d733bceb2284161d8072bcdf1f550342d624f584",
+  "modern_plan_counts": {
+    "jobs": 5837,
+    "accessions": 11008,
+    "unique_physical_pages": 124800,
+    "unique_nominated_pages": 36775,
+    "source_page_references": 124821,
+    "nominated_page_references": 36781,
+    "packets_with_zero_nominations": 780
+  },
+  "independently_located_statement_pages_nominated": {
+    "KPITTECH p9": true,
+    "MAZDOCK p3": true,
+    "MAZDOCK p6": true,
+    "VOLTAS p21": false
+  },
+  "assumptions": "Every uncovered eligible ISIN-quarter with any nominated modern page, any legacy or field-quarantine work, or any of the nine separately audited originals is generously allowed to become fully covered. A modern release counts if its original was disseminated by the window close. Give full credit even where later quarterly XBRL with only one available field, or after the window. The bound applies only to these dated worklists. It does not show coverage, freeze the study, establish that omitted pages contain no facts or limit other possible methods.",
+  "windows": {
+    "2017": {
+      "eligible": 804,
+      "observed": 0,
+      "needed": 644,
+      "uncovered_with_any_modern_facts_and_dated_original": 0,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 0,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 600,
+      "headroom_vs_required": -44
+    },
+    "2018": {
+      "eligible": 804,
+      "observed": 17,
+      "needed": 644,
+      "uncovered_with_any_modern_facts_and_dated_original": 302,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 243,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 413,
+      "headroom_vs_required": -231
+    },
+    "2019": {
+      "eligible": 804,
+      "observed": 30,
+      "needed": 644,
+      "uncovered_with_any_modern_facts_and_dated_original": 461,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 391,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 432,
+      "headroom_vs_required": -212
+    },
+    "2020": {
+      "eligible": 802,
+      "observed": 57,
+      "needed": 642,
+      "uncovered_with_any_modern_facts_and_dated_original": 507,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 421,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 496,
+      "headroom_vs_required": -146
+    },
+    "2021": {
+      "eligible": 800,
+      "observed": 60,
+      "needed": 640,
+      "uncovered_with_any_modern_facts_and_dated_original": 501,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 445,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 533,
+      "headroom_vs_required": -107
+    },
+    "2022": {
+      "eligible": 800,
+      "observed": 66,
+      "needed": 640,
+      "uncovered_with_any_modern_facts_and_dated_original": 536,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 474,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 563,
+      "headroom_vs_required": -77
+    },
+    "2023": {
+      "eligible": 801,
+      "observed": 62,
+      "needed": 641,
+      "uncovered_with_any_modern_facts_and_dated_original": 492,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 420,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 504,
+      "headroom_vs_required": -137
+    },
+    "2024": {
+      "eligible": 803,
+      "observed": 62,
+      "needed": 643,
+      "uncovered_with_any_modern_facts_and_dated_original": 537,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 455,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 543,
+      "headroom_vs_required": -100
+    },
+    "2025": {
+      "eligible": 800,
+      "observed": 95,
+      "needed": 640,
+      "uncovered_with_any_modern_facts_and_dated_original": 625,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 540,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 642,
+      "headroom_vs_required": 2
+    },
+    "2026": {
+      "eligible": 801,
+      "observed": 128,
+      "needed": 641,
+      "uncovered_with_any_modern_facts_and_dated_original": 658,
+      "uncovered_with_any_nominated_modern_page_and_dated_original": 600,
+      "optimistic_total_across_named_queues_even_if_partial_modern_xbrl_can_supply_all_fields": 728,
+      "headroom_vs_required": 87
+    }
+  }
+}

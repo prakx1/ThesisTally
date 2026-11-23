@@ -1,0 +1,16 @@
+{
+  "calendar_end": "2026-11-20",
+  "coverage_sha256": "2df73aa331cbdd087a6ca0f46b18457dd98ebbbefc20cf4f117c531f81115b54",
+  "funnel": {
+    "nonmember_at_release": 27,
+    "sue_scored": 0,
+    "unavailable_sue": 272
+  },
+  "originals": 429,
+  "plans": 0,
+  "registration_commit": "af36fef9ddcd7b7458dbc94b9d7e1b716f3ee3da",
+  "signal_method_sha256": "a71d2df578318377501f2ed945ffa39611816d813b93b7fdda0742661866117a",
+  "signals_sha256": "654ce58e991ceaae96a5a40797dc441c5d1a5a49b6dc1ef45b3895abeb70db69",
+  "snapshot": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+  "source_sha256": "b68952fc58b3adaf07419a2c9070d55c9efb06aed07edf4c91acae50c6d1caab"
+}

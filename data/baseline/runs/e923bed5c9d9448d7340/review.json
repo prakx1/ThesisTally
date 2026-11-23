@@ -1,0 +1,444 @@
+{
+  "summary": "An independent Codex reviewer reconstructed 639,334 dated member-price observations, checked all ten replay ledgers, and recalculated 23,951 fill fees and 10,391 closed outcomes across the funded, equal-risk and excluded-shadow cohorts. The audit reproduced all twelve qualification verdicts, confirmed eight holdings conversions, and found a maximum funded-account discrepancy below ₹0.000001. Independent next-open checks reproduced 88,777 missed or invalidated calls. Three funded account-windows stop at their last supportable valuation. The early archive’s sparse price bands and the heavy concentration of measured closes in 2024–2026 limit historical inference.",
+  "scope": "Stage 2 empirical audit of unchanged r1 and r2; assessment is conditional on data coverage and finite prefixes.",
+  "identity": "e923bed5c9d9448d7340ed0a4e05370a70d32478438c13a5fec52cb4057dcf09",
+  "preflight_sha256": "13284053b8f4cc37525787410ef06ffb443f34b80f8b814ff18056cad311cb95",
+  "market_snapshot_sha256": "8b5d16971f271232e9ca8a2803e46da109409ee714738b871b4dac515f175102",
+  "journals_verified_sha256": {
+    "walk-1": "60cefdf721385d7688dc4be806ecb5e2addf989b967099f3a770f0f55f239574",
+    "walk-2": "0e00b25746b18e259160c84ce93d146974a7103e1a3a83623d350ca5654af3a2",
+    "walk-3": "0d7e11ab184c5a936546e9aa750a12b89c4a85c2162c796248f0c4fb41e3d351",
+    "walk-4": "ee9be8044a16b3dd2e426d2e3ce0f22dc13c24177b1a7d367dbeab9de00c930e",
+    "walk-5": "60aac7426f8fdf233d9dab18bc9abc4c5524e21365f0082366591e8d260c583d",
+    "walk-6": "ab991b788a88ba0e9c69e9ed5b10fab6741794f24a12aa39598aa9927c5aaa9a",
+    "walk-7": "6d5f124f7c2ebaa5220f36cba80b4a43629049b97cb3a44e30b1ee7484186de6",
+    "walk-8": "8b645b8c00f12a17f7249e5b5ecc4b294c90fa513e798b2d52f0bf00575eada1",
+    "walk-9": "93e39198a3f268f6a56aa2b662a6789d2e25e6e0165022cb1ad347bd1ba44b91",
+    "walk-10": "f0af985d608f31b2df74b5ee7f1e017ca14101f1a4cb2856918d23a49939dea6"
+  },
+  "earlier_seals_rechecked": {
+    "r1_pilot": "c07de6425c7964e57cbdb02ed4b3d39d85a47b8ae39aac5b42c240b79a1168e9",
+    "r2_pilot": "2c7cef7179627fd1b23c25105264a2d0086730fc8475f7e3843c42b302d7bca8",
+    "retired_holdout_report": "f9acd001dded053ae9dc3618f3ba329eb39a537006b93025f96347b275a177b1"
+  },
+  "data": {
+    "primary_membership_and_calendar": {
+      "sessions": 3190,
+      "session_start": "2014-01-01",
+      "session_end": "2026-11-20",
+      "source_zips": 3155,
+      "member_sessions": 639334,
+      "second_turnover_reference": 1,
+      "placeholder_sessions": 187,
+      "source_csv": 35,
+      "traded_isins": 465,
+      "turnover_exceptions": [],
+      "placeholder_symbols": [
+        "JIOFIN",
+        "DUMMYITC",
+        "DUMMYSIEMS",
+        "DUMMYABFRL",
+        "DUMMYTATAM",
+        "DUMMYHDLVR",
+        "DUMMYVEDL1",
+        "DUMMYVEDL2",
+        "DUMMYVEDL3",
+        "DUMMYVEDL4"
+      ],
+      "independent_nse_monthly_sessions": 3189,
+      "kite_benchmark_sessions": 3190,
+      "extra_exchange_and_kite_confirmed": [
+        "2024-03-02"
+      ]
+    },
+    "early_controls": {
+      "raw_files": 215,
+      "surveillance": 22506,
+      "flagged": 757,
+      "unclassified": 6,
+      "missing_bands": 1810,
+      "days": 112,
+      "bands": 20702
+    },
+    "restored_static_bands": {
+      "restored": 8482,
+      "separate_review": 4,
+      "published_day_files": 8478
+    },
+    "earnings": {
+      "dated_member_observations": 639334,
+      "known_upcoming_calendar_week": 42806
+    },
+    "issuer_action_rows": 428,
+    "supplementary_band_labels": {
+      "dated_circular_source_links": 42,
+      "labels": 58,
+      "dated_csv_source_links": 18
+    },
+    "legacy_surveillance": {
+      "flagged": 3068,
+      "clear": 394122,
+      "unknown": 101546
+    }
+  },
+  "sampled_signal_rebuilds": {
+    "checks": {
+      "training_session_rebuilds": 5,
+      "oos_cross_section_rebuilds": 30,
+      "sampled_journal_plans_matched": 602
+    },
+    "signals": {
+      "training_momentum_detections": 2,
+      "high_momentum": 11,
+      "trend_pullback": 537,
+      "vcp_breakout": 65
+    }
+  },
+  "ledger_checks": {
+    "checks": {
+      "membership_and_close": 100769,
+      "brake_transitions": 0,
+      "daily_accounts": 4578,
+      "eligibility_pairs": 22149,
+      "matched_rule_signals": 37712,
+      "fill_fees": 23951,
+      "next_open_buys": 11156,
+      "sell_pricing": 12795,
+      "closed_excursion_paths": 10391,
+      "closed_cash_r": 10391,
+      "equal_sizing": 4184
+    },
+    "max_daily_account_difference_inr": 5.820766091346741e-10,
+    "corporate": {
+      "conversions": 8
+    },
+    "ledger_windows": 10,
+    "full_oos_sessions": 2451
+  },
+  "report_reconciliation": {
+    "agreed": {
+      "summary_cells": 1446,
+      "verdicts": 12,
+      "annual_accounts": 20,
+      "annual_marked_books": 40,
+      "strategy_and_total_marked_books": 16
+    },
+    "results": {
+      "r1 equal_risk high_momentum": [
+        0,
+        0,
+        null,
+        [
+          null,
+          null
+        ],
+        "not enough data"
+      ],
+      "r1 equal_risk trend_pullback": [
+        610,
+        556,
+        -0.16551558355454385,
+        [
+          -0.3398450053749797,
+          0.010257623197099264
+        ],
+        "not enough data"
+      ],
+      "r1 equal_risk vcp_breakout": [
+        70,
+        54,
+        0.09837920595397893,
+        [
+          -0.22328354980003545,
+          0.4299773045916011
+        ],
+        "not enough data"
+      ],
+      "r1 funded high_momentum": [
+        0,
+        0,
+        null,
+        [
+          null,
+          null
+        ],
+        "not enough data"
+      ],
+      "r1 funded trend_pullback": [
+        125,
+        77,
+        -0.2705833371283969,
+        [
+          -0.5353804848095767,
+          0.008389740416864497
+        ],
+        "not enough data"
+      ],
+      "r1 funded vcp_breakout": [
+        10,
+        0,
+        null,
+        [
+          null,
+          null
+        ],
+        "not enough data"
+      ],
+      "r2 equal_risk high_momentum": [
+        0,
+        0,
+        null,
+        [
+          null,
+          null
+        ],
+        "not enough data"
+      ],
+      "r2 equal_risk trend_pullback": [
+        2953,
+        2847,
+        -0.07520958078324325,
+        [
+          -0.15349776024001643,
+          0.0067514382420593875
+        ],
+        "not enough data"
+      ],
+      "r2 equal_risk vcp_breakout": [
+        350,
+        314,
+        -0.13284124619070747,
+        [
+          -0.26497977071953815,
+          0.010075618910335348
+        ],
+        "not enough data"
+      ],
+      "r2 funded high_momentum": [
+        0,
+        0,
+        null,
+        [
+          null,
+          null
+        ],
+        "not enough data"
+      ],
+      "r2 funded trend_pullback": [
+        249,
+        152,
+        -0.015825528206026538,
+        [
+          -0.19409917087675294,
+          0.17040559853713202
+        ],
+        "not enough data"
+      ],
+      "r2 funded vcp_breakout": [
+        12,
+        0,
+        null,
+        [
+          null,
+          null
+        ],
+        "not enough data"
+      ]
+    }
+  },
+  "opening_and_deferral_checks": {
+    "checks": {
+      "missed_or_invalidated_openings": 88777,
+      "deferred_sales": 5483
+    },
+    "causes": {
+      "Opening liquidity or upper price band": 74120,
+      "Opening price at or below the planned stop": 89,
+      "Fill stop distance out of bounds": 3980,
+      "Opening gap or slippage reduced reward/risk": 10055,
+      "Open above signal close + 0.5 ATR(14)": 488,
+      "Opening fill crossed the planned stop": 32,
+      "Cannot fund one share at the opening risk": 13
+    },
+    "miss": {
+      "r2:shadow:unknown": 24649,
+      "r1:shadow:unknown": 24398,
+      "r2:portfolio:unknown": 3706,
+      "r2:equal-risk:unknown": 8426,
+      "r1:portfolio:unknown": 4498,
+      "r1:equal-risk:unknown": 8437,
+      "r2:shadow:limit_or_volume": 3,
+      "r1:shadow:limit_or_volume": 3
+    },
+    "defer": {
+      "r2:shadow:affected": 240,
+      "r2:shadow:unknown_floor": 1865,
+      "r1:shadow:affected": 81,
+      "r1:shadow:unknown_floor": 912,
+      "r2:portfolio:affected": 60,
+      "r2:portfolio:unknown_floor": 701,
+      "r2:equal-risk:affected": 148,
+      "r2:equal-risk:unknown_floor": 1672,
+      "r1:equal-risk:affected": 18,
+      "r1:equal-risk:unknown_floor": 275,
+      "r1:portfolio:affected": 10,
+      "r1:portfolio:unknown_floor": 57,
+      "r2:shadow:circuit_or_volume": 1
+    }
+  },
+  "momentum_reconciliation": {
+    "oos": {
+      "r1": {
+        "det": {
+          "detected": 37,
+          "liquid": 37,
+          "invalid_geometry": 0,
+          "valid_stop": 5
+        },
+        "eligibility": {
+          "stop_out_of_bounds": 32,
+          "portfolio": 2,
+          "surveillance_unknown": 1,
+          "position_limit": 1,
+          "upcoming_results": 1
+        },
+        "stop": {
+          "above_max_atr": 31,
+          "above_max_pct + above_max_atr": 1
+        },
+        "books": {
+          "funded": {
+            "plans": 2,
+            "missed": 2,
+            "bought": 0
+          },
+          "equal_risk": {
+            "plans": 3,
+            "missed": 3,
+            "bought": 0
+          }
+        },
+        "reasons": {
+          "funded": {
+            "missed: Opening liquidity or upper price band": 2
+          },
+          "equal_risk": {
+            "missed: Opening liquidity or upper price band": 2,
+            "missed: Opening gap or slippage reduced reward/risk": 1
+          }
+        },
+        "covered": 2451
+      },
+      "r2": {
+        "det": {
+          "detected": 37,
+          "liquid": 37,
+          "invalid_geometry": 0,
+          "valid_stop": 5
+        },
+        "eligibility": {
+          "stop_out_of_bounds": 32,
+          "portfolio": 2,
+          "surveillance_unknown": 1,
+          "position_limit": 1,
+          "upcoming_results": 1
+        },
+        "stop": {
+          "above_max_atr": 31,
+          "above_max_pct + above_max_atr": 1
+        },
+        "books": {
+          "funded": {
+            "plans": 2,
+            "missed": 2,
+            "bought": 0
+          },
+          "equal_risk": {
+            "plans": 3,
+            "missed": 3,
+            "bought": 0
+          }
+        },
+        "reasons": {
+          "funded": {
+            "missed: Opening liquidity or upper price band": 2
+          },
+          "equal_risk": {
+            "missed: Opening liquidity or upper price band": 2,
+            "missed: Fill stop distance out of bounds": 1
+          }
+        },
+        "covered": 2451
+      }
+    },
+    "training": {
+      "detector_funnel": {
+        "detected": 4,
+        "liquid": 4,
+        "invalid_geometry": 0,
+        "valid_stop": 1
+      },
+      "signal_dispositions": {
+        "regime": 1,
+        "stop_out_of_bounds": 3
+      },
+      "stop_bounds": {
+        "above_max_atr": 3
+      }
+    }
+  },
+  "partial_funded_windows": [
+    {
+      "window": "walk-5",
+      "book": "r2-portfolio",
+      "evaluated_sessions": 212,
+      "scheduled_sessions": 248,
+      "cause": {
+        "call_id": 8473,
+        "symbol": "INDHOTEL",
+        "isin": "INE053A01029",
+        "day": "2021-11-11",
+        "reason": "Corporate action requires reconciliation:  Rights 1:9 @ Premium Rs 149/-"
+      }
+    },
+    {
+      "window": "walk-8",
+      "book": "r2-portfolio",
+      "evaluated_sessions": 105,
+      "scheduled_sessions": 249,
+      "cause": {
+        "call_id": 7743,
+        "symbol": "ADANIPORTS",
+        "isin": "INE742F01042",
+        "day": "2024-06-04",
+        "reason": "Quarantined closing valuation after the opening auction"
+      }
+    },
+    {
+      "window": "walk-8",
+      "book": "r1-portfolio",
+      "evaluated_sessions": 105,
+      "scheduled_sessions": 249,
+      "cause": {
+        "call_id": 7805,
+        "symbol": "ADANIPORTS",
+        "isin": "INE742F01042",
+        "day": "2024-06-04",
+        "reason": "Quarantined closing valuation after the opening auction"
+      }
+    }
+  ],
+  "fixes_verified": [
+    "Full scheduled walk-forward partition and full-history source receipt required, including warm-up and prior index anchors.",
+    "Dated issuer/ISIN join repaired historical earnings, returns basis and action handling for renamed issuers.",
+    "Vintage ASM/GSM parsing, temporal causality of public control publications, tick-exact prior static limits and historical Nifty 50 warm-up were checked against original evidence.",
+    "Coverage, clustered qualification, chronological +1R, deferred exits and marked attributed P&L reconcile against actual ledgers."
+  ],
+  "constraints": [
+    "3,190 sessions include 739 training-only sessions and 2,451 OOS sessions. Three funded windows stop early. Both independent books retain all ten windows. A partial funded window cannot qualify.",
+    "2,789/2,953 measured r2 equal-risk pullback closes and 335/350 breakout closes came from 2024–2026. Tradable static limits captured only a selected historical subset. Unmeasurable entered equal-risk trades are excluded throughout the marked descriptive curves.",
+    "Gate-off marked losses reflect the gate measured at the close, which is not actionable for P&L already earned that session. Daily candles cannot resolve all intraday extrema before an exit.",
+    "The final forward-paper test has not begun. No empirical qualification on any strategy in either book or revision."
+  ],
+  "tests": "Independent full suite: 153 passed at review; independent audit scripts do not import ThesisTally strategy or metrics modules for trading results."
+}

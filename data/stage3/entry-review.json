@@ -1,0 +1,197 @@
+{
+  "reader": "Independent Codex reviewer; raw local public exchange histories, SQL in read-only mode. The reviewer did not author the replay or its reporting.",
+  "identical_archived_files": {
+    "docs/PREREGISTRATION.md": "1235886595a5e91789f7370d976ec0c8e03d79ada8692002e5d426761ba38cfc",
+    "docs/STAGE3_REPORT.md": "3952f5c6dc2305d98d6ce2d1f0701a57e46be5903df6b97f51e7adac000e6497",
+    "data/backtests/stage3-study.json": "fe4472c1e1176beba43f8e50882443e1ab90186baa8ea417f49ae5c1b83e339c",
+    "data/stage3/preflight.json": "c4eaade5b611a2f8360da3f5acfdab6278ad835567208466b674edb0de8b5ec8",
+    "src/thesistally/revisions/r2.yaml": "93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84",
+    "src/thesistally/dip.py": "9898e358807cc7bbad5654733a22ba0997002bda07304cf70c97d9e7c4d785c6",
+    "src/thesistally/stage3_market.py": "cffbb71590d4cfd056e1fe47e7767d346c73c7e9fe771dc1090b5ae6d772f08a",
+    "src/thesistally/revisions/steady-monthly.json": "b1665bc27e3171db356c4d91ac77faf3b60a36c1cacff48c0c8f36e2cd62f390",
+    "data/stage3/benchmark.csv": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41",
+    "data/universes/nifty200_membership.csv": "f3170fbd094cfcbb6f85fac43ae6becd22a4c88940770b96d0957034c7ffb37f",
+    "src/thesistally/revisions/stage3-holder-actions.json": "e65bb5373d5a1123beceb030d9e2fd7cfb066c0d84183b14f519f6da4f13e7ee"
+  },
+  "market_fills": {
+    "A_fills": 1972,
+    "A_corporate_events": 101,
+    "A_bonus_entitlement": 15,
+    "A_suspended": 13,
+    "A_converted": 13,
+    "A_credited": 13,
+    "A_bonus_fraction_paid": 6,
+    "B_corporate_events": 50,
+    "B_bonus_entitlement": 4,
+    "B_bonus_fraction_paid": 2,
+    "B_suspended": 9,
+    "B_converted": 9,
+    "B_credited": 9,
+    "B_fills": 7152,
+    "A_buys": 1004,
+    "A_unknown_band_buys": 773,
+    "B_buys": 3643,
+    "B_unknown_band_buys": 2423,
+    "B_scheduled_time_closes": 706,
+    "B_bought_after_membership_exit": 2
+  },
+  "monthly": {
+    "A126": {
+      "matched_month_end_rankings": 106,
+      "cash_and_security_balance_marks": 2034,
+      "coverage_pass_windows": 10,
+      "valuation_gap_windows": 3,
+      "eligible_window_wins": 4,
+      "planned_orders": 547,
+      "orders_with_unknown_band_fill": 396,
+      "data_blocks": 0,
+      "invested_intervals_matched_to_TRI": 1668
+    },
+    "A252": {
+      "matched_month_end_rankings": 95,
+      "cash_and_security_balance_marks": 1792,
+      "coverage_pass_windows": 10,
+      "valuation_gap_windows": 3,
+      "eligible_window_wins": 4,
+      "planned_orders": 458,
+      "orders_with_unknown_band_fill": 377,
+      "data_blocks": 0,
+      "invested_intervals_matched_to_TRI": 1426
+    }
+  },
+  "swing": {
+    "dip-rsi10-equal_risk": {
+      "registered_raw_setups_matched_to_archived_signals_and_dated_members": 7975,
+      "verified_data_blocks": 570,
+      "verified_planned_orders": 3413,
+      "verified_unknown_band_fills": 1239,
+      "verified_closes": 1797,
+      "completed_windows": 10,
+      "verified_counted_mature_trades": 1175,
+      "verified_positive_votes": 3
+    },
+    "dip-rsi10-funded": {
+      "registered_raw_setups_matched_to_archived_signals_and_dated_members": 7975,
+      "verified_data_blocks": 479,
+      "verified_planned_orders": 1652,
+      "verified_unknown_band_fills": 392,
+      "verified_closes": 534,
+      "completed_windows": 10,
+      "verified_counted_mature_trades": 172,
+      "verified_positive_votes": 1
+    },
+    "dip-rsi5-equal_risk": {
+      "registered_raw_setups_matched_to_archived_signals_and_dated_members": 3734,
+      "verified_data_blocks": 248,
+      "verified_planned_orders": 1546,
+      "verified_unknown_band_fills": 530,
+      "verified_closes": 804,
+      "completed_windows": 10,
+      "verified_counted_mature_trades": 515,
+      "verified_positive_votes": 3
+    },
+    "dip-rsi5-funded": {
+      "registered_raw_setups_matched_to_archived_signals_and_dated_members": 3734,
+      "verified_data_blocks": 224,
+      "verified_planned_orders": 969,
+      "verified_unknown_band_fills": 262,
+      "verified_closes": 374,
+      "completed_windows": 10,
+      "verified_counted_mature_trades": 146,
+      "verified_positive_votes": 3
+    }
+  },
+  "additional_evidence_files_hash_verified": 29,
+  "additional_action_terms": 18,
+  "monthly_artifact_sha256": "ac16eb046bcc59c60781e3f4648ba98daeaf638d8221cad07cdaf74edab286c1",
+  "monthly_journal_sha256": "92f1443514ab0842a505f95b0a25f019a979457fe6f8bba9cd3f1f24a473c2e6",
+  "swing_artifact_sha256": "060fa6b65381dd085f28d7dc1875f8c2cb445d076926a4bbca51fe627f716ed5",
+  "swing_replay_sha256": "da513c8cf010ad33c0a17e2c1e05f6570cc705b7abc2752c81b84ed65821a60c",
+  "provenance": {
+    "A_checkout": "780d5c7ca41459e003afc756ee9b0c19b9d51b0c",
+    "A_source_package_sha256": "02b20ba1d2b5ef31fede2ecac5a462a0077c95c104c8aad9ac46e163b5cd6d6c",
+    "B_checkout": "33a15ea621af4bf9c771753ffc59659df2a642c7",
+    "B_saved_source_commit": "901f92df331c7422519a2797d46398e7bf6cf7a9",
+    "B_source_package_sha256": "1ecbf713025f4def8918c2f6d86a92973dbf44467763efd3c63cd563b25f75d2",
+    "source_file_counts": {
+      "A": 18,
+      "B": 94
+    },
+    "snapshot_sha256": "e722f88c7cc3e270f38902fb2f531023a6d9f0955faf5d29fc3a1e2c0c08158b",
+    "benchmark_sha256": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41",
+    "entry_revision_registration_sha256": "927e492578ff8e19828b69f22424b053d5b13cfbaa607cb766bf27a86282f853",
+    "journal_integrity_check": "ok for the monthly study and every annual swing journal",
+    "terminal_summary_sources_match": true
+  },
+  "unpriced_large_move_receipt_sha256": "0ea88e5ee41bb4de6be4f653528a02caf5b39f7cf62f6c73f59101b2cc9fcbbc",
+  "five_unique_unresolved_close_observations_which_cross_six_monthly_paths": [
+    "2018-02-02 PCJEWELLER",
+    "2020-03-23 BAJFINANCE",
+    "2020-03-25 MANAPPURAM",
+    "2023-12-29 IDEA",
+    "2024-01-11 POLYCAB"
+  ],
+  "B_coverage_excluded_years": {
+    "dip-rsi10-equal_risk": [
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "dip-rsi10-funded": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2021",
+      "2022",
+      "2023"
+    ],
+    "dip-rsi5-equal_risk": [
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "dip-rsi5-funded": [
+      "2017",
+      "2018",
+      "2019",
+      "2020",
+      "2022",
+      "2023"
+    ]
+  },
+  "unmeasurable_entered_calls_by_allocation_including_shadows": {
+    "regime": 3,
+    "surveillance_unknown": 13,
+    "upcoming_results": 4
+  },
+  "checks": [
+    "Compared 201 dated month-end rankings and all daily B setup identities with the earlier registered executions. Verified membership by ISIN at signal time, signal-before-entry ordering, next-session B purchases and original detector/market/config bytes.",
+    "Compared every monthly transaction and every selected swing transaction against dated raw NSE opens or the preregistered scheduled close. Recomputed adverse slippage and delivery fees, including the per-security daily DP rule. Verified every unknown upper-band event against the executable quote and the dated security controls. The live-history books contained zero verified upper-lock rejections; the regression cases cover such a lock.",
+    "Reconstructed A daily invested value using marked whole and restricted bonus/fractional holdings, cash and receivables. Recomputed average exposure, matched TRI intervals, whole-account invested returns, and comparable CAGRs. Windows with failed marks contributed only observed rows and no qualification votes.",
+    "For B, partitioned every raw setup into planned entries, pre-order vetoes and endpoint censorship. Checked data blocks and other execution reasons by SQL, including independent known vetoes. Reconstructed closed gross, net, costs and rupee profit factors from buys, sales, dividends, fractional cash and original risk. Recomputed all 40 annual/window cohorts, maturity floor, positive-window vote and signal-date cluster bootstrap intervals.",
+    "Checked the strict greater-than 10% exclusion in both paths. An opportunity count of zero gives an undefined blocked percentage. Candidate setup restrictions and ranked allocation precede the next open. The published time-exit convention includes scheduled closing sales when the floor is available. A closing quarantine cannot backdate a buy veto.",
+    "Reconciled the extra issuer, NSE, BSE and CDSL evidence digests to local official artifacts, and inspected corporate event dates, ratios, whole/fractional allocation, no-cash rights convention and settlement boundaries. Five distinct corroboration gaps match the six affected account paths and both corresponding official bhavcopy closes."
+  ],
+  "review_findings": [
+    "A126 and A252 each won four of seven comparable windows. With all three unpriced windows favorable, either could still reach seven of ten. Both full-history verdicts remain inconclusive.",
+    "Every selected B account reached its scheduled endpoint. Missing mandatory surveillance information creates materially different coverage losses in the funded and equal-risk books. All four qualified-cohort mean returns remain below the registered +0.25R threshold.",
+    "Two B purchases occurred after a constituent change between signal and open. Both stocks qualified on the actual signal date. For the newly unverified upper bands the raw opens, slippage and archived fill flags agree.",
+    "The earlier reports and original registration remain retrievable with their original file digests. The experiment register identifies the data rerun. No additional strategy setting or parameter choice was found."
+  ],
+  "review_outcome": "The revised results reconcile subject to the named closing and coverage gaps. No unresolved discrepancy in the requested replay mechanically invalidates the published measurements.",
+  "targeted_regressions": {
+    "passed": 30,
+    "files": [
+      "tests/test_entry_band_revision.py",
+      "tests/test_dip_coverage.py",
+      "tests/test_steady_momentum.py",
+      "tests/test_dip_holder_market.py",
+      "tests/test_steady_holder_source.py"
+    ]
+  }
+}

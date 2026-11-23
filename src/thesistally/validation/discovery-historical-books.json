@@ -1,0 +1,22 @@
+{
+  "stage2-baseline-e923bed5c9d9448d7340": {
+    "replay_sha256": "acaf91c57dae0237d0c3e9e5364793d80414ce54e0bcb51a43b5f901a4641c91",
+    "report_sha256": "ea051ec4a81048e0e2096eb4706abdba479bae3bf57cb42bfe00d4d8b02184dd"
+  },
+  "stage3-dip-e3687b17ddfbbdf17642": {
+    "journal_sha256": {
+      "walk-1": "30723ee9e15c08a4cb3494ea1250962b04e9a333d450f3d412b3f33eedc4457f",
+      "walk-10": "2593e9c129f0e7011e0007fab93a59c49f79d0c1385e16cdfc28f26f30ba83e9",
+      "walk-2": "f2c7263335b0d3cc42bf7abf2511aff9526bd75f31d3edbe7ed155ce0bd8f9bd",
+      "walk-3": "e04f50123ae2494fa03af23106728ded58a973c20318f630d0b33afe24fab677",
+      "walk-4": "c37af533d505bae91ac4f9b72d33b8844d31abd27f6badb7d4917f2da2fa84cc",
+      "walk-5": "f689dbd5b884cc3382e0ed952eff1db38bfecee356dfe3d4cc9511e4309b4651",
+      "walk-6": "584d477c80ecd6a1e09a5031faaa074020b43e4db394bad083d8330f66338b8f",
+      "walk-7": "98ecd73a0baa41ed196933e30db9fb9ddfd9cf94e712bafe08620bab65004db9",
+      "walk-8": "bdf483b5fc456fe3896f7f433b3407149467a62e6672763e54d8f3b6c143fbd7",
+      "walk-9": "3ecd77f649676ad2f04ac8d417089c58733e66127cd44c11f5f0000dc29de137"
+    },
+    "replay_sha256": "da513c8cf010ad33c0a17e2c1e05f6570cc705b7abc2752c81b84ed65821a60c",
+    "report_sha256": "060fa6b65381dd085f28d7dc1875f8c2cb445d076926a4bbca51fe627f716ed5"
+  }
+}

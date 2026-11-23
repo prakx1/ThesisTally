@@ -1,0 +1,21 @@
+{
+  "evidence": "docs/discovery-families/discovery-v1.json",
+  "family": "discovery-v1",
+  "hypothesis": {
+    "description": "pullback entries in stop_distance_bucket = <5%",
+    "filters": [
+      {
+        "field": "stop_distance_bucket",
+        "values": [
+          "<5%"
+        ]
+      }
+    ],
+    "id": "pullback-2c1d26fa",
+    "strategy": "pullback"
+  },
+  "id": "pullback-2c1d26fa",
+  "registration_commit": "fbf15eca292d569c58272217d86dfdbeca29e9d5",
+  "registration_sha256": "bed32ec1ce3713865261602f431a5e00f410955e7f33b7b71818b5b9c18c8cc2",
+  "status": "proposed"
+}

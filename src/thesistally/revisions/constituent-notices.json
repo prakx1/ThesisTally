@@ -1,4 +1,8 @@
 [
+  {"effective":"2015-02-02","remove":["INGVYSYABK"],"add":["BAJAJFINSV"],"notice":"03949e6844559c7a"},
+  {"effective":"2015-02-02","remove":["ARVIND"],"add":["CRISIL"],"notice":"3e888e024bc6a42f"},
+  {"effective":"2015-05-29","remove":["ADANIENT","IDFC"],"add":["ALSTOMT&D","CUB"],"notice":"32f92eabf0ebb07e"},
+  {"effective":"2021-09-30","remove":["ABBOTINDIA","BBTC","CESC","GODREJAGRO","IBULHSGFIN","VGUARD"],"add":["ASTRAL","HINDCOPPER","INDIANB","IRFC","NATIONALUM","TATACOMM"],"notice":"693f636899bdb405"},
   {"effective":"2024-08-30","remove":["TATAMTRDVR"],"add":[],"notice":"2a3981c0182bd1aa"},
   {"effective":"2025-06-19","add":["ENRIN"],"remove":[],"notice":"4eaaa64e1c471967"},
   {"effective":"2025-06-23","add":["ABLBL"],"remove":[],"notice":"4eaaa64e1c471967"},

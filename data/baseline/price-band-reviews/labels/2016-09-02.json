@@ -1,0 +1,30 @@
+{
+  "day": "2016-09-02",
+  "labels": {
+    "JUBILANT": {
+      "isin": "INE700A01033",
+      "percent": 10,
+      "published": "2016-09-01",
+      "sources": [
+        {
+          "published": "2016-09-01",
+          "sha256": "4aaa09af8b42632eac636440bdd1a80c5cd5d96328bc96b88d4d3d549d2125f3",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV33125.zip"
+        }
+      ]
+    },
+    "WELSPUNIND": {
+      "isin": "INE192B01031",
+      "percent": 5,
+      "published": "2016-09-01",
+      "sources": [
+        {
+          "published": "2016-09-01",
+          "sha256": "4aaa09af8b42632eac636440bdd1a80c5cd5d96328bc96b88d4d3d549d2125f3",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV33125.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2016-09-01"
+}

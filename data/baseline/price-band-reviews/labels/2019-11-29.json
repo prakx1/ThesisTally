@@ -1,0 +1,20 @@
+{
+  "day": "2019-11-29",
+  "labels": {
+    "BANKINDIA": {
+      "isin": "INE084A01016",
+      "percent": 20,
+      "published": "2019-11-28",
+      "sources": [
+        {
+          "effective": "2019-11-29",
+          "last_modified": "Thu, 28 Nov 2019 11:45:04 GMT",
+          "published": "2019-11-28",
+          "sha256": "4aff84c983998d3671ad25a56a7b8fb7d113a359fc5f0822b6f3602418b932d9",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_29112019.csv"
+        }
+      ]
+    }
+  },
+  "prior": "2019-11-28"
+}

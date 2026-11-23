@@ -1,0 +1,174 @@
+{
+  "source": "NSE final bhavcopies, prior-session price band classifications and dated public security master requests",
+  "cases": [
+    {
+      "close": 364.25,
+      "day": "2018-02-02",
+      "isin": "INE785M01013",
+      "prior_close": 484.3,
+      "reason": "unexplained_move_over_20pct",
+      "symbol": "PCJEWELLER",
+      "prior_day": "2018-02-01",
+      "close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2018/FEB/cm02FEB2018bhav.csv.zip",
+        "sha256": "5dbf1da1e7e16d2269a3162fae464824f679b4a7daa21b4cc002a5408ed731cc"
+      },
+      "prior_close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2018/FEB/cm01FEB2018bhav.csv.zip",
+        "sha256": "20fc743da68679557d742504b6841265d35f2553bd483e7d28b1be61032c2f88"
+      },
+      "prior_static_class": null,
+      "prior_static_class_source": {
+        "status": 404,
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_01022018.csv"
+      },
+      "daily_rupee_master_checks": [
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_01022018.csv.gz"
+        },
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_02022018.csv.gz"
+        }
+      ],
+      "disposition": "retained_closing_quarantine"
+    },
+    {
+      "close": 2266.15,
+      "day": "2020-03-23",
+      "isin": "INE296A01024",
+      "prior_close": 2951.9,
+      "reason": "unexplained_move_over_20pct",
+      "symbol": "BAJFINANCE",
+      "prior_day": "2020-03-20",
+      "close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/MAR/cm23MAR2020bhav.csv.zip",
+        "sha256": "2806459732d60d63adf7d3340307aa257d3677593dc5f27d118f5af89e1a7d32"
+      },
+      "prior_close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/MAR/cm20MAR2020bhav.csv.zip",
+        "sha256": "a57e2f64fce2422720800b1c058c8c452df9b7e0870cdc91428472b39e899128"
+      },
+      "prior_static_class": "No Band",
+      "prior_static_class_source": {
+        "sha256": "de413015c0d596d9db2bdf76305240ec4ff6c020a779a45d71d359a3cf745322",
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_20032020.csv",
+        "status": 200
+      },
+      "daily_rupee_master_checks": [
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_20032020.csv.gz"
+        },
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_23032020.csv.gz"
+        }
+      ],
+      "disposition": "retained_closing_quarantine"
+    },
+    {
+      "close": 101.9,
+      "day": "2020-03-25",
+      "isin": "INE522D01027",
+      "prior_close": 84.3,
+      "reason": "unexplained_move_over_20pct",
+      "symbol": "MANAPPURAM",
+      "prior_day": "2020-03-24",
+      "close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/MAR/cm25MAR2020bhav.csv.zip",
+        "sha256": "83227df529d7d7ff2c2ceab8a891ddc55e66ccab2fce2cdecd1ba80ad0add243"
+      },
+      "prior_close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2020/MAR/cm24MAR2020bhav.csv.zip",
+        "sha256": "ff601937cd8a1163081edc57d11e400a851e6f837bb0c1a7f3e2c02728a64c65"
+      },
+      "prior_static_class": "No Band",
+      "prior_static_class_source": {
+        "sha256": "d152a338282d79b850ccdeba33dfc097213f8fa1805c0ee8ab1c837fbaca452d",
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_24032020.csv",
+        "status": 200
+      },
+      "daily_rupee_master_checks": [
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_24032020.csv.gz"
+        },
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_25032020.csv.gz"
+        }
+      ],
+      "disposition": "retained_closing_quarantine"
+    },
+    {
+      "close": 16.0,
+      "day": "2023-12-29",
+      "isin": "INE669E01016",
+      "prior_close": 13.25,
+      "reason": "unexplained_move_over_20pct",
+      "symbol": "IDEA",
+      "prior_day": "2023-12-28",
+      "close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm29DEC2023bhav.csv.zip",
+        "sha256": "ba5c7e44708ea3df65a022cdf842eb3fd341421bbf4498c0ea06b3843f8a7cc3"
+      },
+      "prior_close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2023/DEC/cm28DEC2023bhav.csv.zip",
+        "sha256": "8c296c0a66cf4008a98b1b5b8d2683c05834cd706b8778df4b375018de2ba9ca"
+      },
+      "prior_static_class": "No Band",
+      "prior_static_class_source": {
+        "sha256": "e92d084bdfc8e9e1e1fdfa55dcc9983d6980c884a08b661ce3712d3e8468a0d5",
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_28122023.csv",
+        "status": 200
+      },
+      "daily_rupee_master_checks": [
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_28122023.csv.gz"
+        },
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_29122023.csv.gz"
+        }
+      ],
+      "disposition": "retained_closing_quarantine"
+    },
+    {
+      "close": 3878.45,
+      "day": "2024-01-11",
+      "isin": "INE455K01017",
+      "prior_close": 4911.85,
+      "reason": "unexplained_move_over_20pct",
+      "symbol": "POLYCAB",
+      "prior_day": "2024-01-10",
+      "close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm11JAN2024bhav.csv.zip",
+        "sha256": "5b94cffc479a852fcb7f8290f954ccc919a8117e99252abfb376450c5d6b7ae5"
+      },
+      "prior_close_source": {
+        "url": "https://nsearchives.nseindia.com/content/historical/EQUITIES/2024/JAN/cm10JAN2024bhav.csv.zip",
+        "sha256": "ac741b9d9ddd311c9c5f878fcb30b45e4a567c943f3205a9adb8a2680eba5239"
+      },
+      "prior_static_class": "No Band",
+      "prior_static_class_source": {
+        "sha256": "fe26b2704662717a47cde9ac8b57b31db860246e84f62b48df08c16354cfcc66",
+        "url": "https://nsearchives.nseindia.in/content/equities/sec_list_10012024.csv",
+        "status": 200
+      },
+      "daily_rupee_master_checks": [
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_10012024.csv.gz"
+        },
+        {
+          "status": 404,
+          "url": "https://archives.nseindia.com/content/cm/NSE_CM_security_11012024.csv.gz"
+        }
+      ],
+      "disposition": "retained_closing_quarantine"
+    }
+  ]
+}

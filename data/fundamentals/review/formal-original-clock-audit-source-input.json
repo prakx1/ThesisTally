@@ -1,0 +1,379 @@
+{
+  "source_edition": "c3972ed02de4155f7664742921bec183c6f24cdf85dba5bce5cc1974f701cdd6",
+  "source_clock": "official exchdisstime in India Standard Time",
+  "case_items": [
+    {
+      "symbol": "CONCOR",
+      "isin": "INE111A01025",
+      "period_end": "2026-06-30",
+      "basis_evidence": null,
+      "announced_at": "2026-07-24T17:46:20+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-07-2026&to_date=31-07-2026",
+      "catalogue_sha256": "dd9dc4f685a5e13aa576d1e6e989a50604a29caaf892d5c7dc21993d928838ac",
+      "sequence": "106710081",
+      "description": "Dividend",
+      "text": "Container Corporation Of India Limited has informed the Exchange that Board of Directors at its meeting held on July 24, 2026, declared Interim Dividend of Rs. 1.60 per equity share.",
+      "source_url": "https://nsearchives.nseindia.in/corporate/CONCOR_24072026174235_CONCOR_SE_BOD_Outcome_240726.pdf",
+      "source_sha256": null,
+      "review_note": "dividend category with earnings board-statement basename"
+    },
+    {
+      "symbol": "CONCOR",
+      "isin": "INE111A01025",
+      "period_end": "2026-06-30",
+      "basis_evidence": "both",
+      "announced_at": "2026-07-24T17:48:04+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-07-2026&to_date=31-07-2026",
+      "catalogue_sha256": "dd9dc4f685a5e13aa576d1e6e989a50604a29caaf892d5c7dc21993d928838ac",
+      "sequence": "106710086",
+      "description": "Record Date",
+      "text": "Container Corporation Of India Limited has informed the Exchange that Record date for the purpose of Dividend  is 04-Aug-2026.",
+      "source_url": "https://nsearchives.nseindia.in/corporate/CONCOR_24072026174744_CONCOR_SE_BOD_Outcome_240726.pdf",
+      "source_sha256": "70088a85a6e2135f0aa35599a588536fce08af14c5aad41d23cdf643d954096b",
+      "review_note": "record-date document contains both current quarterly results"
+    },
+    {
+      "symbol": "CONCOR",
+      "isin": "INE111A01025",
+      "period_end": "2026-06-30",
+      "basis_evidence": "both",
+      "announced_at": "2026-07-24T17:52:10+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-07-2026&to_date=31-07-2026",
+      "catalogue_sha256": "dd9dc4f685a5e13aa576d1e6e989a50604a29caaf892d5c7dc21993d928838ac",
+      "sequence": "106710094",
+      "description": "General Updates",
+      "text": "Container Corporation Of India Limited has informed the Exchange about General Updates",
+      "source_url": "https://nsearchives.nseindia.in/corporate/CONCOR_24072026174949_CONCOR_SE_BOD_Outcome_240726.pdf",
+      "source_sha256": "70088a85a6e2135f0aa35599a588536fce08af14c5aad41d23cdf643d954096b",
+      "review_note": "general-updates document contains both current quarterly results"
+    },
+    {
+      "symbol": "CONCOR",
+      "isin": "INE111A01025",
+      "period_end": "2026-09-30",
+      "basis_evidence": null,
+      "announced_at": "2026-11-02T16:51:09+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-11-2026&to_date=20-11-2026",
+      "catalogue_sha256": "77f108efebe3ed5a417d97e73a2e5077eee71c687cd1bb1d5d132b29cedda72b",
+      "sequence": "106839845",
+      "description": "Record Date",
+      "text": "Container Corporation Of India Limited has informed the Exchange that Record date for the purpose of Dividend  is 11-Nov-2026.",
+      "source_url": "https://nsearchives.nseindia.in/corporate/CONCOR_02112026164546_CONCOR_Results_300926S.pdf",
+      "source_sha256": null,
+      "review_note": "record date category with issuer quarterly Results_300926S PDF"
+    },
+    {
+      "symbol": "KPITTECH",
+      "isin": "INE04I401011",
+      "period_end": "2025-03-31",
+      "basis_evidence": "both",
+      "announced_at": "2025-04-28T13:00:35+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-04-2025&to_date=30-04-2025",
+      "catalogue_sha256": "9256cc47740d0098e2a5eaa8121ebe5a234b3af3b8336db0a5e46333287bced4",
+      "sequence": "106213571",
+      "description": "Outcome of Board Meeting",
+      "text": "KPIT Technologies Limited has informed the Exchange about Outcome of Board Meeting held on April 28, 2025- Financial Results for the quarter & year ended 2024-25.",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MeghanaPhadnis_28042025125708_BMOutcome_Results_NSE.pdf",
+      "source_sha256": "2cf4283242f89dc21c8c0bf807e16aa8d37f556fd8dd3468502d91dc13422bb2",
+      "review_note": "explicit fiscal-year quarter and quarterly document"
+    },
+    {
+      "symbol": "KPITTECH",
+      "isin": "INE04I401011",
+      "period_end": "2025-03-31",
+      "basis_evidence": null,
+      "announced_at": "2025-04-28T14:22:42+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-04-2025&to_date=30-04-2025",
+      "catalogue_sha256": "9256cc47740d0098e2a5eaa8121ebe5a234b3af3b8336db0a5e46333287bced4",
+      "sequence": "106213648",
+      "description": "Press Release",
+      "text": "KPIT Technologies Limited has informed the Exchange regarding a press release dated April 28, 2025, titled \"Press release: KPIT collaborates with Mercedes-Benz Research and Development India (MBRDI) to accelerate the realization of Software-Defined Vehicles.\".",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MeghanaPhadnis_28042025142132_MDBI_Signed.pdf",
+      "source_sha256": null,
+      "review_note": "later same-day financial press announcement alongside a verified earlier original"
+    },
+    {
+      "symbol": "MAZDOCK",
+      "isin": "INE249Z01020",
+      "period_end": "2026-03-31",
+      "basis_evidence": "both",
+      "announced_at": "2026-04-30T21:05:52+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-04-2026&to_date=30-04-2026",
+      "catalogue_sha256": "d80cc26ce79e5dba9d56af7df8079e8020301f48799263909b12fa3caa2e3f1f",
+      "sequence": "106606491",
+      "description": "Outcome of Board Meeting",
+      "text": "Mazagon Dock Shipbuilders Limited has submitted to the Exchange, the Audited Financial Results (Consolidated and Standalone) for the quarter and year ended 3 1 March 2026.",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MAZDOCK_30042026210302_SE_Disc_FR_31032026.PDF",
+      "source_sha256": "0abf2af56c84689e7a7d71a31c408ce7e025304ff2cab004b839d40dd8872a68",
+      "review_note": "word-wrapped March date and both original quarter tables"
+    },
+    {
+      "symbol": "MUTHOOTFIN",
+      "isin": "INE414G01012",
+      "period_end": "2026-06-30",
+      "basis_evidence": null,
+      "announced_at": "2026-08-01T15:13:20+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-08-2026&to_date=31-08-2026",
+      "catalogue_sha256": "a30d451aaf17f32647b35e5bb9aca7be46d5e17c2f6124c4cf376b9fe745ee0b",
+      "sequence": "106720771",
+      "description": "General Updates",
+      "text": "Muthoot Finance Limited has informed the Exchange about General Updates",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MUTHOOTFIN_01082026151303_Outcome.pdf",
+      "source_sha256": "65bd923c4dc66cb590b01482a5a08c56984acd29c532a1fb0c3ade24bdd53ca5",
+      "review_note": "general updates encloses both original June quarter results"
+    },
+    {
+      "symbol": "MUTHOOTFIN",
+      "isin": "INE414G01012",
+      "period_end": "2026-06-30",
+      "basis_evidence": null,
+      "announced_at": "2026-08-01T16:22:19+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-08-2026&to_date=31-08-2026",
+      "catalogue_sha256": "a30d451aaf17f32647b35e5bb9aca7be46d5e17c2f6124c4cf376b9fe745ee0b",
+      "sequence": "106720860",
+      "description": "Press Release",
+      "text": "Muthoot Finance Limited has informed the Exchange regarding a press release dated August 01, 2026, titled \"Press release\".",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MUTHOOTFIN_01082026161754_MFINPressReleaseFinalsd.pdf",
+      "source_sha256": "c22743c6ac566238736ceb22fff35140b429825027e933f5bbceb821b4313cf3",
+      "review_note": "financial press release prints basic EPS"
+    },
+    {
+      "symbol": "MUTHOOTFIN",
+      "isin": "INE414G01012",
+      "period_end": "2026-06-30",
+      "basis_evidence": null,
+      "announced_at": "2026-08-01T16:33:10+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-08-2026&to_date=31-08-2026",
+      "catalogue_sha256": "a30d451aaf17f32647b35e5bb9aca7be46d5e17c2f6124c4cf376b9fe745ee0b",
+      "sequence": "106720879",
+      "description": "Investor Presentation",
+      "text": "Muthoot Finance Limited has informed the Exchange about Investor Presentation",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MUTHOOTFIN_01082026163158_MFIN_Final_SD.pdf",
+      "source_sha256": null,
+      "review_note": "quarterly investor presentation may contain earnings"
+    },
+    {
+      "symbol": "VAML",
+      "isin": "INE1CDF01017",
+      "period_end": "2026-03-31",
+      "basis_evidence": null,
+      "announced_at": "2026-06-16T15:39:35+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-06-2026&to_date=30-06-2026",
+      "catalogue_sha256": "32cad885352d52046eac51aeb7b07f85aed31da8a4284a8386e4163048efce32",
+      "sequence": "106664481",
+      "description": "Updates",
+      "text": "Vedanta Aluminium Metal Limited has informed the Exchange regarding 'Vedanta Aluminium Metal Limited (the  Company )   Audited Financial Statement for the year ended March 31, 2026'.",
+      "source_url": "https://nsearchives.nseindia.in/corporate/VAML_16062026153834_VAMLSEIntimationFinancialresultssigned.pdf",
+      "source_sha256": null,
+      "review_note": "year-end financial statements, quarterly contents require original inspection"
+    },
+    {
+      "symbol": "VOGL",
+      "isin": "INE704J01044",
+      "period_end": "2026-03-31",
+      "basis_evidence": null,
+      "announced_at": "2026-06-16T17:00:06+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-06-2026&to_date=30-06-2026",
+      "catalogue_sha256": "32cad885352d52046eac51aeb7b07f85aed31da8a4284a8386e4163048efce32",
+      "sequence": "106664600",
+      "description": "Updates",
+      "text": "Vedanta Oil and Gas Limited has informed the Exchange regarding 'Submission of Audited Financial Statement for the financial year ended March 31, 2026, of Vedanta                Oil and Gas Limited (formerly known as Malco Energy Limited)'.",
+      "source_url": "https://nsearchives.nseindia.in/corporate/VOGL_16062026165722_VOGLNSEIntimationFinancialStatements.pdf",
+      "source_sha256": null,
+      "review_note": "year-end financial statements, quarterly contents require original inspection"
+    },
+    {
+      "symbol": "VOLTAS",
+      "isin": "INE226A01021",
+      "period_end": "2026-03-31",
+      "basis_evidence": "both",
+      "announced_at": "2026-05-14T17:42:49+05:30",
+      "catalogue_url": "https://www.nseindia.in/api/corporate-announcements?index=equities&from_date=01-05-2026&to_date=31-05-2026",
+      "catalogue_sha256": "4de2213d19fd095b901f3213e63f1337ba4172f858cb075a4974ab2c27c1ff51",
+      "sequence": "106622864",
+      "description": "Outcome of Board Meeting",
+      "text": "VOLTAS: Voltas Limited has submitted to the Exchange regarding approval of Annual Accounts, Recommendation of dividend for 2025-26 and Appointment of Director.",
+      "source_url": "https://nsearchives.nseindia.in/corporate/VOLTAS_RB_14052026173418_01_Outcome_Signed.pdf",
+      "source_sha256": "d4e2e10d26d865321a664005ec13264344c977ed7b6e2633247e2123abdf7e01",
+      "review_note": "multi-agenda financial statement reports both quarter tables"
+    }
+  ],
+  "formal_rows_reviewed": [
+    {
+      "id": "integrated/KPITTECH/INE04I401011/2025-03-31/consolidated/87651",
+      "isin": "INE04I401011",
+      "symbol": "KPITTECH",
+      "basis": "consolidated",
+      "period_end": "2025-03-31",
+      "announced_at": "2025-04-28T23:21:32+05:30"
+    },
+    {
+      "id": "integrated/KPITTECH/INE04I401011/2025-03-31/standalone/87847",
+      "isin": "INE04I401011",
+      "symbol": "KPITTECH",
+      "basis": "standalone",
+      "period_end": "2025-03-31",
+      "announced_at": "2025-04-29T15:00:44+05:30"
+    },
+    {
+      "id": "integrated/CONCOR/INE111A01025/2026-06-30/standalone/178030",
+      "isin": "INE111A01025",
+      "symbol": "CONCOR",
+      "basis": "standalone",
+      "period_end": "2026-06-30",
+      "announced_at": "2026-07-24T18:59:12+05:30"
+    },
+    {
+      "id": "integrated/CONCOR/INE111A01025/2026-09-30/consolidated/208212",
+      "isin": "INE111A01025",
+      "symbol": "CONCOR",
+      "basis": "consolidated",
+      "period_end": "2026-09-30",
+      "announced_at": "2026-11-02T17:03:03+05:30"
+    },
+    {
+      "id": "integrated/CONCOR/INE111A01025/2026-09-30/standalone/208211",
+      "isin": "INE111A01025",
+      "symbol": "CONCOR",
+      "basis": "standalone",
+      "period_end": "2026-09-30",
+      "announced_at": "2026-11-02T16:59:43+05:30"
+    },
+    {
+      "id": "integrated/SAIL/INE114A01011/2026-03-31/consolidated/158104",
+      "isin": "INE114A01011",
+      "symbol": "SAIL",
+      "basis": "consolidated",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-05-15T19:42:11+05:30"
+    },
+    {
+      "id": "integrated/SAIL/INE114A01011/2026-03-31/standalone/158099",
+      "isin": "INE114A01011",
+      "symbol": "SAIL",
+      "basis": "standalone",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-05-15T19:41:08+05:30"
+    },
+    {
+      "id": "integrated/VAML/INE1CDF01017/2026-03-31/standalone/167303",
+      "isin": "INE1CDF01017",
+      "symbol": "VAML",
+      "basis": "standalone",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-06-16T15:41:20+05:30"
+    },
+    {
+      "id": "integrated/VISL/INE1CLE01013/2026-03-31/standalone/167290",
+      "isin": "INE1CLE01013",
+      "symbol": "VISL",
+      "basis": "standalone",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-06-16T14:56:13+05:30"
+    },
+    {
+      "id": "integrated/GVT&D/INE200A01026/2026-06-30/standalone/182953",
+      "isin": "INE200A01026",
+      "symbol": "GVT&D",
+      "basis": "standalone",
+      "period_end": "2026-06-30",
+      "announced_at": "2026-08-05T22:09:15+05:30"
+    },
+    {
+      "id": "integrated/IREDA/INE202E01016/2026-09-30/consolidated/202422",
+      "isin": "INE202E01016",
+      "symbol": "IREDA",
+      "basis": "consolidated",
+      "period_end": "2026-09-30",
+      "announced_at": "2026-10-19T19:29:32+05:30"
+    },
+    {
+      "id": "integrated/IREDA/INE202E01016/2026-09-30/standalone/202421",
+      "isin": "INE202E01016",
+      "symbol": "IREDA",
+      "basis": "standalone",
+      "period_end": "2026-09-30",
+      "announced_at": "2026-10-19T19:29:27+05:30"
+    },
+    {
+      "id": "integrated/VOLTAS/INE226A01021/2026-03-31/consolidated/157788",
+      "isin": "INE226A01021",
+      "symbol": "VOLTAS",
+      "basis": "consolidated",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-05-14T22:53:04+05:30"
+    },
+    {
+      "id": "integrated/VOLTAS/INE226A01021/2026-03-31/standalone/157787",
+      "isin": "INE226A01021",
+      "symbol": "VOLTAS",
+      "basis": "standalone",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-05-14T22:52:35+05:30"
+    },
+    {
+      "id": "integrated/MAZDOCK/INE249Z01020/2026-03-31/consolidated/155129",
+      "isin": "INE249Z01020",
+      "symbol": "MAZDOCK",
+      "basis": "consolidated",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-04-30T22:41:29+05:30"
+    },
+    {
+      "id": "integrated/MAZDOCK/INE249Z01020/2026-03-31/standalone/155128",
+      "isin": "INE249Z01020",
+      "symbol": "MAZDOCK",
+      "basis": "standalone",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-04-30T22:41:19+05:30"
+    },
+    {
+      "id": "integrated/MUTHOOTFIN/INE414G01012/2026-06-30/consolidated/181533",
+      "isin": "INE414G01012",
+      "symbol": "MUTHOOTFIN",
+      "basis": "consolidated",
+      "period_end": "2026-06-30",
+      "announced_at": "2026-08-01T18:01:44+05:30"
+    },
+    {
+      "id": "integrated/MUTHOOTFIN/INE414G01012/2026-06-30/standalone/181531",
+      "isin": "INE414G01012",
+      "symbol": "MUTHOOTFIN",
+      "basis": "standalone",
+      "period_end": "2026-06-30",
+      "announced_at": "2026-08-01T17:59:11+05:30"
+    },
+    {
+      "id": "integrated/PATANJALI/INE619A01035/2026-03-31/consolidated/164896",
+      "isin": "INE619A01035",
+      "symbol": "PATANJALI",
+      "basis": "consolidated",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-05-30T18:32:38+05:30"
+    },
+    {
+      "id": "integrated/VEDPOWER/INE694L01019/2026-03-31/standalone/167345",
+      "isin": "INE694L01019",
+      "symbol": "VEDPOWER",
+      "basis": "standalone",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-06-16T17:05:32+05:30"
+    },
+    {
+      "id": "integrated/VOGL/INE704J01044/2026-03-31/standalone/167331",
+      "isin": "INE704J01044",
+      "symbol": "VOGL",
+      "basis": "standalone",
+      "period_end": "2026-03-31",
+      "announced_at": "2026-06-16T17:03:20+05:30"
+    },
+    {
+      "id": "integrated/PAGEIND/INE761H01022/2025-12-31/standalone/140383",
+      "isin": "INE761H01022",
+      "symbol": "PAGEIND",
+      "basis": "standalone",
+      "period_end": "2025-12-31",
+      "announced_at": "2026-02-05T14:29:12+05:30"
+    }
+  ]
+}

@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import json
+import math
+from collections import defaultdict
 from dataclasses import dataclass
 from datetime import date
 from importlib.resources import files
@@ -12,13 +14,32 @@ import numpy as np
 import pandas as pd
 import yaml
 
-from .exchange import decode, read_context
+from .exchange import apply_quarantine, decode, price_quarantines, read_context
 from .market import BENCHMARKS, MarketError, read_members, sessions, sha, verify
 
+STRATEGIES = ("trend_pullback", "high_momentum", "vcp_breakout")
 
-def rules(path: Path | None = None):
-    raw = path.read_bytes() if path else files(__package__).joinpath("rules.yaml").read_bytes()
+
+def rules(path: Path | None = None, *, revision: str | None = None):
+    if revision is not None and (
+        revision not in {"r1", "r2", "dip-rsi10", "dip-rsi5"} or path is not None
+    ):
+        raise MarketError("Select one config path or a supported rule revision.")
+    name = f"revisions/{revision}.yaml" if revision else "rules.yaml"
+    raw = path.read_bytes() if path else files(__package__).joinpath(name).read_bytes()
     cfg = yaml.safe_load(raw)
+    if base := cfg.get("base_revision"):
+        base_raw = files(__package__).joinpath("revisions/r2.yaml").read_bytes()
+        if base != "r2" or cfg["base_sha256"] != sha(base_raw):
+            raise MarketError("Pinned r2 base differs from the experiment definition.")
+        inherited = yaml.safe_load(base_raw)
+        for key, value in cfg.items():
+            if isinstance(value, dict) and isinstance(inherited.get(key), dict):
+                inherited[key].update(value)
+            else:
+                inherited[key] = value
+        cfg = inherited
+        raw = base_raw + b"\0" + raw
     cfg["config_hash"] = sha(raw)
     cfg["revision"] = f"{cfg['version']}-{sha(raw)[:12]}"
     if cfg["exits"]["target_r"] < 2 or not 0 < cfg["risk"]["fraction"] <= 1:
@@ -27,6 +48,23 @@ def rules(path: Path | None = None):
     if mode not in {"calendar_days", "holding_period"}:
         raise MarketError("Unknown earnings blackout mode.")
     return cfg
+
+
+def signal_atr14(features, cfg):
+    return features.get("atr14", features.get("atr") if cfg["trend"]["atr"] == 14 else None)
+
+
+def stop_bound_reason(entry, stop, atr14, cfg):
+    if atr14 is None or not math.isfinite(atr14) or atr14 <= 0:
+        return "atr14_unknown"
+    filters = cfg["filters"]
+    distance = entry - stop
+    minimum = filters["min_stop_fraction"] * entry
+    maximum = min(filters["max_stop_fraction"] * entry, filters["max_stop_atr"] * atr14)
+    # Subtracting quoted prices can shift an exact inclusive limit by one ULP.
+    if distance < minimum - math.ulp(entry) or distance > maximum + math.ulp(entry):
+        return "stop_out_of_bounds"
+    return None
 
 
 def ema(close, period):
@@ -119,6 +157,10 @@ def feature_frames(bars, cfg):
     previous = close.shift()
     tr = pd.DataFrame(np.fmax(np.fmax(high - low, (high - previous).abs()), (low - previous).abs()))
     atr = tr.ewm(alpha=1 / t["atr"], adjust=False, min_periods=t["atr"]).mean()
+    if t["atr"] != 14:
+        ordered["atr14"] = (
+            tr.ewm(alpha=1 / 14, adjust=False, min_periods=14).mean().to_numpy()[row, column]
+        )
     turnover = (close * volume).rolling(cfg["filters"]["median_turnover_days"]).median()
     strength = close.pct_change(cfg["momentum"]["strength_days"], fill_method=None)
     trail = low.rolling(cfg["exits"]["trailing_low_days"]).min()
@@ -132,6 +174,22 @@ def feature_frames(bars, cfg):
     return {sym: frame.set_index("day") for sym, frame in ordered.groupby("symbol", sort=False)}
 
 
+def allocation_gate(index_close, index_slow, vix_close, breadth, count, cfg):
+    regime = {
+        "nifty_close": float(index_close),
+        "nifty_ema": None if pd.isna(index_slow) else float(index_slow),
+        "breadth": breadth,
+        "breadth_count": count,
+        "vix": float(vix_close),
+    }
+    regime["enabled"] = bool(
+        index_close > index_slow
+        and breadth >= cfg["filters"]["min_breadth"]
+        and vix_close <= cfg["filters"]["max_vix"]
+    )
+    return regime
+
+
 def scan_frame(bars, members, cfg, context, *, as_of=None):
     if as_of is not None:
         bars = bars.loc[bars.day <= as_of]
@@ -142,32 +200,38 @@ def scan_frame(bars, members, cfg, context, *, as_of=None):
     vix = fs["INDIA VIX"].iloc[-1]
     eligible = {s: fs[s].iloc[-1] for s in members.symbol if pd.notna(fs[s].iloc[-1].medium)}
     breadth = sum(r.close > r.medium for r in eligible.values()) / len(eligible) if eligible else 0
-    regime = {
-        "nifty_close": float(index.close),
-        "nifty_ema": None if pd.isna(index.slow) else float(index.slow),
-        "breadth": breadth,
-        "breadth_count": len(eligible),
-        "vix": float(vix.close),
-    }
-    regime["enabled"] = bool(
-        index.close > index.slow
-        and breadth >= cfg["filters"]["min_breadth"]
-        and vix.close <= cfg["filters"]["max_vix"]
-    )
+    regime = allocation_gate(index.close, index.slow, vix.close, breadth, len(eligible), cfg)
+    if "dip" in cfg:
+        from .dip import candidates as dip_candidates
+        from .stage3_market import ranked
+
+        ranking = ranked(bars, members, lookback=126, context=context)
+        return regime, dip_candidates(ranking, context, cfg), fs
     ranks = pd.Series({s: r.strength for s, r in eligible.items()}, dtype=float).rank(pct=True)
     candidates = []
+    count_funnel = "max_chase_atr" in cfg.get("entries", {})
+    if count_funnel:
+        regime["detector_funnel"] = {
+            s: {"detected": 0, "liquid": 0, "invalid_geometry": 0, "valid_stop": 0}
+            for s in STRATEGIES
+        }
     for row in members.itertuples(index=False):
         f = fs[row.symbol]
         last = f.iloc[-1]
-        if (
-            len(f) < 2
-            or pd.isna(last.turnover)
-            or last.turnover < cfg["filters"]["min_turnover_inr"]
-        ):
+        liquid = pd.notna(last.turnover) and last.turnover >= cfg["filters"]["min_turnover_inr"]
+        if len(f) < 2 or (not count_funnel and not liquid):
             continue
         rs = ranks.get(row.symbol, float("nan"))
         for strategy, stop in setups(f, rs, cfg):
+            if count_funnel:
+                stage = regime["detector_funnel"][strategy]
+                stage["detected"] += 1
+                if not liquid:
+                    continue
+                stage["liquid"] += 1
             if not 0 < stop < last.close:
+                if count_funnel:
+                    stage["invalid_geometry"] += 1
                 continue
             snap = {
                 "atr": float(last.atr),
@@ -175,6 +239,13 @@ def scan_frame(bars, members, cfg, context, *, as_of=None):
                 "rs_percentile": None if pd.isna(rs) else float(rs),
                 "volume": int(last.volume),
             }
+            if "atr14" in last:
+                snap["atr14"] = float(last.atr14) if pd.notna(last.atr14) else None
+            if (
+                count_funnel
+                and stop_bound_reason(last.close, stop, signal_atr14(snap, cfg), cfg) is None
+            ):
+                stage["valid_stop"] += 1
             market_data = context[row.symbol]
             snap["quarantined"] = market_data.get("quarantined", False)
             snap["surveillance"] = market_data["surveillance"]
@@ -209,20 +280,39 @@ def load_session(root, day, cfg, following=()):
         raise MarketError("Snapshot contains an incorrect session.")
     from .trading_calendar import holding_horizon
 
+    if cfg.get("forward_execution_convention"):
+        from .forward_conventions import prepare
+
+        following = list(following)
+        prepare(root, day, members, following)
     context = read_context(root, day, verify_sources=True)
     horizon = holding_horizon(root, day, cfg["exits"]["max_days"])
-    for info in context.values():
+    flags = price_quarantines(root, day)
+    for member in members.itertuples():
+        info = context[member.symbol]
         info["holding_blackout_days"] = horizon
+        apply_quarantine(info, flags, member.isin)
     regime, candidates, fs = scan_frame(bars, members, cfg, context, as_of=day)
     attach_following(root, day, cfg, following, fs, dict(zip(members["isin"], members.symbol)))
     return regime, candidates, fs
 
 
 def attach_following(root, day, cfg, following, frames, by_isin):
-    from . import corporate
+    from . import conventions, corporate
 
+    events = conventions.dated(root, day)
     register = corporate.actions(root)
+    flags = price_quarantines(root, day)
+    # Several independent calls can follow the same security across a removal or rename.
+    # Use the earliest active signal as the anchor for its off-index indicator history.
+    earliest = {}
+    aliases = defaultdict(set)
     for call in following:
+        isin = call["isin"]
+        aliases[isin].add(call["symbol"])
+        if isin not in earliest or call["day"] < earliest[isin]["day"]:
+            earliest[isin] = call
+    for call in earliest.values():
         term = register.get(call["isin"])
         if term and str(day) >= term["suspended"]:
             # A successor can itself undergo a later scheme.
@@ -236,21 +326,40 @@ def attach_following(root, day, cfg, following, frames, by_isin):
                 visited.add(successor["predecessor_isin"])
                 term = successor
             frame = corporate.action_frame(root, day, term, frames, by_isin)
+            apply_quarantine(frame.attrs["exchange"], flags, term.get("successor_isin"))
             frames.setdefault(call["symbol"], frame)
+            conventions.apply(frame.attrs["exchange"], events.get(term.get("successor_isin"), {}))
             frames[call["isin"]] = frame
             continue
         current = by_isin.get(call["isin"])
         if current:
-            if call["symbol"] != current:
-                frames[call["symbol"]] = frames[current]
+            frames[call["isin"]] = frames[current]
+            frames.setdefault(call["symbol"], frames[current])
         else:
             try:
-                frames[call["symbol"]] = follow_removed(root, day, cfg, call)
+                frame = follow_removed(root, day, cfg, call)
             except MissingSecurity:
-                frames[call["symbol"]] = pd.DataFrame(index=[day])
-                frames[call["symbol"]].attrs["exchange"] = {
-                    "unavailable": "No traded price for the original ISIN"
-                }
+                frame = pd.DataFrame(index=[day])
+                frame.attrs["exchange"] = {"unavailable": "No traded price for the original ISIN"}
+            apply_quarantine(frame.attrs["exchange"], flags, call["isin"])
+            conventions.apply(frame.attrs["exchange"], events.get(call["isin"], {}))
+            frames[call["isin"]] = frame
+            frames.setdefault(call["symbol"], frame)
+    if conventions.tracks_holder_bonuses(cfg):
+        from . import dip_bonus
+
+        bonuses = dip_bonus.register(root)
+        for isin in aliases:
+            frame = frames[isin]
+            info = frame.attrs["exchange"]
+            info["dip_bonus_accounting"] = True
+            active_isin = info.get("compulsory_action", {}).get("successor_isin") or isin
+            if term := bonuses.get((active_isin, str(day))):
+                prior = frames["NIFTY 50"].index[-2]
+                dip_bonus.attach(info, term, corporate.quote(root, prior, active_isin))
+    for isin, symbols in aliases.items():
+        for symbol in symbols:
+            frames.setdefault(symbol, frames[isin])
 
 
 class MissingSecurity(MarketError):
@@ -273,7 +382,7 @@ def follow_removed(root, day, cfg, call):
         bar = quote(root, d, call["isin"])
         if bar is None:
             raise MissingSecurity(f"Missing tradable equity for open call {call['symbol']} on {d}.")
-        member = {"isin": call["isin"], "series": "EQ", "symbol": bar["symbol"]}
+        member = {"isin": call["isin"], "series": bar["series"], "symbol": bar["symbol"]}
         tail.append({**bar, "day": d, "symbol": call["symbol"]})
     if member is None:
         raise MarketError("No follow-up session after detection.")
@@ -287,6 +396,9 @@ def follow_removed(root, day, cfg, call):
         data.attrs["exchange"] = context_for(
             day, pd.DataFrame([member]), meetings, actions, coverage, set()
         )[member["symbol"]]
+        from .baseline_actions import apply_to_following
+
+        apply_to_following(root, day, member, data.attrs["exchange"])
         master = root / "sources" / "exchange-controls" / str(day) / "security.csv.gz"
         if master.is_file():
             from .exchange import decode_controls

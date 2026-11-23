@@ -49,6 +49,8 @@ def stamp(value):
 
 
 def report_text(report):
+    if report.get("type") in ("stage2_baseline", "stage3_study"):
+        return report["terminal_summary"]
     if "comparable_model" in report:
         lines = [report["research"], "", "Window        Training rows    Comparison"]
         lines.extend(
@@ -119,12 +121,20 @@ def report_text(report):
 
 
 def call_text(c):
+    plan_target = c.get("planned_target", c["target"])
+    plan_size = c.get("planned_size", c["size"])
+    execution = []
+    if c["buy"] is not None:
+        execution.append(
+            f"Fill ₹{num(c['buy'])}   Stop ₹{num(c['stop'])}   Target ₹{num(c['target'])}"
+            f"   Shares {c['size']}   Remaining {c['remaining']}"
+        )
     lines = [
         f"{c['symbol']}   ·   {LABELS.get(c['strategy'], c['strategy'])}   ·   {c['day']}",
         f"{c['sector']}   /   {c['status']}   /   {c['allocation']}   /   {c['action']}",
         "",
-        f"Entry ₹{num(c['entry'])}       Stop ₹{num(c['stop'])}       Target ₹{num(c['target'])}",
-        f"Size {c['size']}       Filled at ₹{num(c['buy'])}       Remaining {c['remaining']}",
+        f"Plan ₹{num(c['entry'])}   Stop ₹{num(c['stop'])}   Target ₹{num(plan_target)}   Shares {plan_size}",
+        *execution,
         f"Net ₹{num(c['net'])}       Outcome {num(c['outcome_r'])} R       Held {c['age']} sessions",
         f"MAE {num(c['mae'])} R       MFE {num(c['mfe'])} R",
         "",
@@ -210,7 +220,7 @@ class RadarTerminal(App):
     .note { color: #bed2d7; height: auto; padding: 0 1; }
     #indices { height: auto; padding: 0 1; background: #162b30; color: #a5efd4; }
     #activity { height: auto; color: #f2d69c; padding: 0 1; }
-    #paper-trades { height: 2fr; }
+    #paper-trades, #entry-comparison { height: 2fr; }
     #paper-history { height: 1fr; }
     Input, Select { height: 3; }
     """
@@ -219,6 +229,7 @@ class RadarTerminal(App):
         ("2", "pane('calls-pane')", "Calls"),
         ("3", "pane('reports-pane')", "Reports"),
         ("4", "pane('paper-pane')", "Paper"),
+        ("v", "compare_entries", "Entry rules"),
         ("slash", "search", "Find"),
         ("r", "reload", "Refresh"),
         ("d", "daily", "Daily scan"),
@@ -265,6 +276,7 @@ class RadarTerminal(App):
                 )
                 yield Static("", id="paper-status", classes="note", markup=False)
                 yield DataTable(id="paper-trades", cursor_type="row", zebra_stripes=True)
+                yield DataTable(id="entry-comparison", cursor_type="row", zebra_stripes=True)
                 yield Static("Daily account history", classes="kicker")
                 yield DataTable(id="paper-history", cursor_type="row", zebra_stripes=True)
         yield Static("", id="activity", markup=False)
@@ -300,6 +312,20 @@ class RadarTerminal(App):
             "Close ₹",
             "Net P&L ₹",
         )
+        comparison = self.query_one("#entry-comparison", DataTable)
+        comparison.add_columns(
+            "Signal",
+            "Symbol",
+            "Setup",
+            "Allocation",
+            "Original",
+            "Shadow",
+            "Original fill ₹",
+            "Shadow fill ₹",
+            "Original net R",
+            "Shadow net R",
+        )
+        comparison.display = False
         self.query_one("#paper-history", DataTable).add_columns(
             "Session", "Equity ₹", "Cash ₹", "Holdings ₹", "Day P&L ₹", "Total P&L ₹"
         )
@@ -321,10 +347,18 @@ class RadarTerminal(App):
                 "prices": "#prices-table",
                 "calls-pane": "#calls-table",
                 "reports-pane": "#reports-table",
-                "paper-pane": "#paper-trades",
+                "paper-pane": "#entry-comparison"
+                if self.query_one("#entry-comparison").display
+                else "#paper-trades",
             }[pane],
             DataTable,
         ).focus()
+
+    def action_compare_entries(self):
+        comparison = self.query_one("#entry-comparison", DataTable)
+        comparison.display = not comparison.display
+        self.query_one("#paper-trades").display = not comparison.display
+        self.action_pane("paper-pane")
 
     def action_search(self):
         self.action_pane("prices")
@@ -452,9 +486,8 @@ class RadarTerminal(App):
         pending = sum(t["status"] == "confirmed" for t in trades)
         held = sum(t["status"] == "active" for t in trades)
         self.query_one("#paper-status", Static).update(
-            f"{pending} awaiting entry   ·   {held} open   ·   Enter to inspect a trade or session"
-            if trades
-            else "No allocated paper trades yet"
+            f"{pending} funded plans awaiting entry   ·   {held} open   ·   "
+            "V switches funded trades / all entry comparisons   ·   Enter for detail"
         )
         rows = []
         for t in trades:
@@ -480,6 +513,27 @@ class RadarTerminal(App):
                 )
             )
         self.rows("paper-trades", rows)
+        self.rows(
+            "entry-comparison",
+            [
+                (
+                    f"{c['id']}/{c['shadow_id']}",
+                    [
+                        c["day"],
+                        c["symbol"],
+                        LABELS.get(c["strategy"], c["strategy"]),
+                        c["allocation"],
+                        c["status"],
+                        c["shadow_status"],
+                        num(c["buy"]),
+                        num(c["shadow_buy"]),
+                        num(c["outcome_r"]),
+                        num(c["shadow_r"]),
+                    ],
+                )
+                for c in account["comparisons"]
+            ],
+        )
         self.rows(
             "paper-history",
             [
@@ -616,6 +670,18 @@ class RadarTerminal(App):
                 self.push_screen(
                     Detail(f"Paper trade #{key}", call_text(self.data.paper_trade(int(key))))
                 )
+            elif event.data_table.id == "entry-comparison":
+                original, shadow = (
+                    self.data.paper_trade(int(i), comparison=True) for i in key.split("/")
+                )
+                body = (
+                    "Shadow rule · skip above close + 0.5 ATR(14). Target 2R from fill."
+                    "\n\nOriginal rule\n"
+                    + call_text(original)
+                    + "\n\nShadow rule\n"
+                    + call_text(shadow)
+                )
+                self.push_screen(Detail("Entry comparison", body))
             elif event.data_table.id == "paper-history":
                 fills = self.data.paper_fills(key)
                 lines = [

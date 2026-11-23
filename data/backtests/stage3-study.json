@@ -1,0 +1,14 @@
+{
+  "type": "stage3_study",
+  "start": "2017-01-02",
+  "end": "2026-11-20",
+  "rules": "Stage 3 · Steady momentum and Dip in steady risers",
+  "market_sha256": "e722f88c7cc3e270f38902fb2f531023a6d9f0955faf5d29fc3a1e2c0c08158b",
+  "studies": {
+    "data/stage3/steady-momentum/51fd8295cc4c5919fe99/results.json": "e09656452f8a2becfd0585599a75e03011c747d46018876126a8c81c6d0b7da3",
+    "data/backtests/stage3-dip-741213b1920a60c14e26.json": "9977fe4e087dd7801f4420efdde4c9bdb9dab00fb298c10d24d967c7cad3780f",
+    "data/stage3/r2-convention-replay/e722f88c7cc3e270/result.json": "0d6b660feaf3ee9a6b1c6433acb3c6cad608c6dc66260d258173aaef2b1a7075",
+    "docs/STAGE3_REPORT.md": "3952f5c6dc2305d98d6ce2d1f0701a57e46be5903df6b97f51e7adac000e6497"
+  },
+  "terminal_summary": "Stage 3 · Walk-forward results\n\nA126 · does not qualify. Beat the Nifty 200 total-return index in 1/10 scheduled windows. 10/10 windows reached the scheduled end. The observed net CAGR was 4.24% versus 14.28% for the index over the same observed sessions.\n\nA252 · does not qualify. Beat the Nifty 200 total-return index in 1/10 scheduled windows. 10/10 windows reached the scheduled end. The observed net CAGR was 4.13% versus 14.28% for the index over the same observed sessions.\n\nB10 funded · not enough data. 175 measured closes, 159 mature closes in counted windows. Their net mean was -0.03R, with a 90% date-clustered interval of [-0.13, 0.08]R.\n\nB10 equal risk · not enough data. 602 measured closes, 579 mature closes in counted windows. Their net mean was -0.02R, with a 90% date-clustered interval of [-0.09, 0.06]R.\n\nB5 funded · not enough data. 127 measured closes, 105 mature closes in counted windows. Their net mean was 0.19R, with a 90% date-clustered interval of [0.06, 0.31]R.\n\nB5 equal risk · not enough data. 286 measured closes, 254 mature closes in counted windows. Their net mean was 0.06R, with a 90% date-clustered interval of [-0.04, 0.15]R.\n\nDetails in docs/STAGE3_REPORT.md"
+}

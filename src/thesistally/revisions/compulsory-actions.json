@@ -13,5 +13,52 @@
     "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
     "suspension_source": "https://nsearchives.nseindia.com/content/circulars/CML63585.pdf",
     "credit_source": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf"
+  },
+  {
+    "predecessor_isin": "INE591G01017",
+    "successor_isin": "INE591G01025",
+    "type": "stock_split",
+    "last_trade": "2025-06-03",
+    "suspended": "2025-06-04",
+    "effective": "2025-06-04",
+    "credited": "2025-06-05",
+    "tradable": "2025-06-06",
+    "first_exchange_trade": "2025-06-04",
+    "new_shares": 5,
+    "old_shares": 1,
+    "source_url": "https://nsearchives.nseindia.com/content/circulars/CML68318.pdf",
+    "credit_source": "https://www.coforge.com/hubfs/Annual-Report-2025.pdf",
+    "ex_date_source": "https://nsearchives.nseindia.com/content/circulars/CML68170.pdf",
+    "clearing_source": "https://nsearchives.nseindia.com/content/circulars/CMPT68326.pdf"
+  },
+  {
+    "predecessor_isin": "INE814H01011",
+    "successor_isin": "INE814H01029",
+    "type": "stock_split",
+    "last_trade": "2025-09-19",
+    "suspended": "2025-09-22",
+    "effective": "2025-09-22",
+    "credited": "2025-09-23",
+    "tradable": "2025-09-24",
+    "first_exchange_trade": "2025-09-22",
+    "new_shares": 5,
+    "old_shares": 1,
+    "source_url": "https://nsearchives.nseindia.com/content/circulars/CML70203.pdf",
+    "credit_source": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_24092025175759_APLcreditofshares24092025.pdf"
+  },
+  {
+    "predecessor_isin": "INE237A01028",
+    "successor_isin": "INE237A01036",
+    "type": "stock_split",
+    "last_trade": "2026-01-13",
+    "suspended": "2026-01-14",
+    "effective": "2026-01-14",
+    "credited": "2026-01-15",
+    "tradable": "2026-01-16",
+    "first_exchange_trade": "2026-01-14",
+    "new_shares": 5,
+    "old_shares": 1,
+    "source_url": "https://nsearchives.nseindia.com/content/circulars/CML72216.pdf",
+    "credit_source": "https://www.kotak.bank.in/content/dam/Kotak/investor-relation/governance/governance-sebi-tab/2026/sub-division-of-equity-shares/kotak-mahindra-bank-16012026221532.pdf"
   }
 ]

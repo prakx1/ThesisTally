@@ -1,0 +1,18 @@
+{
+  "day": "2018-04-06",
+  "labels": {
+    "VAKRANGEE": {
+      "isin": "INE051B01021",
+      "percent": 5,
+      "published": "2018-04-05",
+      "sources": [
+        {
+          "published": "2018-04-05",
+          "sha256": "4844c5bbb72f12e02be6b712f3874ad1c3da46966982a057d26af9ec7b28f722",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV37444.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2018-04-05"
+}

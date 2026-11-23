@@ -20,7 +20,9 @@ Historical ASM/GSM flags and opening price bands can be unavailable. Archived co
 
 ## Evaluation
 
-Each rolling test starts with fresh simulated capital. The preceding training dates establish the information available to the fixed rules. The final 18 months have a separate holdout ledger keyed by rule revision. An identical completed study can be read again. The journal prevents consuming a second formal holdout for the same revision. The older short replay remains accessible as a diagnostic.
+For r2, new paper sessions after the future rule freeze are the final out-of-sample test. The 2–20 November 2026 historical diagnostic is retired.
+
+Each rolling test starts with fresh simulated capital. The preceding training dates establish the information available to the fixed rules. In the archived r1 methodology the final 18 months have a separate holdout ledger keyed by rule revision. An identical completed study can be read again. The journal prevents consuming a second formal holdout for the same revision. The older short replay remains accessible as a diagnostic.
 
 The JSON report records the configuration and data hashes, source-code fingerprint, local source commit, checkout commit when available, parameters, and model and prompt versions. Each archived source commit can be inspected with `git -C data/provenance/source show <code_commit>`. It reports after-cost returns, the bootstrap interval, daily mark-to-market drawdown, exposure, and CAGR alongside Nifty 200 buy-and-hold. Strategy account curves attribute that strategy’s positions within the shared portfolio to the same starting capital. Regime, sector and year splits distinguish portfolio and shadow calls.
 
@@ -36,6 +38,36 @@ For Tata Motors DVR, NSE suspended the predecessor on 30 August 2024. The 7-for-
 
 The bundled action register is under `src/thesistally/revisions/compulsory-actions.json`. Additional documented terms can be supplied as an array with the same fields in `data/corporate_actions.json`. Cash-only delistings omit the successor and may specify `offer_price`. A conversion can specify the issuer’s `fraction_price`, `fraction_source` and a separate `cash_date`. When cash arrives after share credit, the journal carries a non-spendable receivable. If the shares are sold first, the call’s final return is recorded when the cash settles. The report fingerprints the supplied evidence. A funded position with an unresolved price or action records its call ID, ISIN and date at the point where valuation stopped. Other test windows continue with separate accounts. A partial window cannot qualify a strategy.
 
-`uv run radar backtest --walk-forward --tests-only` runs the training and test periods and preserves the final holdout. The final test period can be shorter than a year so every post-training trading session belongs to a test or the holdout.
+`uv run radar backtest --walk-forward --tests-only` runs the historical training and test periods. The archived r1 design reserves a separate 18-month historical holdout. R2 includes the full post-training history in test windows and can end with a partial final window. Its final out-of-sample test starts with new forward paper sessions after the freeze.
 
 The sealed research-4 report covers all ten planned accounts, including the final holdout. A later data-reader correction retrieves full-exchange opening bands for positions that leave the index. The archived study had four shadow calls with deferred exits after index removal, one in MAHABANK and three in SUNDARMFIN. No funded call had a deferred exit outside the index. The sealed report retains the original shadow outcomes.
+
+## Stage 2 baseline
+
+The Stage 2 comparison runs both stored rule revisions on the same certified market archive. Each annual test starts with ₹10 lakh and an independent equal-risk book with ₹5,000 per eligible trade. Both years with zero purchases and the partial last calendar year remain in the results. The three preceding years supply historical context. With fixed rules, no parameters are estimated during training.
+
+Run the paired replay on the prepared workspace.
+
+```sh
+uv run --frozen python -m thesistally.baseline_replay
+```
+
+The command prints the path to `replay.json`. Use that path to publish the numerical tables, then open the terminal.
+
+```sh
+uv run --frozen python scripts/publish_baseline.py data/baseline/runs/<run-id>/replay.json
+uv run radar
+```
+
+Select **Reports** in the terminal. Each account and each revision retains its original calls, fill events, whole-share quantities and costs. A replay restarts from the last consecutive committed session in each book. A data or source revision produces a new run identity.
+
+The baseline verdict and gross/net loss analysis use the versioned Stage 2 qualification configuration. Closed trades with a complete opportunity to reach their holding limit within their window contribute to qualification. A test window needs 20 such closes to contribute a trade or a positive vote. All scheduled windows count in the two-thirds requirement. The report also shows all actual closes, pending signals, open holdings and unmeasurable calls. [Qualification policy](../src/thesistally/validation/stage-2-v1.json)
+
+The reviewed Stage 2 baseline includes both original revisions, funded and equal-risk diagnoses, and the historical data limits. To reproduce its narrative and independent-review section after reproducing the local ledgers, use the recorded study directory.
+
+```sh
+run=data/baseline/runs/e923bed5c9d9448d7340
+uv run --frozen python scripts/publish_baseline.py "$run/replay.json" --interpretation "$run/interpretation.json" --review "$run/review.json"
+```
+
+[Reviewed baseline](BASELINE_REPORT.md) · [Full result JSON](../data/backtests/stage2-baseline-e923bed5c9d9448d7340.json)

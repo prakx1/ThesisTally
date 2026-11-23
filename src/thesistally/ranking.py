@@ -57,6 +57,12 @@ def model(path, sha):
 
 
 def order(candidates, regime, cfg):
+    if "results_strategy" in cfg:
+        return sorted(candidates, key=lambda c: (-c.features["sue"], c.isin))
+    if "range_bouncers" in cfg:
+        return sorted(candidates, key=lambda c: (c.features["position60"], c.isin))
+    if "dip" in cfg:
+        return sorted(candidates, key=lambda c: (c.features["steady_rank"], c.isin))
     manifest = cfg.get("ranking_model")
     if not manifest or not candidates:
         return sorted(
@@ -203,7 +209,7 @@ def study(root, path=None):
                         r["strategy"],
                         r["entry"],
                         r["stop"],
-                        r["target"],
+                        r["planned_target"] if r["planned_target"] is not None else r["target"],
                         json.loads(r["features"]),
                         json.loads(r["regime"]),
                     )

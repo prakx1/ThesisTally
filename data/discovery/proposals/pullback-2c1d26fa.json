@@ -1,0 +1,25 @@
+{
+  "development_years": [
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "hypothesis": {
+    "description": "pullback entries in stop_distance_bucket = <5%",
+    "filters": [
+      {
+        "field": "stop_distance_bucket",
+        "values": [
+          "<5%"
+        ]
+      }
+    ],
+    "id": "pullback-2c1d26fa",
+    "strategy": "pullback"
+  },
+  "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+  "sample_sha256": "204f30ab3f744f280f197c4d5278a29e4b360e1f37a5df0bac233a9e091279c1",
+  "status": "proposed",
+  "strategy": "pullback"
+}

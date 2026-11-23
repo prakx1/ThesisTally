@@ -8,13 +8,15 @@ import sqlite3
 from collections import Counter
 from pathlib import Path
 
-from . import corporate, filings, notifier, paper, research_journal
+from . import brake, conventions, corporate, dip_bonus, filings, notifier, paper, research_journal
 from .market import MarketError, today
+from .signals import STRATEGIES, signal_atr14, stop_bound_reason
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS runs (
     id TEXT PRIMARY KEY, rules TEXT NOT NULL, capital REAL NOT NULL, peak REAL NOT NULL
 );
+CREATE TABLE IF NOT EXISTS unconstrained_runs (run TEXT PRIMARY KEY REFERENCES runs(id));
 CREATE TABLE IF NOT EXISTS scans (
     run TEXT NOT NULL, day TEXT NOT NULL, regime TEXT NOT NULL, count INTEGER NOT NULL,
     PRIMARY KEY(run,day)
@@ -27,6 +29,7 @@ CREATE TABLE IF NOT EXISTS calls (
     status TEXT NOT NULL, buy REAL, remaining INTEGER DEFAULT 0, trail REAL, pending_exit TEXT,
     age INTEGER DEFAULT 0, partial INTEGER DEFAULT 0, mae REAL DEFAULT 0, mfe REAL DEFAULT 0,
     net REAL, outcome_r REAL, action TEXT NOT NULL DEFAULT 'unreviewed',
+    planned_target REAL, planned_size INTEGER,
     UNIQUE(run, day, isin, strategy)
 );
 CREATE TABLE IF NOT EXISTS events (
@@ -68,7 +71,9 @@ def journal(path: Path):
         + filings.SCHEMA
         + research_journal.SCHEMA
         + notifier.SCHEMA
+        + brake.SCHEMA
         + corporate.SCHEMA
+        + dip_bonus.SCHEMA
         + paper.SCHEMA
         + """
         CREATE TABLE IF NOT EXISTS fill_securities (
@@ -78,12 +83,30 @@ def journal(path: Path):
             UNION ALL SELECT call_id,day,amount FROM corporate_cash;
     """
     )
-    if "model_version" not in {r[1] for r in db.execute("PRAGMA table_info(calls)")}:
+    additions = {
+        "rights_factor": "REAL NOT NULL DEFAULT 1",
+        "model_version": "TEXT NOT NULL DEFAULT 'rs126-v1'",
+        "planned_target": "REAL",
+        "planned_size": "INTEGER",
+    }
+    if additions.keys() - {r[1] for r in db.execute("PRAGMA table_info(calls)")}:
         with db:
             db.execute("BEGIN IMMEDIATE")
-            if "model_version" not in {r[1] for r in db.execute("PRAGMA table_info(calls)")}:
+            existing = {r[1] for r in db.execute("PRAGMA table_info(calls)")}
+            for name, definition in additions.items():
+                if name not in existing:
+                    db.execute(f"ALTER TABLE calls ADD COLUMN {name} {definition}")
+            if "planned_size" not in existing:
+                db.execute("UPDATE calls SET planned_size=size")
+            if "planned_target" not in existing:
+                # Legacy shadow targets were rebased on fills. Their original
+                # plans survive on the paired forward calls.
                 db.execute(
-                    "ALTER TABLE calls ADD COLUMN model_version TEXT NOT NULL DEFAULT 'rs126-v1'"
+                    """UPDATE calls AS c SET planned_target=CASE WHEN c.run=? THEN
+                         (SELECT p.target FROM calls p WHERE p.run='observations'
+                           AND p.day=c.day AND p.isin=c.isin AND p.strategy=c.strategy)
+                       ELSE c.target END""",
+                    (paper.ENTRY_SHADOW,),
                 )
     return db
 
@@ -132,10 +155,15 @@ def fill(db, c, day, qty, price, side, cfg):
     )
     db.execute("INSERT INTO fill_securities VALUES(?,?)", (cursor.lastrowid, c["isin"]))
     event(db, c["id"], day, "fill", f"{side} {qty} @ {price:.4f}, fees {fees:.2f}")
+    return cursor.lastrowid
 
 
 def close_call(db, c, day, price, cfg, reason):
     fill(db, c, day, c["remaining"], price, "sell", cfg)
+    if conventions.tracks_holder_bonuses(cfg) and dip_bonus.defer_final_settlement(
+        db, c, day, reason
+    ):
+        return
     finish(db, c, day, reason)
 
 
@@ -191,11 +219,48 @@ class UnpricedPosition(MarketError):
         super().__init__(f"Open portfolio call {call['id']} on {day}: {reason}")
 
 
+def opening_quantity(c, buy, cfg):
+    risk = buy - c["stop"]
+    if c["allocation"] == "unconstrained":
+        budget = cfg["risk"]["capital"] * cfg["risk"]["fraction"]
+        return math.floor(budget / risk)
+    qty = c["size"]
+    if c["allocation"] == "portfolio" and buy > c["entry"]:
+        if conventions.fill_stop_atr(cfg) is not None:
+            # Its risk per share stays fixed when the stop moves with the fill.
+            # Reduce a chased purchase to the cash reserved at the signal close.
+            return math.floor(qty * c["entry"] / buy)
+        # Signal close reserved this order's risk and cash. For a long with a
+        # positive stop, respecting this risk cap also caps the cash and buy fees.
+        return math.floor(qty * (c["entry"] - c["stop"]) / risk)
+    return qty
+
+
+def record_excursion(db, c, day, low, high):
+    risk = c.get("original_risk", c["buy"] - c["stop"])
+    adverse = min(c["mae"], (low - c["buy"]) / risk)
+    favorable = max(c["mfe"], (high - c["buy"]) / risk)
+    db.execute("UPDATE calls SET age=age+1,mae=?,mfe=? WHERE id=?", (adverse, favorable, c["id"]))
+    if c["mfe"] < 1 <= favorable:
+        event(db, c["id"], day, "first_1r", "Market price reached one initial risk unit above fill")
+    return adverse, favorable
+
+
 def advance(db, call, day, bar, cfg, context):
     c = dict(call)
+    if cfg.get("entry_band_convention") == conventions.ENTRY_BAND_VERSION:
+        context = conventions.cash_dividend_notices(context)
     slip = cfg["cost"]["slippage_bps"] / 10000
+    modern = cfg.get("execution_convention") == conventions.VERSION
+    if modern:
+        conventions.adjust_rights(db, c, day, context.get("rights_issue"))
+        if release := context.get("quarantine_release"):
+            event(db, c["id"], day, "quarantine_release", json.dumps(release, sort_keys=True))
     issue = context.get("unavailable")
-    if context.get("quarantined"):
+    closing_quarantine = (
+        context.get("quarantined") and context.get("quarantine_reason") == "unexplained_close_move"
+    )
+    if context.get("quarantined") and not closing_quarantine:
         issue = "Quarantined daily price"
     if context.get("other_actions"):
         issue = "Corporate action requires reconciliation: " + ", ".join(context["other_actions"])
@@ -210,54 +275,166 @@ def advance(db, call, day, bar, cfg, context):
         db.execute("INSERT INTO entitlements VALUES(?,?,?)", (c["id"], day, amount))
         event(db, c["id"], day, "dividend", f"Accrued {amount:.2f} on ex-date")
     if c["status"] == "confirmed":
-        if context["ceiling"] is None or bar.open >= context["ceiling"] - 0.005 or not bar.volume:
-            return transition(db, c["id"], day, "missed", "Opening liquidity or upper price band")
-        buy = float(bar.open) * (1 + slip)
-        if buy <= c["stop"]:
+        shadow = c["run"] == paper.ENTRY_SHADOW
+        rebase = "entries" in cfg and not shadow
+        fill_atr = conventions.fill_stop_atr(cfg)
+        if rebase and fill_atr is None and bar.open <= c["stop"]:
+            return transition(
+                db, c["id"], day, "invalidated", "Opening price at or below the planned stop"
+            )
+        revised = cfg.get("entry_band_convention") == conventions.ENTRY_BAND_VERSION
+        raw_open, upper = float(bar.open), context.get("ceiling")
+        buy = conventions.opening_purchase(
+            raw_open, bar.volume, upper, cfg["cost"]["slippage_bps"], allow_unknown=revised
+        )
+        if buy is None:
+            reason = (
+                conventions.purchase_block(raw_open, bar.volume, upper, allow_unknown=True)
+                if revised
+                else "Opening liquidity or upper price band"
+            )
+            return transition(db, c["id"], day, "missed", reason)
+        if fill_atr is None and buy <= c["stop"]:
             return transition(
                 db, c["id"], day, "invalidated", "Opening fill crossed the planned stop"
             )
-        if (c["target"] - buy) / (buy - c["stop"]) < cfg["exits"]["target_r"]:
+        if shadow or rebase:
+            atr = signal_atr14(json.loads(c["features"]), cfg)
+            if atr is None or not math.isfinite(atr) or atr <= 0:
+                return transition(
+                    db, c["id"], day, "unmeasurable", "Missing positive signal ATR(14)"
+                )
+            chase = 0.5 if shadow else cfg["entries"]["max_chase_atr"]
+            ceiling = c["entry"] + chase * atr
+            if bar.open > ceiling + (math.ulp(ceiling) if rebase else 0):
+                return transition(
+                    db, c["id"], day, "missed", f"Open above signal close + {chase:g} ATR(14)"
+                )
+            if fill_atr is not None:
+                c["stop"] = buy - fill_atr * atr
+            if rebase and stop_bound_reason(buy, c["stop"], atr, cfg):
+                return transition(db, c["id"], day, "missed", "Fill stop distance out of bounds")
+        elif (c["target"] - buy) / (buy - c["stop"]) < cfg["exits"]["target_r"]:
             return transition(
                 db, c["id"], day, "missed", "Opening gap or slippage reduced reward/risk"
             )
-        fill(db, c, day, c["size"], buy, "buy", cfg)
-        c.update(buy=buy, remaining=c["size"], trail=c["stop"])
-        db.execute(
-            "UPDATE calls SET buy=?,remaining=?,trail=? WHERE id=?",
-            (buy, c["remaining"], c["trail"], c["id"]),
-        )
-        transition(db, c["id"], day, "active", "Next NSE session open")
-    if c["pending_exit"]:
-        if context["floor"] is None or bar.open <= context["floor"] + 0.005 or not bar.volume:
-            db.execute(
-                "UPDATE calls SET age=age+1, mae=min(mae,?), mfe=max(mfe,?) WHERE id=?",
-                (
-                    (bar.low - c["buy"]) / (c["buy"] - c["stop"]),
-                    (bar.high - c["buy"]) / (c["buy"] - c["stop"]),
-                    c["id"],
+        if rebase or c["allocation"] == "unconstrained":
+            c["size"] = opening_quantity(c, buy, cfg)
+            if not c["size"]:
+                return transition(
+                    db, c["id"], day, "invalidated", "Cannot fund one share at the opening risk"
+                )
+        if fill_atr is not None:
+            db.execute("UPDATE calls SET stop=? WHERE id=?", (c["stop"], c["id"]))
+            event(
+                db, c["id"], day, "entry_stop", f"Stop at fill less 3 signal ATR: {c['stop']:.4f}"
+            )
+        elif (shadow or rebase) and "range_bouncers" not in cfg:
+            target_r = 2 if shadow else cfg["exits"]["target_r"]
+            c["target"] = buy + target_r * (buy - c["stop"])
+            event(db, c["id"], day, "entry_target", f"{target_r:g}R from fill: {c['target']:.4f}")
+        fill_id = fill(db, c, day, c["size"], buy, "buy", cfg)
+        if revised and conventions.unknown_opening_ceiling(raw_open, upper):
+            event(
+                db,
+                c["id"],
+                day,
+                "band_unknown",
+                json.dumps(
+                    {
+                        "fill_id": fill_id,
+                        "isin": c["isin"],
+                        "side": "buy",
+                        "open": raw_open,
+                        "fill": buy,
+                        "reported_ceiling": upper
+                        if upper is not None and math.isfinite(upper)
+                        else None,
+                        "convention_version": conventions.ENTRY_BAND_VERSION,
+                    },
+                    sort_keys=True,
                 ),
             )
+        c.update(buy=buy, remaining=c["size"], trail=c["stop"])
+        db.execute(
+            "UPDATE calls SET buy=?,remaining=?,trail=?,target=?,size=? WHERE id=?",
+            (buy, c["remaining"], c["trail"], c["target"], c["size"], c["id"]),
+        )
+        transition(db, c["id"], day, "active", "Next NSE session open")
+    exit_price, unknown_floor = conventions.opening_sale(
+        bar.open, bar.volume, context["floor"], cfg["cost"]["slippage_bps"], allow_unknown=modern
+    )
+    locked_exit = c["pending_exit"] and exit_price is None
+    if closing_quarantine and (not c["pending_exit"] or locked_exit):
+        # The exchange close revealed the jump after the opening auction.
+        # Open-only exits can settle; a position still held needs a reliable mark.
+        reason = "Quarantined closing valuation after the opening auction"
+        if c["allocation"] == "portfolio":
+            raise UnpricedPosition(c, day, reason)
+        return transition(db, c["id"], day, "unmeasurable", reason)
+    if c["pending_exit"]:
+        if locked_exit:
+            record_excursion(db, c, day, bar.low, bar.high)
             event(db, c["id"], day, "exit_deferred", "Opening liquidity or lower price band")
             return
         # Exit before observing this day's high or low.
-        adverse = min(c["mae"], (bar.open - c["buy"]) / (c["buy"] - c["stop"]))
-        favorable = max(c["mfe"], (bar.open - c["buy"]) / (c["buy"] - c["stop"]))
-        db.execute(
-            "UPDATE calls SET age=age+1,mae=?,mfe=? WHERE id=?", (adverse, favorable, c["id"])
-        )
-        return close_call(db, c, day, bar.open * (1 - slip), cfg, c["pending_exit"])
-    risk = c["buy"] - c["stop"]
-    mfe = max(c["mfe"], (bar.high - c["buy"]) / risk)
-    mae = min(c["mae"], (bar.low - c["buy"]) / risk)
-    age = c["age"] + 1
-    db.execute("UPDATE calls SET age=?,mae=?,mfe=? WHERE id=?", (age, mae, mfe, c["id"]))
-    if not c["partial"] and bar.high >= c["target"]:
-        qty = c["size"] // 2
-        if not qty:
-            return close_call(
-                db, c, day, max(bar.open, c["target"]) * (1 - slip), cfg, "Target, single share"
+        record_excursion(db, c, day, bar.open, bar.open)
+        if unknown_floor:
+            event(
+                db,
+                c["id"],
+                day,
+                "exit_unknown_price_band",
+                json.dumps(
+                    {
+                        "convention_version": conventions.VERSION,
+                        "open": float(bar.open),
+                        "fill": exit_price,
+                        "isin": c["isin"],
+                    },
+                    sort_keys=True,
+                ),
             )
+        return close_call(db, c, day, exit_price, cfg, c["pending_exit"])
+    if "results_strategy" in cfg:
+        from .results_replay_orders import manage_open
+
+        return manage_open(db, c, day, bar, cfg, context)
+    if "range_bouncers" in cfg:
+        from .range_orders import manage_open
+
+        return manage_open(db, c, day, bar, cfg, context)
+    if "dip" in cfg:
+        from .dip import manage_open
+
+        return manage_open(db, c, day, bar, cfg, context)
+    target_touch = not c["partial"] and bar.high >= c["target"]
+    if target_touch and bar.low > c["trail"] and c["size"] == 1:
+        # Full sale at an executable opening gap or first target touch. The later
+        # high cannot count; a low on an intraday target bar may precede or follow it.
+        exit_quote = max(bar.open, c["target"])
+        low = bar.open if bar.open >= c["target"] else bar.low
+        adverse, _ = record_excursion(db, c, day, low, exit_quote)
+        upper = min(c["mae"], (bar.open - c["buy"]) / (c["buy"] - c["stop"]))
+        event(
+            db,
+            c["id"],
+            day,
+            "target_exit_excursion",
+            json.dumps({"mae_lower_r": adverse, "mae_upper_r": upper}),
+        )
+        return close_call(db, c, day, exit_quote * (1 - slip), cfg, "Target, single share")
+    _, mfe = record_excursion(db, c, day, bar.low, bar.high)
+    age = c["age"] + 1
+    if target_touch:
+        # OHLC does not establish the intraday order. A simultaneous stop
+        # touch queues a full next-open sale under the same liquidity checks.
+        if bar.low <= c["trail"]:
+            reason = "Stop-first collision"
+            db.execute("UPDATE calls SET pending_exit=? WHERE id=?", (reason, c["id"]))
+            event(db, c["id"], day, "exit_due", reason)
+            return
+        qty = c["size"] // 2
         fill(db, c, day, qty, max(bar.open, c["target"]) * (1 - slip), "sell", cfg)
         c.update(partial=1, remaining=c["remaining"] - qty)
         db.execute("UPDATE calls SET partial=1, remaining=? WHERE id=?", (c["remaining"], c["id"]))
@@ -288,8 +465,8 @@ def record(db, run, day, regime, candidate, cfg, qty, allocation):
     c = candidate
     cur = db.execute(
         """INSERT INTO calls(run,day,symbol,isin,sector,strategy,revision,regime,features,
-                        entry,stop,target,size,allocation,status,model_version)
-                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,'detected',?)""",
+                        entry,stop,target,size,allocation,status,model_version,planned_target,planned_size)
+                        VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,'detected',?,?,?)""",
         (
             run,
             day,
@@ -306,12 +483,14 @@ def record(db, run, day, regime, candidate, cfg, qty, allocation):
             qty,
             allocation,
             c.features.get("ranking_model_version", "rs126-v1"),
+            c.target,
+            qty,
         ),
     )
     i = cur.lastrowid
     event(db, i, day, "detected")
     transition(db, i, day, "watching", allocation)
-    if qty == 0:
+    if qty == 0 and allocation != "unconstrained":
         transition(db, i, day, "invalidated", "Cannot fund one share at the planned risk")
     else:
         transition(db, i, day, "confirmed", "Completed daily candle")
@@ -321,16 +500,17 @@ def exclusion(c, cfg, regime):
     filters = cfg["filters"]
     if c.features.get("quarantined"):
         return "data_quarantined"
-    distance = c.entry - c.stop
-    if "max_stop_atr" in filters and (
-        not filters["min_stop_fraction"] <= distance / c.entry <= filters["max_stop_fraction"]
-        or distance > filters["max_stop_atr"] * c.features["atr"]
-    ):
-        return "stop_out_of_bounds"
+    if "max_stop_atr" in filters and conventions.fill_stop_atr(cfg) is None:
+        issue = stop_bound_reason(c.entry, c.stop, signal_atr14(c.features, cfg), cfg)
+        if issue:
+            return issue
     if c.features.get("surveillance") == "unknown":
         return "surveillance_unknown"
     if c.features.get("surveillance"):
         return "surveillance"
+    if "results_strategy" in cfg:
+        # D specifies the result itself as its catalyst. Only the funded book uses the gate.
+        return "regime" if cfg["results_strategy"]["gate"] and not regime["enabled"] else None
     if c.features.get("earnings_coverage") == "unknown":
         return "results_unknown"
     horizon = filters["earnings_blackout_days"]
@@ -349,16 +529,57 @@ def exclusion(c, cfg, regime):
     return None
 
 
-def process(db, run, day, regime, candidates, frames, cfg):
+def advance_from_frame(db, c, day, frames, cfg):
+    if c["symbol"] not in frames:
+        raise MarketError(f"Missing open-call candle for {c['symbol']} on {day}.")
+    f = frames.get(c["isin"], frames[c["symbol"]])
+    if str(f.index[-1]) != day:
+        raise MarketError(f"Stale open-call candle for {c['symbol']}.")
+    fill_cfg = cfg
+    if c["revision"] != cfg["revision"]:
+        fill_cfg = saved_rules(db, c["revision"])
+    if (
+        cfg.get("forward_execution_convention") == conventions.VERSION
+        and day >= conventions.FORWARD_EFFECTIVE
+    ):
+        fill_cfg = {**fill_cfg, "execution_convention": conventions.VERSION}
+        if cfg.get("entry_band_convention") == conventions.ENTRY_BAND_VERSION:
+            fill_cfg["entry_band_convention"] = conventions.ENTRY_BAND_VERSION
+    context = f.attrs["exchange"]
+    if "compulsory_action" in context:
+        previous = corporate.state(db, c["id"])
+        if corporate.settle(db, c, day, f.iloc[-1], fill_cfg, context, previous):
+            return
+        c = corporate.effective_call(
+            db.execute("SELECT * FROM calls WHERE id=?", (c["id"],)).fetchone(),
+            corporate.state(db, c["id"]),
+        )
+    if conventions.tracks_holder_bonuses(fill_cfg):
+        c, waiting = dip_bonus.prepare(db, c, day, f.iloc[-1], context)
+        if waiting:
+            return
+    advance(db, c, day, f.iloc[-1], fill_cfg, context)
+
+
+def process(db, run, day, regime, candidates, frames, cfg, *, unconstrained=False):
     """One atomic daily research step for forward observation and historical replay."""
+    if run == paper.ENTRY_SHADOW:
+        raise MarketError("This shadow is advanced automatically by the observations scan.")
+    if unconstrained and run == "observations":
+        raise MarketError("Unconstrained replay requires a separate run.")
     day = str(day)
     with db:
         db.execute("BEGIN IMMEDIATE")
         r = cfg["risk"]
-        db.execute(
+        created = db.execute(
             "INSERT OR IGNORE INTO runs VALUES(?,?,?,?)",
             (run, cfg["revision"], r["capital"], r["capital"]),
-        )
+        ).rowcount
+        if created and unconstrained:
+            db.execute("INSERT INTO unconstrained_runs VALUES(?)", (run,))
+        saved_mode = db.execute("SELECT 1 FROM unconstrained_runs WHERE run=?", (run,)).fetchone()
+        if bool(saved_mode) != unconstrained:
+            raise MarketError("Portfolio and unconstrained replays need separate run identifiers.")
         state = db.execute("SELECT * FROM runs WHERE id=?", (run,)).fetchone()
         if state["rules"] != cfg["revision"] and run != "observations":
             raise MarketError("Rules changed. Select a fresh run for this revision.")
@@ -367,6 +588,13 @@ def process(db, run, day, regime, candidates, frames, cfg):
         ).fetchone()
         if existing:
             return existing[0]
+        entry_census = any(
+            k in cfg for k in ("dip", "range_bouncers", "results_strategy")
+        ) and bool(cfg.get("entry_band_convention"))
+        if entry_census:
+            from . import dip_coverage
+
+            dip_coverage.capture(db, run, day, candidates, cfg, regime)
         db.execute(
             "INSERT OR IGNORE INTO rule_configs VALUES(?,?)", (cfg["revision"], json.dumps(cfg))
         )
@@ -378,28 +606,48 @@ def process(db, run, day, regime, candidates, frames, cfg):
             )
         corporate.pay_receivables(db, run, day)
         research_journal.enforce(db, run, day)
-        open_calls = db.execute(
-            "SELECT * FROM calls WHERE run=? AND status IN (?,?) ORDER BY id", (run, *ACTIVE)
-        ).fetchall()
+        books = [run]
+        if run == "observations":
+            if last:
+                paper.pair_signals(db, last)
+            corporate.pay_receivables(db, paper.ENTRY_SHADOW, day)
+            books.append(paper.ENTRY_SHADOW)
+        open_calls = [
+            c
+            for book in books
+            for c in db.execute(
+                "SELECT * FROM calls WHERE run=? AND status IN (?,?) ORDER BY id", (book, *ACTIVE)
+            )
+        ]
         for c in open_calls:
-            if c["symbol"] not in frames:
-                raise MarketError(f"Missing open-call candle for {c['symbol']} on {day}.")
-            f = frames.get(c["isin"], frames[c["symbol"]])
-            if str(f.index[-1]) != day:
-                raise MarketError(f"Stale open-call candle for {c['symbol']}.")
-            fill_cfg = cfg
-            if c["revision"] != cfg["revision"]:
-                fill_cfg = saved_rules(db, c["revision"])
-            context = f.attrs["exchange"]
-            if "compulsory_action" in context:
-                previous = corporate.state(db, c["id"])
-                if corporate.settle(db, c, day, f.iloc[-1], fill_cfg, context, previous):
-                    continue
-                c = corporate.effective_call(
-                    db.execute("SELECT * FROM calls WHERE id=?", (c["id"],)).fetchone(),
-                    corporate.state(db, c["id"]),
-                )
-            advance(db, c, day, f.iloc[-1], fill_cfg, context)
+            if c["run"] == paper.ENTRY_SHADOW or unconstrained:
+                # An unpriceable independent leg must not interrupt the other calls.
+                # A savepoint rolls back any partial corporate settlement for this leg.
+                db.execute("SAVEPOINT shadow_step")
+                try:
+                    advance_from_frame(db, c, day, frames, cfg)
+                except UnpricedPosition as exc:
+                    db.execute("ROLLBACK TO shadow_step")
+                    transition(db, c["id"], day, "unmeasurable", exc.detail["reason"])
+                finally:
+                    db.execute("RELEASE shadow_step")
+            else:
+                advance_from_frame(db, c, day, frames, cfg)
+        if unconstrained:
+            # Each valid signal has its own fixed rupee risk and independent fills and charges.
+            # There is no pooled equity or mark from which to fund the next trade.
+            for c in db.execute("SELECT * FROM calls WHERE run=? AND status='active'", (run,)):
+                position, close, value = paper.valuation(db, c, frames)
+                paper.mark_position(db, position, day, close, value)
+            count = 0
+            budget = r["capital"] * r["fraction"]
+            for c in candidates:
+                if exclusion(c, cfg, regime) is None:
+                    planned_qty = math.floor(budget / (c.entry - c.stop))
+                    record(db, run, day, regime, c, cfg, planned_qty, "unconstrained")
+                    count += 1
+            db.execute("INSERT INTO scans VALUES(?,?,?,?)", (run, day, json.dumps(regime), count))
+            return count
         live = db.execute(
             "SELECT * FROM calls WHERE run=? AND status='active' AND allocation='portfolio'", (run,)
         ).fetchall()
@@ -415,20 +663,20 @@ def process(db, run, day, regime, candidates, frames, cfg):
         investments = Counter()
         positions = []
         for c in live:
-            frame = frames.get(c["isin"], frames[c["symbol"]])
-            p = (
-                corporate.state(db, c["id"])
-                if "compulsory_action" in frame.attrs["exchange"]
-                else None
-            )
-            frozen = p and p["phase"] != "trading"
-            close = None if frozen else float(frame.iloc[-1].close)
-            value = p["frozen_value"] if frozen else c["remaining"] * close
+            position, close, value = paper.valuation(db, c, frames)
             investments[c["strategy"]] += value
-            position = corporate.effective_call(c, p)
-            positions.append(position)
+            if position["remaining"]:
+                positions.append(position)
             if run == "observations":
                 paper.mark_position(db, position, day, close, value)
+        if run == "observations":
+            for c in db.execute(
+                """SELECT * FROM calls WHERE status='active'
+                AND (run=? OR (run='observations' AND allocation!='portfolio'))""",
+                (paper.ENTRY_SHADOW,),
+            ):
+                pos, close, value = paper.valuation(db, c, frames)
+                paper.mark_position(db, pos, day, close, value)
         live = positions
         balance += db.execute(
             """SELECT coalesce(sum(amount),0) FROM cash_receipts e JOIN calls c ON c.id=e.call_id
@@ -441,11 +689,23 @@ def process(db, run, day, regime, candidates, frames, cfg):
         ).fetchone()[0]
         equity = balance + sum(investments.values()) + receivable
         if "NIFTY 200" in frames:
-            mark_accounts(db, run, day, frames, investments, equity, r["capital"])
+            mark_accounts(
+                db,
+                run,
+                day,
+                frames,
+                investments,
+                equity,
+                r["capital"],
+                strategies=cfg.get(
+                    "book_strategies", ("dip_in_steady_risers",) if "dip" in cfg else STRATEGIES
+                ),
+            )
         peak = max(equity, state["peak"])
         db.execute("UPDATE runs SET peak=? WHERE id=?", (peak, run))
-        dd = 1 - equity / peak
-        unit_risk = r["fraction"] * (0.5 if dd >= r["half_risk_drawdown"] else 1)
+        paused, unit_risk = brake.funding(
+            db, run, day, last, regime["enabled"], equity, state["peak"], cfg
+        )
         reserved = sum(max(x["buy"] - x["trail"], 0) * x["remaining"] for x in live)
         sectors = Counter(x["sector"] for x in live)
         held = {x["isin"] for x in live}
@@ -456,9 +716,10 @@ def process(db, run, day, regime, candidates, frames, cfg):
             qty = max(0, math.floor(min(equity * unit_risk / per_share, equity / c.entry)))
             reason = "portfolio"
             blocked = exclusion(c, cfg, regime)
-            if blocked:
+            check_capacity = entry_census and blocked in dip_coverage.UNKNOWN_FILTERS
+            if blocked and not check_capacity:
                 reason = blocked
-            elif dd >= r["pause_drawdown"]:
+            elif paused:
                 reason = "drawdown"
             elif (
                 c.isin in held
@@ -479,28 +740,35 @@ def process(db, run, day, regime, candidates, frames, cfg):
                         )
                     ),
                 )
-                if allowed:
+                if not allowed:
+                    reason = "capital_or_risk"
+                elif not blocked:
                     qty = allowed
                     held.add(c.isin)
                     sectors[c.sector] += 1
                     balance -= qty * c.entry + cost("buy", qty * c.entry, cfg)
                     reserved += qty * per_share
-                else:
-                    reason = "capital_or_risk"
+            if check_capacity:
+                # Capacity is observed at this candidate's existing rank. Unknown
+                # eligibility never reserves the cash, risk, or sector slot.
+                if reason != "portfolio":
+                    db.execute(
+                        "INSERT INTO dip_funding_veto VALUES(?,?,?,?)",
+                        (run, day, c.isin, reason),
+                    )
+                reason = blocked
             record(db, run, day, regime, c, cfg, qty, reason)
         db.execute(
             "INSERT INTO scans VALUES(?,?,?,?)", (run, day, json.dumps(regime), len(candidates))
         )
         if run == "observations":
+            paper.pair_signals(db, day)
             notifier.scan_messages(db, run, day, regime)
             research_journal.queue(db, run, day)
     return len(candidates)
 
 
-STRATEGIES = ("trend_pullback", "high_momentum", "vcp_breakout")
-
-
-def mark_accounts(db, run, day, frames, invested, equity, capital):
+def mark_accounts(db, run, day, frames, invested, equity, capital, *, strategies=STRATEGIES):
     """Daily marked wealth. Strategy books attribute the shared account's trades."""
     cashflow = Counter()
     for row in db.execute(
@@ -526,7 +794,7 @@ def mark_accounts(db, run, day, frames, invested, equity, capital):
         cashflow[row["strategy"]] += row["delta"]
     benchmark = float(frames["NIFTY 200"].iloc[-1].close)
     marks = [(run, day, "portfolio", equity, sum(invested.values()), benchmark)]
-    for strategy in STRATEGIES:
+    for strategy in strategies:
         prior = db.execute(
             "SELECT equity-invested FROM account_marks WHERE run=? AND book=? "
             "ORDER BY day DESC LIMIT 1",

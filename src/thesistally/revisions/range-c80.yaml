@@ -1,0 +1,8 @@
+version: range-c80
+base_revision: r2
+base_sha256: 93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84
+execution_convention: stage3-v1
+entry_band_convention: stage3-entry-v2
+book_strategies: [range_bouncers]
+range_bouncers:
+  target_fraction: 0.80

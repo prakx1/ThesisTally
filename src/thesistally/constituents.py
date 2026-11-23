@@ -34,7 +34,7 @@ def load_daily(root, day):
         idx["Index Name"]
         .str.upper()
         .str.strip()
-        .replace({"CNX NIFTY": "NIFTY 50", "CNX 200": "NIFTY 200"})
+        .replace({"S&P CNX NIFTY": "NIFTY 50", "CNX NIFTY": "NIFTY 50", "CNX 200": "NIFTY 200"})
     )
     return bhav, idx.set_index("name")
 

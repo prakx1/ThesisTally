@@ -1,0 +1,22 @@
+{
+  "source_url.pdf": {
+    "url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+    "sha256": "6ec1b01b1265e878e776129c9a27f2feeaed8501594abb23078b382de30cf19c"
+  },
+  "suspension_source.pdf": {
+    "url": "https://nsearchives.nseindia.com/content/circulars/CML63585.pdf",
+    "sha256": "4d7ae41d4fd40dc386bb029c243ea7f63487071297959ab11c40f7ef7b4b19d5"
+  },
+  "credit_source.pdf": {
+    "url": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf",
+    "sha256": "229fcff83c993475bb0cbb22a5211ede3d90c8955dde8c36d9f89ac483b68e89"
+  },
+  "scheme_faq.pdf": {
+    "url": "https://www.tatamotors.com/wp-content/uploads/2024/09/FAQs-Cancellation-of-A-Ordinary-Shares.pdf",
+    "sha256": "c453b979278bfbc6bbf1143da49af63ea0b031c0ab0b42b1fa19a2fab97d97c5"
+  },
+  "trustee_sale.pdf": {
+    "url": "https://cv.tatamotors.com/assets/cv/files/investors/2024/09/NSEBSELETTER-170924.pdf",
+    "sha256": "57a90fa8dad5a3a705ed95257512e782717f4701a6e55ce04b427428d24bf73f"
+  }
+}

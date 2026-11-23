@@ -1,0 +1,42 @@
+{
+  "day": "2014-09-05",
+  "labels": {
+    "BHUSANSTL": {
+      "isin": "INE824B01021",
+      "percent": 5,
+      "published": "2014-09-04",
+      "sources": [
+        {
+          "published": "2014-09-04",
+          "sha256": "cc8b3a1e52d2bfd21d863fa8caa30ccd0a04728fb3451e93fd7b09beb1ce000f",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV27522.zip"
+        }
+      ]
+    },
+    "PIPAVAVDOC": {
+      "isin": "INE542F01012",
+      "percent": 5,
+      "published": "2014-09-04",
+      "sources": [
+        {
+          "published": "2014-09-04",
+          "sha256": "cc8b3a1e52d2bfd21d863fa8caa30ccd0a04728fb3451e93fd7b09beb1ce000f",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV27522.zip"
+        }
+      ]
+    },
+    "SUZLON": {
+      "isin": "INE040H01021",
+      "percent": 10,
+      "published": "2014-09-04",
+      "sources": [
+        {
+          "published": "2014-09-04",
+          "sha256": "cc8b3a1e52d2bfd21d863fa8caa30ccd0a04728fb3451e93fd7b09beb1ce000f",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV27522.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2014-09-04"
+}

@@ -1,0 +1,48 @@
+{
+  "attempts_per_url": {
+    "3": 2224
+  },
+  "by_season": {
+    "2025": {
+      "named_urls": 714
+    },
+    "2026": {
+      "named_urls": 1510,
+      "official_tagged_file_bytes": 1
+    }
+  },
+  "control_receipt_counts": {
+    "https://api.bseindia.com/BseIndiaAPI/api/Integratedfinancedata/w?scripcode=532540": {
+      "inline_catalogue": 23
+    },
+    "https://www.bseindia.com/XBRLFILES/FourOneUploadDocument/Banking_500180_197202020320.xml": {
+      "http_error": 11,
+      "known_original_bytes": 1,
+      "transport_error": 11
+    },
+    "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532540_810202622559_IFIndAs.html": {
+      "http_error": 11,
+      "known_original_bytes": 2,
+      "transport_error": 10
+    }
+  },
+  "global_plan_sha256": "6835a4e64b30d1b98aa9dd9c6e5c497fea595ad4edc96008223f71e96957f8af",
+  "known_bytes": [
+    {
+      "edition_evidence": "object_modified_after_filing",
+      "published_at": "2026-10-08T22:05:59.380000+05:30",
+      "sha256": [
+        "b54ccc03de585f743212f8f7b4a2359eff17f7c2914816aaeb82ee705e92bfd8"
+      ],
+      "symbol": "TCS",
+      "url": "https://www.bseindia.com/XBRLFILES/IFIndasDuplicateUploadDocument/Integrated_Finance_Ind_As_532540_810202622559_IFIndAs.html",
+      "year": "2026"
+    }
+  ],
+  "target_receipt_counts": {
+    "http_error": 5619,
+    "transport_error": 1052,
+    "xbrl": 1
+  },
+  "url_count": 2224
+}

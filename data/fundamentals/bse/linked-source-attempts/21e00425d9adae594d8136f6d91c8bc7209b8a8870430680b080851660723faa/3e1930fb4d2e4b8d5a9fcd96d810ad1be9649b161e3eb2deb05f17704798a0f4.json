@@ -1,0 +1,29 @@
+{
+  "attempted_at_utc": "2026-11-22T13:19:55.648472+00:00",
+  "bytes": 175495,
+  "content": "PDF",
+  "layout_sha256": "078ae801757ccf5180df5f6970f94a8d382b928ef179c5ff25140be8fa7d43a6",
+  "official_clock_cues": [],
+  "outcome": "BSE public dissemination time unverified",
+  "pages": 2,
+  "readable_pages": 2,
+  "requests": [
+    {
+      "status": 200,
+      "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c5d2f3de-3fa3-4254-9c67-202730325d6d.pdf"
+    }
+  ],
+  "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c5d2f3de-3fa3-4254-9c67-202730325d6d.pdf",
+  "return_code": 0,
+  "search_scope": "topic candidates in the first four native-text pages; explicit exchange clock or acknowledgement cues on every native-text page",
+  "server_response_date": "Sun, 22 Nov 2026 13:19:55 GMT",
+  "sha256": "2e63fe9c8083bbae40d2dc5f64860a83f39d0fd370af1338aca532fe67445acd",
+  "status": 200,
+  "topic_cues": [
+    {
+      "page": 1,
+      "topic": "board_or_audit_report"
+    }
+  ],
+  "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c5d2f3de-3fa3-4254-9c67-202730325d6d.pdf"
+}

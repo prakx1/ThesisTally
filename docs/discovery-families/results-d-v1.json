@@ -1,0 +1,12 @@
+{
+  "family": "results-d-v1",
+  "kind": "preregistered_strategy",
+  "unit": "quarterly earnings announcement",
+  "first_test_year": 2017,
+  "last_session": "2026-11-20",
+  "minimum_quarter_coverage": 0.8,
+  "hypotheses": [
+    {"id": "results-d40", "strategy": "results-d", "holding_sessions": 40, "description": "Post-earnings momentum with a 40-session time exit"},
+    {"id": "results-d20", "strategy": "results-d", "holding_sessions": 20, "description": "Sole sensitivity with a 20-session time exit"}
+  ]
+}

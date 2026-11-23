@@ -1,0 +1,18 @@
+{
+  "ai_pdf_extraction_run": false,
+  "coverage_report": "docs/STRATEGY_D2_XBRL_COVERAGE.md",
+  "coverage_sha256": "f933119325f4b163e3ed8c5659b3b87fd836bab9b0cbf059d58fd63343f23410",
+  "forward_action": "collect public results disclosures and structured attachments",
+  "forward_start_ist": "2026-11-23",
+  "historical_performance_test_run": false,
+  "historical_source_edition": "cb381118ee9ad0593180b7d98ac5e7d976487621ce56e7b9b1136ecdf802b1f4",
+  "historical_status": "parked",
+  "minimum_passing_windows": 5,
+  "passing_windows": [
+    2025,
+    2026
+  ],
+  "required_fraction_per_window": 0.8,
+  "study": "D2",
+  "tested_window_count": 10
+}

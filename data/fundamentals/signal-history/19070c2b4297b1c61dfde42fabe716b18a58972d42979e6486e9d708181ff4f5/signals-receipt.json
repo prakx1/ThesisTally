@@ -1,0 +1,31 @@
+{
+  "calendar_end": "2026-11-20",
+  "coverage_sha256": "951a21482480fe79fc10b613c9076958c7154004f29a72661f8cd70fe87623e3",
+  "funnel": {
+    "consecutive_original_eps_0": 289,
+    "consecutive_original_eps_1": 390,
+    "consecutive_original_eps_10": 1,
+    "consecutive_original_eps_11": 1,
+    "consecutive_original_eps_12": 1,
+    "consecutive_original_eps_13": 1,
+    "consecutive_original_eps_2": 117,
+    "consecutive_original_eps_3": 46,
+    "consecutive_original_eps_4": 20,
+    "consecutive_original_eps_5": 13,
+    "consecutive_original_eps_6": 8,
+    "consecutive_original_eps_7": 5,
+    "consecutive_original_eps_8": 2,
+    "consecutive_original_eps_9": 1,
+    "nonmember_at_release": 102,
+    "sue_scored": 1,
+    "unavailable_sue": 894,
+    "unverified_first_eps_session": 1
+  },
+  "originals": 1812,
+  "plans": 1,
+  "registration_commit": "af36fef9ddcd7b7458dbc94b9d7e1b716f3ee3da",
+  "signal_method_sha256": "cf8a58d88f45c7736290636522f2adc953c249f8a7c9a52bbbd2bb1012c3d463",
+  "signals_sha256": "55f24a1e9aabad687e9056f16c9cf2eafdd071c7d926a163c7ba9368f6648c22",
+  "snapshot": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+  "source_sha256": "18b27a1ff21adb4c08dba32eabb998bb042b40a21ac000669cf4e91590f1d8fc"
+}

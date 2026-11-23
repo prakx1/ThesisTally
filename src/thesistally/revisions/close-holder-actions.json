@@ -1,0 +1,66 @@
+{
+  "version": "steady-close-corroboration-holders-v1",
+  "actions": [
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE580B01029",
+      "successor_isin": "INE580B01029",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2018-06-06",
+      "effective": "2018-06-06",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 1,
+        "record_date": "2018-06-07",
+        "allotted": "2018-06-08",
+        "credited": "2018-06-11",
+        "tradable": "2018-06-12",
+        "subjects": [
+          " Bonus 1:1"
+        ],
+        "source_url": "https://archives.nseindia.com/corporate/AllotmentK_08062018120025_057.zip",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML37991.pdf",
+        "credit_evidence_basis": "NSE confirms depository credit to the temporary ISIN by its 11 June listing notice. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE216A01022",
+      "successor_isin": "INE216A01030",
+      "new_shares": 2,
+      "old_shares": 1,
+      "suspended": "2018-11-29",
+      "effective": "2018-11-29",
+      "record": "2018-11-30",
+      "credited": "2018-12-03",
+      "tradable": "2018-12-03",
+      "last_trade": "2018-11-28",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML39428.pdf",
+      "credit_source": "https://archives.nseindia.com/content/circulars/CMPT39438.pdf",
+      "credit_evidence_basis": "NSE Clearing expressly requires old ISIN early pay-in on 29 and 30 November, then new ISIN early pay-in on 3 December. Beneficiary balances are converted using the 30 November record date."
+    }
+  ],
+  "evidence": [
+    {
+      "file": "GRUH-CML37991.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML37991.pdf",
+      "sha256": "fbe698ede5379af7e774f59b776c4a5686e40c159c208c69d04f942389136674"
+    },
+    {
+      "file": "GRUH-allot20180608.zip",
+      "url": "https://archives.nseindia.com/corporate/AllotmentK_08062018120025_057.zip",
+      "sha256": "498734be49cfd1505907b25722d741eee20f1814872df2d7245f9d29ca193fc0"
+    },
+    {
+      "file": "BRITANNIA-CMPT39438.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CMPT39438.pdf",
+      "sha256": "d5109fd98ab9c1af67ebaede7168a38c06870512611cef0b59392c215797d635"
+    },
+    {
+      "file": "BRITANNIA-CML39428.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML39428.pdf",
+      "sha256": "094b7f19825c0550b7229ac14692d7eacfefb5cc7b0ec1c1d1bb99013fbbb43c"
+    }
+  ]
+}

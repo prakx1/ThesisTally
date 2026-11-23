@@ -1,0 +1,42 @@
+{
+  "day": "2019-02-07",
+  "labels": {
+    "GRAPHITE": {
+      "isin": "INE371A01025",
+      "percent": 10,
+      "published": "2019-02-06",
+      "sources": [
+        {
+          "published": "2019-02-06",
+          "sha256": "2d59126976edb9731feee8ba403250adc1f748894d54e16cc7a801c8aa592ec5",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV40150.zip"
+        }
+      ]
+    },
+    "HEG": {
+      "isin": "INE545A01016",
+      "percent": 10,
+      "published": "2019-02-06",
+      "sources": [
+        {
+          "published": "2019-02-06",
+          "sha256": "2d59126976edb9731feee8ba403250adc1f748894d54e16cc7a801c8aa592ec5",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV40150.zip"
+        }
+      ]
+    },
+    "VAKRANGEE": {
+      "isin": "INE051B01021",
+      "percent": 10,
+      "published": "2019-02-06",
+      "sources": [
+        {
+          "published": "2019-02-06",
+          "sha256": "2d59126976edb9731feee8ba403250adc1f748894d54e16cc7a801c8aa592ec5",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV40150.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2019-02-06"
+}

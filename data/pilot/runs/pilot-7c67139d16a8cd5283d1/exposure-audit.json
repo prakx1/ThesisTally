@@ -1,0 +1,1046 @@
+{
+  "funded_and_shadow_exposure_to_quarantine": [
+    {
+      "day": "2025-08-25",
+      "isin": "INE494B01023",
+      "call_id": 7598,
+      "book": "shadow",
+      "series": [
+        "EQ"
+      ],
+      "is_member": true,
+      "close_mark": false,
+      "quarantine_reason": "unresolved_action"
+    },
+    {
+      "day": "2026-09-24",
+      "isin": "INE417T01026",
+      "call_id": 11716,
+      "book": "shadow",
+      "series": [
+        "EQ"
+      ],
+      "is_member": true,
+      "close_mark": false,
+      "quarantine_reason": "unexplained_move_over_20pct"
+    }
+  ],
+  "off_index_be_bz_positions": [],
+  "all_off_index_held_call_sessions": {
+    "portfolio": 1,
+    "shadow": 24
+  },
+  "kite_close_return_differences_on_fill_day": [
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE018A01030",
+      "return_kite": -0.002612206126810679,
+      "return_nse": -0.00045119924008540924,
+      "symbol": "LT",
+      "difference_fraction": 0.0021610068867252696,
+      "fills": [
+        {
+          "id": 4543,
+          "call_id": 12001,
+          "qty": 8,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE018E01016",
+      "return_kite": 0.0075962629878634225,
+      "return_nse": 0.01152536453330999,
+      "symbol": "SBICARD",
+      "difference_fraction": 0.003929101545446567,
+      "fills": [
+        {
+          "id": 4546,
+          "call_id": 12006,
+          "qty": 38,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE019A01038",
+      "return_kite": -0.005311190903650398,
+      "return_nse": 0.0001496110113705651,
+      "symbol": "JSWSTEEL",
+      "difference_fraction": 0.005460801915020963,
+      "fills": [
+        {
+          "id": 4565,
+          "call_id": 12113,
+          "qty": 70,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE044A01036",
+      "return_kite": -0.005157894736842028,
+      "return_nse": -0.007947368421052592,
+      "symbol": "SUNPHARMA",
+      "difference_fraction": 0.002789473684210564,
+      "fills": [
+        {
+          "id": 4568,
+          "call_id": 12116,
+          "qty": 55,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE047A01021",
+      "return_kite": -0.0038892996046414607,
+      "return_nse": -0.0023785799234997684,
+      "symbol": "GRASIM",
+      "difference_fraction": 0.0015107196811416923,
+      "fills": [
+        {
+          "id": 4563,
+          "call_id": 12111,
+          "qty": 32,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE092T01019",
+      "return_kite": 0.011040092969204052,
+      "return_nse": 0.014061592097617703,
+      "symbol": "IDFCFIRSTB",
+      "difference_fraction": 0.0030214991284136516,
+      "fills": [
+        {
+          "id": 4554,
+          "call_id": 12101,
+          "qty": 363,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2025-06-06",
+      "ex_date_events": [
+        "Dividend - Rs 90 Per Share"
+      ],
+      "isin": "INE127D01025",
+      "return_kite": 0.06085140836067682,
+      "return_nse": 0.041282901469564814,
+      "symbol": "HDFCAMC",
+      "difference_fraction": 0.019568506891112003,
+      "fills": [
+        {
+          "id": 1604,
+          "call_id": 6857,
+          "qty": 15,
+          "side": "buy",
+          "allocation": "position_limit"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE158A01026",
+      "return_kite": -0.006479481641468721,
+      "return_nse": -0.003599712023038104,
+      "symbol": "HEROMOTOCO",
+      "difference_fraction": 0.0028797696184306165,
+      "fills": [
+        {
+          "id": 4558,
+          "call_id": 12105,
+          "qty": 7,
+          "side": "buy",
+          "allocation": "drawdown"
+        },
+        {
+          "id": 4559,
+          "call_id": 12106,
+          "qty": 7,
+          "side": "buy",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE202E01016",
+      "return_kite": 0.01656394453004606,
+      "return_nse": 0.014637904468412843,
+      "symbol": "IREDA",
+      "difference_fraction": 0.0019260400616332163,
+      "fills": [
+        {
+          "id": 4567,
+          "call_id": 12115,
+          "qty": 155,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE213A01029",
+      "return_kite": -0.0027614466417246186,
+      "return_nse": -0.0047211829681097495,
+      "symbol": "ONGC",
+      "difference_fraction": 0.001959736326385131,
+      "fills": [
+        {
+          "id": 4533,
+          "call_id": 11848,
+          "qty": 427,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2024-07-12",
+      "ex_date_events": [
+        "Dividend - Rs 7 Per Share"
+      ],
+      "isin": "INE242A01010",
+      "return_kite": -0.0023896365237078276,
+      "return_nse": -0.04242146296720939,
+      "symbol": "IOC",
+      "difference_fraction": 0.04003182644350156,
+      "fills": [
+        {
+          "id": 12,
+          "call_id": 3536,
+          "qty": 693,
+          "side": "buy",
+          "allocation": "position_limit"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE280A01028",
+      "return_kite": -0.018617021276595702,
+      "return_nse": -0.017021276595744705,
+      "symbol": "TITAN",
+      "difference_fraction": 0.0015957446808509967,
+      "fills": [
+        {
+          "id": 4541,
+          "call_id": 11988,
+          "qty": 6,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE323A01026",
+      "return_kite": -0.0026315789473684292,
+      "return_nse": -0.0008097165991902688,
+      "symbol": "BOSCHLTD",
+      "difference_fraction": 0.0018218623481781604,
+      "fills": [
+        {
+          "id": 4553,
+          "call_id": 12100,
+          "qty": 3,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE324D01010",
+      "return_kite": 0.00891504486656558,
+      "return_nse": 0.014275725439925502,
+      "symbol": "LGEINDIA",
+      "difference_fraction": 0.005360680573359922,
+      "fills": [
+        {
+          "id": 4540,
+          "call_id": 11985,
+          "qty": 19,
+          "side": "sell",
+          "allocation": "upcoming_results"
+        }
+      ]
+    },
+    {
+      "day": "2024-11-08",
+      "ex_date_events": [
+        "Interim Dividend - Rs 7 Per Share"
+      ],
+      "isin": "INE347G01014",
+      "return_kite": -0.03180484792342142,
+      "return_nse": -0.051341217190654764,
+      "symbol": "PETRONET",
+      "difference_fraction": 0.019536369267233344,
+      "fills": [
+        {
+          "id": 862,
+          "call_id": 5338,
+          "qty": 217,
+          "side": "buy",
+          "allocation": "regime"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE364U01010",
+      "return_kite": 0.008421052631578885,
+      "return_nse": 0.007017543859649145,
+      "symbol": "ADANIGREEN",
+      "difference_fraction": 0.00140350877192974,
+      "fills": [
+        {
+          "id": 4542,
+          "call_id": 11994,
+          "qty": 25,
+          "side": "sell",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE437A01024",
+      "return_kite": 0.05172808422980091,
+      "return_nse": 0.052872510872053136,
+      "symbol": "APOLLOHOSP",
+      "difference_fraction": 0.0011444266422522276,
+      "fills": [
+        {
+          "id": 4534,
+          "call_id": 11906,
+          "qty": 4,
+          "side": "sell",
+          "allocation": "upcoming_results"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE494B01023",
+      "return_kite": -0.003737992784804578,
+      "return_nse": -0.0024775068457425498,
+      "symbol": "TVSMOTOR",
+      "difference_fraction": 0.0012604859390620282,
+      "fills": [
+        {
+          "id": 4552,
+          "call_id": 12099,
+          "qty": 9,
+          "side": "buy",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE498L01015",
+      "return_kite": -0.008935706501997931,
+      "return_nse": -0.011623683254631256,
+      "symbol": "LTF",
+      "difference_fraction": 0.0026879767526333254,
+      "fills": [
+        {
+          "id": 4545,
+          "call_id": 12004,
+          "qty": 67,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2025-06-10",
+      "ex_date_events": [
+        "Dividend - Rs 16.25 Per Share"
+      ],
+      "isin": "INE562A01011",
+      "return_kite": -0.010686164229471329,
+      "return_nse": -0.035363608468855445,
+      "symbol": "INDIANB",
+      "difference_fraction": 0.024677444239384116,
+      "fills": [
+        {
+          "id": 1621,
+          "call_id": 6917,
+          "qty": 90,
+          "side": "buy",
+          "allocation": "position_limit"
+        }
+      ]
+    },
+    {
+      "day": "2026-06-10",
+      "ex_date_events": [
+        "Dividend - Rs 18.25 Per Share"
+      ],
+      "isin": "INE562A01011",
+      "return_kite": -0.027139021827944476,
+      "return_nse": -0.047431281787530755,
+      "symbol": "INDIANB",
+      "difference_fraction": 0.02029225995958628,
+      "fills": [
+        {
+          "id": 3589,
+          "call_id": 10679,
+          "qty": 55,
+          "side": "buy",
+          "allocation": "regime"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE584A01023",
+      "return_kite": 0.005571847507331418,
+      "return_nse": 0.01026392961876832,
+      "symbol": "NMDC",
+      "difference_fraction": 0.004692082111436902,
+      "fills": [
+        {
+          "id": 4548,
+          "call_id": 12011,
+          "qty": 648,
+          "side": "sell",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE585B01010",
+      "return_kite": 0.028994039296489804,
+      "return_nse": 0.031054529398778508,
+      "symbol": "MARUTI",
+      "difference_fraction": 0.0020604901022887034,
+      "fills": [
+        {
+          "id": 4564,
+          "call_id": 12112,
+          "qty": 2,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE619A01035",
+      "return_kite": 0.008208955223880654,
+      "return_nse": 0.005472636815920362,
+      "symbol": "PATANJALI",
+      "difference_fraction": 0.002736318407960292,
+      "fills": [
+        {
+          "id": 4547,
+          "call_id": 12007,
+          "qty": 46,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE670K01029",
+      "return_kite": 0.010226989274133125,
+      "return_nse": 0.01330340068179936,
+      "symbol": "LODHA",
+      "difference_fraction": 0.0030764114076662352,
+      "fills": [
+        {
+          "id": 4539,
+          "call_id": 11977,
+          "qty": 16,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE721A01047",
+      "return_kite": -0.007654371725059006,
+      "return_nse": -0.0013356621802116386,
+      "symbol": "SHRIRAMFIN",
+      "difference_fraction": 0.006318709544847367,
+      "fills": [
+        {
+          "id": 4544,
+          "call_id": 12003,
+          "qty": 16,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE775A01035",
+      "return_kite": -0.00024177949709858204,
+      "return_nse": 0.0065884912959381925,
+      "symbol": "MOTHERSON",
+      "difference_fraction": 0.0068302707930367745,
+      "fills": [
+        {
+          "id": 4555,
+          "call_id": 12102,
+          "qty": 257,
+          "side": "buy",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE854D01024",
+      "return_kite": 0.005479452054794498,
+      "return_nse": 0.004383561643835687,
+      "symbol": "UNITDSPR",
+      "difference_fraction": 0.0010958904109588108,
+      "fills": [
+        {
+          "id": 4557,
+          "call_id": 12104,
+          "qty": 39,
+          "side": "buy",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE956O01016",
+      "return_kite": -0.002089934605271959,
+      "return_nse": 0.0036405312478933194,
+      "symbol": "LENSKART",
+      "difference_fraction": 0.005730465853165279,
+      "fills": [
+        {
+          "id": 4536,
+          "call_id": 11970,
+          "qty": 53,
+          "side": "sell",
+          "allocation": "drawdown"
+        },
+        {
+          "id": 4537,
+          "call_id": 11971,
+          "qty": 33,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        },
+        {
+          "id": 4551,
+          "call_id": 12098,
+          "qty": 152,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "day": "2026-11-20",
+      "ex_date_events": [],
+      "isin": "INE982J01020",
+      "return_kite": 0.0016802827510282725,
+      "return_nse": 0.008169650617069202,
+      "symbol": "PAYTM",
+      "difference_fraction": 0.006489367866040929,
+      "fills": [
+        {
+          "id": 4535,
+          "call_id": 11969,
+          "qty": 14,
+          "side": "sell",
+          "allocation": "drawdown"
+        },
+        {
+          "id": 4549,
+          "call_id": 12060,
+          "qty": 15,
+          "side": "sell",
+          "allocation": "drawdown"
+        },
+        {
+          "id": 4550,
+          "call_id": 12061,
+          "qty": 12,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    }
+  ],
+  "kite_candle_shape_differences_on_fill_day": [
+    {
+      "close_kite": 4200.0,
+      "close_nse": 4209.1,
+      "day": "2026-11-20",
+      "isin": "INE018A01030",
+      "fills": [
+        {
+          "id": 4543,
+          "call_id": 12001,
+          "qty": 8,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 577.0,
+      "close_nse": 579.25,
+      "day": "2026-11-20",
+      "isin": "INE018E01016",
+      "fills": [
+        {
+          "id": 4546,
+          "call_id": 12006,
+          "qty": 38,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 1329.7,
+      "close_nse": 1337.0,
+      "day": "2026-11-20",
+      "isin": "INE019A01038",
+      "fills": [
+        {
+          "id": 4565,
+          "call_id": 12113,
+          "qty": 70,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 1890.2,
+      "close_nse": 1884.9,
+      "day": "2026-11-20",
+      "isin": "INE044A01036",
+      "fills": [
+        {
+          "id": 4568,
+          "call_id": 12116,
+          "qty": 55,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 3099.0,
+      "close_nse": 3103.7,
+      "day": "2026-11-20",
+      "isin": "INE047A01021",
+      "fills": [
+        {
+          "id": 4563,
+          "call_id": 12111,
+          "qty": 32,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 87.0,
+      "close_nse": 87.26,
+      "day": "2026-11-20",
+      "isin": "INE092T01019",
+      "fills": [
+        {
+          "id": 4554,
+          "call_id": 12101,
+          "qty": 363,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 5520.0,
+      "close_nse": 5536.0,
+      "day": "2026-11-20",
+      "isin": "INE158A01026",
+      "fills": [
+        {
+          "id": 4558,
+          "call_id": 12105,
+          "qty": 7,
+          "side": "buy",
+          "allocation": "drawdown"
+        },
+        {
+          "id": 4559,
+          "call_id": 12106,
+          "qty": 7,
+          "side": "buy",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "close_kite": 131.95,
+      "close_nse": 131.7,
+      "day": "2026-11-20",
+      "isin": "INE202E01016",
+      "fills": [
+        {
+          "id": 4567,
+          "call_id": 12115,
+          "qty": 155,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 223.9,
+      "close_nse": 223.46,
+      "day": "2026-11-20",
+      "isin": "INE213A01029",
+      "fills": [
+        {
+          "id": 4533,
+          "call_id": 11848,
+          "qty": 427,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 4612.5,
+      "close_nse": 4620.0,
+      "day": "2026-11-20",
+      "isin": "INE280A01028",
+      "fills": [
+        {
+          "id": 4541,
+          "call_id": 11988,
+          "qty": 6,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 49270.0,
+      "close_nse": 49360.0,
+      "day": "2026-11-20",
+      "isin": "INE323A01026",
+      "fills": [
+        {
+          "id": 4553,
+          "call_id": 12100,
+          "qty": 3,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 1731.5,
+      "close_nse": 1740.7,
+      "day": "2026-11-20",
+      "isin": "INE324D01010",
+      "fills": [
+        {
+          "id": 4540,
+          "call_id": 11985,
+          "qty": 19,
+          "side": "sell",
+          "allocation": "upcoming_results"
+        }
+      ]
+    },
+    {
+      "close_kite": 1437.0,
+      "close_nse": 1435.0,
+      "day": "2026-11-20",
+      "isin": "INE364U01010",
+      "fills": [
+        {
+          "id": 4542,
+          "call_id": 11994,
+          "qty": 25,
+          "side": "sell",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "close_kite": 9190.0,
+      "close_nse": 9200.0,
+      "day": "2026-11-20",
+      "isin": "INE437A01024",
+      "fills": [
+        {
+          "id": 4534,
+          "call_id": 11906,
+          "qty": 4,
+          "side": "sell",
+          "allocation": "upcoming_results"
+        }
+      ]
+    },
+    {
+      "close_kite": 4584.2,
+      "close_nse": 4590.0,
+      "day": "2026-11-20",
+      "isin": "INE494B01023",
+      "fills": [
+        {
+          "id": 4552,
+          "call_id": 12099,
+          "qty": 9,
+          "side": "buy",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "close_kite": 272.84,
+      "close_nse": 272.1,
+      "day": "2026-11-20",
+      "isin": "INE498L01015",
+      "fills": [
+        {
+          "id": 4545,
+          "call_id": 12004,
+          "qty": 67,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 68.58,
+      "close_nse": 68.9,
+      "day": "2026-11-20",
+      "isin": "INE584A01023",
+      "fills": [
+        {
+          "id": 4548,
+          "call_id": 12011,
+          "qty": 648,
+          "side": "sell",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "close_kite": 13983.0,
+      "close_nse": 14011.0,
+      "day": "2026-11-20",
+      "isin": "INE585B01010",
+      "fills": [
+        {
+          "id": 4564,
+          "call_id": 12112,
+          "qty": 2,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 405.3,
+      "close_nse": 404.2,
+      "day": "2026-11-20",
+      "isin": "INE619A01035",
+      "fills": [
+        {
+          "id": 4547,
+          "call_id": 12007,
+          "qty": 46,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 1215.0,
+      "close_nse": 1218.7,
+      "day": "2026-11-20",
+      "isin": "INE670K01029",
+      "fills": [
+        {
+          "id": 4539,
+          "call_id": 11977,
+          "qty": 16,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 965.85,
+      "close_nse": 972.0,
+      "day": "2026-11-20",
+      "isin": "INE721A01047",
+      "fills": [
+        {
+          "id": 4544,
+          "call_id": 12003,
+          "qty": 16,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 165.4,
+      "close_nse": 166.53,
+      "day": "2026-11-20",
+      "isin": "INE775A01035",
+      "fills": [
+        {
+          "id": 4555,
+          "call_id": 12102,
+          "qty": 257,
+          "side": "buy",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "close_kite": 1468.0,
+      "close_nse": 1466.4,
+      "day": "2026-11-20",
+      "isin": "INE854D01024",
+      "fills": [
+        {
+          "id": 4557,
+          "call_id": 12104,
+          "qty": 39,
+          "side": "buy",
+          "allocation": "drawdown"
+        }
+      ]
+    },
+    {
+      "close_kite": 740.1,
+      "close_nse": 744.35,
+      "day": "2026-11-20",
+      "isin": "INE956O01016",
+      "fills": [
+        {
+          "id": 4536,
+          "call_id": 11970,
+          "qty": 53,
+          "side": "sell",
+          "allocation": "drawdown"
+        },
+        {
+          "id": 4537,
+          "call_id": 11971,
+          "qty": 33,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        },
+        {
+          "id": 4551,
+          "call_id": 12098,
+          "qty": 152,
+          "side": "buy",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    },
+    {
+      "close_kite": 1728.8,
+      "close_nse": 1740.0,
+      "day": "2026-11-20",
+      "isin": "INE982J01020",
+      "fills": [
+        {
+          "id": 4535,
+          "call_id": 11969,
+          "qty": 14,
+          "side": "sell",
+          "allocation": "drawdown"
+        },
+        {
+          "id": 4549,
+          "call_id": 12060,
+          "qty": 15,
+          "side": "sell",
+          "allocation": "drawdown"
+        },
+        {
+          "id": 4550,
+          "call_id": 12061,
+          "qty": 12,
+          "side": "sell",
+          "allocation": "stop_out_of_bounds"
+        }
+      ]
+    }
+  ],
+  "unique_funded_fill_day_isin": 254,
+  "actual_purchased_DVR_positions": [
+    {
+      "id": 4028,
+      "day": "2024-08-09",
+      "allocation": "portfolio",
+      "status": "closed",
+      "buy": 728.3639999999999,
+      "size": 216,
+      "net": -10944.73939999996,
+      "outcome_r": -2.5444456068502035
+    }
+  ],
+  "pilot_report_sha256": "a4f48581648aa89c989af8e810e4e3ed5b5e84f34238b2c83cf2152bbee22e50"
+}

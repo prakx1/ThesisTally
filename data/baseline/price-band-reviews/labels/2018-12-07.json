@@ -1,0 +1,42 @@
+{
+  "day": "2018-12-07",
+  "labels": {
+    "CENTRALBK": {
+      "isin": "INE483A01010",
+      "percent": 10,
+      "published": "2018-12-06",
+      "sources": [
+        {
+          "published": "2018-12-06",
+          "sha256": "ca94e46378a99d0e20686a66a5df4fb53a18cc69e02c233cd0fec6a06d9b1324",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV39600.zip"
+        }
+      ]
+    },
+    "EDELWEISS": {
+      "isin": "INE532F01054",
+      "percent": 10,
+      "published": "2018-12-06",
+      "sources": [
+        {
+          "published": "2018-12-06",
+          "sha256": "ca94e46378a99d0e20686a66a5df4fb53a18cc69e02c233cd0fec6a06d9b1324",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV39600.zip"
+        }
+      ]
+    },
+    "VAKRANGEE": {
+      "isin": "INE051B01021",
+      "percent": 5,
+      "published": "2018-12-06",
+      "sources": [
+        {
+          "published": "2018-12-06",
+          "sha256": "ca94e46378a99d0e20686a66a5df4fb53a18cc69e02c233cd0fec6a06d9b1324",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV39600.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2018-12-06"
+}

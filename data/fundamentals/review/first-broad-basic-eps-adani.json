@@ -1,0 +1,21 @@
+{
+  "job_key": "39b265c83232861cc9fc37573eb7e33f9eb79a6857ebe35cddd9f9ef0034b738",
+  "match": {
+    "source_edition": "d814a45418b595a57387fa506e3e529b8417e3e1eb61457372177775ec4d2d85",
+    "verified_positive_proofs": {
+      "optical_currency_and_cells": 1
+    },
+    "physical_source_pages": 1,
+    "cases": {
+      "integrated/ADANIENT/INE423A01024/2026-06-30/standalone/180114": {
+        "eps": "-6.84"
+      }
+    }
+  },
+  "original_url": "https://nsearchives.nseindia.in/corporate/ADANIENT_29072026143517_AELBMOutcome29072026_1.pdf",
+  "original_sha256": "d4a9d4df5061a48c93cc8ad663a31c2a55b0582c5e6a48c4ffbb1c33dbb9c8fa",
+  "page": 18,
+  "structured_url": "https://nsearchives.nseindia.in/corporate/xbrl/INTEGRATED_FILING_INDAS_1704482_29072026074406_WEB.xml",
+  "structured_sha256": "b9af7a476fbeb8dea67dad68abed081b6f69815bea28720ff0584a3f6b409fd2",
+  "original_public_at": "2026-07-29T14:36:39+05:30"
+}

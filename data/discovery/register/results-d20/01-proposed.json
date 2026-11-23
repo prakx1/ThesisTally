@@ -1,0 +1,14 @@
+{
+  "evidence": "docs/discovery-families/results-d-v1.json",
+  "family": "results-d-v1",
+  "hypothesis": {
+    "description": "Sole sensitivity with a 20-session time exit",
+    "holding_sessions": 20,
+    "id": "results-d20",
+    "strategy": "results-d"
+  },
+  "id": "results-d20",
+  "registration_commit": "af36fef9ddcd7b7458dbc94b9d7e1b716f3ee3da",
+  "registration_sha256": "75ce440d51705dc950d0592b939e7bf4336cacede2012017614e50c153788744",
+  "status": "proposed"
+}

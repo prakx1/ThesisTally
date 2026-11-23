@@ -1,0 +1,221 @@
+{
+  "from": "2016-12-30",
+  "missing_tri_dates": [],
+  "series": "Nifty 200 gross total return",
+  "sessions": 2452,
+  "sha256": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41",
+  "source_page": "https://www.niftyindices.com/reports/historical-data",
+  "sources": [
+    {
+      "query": {
+        "endDate": "31-Dec-2016",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "30-Dec-2016"
+      },
+      "sha256": "8c276341f29f39424d0514e48972a283b0d72c22c6a538edc137c940480653e5",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2017",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2017"
+      },
+      "sha256": "1429bb44a208a034d5c0b4533eafa2972619d758ddcd40e81a8ec712e084e568",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2017",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2017"
+      },
+      "sha256": "36c57621689af85ab519ed632457dae95d8b450cdea30aa73bfe152fed95a34a",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2018",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2018"
+      },
+      "sha256": "9bcc6a97d3cc4236f5cfa11d0dee54ed53f277605cdb6b79be165179790766dd",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2018",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2018"
+      },
+      "sha256": "adf51b9de8e8b39c3f29be332e01032c18ea0e238d6f3355d00559a364047b6f",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2019",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2019"
+      },
+      "sha256": "2546d86cf4c9e851c6c43bffb25184beb8533276d39bbe858f0f836bfe803429",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2019",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2019"
+      },
+      "sha256": "60f5b061207e3f2cd29f2cfedce878adb441b140e7377920af37107abf805ff4",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2020",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2020"
+      },
+      "sha256": "97a26c9aaebf1efc2e58e63d18a390e11ed3afd4188f50639867e21e25dd6ec1",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2020",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2020"
+      },
+      "sha256": "5c0959b8e69079e0e6aaaaaf649f397af6cd7482e49f24ac6a9782444279ee1c",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2021",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2021"
+      },
+      "sha256": "37dc600e7161f18bddcd70f5fb0ff2dcfa45d718ccfceda0693508d4055e5129",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2021",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2021"
+      },
+      "sha256": "f024ceff2d9a60545c7cd9d92ab202133a119b9432b2afe68b2083583e4cd0e1",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2022",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2022"
+      },
+      "sha256": "e115332baac36b39a4a17e63629894ab3ab00b9c8949dda0adaa1a6c27a388db",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2022",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2022"
+      },
+      "sha256": "cf93b37e5de858ee844c2d117dd0fea08966291e7bd0cdf78b56009c8d72ab18",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2023",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2023"
+      },
+      "sha256": "d50fd28de38934d83b834645bc25d2b91795b223135f38dde8b4904240e4163d",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2023",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2023"
+      },
+      "sha256": "4e893a357c2838e519603be9e35fba3fe02f0ef1a42b5538928d9c97769df146",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2024",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2024"
+      },
+      "sha256": "9e9aa975f7964121dac36267f1e3db676a3d59ae8e1aa7576d3401c5037326a6",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2024",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2024"
+      },
+      "sha256": "0f2f1094c852f280e417dc3aefbdc2144cf74dd23e94fc4a973c7e1896f25bd9",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2025",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2025"
+      },
+      "sha256": "4f156ea6d2fa66f83d9b4b90a1a78a33321d6f50c1c102fdf1f18f84643662e1",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "31-Dec-2025",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2025"
+      },
+      "sha256": "2245fbf57c1456d7bec8a6a376047e4df4b0f035ec2c2dfe28f97ed275e286fb",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "30-Jun-2026",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jan-2026"
+      },
+      "sha256": "fd657e657bf0ebe812daea60c90f77bd8a3913d2b71c70566ecdb1fd36681a12",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    },
+    {
+      "query": {
+        "endDate": "20-Nov-2026",
+        "indexName": "NIFTY 200",
+        "name": "NIFTY 200",
+        "startDate": "01-Jul-2026"
+      },
+      "sha256": "9a1f2a91b9e1f93532d8a0e93eff4cf38e2de1386a11ea2dc6a650705af04e7a",
+      "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+    }
+  ],
+  "to": "2026-11-20"
+}

@@ -1,0 +1,18 @@
+{
+  "day": "2019-10-09",
+  "labels": {
+    "IBVENTURES": {
+      "isin": "INE274G01010",
+      "percent": 10,
+      "published": "2019-10-07",
+      "sources": [
+        {
+          "published": "2019-10-07",
+          "sha256": "84b9b02530a18fbf7a3c44cb839cb32b93243cb1efa432e12c725beeb360f1cc",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV42331.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2019-10-07"
+}

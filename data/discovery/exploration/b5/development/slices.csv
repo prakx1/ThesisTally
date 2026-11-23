@@ -1,0 +1,142 @@
+label,dimension,value,trades,signal_dates,mean_net_r,ci90_lower,ci90_upper
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE002A01018,8,8,0.42951517994405747,0.057253653578981475,0.8183276181847511
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE013A01015,2,2,0.10877444624472166,-1.0032927408159764,1.2208416333054197
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE019A01038,7,7,0.3792231986592946,0.1408054079038169,0.6022895672576997
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE029A01011,3,3,-0.215623953937077,-0.30570921868910833,-0.12553868918504574
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE036D01028,2,2,0.6401432442620969,-0.08994794776323223,1.3702344362874261
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE038A01020,2,2,0.5388186923381314,0.08499331232250934,0.9926440723537534
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE040A01026,1,1,0.7568759920752047,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE040H01021,1,1,-0.036377597502584805,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE047A01021,1,1,0.08336947806218681,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE053A01029,1,1,-0.09138642992137068,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE055A01016,2,2,0.7037947904147088,0.6753385062200281,0.7322510746093894
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE066A01013,3,3,-0.7808483118217119,-1.2616433076825893,-0.3000533159608345
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE069A01017,1,1,0.33009936066344114,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE081A01012,4,4,-0.28237987934993514,-0.8471904253930725,0.2521447092635818
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE093A01033,1,1,0.2332096013595237,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE095A01012,2,2,0.6098854659616065,0.3122590803824756,0.9075118515407375
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE111A01017,2,2,0.5694039833394855,0.5372347209772075,0.6015732457017636
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE114A01011,1,1,-0.11017460299602509,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE115A01026,1,1,-0.14381191507132168,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE117A01022,1,1,-0.008256116704863857,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE140A01024,1,1,0.10453149815135902,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE148I01020,4,4,-0.171371607630135,-0.3924381393845636,0.048649240738516904
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE154A01025,1,1,0.9142731735775715,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE169A01031,1,1,-0.07439620390018013,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE176A01028,6,6,-0.12977931989160638,-0.38081777597879474,0.12926039947529402
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE176B01034,3,3,-0.28838412406028296,-0.8434019139704018,0.2666336658498359
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE192A01025,1,1,1.1486684192149197,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE203G01019,2,2,0.08324871577054,-0.491707726798827,0.658205158339907
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE205A01025,3,3,-0.8911031624258438,-0.9425019217865699,-0.8397044030651176
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE212H01026,2,2,0.29634165265645307,0.2516206949214158,0.3410626103914904
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE213A01029,1,1,0.008552112003258599,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE226A01021,3,3,0.35034315128206545,0.24717320012944707,0.45351310243468385
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE233A01035,3,3,-1.3592792006718655,-1.4593166114144582,-1.2592417899292723
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE242A01010,4,4,-0.08310402313448453,-0.23824730815993722,0.07203926189096814
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE257A01026,4,4,-0.9066780522290068,-1.463720351950198,-0.33408532675313585
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE263A01016,2,2,0.3757375214175505,-0.046492337471739247,0.7979673803068402
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE267A01025,2,2,0.5351652728853517,-0.03674794529230851,1.1070784910630118
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE274J01014,4,4,0.39733709526609784,0.3151734329515745,0.4829193287179401
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE280A01028,3,3,0.9223067241299899,0.8013999451424839,1.043213503117496
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE296A01024,8,8,-0.3331474640355603,-0.508224841809892,-0.16426658620474602
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE302A01020,2,2,-0.551584262531763,-0.8553614882271101,-0.2478070368364159
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE343B01030,5,5,0.35023945277141016,-0.16965573402852158,0.8735535343555693
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE347G01014,1,1,0.477754799100024,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE356A01018,2,2,0.5242822106963887,0.3866971665686308,0.6618672548241465
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE376G01013,4,4,0.9486956308293892,0.8153421447561031,1.0779138200541216
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE398R01022,1,1,-1.0502212667077002,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE406A01037,1,1,0.9499715108057457,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE414G01012,3,3,0.6016867432590831,0.5761376546727117,0.6272358318454544
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE439L01019,2,2,-0.22323505684810957,-0.395433051383882,-0.05103706231233714
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE465A01025,3,3,0.504672566247358,0.10386667243594573,0.9054784600587703
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE486A01013,3,3,0.47442296149648505,0.0739491470099204,0.8748967759830496
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE498L01015,6,6,-0.665620333000036,-0.9847305945722962,-0.1726566523154861
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE510A01028,2,2,0.45647715501923436,0.39740094852095503,0.5155533615175136
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE528G01019,5,5,0.22203281782477716,-0.3121403175279066,0.6836975219490518
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE540L01014,2,2,0.9523101851920646,0.800171718984596,1.104448651399533
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE584A01023,4,4,0.39893534251478735,-0.1430115416164573,0.9852177773246951
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE585B01010,4,4,0.13326915822621566,-0.36469817723631015,0.6915107807410519
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE646L01027,1,1,0.6012616465766294,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE669C01036,4,4,0.30315730830368304,-0.175465565610482,0.7817801822178481
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE726G01019,1,1,-0.07091738298613132,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE752E01010,2,2,-0.07830088266709262,-0.08467086120164694,-0.07193090413253832
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE774D01024,1,1,0.7195205506440345,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE775A01035,1,1,0.3820155176759123,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE797F01012,1,1,0.34203999112632993,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE813H01021,1,1,1.0564529703576393,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE848E01016,1,1,0.6553290581374803,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE860A01027,1,1,0.6816192657735178,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE881D01027,1,1,-0.2621795165171511,,
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE918I01018,3,3,-0.9776373110334026,-1.1709452026107614,-0.7843294194560441
+"EXPLORATORY — hypothesis generation only, not evidence",stock,INE987B01026,2,2,-1.0331237122602992,-2.0535782439058163,-0.012669180614781957
+"EXPLORATORY — hypothesis generation only, not evidence",sector,ALUMINIUM,1,1,0.9926440723537534,,
+"EXPLORATORY — hypothesis generation only, not evidence",sector,AUTO ANCILLARIES,2,2,-0.551584262531763,-0.8553614882271101,-0.2478070368364159
+"EXPLORATORY — hypothesis generation only, not evidence",sector,AUTOMOBILE,2,2,0.7005775308825359,0.3820155176759123,1.0191395440891595
+"EXPLORATORY — hypothesis generation only, not evidence",sector,AUTOMOBILES - 4 WHEELERS,6,6,-0.4714346411082388,-0.8796377328637484,-0.03861782274682992
+"EXPLORATORY — hypothesis generation only, not evidence",sector,BANKS,10,10,0.4367097501646498,0.10121958472040904,0.7485078858242041
+"EXPLORATORY — hypothesis generation only, not evidence",sector,CASTINGS/FORGINGS,2,2,0.26785489821163017,-0.2241097791154231,0.7598195755386834
+"EXPLORATORY — hypothesis generation only, not evidence",sector,CEMENT & CEMENT PRODUCTS,2,2,0.7037947904147088,0.6753385062200281,0.7322510746093894
+"EXPLORATORY — hypothesis generation only, not evidence",sector,CEMENT AND CEMENT PRODUCTS,3,3,-0.12103354521134412,-0.28063438836003374,0.038567297937345486
+"EXPLORATORY — hypothesis generation only, not evidence",sector,CIGARETTES,1,1,0.9142731735775715,,
+"EXPLORATORY — hypothesis generation only, not evidence",sector,COMPUTERS - SOFTWARE,5,4,0.09573042351163112,-0.1778048444739538,0.4604276913698525
+"EXPLORATORY — hypothesis generation only, not evidence",sector,CONSUMER GOODS,14,11,-0.12097651532906828,-0.6054864642299206,0.2615617618799146
+"EXPLORATORY — hypothesis generation only, not evidence",sector,DIVERSIFIED,1,1,0.33009936066344114,,
+"EXPLORATORY — hypothesis generation only, not evidence",sector,ELECTRICAL EQUIPMENT,11,8,-0.3585286354537653,-0.7131055330700046,0.004212501292873361
+"EXPLORATORY — hypothesis generation only, not evidence",sector,ELECTRONICS - INDUSTRIAL,2,2,0.3757375214175505,-0.046492337471739247,0.7979673803068402
+"EXPLORATORY — hypothesis generation only, not evidence",sector,ENERGY,6,4,0.5082911273457205,0.3764792069413135,0.6265294816330867
+"EXPLORATORY — hypothesis generation only, not evidence",sector,ENGINEERING,5,5,0.392796752776933,0.3016979087427479,0.4712918208928025
+"EXPLORATORY — hypothesis generation only, not evidence",sector,FERTILISERS,1,1,-0.07439620390018013,,
+"EXPLORATORY — hypothesis generation only, not evidence",sector,FINANCE,5,4,-0.29853919156560665,-1.16109371713657,0.28043775300471224
+"EXPLORATORY — hypothesis generation only, not evidence",sector,FINANCE - HOUSING,3,3,-0.007593786325118192,-0.08361354223786437,0.06842596958762799
+"EXPLORATORY — hypothesis generation only, not evidence",sector,FINANCIAL SERVICES,21,15,-0.2968772562975611,-0.47807623354209616,-0.11636030804901513
+"EXPLORATORY — hypothesis generation only, not evidence",sector,GAS,1,1,-0.491707726798827,,
+"EXPLORATORY — hypothesis generation only, not evidence",sector,GEMS JEWELLERY AND WATCHES,3,3,0.9022524840741745,0.8780183734594621,0.9264865946888868
+"EXPLORATORY — hypothesis generation only, not evidence",sector,HOTELS,1,1,-0.09138642992137068,,
+"EXPLORATORY — hypothesis generation only, not evidence",sector,INDUSTRIAL MANUFACTURING,1,1,0.9783079023188138,,
+"EXPLORATORY — hypothesis generation only, not evidence",sector,IT,4,4,0.608797721916311,0.435815261614774,0.7817801822178481
+"EXPLORATORY — hypothesis generation only, not evidence",sector,LEATHER AND LEATHER PRODUCTS,2,2,0.06961304380373469,0.04693273810838715,0.09229334949908223
+"EXPLORATORY — hypothesis generation only, not evidence",sector,METALS,13,11,0.08742898164851877,-0.2126599730871147,0.38692529929215763
+"EXPLORATORY — hypothesis generation only, not evidence",sector,MINING,4,4,0.39893534251478735,-0.1430115416164573,0.9852177773246951
+"EXPLORATORY — hypothesis generation only, not evidence",sector,OIL EXPLORATION/PRODUCTION,5,5,0.31958009861353,0.18739289386773111,0.45176730335932885
+"EXPLORATORY — hypothesis generation only, not evidence",sector,PHARMA,2,2,-0.5518033665500353,-2.0535782439058163,0.9499715108057457
+"EXPLORATORY — hypothesis generation only, not evidence",sector,PHARMACEUTICALS,9,9,0.5267826605033958,0.12808402082887704,0.8649151612347251
+"EXPLORATORY — hypothesis generation only, not evidence",sector,POWER,7,7,0.4254927353786271,0.11306662433571246,0.7382342622278605
+"EXPLORATORY — hypothesis generation only, not evidence",sector,REFINERIES,11,9,0.049367879869899885,-0.20092716123282633,0.40873529403354575
+"EXPLORATORY — hypothesis generation only, not evidence",sector,STEEL AND STEEL PRODUCTS,5,4,-0.24793882407915313,-0.5672054496253617,0.2521447092635818
+"EXPLORATORY — hypothesis generation only, not evidence",sector,TRAVEL AND TRANSPORT,3,3,0.5800232044185335,0.5585770295103482,0.6014693793267188
+"EXPLORATORY — hypothesis generation only, not evidence",size_tercile,low,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",size_tercile,middle,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",size_tercile,high,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",size_tercile,unknown,174,85,0.09253840487858937,-0.007659905556471202,0.18674450130985248
+"EXPLORATORY — hypothesis generation only, not evidence",volatility_tercile,low,46,37,-0.060644797020038825,-0.25938612773071545,0.1436246885948123
+"EXPLORATORY — hypothesis generation only, not evidence",volatility_tercile,middle,85,55,0.2144672250365606,0.09399861606769182,0.3307675703876312
+"EXPLORATORY — hypothesis generation only, not evidence",volatility_tercile,high,43,37,0.015386720550899681,-0.14524606320172775,0.17162010057820218
+"EXPLORATORY — hypothesis generation only, not evidence",volatility_tercile,unknown,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",liquidity_tercile,low,25,21,-0.030154082805023342,-0.38402963687861297,0.29040566945738416
+"EXPLORATORY — hypothesis generation only, not evidence",liquidity_tercile,middle,67,48,0.21923789477837796,0.05743135026912945,0.37003560612497693
+"EXPLORATORY — hypothesis generation only, not evidence",liquidity_tercile,high,82,54,0.026421897181083075,-0.09162777657542921,0.1390245583329671
+"EXPLORATORY — hypothesis generation only, not evidence",liquidity_tercile,unknown,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",gate,on,174,85,0.09253840487858937,-0.007659905556471202,0.18674450130985248
+"EXPLORATORY — hypothesis generation only, not evidence",gate,off,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",vix_bucket,<15,164,80,0.07158529819465125,-0.03241272906533787,0.17241515276466893
+"EXPLORATORY — hypothesis generation only, not evidence",vix_bucket,15–22,10,5,0.43616935449517474,0.1348625518332001,0.6719131673068132
+"EXPLORATORY — hypothesis generation only, not evidence",vix_bucket,>22,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",vix_bucket,unknown,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",breadth_bucket,<40%,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",breadth_bucket,40–60%,48,19,0.21137690822614472,0.0012764283535067085,0.4050748726600131
+"EXPLORATORY — hypothesis generation only, not evidence",breadth_bucket,>60%,126,66,0.0472665940795207,-0.06525862344076196,0.1489710592496063
+"EXPLORATORY — hypothesis generation only, not evidence",breadth_bucket,unknown,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",year,2017,174,85,0.09253840487858937,-0.007659905556471202,0.18674450130985248
+"EXPLORATORY — hypothesis generation only, not evidence",year,2018,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",year,2019,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",year,2020,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",signal_rank_quintile,Q1,32,27,-0.11343191311554013,-0.31811948641354787,0.10372646538897147
+"EXPLORATORY — hypothesis generation only, not evidence",signal_rank_quintile,Q2,37,32,-0.072869273258372,-0.24846591009410046,0.09626265726430075
+"EXPLORATORY — hypothesis generation only, not evidence",signal_rank_quintile,Q3,35,30,0.254437104356634,0.08437723641686469,0.42202591885053725
+"EXPLORATORY — hypothesis generation only, not evidence",signal_rank_quintile,Q4,34,28,0.007203513189523636,-0.17637378634373632,0.18283011338159463
+"EXPLORATORY — hypothesis generation only, not evidence",signal_rank_quintile,Q5,36,29,0.3688180188390447,0.17905072486493717,0.5581768432446996
+"EXPLORATORY — hypothesis generation only, not evidence",signal_rank_quintile,unknown,0,0,,,
+"EXPLORATORY — hypothesis generation only, not evidence",stop_distance_bucket,<5%,6,6,0.4495900172019569,0.003988692581161357,0.8898099263277301
+"EXPLORATORY — hypothesis generation only, not evidence",stop_distance_bucket,5–<7%,25,23,0.26945338109241257,-0.015008987744640673,0.5304704480659077
+"EXPLORATORY — hypothesis generation only, not evidence",stop_distance_bucket,≥7%,143,72,0.0466280267017657,-0.055579354618171053,0.1476490660326359
+"EXPLORATORY — hypothesis generation only, not evidence",stop_distance_bucket,unknown,0,0,,,

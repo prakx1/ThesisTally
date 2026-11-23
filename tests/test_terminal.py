@@ -150,3 +150,63 @@ def test_terminal_automatic_scan_waits_for_close_and_trading_calendar(tmp_path, 
     now = now.replace(day=21)
     data._automatic()
     assert len(scans) == 1
+
+
+def test_stage2_report_can_be_selected_alongside_legacy_backtests(tmp_path):
+    from thesistally.terminal import report_text
+
+    data = Dashboard(tmp_path)
+    folder = tmp_path / "backtests"
+    folder.mkdir()
+    report = {
+        "type": "stage2_baseline",
+        "start": "2014-01-01",
+        "end": "2026-11-20",
+        "rules": "Stage 2 · r2 and r1",
+        "terminal_summary": "Equal-risk trades by strategy",
+    }
+    (folder / "stage2.json").write_text(json.dumps(report))
+    (row,) = data.reports()
+    assert row["holdout"] == {}
+    assert row["rules"] == report["rules"]
+    assert report_text(data.report(row["id"])) == report["terminal_summary"]
+
+
+def test_reports_show_combined_stage3_study_with_machine_inputs_present(tmp_path):
+    from thesistally.terminal import report_text
+
+    data = Dashboard(tmp_path)
+    folder = tmp_path / "backtests"
+    folder.mkdir()
+    (folder / "dip.json").write_text(json.dumps({"variants": {}, "proof": {}}))
+    report = {
+        "type": "stage3_study",
+        "rules": "Stage 3",
+        "start": "2017-01-02",
+        "end": "2026-11-20",
+        "terminal_summary": "Steady momentum and Dip in steady risers",
+    }
+    (folder / "study.json").write_text(json.dumps(report))
+    (row,) = data.reports()
+    assert report_text(data.report(row["id"])) == report["terminal_summary"]
+
+
+def test_superseded_entry_study_keeps_archived_bytes_and_shows_status(tmp_path):
+    folder = tmp_path / "backtests"
+    folder.mkdir()
+    path = folder / "stage3-study.json"
+    raw = json.dumps(
+        {
+            "type": "stage3_study",
+            "rules": "Stage 3",
+            "start": "2017-01-02",
+            "end": "2026-11-20",
+            "terminal_summary": "Original measurements",
+        }
+    )
+    path.write_text(raw)
+    data = Dashboard(tmp_path)
+    (row,) = data.reports()
+    assert "Superseded" in row["rules"]
+    assert data.report(row["id"])["terminal_summary"].startswith("Superseded for decisions")
+    assert path.read_text() == raw

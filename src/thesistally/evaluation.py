@@ -13,24 +13,26 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from . import history, market
+from . import baseline_qualification, history, market
 from .exchange import read_context
 from .journal import STRATEGIES, UnpricedPosition, journal, metrics, process, run_report
-from .signals import load_session
+from .signals import load_session, rules
 
 
 def walk_windows(days, train_years, test_years, holdout_months):
-    if not days or min(train_years, test_years, holdout_months) <= 0:
+    if (
+        not days
+        or min(train_years, test_years) <= 0
+        or (holdout_months is not None and holdout_months <= 0)
+    ):
         raise market.MarketError("Window lengths and session coverage must be positive.")
-    holdout = (
-        pd.Timestamp(days[-1] + timedelta(days=1)) - pd.DateOffset(months=holdout_months)
-    ).date()
+    holdout = days[-1] + timedelta(days=1)
+    if holdout_months is not None:
+        holdout = (pd.Timestamp(holdout) - pd.DateOffset(months=holdout_months)).date()
     cursor = pd.Timestamp(days[0]) + pd.DateOffset(years=train_years)
     windows = []
     if (cursor + pd.DateOffset(years=test_years)).date() > holdout:
-        raise market.MarketError(
-            "Insufficient history for a full training window, test window and final holdout."
-        )
+        raise market.MarketError("Insufficient history for a full training and test window.")
     while cursor.date() < holdout:
         end = min(cursor + pd.DateOffset(years=test_years), pd.Timestamp(holdout))
         test = [d for d in days if cursor.date() <= d < end.date()]
@@ -43,7 +45,9 @@ def walk_windows(days, train_years, test_years, holdout_months):
         ]
         windows.append((f"walk-{len(windows) + 1}", test, [str(train[0]), str(train[-1])]))
         cursor = end
-    return windows + [("holdout", [d for d in days if d >= holdout], None)]
+    if holdout_months is not None:
+        windows.append(("holdout", [d for d in days if d >= holdout], None))
+    return windows
 
 
 def bootstrap(values, cfg):
@@ -75,7 +79,13 @@ def trade_stats(rows, cfg):
         average_days=avg("age"),
         mean_mae_r=avg("mae"),
         mean_mfe_r=avg("mfe"),
-        mean_r_ci=bootstrap([r["outcome_r"] for r in closed], cfg),
+        mean_r_ci=(
+            baseline_qualification.clustered_mean_ci(
+                [{"day": r["day"], "net_r": r["outcome_r"]} for r in closed], cfg
+            )
+            if cfg.get("bootstrap_unit") == "signal_session"
+            else bootstrap([r["outcome_r"] for r in closed], cfg)
+        ),
     )
     return out
 
@@ -236,7 +246,7 @@ def prepared_session(args):
     return regime, candidates, {s: f.tail(2).copy() for s, f in frames.items()}, keys
 
 
-def replay_window(db, root, days, books):
+def replay_window(db, root, days, books, *, unconstrained_runs=(), candidate_subset=None):
     from concurrent.futures import ProcessPoolExecutor
     from contextlib import nullcontext
 
@@ -263,11 +273,15 @@ def replay_window(db, root, days, books):
                 missing = [item for item in missing if item[0] not in gaps]
                 if not missing:
                     continue
-                following = {c["isin"]: c for key, _ in missing for c in open_calls(db, key, d)}
-                attach_following(root, d, books[0][1], following.values(), frames, keys)
+                following = (c for key, _ in missing for c in open_calls(db, key, d))
+                attach_following(root, d, books[0][1], following, frames, keys)
                 for key, config in missing:
                     try:
-                        process(db, key, d, regime, candidates, frames, config)
+                        options = {"unconstrained": True} if key in unconstrained_runs else {}
+                        selected = (
+                            candidate_subset(candidates, config) if candidate_subset else candidates
+                        )
+                        process(db, key, d, regime, selected, frames, config, **options)
                     except UnpricedPosition as exc:
                         gaps[key] = exc.detail
             if len(gaps) == len(books):
@@ -277,6 +291,15 @@ def replay_window(db, root, days, books):
 
 def evaluate(root, partitions, all_days, cfg, parameters, locked, tests_only=False):
     proof = provenance(root, all_days, cfg)
+    policy = None
+    stats_cfg = cfg["validation"]
+    if (
+        parameters.get("mode") == "walk_forward"
+        and cfg["config_hash"] == rules(revision="r2")["config_hash"]
+    ):
+        policy = baseline_qualification.validation_config()
+        proof["qualification_config_sha256"] = policy["sha256"]
+        stats_cfg = {**stats_cfg, **policy}
     identity = market.sha(
         json.dumps([proof, parameters, partitions], default=str, sort_keys=True).encode()
     )[:20]
@@ -291,6 +314,8 @@ def evaluate(root, partitions, all_days, cfg, parameters, locked, tests_only=Fal
         "parameters": parameters,
         "holdout_used": False,
     }
+    if policy:
+        report["qualification_config"] = policy
     pooled = {s: [] for s in STRATEGIES}
     variant = deepcopy(cfg)
     base_mode = cfg["filters"].get("earnings_blackout_mode", "calendar_days")
@@ -369,9 +394,9 @@ def evaluate(root, partitions, all_days, cfg, parameters, locked, tests_only=Fal
             alloc = [r for r in rows if r["allocation"] == "portfolio"]
             affected = {a["call_id"] for a in stats["corporate_actions"]}
             stats["corporate_action_sensitivity"] = {
-                "closed_book_including_actions": trade_stats(alloc, cfg["validation"]),
+                "closed_book_including_actions": trade_stats(alloc, stats_cfg),
                 "closed_book_excluding_affected_calls": trade_stats(
-                    [r for r in alloc if r["id"] not in affected], cfg["validation"]
+                    [r for r in alloc if r["id"] not in affected], stats_cfg
                 ),
                 "portfolio_calls_affected": sum(r["id"] in affected for r in alloc),
                 "zero_fraction_cash_delta_inr": round(
@@ -385,15 +410,13 @@ def evaluate(root, partitions, all_days, cfg, parameters, locked, tests_only=Fal
                 "method": "Same realized fills and sizing; excludes affected calls or sets their fractional proceeds to zero.",
             }
             cutoff = (
-                str(executed[-cfg["exits"]["max_days"] - 1])
-                if len(executed) > cfg["exits"]["max_days"]
-                else ""
+                baseline_qualification.maturity_cutoff(executed, cfg["exits"]["max_days"]) or ""
             )
             regimes = [
                 json.loads(r[0])["enabled"]
                 for r in db.execute("SELECT regime FROM scans WHERE run=?", (run,))
             ]
-            weak = 1 - sum(regimes) / len(regimes)
+            weak = 1 - sum(regimes) / len(regimes) if regimes else None
             stats.update(
                 period=name,
                 start=str(days[0]),
@@ -407,7 +430,7 @@ def evaluate(root, partitions, all_days, cfg, parameters, locked, tests_only=Fal
                 subset = (
                     alloc if book == "portfolio" else [r for r in alloc if r["strategy"] == book]
                 )
-                result = trade_stats(subset, cfg["validation"])
+                result = trade_stats(subset, stats_cfg)
                 marks = db.execute(
                     "SELECT * FROM account_marks WHERE run=? AND book=? ORDER BY day", (run, book)
                 ).fetchall()
@@ -417,9 +440,9 @@ def evaluate(root, partitions, all_days, cfg, parameters, locked, tests_only=Fal
                 else:
                     stats["by_strategy"][book] = result
                     mature = [r for r in subset if r["status"] == "closed" and r["day"] <= cutoff]
-                    stats["mature_by_strategy"][book] = trade_stats(mature, cfg["validation"])
+                    stats["mature_by_strategy"][book] = trade_stats(mature, stats_cfg)
                     if name != "holdout":
-                        pooled[book].append((mature if stats["complete"] else [], weak))
+                        pooled[book].append((mature, weak))
             stats["splits"] = {}
             for label, fn in (
                 ("regime", lambda r: "pass" if json.loads(r["regime"])["enabled"] else "fail"),
@@ -434,10 +457,50 @@ def evaluate(root, partitions, all_days, cfg, parameters, locked, tests_only=Fal
                 stats["splits"][label] = {}
                 for (value, book), group in groups.items():
                     stats["splits"][label].setdefault(value, {})[book] = trade_stats(
-                        group, cfg["validation"]
+                        group, stats_cfg
                     )
             report["folds"].append(stats)
-        report["qualification"] = {s: criteria(v, cfg["validation"]) for s, v in pooled.items()}
+        tests = [f for f in report["folds"] if f["period"] != "holdout"]
+        if policy:
+            completed = {f["period"]: f["complete"] for f in tests}
+            gates = {}
+            for strategy, groups in pooled.items():
+                measurements = [
+                    {
+                        "day": r["day"],
+                        "net_r": r["outcome_r"],
+                        "net_inr": r["net"],
+                        "status": r["status"],
+                        "mature": True,
+                        "window": f["period"],
+                    }
+                    for f, (mature, _) in zip(tests, groups, strict=True)
+                    for r in mature
+                ]
+                gate = baseline_qualification.qualification(measurements, completed, policy)
+                counted = set(gate["counted_windows"])
+                gate["aggregate"] = trade_stats(
+                    [
+                        r
+                        for f, (mature, _) in zip(tests, groups, strict=True)
+                        if f["period"] in counted
+                        for r in mature
+                    ],
+                    stats_cfg,
+                )
+                gates[strategy] = gate
+            report["qualification"] = gates
+        else:
+            report["qualification"] = {
+                s: criteria(
+                    [
+                        (g if f["complete"] else [], weak or 0.0)
+                        for f, (g, weak) in zip(tests, groups, strict=True)
+                    ],
+                    cfg["validation"],
+                )
+                for s, groups in pooled.items()
+            }
         incomplete = [f["period"] for f in report["folds"] if not f["complete"]]
         report["coverage_status"] = "incomplete" if incomplete else "complete"
         for gate in report["qualification"].values():

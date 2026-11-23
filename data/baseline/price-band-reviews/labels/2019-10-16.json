@@ -1,0 +1,20 @@
+{
+  "day": "2019-10-16",
+  "labels": {
+    "EDELWEISS": {
+      "isin": "INE532F01054",
+      "percent": 10,
+      "published": "2019-10-15",
+      "sources": [
+        {
+          "effective": "2019-10-16",
+          "last_modified": "Tue, 15 Oct 2019 12:35:04 GMT",
+          "published": "2019-10-15",
+          "sha256": "777eddc5e3387b376f457c0e0d645a4309654fda903807af87b471afb15673f2",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_16102019.csv"
+        }
+      ]
+    }
+  },
+  "prior": "2019-10-15"
+}

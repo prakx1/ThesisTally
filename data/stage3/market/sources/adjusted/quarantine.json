@@ -1,0 +1,2031 @@
+[
+  {
+    "day": "2013-08-22",
+    "isin": "INDIA VIX",
+    "reason": "benchmark_close_only",
+    "symbol": "INDIA VIX"
+  },
+  {
+    "day": "2021-02-12",
+    "isin": "INDIA VIX",
+    "reason": "benchmark_close_only",
+    "symbol": "INDIA VIX"
+  },
+  {
+    "day": "2021-03-30",
+    "isin": "INDIA VIX",
+    "reason": "benchmark_close_only",
+    "symbol": "INDIA VIX"
+  },
+  {
+    "day": "2013-02-15",
+    "isin": "INE774D01016",
+    "reason": "unresolved_action",
+    "subject": "Face Value Split Rs 10 To Rs 2",
+    "symbol": "M&MFIN"
+  },
+  {
+    "day": "2013-07-30",
+    "isin": "INE021A01018",
+    "reason": "unresolved_action",
+    "subject": "Face Value Split Rs 10 To Re 1",
+    "symbol": "ASIANPAINT"
+  },
+  {
+    "day": "2014-03-03",
+    "isin": "INE256A01028",
+    "reason": "unresolved_action",
+    "subject": "Bonus Preference Shares 21:1",
+    "symbol": "ZEEL"
+  },
+  {
+    "day": "2014-11-20",
+    "isin": "INE062A01012",
+    "reason": "unresolved_action",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMPT28035.pdf",
+    "subject": "Face Value Split From Rs 10 To Rs 1",
+    "symbol": "SBIN"
+  },
+  {
+    "day": "2015-03-20",
+    "isin": "INE733E01010",
+    "reason": "unresolved_action",
+    "subject": "Scheme Of Arrangement - Bonus Debentures 1:1",
+    "symbol": "NTPC"
+  },
+  {
+    "day": "2015-10-01",
+    "isin": "INE043D01016",
+    "reason": "unresolved_action",
+    "subject": " Demerger",
+    "symbol": "IDFC"
+  },
+  {
+    "day": "2018-10-25",
+    "isin": "INE008I01026",
+    "reason": "unresolved_action",
+    "subject": " Scheme Of Demerger",
+    "symbol": "COX&KINGS"
+  },
+  {
+    "day": "2018-11-28",
+    "isin": "INE034A01011",
+    "reason": "unresolved_action",
+    "subject": " Demerger",
+    "symbol": "ARVIND"
+  },
+  {
+    "day": "2019-07-03",
+    "isin": "INE769A01020",
+    "reason": "unresolved_action",
+    "subject": " Scheme Of Demerger",
+    "symbol": "AARTIIND"
+  },
+  {
+    "day": "2019-08-06",
+    "isin": "INE538A01037",
+    "reason": "unresolved_action",
+    "subject": " Demerger",
+    "symbol": "GFLLIMITED"
+  },
+  {
+    "day": "2019-08-22",
+    "isin": "INE216A01030",
+    "reason": "unresolved_action",
+    "subject": " Scheme Of Arangement- Bonus - 1 Debenture For 1 Equity Share Held",
+    "symbol": "BRITANNIA"
+  },
+  {
+    "day": "2019-09-17",
+    "isin": "INE151A01013",
+    "reason": "unresolved_action",
+    "subject": " Demerger",
+    "symbol": "TATACOMM"
+  },
+  {
+    "day": "2019-12-20",
+    "isin": "INE117A01022",
+    "reason": "unresolved_action",
+    "subject": " Demerger",
+    "symbol": "ABB"
+  },
+  {
+    "day": "2020-03-04",
+    "isin": "INE092A01019",
+    "reason": "unresolved_action",
+    "subject": " Demerger",
+    "symbol": "TATACHEM"
+  },
+  {
+    "day": "2021-03-26",
+    "isin": "INE538A01037",
+    "reason": "unresolved_action",
+    "subject": " Demerger",
+    "symbol": "GFLLIMITED"
+  },
+  {
+    "day": "2021-05-25",
+    "isin": "INE216A01030",
+    "reason": "unresolved_action",
+    "subject": " Scheme Of Arangement- Bonus - 1 Debenture For 1 Equity Share Held",
+    "symbol": "BRITANNIA"
+  },
+  {
+    "day": "2022-08-30",
+    "isin": "INE140A01024",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "PEL"
+  },
+  {
+    "day": "2022-09-08",
+    "isin": "INE258A01016",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "BEML"
+  },
+  {
+    "day": "2022-10-19",
+    "isin": "INE769A01020",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "AARTIIND"
+  },
+  {
+    "day": "2022-10-27",
+    "isin": "INE584A01023",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "NMDC"
+  },
+  {
+    "day": "2023-06-02",
+    "isin": "INE532F01054",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "EDELWEISS"
+  },
+  {
+    "day": "2023-06-15",
+    "isin": "INE051B01021",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "VAKRANGEE"
+  },
+  {
+    "day": "2023-07-20",
+    "isin": "INE002A01018",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "RELIANCE"
+  },
+  {
+    "day": "2024-06-13",
+    "isin": "INE058A01010",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "SANOFI"
+  },
+  {
+    "day": "2024-07-11",
+    "isin": "INE301A01014",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "RAYMOND"
+  },
+  {
+    "day": "2024-12-06",
+    "isin": "INE939A01011",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "STAR"
+  },
+  {
+    "day": "2025-01-06",
+    "isin": "INE154A01025",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "ITC"
+  },
+  {
+    "day": "2025-04-07",
+    "isin": "INE003A01024",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "SIEMENS"
+  },
+  {
+    "day": "2025-04-15",
+    "isin": "INE615P01015",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "QUESS"
+  },
+  {
+    "day": "2025-04-24",
+    "isin": "INE089C01029",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "STLTECH"
+  },
+  {
+    "day": "2025-05-14",
+    "isin": "INE301A01014",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "RAYMOND"
+  },
+  {
+    "day": "2025-05-22",
+    "isin": "INE647O01011",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "ABFRL"
+  },
+  {
+    "day": "2025-08-25",
+    "isin": "INE494B01023",
+    "reason": "unresolved_action",
+    "subject": "Scheme Of Arrangement - Bonus Ncrps 4:1",
+    "symbol": "TVSMOTOR"
+  },
+  {
+    "day": "2025-12-05",
+    "isin": "INE030A01027",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "HINDUNILVR"
+  },
+  {
+    "day": "2026-04-30",
+    "isin": "INE205A01025",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "VEDL"
+  },
+  {
+    "day": "2026-07-02",
+    "isin": "INE844O01030",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "GUJENERGY"
+  },
+  {
+    "close": 1832.95,
+    "day": "2012-11-12",
+    "isin": "INE854D01016",
+    "prior_close": 1360.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "MCDOWELL-N"
+  },
+  {
+    "close": 74.45,
+    "day": "2013-01-24",
+    "isin": "INE191I01012",
+    "prior_close": 96.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "HDIL"
+  },
+  {
+    "close": 16.0,
+    "day": "2013-02-28",
+    "isin": "INE040H01021",
+    "prior_close": 24.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SUZLON"
+  },
+  {
+    "close": 19.65,
+    "day": "2013-03-04",
+    "isin": "INE848E01016",
+    "prior_close": 25.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "NHPC"
+  },
+  {
+    "close": 55.75,
+    "day": "2013-03-28",
+    "isin": "INE701B01021",
+    "prior_close": 44.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PUNJLLOYD"
+  },
+  {
+    "close": 2296.65,
+    "day": "2013-04-12",
+    "isin": "INE009A01021",
+    "prior_close": 2916.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "INFY"
+  },
+  {
+    "close": 659.4,
+    "day": "2013-05-17",
+    "isin": "INE117A01022",
+    "prior_close": 545.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ABB"
+  },
+  {
+    "close": 31.65,
+    "day": "2013-05-31",
+    "isin": "INE808B01016",
+    "prior_close": 50.8,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "OPTOCIRCUI"
+  },
+  {
+    "close": 21.7,
+    "day": "2013-06-10",
+    "isin": "INE808B01016",
+    "prior_close": 28.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "OPTOCIRCUI"
+  },
+  {
+    "close": 68.55,
+    "day": "2013-06-13",
+    "isin": "INE438A01022",
+    "prior_close": 91.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "APOLLOTYRE"
+  },
+  {
+    "close": 30.65,
+    "day": "2013-07-15",
+    "isin": "INE808B01016",
+    "prior_close": 22.8,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "OPTOCIRCUI"
+  },
+  {
+    "close": 191.65,
+    "day": "2013-08-01",
+    "isin": "INE111B01023",
+    "prior_close": 539.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "FINANTECH"
+  },
+  {
+    "close": 54.35,
+    "day": "2013-08-01",
+    "isin": "INE821I01014",
+    "prior_close": 72.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IRB"
+  },
+  {
+    "close": 147.5,
+    "day": "2013-08-02",
+    "isin": "INE111B01023",
+    "prior_close": 191.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "FINANTECH"
+  },
+  {
+    "close": 198.1,
+    "day": "2013-08-05",
+    "isin": "INE111B01023",
+    "prior_close": 147.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "FINANTECH"
+  },
+  {
+    "close": 22.95,
+    "day": "2013-08-07",
+    "isin": "INE808B01016",
+    "prior_close": 18.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "OPTOCIRCUI"
+  },
+  {
+    "close": 359.2,
+    "day": "2013-08-08",
+    "isin": "INE015A01028",
+    "prior_close": 281.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RANBAXY"
+  },
+  {
+    "close": 287.5,
+    "day": "2013-09-05",
+    "isin": "INE528G01019",
+    "prior_close": 236.05,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 184.1,
+    "day": "2013-09-11",
+    "isin": "INE111B01023",
+    "prior_close": 145.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "FINANTECH"
+  },
+  {
+    "close": 318.5,
+    "day": "2013-09-16",
+    "isin": "INE015A01028",
+    "prior_close": 457.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RANBAXY"
+  },
+  {
+    "close": 386.7,
+    "day": "2013-09-19",
+    "isin": "INE528G01019",
+    "prior_close": 315.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 209.9,
+    "day": "2013-10-31",
+    "isin": "INE084A01016",
+    "prior_close": 172.8,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BANKINDIA"
+  },
+  {
+    "close": 1283.3,
+    "day": "2013-12-05",
+    "isin": "INE182A01018",
+    "prior_close": 1711.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PFIZER"
+  },
+  {
+    "close": 373.75,
+    "day": "2013-12-19",
+    "isin": "INE939A01011",
+    "prior_close": 882.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "STAR"
+  },
+  {
+    "close": 469.85,
+    "day": "2014-04-10",
+    "isin": "INE423A01024",
+    "prior_close": 382.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 276.6,
+    "day": "2014-04-28",
+    "isin": "INE628A01036",
+    "prior_close": 230.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "UPL"
+  },
+  {
+    "close": 23.65,
+    "day": "2014-05-19",
+    "isin": "INE351F01018",
+    "prior_close": 18.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JPPOWER"
+  },
+  {
+    "close": 104.95,
+    "day": "2014-10-14",
+    "isin": "INE271C01023",
+    "prior_close": 146.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DLF"
+  },
+  {
+    "close": 195.35,
+    "day": "2015-02-19",
+    "isin": "INE749A01030",
+    "prior_close": 155.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JINDALSTEL"
+  },
+  {
+    "close": 128.9,
+    "day": "2015-04-06",
+    "isin": "INE191I01012",
+    "prior_close": 103.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "HDIL"
+  },
+  {
+    "close": 109.75,
+    "day": "2015-06-03",
+    "isin": "INE423A01024",
+    "prior_close": 637.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 13.05,
+    "day": "2015-06-03",
+    "isin": "INE455F01025",
+    "prior_close": 16.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JPASSOCIAT"
+  },
+  {
+    "close": 8.65,
+    "day": "2015-06-03",
+    "isin": "INE694A01020",
+    "prior_close": 13.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "UNITECH"
+  },
+  {
+    "close": 278.65,
+    "day": "2015-06-08",
+    "isin": "INE424H01027",
+    "prior_close": 356.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SUNTV"
+  },
+  {
+    "close": 54.65,
+    "day": "2015-06-22",
+    "isin": "INE069I01010",
+    "prior_close": 42.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IBREALEST"
+  },
+  {
+    "close": 89.15,
+    "day": "2015-08-19",
+    "isin": "INE130C01021",
+    "prior_close": 128.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "AMTEKAUTO"
+  },
+  {
+    "close": 63.55,
+    "day": "2015-08-20",
+    "isin": "INE130C01021",
+    "prior_close": 89.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "AMTEKAUTO"
+  },
+  {
+    "close": 48.0,
+    "day": "2015-08-24",
+    "isin": "INE130C01021",
+    "prior_close": 64.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "AMTEKAUTO"
+  },
+  {
+    "close": 1301.55,
+    "day": "2015-08-24",
+    "isin": "INE049B01025",
+    "prior_close": 1656.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "WOCKPHARMA"
+  },
+  {
+    "close": 31.5,
+    "day": "2015-09-03",
+    "isin": "INE130C01021",
+    "prior_close": 48.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "AMTEKAUTO"
+  },
+  {
+    "close": 46.95,
+    "day": "2015-09-11",
+    "isin": "INE130C01021",
+    "prior_close": 30.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "AMTEKAUTO"
+  },
+  {
+    "close": 425.65,
+    "day": "2015-10-06",
+    "isin": "INE010B01019",
+    "prior_close": 2081.2,
+    "reason": "unresolved_action",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMPT30840.pdf",
+    "subject": "Face Value Split From Rs 5 To Rs 1",
+    "symbol": "CADILAHC"
+  },
+  {
+    "close": 882.15,
+    "day": "2016-01-20",
+    "isin": "INE069A01017",
+    "prior_close": 2065.55,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ABIRLANUVO"
+  },
+  {
+    "close": 348.6,
+    "day": "2016-01-27",
+    "isin": "INE180A01020",
+    "prior_close": 471.6,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "MAX"
+  },
+  {
+    "close": 130.9,
+    "day": "2016-02-03",
+    "isin": "INE067A01029",
+    "prior_close": 167.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "CROMPGREAV"
+  },
+  {
+    "close": 139.35,
+    "day": "2016-02-15",
+    "isin": "INE028A01039",
+    "prior_close": 113.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BANKBARODA"
+  },
+  {
+    "close": 44.0,
+    "day": "2016-03-15",
+    "isin": "INE067A01029",
+    "prior_close": 155.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "CROMPGREAV"
+  },
+  {
+    "close": 97.65,
+    "day": "2016-03-21",
+    "isin": "INE192B01023",
+    "prior_close": 939.7,
+    "reason": "unresolved_action",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMPT31999.pdf",
+    "subject": "Face Value Split From Rs 10 To Rs 1",
+    "symbol": "WELSPUNIND"
+  },
+  {
+    "close": 11.6,
+    "day": "2016-07-05",
+    "isin": "INE455F01025",
+    "prior_close": 9.1,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JPASSOCIAT"
+  },
+  {
+    "close": 649.55,
+    "day": "2016-07-13",
+    "isin": "INE343H01011",
+    "prior_close": 3245.8,
+    "reason": "unresolved_action",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMPT32784.pdf",
+    "subject": "Face Value Split From Rs 10 To Rs 2",
+    "symbol": "SOLARINDS"
+  },
+  {
+    "close": 90.9,
+    "day": "2016-11-17",
+    "isin": "INE036D01010",
+    "prior_close": 455.15,
+    "reason": "unresolved_action",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMPT33588.pdf",
+    "subject": "Face Value Split From Rs 10 To Rs 2",
+    "symbol": "KARURVYSYA"
+  },
+  {
+    "close": 861.5,
+    "day": "2016-12-23",
+    "isin": "INE361B01024",
+    "prior_close": 1108.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DIVISLAB"
+  },
+  {
+    "close": 163.05,
+    "day": "2017-01-04",
+    "isin": "INE019A01020",
+    "prior_close": 1644.55,
+    "reason": "unresolved_action",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMPT33870.pdf",
+    "subject": "Face Value Split From Rs 10 To Rs 1",
+    "symbol": "JSWSTEEL"
+  },
+  {
+    "close": 97.7,
+    "day": "2017-01-30",
+    "isin": "INE669E01016",
+    "prior_close": 78.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 683.35,
+    "day": "2017-02-03",
+    "isin": "INE424H01027",
+    "prior_close": 551.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SUNTV"
+  },
+  {
+    "close": 148.2,
+    "day": "2017-04-17",
+    "isin": "INE069I01010",
+    "prior_close": 105.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IBREALEST"
+  },
+  {
+    "close": 118.55,
+    "day": "2017-04-26",
+    "isin": "INE423A01024",
+    "prior_close": 149.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 11.5,
+    "day": "2017-05-25",
+    "isin": "INE455F01025",
+    "prior_close": 9.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JPASSOCIAT"
+  },
+  {
+    "close": 25.85,
+    "day": "2017-05-25",
+    "isin": "INE429C01035",
+    "prior_close": 104.1,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SINTEX"
+  },
+  {
+    "close": 20.5,
+    "day": "2017-05-29",
+    "isin": "INE330H01018",
+    "prior_close": 25.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RCOM"
+  },
+  {
+    "close": 84.15,
+    "day": "2017-10-25",
+    "isin": "INE428A01015",
+    "prior_close": 68.6,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ALBK"
+  },
+  {
+    "close": 188.15,
+    "day": "2017-10-25",
+    "isin": "INE028A01039",
+    "prior_close": 143.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BANKBARODA"
+  },
+  {
+    "close": 188.5,
+    "day": "2017-10-25",
+    "isin": "INE084A01016",
+    "prior_close": 140.55,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BANKINDIA"
+  },
+  {
+    "close": 439.9,
+    "day": "2017-10-25",
+    "isin": "INE476A01014",
+    "prior_close": 317.1,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "CANBK"
+  },
+  {
+    "close": 327.2,
+    "day": "2017-10-25",
+    "isin": "INE562A01011",
+    "prior_close": 270.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "INDIANB"
+  },
+  {
+    "close": 151.2,
+    "day": "2017-10-25",
+    "isin": "INE141A01014",
+    "prior_close": 119.1,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ORIENTBANK"
+  },
+  {
+    "close": 202.05,
+    "day": "2017-10-25",
+    "isin": "INE160A01022",
+    "prior_close": 138.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PNB"
+  },
+  {
+    "close": 324.9,
+    "day": "2017-10-25",
+    "isin": "INE062A01020",
+    "prior_close": 254.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SBIN"
+  },
+  {
+    "close": 176.3,
+    "day": "2017-10-25",
+    "isin": "INE692A01016",
+    "prior_close": 131.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "UNIONBANK"
+  },
+  {
+    "close": 17.3,
+    "day": "2017-12-20",
+    "isin": "INE330H01018",
+    "prior_close": 12.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RCOM"
+  },
+  {
+    "close": 28.75,
+    "day": "2017-12-21",
+    "isin": "INE039A01010",
+    "prior_close": 23.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IFCI"
+  },
+  {
+    "close": 21.5,
+    "day": "2017-12-26",
+    "isin": "INE330H01018",
+    "prior_close": 16.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RCOM"
+  },
+  {
+    "close": 28.7,
+    "day": "2017-12-27",
+    "isin": "INE330H01018",
+    "prior_close": 21.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RCOM"
+  },
+  {
+    "close": 65.25,
+    "day": "2018-01-01",
+    "isin": "INE542F01012",
+    "prior_close": 49.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RNAVAL"
+  },
+  {
+    "close": 60.65,
+    "day": "2018-01-01",
+    "isin": "INE614G01033",
+    "prior_close": 50.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RPOWER"
+  },
+  {
+    "close": 364.25,
+    "day": "2018-02-02",
+    "isin": "INE785M01013",
+    "prior_close": 484.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PCJEWELLER"
+  },
+  {
+    "close": 177.8,
+    "day": "2018-04-27",
+    "isin": "INE785M01013",
+    "prior_close": 236.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PCJEWELLER"
+  },
+  {
+    "close": 110.65,
+    "day": "2018-05-02",
+    "isin": "INE785M01013",
+    "prior_close": 144.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PCJEWELLER"
+  },
+  {
+    "close": 174.65,
+    "day": "2018-05-04",
+    "isin": "INE785M01013",
+    "prior_close": 121.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PCJEWELLER"
+  },
+  {
+    "close": 240.25,
+    "day": "2018-05-07",
+    "isin": "INE785M01013",
+    "prior_close": 174.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PCJEWELLER"
+  },
+  {
+    "close": 16.4,
+    "day": "2018-05-17",
+    "isin": "INE330H01018",
+    "prior_close": 10.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RCOM"
+  },
+  {
+    "close": 16.95,
+    "day": "2018-05-17",
+    "isin": "INE542F01012",
+    "prior_close": 12.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RNAVAL"
+  },
+  {
+    "close": 387.05,
+    "day": "2018-05-18",
+    "isin": "INE939A01011",
+    "prior_close": 503.05,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "STAR"
+  },
+  {
+    "close": 677.25,
+    "day": "2018-06-15",
+    "isin": "INE854D01016",
+    "prior_close": 3455.3,
+    "reason": "unresolved_action",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMPT37985.pdf",
+    "subject": "Face Value Split From Rs 10 To Rs 2",
+    "symbol": "MCDOWELL-N"
+  },
+  {
+    "close": 89.2,
+    "day": "2018-07-16",
+    "isin": "INE785M01013",
+    "prior_close": 119.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PCJEWELLER"
+  },
+  {
+    "close": 163.7,
+    "day": "2018-09-06",
+    "isin": "INE423A01024",
+    "prior_close": 210.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 350.55,
+    "day": "2018-09-21",
+    "isin": "INE202B01012",
+    "prior_close": 610.55,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DHFL"
+  },
+  {
+    "close": 226.5,
+    "day": "2018-09-21",
+    "isin": "INE528G01027",
+    "prior_close": 319.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 299.45,
+    "day": "2018-09-25",
+    "isin": "INE202B01012",
+    "prior_close": 393.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DHFL"
+  },
+  {
+    "close": 165.1,
+    "day": "2018-10-05",
+    "isin": "INE094A01015",
+    "prior_close": 217.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "HINDPETRO"
+  },
+  {
+    "close": 30.0,
+    "day": "2018-10-10",
+    "isin": "INE814H01011",
+    "prior_close": 23.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIPOWER"
+  },
+  {
+    "close": 88.2,
+    "day": "2018-11-02",
+    "isin": "INE785M01013",
+    "prior_close": 69.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "PCJEWELLER"
+  },
+  {
+    "close": 320.9,
+    "day": "2018-11-15",
+    "isin": "INE802G01018",
+    "prior_close": 257.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JETAIRWAYS"
+  },
+  {
+    "close": 143.3,
+    "day": "2019-01-15",
+    "isin": "INE844O01022",
+    "prior_close": 669.25,
+    "reason": "unresolved_action",
+    "source": "https://nsearchives.nseindia.com/content/circulars/CMPT39827.pdf",
+    "subject": "Face Value Split From Rs 10 To Rs 2",
+    "symbol": "GUJGASLTD"
+  },
+  {
+    "close": 128.95,
+    "day": "2019-01-24",
+    "isin": "INE836A01035",
+    "prior_close": 216.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "KPIT"
+  },
+  {
+    "close": 22.4,
+    "day": "2019-01-25",
+    "isin": "INE836F01026",
+    "prior_close": 33.55,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DISHTV"
+  },
+  {
+    "close": 318.4,
+    "day": "2019-01-25",
+    "isin": "INE256A01028",
+    "prior_close": 433.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ZEEL"
+  },
+  {
+    "close": 7.55,
+    "day": "2019-02-04",
+    "isin": "INE330H01018",
+    "prior_close": 11.6,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RCOM"
+  },
+  {
+    "close": 17.2,
+    "day": "2019-02-04",
+    "isin": "INE614G01033",
+    "prior_close": 26.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RPOWER"
+  },
+  {
+    "close": 5.55,
+    "day": "2019-02-05",
+    "isin": "INE330H01018",
+    "prior_close": 7.55,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RCOM"
+  },
+  {
+    "close": 12.0,
+    "day": "2019-02-05",
+    "isin": "INE614G01033",
+    "prior_close": 17.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RPOWER"
+  },
+  {
+    "close": 3.6,
+    "day": "2019-02-05",
+    "isin": "INE040H01021",
+    "prior_close": 4.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SUZLON"
+  },
+  {
+    "close": 154.3,
+    "day": "2019-02-06",
+    "isin": "INE036A01016",
+    "prior_close": 227.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RELINFRA"
+  },
+  {
+    "close": 110.65,
+    "day": "2019-02-07",
+    "isin": "INE036A01016",
+    "prior_close": 154.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RELINFRA"
+  },
+  {
+    "close": 10.0,
+    "day": "2019-02-07",
+    "isin": "INE614G01033",
+    "prior_close": 12.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RPOWER"
+  },
+  {
+    "close": 23.65,
+    "day": "2019-02-13",
+    "isin": "INE067A01029",
+    "prior_close": 33.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "CGPOWER"
+  },
+  {
+    "close": 28.85,
+    "day": "2019-02-14",
+    "isin": "INE067A01029",
+    "prior_close": 23.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "CGPOWER"
+  },
+  {
+    "close": 221.25,
+    "day": "2019-02-14",
+    "isin": "INE528G01027",
+    "prior_close": 169.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 4.45,
+    "day": "2019-02-21",
+    "isin": "INE040H01021",
+    "prior_close": 3.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SUZLON"
+  },
+  {
+    "close": 5.75,
+    "day": "2019-02-22",
+    "isin": "INE040H01021",
+    "prior_close": 4.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SUZLON"
+  },
+  {
+    "close": 431.65,
+    "day": "2019-03-05",
+    "isin": "INE612J01015",
+    "prior_close": 355.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "REPCOHOME"
+  },
+  {
+    "close": 7.45,
+    "day": "2019-03-05",
+    "isin": "INE040H01021",
+    "prior_close": 5.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SUZLON"
+  },
+  {
+    "close": 164.85,
+    "day": "2019-04-18",
+    "isin": "INE802G01018",
+    "prior_close": 240.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JETAIRWAYS"
+  },
+  {
+    "close": 168.0,
+    "day": "2019-04-30",
+    "isin": "INE528G01027",
+    "prior_close": 237.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 6.45,
+    "day": "2019-05-03",
+    "isin": "INE614G01033",
+    "prior_close": 5.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RPOWER"
+  },
+  {
+    "close": 151.95,
+    "day": "2019-05-20",
+    "isin": "INE423A01024",
+    "prior_close": 119.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 40.5,
+    "day": "2019-06-18",
+    "isin": "INE802G01018",
+    "prior_close": 68.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JETAIRWAYS"
+  },
+  {
+    "close": 27.4,
+    "day": "2019-06-18",
+    "isin": "INE175A01038",
+    "prior_close": 34.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JISLJALEQS"
+  },
+  {
+    "close": 19.7,
+    "day": "2019-06-19",
+    "isin": "INE175A01038",
+    "prior_close": 27.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JISLJALEQS"
+  },
+  {
+    "close": 62.85,
+    "day": "2019-06-20",
+    "isin": "INE802G01018",
+    "prior_close": 33.1,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JETAIRWAYS"
+  },
+  {
+    "close": 23.95,
+    "day": "2019-06-20",
+    "isin": "INE175A01038",
+    "prior_close": 19.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JISLJALEQS"
+  },
+  {
+    "close": 69.15,
+    "day": "2019-06-20",
+    "isin": "INE013A01015",
+    "prior_close": 54.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RELCAPITAL"
+  },
+  {
+    "close": 57.55,
+    "day": "2019-06-20",
+    "isin": "INE036A01016",
+    "prior_close": 42.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RELINFRA"
+  },
+  {
+    "close": 5.25,
+    "day": "2019-06-20",
+    "isin": "INE614G01033",
+    "prior_close": 4.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RPOWER"
+  },
+  {
+    "close": 4.1,
+    "day": "2019-06-20",
+    "isin": "INE040H01021",
+    "prior_close": 3.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SUZLON"
+  },
+  {
+    "close": 48.5,
+    "day": "2019-07-15",
+    "isin": "INE202B01012",
+    "prior_close": 68.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DHFL"
+  },
+  {
+    "close": 6.75,
+    "day": "2019-07-29",
+    "isin": "INE669E01016",
+    "prior_close": 9.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 55.35,
+    "day": "2019-08-06",
+    "isin": "INE202B01012",
+    "prior_close": 41.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DHFL"
+  },
+  {
+    "close": 255.9,
+    "day": "2019-09-30",
+    "isin": "INE148I01020",
+    "prior_close": 390.1,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IBULHSGFIN"
+  },
+  {
+    "close": 32.0,
+    "day": "2019-10-01",
+    "isin": "INE528G01027",
+    "prior_close": 41.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 42.5,
+    "day": "2019-10-03",
+    "isin": "INE528G01027",
+    "prior_close": 32.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 393.85,
+    "day": "2019-10-11",
+    "isin": "INE055A01016",
+    "prior_close": 882.2,
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "CENTURYTEX"
+  },
+  {
+    "close": 54.35,
+    "day": "2019-10-18",
+    "isin": "INE257A01026",
+    "prior_close": 44.6,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BHEL"
+  },
+  {
+    "close": 4.35,
+    "day": "2019-10-24",
+    "isin": "INE669E01016",
+    "prior_close": 5.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 70.4,
+    "day": "2019-10-31",
+    "isin": "INE528G01027",
+    "prior_close": 56.8,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 16.2,
+    "day": "2019-11-01",
+    "isin": "INE836F01026",
+    "prior_close": 12.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DISHTV"
+  },
+  {
+    "close": 2.95,
+    "day": "2019-11-14",
+    "isin": "INE669E01016",
+    "prior_close": 3.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 3.65,
+    "day": "2019-11-15",
+    "isin": "INE669E01016",
+    "prior_close": 2.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 365.55,
+    "day": "2019-11-18",
+    "isin": "INE935A01035",
+    "prior_close": 301.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "GLENMARK"
+  },
+  {
+    "close": 4.45,
+    "day": "2019-11-18",
+    "isin": "INE669E01016",
+    "prior_close": 3.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 6.05,
+    "day": "2019-11-19",
+    "isin": "INE669E01016",
+    "prior_close": 4.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 334.75,
+    "day": "2019-11-28",
+    "isin": "INE148I01020",
+    "prior_close": 268.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IBULHSGFIN"
+  },
+  {
+    "close": 4.5,
+    "day": "2020-01-17",
+    "isin": "INE669E01016",
+    "prior_close": 6.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 5.95,
+    "day": "2020-01-21",
+    "isin": "INE669E01016",
+    "prior_close": 4.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 3.4,
+    "day": "2020-02-14",
+    "isin": "INE669E01016",
+    "prior_close": 4.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 601.85,
+    "day": "2020-02-19",
+    "isin": "INE406A01037",
+    "prior_close": 500.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "AUROPHARMA"
+  },
+  {
+    "close": 4.2,
+    "day": "2020-02-19",
+    "isin": "INE669E01016",
+    "prior_close": 3.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 36.8,
+    "day": "2020-03-05",
+    "isin": "INE528G01027",
+    "prior_close": 29.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 16.15,
+    "day": "2020-03-06",
+    "isin": "INE528G01027",
+    "prior_close": 36.8,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 4.0,
+    "day": "2020-03-09",
+    "isin": "INE669E01016",
+    "prior_close": 3.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 21.25,
+    "day": "2020-03-09",
+    "isin": "INE528G01027",
+    "prior_close": 16.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 28.8,
+    "day": "2020-03-11",
+    "isin": "INE528G01027",
+    "prior_close": 21.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 30.3,
+    "day": "2020-03-12",
+    "isin": "INE814H01011",
+    "prior_close": 41.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIPOWER"
+  },
+  {
+    "close": 199.2,
+    "day": "2020-03-12",
+    "isin": "INE935A01035",
+    "prior_close": 258.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "GLENMARK"
+  },
+  {
+    "close": 67.9,
+    "day": "2020-03-12",
+    "isin": "INE775A01035",
+    "prior_close": 89.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "MOTHERSUMI"
+  },
+  {
+    "close": 5.6,
+    "day": "2020-03-13",
+    "isin": "INE669E01016",
+    "prior_close": 4.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 162.85,
+    "day": "2020-03-16",
+    "isin": "INE976G01028",
+    "prior_close": 206.6,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RBLBANK"
+  },
+  {
+    "close": 58.65,
+    "day": "2020-03-17",
+    "isin": "INE528G01035",
+    "prior_close": 37.1,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "YESBANK"
+  },
+  {
+    "close": 3.15,
+    "day": "2020-03-18",
+    "isin": "INE669E01016",
+    "prior_close": 4.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 460.8,
+    "day": "2020-03-18",
+    "isin": "INE095A01012",
+    "prior_close": 604.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "INDUSINDBK"
+  },
+  {
+    "close": 149.9,
+    "day": "2020-03-18",
+    "isin": "INE121J01017",
+    "prior_close": 194.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "INFRATEL"
+  },
+  {
+    "close": 164.1,
+    "day": "2020-03-18",
+    "isin": "INE256A01028",
+    "prior_close": 133.1,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ZEEL"
+  },
+  {
+    "close": 48.05,
+    "day": "2020-03-19",
+    "isin": "INE208A01029",
+    "prior_close": 64.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ASHOKLEY"
+  },
+  {
+    "close": 89.75,
+    "day": "2020-03-19",
+    "isin": "INE148I01020",
+    "prior_close": 135.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IBULHSGFIN"
+  },
+  {
+    "close": 308.65,
+    "day": "2020-03-23",
+    "isin": "INE238A01034",
+    "prior_close": 428.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "AXISBANK"
+  },
+  {
+    "close": 4621.05,
+    "day": "2020-03-23",
+    "isin": "INE918I01018",
+    "prior_close": 6233.05,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BAJAJFINSV"
+  },
+  {
+    "close": 2266.15,
+    "day": "2020-03-23",
+    "isin": "INE296A01024",
+    "prior_close": 2951.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BAJFINANCE"
+  },
+  {
+    "close": 173.65,
+    "day": "2020-03-23",
+    "isin": "INE545U01014",
+    "prior_close": 231.6,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BANDHANBNK"
+  },
+  {
+    "close": 76.1,
+    "day": "2020-03-23",
+    "isin": "INE476A01014",
+    "prior_close": 96.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "CANBK"
+  },
+  {
+    "close": 136.05,
+    "day": "2020-03-23",
+    "isin": "INE121A01024",
+    "prior_close": 193.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "CHOLAFIN"
+  },
+  {
+    "close": 40.1,
+    "day": "2020-03-23",
+    "isin": "INE171A01029",
+    "prior_close": 52.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "FEDERALBNK"
+  },
+  {
+    "close": 238.8,
+    "day": "2020-03-23",
+    "isin": "INE726G01019",
+    "prior_close": 304.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ICICIPRULI"
+  },
+  {
+    "close": 336.45,
+    "day": "2020-03-23",
+    "isin": "INE095A01012",
+    "prior_close": 440.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "INDUSINDBK"
+  },
+  {
+    "close": 149.85,
+    "day": "2020-03-23",
+    "isin": "INE774D01024",
+    "prior_close": 210.0,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "M&MFIN"
+  },
+  {
+    "close": 288.55,
+    "day": "2020-03-23",
+    "isin": "INE180A01020",
+    "prior_close": 407.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "MFSL"
+  },
+  {
+    "close": 864.2,
+    "day": "2020-03-23",
+    "isin": "INE591G01017",
+    "prior_close": 1143.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "NIITTECH"
+  },
+  {
+    "close": 452.05,
+    "day": "2020-03-23",
+    "isin": "INE721A01013",
+    "prior_close": 580.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "SRTRANSFIN"
+  },
+  {
+    "close": 320.45,
+    "day": "2020-03-25",
+    "isin": "INE726G01019",
+    "prior_close": 254.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ICICIPRULI"
+  },
+  {
+    "close": 101.9,
+    "day": "2020-03-25",
+    "isin": "INE522D01027",
+    "prior_close": 84.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "MANAPPURAM"
+  },
+  {
+    "close": 1242.95,
+    "day": "2020-03-25",
+    "isin": "INE591G01017",
+    "prior_close": 1018.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "NIITTECH"
+  },
+  {
+    "close": 42.85,
+    "day": "2020-03-26",
+    "isin": "INE208A01029",
+    "prior_close": 34.45,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ASHOKLEY"
+  },
+  {
+    "close": 215.6,
+    "day": "2020-03-26",
+    "isin": "INE545U01014",
+    "prior_close": 154.75,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BANDHANBNK"
+  },
+  {
+    "close": 435.9,
+    "day": "2020-03-26",
+    "isin": "INE095A01012",
+    "prior_close": 301.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "INDUSINDBK"
+  },
+  {
+    "close": 423.2,
+    "day": "2020-03-26",
+    "isin": "INE180A01020",
+    "prior_close": 351.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "MFSL"
+  },
+  {
+    "close": 383.85,
+    "day": "2020-04-07",
+    "isin": "INE095A01012",
+    "prior_close": 313.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "INDUSINDBK"
+  },
+  {
+    "close": 81.4,
+    "day": "2020-04-07",
+    "isin": "INE749A01030",
+    "prior_close": 63.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "JINDALSTEL"
+  },
+  {
+    "close": 299.1,
+    "day": "2020-04-13",
+    "isin": "INE935A01035",
+    "prior_close": 247.65,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "GLENMARK"
+  },
+  {
+    "close": 4.1,
+    "day": "2020-04-13",
+    "isin": "INE669E01016",
+    "prior_close": 3.3,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 26.6,
+    "day": "2020-05-13",
+    "isin": "INE257A01026",
+    "prior_close": 21.5,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "BHEL"
+  },
+  {
+    "close": 10.5,
+    "day": "2020-06-05",
+    "isin": "INE669E01016",
+    "prior_close": 8.6,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 203.4,
+    "day": "2020-06-19",
+    "isin": "INE148I01020",
+    "prior_close": 155.15,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IBULHSGFIN"
+  },
+  {
+    "close": 519.75,
+    "day": "2020-06-22",
+    "isin": "INE935A01035",
+    "prior_close": 409.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "GLENMARK"
+  },
+  {
+    "close": 307.55,
+    "day": "2020-08-25",
+    "isin": "INE423A01024",
+    "prior_close": 248.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 12.55,
+    "day": "2020-09-03",
+    "isin": "INE669E01016",
+    "prior_close": 9.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 96.95,
+    "day": "2020-10-12",
+    "isin": "INE205A01025",
+    "prior_close": 121.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "VEDL"
+  },
+  {
+    "close": 872.85,
+    "day": "2021-05-12",
+    "isin": "INE102D01028",
+    "prior_close": 716.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "GODREJCP"
+  },
+  {
+    "close": 261.55,
+    "day": "2021-09-14",
+    "isin": "INE256A01028",
+    "prior_close": 186.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ZEEL"
+  },
+  {
+    "close": 11.25,
+    "day": "2021-09-16",
+    "isin": "INE669E01016",
+    "prior_close": 8.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 336.8,
+    "day": "2021-09-22",
+    "isin": "INE256A01028",
+    "prior_close": 255.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ZEEL"
+  },
+  {
+    "close": 506.9,
+    "day": "2021-10-13",
+    "isin": "INE155A01022",
+    "prior_close": 420.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "TATAMOTORS"
+  },
+  {
+    "close": 11.8,
+    "day": "2022-01-11",
+    "isin": "INE669E01016",
+    "prior_close": 14.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 185.55,
+    "day": "2022-01-14",
+    "isin": "INE775A01035",
+    "prior_close": 234.8,
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "MOTHERSUMI"
+  },
+  {
+    "close": 111.15,
+    "day": "2022-05-11",
+    "isin": "INE148I01020",
+    "prior_close": 139.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IBULHSGFIN"
+  },
+  {
+    "close": 87.85,
+    "day": "2022-06-13",
+    "isin": "INE976G01028",
+    "prior_close": 113.6,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "RBLBANK"
+  },
+  {
+    "close": 2135.35,
+    "day": "2023-02-01",
+    "isin": "INE423A01024",
+    "prior_close": 2973.9,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 1565.25,
+    "day": "2023-02-02",
+    "isin": "INE423A01024",
+    "prior_close": 2135.35,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 8.25,
+    "day": "2023-02-06",
+    "isin": "INE669E01016",
+    "prior_close": 6.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 2164.25,
+    "day": "2023-02-08",
+    "isin": "INE423A01024",
+    "prior_close": 1802.95,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ADANIENT"
+  },
+  {
+    "close": 189.5,
+    "day": "2023-07-12",
+    "isin": "INE124G01033",
+    "prior_close": 246.7,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "DELTACORP"
+  },
+  {
+    "close": 16.0,
+    "day": "2023-12-29",
+    "isin": "INE669E01016",
+    "prior_close": 13.25,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "IDEA"
+  },
+  {
+    "close": 3878.45,
+    "day": "2024-01-11",
+    "isin": "INE455K01017",
+    "prior_close": 4911.85,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "POLYCAB"
+  },
+  {
+    "close": 6545.5,
+    "day": "2024-01-18",
+    "isin": "INE881D01027",
+    "prior_close": 5086.2,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "OFSS"
+  },
+  {
+    "close": 155.95,
+    "day": "2024-01-23",
+    "isin": "INE256A01028",
+    "prior_close": 231.4,
+    "reason": "unexplained_move_over_20pct",
+    "symbol": "ZEEL"
+  },
+  {
+    "close": 395.45,
+    "day": "2025-10-14",
+    "isin": "INE155A01022",
+    "issued": "2025-10-07",
+    "prior_close": 660.75,
+    "reason": "unresolved_action",
+    "sha256": "58bafe38fcb153c8ee2794589497b452484b53f3a8c77247d7434368967b2459",
+    "source": "https://www.niftyindices.com/Press_Release/ind_prs07102025.pdf",
+    "subject": "Demerger of commercial vehicle business",
+    "symbol": "TATAMOTORS"
+  },
+  {
+    "close": 272.2,
+    "day": "2026-09-07",
+    "isin": "INE545A01024",
+    "issued": "2026-08-24",
+    "prior_close": 728.25,
+    "reason": "unresolved_action",
+    "sha256": "454eb663af73944b4e34c095be6be3f4cac814c6319e95e5fc6fd5e29b73c4a0",
+    "source": "https://nsearchives.nseindia.com/corporate/HEG_24082026185355_FinalOutcome24082026.pdf",
+    "subject": "Demerger of graphite business",
+    "symbol": "HEG"
+  },
+  {
+    "day": "2021-02-04",
+    "isin": "INE700A01033",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "JUBILANT"
+  },
+  {
+    "day": "2022-01-11",
+    "isin": "INE776C01039",
+    "reason": "unresolved_action",
+    "subject": "Demerger",
+    "symbol": "GMRINFRA"
+  }
+]

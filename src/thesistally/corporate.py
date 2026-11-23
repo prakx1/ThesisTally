@@ -81,14 +81,14 @@ def quote(root, day, isin):
         return None
     market.verify(root, date.fromisoformat(str(day)))
     tape = market.csv_table(path.read_bytes())
-    rows = tape[(tape.ISIN == isin) & (tape.SctySrs.str.strip() == "EQ")]
+    rows = tape[(tape.ISIN == isin) & tape.SctySrs.str.strip().isin(["EQ", "BE", "BZ"])]
+    rows = rows[pd.to_numeric(rows.TtlTradgVol, errors="raise") > 0]
     if len(rows) != 1:
         return None
     row = rows.iloc[0]
-    if float(row.TtlTradgVol) <= 0:
-        return None
     return {
         "symbol": row.TckrSymb,
+        "series": row.SctySrs.strip(),
         "open": float(row.OpnPric),
         "close": float(row.ClsPric),
         "high": float(row.HghPric),
@@ -113,9 +113,14 @@ def action_frame(root, day, term, frames, by_isin):
             from .historical_sessions import context_for, reference_rows
 
             read_context(root, day, verify_sources=True)
-            member = pd.DataFrame([{"symbol": bar["symbol"], "isin": successor, "series": "EQ"}])
+            member = pd.DataFrame(
+                [{"symbol": bar["symbol"], "isin": successor, "series": bar["series"]}]
+            )
             events, meetings, coverage, _ = reference_rows(root)
             context = context_for(day, member, meetings, events, coverage, set())[bar["symbol"]]
+            from .baseline_actions import apply_to_following
+
+            apply_to_following(root, day, {"isin": successor, "symbol": bar["symbol"]}, context)
             for folder in (
                 root / "context" / str(day),
                 root / "sources" / "exchange-controls" / str(day),
@@ -186,7 +191,7 @@ def log(db, c, day, stage, t, **details):
 
 def settle(db, c, day, bar, cfg, context, prior):
     """Return True when this session's normal trading lifecycle must be skipped."""
-    from .journal import UnpricedPosition, finish, transition
+    from .journal import UnpricedPosition, event, finish, transition
 
     t = context["compulsory_action"]
     if c["status"] == "confirmed":
@@ -267,7 +272,27 @@ def settle(db, c, day, bar, cfg, context, prior):
             translated_levels={k: converted[k] for k in ("entry", "buy", "stop", "target")},
         )
     has_quote = getattr(bar, "volume", 0) > 0
-    if p["phase"] == "entitled" and has_quote and "first_close" not in p:
+    # A quarantined successor close cannot establish the fallback or a frozen stop.
+    # After credit a queued sale may still use a verified opening price.
+    if (
+        has_quote
+        and context.get("quarantined")
+        and (
+            (p["phase"] == "entitled" and "first_close" not in p and p["fraction"])
+            or (t["effective"] <= day < t["tradable"] and not c["pending_exit"])
+        )
+    ):
+        reason = "Quarantined successor close during compulsory settlement"
+        if c["allocation"] == "portfolio":
+            raise UnpricedPosition(c, day, reason)
+        transition(db, c["id"], day, "unmeasurable", reason)
+        return True
+    if (
+        p["phase"] == "entitled"
+        and has_quote
+        and not context.get("quarantined")
+        and "first_close" not in p
+    ):
         bhavcopy = history.source_urls(date.fromisoformat(day))["bhavcopy.zip"]
         p.update(
             first_close=float(bar.close),
@@ -346,17 +371,48 @@ def settle(db, c, day, bar, cfg, context, prior):
         log(db, c, day, "tradable", t, first_tradable_session=day, credit_source=t["credit_source"])
         save(db, c["id"], p)
         return False
-    # While frozen only observe successor closes for the existing close-based stop.
+    # Observe stop conditions in successor units during the freeze. Never fill here.
     refreshed = db.execute(
         "SELECT trail,age,pending_exit FROM calls WHERE id=?", (c["id"],)
     ).fetchone()
     due = refreshed["pending_exit"]
-    if not due and day >= t["effective"] and has_quote and float(bar.close) <= refreshed["trail"]:
-        due = "Closing stop breached during compulsory suspension"
-    if not due and refreshed["age"] + 1 >= cfg["exits"]["max_days"]:
+    scheduled = refreshed["age"] + 1 >= cfg["exits"]["max_days"]
+    if not due and day >= t["effective"] and has_quote and "results_strategy" in cfg:
+        if float(bar.close) < refreshed["trail"]:
+            due = "Closing stop breached during compulsory suspension"
+    elif not due and day >= t["effective"] and has_quote and "range_bouncers" in cfg:
+        from .range_orders import TARGET
+
+        if float(bar.close) < refreshed["trail"]:
+            due = "Closing stop breached during compulsory suspension"
+        elif not scheduled and float(bar.close) >= c["target"] * p["level_factor"]:
+            due = TARGET
+    elif not due and day >= t["effective"] and has_quote:
+        target = c["target"] * p["level_factor"]
+        if (
+            "dip" not in cfg
+            and not c["partial"]
+            and bar.low <= refreshed["trail"]
+            and bar.high >= target
+        ):
+            due = "Stop-first collision during compulsory suspension"
+        elif float(bar.close) <= refreshed["trail"]:
+            due = "Closing stop breached during compulsory suspension"
+        elif "dip" in cfg and float(bar.close) > target:
+            due = "Close above pre-signal 10-session high during compulsory suspension"
+    if not due and scheduled:
         due = "Maximum holding period during compulsory suspension"
-    if not due and refreshed["age"] + 1 >= cfg["exits"]["no_progress_days"] and c["mfe"] < 1:
+    if (
+        not due
+        and "dip" not in cfg
+        and "results_strategy" not in cfg
+        and "range_bouncers" not in cfg
+        and refreshed["age"] + 1 >= cfg["exits"]["no_progress_days"]
+        and c["mfe"] < 1
+    ):
         due = "Time stop during compulsory suspension"
+    if due and not refreshed["pending_exit"]:
+        event(db, c["id"], day, "exit_due", due)
     db.execute("UPDATE calls SET age=age+1,pending_exit=? WHERE id=?", (due, c["id"]))
     save(db, c["id"], p)
     return True

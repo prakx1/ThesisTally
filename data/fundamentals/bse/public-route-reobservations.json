@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://www.bseindia.com/corporates/Comp_Resultsnew.aspx",
+    "previous_sha256": "1460b5b7c9f597277468bc28cc4542a6d4a95e976298d5c63cf7c8055b2999e3",
+    "attempted_at_utc": "2026-11-22T13:06:09.254794+00:00",
+    "status": 200,
+    "source_date": "Sun, 22 Nov 2026 13:06:19 GMT",
+    "resolved_url": "https://www.bseindia.com/corporates/Comp_Resultsnew",
+    "sha256": "1460b5b7c9f597277468bc28cc4542a6d4a95e976298d5c63cf7c8055b2999e3",
+    "bytes": 16912,
+    "unchanged": true
+  },
+  {
+    "url": "https://www.bseindia.com/corporates/ann.html",
+    "previous_sha256": "5b4ba52e3f9e9e87406051c576880e2b4d751df76fabe82b5cac11304d967f16",
+    "attempted_at_utc": "2026-11-22T13:06:19.453929+00:00",
+    "status": 200,
+    "source_date": "Sun, 22 Nov 2026 13:06:19 GMT",
+    "resolved_url": "https://www.bseindia.com/corporates/ann",
+    "sha256": "8140810efaf14aaa80376ca3b044f6fd9409c77850421728308df6eed07ba406",
+    "bytes": 17100,
+    "unchanged": false
+  },
+  {
+    "url": "https://marketdata.bseindia.com/",
+    "previous_sha256": "0fde71f4b521e117a2920b9a1e63b63c8af9c7801cac11e660b9f1d62c0ffa82",
+    "attempted_at_utc": "2026-11-22T13:06:19.976189+00:00",
+    "status": 200,
+    "source_date": "Sun, 22 Nov 2026 13:06:20 GMT",
+    "resolved_url": "https://marketdata.bseindia.com/",
+    "sha256": "0fde71f4b521e117a2920b9a1e63b63c8af9c7801cac11e660b9f1d62c0ffa82",
+    "bytes": 617,
+    "unchanged": true
+  },
+  {
+    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1a2804ad-bc66-444b-aa4a-ea2e604971f3.pdf",
+    "previous_sha256": "a82d4e0374607c55c8136be37693a3ce9ef0f23f60cf8b13dc18fa17ff114a3b",
+    "attempted_at_utc": "2026-11-22T13:06:20.261952+00:00",
+    "status": 200,
+    "source_date": "Sun, 22 Nov 2026 13:06:20 GMT",
+    "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1a2804ad-bc66-444b-aa4a-ea2e604971f3.pdf",
+    "sha256": "a82d4e0374607c55c8136be37693a3ce9ef0f23f60cf8b13dc18fa17ff114a3b",
+    "bytes": 11677548,
+    "unchanged": true
+  }
+]

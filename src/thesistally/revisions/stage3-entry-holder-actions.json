@@ -1,0 +1,500 @@
+{
+  "version": "stage3-holder-evidence-v2",
+  "actions": [
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE129A01019",
+      "successor_isin": "INE129A01019",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2017-03-09",
+      "effective": "2017-03-09",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 3,
+        "credited": "2017-03-23",
+        "tradable": "2017-03-24",
+        "subjects": [
+          " Bonus 1:3"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/CML34451.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML34451.pdf",
+        "allotted": "2017-03-15",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE263A01016",
+      "successor_isin": "INE263A01024",
+      "new_shares": 10,
+      "old_shares": 1,
+      "suspended": "2017-03-16",
+      "effective": "2017-03-16",
+      "credited": "2017-03-20",
+      "tradable": "2017-03-20",
+      "last_trade": "2017-03-15",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML34371.pdf",
+      "credit_source": "https://archives.nseindia.com/content/circulars/CMPT34359.pdf",
+      "credit_evidence_basis": "First session NSE Clearing requires delivery under the new ISIN in depository accounts. The precise intraday posting time is unknown."
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE094A01015",
+      "successor_isin": "INE094A01015",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2017-07-11",
+      "effective": "2017-07-11",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 2,
+        "allotted": "2017-07-18",
+        "credited": "2017-07-21",
+        "tradable": "2017-07-24",
+        "subjects": [
+          " Bonus 1:2/ Dividend - Rs 1.10 Per Share"
+        ],
+        "source_url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20170721-21",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML35431.pdf",
+        "dividend_per_original": 1.1,
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE203G01019",
+      "successor_isin": "INE203G01027",
+      "new_shares": 5,
+      "old_shares": 1,
+      "suspended": "2017-11-09",
+      "effective": "2017-11-09",
+      "credited": "2017-11-11",
+      "tradable": "2017-11-13",
+      "last_trade": "2017-11-08",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML36219.pdf",
+      "credit_source": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2017-539&method=communique"
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE051B01021",
+      "successor_isin": "INE051B01021",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2017-12-21",
+      "effective": "2017-12-21",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 1,
+        "credited": "2018-01-03",
+        "tradable": "2018-01-04",
+        "subjects": [
+          " Bonus 1:1"
+        ],
+        "source_url": "https://archives.nseindia.com/corporate/AllotmentIntimation_26122017161958_523.zip",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML36668.pdf",
+        "allotted": "2017-12-26",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE797F01012",
+      "successor_isin": "INE797F01012",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2018-06-21",
+      "effective": "2018-06-21",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 1,
+        "credited": "2018-07-02",
+        "tradable": "2018-07-03",
+        "subjects": [
+          " Bonus 1:1"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/CML38213.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML38213.pdf",
+        "allotted": "2018-06-26",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE009A01021",
+      "successor_isin": "INE009A01021",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2018-09-04",
+      "effective": "2018-09-04",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 1,
+        "credited": "2018-09-10",
+        "tradable": "2018-09-11",
+        "subjects": [
+          " Bonus 1:1"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/CML38851.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML38851.pdf",
+        "allotted": "2018-09-06",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE075A01022",
+      "successor_isin": "INE075A01022",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2019-03-06",
+      "effective": "2019-03-06",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 3,
+        "credited": "2019-03-14",
+        "tradable": "2019-03-15",
+        "subjects": [
+          " Bonus 1:3"
+        ],
+        "source_url": "https://archives.nseindia.com/corporate/Cslogin_08032019201016_SE_Allotment_March8_2019_288.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML40451.pdf",
+        "exchange_allotment_date": "2019-03-11",
+        "allotment_note": "Issuer reported board allotment on March 8. NSE lists March 11 as the allotment date and March 15 as the first trading date.",
+        "allotted": "2019-03-08",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE121A01016",
+      "successor_isin": "INE121A01024",
+      "new_shares": 5,
+      "old_shares": 1,
+      "suspended": "2019-06-14",
+      "effective": "2019-06-14",
+      "credited": "2019-06-18",
+      "tradable": "2019-06-18",
+      "last_trade": "2019-06-13",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML41286.pdf",
+      "credit_source": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2019-292&method=communique"
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE628A01036",
+      "successor_isin": "INE628A01036",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2019-07-02",
+      "effective": "2019-07-02",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 2,
+        "credited": "2019-07-12",
+        "tradable": "2019-07-15",
+        "subjects": [
+          " Bonus 1:2"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/CML41597.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML41597.pdf",
+        "allotted": "2019-07-04",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE066A01013",
+      "successor_isin": "INE066A01021",
+      "new_shares": 10,
+      "old_shares": 1,
+      "suspended": "2020-08-24",
+      "effective": "2020-08-24",
+      "credited": "2020-08-26",
+      "tradable": "2020-08-26",
+      "last_trade": "2020-08-21",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML45409.pdf",
+      "credit_source": "https://archives.nseindia.com/content/circulars/CMPT45406.pdf",
+      "credit_evidence_basis": "First session NSE Clearing requires delivery under the new ISIN in depository accounts. The precise intraday posting time is unknown."
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE769A01020",
+      "successor_isin": "INE769A01020",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2021-06-22",
+      "effective": "2021-06-22",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 1,
+        "credited": "2021-06-29",
+        "tradable": "2021-06-30",
+        "subjects": [
+          " Bonus 1:1"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/CML48778.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML48778.pdf",
+        "allotted": "2021-06-24",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE647A01010",
+      "successor_isin": "INE647A01010",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2021-10-13",
+      "effective": "2021-10-13",
+      "bonus": {
+        "new_shares": 4,
+        "old_shares": 1,
+        "credited": "2021-10-25",
+        "tradable": "2021-10-26",
+        "subjects": [
+          " Bonus 4:1"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/CML50092.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML50092.pdf",
+        "allotted": "2021-10-15",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE335Y01012",
+      "successor_isin": "INE335Y01020",
+      "new_shares": 5,
+      "old_shares": 1,
+      "suspended": "2021-10-28",
+      "effective": "2021-10-28",
+      "credited": "2021-10-30",
+      "tradable": "2021-11-01",
+      "last_trade": "2021-10-27",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML50037.pdf",
+      "credit_source": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2021-487&method=communique"
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE263A01024",
+      "successor_isin": "INE263A01024",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2022-09-15",
+      "effective": "2022-09-15",
+      "bonus": {
+        "new_shares": 2,
+        "old_shares": 1,
+        "credited": "2022-09-22",
+        "tradable": "2022-09-23",
+        "subjects": [
+          "Bonus 2:1"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/CML53805.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML53805.pdf",
+        "allotted": "2022-09-19",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE200M01013",
+      "successor_isin": "INE200M01021",
+      "new_shares": 2,
+      "old_shares": 1,
+      "suspended": "2023-06-15",
+      "effective": "2023-06-15",
+      "credited": "2023-06-16",
+      "tradable": "2023-06-16",
+      "last_trade": "2023-06-14",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML57078.pdf",
+      "credit_source": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2023-347&method=communique"
+    },
+    {
+      "type": "bonus",
+      "predecessor_isin": "INE134E01011",
+      "successor_isin": "INE134E01011",
+      "old_shares": 1,
+      "new_shares": 1,
+      "suspended": "2023-09-21",
+      "effective": "2023-09-21",
+      "bonus": {
+        "new_shares": 1,
+        "old_shares": 4,
+        "credited": "2023-10-05",
+        "tradable": "2023-10-06",
+        "subjects": [
+          "Bonus 1:4"
+        ],
+        "source_url": "https://archives.nseindia.com/content/circulars/CML58771.pdf",
+        "listing_source": "https://archives.nseindia.com/content/circulars/CML58771.pdf",
+        "allotted": "2023-09-22",
+        "credit_evidence_basis": "NSE confirms depository credit under the temporary ISIN by the listing notice date. The exact posting date is unknown."
+      }
+    },
+    {
+      "type": "stock_split",
+      "predecessor_isin": "INE066F01012",
+      "successor_isin": "INE066F01020",
+      "new_shares": 2,
+      "old_shares": 1,
+      "suspended": "2023-09-28",
+      "effective": "2023-09-28",
+      "credited": "2023-10-03",
+      "tradable": "2023-10-03",
+      "last_trade": "2023-09-27",
+      "source_url": "https://archives.nseindia.com/content/circulars/CML58633.pdf",
+      "credit_source": "https://archives.nseindia.com/content/circulars/CMPT58637.pdf",
+      "credit_evidence_basis": "First session NSE Clearing requires delivery under the new ISIN in depository accounts. The precise intraday posting time is unknown.",
+      "isin_source": "https://archives.nseindia.com/content/circulars/CML58539.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "AARTIIND-CML48778.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML48778.pdf",
+      "sha256": "87330a88bf23950aac86ceb113f45db8700b4e0ec1668b50d8398bb9e09819e8"
+    },
+    {
+      "file": "BEL-CML34371.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML34371.pdf",
+      "sha256": "00819e9b451e0ce4ebca9f9cfec9f36d7e9c4e0e54e44268e71e88145889d710"
+    },
+    {
+      "file": "BEL-CML53805.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML53805.pdf",
+      "sha256": "c711508fd23d032575f1f12cb4d3392f28b8d655e933e0da9aff3fc865a9488f"
+    },
+    {
+      "file": "BEL-CMPT34359.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CMPT34359.pdf",
+      "sha256": "e27b5f16743d96a4cc6d8e699ea095194a4310327aa18157ee9d5daa3a07cf1b"
+    },
+    {
+      "file": "CHOLAFIN-CML41286.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML41286.pdf",
+      "sha256": "a7511544f479cc515a2e84133ae4c0353e344638c67e5de68700ca6644708df9"
+    },
+    {
+      "file": "CHOLAFIN-DP2019-292.pdf",
+      "url": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2019-292&method=communique",
+      "sha256": "a12c3f2ea39ba2a9c22c537ad6f6faa1428b4b6238a41e0351959f66fb849596"
+    },
+    {
+      "file": "EICHERMOT-CML45409.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML45409.pdf",
+      "sha256": "acec12efaee5f990a0d35dae26642ee96bd995311098233f3e8a0fde3854810a"
+    },
+    {
+      "file": "EICHERMOT-CMPT45406.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CMPT45406.pdf",
+      "sha256": "16c426f433790b165a9bc55987b85142ae0cf0341e4a5701949322cf092d3491"
+    },
+    {
+      "file": "GAIL-CML34451.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML34451.pdf",
+      "sha256": "d47a0efa413bd6f16d4bebd615b7fd1b6ab662f3454f400290737304f13ac765"
+    },
+    {
+      "file": "HAL-CML58539.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML58539.pdf",
+      "sha256": "9855465748af6422ae0eff871c60ba2872f5a6612c665f5c21ab891506a71a7d"
+    },
+    {
+      "file": "HAL-CML58633.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML58633.pdf",
+      "sha256": "123fb870eaad6ab30bda6f49b0232a7ec584f4ff7b2606bf40f0bf26708edfa0"
+    },
+    {
+      "file": "HAL-CMPT58637.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CMPT58637.pdf",
+      "sha256": "e29c315be0b81238b368fd61d6190059d4badecfc96076cc33bed03b16a32e12"
+    },
+    {
+      "file": "HINDPETRO-BSE-20170721-21.html",
+      "url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20170721-21",
+      "representation": "bse-notice-html-v1",
+      "sha256": "9c216fb12b3677e71c5ff490d5382fa6b7ff379ed3d8b7c934def9f95aab4415"
+    },
+    {
+      "file": "HINDPETRO-CML35431.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML35431.pdf",
+      "sha256": "9e2cdb98833b5cc1c8d09f736ed462a6e58064f798114cc93ca93a8e471e7ca8"
+    },
+    {
+      "file": "IGL-CML36219.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML36219.pdf",
+      "sha256": "750e81b444536d84e171ea2e581b8585b05546d949d78593d50cbf1098bb81fe"
+    },
+    {
+      "file": "IGL-DP2017-539.pdf",
+      "url": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2017-539&method=communique",
+      "sha256": "6149fe6557ace095fa332323fdf2fd72ea3cc90d77b1e721bbd1c13cd0ed34e3"
+    },
+    {
+      "file": "INFY-CML38851.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML38851.pdf",
+      "sha256": "a95e6d17da492f0176cdbd09bce0d9751977d42a0a61ef501aa8100666f51f2e"
+    },
+    {
+      "file": "IRCTC-CML50037.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML50037.pdf",
+      "sha256": "a5fc7a43376e8da954dfb3ed771fff170b385c46e6cfd349b03579e9c21a19d8"
+    },
+    {
+      "file": "IRCTC-DP2021-487.pdf",
+      "url": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2021-487&method=communique",
+      "sha256": "d6ae7041eeb66a82dbe305706663d233da734caaff2f6b25de32723264a1a6d2"
+    },
+    {
+      "file": "JUBLFOOD-CML38213.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML38213.pdf",
+      "sha256": "1b937e8febb8f017bdc5cbee09d1cd8a7b9de112394b2eaca7320f43dc1bf308"
+    },
+    {
+      "file": "PFC-CML58771.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML58771.pdf",
+      "sha256": "4a591ced88001289322ca2eccc778a43a5f0e45231e1e506de8351e34e06526d"
+    },
+    {
+      "file": "SRF-CML50092.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML50092.pdf",
+      "sha256": "e135434203b59d035f84977f15241389ff24a182d5de6dbcfe54e1e071f1228f"
+    },
+    {
+      "file": "UPL-CML41597.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML41597.pdf",
+      "sha256": "99564a8c8a6a94dd236f300a71ba14192c95828963f2ff7b997275b2589f2582"
+    },
+    {
+      "file": "VAKRANGEE-CML36668.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML36668.pdf",
+      "sha256": "209b663e83c362123425efed304e34b6a0137030b36e43195dd5dbd3270714f0"
+    },
+    {
+      "file": "VAKRANGEE-allot.zip",
+      "url": "https://archives.nseindia.com/corporate/AllotmentIntimation_26122017161958_523.zip",
+      "sha256": "5aa233a81eae5566c91c692ec53369dab9f35183f33878ed4dfa07fe5c847f92"
+    },
+    {
+      "file": "VBL-CML57078.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML57078.pdf",
+      "sha256": "958e8d6999773bf6ac8bec17cf51a0009a04bd0858702d32562080ac95bc4b6c"
+    },
+    {
+      "file": "VBL-DP2023-347.pdf",
+      "url": "https://www.cdslindia.com/eservices/Publications/DownloadFile?eventID=DP2023-347&method=communique",
+      "sha256": "bde0abca8025fb73420c38f43067ce0aaae3fabb943f04332487af02105dc765"
+    },
+    {
+      "file": "WIPRO-CML40451.pdf",
+      "url": "https://archives.nseindia.com/content/circulars/CML40451.pdf",
+      "sha256": "7b97915292ab795182fd925686ca0c80557859b633ff5b06224cf3f0a7bc4eb2"
+    },
+    {
+      "file": "WIPRO-allot.pdf",
+      "url": "https://archives.nseindia.com/corporate/Cslogin_08032019201016_SE_Allotment_March8_2019_288.pdf",
+      "sha256": "02052a104a7258a227f47185236f312de4cec85ede61eb4e5f5857de388a08ad"
+    }
+  ]
+}

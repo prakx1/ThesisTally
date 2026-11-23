@@ -1,0 +1,983 @@
+{
+  "candidate_direct_bse_urls": [
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0ae13db9-7752-4634-84e8-3e7752dd0bff.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0f6c3754-709f-4f11-8c36-401378a6a35e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/28c131de-1d7f-471b-988e-179b73fc7d6e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ecc46b0-c553-471f-9c6e-e93829e3d94f.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38d6a9f3-0b41-4577-8db8-19ad74cb82f4.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba338ec-7d03-41a2-9db1-29cdc5b83606.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4729ead0-a83b-45bd-b6a6-3dffbd89f746.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4c50ad87-64da-4fa6-abf1-a61562dff782.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/57f3e76a-43c1-4147-9ee2-faf5652381d8.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6a59c792-3d7c-492e-9837-128a601a08cb.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/772f3620-d3b0-4227-90cb-6621b60c1d1e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8f4fa0d3-0ae8-4516-93b9-d767d1a4e06a.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9a955e6b-a9d3-41db-a42e-4891ae160c8e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a32d284e-4cf1-4ad4-885b-bdf990584917.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b0c159af-c71a-4d62-b7ae-78e25e114901.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b4ba0ce7-89ba-4c01-b8ae-cb9f86c950b8.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c5d2f3de-3fa3-4254-9c67-202730325d6d.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c6a5616b-d0bb-4f2e-8f70-c4ba9130e631.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cfce7dee-7799-4b3c-ad95-5ceeOba815f5.pdij",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/fe854ab6-a0c1-42ab-b9fb-0b486b6d1e02.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff09b859-7eed-40b2-bb49-06dcf918852f.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0305520a-9e42-47e9-9b86-cbb291219c8e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/207cc3bc-17aa-4725-83cc-26b26a8bff53.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2da24476-991d-44d1-a71b-fd64d5769a01.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/97330b7e-df7a-4615-a0dd-0fb4468c0fc0.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a11fa79a-47bd-4a83-bc9f-19368b2c6ebc.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aa5bbafc-ae17-473d-ab4c-278460d9601e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/afc20a95-cb34-4776-8a3e-1c27fcc28501.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcbd72cf-a061-4289-96fc-f5bc5b9fcba6.pdf"
+  ],
+  "census_sha256": "0d9900329b56e04e63d1563fc15dcd57af2c3c818dae123157e7e02c284970c5",
+  "checked_at_utc": "2026-11-23T06:55:56.896129+00:00",
+  "filings_sha256": "cb381118ee9ad0593180b7d98ac5e7d976487621ce56e7b9b1136ecdf802b1f4",
+  "frozen_inputs_sha256": "119e063f91ca2432bf36511f620b4590d66ce6398ff05a9189fa0e1a9fa60d19",
+  "historical_study_cutoff": "2026-11-20",
+  "linked_bse_sources": {
+    "clock_review_sha256": {},
+    "pdftotext_sha256": "5a176fe86b97154f894279e803feb480f095b3a798dc780dda5813d65646a0a5",
+    "per_link": {
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0ae13db9-7752-4634-84e8-3e7752dd0bff.pdf": {
+        "attachment_sha256": "85fb09c368f1e558cc91c60f818771c4251a8db45cc8c86a994effc8e2b6debd",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "issuer operational press release",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/632e9fc0f211de7c5a6bc4fc76f9cc79beb600a4b19e8005c7cdfe4b53c2f9d9.json",
+        "receipt_sha256": "b5069d6c7f5ae5939fea0b924aa46f7738c941cd0dec0f7f455d4f1b46018b5f",
+        "status": 200,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0f6c3754-709f-4f11-8c36-401378a6a35e.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/a57d48bc0a81372ba05e662534ac2f717db8ee27a63ebef4e3773a6da24f3186.json",
+        "receipt_sha256": "3043bcd4f413f792db5aeffc17d033e27c6b08b7f626cac74b10efd3e6ef073f",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf": {
+        "attachment_sha256": "af0eddf3a5b352565ee579f3923d98cc8331ca64d3a13796148ecfd86e82d99b",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "equity acquisition or financing notice",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/2ba5af94753dbea8516d314868a607fbbd698bea7c4529e7df654aca2e355514.json",
+        "receipt_sha256": "1f8f4195de2ccf9c2adb1ed35ed837215e22c8b93d97cde6c18847e3bcc4d803",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          },
+          {
+            "page": 1,
+            "topic": "annual_general_meeting_or_voting"
+          },
+          {
+            "page": 1,
+            "topic": "other_corporate_action"
+          },
+          {
+            "page": 2,
+            "topic": "annual_general_meeting_or_voting"
+          },
+          {
+            "page": 3,
+            "topic": "board_or_audit_report"
+          },
+          {
+            "page": 4,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/28c131de-1d7f-471b-988e-179b73fc7d6e.pdf": {
+        "attachment_sha256": "c256de515585ea17a33fccd98d57dd83a519684c31dcd24f071b50cd74231f61",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/a099bd01d343974b7dce524a297b905293d90450d9c5ee7eb9f9266c73f569e1.json",
+        "receipt_sha256": "a972857bf8dc73c59b0f7127c7b3004a931e47251d4869be007c2848674b3c31",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ecc46b0-c553-471f-9c6e-e93829e3d94f.pdf": {
+        "attachment_sha256": "c1074de7b1c527aa359f80a8253ce200bd5cae7a0c94fe6c9651260a5bda6514",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/8ed946cc296f1a3cf2e3fe73865b46d97e8c5294aca8da45dc66735bd70816be.json",
+        "receipt_sha256": "2d81a24ed7f1af42df59635fa744a022e4e62fad7655e583ea1b8d02c671fbbc",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38d6a9f3-0b41-4577-8db8-19ad74cb82f4.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/2aa6e394488bb6fccc1f11908d6764d99bc26db40a9cde8af2e9319ed8399c81.json",
+        "receipt_sha256": "91e9c4ceb620610c29760b41d2f48c1356b51c19a683f8e26f4ac5cf9d1ad402",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba338ec-7d03-41a2-9db1-29cdc5b83606.pdf": {
+        "attachment_sha256": "bcc43c062a20105ef10e6c47bd5f5d674e00af278012d90974b13f3844760e68",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/eb9ff59e4a2b1f79dfc17d879e154c1b8de878361da16bf92c1e11b55cab8458.json",
+        "receipt_sha256": "c975093f2210b8a5cf787e83c93915859a8db4a6061212b58d7fc61ba1cbdcb3",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4729ead0-a83b-45bd-b6a6-3dffbd89f746.pdf": {
+        "attachment_sha256": "66ef6782548fc8376967978044425f8aa0e17f25a0859e23617b219da71161c9",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "equity acquisition or financing notice",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/972ed975c01ff5c0cc93d967a4fcb1fcf3575ec0d872b607617cbcb352f67852.json",
+        "receipt_sha256": "daee7f09526205e93711e6cecb0410caabe622c7596433f52c98a3b2e08eae95",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          },
+          {
+            "page": 1,
+            "topic": "other_corporate_action"
+          },
+          {
+            "page": 2,
+            "topic": "other_corporate_action"
+          },
+          {
+            "page": 3,
+            "topic": "annual_general_meeting_or_voting"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4c50ad87-64da-4fa6-abf1-a61562dff782.pdf": {
+        "attachment_sha256": "892578a9a1c15ee1168e3f23d7af486c271692f3b07d5bb52db53220749dc2c2",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/618607ae2d22f1c0ee7b145df0512bc870c9c52ea6bebc85e2ed135034d0c159.json",
+        "receipt_sha256": "225fd37bfbf8b7204e175d6ffccc92e110117feb4852efac51461984fc04462d",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/57f3e76a-43c1-4147-9ee2-faf5652381d8.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/793a17c893c98b955992c4b73985bbab6cb777258acc8a6b471254acd63a97df.json",
+        "receipt_sha256": "7d12374ce0099875bba6fde8f655a7db02afbd2c348030077b797e45a9b8fa6f",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6a59c792-3d7c-492e-9837-128a601a08cb.pdf": {
+        "attachment_sha256": "c70a59ee7060c92bd93ef06f71923fe7593f0d70366e19aa208db6f1910a42c3",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/7e0b8f20fefe2d81b68701b399f11eaa1073e8fa0875851ed2f83764e6070210.json",
+        "receipt_sha256": "b8f43cfc895c6f27cc9bee04dae580780f8382c876eaf2a2bdfb696fce47ca0c",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          },
+          {
+            "page": 1,
+            "topic": "annual_general_meeting_or_voting"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/772f3620-d3b0-4227-90cb-6621b60c1d1e.pdf": {
+        "attachment_sha256": "e7acc45943e16fdf37f8819ea9c7a5ee2353ab5ab5544200488aa007ca25539e",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/f834c941163e9d315ed8ba73032d3a8c07df77fef1fcaf157bee2e6e620ef4ce.json",
+        "receipt_sha256": "ab9fad418aaa84ffc1e73bbf0e6fb2ba2562db499c6567b9d1cbf51697ae23af",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8f4fa0d3-0ae8-4516-93b9-d767d1a4e06a.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/deb1ac714775e8b723447b8ee2d0c0b10abc4a1a1135ef12569802abe6894eb2.json",
+        "receipt_sha256": "e1da95770d2fae2e3c34e1ab53855dd3283f7b30cf932f45c3a18757c2f775d1",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9a955e6b-a9d3-41db-a42e-4891ae160c8e.pdf": {
+        "attachment_sha256": "50a55cdf5ddb4ca0e29b9327bc0223a31d052383d0a656a827c6e975a7260ddb",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/97169c035e7167de59be18b439205482fb2120093411ee5389228a34a2e0f6c7.json",
+        "receipt_sha256": "de1ba922171d8eff2a9280a43040c8a6c9d3812e89cdccb014d6905028047724",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a32d284e-4cf1-4ad4-885b-bdf990584917.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/0424c155d4fdf1eeb89032fcc46ab47e227536a5908f21ad51fc45a468921558.json",
+        "receipt_sha256": "cf9979e4ae7cc35d0cd0c7dcebd1bb24d730816c9a80e6678e805ce569ddeec9",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b0c159af-c71a-4d62-b7ae-78e25e114901.pdf": {
+        "attachment_sha256": "30fadc7ebab37a27c11131366dd799b025fc27c445b60f46b01299d629f01280",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "issuer operational press release",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/2c415f210e0b0e0947dc16a3f111144b0b9ce6d430b63fc72f202f7e07cbe048.json",
+        "receipt_sha256": "bd61d466d59f27f6fa1e6b8835f86a40dcc376d27f502df535030ef878af70ac",
+        "status": 200,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b4ba0ce7-89ba-4c01-b8ae-cb9f86c950b8.pdf": {
+        "attachment_sha256": "5fd090ba43e909647f0a04a60a3659d68b1e4970a2ffaa9150689b5fd13fac77",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/a7357de1c917ceb5e7521da85c4d2bc2c26c2cc9f9d27209edb64cea31a13d03.json",
+        "receipt_sha256": "fc464bff91b085a5e04b60bb12e8aedacca4a7dcd04824aaea61c62764ebcbf8",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c5d2f3de-3fa3-4254-9c67-202730325d6d.pdf": {
+        "attachment_sha256": "2e63fe9c8083bbae40d2dc5f64860a83f39d0fd370af1338aca532fe67445acd",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "executive appointment or resignation notice",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/21e00425d9adae594d8136f6d91c8bc7209b8a8870430680b080851660723faa.json",
+        "receipt_sha256": "3e1930fb4d2e4b8d5a9fcd96d810ad1be9649b161e3eb2deb05f17704798a0f4",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c6a5616b-d0bb-4f2e-8f70-c4ba9130e631.pdf": {
+        "attachment_sha256": "d5bc89bd0209d49cfd92d41060f29dc8d335d885b26fc730f16e9738e0bc1874",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "advance notice of a board meeting",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/9fa7a280ed0907b1e61806befbb5a3596ce05ecd74a1019d1e3ee6d609ea872e.json",
+        "receipt_sha256": "4ee68788b15dda2900f95105512053f4875c6f61c78266bc9e5ad4c7c096ed4f",
+        "status": 200,
+        "topic_cues": [
+          {
+            "page": 1,
+            "topic": "statement_of_quarterly_results"
+          },
+          {
+            "page": 1,
+            "topic": "board_or_audit_report"
+          }
+        ],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cfce7dee-7799-4b3c-ad95-5ceeOba815f5.pdij": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/c039ea1d1174a16ccf19f0b0754e57e0b930575c8bc87ed4499a241e245790c4.json",
+        "receipt_sha256": "48555b0aa96e2ea18497806a1189585087687129dd5b49b5015fd0c5ff7d501a",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/fe854ab6-a0c1-42ab-b9fb-0b486b6d1e02.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/72c38f11267b3fa05b415c3cb7ac6430584eb7f0763b0c509cc3baa354b52ff9.json",
+        "receipt_sha256": "d448d5c4289c45e76a137d9bcfc47fc5fe9b0ecb72e48a79e450bbf18c94010a",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff09b859-7eed-40b2-bb49-06dcf918852f.pdf": {
+        "attachment_sha256": "720b24ce8a1b77a37a548094dae1147790e12069d184bb2a05c191fa6c1d7d18",
+        "content": "PDF",
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "issuer operational press release",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/7f002e1664a88709fc6201ff090724a8b137d670b69104839f25fc5638a8db02.json",
+        "receipt_sha256": "6b3cb66108373becc6eaff4f7cbbe4b9ddf84a56baba3b8db2e683b855f89358",
+        "status": 200,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0305520a-9e42-47e9-9b86-cbb291219c8e.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/da568a4ecbbb5904c93da7a45f07efa2611088e2d76e65f0a5c505af7bf26eb7.json",
+        "receipt_sha256": "2f85c59f5e3496159fc607230b7dd83747b39193b056b643fe0454a876cba8b7",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachLive/207cc3bc-17aa-4725-83cc-26b26a8bff53.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/8934e93ba5edc48b9b693663924e73652b405d46e7a1fec59f57fcfe93034f71.json",
+        "receipt_sha256": "796306bbb73d96f41ff9327540ff40772bc759c5c23655e0f654523ad9e432f2",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2da24476-991d-44d1-a71b-fd64d5769a01.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/83da34daa0976b5e95097e6554875e90104139f5b4ecfb875a60d3c681ffdd90.json",
+        "receipt_sha256": "768dc1731abc2e694e70414d9827982a4e9d6b69dcce9cc18a87b733256d98a3",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachLive/97330b7e-df7a-4615-a0dd-0fb4468c0fc0.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/8c40e93cbc72243a81138b53a2df737d5115fa7c8a077fa69a1aca42e3e9da06.json",
+        "receipt_sha256": "3a85171111e9fec2c5890151955d1fea6ffeba5f0b19c2010c52e420b3fc6f1e",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a11fa79a-47bd-4a83-bc9f-19368b2c6ebc.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/2be5333952247dd4e7cbf2c4fe25f824e266b9c7404e677369462f61df8214ae.json",
+        "receipt_sha256": "d5f077884924be1ebfdecfbcfb32d44007ad8208e615a2342372de043dc474ce",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aa5bbafc-ae17-473d-ab4c-278460d9601e.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/17c64a5467d191d6bfd92de7a1eb89a18ec4fbc7079114a2cf7cbb15c9971ff5.json",
+        "receipt_sha256": "fb84be9dc7bcfd255c7350440bf841537cfe713bb857c9ba77ea930aecbe75eb",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachLive/afc20a95-cb34-4776-8a3e-1c27fcc28501.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/fece4be01b6e7dde184b3c2a64b22c22cae78c0a03f1474282e71f72267f0b91.json",
+        "receipt_sha256": "118878ef84a2153832d757ef812deb3beac1d5ab3c0b78e6a2959410438728d1",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      },
+      "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcbd72cf-a061-4289-96fc-f5bc5b9fcba6.pdf": {
+        "attachment_sha256": "9f630f94e82513f89d6c3bbd67da0a05e8d26365a42f57dfdf836534164c188a",
+        "content": null,
+        "disposition": "no verified BSE dissemination",
+        "document_purpose": "attachment unavailable",
+        "identical_nse_source_urls": [],
+        "matches_an_archived_nse_packet": false,
+        "receipt_file": "bse/linked-sources/bbc792103b5650fe41baec28216af09eb19f4b42b704e82e8ebed7f816eee189.json",
+        "receipt_sha256": "01e60da2f3e49f012aefbb2cae27ef6ced4ba635adf44677ae362276de1ff7fa",
+        "status": 406,
+        "topic_cues": [],
+        "verified_bse_disseminated_at": null
+      }
+    }
+  },
+  "market": {
+    "alias_sha256": "5fb1445fc733627ff787165cc4473bacc513b37de5eab021bc970c4f64562715",
+    "counts": {
+      "eligible_announcements_mentioning_bse": 9,
+      "eligible_symbol_announcements": 434860,
+      "overlap_rows": 245671,
+      "period_rows": 1538926
+    },
+    "links": [],
+    "market_sha256": "93f05fdbb7fa3806eabb2fd604e77a6e456b68ea673000fc3cef17bee63f9171",
+    "membership_sha256": "f3170fbd094cfcbb6f85fac43ae6becd22a4c88940770b96d0957034c7ffb37f",
+    "period_blocks": 192,
+    "sources_sha256": "bedd4f1fe6383269d8764fa8eeb984526ae550b98edab6e545c069e55a25c45f",
+    "symbols": 461
+  },
+  "nse_clock_note": "NSE bulletin times date the NSE notice. Document signatures, website retrieval and HTTP response dates cannot establish a BSE public dissemination time.",
+  "original_packages": {
+    "annotation_reader_sha256": "be8c0c83fc0ca2c35068fd3926dfdd44b1d8e3ab3773e36c6712f2b1b590364d",
+    "annotation_reviews_sha256": "7860ea27b2ca1050d33f4ac530fa56c89b8f73a4b05564824bed0e2321604229",
+    "counts": {
+      "document_members": 17014,
+      "native_pages": 234732,
+      "native_pages_mentioning_bse": 2926,
+      "native_pages_under_50_characters": 65574,
+      "optical_pages": 65574,
+      "optical_pages_mentioning_bse": 377,
+      "original_packages": 15546,
+      "original_pdf_annotation_reads": 16474,
+      "packages_without_decoded_statements": 1,
+      "source_pdfs_with_bse_annotations": 234,
+      "sparse_native_pages_without_readable_optical_text": 2974
+    },
+    "links": [
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b0c159af-c71a-4d62-b7ae-78e25e114901.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/17057_19012021170823.zip",
+        "page": 21,
+        "pdf_sha256": "c58a6d2b36590973fa20da18b4846e292bfb55ff4d32a35e364f988bedf627e7",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcbd72cf-a061-4289-96fc-f5bc5b9fcba6.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/17057_19012021170823.zip",
+        "page": 22,
+        "pdf_sha256": "c58a6d2b36590973fa20da18b4846e292bfb55ff4d32a35e364f988bedf627e7",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4c50ad87-64da-4fa6-abf1-a61562dff782.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/Outcome_31012025151153.pdf",
+        "page": 1,
+        "pdf_sha256": "efff0d7ea6689657a08bb806fdce50ed2b3bff0468682d87a6375dcc22ffb954",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4c50ad87-64da-4fa6-abf1-a61562dff782.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/Outcome_31012025151153.pdf",
+        "page": 1,
+        "pdf_sha256": "efff0d7ea6689657a08bb806fdce50ed2b3bff0468682d87a6375dcc22ffb954",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4c50ad87-64da-4fa6-abf1-a61562dff782.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/Outcome_31012025151153.pdf",
+        "page": 1,
+        "pdf_sha256": "efff0d7ea6689657a08bb806fdce50ed2b3bff0468682d87a6375dcc22ffb954",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ecc46b0-c553-471f-9c6e-e93829e3d94f.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_05112025155937_BMOutcomesigned.pdf",
+        "page": 1,
+        "pdf_sha256": "dba58066deabfc3807d6f181495888446d9be31fc9325293fedea6f02aea2028",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff09b859-7eed-40b2-bb49-06dcf918852f.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/17031_16102020182701.zip",
+        "page": 28,
+        "pdf_sha256": "370127302b595b387053af4273b0cc8fb0573dbeb30a7a55a902f8801e2779fb",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff09b859-7eed-40b2-bb49-06dcf918852f.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/17031_16102020182701.zip",
+        "page": 28,
+        "pdf_sha256": "370127302b595b387053af4273b0cc8fb0573dbeb30a7a55a902f8801e2779fb",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0ae13db9-7752-4634-84e8-3e7752dd0bff.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/17031_16102020182701.zip",
+        "page": 28,
+        "pdf_sha256": "370127302b595b387053af4273b0cc8fb0573dbeb30a7a55a902f8801e2779fb",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/28c131de-1d7f-471b-988e-179b73fc7d6e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_06112026134336_BM_Outcome_0611_signedfinal.pdf",
+        "page": 1,
+        "pdf_sha256": "e0d60944e45b71bb7c13b48695d802dffe1ff007948ebfef4dce7446d8059394",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6a59c792-3d7c-492e-9837-128a601a08cb.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_22052026144322_BMOutcome22052026.pdf",
+        "page": 1,
+        "pdf_sha256": "43f6510bfbfcfeae2ffe61375a95f571299615f6cac9c53fe31bd4005dcaeb64",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c6a5616b-d0bb-4f2e-8f70-c4ba9130e631.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/Pooja_05112026125638_Outcome5Nov.pdf",
+        "page": 1,
+        "pdf_sha256": "a2d639ebe33e6ee45b3df246ba7ffea1ad88572a1da8b7add2b4ebc626ad55d9",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a11fa79a-47bd-4a83-bc9f-19368b2c6ebc.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/VEDL_25042025174810_VEDLSEIntimationReg30_9_HZLResultsQ4FY2025signed.pdf",
+        "page": 1,
+        "pdf_sha256": "da07960cabb82da2e4f023de8eb2309dad849caa47befac81f3e92a06b137a67",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c5d2f3de-3fa3-4254-9c67-202730325d6d.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/16915_22012020153759.zip",
+        "page": 19,
+        "pdf_sha256": "bf96ace7a43ce4b46b43bcaa2498e5bf2cbed5e7348531e9aa36c0187321e86b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c5d2f3de-3fa3-4254-9c67-202730325d6d.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/16915_22012020153759.zip",
+        "page": 19,
+        "pdf_sha256": "bf96ace7a43ce4b46b43bcaa2498e5bf2cbed5e7348531e9aa36c0187321e86b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/57f3e76a-43c1-4147-9ee2-faf5652381d8.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/16915_22012020153759.zip",
+        "page": 19,
+        "pdf_sha256": "bf96ace7a43ce4b46b43bcaa2498e5bf2cbed5e7348531e9aa36c0187321e86b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/57f3e76a-43c1-4147-9ee2-faf5652381d8.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/16915_22012020153759.zip",
+        "page": 19,
+        "pdf_sha256": "bf96ace7a43ce4b46b43bcaa2498e5bf2cbed5e7348531e9aa36c0187321e86b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aa5bbafc-ae17-473d-ab4c-278460d9601e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/VEDL_24072026163743_VEDLSEIntimationReg30_9_HZLResultsQ1FY2027.pdf",
+        "page": 1,
+        "pdf_sha256": "79f286e1970a407bf50873e4aafba48484292a03d8b585d7e3e2981716d53ff0",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2da24476-991d-44d1-a71b-fd64d5769a01.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/VEDL_19012026185404_VEDLSEIntimationReg30_9_HZLResultsQ3FY2026signed.pdf",
+        "page": 1,
+        "pdf_sha256": "8b6fd2f1810f6d92b02fc096ccb17da012482886eaf6282b014a57646e0e5c52",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8f4fa0d3-0ae8-4516-93b9-d767d1a4e06a.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/Pooja_05052026121919_Outcome_of_Board_Meeting_5th_May_2026.pdf",
+        "page": 1,
+        "pdf_sha256": "ba16a77ca439111942ba64ee80a3e014241d4df3d87dc6552586ede47acb63c1",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38d6a9f3-0b41-4577-8db8-19ad74cb82f4.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_12022026165950_BM_Outcome_12022026_merged_signed.pdf",
+        "page": 1,
+        "pdf_sha256": "c2593f41e93cc0c7a7f58dc200d9904249728408aaff1feb403d00e6400b0743",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba338ec-7d03-41a2-9db1-29cdc5b83606.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_07082026143809_BM_Outcome_final_signed.pdf",
+        "page": 1,
+        "pdf_sha256": "e2c183ea6cbfbc11c43817d42bde6d37d73bfa5efae605c41f2bb2fd61c59023",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b4ba0ce7-89ba-4c01-b8ae-cb9f86c950b8.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_31012026142728_BMOutcome.pdf",
+        "page": 1,
+        "pdf_sha256": "bb655640d2583d761b0af716f79e98ab4b7ca49fb07ac9b73051a03266280a61",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b4ba0ce7-89ba-4c01-b8ae-cb9f86c950b8.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_31012026142728_BMOutcome.pdf",
+        "page": 1,
+        "pdf_sha256": "bb655640d2583d761b0af716f79e98ab4b7ca49fb07ac9b73051a03266280a61",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a32d284e-4cf1-4ad4-885b-bdf990584917.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_22052026171757_BM_Outcome_2205_final_signed.pdf",
+        "page": 1,
+        "pdf_sha256": "bb548ed11b79e04584728bd23bca445dbb964f01bf5a1e9dbc0394b48b15cef7",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9a955e6b-a9d3-41db-a42e-4891ae160c8e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_31072026142955_BMOutcomewithannexures31072026.pdf",
+        "page": 1,
+        "pdf_sha256": "5e673b23a3c7d7979066d021421e70323752a076a029721a7a11b0ddca4d443e",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/afc20a95-cb34-4776-8a3e-1c27fcc28501.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/VEDL_18102024180106_VEDLSEIntimationReg30_9_HZLResultsQ2FY2025signed.pdf",
+        "page": 1,
+        "pdf_sha256": "2d2dec5bcc32386bd448e78176f204a6eda28bc1c176801b49ff6f91c9880f7b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aa5bbafc-ae17-473d-ab4c-278460d9601e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/VEDL_20102026123223_VEDLSEIntimationReg30_9_HZLResultsQ2FY2027signed.pdf",
+        "page": 1,
+        "pdf_sha256": "999c22e9edd3444b52a5f76711d2cbe5e81ee8de8540bf90f1b80c6884e6ea16",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/97330b7e-df7a-4615-a0dd-0fb4468c0fc0.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/VEDL_18072025163709_VEDLSEIntimationReg30_9_HZLResultsQ1FY2025-_Final_signed.pdf",
+        "page": 1,
+        "pdf_sha256": "1f95f059077ecbb908bc84b0fac9e860bb1519e6fae24b5abea845ab917bda62",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0305520a-9e42-47e9-9b86-cbb291219c8e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/VEDL_17102025152307_VEDLSEIntimationReg30_9_HZLResultsQ2FY2026Signed.pdf",
+        "page": 1,
+        "pdf_sha256": "7375c40878067a980ad6b9e5d270f6b6c331012b68ffd3b4a7b8c386bd11b0b9",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/772f3620-d3b0-4227-90cb-6621b60c1d1e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/HINDALCOIND_07112025134111_BM_Outcome_Nov7_Signed.pdf",
+        "page": 1,
+        "pdf_sha256": "37a137fba0fd09bc962c1a7cd767b3827500e30b2eabb202b51e3a51b123dcf8",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4729ead0-a83b-45bd-b6a6-3dffbd89f746.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/COFORGE_23042026074314_outcome.pdf",
+        "page": 5,
+        "pdf_sha256": "1e0bb1df3d03807b41fbc6f7505bb40d49151f25a320e39ad3761026a5b4f39b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4729ead0-a83b-45bd-b6a6-3dffbd89f746.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/COFORGE_23042026074314_outcome.pdf",
+        "page": 5,
+        "pdf_sha256": "1e0bb1df3d03807b41fbc6f7505bb40d49151f25a320e39ad3761026a5b4f39b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4729ead0-a83b-45bd-b6a6-3dffbd89f746.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/COFORGE_23042026074314_outcome.pdf",
+        "page": 5,
+        "pdf_sha256": "1e0bb1df3d03807b41fbc6f7505bb40d49151f25a320e39ad3761026a5b4f39b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/COFORGE_23042026074314_outcome.pdf",
+        "page": 5,
+        "pdf_sha256": "1e0bb1df3d03807b41fbc6f7505bb40d49151f25a320e39ad3761026a5b4f39b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/COFORGE_23042026074314_outcome.pdf",
+        "page": 5,
+        "pdf_sha256": "1e0bb1df3d03807b41fbc6f7505bb40d49151f25a320e39ad3761026a5b4f39b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/COFORGE_23042026074314_outcome.pdf",
+        "page": 5,
+        "pdf_sha256": "1e0bb1df3d03807b41fbc6f7505bb40d49151f25a320e39ad3761026a5b4f39b",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cfce7dee-7799-4b3c-ad95-5ceeOba815f5.pdij",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/lkwalimbe_bajajauto_co_in_07112025170145_SE_-_Outcome.pdf",
+        "page": 12,
+        "pdf_sha256": "8c345d6198562823f7746478721ce57f32b533ef4c97d42a7fd33bf0b748950c",
+        "source_type": "native"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/fe854ab6-a0c1-42ab-b9fb-0b486b6d1e02.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_31072025142149_BMoutcomeFinal.pdf",
+        "page": 1,
+        "pdf_sha256": "6b1f26139a9dd31775081b1eef43abbb7c14d8dd297fbe8df65bb6d47f1d1ff9",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0f6c3754-709f-4f11-8c36-401378a6a35e.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/SUNSEC_22052025164647_BMOutcomefinal.pdf",
+        "page": 1,
+        "pdf_sha256": "4a5b58f07b91c500279447a25b72b909022df91042005275f2d43ace05ef26cf",
+        "source_type": "PDF annotation"
+      },
+      {
+        "bse_url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/207cc3bc-17aa-4725-83cc-26b26a8bff53.pdf",
+        "nse_source_url": "https://nsearchives.nseindia.in/corporate/VEDL_24042026182204_VEDLSEIntimationReg30_9_HZLResultsQ4FY2026.pdf",
+        "page": 1,
+        "pdf_sha256": "55318004c76f6155370a298e40d68efd92e3eb756991eecdea818cf32ff12f20",
+        "source_type": "PDF annotation"
+      }
+    ],
+    "native_capsules_sha256": "635074f14231f9839832c4ae0c769a55016fb997f6cba9ee8b2e6f80d80fc7f4",
+    "native_list_sha256": "7f4cca6204cf1a9d7e145eb355c9c80e9762b4dc881e672d6255b9f994d88e4b",
+    "native_packages_index_sha256": "3544d83628453174d58612dbfcad9e5ff29e4c936682f1426036e3698a613b5c",
+    "optical_members_used": 8858,
+    "optical_objects_sha256": "39d6b7945f07db2abacd58eea1195dc683f874fa764f5ca484c539ed53544d84",
+    "optical_plan_sha256": "5e31a37fa651007c72b68d807ecce18a5562b7b1d2d137ced56b7278a880faef",
+    "read_gaps": [
+      {
+        "pdf_sha256": "3e2a9920c5bebee6e19e70d040457399cc6546f31649d3e2a42bf4e876c29478",
+        "reason": "unreadable PDF link annotations",
+        "url": "https://nsearchives.nseindia.in/corporate/JUBLFOOD_12112020151048_OutcomeBM12Nov2020.pdf"
+      }
+    ]
+  },
+  "original_source_statuses": {
+    "archived": 15525,
+    "unavailable": 52
+  },
+  "planned_source_urls": 15577,
+  "prior_bse_evidence": {
+    "catalogue_access_denials": [
+      {
+        "sha256": "5480e9127ccf459cf1567a9fc788077ff7088d78b6175baec6fac7e74ac6d38a",
+        "source_date": "Sat, 21 Nov 2026 21:01:40 GMT",
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/ListofScripData/w?Group=&Scripcode=&industry=&segment=Equity&status=Active"
+      },
+      {
+        "sha256": "0d0747b43847c45296dd5482248a3465a65f4942e7a4c4a6bf482696c53f8feb",
+        "source_date": "Sat, 21 Nov 2026 21:01:41 GMT",
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/Corp_FinanceResult_ng_new/w?SCRIP_CD=500325&FlagDur=7&HFQ=&ISUBGROUP_CODE=&segment=C"
+      },
+      {
+        "sha256": "03ce9d6767755456dcb55787b964b1b46566dd91c0f79b101536eefb9a79ec1d",
+        "source_date": "Sat, 21 Nov 2026 21:01:42 GMT",
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/Corp_Archive_Wthxml_ng_new/w?SCRIP_CD=500325&CATNAME=Result&FROMDT=04%2F01%2F2024&TODT=04%2F30%2F2024&PER=D&SEGMENT=A"
+      },
+      {
+        "sha256": "dc6b727f89cbf1e66786f7e04b447577b1bc7f81148850dae27ec81df1fdafa2",
+        "source_date": "Sat, 21 Nov 2026 21:01:43 GMT",
+        "url": "https://api.bseindia.com/BseIndiaAPI/api/AnnSubCategoryGetData/w?pageno=1&strCat=Result&strPrevDate=20141016&strScrip=532540&strSearch=P&strToDate=20141016&strType=C&subcategory=-1"
+      }
+    ],
+    "clock_by_url": {},
+    "independently_checked_objects": 15,
+    "prior_body_unavailable": [
+      {
+        "sha256": "5b4ba52e3f9e9e87406051c576880e2b4d751df76fabe82b5cac11304d967f16",
+        "source": "alternate-route-receipts.json",
+        "url": "https://www.bseindia.com/corporates/ann.html"
+      }
+    ],
+    "receipts": {
+      "alternate-route-receipts.json": "fd6d20ffdd530fec10cc49da678c79dfb7020a45d798efa197c0fc595771635e",
+      "cross-exchange-attachments.json": "c8130d7fabbfbb11e22147ef517340ad2e6c6fdefd6bcdd99f7ff1431fc53603",
+      "cross-exchange-check.json": "0f17e8e805b24ee9801d35fdccc58f6e31eb6da9679a6646f5cc872e5431229c",
+      "filings.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public-route-reobservations.json": "07013b1b77a785ed165671385ffc437eb625c3a526b5983bbc35b92a282a5f9b",
+      "source-access.json": "d7c8210186ff89fbb2cf6e96528e891218220c73b18c6e3b777d2207ffc8eeb0"
+    },
+    "verified_original_bse_clocks": 0
+  },
+  "source_requests_sha256": "efe7fcd96c619148f3d3b957d8632e120d5d48f8fc87afea00dc6854f3e05466",
+  "unresolved_source_urls": 52,
+  "unverified_bse_dissemination": [
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0ae13db9-7752-4634-84e8-3e7752dd0bff.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/0f6c3754-709f-4f11-8c36-401378a6a35e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/11f85636-1fa0-4c44-abb4-4fe2f0d0d69e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/28c131de-1d7f-471b-988e-179b73fc7d6e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/2ecc46b0-c553-471f-9c6e-e93829e3d94f.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/38d6a9f3-0b41-4577-8db8-19ad74cb82f4.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3ba338ec-7d03-41a2-9db1-29cdc5b83606.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4729ead0-a83b-45bd-b6a6-3dffbd89f746.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4c50ad87-64da-4fa6-abf1-a61562dff782.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/57f3e76a-43c1-4147-9ee2-faf5652381d8.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/6a59c792-3d7c-492e-9837-128a601a08cb.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/772f3620-d3b0-4227-90cb-6621b60c1d1e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/8f4fa0d3-0ae8-4516-93b9-d767d1a4e06a.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9a955e6b-a9d3-41db-a42e-4891ae160c8e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a32d284e-4cf1-4ad4-885b-bdf990584917.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b0c159af-c71a-4d62-b7ae-78e25e114901.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b4ba0ce7-89ba-4c01-b8ae-cb9f86c950b8.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c5d2f3de-3fa3-4254-9c67-202730325d6d.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/c6a5616b-d0bb-4f2e-8f70-c4ba9130e631.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cfce7dee-7799-4b3c-ad95-5ceeOba815f5.pdij",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/fe854ab6-a0c1-42ab-b9fb-0b486b6d1e02.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff09b859-7eed-40b2-bb49-06dcf918852f.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/0305520a-9e42-47e9-9b86-cbb291219c8e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/207cc3bc-17aa-4725-83cc-26b26a8bff53.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/2da24476-991d-44d1-a71b-fd64d5769a01.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/97330b7e-df7a-4615-a0dd-0fb4468c0fc0.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/a11fa79a-47bd-4a83-bc9f-19368b2c6ebc.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/aa5bbafc-ae17-473d-ab4c-278460d9601e.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/afc20a95-cb34-4776-8a3e-1c27fcc28501.pdf",
+    "https://www.bseindia.com/xml-data/corpfiling/AttachLive/fcbd72cf-a061-4289-96fc-f5bc5b9fcba6.pdf"
+  ]
+}

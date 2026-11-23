@@ -1,0 +1,139 @@
+{
+  "as_of": "2026-11-20",
+  "ceiling_passing_windows": 2,
+  "covered_by_own_season_end_including_development": 5141,
+  "eligible_quarters_including_development": 10221,
+  "filing_ledgers": {
+    "bse": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "nse": "cb381118ee9ad0593180b7d98ac5e7d976487621ce56e7b9b1136ecdf802b1f4"
+  },
+  "membership_sha256": "f3170fbd094cfcbb6f85fac43ae6becd22a4c88940770b96d0957034c7ffb37f",
+  "parent_coverage_sha256": "0e93eb357fb6e0905f52fd9a518a571f1738030a5b38ec4a97b0dca9ea7bb6ce",
+  "passing_windows": 2,
+  "preflight_sha256": "13284053b8f4cc37525787410ef06ffb443f34b80f8b814ff18056cad311cb95",
+  "required_windows": 5,
+  "source_rule": "first_official_xbrl_per_isin_quarter_basis_v1",
+  "stock_quarters_sha256": "04423314a259e75ac30523dfc09f31df07ec0cdb8fb9f9201b9ba047e367a63e",
+  "test_period_gap_reasons_overlap": {
+    "Current-quarter duration has no supporting contexts": 123,
+    "Issuer ISIN disagrees with certificate": 1183,
+    "Missing independently dated current quarter": 33,
+    "Not the registered three-month duration": 27,
+    "incomplete_xbrl_fields": 27,
+    "no_xml_listed": 1486,
+    "structured_attachment_unavailable": 39,
+    "xml_unavailable_by_cutoff": 26
+  },
+  "windows": [
+    {
+      "archived_xml_by_cutoff": 0,
+      "complete_any_xml_edition": 0,
+      "covered": 0,
+      "eligible": 804,
+      "listed_xml_by_cutoff": 0,
+      "pass": false,
+      "required": 644,
+      "season": 2017,
+      "window_end": "2017-12-29"
+    },
+    {
+      "archived_xml_by_cutoff": 448,
+      "complete_any_xml_edition": 323,
+      "covered": 309,
+      "eligible": 804,
+      "listed_xml_by_cutoff": 456,
+      "pass": false,
+      "required": 644,
+      "season": 2018,
+      "window_end": "2018-12-31"
+    },
+    {
+      "archived_xml_by_cutoff": 662,
+      "complete_any_xml_edition": 488,
+      "covered": 460,
+      "eligible": 804,
+      "listed_xml_by_cutoff": 667,
+      "pass": false,
+      "required": 644,
+      "season": 2019,
+      "window_end": "2019-12-31"
+    },
+    {
+      "archived_xml_by_cutoff": 763,
+      "complete_any_xml_edition": 568,
+      "covered": 568,
+      "eligible": 802,
+      "listed_xml_by_cutoff": 763,
+      "pass": false,
+      "required": 642,
+      "season": 2020,
+      "window_end": "2020-12-31"
+    },
+    {
+      "archived_xml_by_cutoff": 762,
+      "complete_any_xml_edition": 561,
+      "covered": 561,
+      "eligible": 800,
+      "listed_xml_by_cutoff": 771,
+      "pass": false,
+      "required": 640,
+      "season": 2021,
+      "window_end": "2021-12-31"
+    },
+    {
+      "archived_xml_by_cutoff": 706,
+      "complete_any_xml_edition": 602,
+      "covered": 601,
+      "eligible": 800,
+      "listed_xml_by_cutoff": 710,
+      "pass": false,
+      "required": 640,
+      "season": 2022,
+      "window_end": "2022-12-30"
+    },
+    {
+      "archived_xml_by_cutoff": 766,
+      "complete_any_xml_edition": 559,
+      "covered": 559,
+      "eligible": 801,
+      "listed_xml_by_cutoff": 770,
+      "pass": false,
+      "required": 641,
+      "season": 2023,
+      "window_end": "2023-12-29"
+    },
+    {
+      "archived_xml_by_cutoff": 780,
+      "complete_any_xml_edition": 600,
+      "covered": 600,
+      "eligible": 803,
+      "listed_xml_by_cutoff": 780,
+      "pass": false,
+      "required": 643,
+      "season": 2024,
+      "window_end": "2024-12-31"
+    },
+    {
+      "archived_xml_by_cutoff": 793,
+      "complete_any_xml_edition": 720,
+      "covered": 711,
+      "eligible": 800,
+      "listed_xml_by_cutoff": 793,
+      "pass": true,
+      "required": 640,
+      "season": 2025,
+      "window_end": "2025-12-31"
+    },
+    {
+      "archived_xml_by_cutoff": 797,
+      "complete_any_xml_edition": 779,
+      "covered": 772,
+      "eligible": 801,
+      "listed_xml_by_cutoff": 797,
+      "pass": true,
+      "required": 641,
+      "season": 2026,
+      "window_end": "2026-11-20"
+    }
+  ]
+}

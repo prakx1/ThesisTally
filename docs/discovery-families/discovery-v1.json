@@ -1,0 +1,123 @@
+{
+  "alpha": 0.05,
+  "development_slice_sha256": {
+    "b10": "911fed7c1449e69aa4d54da1d2bab175581cffe4183764a954264de85bf4e952",
+    "b5": "d995fcbac3c23bdea273066b1a76b96b62cc81c35da979259fb098b8edae637a",
+    "pullback": "57552f1b1c48e341514254a4054d64328bccabac870a45bf77604bfe700a938c"
+  },
+  "development_years": [
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "family": "discovery-v1",
+  "first_validation_year": 2021,
+  "hypotheses": [
+    {
+      "description": "pullback entries in stop_distance_bucket = <5%",
+      "filters": [
+        {
+          "field": "stop_distance_bucket",
+          "values": [
+            "<5%"
+          ]
+        }
+      ],
+      "id": "pullback-2c1d26fa",
+      "strategy": "pullback"
+    },
+    {
+      "description": "pullback entries in breadth_bucket = >60%",
+      "filters": [
+        {
+          "field": "breadth_bucket",
+          "values": [
+            ">60%"
+          ]
+        }
+      ],
+      "id": "pullback-b71cffc7",
+      "strategy": "pullback"
+    },
+    {
+      "description": "b10 entries in stop_distance_bucket = 5\u2013<7%",
+      "filters": [
+        {
+          "field": "stop_distance_bucket",
+          "values": [
+            "5\u2013<7%"
+          ]
+        }
+      ],
+      "id": "b10-962038cb",
+      "strategy": "b10"
+    },
+    {
+      "description": "b10 entries in signal_rank_quintile = Q5",
+      "filters": [
+        {
+          "field": "signal_rank_quintile",
+          "values": [
+            "Q5"
+          ]
+        }
+      ],
+      "id": "b10-e2bd0f8c",
+      "strategy": "b10"
+    },
+    {
+      "description": "b10 entries in the top fifth of stocks by prior three-year mean net R, minimum five observed trades",
+      "id": "b10-95dce55e",
+      "selector": {
+        "field": "stock",
+        "lookback_years": 3,
+        "min_trades": 5,
+        "top_fraction": 0.2
+      },
+      "strategy": "b10"
+    },
+    {
+      "description": "b5 entries in signal_rank_quintile = Q5",
+      "filters": [
+        {
+          "field": "signal_rank_quintile",
+          "values": [
+            "Q5"
+          ]
+        }
+      ],
+      "id": "b5-5d4dc82e",
+      "strategy": "b5"
+    },
+    {
+      "description": "b5 entries in stop_distance_bucket = 5\u2013<7%",
+      "filters": [
+        {
+          "field": "stop_distance_bucket",
+          "values": [
+            "5\u2013<7%"
+          ]
+        }
+      ],
+      "id": "b5-980080c1",
+      "strategy": "b5"
+    }
+  ],
+  "last_validation_session": "2026-11-20",
+  "method_sha256": {
+    "qualification": "15758f47657ad37da0226ca85a3ab821a544f178256c6e8c34924cb918409bbb",
+    "qualification_config": "d59b67cc9fc62cb8e2c4cdefdbac6add0c7b798e09b4522dbf05b914ac7d43e9",
+    "stats": "bced23a940fb5c60efed9b5b6c906566895e0c95e301bd00a737d111bdb6281c"
+  },
+  "sample_sha256": {
+    "b10": "3685bc2e192a80ddff90daec924eddc37d2bb68c6b51d38aa175302954cff89f",
+    "b10-plans": "a8741091163ef75cad802ecf9ca083a010e3b8277f914c5ca68253ef200dbcb9",
+    "b10-receipt": "1d6b9de6882b1eca2c9b552cb68d6b0e8c3531b369d03c9101027a5938db4159",
+    "b5": "e96b56037bc6d3a6012f832403e4c4a1ccb6e568a4bcdd00660443592a617e9f",
+    "b5-plans": "639c8739f7d92a4b27fa77e6319a244d27325d4de9a5f87bc1ffd27fd28a0e8d",
+    "b5-receipt": "6293e2946795e6e18f2fa391fe0eb0fd794a6c37175c733139a7c6cd0f65ce86",
+    "pullback": "204f30ab3f744f280f197c4d5278a29e4b360e1f37a5df0bac233a9e091279c1",
+    "pullback-receipt": "992b56d8ec39226c49e070c1f91b0b4cda76aa91513dbcaf89551849e6de4323"
+  }
+}

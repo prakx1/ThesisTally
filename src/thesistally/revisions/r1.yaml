@@ -1,0 +1,66 @@
+version: research-4
+corporate_action_convention: gross-entitlements-v1
+trend:
+  fast: 20
+  medium: 50
+  slow: 200
+  atr: 14
+  proximity_atr: 1.0
+momentum:
+  lookback: 252
+  strength_days: 126
+  strength_percentile: 0.80
+  base_min: 15
+  base_max: 40
+  near_high: 0.05
+  volume_multiple: 1.5
+vcp:
+  contraction_days: 5
+  min_contractions: 2
+  max_contractions: 4
+  volume_multiple: 1.5
+filters:
+  median_turnover_days: 20
+  min_turnover_inr: 50000000
+  min_breadth: 0.50
+  max_vix: 22
+  earnings_blackout_days: 5
+  earnings_blackout_mode: calendar_days
+  min_stop_fraction: 0.03
+  max_stop_fraction: 0.10
+  max_stop_atr: 2.5
+risk:
+  capital: 1000000
+  fraction: 0.005
+  max_open_risk: 0.04
+  max_positions: 8
+  max_per_sector: 2
+  half_risk_drawdown: 0.06
+  pause_drawdown: 0.10
+exits:
+  target_r: 2.0
+  no_progress_days: 10
+  max_days: 20
+  trailing_low_days: 10
+cost:
+  slippage_bps: 5
+  stt: 0.001
+  exchange: 0.0000307
+  sebi: 0.000001
+  ipft: 0.000000001
+  stamp_buy: 0.00015
+  gst: 0.18
+  dp_sell: 15.34
+validation:
+  min_expectancy_r: 0.25
+  min_profit_factor: 1.4
+  min_closed: 100
+  min_per_window: 20
+  min_positive_fraction: 0.6666666666666666
+  min_weak_positive_windows: 1
+  weak_regime_fraction: 0.5
+  min_ci_lower_r: 0
+  confidence: 0.90
+  bootstrap_samples: 4000
+  bootstrap_seed: 716
+  holdout_months: 18

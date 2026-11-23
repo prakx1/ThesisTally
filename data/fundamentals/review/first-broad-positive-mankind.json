@@ -1,0 +1,13 @@
+{
+  "source_edition": "d4c557ef6240103da8e7eae7f2748bcbcb57a8519858a8b4693be4287ec78c72",
+  "verified_positive_proofs": {
+    "optical_quarter_columns": 2
+  },
+  "physical_source_pages": 1,
+  "cases": {
+    "legacy/MANKIND/INE634S01028/2023-06-30/consolidated/1152816": {
+      "net_profit": "4941884000.00",
+      "revenue": "25786175000.00"
+    }
+  }
+}

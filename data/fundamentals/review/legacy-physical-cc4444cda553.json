@@ -1,0 +1,80 @@
+{
+  "census": {
+    "checked_basis": 3370,
+    "observed_physical_page_basis_reads": 34659,
+    "pending": 3963,
+    "planned_basis_records": 7333,
+    "unreadable_page_basis_reads": 0,
+    "verified_positive_basis": 0
+  },
+  "legacy_plan": "306980ad1dc390e1f5783a82d733bceb2284161d8072bcdf1f550342d624f584",
+  "physical_page_counts_from_signed_original_sample": {
+    "028ab2b2363e55c00476a84631490d99d03c665cb476cb5460b7845988819048": {
+      "actual_pdf_pages": 6,
+      "raw_original": "1a1d04b49eb802f18ba10dd3b647b3e3856ff2e9e2da73044e55071965a093a3"
+    },
+    "15f653a41f337a67a426dd9fa1324d963fd57c5d014ef33772bcb4e7c650628d": {
+      "actual_pdf_pages": 4,
+      "raw_original": "6248e29a9ab50e7264877b292f88cbf92b34ed885d504351a0ed92a06c1b4891"
+    },
+    "1cd679a1ac21d617c30fe6cf0e561efc718fbde1bf13f8b63a007b4deb53a277": {
+      "actual_pdf_pages": 3,
+      "raw_original": "ec10f8624f65b39fc6dd5d7b45b96231f77d4e29da42f4cae917ac22ca9e1bb2"
+    },
+    "24cb1a429aae5b7e60e724396ca3b02f5217cb0bf460020df28d5b4d58d0f034": {
+      "actual_pdf_pages": 11,
+      "raw_original": "2774b1655cdf0e78fbb6c10d93ccf0998b3c46e43a86a7eb593a10042da19cb3"
+    },
+    "476ce078b184e9a6c6038f5d6ecf2abfd890e46cc4982d3da42a4fa412f0031f": {
+      "actual_pdf_pages": 4,
+      "raw_original": "edbdb3d9f2fd5aae52fe5f3bc9b41c265aefb1941254f026cba5ecfb3d54109c"
+    },
+    "5b2b51e7fdb7f3d814faeb69c3db090822b1c431864caf7c454b0101299e3d5c": {
+      "actual_pdf_pages": 9,
+      "raw_original": "505527ec8479f4bcebbc725fea4ee219154382254e3aa36902c86e47f82da687"
+    },
+    "75e19ec2e4c16c80889d9592a55433c227c47a02a2e1349637c7aa731edaaa80": {
+      "actual_pdf_pages": 4,
+      "raw_original": "c1de8874e24fa54f3a55438f952fe4e5bcaead630360fe239ba9a7782d6fdfce"
+    },
+    "8f4fa013b10d235363ed931556215be012eb6fecfbc13775e9036e3e49afb878": {
+      "actual_pdf_pages": 6,
+      "raw_original": "c769e092c95803d3135a74d7289f189c2f27b86ac1aedd972c29098009f8a0fb"
+    },
+    "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521": {
+      "actual_pdf_pages": 11,
+      "raw_original": "14ef42bbd7fd949499655b6f9434ebffb521e7efac9502b98160bf1f8b70c30a"
+    },
+    "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d": {
+      "actual_pdf_pages": 5,
+      "raw_original": "fb966e8195a3966a5a7bf2d45a1c9b414d3c32be0df8d215a82f34a55c3239ad"
+    },
+    "ae41cef06b5a0ce162af19976658fe4c9e8634e9e430e73310fd2b8d41a32241": {
+      "actual_pdf_pages": 5,
+      "raw_original": "6248e29a9ab50e7264877b292f88cbf92b34ed885d504351a0ed92a06c1b4891"
+    },
+    "c6f1ce0134d55c42b31fd3e16c8601056dd859680d59b67537a93174e16b4444": {
+      "actual_pdf_pages": 8,
+      "raw_original": "dffee5d7eda11e95db90b407d40b87b1bd8177a7a1bf4273815b86143b4a4742"
+    },
+    "cc68319eb577bf690240260c0f8af762fad4f575bf0799eaa52f5732b295245b": {
+      "actual_pdf_pages": 9,
+      "raw_original": "98cc7fad9f8805b9a4087f8c094c4cc7cbba9d14863862f800811427e33052e1"
+    },
+    "e5e9728424a127d7363d5c4f2fbe29b2d6659a1e9c9c5a601d22e6200a7bb81d": {
+      "actual_pdf_pages": 8,
+      "raw_original": "cb55cb9ee18bf5426019ebe43a82b51586ef9b1e9f572679364b42dd315a34a8"
+    },
+    "e7d584d0b9060fff2d9c9afdc187569182c7536e2f28e9cc6e522c6e71f58b9e": {
+      "actual_pdf_pages": 17,
+      "raw_original": "8d5756d5f4afa7d7d4bd0e634b3bb8efb769b8e9c0872cbfd52dae48739b220b"
+    },
+    "f98f1eef84495de0281901343a5f7c455fc8624a314966da38b8a1313247edb2": {
+      "actual_pdf_pages": 7,
+      "raw_original": "f355fed7fadf08c8127877ec69e195c1c1e5d7a5c89e2894308a51970d68dd6c"
+    }
+  },
+  "source_edition": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "source_evaluator": "34969ae964bdb26f78381043a5b530bff59cffdde6ebad338e0f60db88ebcc54",
+  "unique_legacy_basis_receipts_sha256": "2587ef49ce8f936de4925c74f5b1d99655212ee757bbd0fa2c041b334de43b0a"
+}

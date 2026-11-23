@@ -16,6 +16,7 @@ import zipfile
 from contextlib import contextmanager
 from datetime import date, datetime, timedelta
 from datetime import time as clock_time
+from decimal import Decimal
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -31,6 +32,12 @@ KITE = "https://api.kite.trade"
 BENCHMARKS = ("NIFTY 50", "NIFTY 200", "INDIA VIX")
 PRICES = ["open", "high", "low", "close"]
 TOLERANCE = 0.005001  # half a paisa, tolerate only decimal representation/rounding
+
+
+def is_strict_move(close, prior):
+    """True only if the published decimal close moved strictly more than 20%."""
+    last = Decimal(str(prior))
+    return abs(Decimal(str(close)) - last) * 5 > last
 
 
 class MarketError(ValueError):

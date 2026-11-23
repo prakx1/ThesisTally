@@ -1,0 +1,54 @@
+{
+  "day": "2014-01-07",
+  "labels": {
+    "FINANTECH": {
+      "isin": "INE111B01023",
+      "percent": 10,
+      "published": "2014-01-06",
+      "sources": [
+        {
+          "published": "2014-01-06",
+          "sha256": "3a08201141beaa84515c8cde83b138877956c746702011da0230ac43b601d770",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV25487.zip"
+        }
+      ]
+    },
+    "GITANJALI": {
+      "isin": "INE346H01014",
+      "percent": 10,
+      "published": "2014-01-06",
+      "sources": [
+        {
+          "published": "2014-01-06",
+          "sha256": "3a08201141beaa84515c8cde83b138877956c746702011da0230ac43b601d770",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV25487.zip"
+        }
+      ]
+    },
+    "PIPAVAVDOC": {
+      "isin": "INE542F01012",
+      "percent": 5,
+      "published": "2014-01-06",
+      "sources": [
+        {
+          "published": "2014-01-06",
+          "sha256": "3a08201141beaa84515c8cde83b138877956c746702011da0230ac43b601d770",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV25487.zip"
+        }
+      ]
+    },
+    "SUZLON": {
+      "isin": "INE040H01021",
+      "percent": 10,
+      "published": "2014-01-06",
+      "sources": [
+        {
+          "published": "2014-01-06",
+          "sha256": "3a08201141beaa84515c8cde83b138877956c746702011da0230ac43b601d770",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV25487.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2014-01-06"
+}

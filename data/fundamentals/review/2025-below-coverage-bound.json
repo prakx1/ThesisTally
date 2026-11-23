@@ -1,0 +1,171 @@
+{
+  "source_edition": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "plan": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "evaluator": "489904c9e32cdea765c68d98637661b44096577c6c0a6586d9996923b183eb51",
+  "run": "b5964daddb1417c9f81f92daae3cb32bd5f1b08158ca1e68da219b7d784208f8",
+  "completed_job_snapshot_sha256": "4be73ce21b31966986e21a9784998dbd8e00729f2dee2381ead7db1d4ac7160e",
+  "completed_source_jobs": 69,
+  "total_jobs": 5837,
+  "matched_nominated_accessions": 119,
+  "completed_nominated_accessions_with_no_fields_contradictions_or_unreadable_pages": 118,
+  "accessions_with_an_unreadable_source_retained": 0,
+  "positive_source_receipts": 1,
+  "limitation": "Fixed source plans and recorded evaluator only. Every pending accession or other basis, any positive field, any internally inconsistent evidence, any failed physical read, all initially covered issuer-quarters, and every eligible legacy/quarantined or independently traced earlier original remains eligible in this deliberately optimistic count. A pair is removed only after all of its applicable nominated accessions have physically complete, fully matched receipts with no observed fields or conflicts. Additional collectors, archives, improved recognition or changed source rules are outside this bound.",
+  "windows": {
+    "2017": {
+      "eligible": 804,
+      "covered_in_reference_edition": 0,
+      "optimistic_before_processing": 600,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 0,
+      "optimistic_now": 600,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 644,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2018": {
+      "eligible": 804,
+      "covered_in_reference_edition": 17,
+      "optimistic_before_processing": 413,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 7,
+      "optimistic_now": 406,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 644,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2019": {
+      "eligible": 804,
+      "covered_in_reference_edition": 30,
+      "optimistic_before_processing": 432,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 5,
+      "optimistic_now": 427,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 644,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2020": {
+      "eligible": 802,
+      "covered_in_reference_edition": 57,
+      "optimistic_before_processing": 496,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 4,
+      "optimistic_now": 492,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 642,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2021": {
+      "eligible": 800,
+      "covered_in_reference_edition": 60,
+      "optimistic_before_processing": 533,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 4,
+      "optimistic_now": 529,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 640,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2022": {
+      "eligible": 800,
+      "covered_in_reference_edition": 66,
+      "optimistic_before_processing": 563,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 1,
+      "optimistic_now": 562,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 640,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2023": {
+      "eligible": 801,
+      "covered_in_reference_edition": 62,
+      "optimistic_before_processing": 504,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 4,
+      "optimistic_now": 500,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 641,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2024": {
+      "eligible": 803,
+      "covered_in_reference_edition": 62,
+      "optimistic_before_processing": 543,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 10,
+      "optimistic_now": 533,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 643,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2025": {
+      "eligible": 800,
+      "covered_in_reference_edition": 95,
+      "optimistic_before_processing": 642,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 3,
+      "optimistic_now": 639,
+      "minimal_case_receipts_proving_newly_impossible_window": {
+        "INE002L01015/2024-12-31": [
+          {
+            "id": "legacy/SJVN/INE002L01015/2024-12-31/consolidated/1196011",
+            "symbol": "SJVN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/1_13022025191232.pdf",
+            "release_at": "2025-02-13T19:12:33+05:30",
+            "job": "f031a91d537d0a554d520f2970cb92605be1400c1f22c686ec542f8478e8689e",
+            "receipt_sha256": "dcdde21be10bcb338e2fff91f10e97851947aa92b107a17b7e2856f1d7c54246"
+          },
+          {
+            "id": "legacy/SJVN/INE002L01015/2024-12-31/standalone/1196009",
+            "symbol": "SJVN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/1_13022025191232.pdf",
+            "release_at": "2025-02-13T19:12:33+05:30",
+            "job": "f031a91d537d0a554d520f2970cb92605be1400c1f22c686ec542f8478e8689e",
+            "receipt_sha256": "aa1c277918821dde024832e4b1d0ffaeae1f35efb713c43d33318ef6f817c39a"
+          }
+        ],
+        "INE029A01011/2024-12-31": [
+          {
+            "id": "legacy/BPCL/INE029A01011/2024-12-31/consolidated/1190245",
+            "symbol": "BPCL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/1stexchresults22125s_22012025154539.pdf",
+            "release_at": "2025-01-22T15:45:40+05:30",
+            "job": "a3b99dfc3ffedf121c1a66bc2eb7d2cf509c01de22076b94f6239981c37f4a1d",
+            "receipt_sha256": "1a037f9cbf79c9d361573a65d6178e99a487f7860052bb7ff4e430f33e9b8780"
+          },
+          {
+            "id": "legacy/BPCL/INE029A01011/2024-12-31/standalone/1190241",
+            "symbol": "BPCL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/1stexchresults22125s_22012025154539.pdf",
+            "release_at": "2025-01-22T15:45:40+05:30",
+            "job": "a3b99dfc3ffedf121c1a66bc2eb7d2cf509c01de22076b94f6239981c37f4a1d",
+            "receipt_sha256": "afcdd20f71c78aac6dc73841ed366febb5b23e24bdd3b85c22a6c54939fcc93b"
+          }
+        ],
+        "INE151A01013/2024-12-31": [
+          {
+            "id": "legacy/TATACOMM/INE151A01013/2024-12-31/consolidated/1190209",
+            "symbol": "TATACOMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/18084_22012025141912.pdf",
+            "release_at": "2025-01-22T14:19:12+05:30",
+            "job": "30a22c9be0f47c064e7d887b89f3ca8e1dcb7dcd4dbc25976a1d7c8082ac59e1",
+            "receipt_sha256": "3c0df39f897150f5356893c9e2941c5a75733ff78f19970afc5fe87ccee8e086"
+          },
+          {
+            "id": "legacy/TATACOMM/INE151A01013/2024-12-31/standalone/1190211",
+            "symbol": "TATACOMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/18084_22012025141912.pdf",
+            "release_at": "2025-01-22T14:19:12+05:30",
+            "job": "30a22c9be0f47c064e7d887b89f3ca8e1dcb7dcd4dbc25976a1d7c8082ac59e1",
+            "receipt_sha256": "4b4a773c56bdc113dcd742e018087ab6909bc8886bf42ace904028dc1c212d47"
+          }
+        ]
+      },
+      "required": 640,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2026": {
+      "eligible": 801,
+      "covered_in_reference_edition": 128,
+      "optimistic_before_processing": 728,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 0,
+      "optimistic_now": 728,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 641,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": true
+    }
+  }
+}

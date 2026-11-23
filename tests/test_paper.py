@@ -62,3 +62,57 @@ def test_forward_paper_account_follows_calls_through_daily_marks_and_exit(tmp_pa
     assert last["total_pnl"] == pytest.approx(trade["net"])
     assert len(final["history"]) == 4
     assert [m["day"] for m in dashboard.paper_trade(cid)["marks"]] == [str(d2), str(d1)]
+
+
+def test_shadow_fills_at_gap_cap_and_keeps_tracking_after_original_miss(tmp_path):
+    from thesistally import paper
+    from thesistally.cli import open_calls
+
+    path = tmp_path / "journal.sqlite"
+    a, b = pick(), pick("B")
+    b.features["surveillance"] = True
+    with closing(journal(path)) as db:
+        process(db, "observations", DAY, REGIME, [a, b], calendar(DAY), CFG)
+        assert len(paper.comparisons(db)) == 2
+        assert paper.pair_signals(db, str(DAY)) == 0
+    with closing(journal(path)) as db:
+        for i in (1, 1, 2, 3):
+            d = DAY + timedelta(days=i)
+            frames = calendar(d)
+            for sym, op in (("A", 102), ("B", 102.01)):
+                bar = prices(
+                    open_=op if i == 1 else 88,
+                    high=108,
+                    low=95 if i == 1 else 87,
+                    close=103 if i == 1 else 88,
+                )
+                frame = pd.DataFrame([vars(bar)], index=[d])
+                frame.attrs["exchange"] = MARKET
+                frames[sym] = frame
+            frames["NIFTY 200"] = frames["A"]
+            process(db, "observations", d, REGIME, [], frames, CFG)
+            if i == 1:
+                cmp = {r["symbol"]: r for r in paper.comparisons(db)}
+                assert cmp["A"]["status"] == "missed" and cmp["A"]["shadow_status"] == "active"
+                assert cmp["B"]["status"] == cmp["B"]["shadow_status"] == "missed"
+                alt = cmp["A"]["shadow_id"]
+                leg = db.execute("SELECT * FROM calls WHERE id=?", (alt,)).fetchone()
+                assert leg["buy"] == pytest.approx(102 * 1.0005)
+                assert leg["target"] == pytest.approx(leg["buy"] + 2 * (leg["buy"] - 90))
+                assert [
+                    r["isin"] for r in open_calls(db, "observations", d + timedelta(days=1))
+                ] == ["A"]
+        cmp = {r["symbol"]: r for r in paper.comparisons(db)}
+        assert cmp["A"]["shadow_status"] == "closed" and cmp["A"]["shadow_r"] < 0
+        assert cmp["A"]["outcome_r"] is None
+        assert db.execute("SELECT count(*) FROM fills WHERE call_id=?", (alt,)).fetchone()[0] == 2
+        assert (
+            db.execute(
+                "SELECT count(*) FROM paper_position_marks WHERE call_id=?", (alt,)
+            ).fetchone()[0]
+            == 2
+        )
+    book = Dashboard(tmp_path).paper_account()
+    assert book["history"][0]["total_pnl"] == 0
+    assert len(book["trades"]) == 1 and len(book["comparisons"]) == 2
+    assert not Dashboard(tmp_path).paper_fills(str(d))

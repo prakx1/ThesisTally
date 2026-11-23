@@ -1,0 +1,18 @@
+{
+  "previous_evidence": "evidence.json",
+  "previous_sha256": "dcbf038283a46e7c30529e740c43a2af12aa32fb98cd93f320104dc77d2522db",
+  "cases": [
+    {
+      "isin": "INE726G01019",
+      "symbol": "ICICIPRULI",
+      "day": "2020-03-23",
+      "prior_day": "2020-03-20",
+      "prior_close": 304.2,
+      "close": 238.8,
+      "journal": "stage3/close-verification/runs/dcbf038283a46e7c3052/84e8db3dff215a6d895a/journal.sqlite",
+      "run": "A252-walk-4",
+      "last_account_state_json": "{\"cash\": 290667.74282500014, \"positions\": {\"INE127D01025\": {\"qty\": 20, \"mark\": 2423.7, \"symbol\": \"HDFCAMC\", \"basis\": 64045.97854761906, \"scheme\": {}}, \"INE298J01013\": {\"qty\": 159, \"mark\": 256.35, \"symbol\": \"NAM-INDIA\", \"basis\": 56677.48176718749, \"scheme\": {}}, \"INE123W01016\": {\"qty\": 69, \"mark\": 633.5, \"symbol\": \"SBILIFE\", \"basis\": 66697.3925, \"scheme\": {}}, \"INE603J01030\": {\"qty\": 42, \"mark\": 1200.95, \"symbol\": \"PIIND\", \"basis\": 61040.66756666667, \"scheme\": {}}, \"INE296A01024\": {\"qty\": 14, \"mark\": 2951.9, \"symbol\": \"BAJFINANCE\", \"basis\": 59527.692437499994, \"scheme\": {}}, \"INE726G01019\": {\"qty\": 136, \"mark\": 304.2, \"symbol\": \"ICICIPRULI\", \"basis\": 65730.76362318841, \"scheme\": {}}, \"INE192A01025\": {\"qty\": 182, \"mark\": 264.2, \"symbol\": \"TATACONSUM\", \"basis\": 58584.42816400965, \"scheme\": {}}, \"INE522D01027\": {\"qty\": 375, \"mark\": 97.55, \"symbol\": \"MANAPPURAM\", \"basis\": 66870.68899999998, \"scheme\": {}}, \"INE663F01024\": {\"qty\": 24, \"mark\": 1951.6, \"symbol\": \"NAUKRI\", \"basis\": 60901.830369230775, \"scheme\": {}}, \"INE463A01038\": {\"qty\": 113, \"mark\": 450.65, \"symbol\": \"BERGEPAINT\", \"basis\": 58355.488885077495, \"scheme\": {}}, \"INE716A01013\": {\"qty\": 28, \"mark\": 1999.3, \"symbol\": \"WHIRLPOOL\", \"basis\": 67022.94499999999, \"scheme\": {}}}, \"orders\": {}, \"receivables\": [], \"prior_gate\": false, \"bonuses\": []}",
+      "account_state_sha256": "6b6627b76d9df94240ae0c3fe8702b09b9f42bbc7f2e63e2547e1655541c3b42"
+    }
+  ]
+}

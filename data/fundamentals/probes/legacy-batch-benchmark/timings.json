@@ -1,0 +1,353 @@
+[
+  {
+    "mode": "individual",
+    "pdf_sha256": "bf2ade27706a87bc05c88edfba80e7aed0f331792c2944e6218a4845e24b100b",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 1.3339129590895027,
+    "ocr_s": 2.4705468751490116,
+    "total_s": 3.8044598342385143,
+    "word_counts": [
+      232,
+      116
+    ],
+    "pixel_digests": [
+      [
+        1733,
+        2400,
+        "52479c2696e933cfb6ec44b59f8b818d4a8e3819a70eab16882bd81fb2f1a7ec"
+      ],
+      [
+        1718,
+        2400,
+        "25daeb5d5e3715a6391757c24b8a66fd72884020ff587735803df0446dc9157e"
+      ]
+    ],
+    "png_sha256": [
+      "6f8329584d43c839b3de4db3a427a428e6b52457dbc23f9d8df4b9544885fe51",
+      "fe940b43551f93e1e579aea222a1947ff14e17f2b7201198f1cf7e08a0e54196"
+    ],
+    "word_boxes_sha256": [
+      "949177f58edb7108d27a1078071002b4f004d5f961c57202a1c0ebf06810b516",
+      "c7333eb966e731fb9e16d4212ce29edf46640ce5e329d7c0a690d4d3f50f43f6"
+    ],
+    "field_decisions_sha256": [
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b",
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b"
+    ]
+  },
+  {
+    "mode": "batch_png",
+    "pdf_sha256": "bf2ade27706a87bc05c88edfba80e7aed0f331792c2944e6218a4845e24b100b",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 1.2947897501289845,
+    "ocr_s": 2.2089916251134127,
+    "total_s": 3.503781375242397,
+    "word_counts": [
+      232,
+      116
+    ],
+    "pixel_digests": [
+      [
+        1733,
+        2400,
+        "52479c2696e933cfb6ec44b59f8b818d4a8e3819a70eab16882bd81fb2f1a7ec"
+      ],
+      [
+        1718,
+        2400,
+        "25daeb5d5e3715a6391757c24b8a66fd72884020ff587735803df0446dc9157e"
+      ]
+    ],
+    "png_sha256": [
+      "6f8329584d43c839b3de4db3a427a428e6b52457dbc23f9d8df4b9544885fe51",
+      "fe940b43551f93e1e579aea222a1947ff14e17f2b7201198f1cf7e08a0e54196"
+    ],
+    "word_boxes_sha256": [
+      "949177f58edb7108d27a1078071002b4f004d5f961c57202a1c0ebf06810b516",
+      "c7333eb966e731fb9e16d4212ce29edf46640ce5e329d7c0a690d4d3f50f43f6"
+    ],
+    "field_decisions_sha256": [
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b",
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b"
+    ]
+  },
+  {
+    "mode": "batch_ppm",
+    "pdf_sha256": "bf2ade27706a87bc05c88edfba80e7aed0f331792c2944e6218a4845e24b100b",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 0.4183244160376489,
+    "ocr_s": 1.5750190829858184,
+    "total_s": 1.9933434990234673,
+    "word_counts": [
+      232,
+      116
+    ],
+    "pixel_digests": [
+      [
+        1733,
+        2400,
+        "52479c2696e933cfb6ec44b59f8b818d4a8e3819a70eab16882bd81fb2f1a7ec"
+      ],
+      [
+        1718,
+        2400,
+        "25daeb5d5e3715a6391757c24b8a66fd72884020ff587735803df0446dc9157e"
+      ]
+    ],
+    "png_sha256": [
+      "519e0185c5b01e92c0883fab9cbe4adc2bbe9b2639ddf99f802652af057a0a97",
+      "e28933b4b46d3cbe8d2cab82fca15495ab427681fd7d4422160b6c2de9a04e4b"
+    ],
+    "word_boxes_sha256": [
+      "949177f58edb7108d27a1078071002b4f004d5f961c57202a1c0ebf06810b516",
+      "c7333eb966e731fb9e16d4212ce29edf46640ce5e329d7c0a690d4d3f50f43f6"
+    ],
+    "field_decisions_sha256": [
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b",
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b"
+    ]
+  },
+  {
+    "mode": "batch_png",
+    "pdf_sha256": "42eb5f4cc398f032569947cb953a41f898731b453eab40049a14afbc109be80f",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 1.747587500140071,
+    "ocr_s": 1.4756616249214858,
+    "total_s": 3.2232491250615567,
+    "word_counts": [
+      38,
+      252
+    ],
+    "pixel_digests": [
+      [
+        1705,
+        2400,
+        "f9f25373ea8cd55a0caa46d4ab08f7140a55ec166b62deeadd4ee789a6b991e4"
+      ],
+      [
+        1699,
+        2400,
+        "ae57b64c7c8d7bb5a24a2b7ea8bf77dfff98a37a7c5578f002793156edc2afcf"
+      ]
+    ],
+    "png_sha256": [
+      "8f653303ac6494ef6ca95714e5762c92f3071e2681a0c75853ffee75c1f407a2",
+      "2f69c88aa798bcdccb092ed905f6f7400cc496e4dd9b1d27ecd989e379a97b29"
+    ],
+    "word_boxes_sha256": [
+      "806a557ea9b0e8d973dbbcaeb85f3726fadae0a4f7d6843b434b808539571200",
+      "e9f99ee32d516530351cde84d791c72774b650bfbf5d4693d3946fc771175eb0"
+    ],
+    "field_decisions_sha256": [
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b",
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b"
+    ]
+  },
+  {
+    "mode": "batch_ppm",
+    "pdf_sha256": "42eb5f4cc398f032569947cb953a41f898731b453eab40049a14afbc109be80f",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 0.46399791701696813,
+    "ocr_s": 1.4392467921134084,
+    "total_s": 1.9032447091303766,
+    "word_counts": [
+      38,
+      252
+    ],
+    "pixel_digests": [
+      [
+        1705,
+        2400,
+        "f9f25373ea8cd55a0caa46d4ab08f7140a55ec166b62deeadd4ee789a6b991e4"
+      ],
+      [
+        1699,
+        2400,
+        "ae57b64c7c8d7bb5a24a2b7ea8bf77dfff98a37a7c5578f002793156edc2afcf"
+      ]
+    ],
+    "png_sha256": [
+      "a4d4b78a5ff8fe283c9545ba44374e373bf33029fe6ec689b9bf18f821dc9167",
+      "51caa2b9c665851d30c14fc11cf698703a0823f55a64a9d59f49fc7d66e51621"
+    ],
+    "word_boxes_sha256": [
+      "806a557ea9b0e8d973dbbcaeb85f3726fadae0a4f7d6843b434b808539571200",
+      "e9f99ee32d516530351cde84d791c72774b650bfbf5d4693d3946fc771175eb0"
+    ],
+    "field_decisions_sha256": [
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b",
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b"
+    ]
+  },
+  {
+    "mode": "individual",
+    "pdf_sha256": "42eb5f4cc398f032569947cb953a41f898731b453eab40049a14afbc109be80f",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 1.6504399159457535,
+    "ocr_s": 1.8831375408917665,
+    "total_s": 3.53357745683752,
+    "word_counts": [
+      38,
+      252
+    ],
+    "pixel_digests": [
+      [
+        1705,
+        2400,
+        "f9f25373ea8cd55a0caa46d4ab08f7140a55ec166b62deeadd4ee789a6b991e4"
+      ],
+      [
+        1699,
+        2400,
+        "ae57b64c7c8d7bb5a24a2b7ea8bf77dfff98a37a7c5578f002793156edc2afcf"
+      ]
+    ],
+    "png_sha256": [
+      "8f653303ac6494ef6ca95714e5762c92f3071e2681a0c75853ffee75c1f407a2",
+      "2f69c88aa798bcdccb092ed905f6f7400cc496e4dd9b1d27ecd989e379a97b29"
+    ],
+    "word_boxes_sha256": [
+      "806a557ea9b0e8d973dbbcaeb85f3726fadae0a4f7d6843b434b808539571200",
+      "e9f99ee32d516530351cde84d791c72774b650bfbf5d4693d3946fc771175eb0"
+    ],
+    "field_decisions_sha256": [
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b",
+      "18bd149d9224d50af331c7fdea3f59db808cc46380e01398b96b14f52ac68e6b"
+    ]
+  },
+  {
+    "mode": "batch_ppm",
+    "pdf_sha256": "7ffbcb7bf32f9951cece50f2e46e585456f6b91a42f7a47788155577a89b8e8d",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 0.6181482919491827,
+    "ocr_s": 1.3785018750932068,
+    "total_s": 1.9966501670423895,
+    "word_counts": [
+      35,
+      143
+    ],
+    "pixel_digests": [
+      [
+        1746,
+        2400,
+        "e44be750e94b3ac0b143225ad2eca19741beea7aabd590aa58ade77d8e9992bd"
+      ],
+      [
+        1745,
+        2400,
+        "260b55a5274e1cf9eea5b9908f36e3320e8291e9e64968a2843870efe2aeaeb8"
+      ]
+    ],
+    "png_sha256": [
+      "ff1747ada93b632ff63617926001e5e1357b0ed955c5052be80b9f4dfe119b2c",
+      "2a3fb47d60bab5a2e89f7217849544e94629f5c80343161d4f9b67421ffe4454"
+    ],
+    "word_boxes_sha256": [
+      "871f78d267845dedab497ca980bbd700b1cb067f275462e9274bf93421d29dea",
+      "d325aed5a954ea2d20fd55594eedc5e90128b8e1ee3fe3c66727339b11ec1eef"
+    ],
+    "field_decisions_sha256": [
+      "4ad6f3e594ffb2366c39efb4c08f4fa6ea8e1084131d64196c663e6f1f41469e",
+      "4ad6f3e594ffb2366c39efb4c08f4fa6ea8e1084131d64196c663e6f1f41469e"
+    ]
+  },
+  {
+    "mode": "individual",
+    "pdf_sha256": "7ffbcb7bf32f9951cece50f2e46e585456f6b91a42f7a47788155577a89b8e8d",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 1.2064644999336451,
+    "ocr_s": 1.6186824168544263,
+    "total_s": 2.8251469167880714,
+    "word_counts": [
+      35,
+      143
+    ],
+    "pixel_digests": [
+      [
+        1746,
+        2400,
+        "e44be750e94b3ac0b143225ad2eca19741beea7aabd590aa58ade77d8e9992bd"
+      ],
+      [
+        1745,
+        2400,
+        "260b55a5274e1cf9eea5b9908f36e3320e8291e9e64968a2843870efe2aeaeb8"
+      ]
+    ],
+    "png_sha256": [
+      "c0c7704b6707e81bd5290d3ed6d7203d3184f26c3d36f75302626cb6323dd2a2",
+      "df86316dd299f6633e9c7e49cb03105c68cce517bce139329e1ee230e05453c7"
+    ],
+    "word_boxes_sha256": [
+      "871f78d267845dedab497ca980bbd700b1cb067f275462e9274bf93421d29dea",
+      "d325aed5a954ea2d20fd55594eedc5e90128b8e1ee3fe3c66727339b11ec1eef"
+    ],
+    "field_decisions_sha256": [
+      "4ad6f3e594ffb2366c39efb4c08f4fa6ea8e1084131d64196c663e6f1f41469e",
+      "4ad6f3e594ffb2366c39efb4c08f4fa6ea8e1084131d64196c663e6f1f41469e"
+    ]
+  },
+  {
+    "mode": "batch_png",
+    "pdf_sha256": "7ffbcb7bf32f9951cece50f2e46e585456f6b91a42f7a47788155577a89b8e8d",
+    "original_pages": [
+      1,
+      2
+    ],
+    "render_s": 1.1218368750996888,
+    "ocr_s": 1.3119326250161976,
+    "total_s": 2.4337695001158863,
+    "word_counts": [
+      35,
+      143
+    ],
+    "pixel_digests": [
+      [
+        1746,
+        2400,
+        "e44be750e94b3ac0b143225ad2eca19741beea7aabd590aa58ade77d8e9992bd"
+      ],
+      [
+        1745,
+        2400,
+        "260b55a5274e1cf9eea5b9908f36e3320e8291e9e64968a2843870efe2aeaeb8"
+      ]
+    ],
+    "png_sha256": [
+      "c0c7704b6707e81bd5290d3ed6d7203d3184f26c3d36f75302626cb6323dd2a2",
+      "df86316dd299f6633e9c7e49cb03105c68cce517bce139329e1ee230e05453c7"
+    ],
+    "word_boxes_sha256": [
+      "871f78d267845dedab497ca980bbd700b1cb067f275462e9274bf93421d29dea",
+      "d325aed5a954ea2d20fd55594eedc5e90128b8e1ee3fe3c66727339b11ec1eef"
+    ],
+    "field_decisions_sha256": [
+      "4ad6f3e594ffb2366c39efb4c08f4fa6ea8e1084131d64196c663e6f1f41469e",
+      "4ad6f3e594ffb2366c39efb4c08f4fa6ea8e1084131d64196c663e6f1f41469e"
+    ]
+  }
+]

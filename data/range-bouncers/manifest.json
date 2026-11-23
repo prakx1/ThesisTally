@@ -1,0 +1,58 @@
+{
+  "annual_bhavcopy_derivatives": {
+    "2012.parquet": "9172dd779d75704aa94f1a5bea13b05c8b38518f68868d0fed60de5306358ef6",
+    "2013.parquet": "fe3ef53da8f707d5560950e5f8c0c64080ade3c471c833fa2f6a3999a7d71207",
+    "2014.parquet": "255fda9aeb12cbedfe2047f75c6ad5911955ebd6c8beb2cc0037067b3d237377",
+    "2015.parquet": "272afdb2b9bff9137440f50667ff1fbcd62e5455655dc3938ad2d68b147a08c2",
+    "2016.parquet": "75b70393bf162f3059000480de4b77a1ddf75889f64bbe7b6e5683c52dab1eac",
+    "2017.parquet": "3f947c9b09f03fdad3b3fdbe58de0d7858ec295eee31aa0c3536c1e4a6390c2b",
+    "2018.parquet": "39e762e419f0a796801798793a02f446a9a6c9e90ec0ea448e6389627798bde2",
+    "2019.parquet": "251ab820766fc394c6cbdcc0c58d24939c717c4bf1e0afdcf591597e5d1e0012",
+    "2020.parquet": "b00e9ac260982e33e6052431741f9835a32f0db02ae4e3eb1b0e4a3b91178db1",
+    "2021.parquet": "7bc22f81d7779c2f4f061d8d50632a23814ac126e87a4024ec1d53a02ef13a49",
+    "2022.parquet": "3d717f532b453755aea2c4c41d1d4db9736cebf2cc0c84ba65e1f8d9daab62ff",
+    "2023.parquet": "3b58febb8693e5037e1287abf7af1cb86e1ebae675f3a70848fc0277a39fd2e3",
+    "2024.parquet": "3243e1ffaa129f4fc54b3010decd46e94100045e0209e00261618a3736ebff1b",
+    "2025.parquet": "5d6f54b1ecfba618415c145d1be82656c8d28be0bf3798b4bbdb18e9da18ee56",
+    "2026.parquet": "bdee33aad8e5b859d7a936bf7e8eab5ac9173ed1ef2327e7721ce02f3437689e"
+  },
+  "cash_events_sha256": "4d9b93761d3c2f200b135a212975e3c34e1b9bdd4bc9bc19cb6d0a0d698d1de0",
+  "dividend_evidence_sha256": "de55b1f8aa9fcc4744070abe0a48405d6af0bf9afdf29152b53df3546a625c2e",
+  "end": "2026-11-20",
+  "month_ends": 119,
+  "monthly_histories_matching_400_published_sessions": 21328,
+  "monthly_reasons": {
+    "": 767,
+    "collapse": 156,
+    "dividend_terms_or_coverage_unknown": 198,
+    "fewer_than_three_traversals": 5154,
+    "fewer_than_three_traversals|collapse": 950,
+    "incomplete_500_session_history": 2323,
+    "monthly_illiquid": 587,
+    "monthly_liquidity_unknown": 90,
+    "total_return_outside_band": 820,
+    "total_return_outside_band|collapse": 163,
+    "total_return_outside_band|fewer_than_three_traversals": 10550,
+    "total_return_outside_band|fewer_than_three_traversals|collapse": 2097
+  },
+  "preregistration": "8a67849",
+  "products": {
+    "coverage.parquet": {
+      "rows": 2452,
+      "sha256": "e90ac3dc9a5ecbbf2422a5ed047669b0fa5e8bdc861a57725badde0b4983352b"
+    },
+    "monthly.parquet": {
+      "rows": 23855,
+      "sha256": "bd2dc464209add8014bd607b80927786609d916fd9be7fdf82272ad73f1da995"
+    },
+    "signals.parquet": {
+      "rows": 24549,
+      "sha256": "75a5df507783721b9138e1fd2626cef9a3c32dd753d1e26da49011bafef1584d"
+    }
+  },
+  "sessions": 2452,
+  "snapshot_sha256": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+  "split_lineage_evidence_sha256": "172b2c89fcbb6e63e9665bd365524d4e15a441f46894b6dfa444f380d5a9020a",
+  "start": "2016-12-30",
+  "version": "range-bouncers-signals-v1"
+}

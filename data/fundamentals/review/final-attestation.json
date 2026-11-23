@@ -1,0 +1,63 @@
+{
+  "algorithm": "Ed25519",
+  "canonical_payload": "UTF-8 JSON with sorted keys and compact comma/colon separators.",
+  "payload": {
+    "branch": "research/results-strategy-d",
+    "completed_windows": 0,
+    "decision": "insufficient data",
+    "eligible_stock_quarters": 10221,
+    "focused_tests_passed": 214,
+    "frozen_a126_tag": "a126-forward-2026-11-21",
+    "frozen_a126_target": "dc8e45c791c4f8485eaa869a6985f492805039b3",
+    "key_purpose": "One-time locally generated reviewer key; no third-party identity attestation.",
+    "preregistration_commit": "af36fef",
+    "registered_studies": {
+      "results-d20": [
+        {
+          "evaluation": "insufficient data",
+          "event": "02-000001-study.json",
+          "status": "proposed"
+        }
+      ],
+      "results-d40": [
+        {
+          "evaluation": "insufficient data",
+          "event": "02-000001-study.json",
+          "status": "proposed"
+        }
+      ]
+    },
+    "replay_code_commit": "ec76c5f3ac42c297a51cc75ed0cece8b2010d4b2",
+    "report_identity": "80439cf03f306663141ab7a429c63af95ea78b8a7db7251f809b80dea7994b6a",
+    "reviewed_artifacts_sha256": {
+      "data/discovery/register/results-d20/02-000001-study.json": "fbef711c5dc11d0a67ff5d918ae817cda0f08d840a879debf3e0c653e4fb2fd6",
+      "data/discovery/register/results-d40/02-000001-study.json": "72c45f7de6f0c1b37fa7a687b778e964fc1f3cba815486ca5a75efe9691f3934",
+      "data/fundamentals/coverage-history/0e93eb357fb6e0905f52fd9a518a571f1738030a5b38ec4a97b0dca9ea7bb6ce.json": "0e93eb357fb6e0905f52fd9a518a571f1738030a5b38ec4a97b0dca9ea7bb6ce",
+      "data/fundamentals/processing-history/0e93eb357fb6e0905f52fd9a518a571f1738030a5b38ec4a97b0dca9ea7bb6ce.json": "5da677beb1e30db686ec6f5f4278bbbe6006978a597c323c115fb93933d008ba",
+      "data/fundamentals/replays/80439cf03f306663141a/report.json": "4530fc5fd9b1dc4cc3194fdbc0e4d80283b815f1cd6b951108d2483faa8ae9ce",
+      "data/fundamentals/review/2026-below-coverage-bound.json": "81f8a2715b9413551675cafc23c1230e289c31cc2476deb3718d4f557de3eff3",
+      "data/fundamentals/review/acquisition-decoded-a96533f7.json": "ebd0cfb8998f3f5177f912e61e0860d3d6054a45462a613ea715249715907d62",
+      "data/fundamentals/review/canonical-optical-0e93eb35.json": "6dfe2e736d49cc755b5a0246234df212b56412dc4c463cff2e5404032349190f",
+      "data/fundamentals/review/completed-legacy-scope-306980ad.json": "fa1c54253ad5e49ab8842c6d62a9afaf0dea5597dea6be7cf5667a9099357e2b",
+      "data/fundamentals/review/completed-modern-financials-673ac0fa.json": "99ebe5c8aeda2566291009ade80022648350ae4ef02d40526b4dfae4abd69301",
+      "data/fundamentals/review/completed-modern-physical-673ac0fa.json": "b6b2adba0f85b36f02eca2ed9d880ba80f0d2650d088691044ed9d8b5912a57f",
+      "data/fundamentals/review/final-0e93eb35.json": "1f60fa38c630fce1bb301a6858d6b807923d5dbad207f173a4e126c69cd56918",
+      "data/fundamentals/review/final-focused-tests.txt": "0ba4561cd35742bd797a3842456dae72deee44922205323ed0b092bb1e25a4dc",
+      "data/fundamentals/review/final-legacy-physical-0cc8781e.json": "c298684699bb1aa739f1f4633d757471e68500a91e6de448f0c5aa26738fad40",
+      "data/fundamentals/review/reconcile.py": "7817b18143257474965373ace257c118fe87dbe67500bcfda1590475a8404c9a",
+      "data/fundamentals/review/techm-2012-original-physical-pages.json": "7064670a598f179df7d5a019876426a9634a579ae148e82531281a22c44fbeac",
+      "data/fundamentals/review/verify_attestation.py": "05c1d9452498e71965d96f560d1718a92f28ffad872f5e4955ec5150ce5e4a81",
+      "docs/RESULTS_D_REVIEW.md": "6055d8b9cd22cae34fb889d1bf13dbe2f51806c16ea3fd4f8a6d0976de1a8936",
+      "src/thesistally/revisions/a126-forward.json": "dd3b24b62fc61322a3b93213cbf146bede92ca600676d891aaa36d2153d1d2e7",
+      "tests/test_discovery_isolation.py": "d945bdf448cedbef196a755a13519e4b98c166e621412db5b07b8637d3da41a7"
+    },
+    "reviewer": "Codex independent research reviewer, separate from implementation authors",
+    "scheduled_windows": 10,
+    "scope": "Independent Strategy D research review, D40 primary and D20 sensitivity; dated as first reported, both books, final terminal edition.",
+    "source_filing_ledger_sha256": "cb381118ee9ad0593180b7d98ac5e7d976487621ce56e7b9b1136ecdf802b1f4",
+    "timestamp_utc": "2026-11-23T07:05:24.492088+00:00",
+    "verified_stock_quarters": 610
+  },
+  "public_key_base64": "OXY+pdwabruCV7l/RHd9dhj5w7eBp6JiG4KyTwPqzlo=",
+  "signature_base64": "3Ms84ZFD0lYCRB5gdt5gGXga3syrs5u28rUt5ZMopYjfwYW9EHJo6qsQSEmQyUHnAwDrZdFnu1d6uDLcN1SiBg=="
+}

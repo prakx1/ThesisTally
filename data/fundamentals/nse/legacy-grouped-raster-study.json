@@ -1,0 +1,679 @@
+{
+  "ledger_sha256": "1259069185386509a381ed410824f4dde6f888c7c12f3c1d8a9a738332a8ca8d",
+  "observer_sha256": "34969ae964bdb26f78381043a5b530bff59cffdde6ebad338e0f60db88ebcc54",
+  "ocr_worker_sha256": "24c812e00bf16f3b60d8b11164e7d34cab5e1eb21915c0907230eb8265f88a71",
+  "size": 2400,
+  "source_selection": "Two URL SHA256-ranked original packets in each period-end year 2013\u201317 with complete later legacy HTML, at most 12 pages and at most 100 native-text characters per page, in the previous fixed rendered study.",
+  "sources": [
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/PRESTIGE/INE811K01011/2013-09-30/standalone/113578"
+      ],
+      "package_sha256": "f9b57e272d2c46326632d726ffd6d55174d228555e0ba8f9621af5fb66667ed9",
+      "pages": [
+        {
+          "boxes_sha256": "09249e72919c738b3792643c793e9ac05c8e350006eff2182b422a6c32a85bdd",
+          "page": 1,
+          "pdf_sha256": "d5142403879103567cbb6e50171e2b7217d438edbd3b9860fec1822971f06e74"
+        },
+        {
+          "boxes_sha256": "9db4452fe19231dbab755ed9f0214bbb359871a46c5d0ce0895b5497da2777a5",
+          "page": 2,
+          "pdf_sha256": "d5142403879103567cbb6e50171e2b7217d438edbd3b9860fec1822971f06e74"
+        },
+        {
+          "boxes_sha256": "249fdafc535fdaad775392fe504e083ec1f00a5cbad8356c438ddbca2e91cf9f",
+          "page": 3,
+          "pdf_sha256": "d5142403879103567cbb6e50171e2b7217d438edbd3b9860fec1822971f06e74"
+        },
+        {
+          "boxes_sha256": "1173e217a027dfe8c66fb158740eea563e76ecdb8bdfb5f6c897ddb434b4353e",
+          "page": 4,
+          "pdf_sha256": "d5142403879103567cbb6e50171e2b7217d438edbd3b9860fec1822971f06e74"
+        }
+      ],
+      "symbol": "PRESTIGE",
+      "url": "https://nsearchives.nseindia.in/corporate/PRESTIGE_30sep2013_S.zip",
+      "year": "2013"
+    },
+    {
+      "anchors": [
+        {
+          "basis": "standalone",
+          "id": "legacy/ITC/INE154A01025/2015-03-31/standalone/128647",
+          "page": 1,
+          "png_sha256": "39d757f7cac7c0a51f3efed75b1099793722e6ad94fde216dcfc31da5281a364",
+          "unit": false
+        }
+      ],
+      "fields": [],
+      "four_renderings": [
+        {
+          "boxes_sha256": "cd9fa9dc1f185b4a1bb082922db1b993c48efcb6113dd5d93d69c9a2571ae11f",
+          "comparison": {
+            "height": 0.015917614286979687,
+            "text": "31.03.2014",
+            "width": 0.04239650249481208,
+            "x": 0.508598259960236,
+            "y": 0.8281893003346245
+          },
+          "explicit_amount_currency": false,
+          "grouped_column": [
+            0.3975,
+            0.4659375
+          ],
+          "page": 1,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d",
+          "png_sha256": "bd2797636e10047b78e11b2aab1a12b38983cd918e42c8e67fc0bdaacb34bed4",
+          "primary_quarter": {
+            "height": 0.01842843621178014,
+            "text": "31.03.2015",
+            "width": 0.04251319408416748,
+            "x": 0.42423758935308753,
+            "y": 0.8292181071151803
+          },
+          "render_target": 1600,
+          "scale_captions": [
+            {
+              "height": 0.01955839595963471,
+              "text": "( in Crores)",
+              "width": 0.05685104370117189,
+              "x": 0.8356733147928469,
+              "y": 0.8981481484568417
+            }
+          ],
+          "scope": {
+            "height": 0.020114026027443166,
+            "text": "STANDALONE",
+            "width": 0.05838270187377925,
+            "x": 0.5463900451360838,
+            "y": 0.8858024693357971
+          }
+        },
+        {
+          "boxes_sha256": "1d4d5560b3d8a1f6aef0430de1256c0f049f37ad9ec1b4c95c182dc8138195e8",
+          "comparison": {
+            "height": 0.014767655797100376,
+            "text": "31.03.2014.",
+            "width": 0.04221254984537759,
+            "x": 0.5086902371264556,
+            "y": 0.8302469136456204
+          },
+          "explicit_amount_currency": false,
+          "grouped_column": [
+            0.39708333333333334,
+            0.46541666666666665
+          ],
+          "page": 1,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d",
+          "png_sha256": "39d757f7cac7c0a51f3efed75b1099793722e6ad94fde216dcfc31da5281a364",
+          "primary_quarter": {
+            "height": 0.014548861290797688,
+            "text": "31.03.2015",
+            "width": 0.04217586199442541,
+            "x": 0.4229527670988936,
+            "y": 0.8302469136816713
+          },
+          "render_target": 2400,
+          "scale_captions": [
+            {
+              "height": 0.033138017305376355,
+              "text": "CONBOLIA TE Crores)",
+              "width": 0.10465115865071617,
+              "x": 0.7877907003984791,
+              "y": 0.8931122189244951
+            }
+          ],
+          "scope": {
+            "height": 0.0234734603899851,
+            "text": "STANDALONE",
+            "width": 0.06119916915893553,
+            "x": 0.5435283217858502,
+            "y": 0.8878600821689084
+          }
+        },
+        {
+          "boxes_sha256": "e21417e3cc541ee0e8305bd7ef33859c2803f8e9968b9f7f945f87d89ab43cda",
+          "comparison": {
+            "height": 0.022633744974051906,
+            "text": "31.03.2014",
+            "width": 0.045058140754699716,
+            "x": 0.5087209299042635,
+            "y": 0.8302469136702675
+          },
+          "explicit_amount_currency": false,
+          "grouped_column": [
+            0.39734375,
+            0.46546875
+          ],
+          "page": 1,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d",
+          "png_sha256": "591f284a4ffcd01314efcf4070f142a10be504973837d97f1c2de0767709aeae",
+          "primary_quarter": {
+            "height": 0.016207965074387265,
+            "text": "31.03.2015",
+            "width": 0.04099750518798828,
+            "x": 0.42426868940908163,
+            "y": 0.8302469137066857
+          },
+          "render_target": 3200,
+          "scale_captions": [
+            {
+              "height": 0.035128736917951486,
+              "text": "CONSOLIDA (EIn Crores),",
+              "width": 0.10465116500854488,
+              "x": 0.7877906967939003,
+              "y": 0.8919006517283796
+            }
+          ],
+          "scope": {
+            "height": 0.0208431058225379,
+            "text": "STANDALONE",
+            "width": 0.061091136932373,
+            "x": 0.5450358274934723,
+            "y": 0.8868312758821022
+          }
+        },
+        {
+          "boxes_sha256": "383c53dce0950c8148e20ec83eea183c64b5b4ae7b171d8fecc7f2bc88f3b632",
+          "comparison": {
+            "height": 0.016460905256023395,
+            "text": "31.03.2014",
+            "width": 0.04215116349477621,
+            "x": 0.5101744185536916,
+            "y": 0.8312757202527925
+          },
+          "explicit_amount_currency": false,
+          "grouped_column": [
+            0.39726190476190476,
+            0.4655952380952381
+          ],
+          "page": 1,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d",
+          "png_sha256": "e16d2516fde180cb3be3fbb707860554301e6b48fec72a3886781b3c398275a8",
+          "primary_quarter": {
+            "height": 0.015143942011969225,
+            "text": "31.03.2015",
+            "width": 0.040825306423126706,
+            "x": 0.42435478898880075,
+            "y": 0.8302469136597918
+          },
+          "render_target": 4200,
+          "scale_captions": [
+            {
+              "height": 0.03292181051204679,
+              "text": "CONSOLIDA (E in Crores),",
+              "width": 0.10465116349477621,
+              "x": 0.7877906966683096,
+              "y": 0.8930041150462963
+            }
+          ],
+          "scope": {
+            "height": 0.019520523006951174,
+            "text": "STANDALONE",
+            "width": 0.055395902149260934,
+            "x": 0.5478834438128851,
+            "y": 0.8878600821928719
+          }
+        }
+      ],
+      "ids": [
+        "legacy/ITC/INE154A01025/2015-03-31/standalone/128647"
+      ],
+      "package_sha256": "fb966e8195a3966a5a7bf2d45a1c9b414d3c32be0df8d215a82f34a55c3239ad",
+      "pages": [
+        {
+          "boxes_sha256": "1d4d5560b3d8a1f6aef0430de1256c0f049f37ad9ec1b4c95c182dc8138195e8",
+          "page": 1,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d"
+        },
+        {
+          "boxes_sha256": "1cdcea761ae29f2ddc7de1ee53878a03a022950cb7aac3abf927ea6579f62a60",
+          "page": 2,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d"
+        },
+        {
+          "boxes_sha256": "4ee764247ea0b18a011f7e7465e788e586249c5094c26b92dcd009599d7aecd2",
+          "page": 3,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d"
+        },
+        {
+          "boxes_sha256": "6b2d2c1335504f4cdeeacb902b6e56643a4752f8831e1c70254bb97d721f7a56",
+          "page": 4,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d"
+        },
+        {
+          "boxes_sha256": "ebd513240ef165e9bcd5e9337b8116d7da882a907bddc1a6661aff909607a685",
+          "page": 5,
+          "pdf_sha256": "a98fc0cdc213123af3a6eff1aa34012c645983c0b4bca754fed2ff6dad320c0d"
+        }
+      ],
+      "symbol": "ITC",
+      "url": "https://nsearchives.nseindia.in/corporate/ITC_01_05222015162301_.zip",
+      "year": "2015"
+    },
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/MINDTREE/INE018I01017/2013-03-31/standalone/104467"
+      ],
+      "package_sha256": "cc03bc82fd17c9060725ed1ff999714661e18426a3b0f7b4de47d9da266c9c12",
+      "pages": [
+        {
+          "boxes_sha256": "1f94745465d3926873c0772e6936cbd7271d42b14d8a7d51cfcd9b7cf0369512",
+          "page": 1,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "7ded9ec48422ffed27955fc736719055ab0b2b2c156f71bc789a5b6a7dc098b9",
+          "page": 10,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "b82e6cecb3ef36fd0ad42cb09fee906237812e040a1a053f04e9fdb0be0167f6",
+          "page": 11,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "5d7ddb81633f5121a069ac6e0658aa9d21e8ac7c13a02cd91d361ea8aff8413d",
+          "page": 2,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "819abc525785980d0a865e4b47dab69facd6997e69418b16e88949c15aaef847",
+          "page": 3,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "63b5cd7db694655ba9a7252ba9454022628365598c6eeeada6b515126c87b920",
+          "page": 4,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "a7f9ab8183d1ae6771467dc4e343612075263f02b25923aa52fb0f588c6085f9",
+          "page": 5,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "abb9e50bd68f6c7e35fadfd7dbaeda8210ddf4875a7220f28a16465cdcbf3eb5",
+          "page": 6,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "be46d7c12f13a18aebaa6f8b3c0b597b8ca15d6485d3c1911c8413a6f866892c",
+          "page": 7,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "6c08e5b21049c26079eaff9fad60d40179a4ee09c6c3e312f21a659694ead5e7",
+          "page": 8,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        },
+        {
+          "boxes_sha256": "77163d2bbbb1fac98c6fc231ecc89f8e675fc52634a995eb04d9bbf19604a2d3",
+          "page": 9,
+          "pdf_sha256": "f81543c620d3029476b409ff17fa607c7cc144e3e86e59a3041a34279007b4fb"
+        }
+      ],
+      "symbol": "MINDTREE",
+      "url": "https://nsearchives.nseindia.in/corporate/MINDTREE_31MAR2013_B_Q4A.zip",
+      "year": "2013"
+    },
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/GPPL/INE517F01014/2015-09-30/standalone/1002622"
+      ],
+      "package_sha256": "f355fed7fadf08c8127877ec69e195c1c1e5d7a5c89e2894308a51970d68dd6c",
+      "pages": [
+        {
+          "boxes_sha256": "27da39c34c4ef490e7deb70cce82239d69d8a17be1e74cd15e25a3599d428438",
+          "page": 1,
+          "pdf_sha256": "f98f1eef84495de0281901343a5f7c455fc8624a314966da38b8a1313247edb2"
+        },
+        {
+          "boxes_sha256": "61375ef8368c13c40c20d27bffd2898345617f186c98455f0069f944eac08eb8",
+          "page": 2,
+          "pdf_sha256": "f98f1eef84495de0281901343a5f7c455fc8624a314966da38b8a1313247edb2"
+        },
+        {
+          "boxes_sha256": "db80d29e5d8a9191252783e887a3811f55497e92b7655e33025ec301b839ecd5",
+          "page": 3,
+          "pdf_sha256": "f98f1eef84495de0281901343a5f7c455fc8624a314966da38b8a1313247edb2"
+        },
+        {
+          "boxes_sha256": "b769c0b478e06d02f95d9e5ccc340e2c643247965e98eacdb927c83288d8ab28",
+          "page": 4,
+          "pdf_sha256": "f98f1eef84495de0281901343a5f7c455fc8624a314966da38b8a1313247edb2"
+        },
+        {
+          "boxes_sha256": "c59c660dbcbb05a74d8004afb9a08392d6189dd495e01101cc72db4038fed292",
+          "page": 5,
+          "pdf_sha256": "f98f1eef84495de0281901343a5f7c455fc8624a314966da38b8a1313247edb2"
+        },
+        {
+          "boxes_sha256": "4dc7c6d9483604d618b95609520b88729460da9827f477a416857dc17b7f71d9",
+          "page": 6,
+          "pdf_sha256": "f98f1eef84495de0281901343a5f7c455fc8624a314966da38b8a1313247edb2"
+        },
+        {
+          "boxes_sha256": "78dfd75b6dc4e4badc58d21fdc64106a6bd51a97541f7f38216abcd31b229038",
+          "page": 7,
+          "pdf_sha256": "f98f1eef84495de0281901343a5f7c455fc8624a314966da38b8a1313247edb2"
+        }
+      ],
+      "symbol": "GPPL",
+      "url": "https://nsearchives.nseindia.in/corporate/GPPL_results_29102015143248.zip",
+      "year": "2015"
+    },
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/CROMPTON/INE299U01018/2016-06-30/standalone/1011394"
+      ],
+      "package_sha256": "1a1d04b49eb802f18ba10dd3b647b3e3856ff2e9e2da73044e55071965a093a3",
+      "pages": [
+        {
+          "boxes_sha256": "ef200c3afd7adedc24014de55d8d696c254d82001f2548b4b1042b7bb177b56a",
+          "page": 1,
+          "pdf_sha256": "028ab2b2363e55c00476a84631490d99d03c665cb476cb5460b7845988819048"
+        },
+        {
+          "boxes_sha256": "b83904de555d67ad144341e8199220c5041eff9ca0aeaa1d2ae8d1e6993bad05",
+          "page": 2,
+          "pdf_sha256": "028ab2b2363e55c00476a84631490d99d03c665cb476cb5460b7845988819048"
+        },
+        {
+          "boxes_sha256": "aa0bdbfcdd2fc4ec6d4bd9e56df1faf8a30baa212f85e9b51663708e22d63c20",
+          "page": 3,
+          "pdf_sha256": "028ab2b2363e55c00476a84631490d99d03c665cb476cb5460b7845988819048"
+        },
+        {
+          "boxes_sha256": "5f7ddfc5ccd87b64ccc25670cff0e4d7e94673a3ebe9a3ce9264bf3405148530",
+          "page": 4,
+          "pdf_sha256": "028ab2b2363e55c00476a84631490d99d03c665cb476cb5460b7845988819048"
+        },
+        {
+          "boxes_sha256": "6ee4ee9e258c19f64a57929860644cea860dfad9b060b182c778297aebe75f9b",
+          "page": 5,
+          "pdf_sha256": "028ab2b2363e55c00476a84631490d99d03c665cb476cb5460b7845988819048"
+        },
+        {
+          "boxes_sha256": "9ad6435b70af9e01fd58dbe740b559bfa24ae13b9399bdbcdb2f88d73c8861c0",
+          "page": 6,
+          "pdf_sha256": "028ab2b2363e55c00476a84631490d99d03c665cb476cb5460b7845988819048"
+        }
+      ],
+      "symbol": "CROMPTON",
+      "url": "https://nsearchives.nseindia.in/corporate/CROMPTONOutcomeofBoardMeetingJuly_29072016155933.zip",
+      "year": "2016"
+    },
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/ULTRACEMCO/INE481G01011/2016-06-30/consolidated/1013667",
+        "legacy/ULTRACEMCO/INE481G01011/2016-06-30/standalone/1013665"
+      ],
+      "package_sha256": "14ef42bbd7fd949499655b6f9434ebffb521e7efac9502b98160bf1f8b70c30a",
+      "pages": [
+        {
+          "boxes_sha256": "30622be3482226b387f4148bdf7d814f25ab8dbdf75d22c1cc40c261f6d0dcad",
+          "page": 1,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "99d05531fd0581295bb160dc6b0fbf313450c512cc6b55ede80f317868ea3e4e",
+          "page": 10,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "2ee4b495bdbfe5673c5b99d7e02b2f2dedb4814b63db01d50b8483402798f0a1",
+          "page": 11,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "868f0b6b2d57ba9acb0c7149e0550ac0b95e5bd4d2aac84378955882f568b549",
+          "page": 2,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "f2da5aaa4fa519cc0ead4dd3b693a017ff0cb660ea8b4a5191eceb46a730cac7",
+          "page": 3,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "bc087479beebe80be43d7e4d262b4b55b1df83a9d2bba8ad97c50b873896f7b2",
+          "page": 4,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "bb882182331e6a6648d1d29749c7caaa8033cc5ac60a73f17fbcf4012deaa067",
+          "page": 5,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "a22b19a69b777a0f9c56e30cb5171adebfaa75e51feede3261ac68907f9bdd56",
+          "page": 6,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "c8d253213956f455229cfa17f264d1479f996faaffa367786cb016552411e97c",
+          "page": 7,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "d7b460d428deecd39b3699c7e0fbe55d0f96356bbacb96126195f8c75533c015",
+          "page": 8,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        },
+        {
+          "boxes_sha256": "a5ba4c3f4895e84a402d69e6e5a433e279a1a327108877d9e8a75f2ffebf8225",
+          "page": 9,
+          "pdf_sha256": "a984b95a92f2f340dde4111db06f23bcaaa34ded014c4ca3f289a9d6cd458521"
+        }
+      ],
+      "symbol": "ULTRACEMCO",
+      "url": "https://nsearchives.nseindia.in/corporate/BSENSERESULT_19072016130948.zip",
+      "year": "2016"
+    },
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/GDL/INE852F01015/2014-03-31/consolidated/116671",
+        "legacy/GDL/INE852F01015/2014-03-31/standalone/116669"
+      ],
+      "package_sha256": "6248e29a9ab50e7264877b292f88cbf92b34ed885d504351a0ed92a06c1b4891",
+      "pages": [
+        {
+          "boxes_sha256": "caf1e35ae1fbd011c6530d72805c61ab5a8a3b7a936eaf3223ed22c703662a46",
+          "page": 1,
+          "pdf_sha256": "ae41cef06b5a0ce162af19976658fe4c9e8634e9e430e73310fd2b8d41a32241"
+        },
+        {
+          "boxes_sha256": "14c2566b62cdac0b4b0fd2dcd528634039aa79e99676733d6e8b654cd8a5faee",
+          "page": 2,
+          "pdf_sha256": "ae41cef06b5a0ce162af19976658fe4c9e8634e9e430e73310fd2b8d41a32241"
+        },
+        {
+          "boxes_sha256": "821732ee47770959926c670e0ffcb928d04d8f4b41e69c3b1a7a426cab1d5cc3",
+          "page": 3,
+          "pdf_sha256": "ae41cef06b5a0ce162af19976658fe4c9e8634e9e430e73310fd2b8d41a32241"
+        },
+        {
+          "boxes_sha256": "81a572d9eb216f7c21ad93711e2cfb7eee20f3409735d527946833d813d95202",
+          "page": 4,
+          "pdf_sha256": "ae41cef06b5a0ce162af19976658fe4c9e8634e9e430e73310fd2b8d41a32241"
+        },
+        {
+          "boxes_sha256": "20e7bbbb9c8511b4a2730e84f87ef50ca524500ee3c457867e253d30c25a5ce9",
+          "page": 5,
+          "pdf_sha256": "ae41cef06b5a0ce162af19976658fe4c9e8634e9e430e73310fd2b8d41a32241"
+        },
+        {
+          "boxes_sha256": "6203c735cafc8d7a4b17b0d3a30d94c6edf3d33bbaf08b41b6357e56eb1b98c6",
+          "page": 1,
+          "pdf_sha256": "15f653a41f337a67a426dd9fa1324d963fd57c5d014ef33772bcb4e7c650628d"
+        },
+        {
+          "boxes_sha256": "42b771fb7a4df29887fe3ac37c3782a6bf84607daea9733415bcec00e16a5adf",
+          "page": 2,
+          "pdf_sha256": "15f653a41f337a67a426dd9fa1324d963fd57c5d014ef33772bcb4e7c650628d"
+        },
+        {
+          "boxes_sha256": "f4a9622e3975c4d383c5ce9c00450b0d92604f89a930fc890ff8d70ddbab02e7",
+          "page": 3,
+          "pdf_sha256": "15f653a41f337a67a426dd9fa1324d963fd57c5d014ef33772bcb4e7c650628d"
+        },
+        {
+          "boxes_sha256": "2e427d467f13942f3c3eacea96b2f16890a8e572e11d3b93be16335f4dbc25c7",
+          "page": 4,
+          "pdf_sha256": "15f653a41f337a67a426dd9fa1324d963fd57c5d014ef33772bcb4e7c650628d"
+        }
+      ],
+      "symbol": "GDL",
+      "url": "https://nsearchives.nseindia.in/corporate/GDL_31mar2014_B.zip",
+      "year": "2014"
+    },
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/GSPL/INE246F01010/2014-03-31/standalone/117768"
+      ],
+      "package_sha256": "3c1049b91f9e4e4a8f7e2ba783f3e353e37e2a7bd841349cc4e61573156df40a",
+      "pages": [
+        {
+          "boxes_sha256": "d0974b4050c1169b070d7a92739f6eb3c6390e789e193acf3a6ce0907e577708",
+          "page": 1,
+          "pdf_sha256": "5991049cd6f82454829fe0d5e9b812be9a6ed18b22d81581895db7050c5f9e5e"
+        },
+        {
+          "boxes_sha256": "0bcaa8afbc8488854539801844db302604d2e2bf350b582c9e643d8db99acb64",
+          "page": 2,
+          "pdf_sha256": "5991049cd6f82454829fe0d5e9b812be9a6ed18b22d81581895db7050c5f9e5e"
+        },
+        {
+          "boxes_sha256": "6ba3f97a45b06577806e5ac831fd701b8612a7903ca4d98d2280bb2278c1b206",
+          "page": 3,
+          "pdf_sha256": "5991049cd6f82454829fe0d5e9b812be9a6ed18b22d81581895db7050c5f9e5e"
+        },
+        {
+          "boxes_sha256": "68ae9558dbc28b68fc54e79e5930e93f0b4d2aed653fce195d6a3d12bc1ad0b5",
+          "page": 4,
+          "pdf_sha256": "5991049cd6f82454829fe0d5e9b812be9a6ed18b22d81581895db7050c5f9e5e"
+        },
+        {
+          "boxes_sha256": "026891f821b88d2d0800cd8c1fe86f6e58315eca2fe29b4d1eb73cb93feac90d",
+          "page": 5,
+          "pdf_sha256": "5991049cd6f82454829fe0d5e9b812be9a6ed18b22d81581895db7050c5f9e5e"
+        }
+      ],
+      "symbol": "GSPL",
+      "url": "https://nsearchives.nseindia.in/corporate/GSPL_31Mar2014_B_05222014184702_.zip",
+      "year": "2014"
+    },
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/CANBK/INE476A01014/2017-06-30/standalone/1027812"
+      ],
+      "package_sha256": "ff7430af576e124dd38eef40bd83844460751cc5f2cddcb54b1f5bdbb685baef",
+      "pages": [
+        {
+          "boxes_sha256": "7c671ca62f4c022c4d57eac9e4454e1b6b5a61493c7e26ceaf5e05e4d28d6481",
+          "page": 1,
+          "pdf_sha256": "d8e98fc52651ecab11eeec3540bd57c33d80b9935858b4b40982736778fa852d"
+        },
+        {
+          "boxes_sha256": "29a343ebe4da05b63d03bffc6549c22fa009f6a7e1a45adf5ad55137018437bf",
+          "page": 2,
+          "pdf_sha256": "d8e98fc52651ecab11eeec3540bd57c33d80b9935858b4b40982736778fa852d"
+        },
+        {
+          "boxes_sha256": "f8c8e29f0be022a51ecfde6f73f1e7e61ef442a88d09d9691ce3295183cacebf",
+          "page": 3,
+          "pdf_sha256": "d8e98fc52651ecab11eeec3540bd57c33d80b9935858b4b40982736778fa852d"
+        },
+        {
+          "boxes_sha256": "472a7a47e6f753967fdf5c641a3afb5d4c1132709ce044aab0608b5db8a3f212",
+          "page": 4,
+          "pdf_sha256": "d8e98fc52651ecab11eeec3540bd57c33d80b9935858b4b40982736778fa852d"
+        },
+        {
+          "boxes_sha256": "0839027e7791b94f43b61c0ee62ce7a62c4e2e7d35c753002c5d8c81506cced0",
+          "page": 5,
+          "pdf_sha256": "d8e98fc52651ecab11eeec3540bd57c33d80b9935858b4b40982736778fa852d"
+        },
+        {
+          "boxes_sha256": "7ba73fa730c516634c5671167831ffd0c7eb8290798a81b3f69ce8e9881dc475",
+          "page": 6,
+          "pdf_sha256": "d8e98fc52651ecab11eeec3540bd57c33d80b9935858b4b40982736778fa852d"
+        },
+        {
+          "boxes_sha256": "c775a40edd6a389bd5fec595df37334d7ece57d23425e51ddbdf1364eb21763f",
+          "page": 7,
+          "pdf_sha256": "d8e98fc52651ecab11eeec3540bd57c33d80b9935858b4b40982736778fa852d"
+        }
+      ],
+      "symbol": "CANBK",
+      "url": "https://nsearchives.nseindia.in/corporate/CanaraResults30062017_19072017155307.zip",
+      "year": "2017"
+    },
+    {
+      "anchors": [],
+      "fields": [],
+      "ids": [
+        "legacy/ORIENTBANK/INE141A01014/2017-12-31/standalone/1035713"
+      ],
+      "package_sha256": "846f58ebe9db6a99c842f6d17615e53912c8f56d7530503ee03d11002f7dcdac",
+      "pages": [
+        {
+          "boxes_sha256": "543ae8adb2b367462abe4a477ed211bf31e3ee30d6be2b756498fb93b2cec3f5",
+          "page": 1,
+          "pdf_sha256": "d6179d7b1544e9380ee08603eabbef2ed3c2d5d3025bc32468c112a6428aad7f"
+        },
+        {
+          "boxes_sha256": "d3ed281b89570cd9a7c0d699ab45639ccc3fc52a4c919fc329a97dfd3c956544",
+          "page": 2,
+          "pdf_sha256": "d6179d7b1544e9380ee08603eabbef2ed3c2d5d3025bc32468c112a6428aad7f"
+        },
+        {
+          "boxes_sha256": "9e5d402901fe3787411a354aefab420b41f99fe528a3771df7ed302921b1bd70",
+          "page": 3,
+          "pdf_sha256": "d6179d7b1544e9380ee08603eabbef2ed3c2d5d3025bc32468c112a6428aad7f"
+        },
+        {
+          "boxes_sha256": "5b7c6aa18ee00cb7002d04ce6344cbd1e00ede4833527aeec0e041dcaa938bb3",
+          "page": 4,
+          "pdf_sha256": "d6179d7b1544e9380ee08603eabbef2ed3c2d5d3025bc32468c112a6428aad7f"
+        },
+        {
+          "boxes_sha256": "eb5a0e9b00af9f117ec718852276c24ea29acbc477f052879e6f24038edaf234",
+          "page": 5,
+          "pdf_sha256": "d6179d7b1544e9380ee08603eabbef2ed3c2d5d3025bc32468c112a6428aad7f"
+        },
+        {
+          "boxes_sha256": "5643bf07cd578dc8df3e9f0991369e388797d2bf360a9b0d2a9bb6bb0d7499e8",
+          "page": 6,
+          "pdf_sha256": "d6179d7b1544e9380ee08603eabbef2ed3c2d5d3025bc32468c112a6428aad7f"
+        },
+        {
+          "boxes_sha256": "9e842410ab91f2a3f8f126e4bff1538b83b506817fd06fd73d39646432f3dc3f",
+          "page": 7,
+          "pdf_sha256": "d6179d7b1544e9380ee08603eabbef2ed3c2d5d3025bc32468c112a6428aad7f"
+        }
+      ],
+      "symbol": "ORIENTBANK",
+      "url": "https://nsearchives.nseindia.in/corporate/FinancialResults30012018_30012018164819.zip",
+      "year": "2017"
+    }
+  ]
+}

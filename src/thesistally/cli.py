@@ -15,7 +15,7 @@ from rich import box
 from rich.console import Console
 from rich.table import Table
 
-from . import evaluation, history, market
+from . import evaluation, history, market, paper
 from .exchange import collect, read_context
 from .journal import journal, process, read_call, record_action, run_report
 from .output import CSV, JSON, emit
@@ -247,7 +247,15 @@ def scan(
 
 
 def scan_session(data_root, d, run, config):
+    from . import conventions
+
     cfg = rules(config)
+    if str(d) >= conventions.FORWARD_EFFECTIVE:
+        cfg = {
+            **cfg,
+            "forward_execution_convention": conventions.VERSION,
+            "entry_band_convention": conventions.ENTRY_BAND_VERSION,
+        }
     active = data_root / "rankers" / "active.json"
     if run == "observations" and active.is_file():
         selected = json.loads(active.read_text())
@@ -269,6 +277,21 @@ def scan_session(data_root, d, run, config):
             ).fetchone()
             actual_revision = recorded[0] if recorded else previous[0]
         regime, candidates, fs = load_session(data_root, d, cfg, open_calls(db, run, d))
+        if cfg.get("forward_execution_convention"):
+            regime = {
+                **regime,
+                "execution_convention": cfg["forward_execution_convention"],
+                "entry_band_convention": cfg["entry_band_convention"],
+            }
+        # Forward scans keep advancing existing calls under their recorded revisions.
+        # Explicit historical replay runs directly through the shared engine.
+        retirement = json.loads(
+            (Path(__file__).with_name("revisions") / "retirements.json").read_bytes()
+        )
+        if str(d) >= retirement["effective"]:
+            retired = set(retirement["strategies"])
+            candidates = [c for c in candidates if c.strategy not in retired]
+            regime = {**regime, "retired_strategies": retirement["strategies"]}
         n = process(db, run, d, regime, candidates, fs, cfg)
         if previous and run == "observations" and d == market.today():
             from . import notifier, research_journal
@@ -282,8 +305,14 @@ def scan_session(data_root, d, run, config):
                 (run, str(d)),
             ).fetchall()
         )
+    frozen = None
     if run == "observations":
+        from . import frozen_dispatch, frozen_forward
         from .research_worker import start_pending
+
+        freeze_day = json.loads(frozen_forward.REGISTRATION.read_bytes())["freeze_date"]
+        if str(d) > freeze_day:
+            frozen = frozen_dispatch.invoke(data_root, through=d, update=True)
 
         start_pending(data_root, after_scan=previous is None)
     return {
@@ -293,6 +322,7 @@ def scan_session(data_root, d, run, config):
         "regime": regime,
         "detected": n,
         "allocation": alloc,
+        **({"frozen_a126": frozen} if frozen is not None else {}),
     }
 
 
@@ -377,8 +407,8 @@ def reports(run: str = "observations"):
 def open_calls(db, run, day):
     return db.execute(
         """SELECT symbol, isin, min(day) AS day FROM calls
-        WHERE run=? AND day<? AND status IN ('active','confirmed') GROUP BY symbol,isin""",
-        (run, str(day)),
+        WHERE run IN (?,?) AND day<? AND status IN ('active','confirmed') GROUP BY symbol,isin""",
+        (run, paper.ENTRY_SHADOW if run == "observations" else run, str(day)),
     ).fetchall()
 
 
@@ -424,8 +454,9 @@ def backtest(
     train_years: int = typer.Option(3, min=1),
     test_years: int = typer.Option(1, min=1),
 ):
-    """Replay a diagnostic date range or reserve the final 18 months of a walk-forward study."""
+    """Replay a diagnostic range or generate historical walk-forward windows for the selected rules."""
     cfg = rules(config)
+    forward_final = cfg["validation"].get("final_test") == "forward_since_freeze"
     available = market.sessions(root())
     if not available:
         raise market.MarketError("No verified sessions available.")
@@ -440,14 +471,13 @@ def backtest(
             raise market.MarketError(
                 f"Missing {len(missing)} verified trading sessions, first {missing[0]}."
             )
-        parts = evaluation.walk_windows(
-            days, train_years, test_years, cfg["validation"]["holdout_months"]
-        )
+        months = None if forward_final else cfg["validation"]["holdout_months"]
+        parts = evaluation.walk_windows(days, train_years, test_years, months)
         params = {
             "mode": "walk_forward",
             "train_years": train_years,
             "test_years": test_years,
-            "holdout_months": cfg["validation"]["holdout_months"],
+            "holdout_months": months,
         }
     else:
         if holdout is None:
@@ -455,7 +485,11 @@ def backtest(
         parts = [(name, d, None) for name, d in windows(start, end, holdout, folds)]
         days = [d for _, part, _ in parts for d in part]
         params = {"mode": "diagnostic", "folds": folds, "holdout": str(holdout)}
-    result = evaluation.evaluate(root(), parts, days, cfg, params, walk_forward, tests_only)
+    if forward_final:
+        params["final_test"] = "forward_since_freeze"
+    result = evaluation.evaluate(
+        root(), parts, days, cfg, params, walk_forward and not forward_final, tests_only
+    )
     emit(result, as_json, as_csv, rows=result["folds"])
 
 
@@ -524,9 +558,51 @@ def call(call_id: int, as_json: JSON = False, as_csv: CSV = False):
 
 @command
 def report(
-    by: str = "strategy", run: str = "observations", as_json: JSON = False, as_csv: CSV = False
+    by: str = "strategy",
+    run: str = "observations",
+    as_json: JSON = False,
+    as_csv: CSV = False,
+    since_freeze: Annotated[
+        bool,
+        typer.Option(
+            "--since-freeze",
+            help="Show the frozen A126 forward paper account against Nifty 200 TRI.",
+        ),
+    ] = False,
 ):
-    """Group after-cost outcomes in separate portfolio and shadow books."""
+    """Report the frozen forward account or group historical call outcomes."""
+    if since_freeze:
+        from . import frozen_dispatch
+
+        data = frozen_dispatch.invoke(root())
+        if as_json or as_csv:
+            return emit(data, as_json, as_csv)
+        typer.echo(f"Steady Momentum A126 · forward paper · {data['status']}")
+        typer.echo(
+            f"{data['revision']}  |  {data['sessions']} completed sessions  |  {data['state']}"
+        )
+        if data.get("data_gap"):
+            typer.echo(f"Waiting for {data['data_gap']['day']} · {data['data_gap']['reason']}")
+        if data["sessions"]:
+            typer.echo(f"{data['anchor_session']} close through {data['last']} close")
+            table = Table("Metric", "A126", "Nifty 200 TRI")
+            for name, left, right in (
+                ("Average exposure", "average_exposure_pct", "benchmark_exposure_pct"),
+                ("Return", "return_pct", "benchmark_return_pct"),
+                ("Maximum drawdown", "max_drawdown_pct", "benchmark_max_drawdown_pct"),
+                ("One-way turnover", "one_way_turnover_pct", "benchmark_one_way_turnover_pct"),
+            ):
+                table.add_row(
+                    name,
+                    *(
+                        f"{data[k]:.2f}%" if data[k] is not None else "Pending"
+                        for k in (left, right)
+                    ),
+                )
+            out.print(table)
+            if data["benchmark_pending_dates"]:
+                typer.echo("Awaiting official TRI on " + ", ".join(data["benchmark_pending_dates"]))
+        return
     from collections import defaultdict
 
     from .journal import metrics
@@ -553,6 +629,22 @@ def report(
             for (key, book), rows in sorted(groups.items())
         ]
     emit(output, as_json, as_csv)
+
+
+@command
+def forward_update(as_json: JSON = False):
+    """Catch the frozen, paper-only account up to the latest completed exchange session."""
+    from . import frozen_dispatch
+
+    result = frozen_dispatch.invoke(root(), update=True)
+    if as_json:
+        emit(result, True)
+    else:
+        typer.echo(
+            f"{result['revision']} · {result['state']} · {result['sessions']} completed sessions"
+        )
+        if result["benchmark_pending_dates"]:
+            typer.echo("Awaiting official TRI on " + ", ".join(result["benchmark_pending_dates"]))
 
 
 @command
@@ -663,3 +755,44 @@ def ranker_study(report_file: Path | None = None, as_json: JSON = False, as_csv:
 
     result = study(root(), report_file)
     emit(result, as_json, as_csv, rows=result["windows"])
+
+
+@command
+def entry_diagnostic(report_file: Path | None = None):
+    """Measure development-window entries and reconcile costs from a sealed ledger."""
+    from .entry_diagnostic import study
+
+    typer.echo(study(root(), report_file))
+
+
+def discovery_command(operation, args):
+    from .discovery_guard import launch
+
+    try:
+        typer.echo(launch(operation, args))
+    except (RuntimeError, ValueError, OSError) as exc:
+        typer.echo(str(exc), err=True)
+        raise typer.Exit(1) from None
+
+
+@app.command()
+def discover(strategy: str, development: bool = False, as_json: JSON = False):
+    """Explore historical equal-risk trade slices and generate hypothesis cards."""
+    args = [strategy]
+    if development:
+        args.append("--development")
+    if as_json:
+        args.append("--json")
+    discovery_command("discover", args)
+
+
+@app.command()
+def validate(hypothesis_id: str, as_json: JSON = False):
+    """Validate a preregistered hypothesis with its entire multiple-testing family."""
+    discovery_command("validate", [hypothesis_id] + (["--json"] if as_json else []))
+
+
+@app.command()
+def register(as_json: JSON = False):
+    """List the discovery hypothesis history, statuses and evidence."""
+    discovery_command("register", ["--json"] if as_json else [])

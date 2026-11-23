@@ -1,0 +1,33 @@
+{
+  "before": {
+    "counts": {
+      "scans": 718,
+      "calls": 12143,
+      "events": 56877,
+      "fills": 4571,
+      "account_marks": 2872,
+      "corporate_positions": 3,
+      "corporate_cash": 1,
+      "entitlements": 114
+    },
+    "journal.sqlite_sha256": "c07de6425c7964e57cbdb02ed4b3d39d85a47b8ae39aac5b42c240b79a1168e9",
+    "timings.json_sha256": "47be1bf8a2675f5c292e04112586cd3e2e07b9f7fdbaabe64b6d8c7333f2ed16",
+    "report.json_sha256": "a4f48581648aa89c989af8e810e4e3ed5b5e84f34238b2c83cf2152bbee22e50"
+  },
+  "after": {
+    "counts": {
+      "scans": 718,
+      "calls": 12143,
+      "events": 56877,
+      "fills": 4571,
+      "account_marks": 2872,
+      "corporate_positions": 3,
+      "corporate_cash": 1,
+      "entitlements": 114
+    },
+    "journal.sqlite_sha256": "c07de6425c7964e57cbdb02ed4b3d39d85a47b8ae39aac5b42c240b79a1168e9",
+    "timings.json_sha256": "47be1bf8a2675f5c292e04112586cd3e2e07b9f7fdbaabe64b6d8c7333f2ed16",
+    "report.json_sha256": "a4f48581648aa89c989af8e810e4e3ed5b5e84f34238b2c83cf2152bbee22e50"
+  },
+  "identical": true
+}

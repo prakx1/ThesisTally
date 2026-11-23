@@ -1,0 +1,30 @@
+{
+  "day": "2014-10-08",
+  "labels": {
+    "PIPAVAVDOC": {
+      "isin": "INE542F01012",
+      "percent": 5,
+      "published": "2014-10-07",
+      "sources": [
+        {
+          "published": "2014-10-07",
+          "sha256": "6f4883ced310f4e37007a6855bc9cc638daeb3654e224dcb612a3b61b5fd9dec",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV27762.zip"
+        }
+      ]
+    },
+    "SUZLON": {
+      "isin": "INE040H01021",
+      "percent": 5,
+      "published": "2014-10-07",
+      "sources": [
+        {
+          "published": "2014-10-07",
+          "sha256": "6f4883ced310f4e37007a6855bc9cc638daeb3654e224dcb612a3b61b5fd9dec",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV27762.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2014-10-07"
+}

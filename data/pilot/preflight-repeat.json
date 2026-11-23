@@ -1,0 +1,13 @@
+{
+  "completed": true,
+  "same_receipt": true,
+  "elapsed_seconds": 182.999,
+  "expected_receipt_sha256": "c483cfa302f5fbceb0828017d57c937b315dcdbefb47b3c7af9c3a98162d7646",
+  "actual_receipt_sha256": "c483cfa302f5fbceb0828017d57c937b315dcdbefb47b3c7af9c3a98162d7646",
+  "snapshot_sha256": "462665a5388bd9938f6bd9fa9b557e9943953f5e9ccba01164d6ce0fdcaf31a9",
+  "recomputed_snapshot_sha256": "462665a5388bd9938f6bd9fa9b557e9943953f5e9ccba01164d6ce0fdcaf31a9",
+  "canonical_csv_unchanged": true,
+  "provenance_unchanged": true,
+  "active_receipt_unchanged": true,
+  "changed_keys": []
+}

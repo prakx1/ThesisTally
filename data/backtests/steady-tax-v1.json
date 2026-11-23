@@ -1,0 +1,1099 @@
+{
+  "benchmark_sha256": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41",
+  "continuous_receipt_sha256": "b1479ec9fb3d453125f37cc5f53000c77deafb64d2a248b5603cac0ecba2f481",
+  "journal_sha256": "d9a80e1954e560f1ba1351b2a744ea26ea5f565b6df3ca7f52391aee9beabc1d",
+  "market_sha256": "9033de9d28bdc23dcbe7207e63f029502bb83be4230c37dd30bb6a8027c8dea5",
+  "method_revision": "in-resident-capital-gains-v1",
+  "rates": {
+    "bonus_stripping_on_securities_from": "2022-04-01",
+    "dividend_exemption_end": "2020-03-31",
+    "fiscal_rules": [
+      {
+        "cess": 0.03,
+        "from_fy": 2016,
+        "long_exemption": 0
+      },
+      {
+        "cess": 0.04,
+        "from_fy": 2018,
+        "long_exemption": 100000
+      },
+      {
+        "cess": 0.04,
+        "from_fy": 2024,
+        "long_exemption": 125000
+      }
+    ],
+    "from_fy": 2016,
+    "fund_redemption_stt": 1e-05,
+    "grandfather_day": "2018-01-31",
+    "holding_months": 12,
+    "loss_carry_years": 8,
+    "rates": [
+      {
+        "from": "2016-04-01",
+        "long": 0.0,
+        "short": 0.15
+      },
+      {
+        "from": "2018-04-01",
+        "long": 0.1,
+        "short": 0.15
+      },
+      {
+        "from": "2024-07-23",
+        "long": 0.125,
+        "short": 0.2
+      }
+    ],
+    "revision": "in-resident-capital-gains-v1",
+    "sources": {
+      "capital_gains_deductions": "https://wmstatic-prd.incometaxindia.gov.in/web/guest/w/section-48-62",
+      "carryforward": "https://www.incometaxindia.gov.in/hi/w/section-74-63",
+      "dividends": "https://www.incometaxindia.gov.in/w/taxation-of-dividend-and-interest",
+      "education_cess": "https://www.indiabudget.gov.in/budget2018-2019/ub2018-19/frbm/frbm3.pdf",
+      "finance_act_2024": "https://incometaxindia.gov.in/Documents/Finance-No.2-Act-2024.pdf",
+      "finance_act_2026": "https://www.incometaxindia.gov.in/documents/d/guest/income_tax_act_2025_as_amended_by_fa_act_2026-pdf",
+      "fund_redemption_stt": "https://incometaxindia.gov.in/Communications/Circular/910110000000000567.pdf",
+      "grandfather_and_2018_rates": "https://www.incometaxindia.gov.in/documents/20117/14614766/FAQ-on-LTCG.pdf/ee01c0b5-ce30-d9b6-2a63-4b3b48b86ae8?t=1767815955269",
+      "grandfather_fmv": "https://wm.incometaxindia.gov.in/w/section-55-66",
+      "holding_period_and_fifo": "https://www.incometaxindia.gov.in/en/sale-of-shares",
+      "share_bonus_extension": "https://www.incometaxindia.gov.in/documents/20117/6507196/Circular-23-2022.pdf/9ca2d322-35aa-b850-e8f0-00b97fec4952?t=1762868705065",
+      "stripping": "https://www.incometaxindia.gov.in/hi/w/section-94-63"
+    },
+    "taxable_ltcg_from": "2018-04-01",
+    "through_fy": 2026
+  },
+  "scheduled_last": "2026-11-20",
+  "tax_config_sha256": "c2b3fde4055f311b70297b24b1211547a19705ad34bfae14272805b58f41c658",
+  "tax_source_files": {
+    "scripts/publish_momentum_tax.py": "0f41368afec070320e6f344b35f7a8dbd5765c18056164cf5a37e484adfe714d",
+    "src/thesistally/equity_tax.py": "05503e3ea7e6165026ef626bdea39904a16852d4010ab93fe921969e8ee31466",
+    "src/thesistally/steady_tax.py": "ea46784f686fe087f0003f9e9f5d4a6d9faf3aa63e6ba6cff05342a5e11dd817"
+  },
+  "valuation_gaps": {},
+  "variants": {
+    "A126": {
+      "allotments": {
+        "INE009A01021/2018-09-04": {
+          "allotted": "2018-09-06",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML38851.pdf"
+        },
+        "INE051B01021/2017-12-21": {
+          "allotted": "2017-12-26",
+          "source_url": "https://archives.nseindia.com/corporate/AllotmentIntimation_26122017161958_523.zip"
+        },
+        "INE075A01022/2019-03-06": {
+          "allotted": "2019-03-08",
+          "source_url": "https://archives.nseindia.com/corporate/Cslogin_08032019201016_SE_Allotment_March8_2019_288.pdf"
+        },
+        "INE129A01019/2017-03-09": {
+          "allotted": "2017-03-15",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML34451.pdf"
+        },
+        "INE134E01011/2023-09-21": {
+          "allotted": "2023-09-22",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML58771.pdf"
+        },
+        "INE263A01024/2022-09-15": {
+          "allotted": "2022-09-19",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML53805.pdf"
+        },
+        "INE274J01014/2024-07-02": {
+          "allotted": "2024-07-04",
+          "source_url": "https://www.oil-india.com/files/investor_services_documents/Regulation%2030%20Announcement%2004.07.2024.pdf"
+        },
+        "INE296A01032/2025-06-16": {
+          "allotted": "2025-06-17",
+          "source_url": "https://archives.nseindia.com/corporate/BAJFINANCE_17062025163606_SEIntimation_Bonus_Allotment_June2025.pdf"
+        },
+        "INE580B01029/2018-06-06": {
+          "allotted": "2018-06-08",
+          "source_url": "https://archives.nseindia.com/corporate/AllotmentK_08062018120025_057.zip"
+        },
+        "INE628A01036/2019-07-02": {
+          "allotted": "2019-07-04",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML41597.pdf"
+        },
+        "INE647A01010/2021-10-13": {
+          "allotted": "2021-10-15",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML50092.pdf"
+        },
+        "INE797F01012/2018-06-21": {
+          "allotted": "2018-06-26",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML38213.pdf"
+        }
+      },
+      "capital": 1000000,
+      "corporate_fraction_cash": 762.63,
+      "end": "2026-11-20",
+      "fees": 140179.52000000002,
+      "fifo_gains_count": 1047,
+      "grandfathered_highs": {
+        "INE051B01021": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 447.95
+        },
+        "INE093A01033": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 386.0
+        },
+        "INE176A01028": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 717.2
+        },
+        "INE192A01025": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 303.7
+        },
+        "INE202B01012": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 594.0
+        },
+        "INE203G01027": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 310.0
+        },
+        "INE494B01023": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 712.0
+        },
+        "INE532F01054": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 290.0
+        },
+        "INE721A01013": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 1405.0
+        },
+        "INE761H01022": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 21838.6
+        },
+        "INE785M01013": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 516.0
+        },
+        "INE797F01012": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 2148.4
+        },
+        "INE813H01021": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 290.75
+        },
+        "INE886H01027": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 63.35
+        },
+        "INE913H01037": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 1207.9
+        }
+      },
+      "hypothetical_terminal_liquidation": {
+        "additional_terminal_costs": 1813.3493999999714,
+        "additional_terminal_fees": 1243.37,
+        "after_tax": 3796084.4619145994,
+        "after_tax_cagr_pct": 14.441086228102385,
+        "after_tax_return_pct": 279.60844619145996,
+        "before_tax": 4327010.6239500055,
+        "before_tax_cagr_pct": 15.966035108587139,
+        "change_in_total_tax": 0.0,
+        "investor_cash_flows": [
+          {
+            "day": "2016-12-30",
+            "net_inr": -1000000.0
+          },
+          {
+            "day": "2018-03-31",
+            "net_inr": -21006.460863409815
+          },
+          {
+            "day": "2020-03-31",
+            "net_inr": -917.5079226005363
+          },
+          {
+            "day": "2021-03-31",
+            "net_inr": -31874.95559735008
+          },
+          {
+            "day": "2022-03-31",
+            "net_inr": -68253.44754635077
+          },
+          {
+            "day": "2023-03-31",
+            "net_inr": -25849.54095847557
+          },
+          {
+            "day": "2024-03-31",
+            "net_inr": -144513.47923511502
+          },
+          {
+            "day": "2025-03-31",
+            "net_inr": -238510.76991210436
+          },
+          {
+            "day": "2026-11-20",
+            "net_inr": 4327010.6239500055
+          }
+        ],
+        "investor_xirr_pct": 13.60972404272139,
+        "tax": 530926.1620354061
+      },
+      "loss_deferred_bonus": 330700.5546154883,
+      "loss_disallowed_dividend": 23357.023666274963,
+      "per_fy": {
+        "2016": {
+          "after_accrued_tax": 1039875.114825,
+          "benchmark_after_accrued_tax": 1141572.6398686324,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 1145459.4158249998,
+          "cess": 0.0,
+          "fees": 1485.65,
+          "first": "2017-01-02",
+          "last": "2017-03-31",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 57.12952423340618,
+          "pre_tax_ending_value": 1039875.114825,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": -2492.20462402092,
+          "sessions": 62,
+          "short_loss_carried": 2492.20462402092,
+          "short_tax": 0.0,
+          "slippage": 572.4851749999398,
+          "tax": 0.0,
+          "total_cost": 2058.13517499994
+        },
+        "2017": {
+          "after_accrued_tax": 1156458.0496615905,
+          "benchmark_after_accrued_tax": 1283389.1175927108,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 7452788.578399998,
+          "cess": 611.8386659245576,
+          "fees": 9896.539999999999,
+          "first": "2017-04-03",
+          "last": "2018-03-28",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 338.2017041304488,
+          "pre_tax_ending_value": 1177464.5105250003,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": 138456.35260725598,
+          "sessions": 246,
+          "short_loss_carried": 0.0,
+          "short_tax": 20394.622197485256,
+          "slippage": 3726.5642999995994,
+          "tax": 21006.460863409815,
+          "total_cost": 13623.104299999599
+        },
+        "2018": {
+          "after_accrued_tax": 1121962.3450115905,
+          "benchmark_after_accrued_tax": 1436374.512086166,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 5033206.601049999,
+          "cess": 0.0,
+          "fees": 6800.52,
+          "first": "2018-04-02",
+          "last": "2019-03-29",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 223.095231840679,
+          "pre_tax_ending_value": 1142968.8058750003,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": -119644.89737410178,
+          "sessions": 248,
+          "short_loss_carried": 119644.89737410178,
+          "short_tax": 0.0,
+          "slippage": 2516.4846499996984,
+          "tax": 0.0,
+          "total_cost": 9317.004649999699
+        },
+        "2019": {
+          "after_accrued_tax": 988830.4919389897,
+          "benchmark_after_accrued_tax": 1061639.5428802203,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 5680479.455400001,
+          "cess": 35.28876625386678,
+          "fees": 7824.26,
+          "first": "2019-04-01",
+          "last": "2020-03-31",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 241.94914635913892,
+          "pre_tax_ending_value": 1010754.4607250001,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": 125526.35841641291,
+          "sessions": 247,
+          "short_loss_carried": 0.0,
+          "short_tax": 882.2191563466695,
+          "slippage": 2840.2851499996777,
+          "tax": 917.5079226005363,
+          "total_cost": 10664.545149999678
+        },
+        "2020": {
+          "after_accrued_tax": 1437389.3548666397,
+          "benchmark_after_accrued_tax": 1853683.9518496431,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 4879549.279875,
+          "cess": 1225.9598306673108,
+          "fees": 6283.1900000000005,
+          "first": "2020-04-01",
+          "last": "2021-03-31",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 210.79777003084618,
+          "pre_tax_ending_value": 1491188.2792500001,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": 204326.6384445518,
+          "sessions": 249,
+          "short_loss_carried": 0.0,
+          "short_tax": 30648.99576668277,
+          "slippage": 2439.941474999722,
+          "tax": 31874.95559735008,
+          "total_cost": 8723.131474999722
+        },
+        "2021": {
+          "after_accrued_tax": 1828199.8654452898,
+          "benchmark_after_accrued_tax": 2249821.407820718,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 8524952.479775,
+          "cess": 2625.1325979365683,
+          "fees": 10544.319999999998,
+          "first": "2021-04-01",
+          "last": "2022-03-31",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 245.97182869665272,
+          "pre_tax_ending_value": 1950252.237375001,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": 437522.0996560947,
+          "sessions": 248,
+          "short_loss_carried": 0.0,
+          "short_tax": 65628.3149484142,
+          "slippage": 4262.621874999502,
+          "tax": 68253.44754635077,
+          "total_cost": 14806.9418749995
+        },
+        "2022": {
+          "after_accrued_tax": 1955486.9348618148,
+          "benchmark_after_accrued_tax": 2225245.218968299,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 9313850.725724999,
+          "cess": 994.2131137875219,
+          "fees": 11534.74,
+          "first": "2022-04-01",
+          "last": "2023-03-31",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 79160.64578416667,
+          "one_way_turnover_pct": 226.92860342891748,
+          "pre_tax_ending_value": 2103388.8477500016,
+          "realised_long_gain": 79160.64578416667,
+          "realised_short_gain": 165702.18563125364,
+          "sessions": 249,
+          "short_loss_carried": 0.0,
+          "short_tax": 24855.327844688047,
+          "slippage": 4656.8996249995425,
+          "tax": 25849.54095847557,
+          "total_cost": 16191.639624999541
+        },
+        "2023": {
+          "after_accrued_tax": 3647743.3502767,
+          "benchmark_after_accrued_tax": 3076721.295236208,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 17187490.508449998,
+          "cess": 5558.210739812116,
+          "fees": 20755.68,
+          "first": "2023-04-03",
+          "last": "2024-03-28",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 78300.2305181999,
+          "one_way_turnover_pct": 305.9527286223172,
+          "pre_tax_ending_value": 3940158.7424000017,
+          "realised_long_gain": 78300.2305181999,
+          "realised_short_gain": 926368.4566353528,
+          "sessions": 246,
+          "short_loss_carried": 0.0,
+          "short_tax": 138955.2684953029,
+          "slippage": 8593.355349999038,
+          "tax": 144513.47923511502,
+          "total_cost": 29349.035349999038
+        },
+        "2024": {
+          "after_accrued_tax": 4176407.3195495973,
+          "benchmark_after_accrued_tax": 3272925.044624232,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 22904946.356175,
+          "cess": 9173.491150465552,
+          "fees": 26476.179999999997,
+          "first": "2024-04-01",
+          "last": "2025-03-28",
+          "long_loss_carried": 0,
+          "long_tax": 7439.85421511926,
+          "lt_exemption_used": 125000,
+          "one_way_turnover_pct": 237.8341567250167,
+          "pre_tax_ending_value": 4707333.481585003,
+          "realised_long_gain": 184518.83372095408,
+          "realised_short_gain": 1376925.8778245344,
+          "sessions": 249,
+          "short_loss_carried": 0.0,
+          "short_tax": 221897.42454651953,
+          "slippage": 11453.500814998815,
+          "tax": 238510.76991210436,
+          "total_cost": 37929.680814998814
+        },
+        "2025": {
+          "after_accrued_tax": 3842955.192639598,
+          "benchmark_after_accrued_tax": 3181205.816294845,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 24300893.16729,
+          "cess": 0.0,
+          "fees": 28350.85,
+          "first": "2025-04-01",
+          "last": "2026-03-30",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 256.37378449824445,
+          "pre_tax_ending_value": 4373881.354675004,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": -275636.49084247183,
+          "sessions": 247,
+          "short_loss_carried": 275636.49084247183,
+          "short_tax": 0.0,
+          "slippage": 12150.196909998725,
+          "tax": 0.0,
+          "total_cost": 40501.046909998724
+        },
+        "2026": {
+          "after_accrued_tax": 3797897.811314599,
+          "benchmark_after_accrued_tax": 3453668.750622891,
+          "benchmark_tax": 289561.13234109106,
+          "buy_sell_notional": 8841238.173725002,
+          "cess": 0.0,
+          "fees": 10227.590000000002,
+          "first": "2026-04-01",
+          "last": "2026-11-20",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 100.57784796577522,
+          "pre_tax_ending_value": 4328823.973350005,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": -156175.71448402916,
+          "sessions": 160,
+          "short_loss_carried": 431812.205326501,
+          "short_tax": 0.0,
+          "slippage": 4420.64132499958,
+          "tax": 0.0,
+          "total_cost": 14648.231324999582
+        }
+      },
+      "run": "A126-tax-continuous",
+      "sessions": 2451,
+      "slippage": 57632.97664999384,
+      "start_prior_close": "2016-12-30",
+      "strategy": {
+        "after_tax": 3797897.811314599,
+        "after_tax_cagr_pct": 14.446612954188897,
+        "after_tax_return_pct": 279.7897811314599,
+        "before_tax": 4328823.973350005,
+        "before_tax_cagr_pct": 15.970948440689693,
+        "investor_cash_flows": [
+          {
+            "day": "2016-12-30",
+            "net_inr": -1000000.0
+          },
+          {
+            "day": "2018-03-31",
+            "net_inr": -21006.460863409815
+          },
+          {
+            "day": "2020-03-31",
+            "net_inr": -917.5079226005363
+          },
+          {
+            "day": "2021-03-31",
+            "net_inr": -31874.95559735008
+          },
+          {
+            "day": "2022-03-31",
+            "net_inr": -68253.44754635077
+          },
+          {
+            "day": "2023-03-31",
+            "net_inr": -25849.54095847557
+          },
+          {
+            "day": "2024-03-31",
+            "net_inr": -144513.47923511502
+          },
+          {
+            "day": "2025-03-31",
+            "net_inr": -238510.76991210436
+          },
+          {
+            "day": "2026-11-20",
+            "net_inr": 4328823.973350005
+          }
+        ],
+        "investor_xirr_pct": 13.615194245546869,
+        "tax": 530926.1620354061
+      },
+      "terminal_stock_value": 1139958.8,
+      "tri_proxy": {
+        "after_tax": 3453668.750622891,
+        "after_tax_cagr_pct": 13.352343752160746,
+        "after_tax_return_pct": 245.3668750622891,
+        "before_tax": 3743229.882963982,
+        "before_tax_cagr_pct": 14.27894421013647,
+        "investor_cash_flows": [
+          {
+            "day": "2016-12-30",
+            "net_inr": -1000000.0
+          },
+          {
+            "day": "2026-11-20",
+            "net_inr": 3453668.750622891
+          }
+        ],
+        "investor_xirr_pct": 13.342911814573318,
+        "tax": 289561.13234109106
+      },
+      "tri_terminal_sale": {
+        "acquisition_nav": 5249.39,
+        "gain_kind": "long",
+        "grandfather_nav": 7301.24,
+        "redemption_stt": 37.43,
+        "sale_nav": 19649.87,
+        "tax_gain": 2352393.3257007003,
+        "units": 190.49832456723541
+      }
+    },
+    "A252": {
+      "allotments": {
+        "INE009A01021/2018-09-04": {
+          "allotted": "2018-09-06",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML38851.pdf"
+        },
+        "INE051B01021/2017-12-21": {
+          "allotted": "2017-12-26",
+          "source_url": "https://archives.nseindia.com/corporate/AllotmentIntimation_26122017161958_523.zip"
+        },
+        "INE094A01015/2017-07-11": {
+          "allotted": "2017-07-18",
+          "source_url": "https://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20170721-21"
+        },
+        "INE134E01011/2023-09-21": {
+          "allotted": "2023-09-22",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML58771.pdf"
+        },
+        "INE263A01024/2022-09-15": {
+          "allotted": "2022-09-19",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML53805.pdf"
+        },
+        "INE274J01014/2024-07-02": {
+          "allotted": "2024-07-04",
+          "source_url": "https://www.oil-india.com/files/investor_services_documents/Regulation%2030%20Announcement%2004.07.2024.pdf"
+        },
+        "INE296A01032/2025-06-16": {
+          "allotted": "2025-06-17",
+          "source_url": "https://archives.nseindia.com/corporate/BAJFINANCE_17062025163606_SEIntimation_Bonus_Allotment_June2025.pdf"
+        },
+        "INE628A01036/2019-07-02": {
+          "allotted": "2019-07-04",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML41597.pdf"
+        },
+        "INE797F01012/2018-06-21": {
+          "allotted": "2018-06-26",
+          "source_url": "https://archives.nseindia.com/content/circulars/CML38213.pdf"
+        }
+      },
+      "capital": 1000000,
+      "corporate_fraction_cash": 307.8,
+      "end": "2026-11-20",
+      "fees": 85833.43,
+      "fifo_gains_count": 1044,
+      "grandfathered_highs": {
+        "INE051B01021": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 447.95
+        },
+        "INE148I01020": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 1415.55
+        },
+        "INE169A01031": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 561.0
+        },
+        "INE192A01025": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 303.7
+        },
+        "INE202B01012": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 594.0
+        },
+        "INE203G01027": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 310.0
+        },
+        "INE296A01024": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 1690.0
+        },
+        "INE343B01030": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 833.65
+        },
+        "INE439L01019": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 2962.05
+        },
+        "INE494B01023": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 712.0
+        },
+        "INE498L01015": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 177.65
+        },
+        "INE532F01054": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 290.0
+        },
+        "INE749A01030": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 274.0
+        },
+        "INE785M01013": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 516.0
+        },
+        "INE913H01037": {
+          "bhavcopy_sha256": "d3a4ec75a369f7598248b201e82c71e0e9fbdaec79c97a52f9c2039820ddeffb",
+          "day": "2018-01-31",
+          "raw_high": 1207.9
+        }
+      },
+      "hypothetical_terminal_liquidation": {
+        "additional_terminal_costs": 1861.2062499999604,
+        "additional_terminal_fees": 1280.6499999999999,
+        "after_tax": 3057827.417860782,
+        "after_tax_cagr_pct": 11.965587813904088,
+        "after_tax_return_pct": 205.78274178607816,
+        "before_tax": 3390162.3212050037,
+        "before_tax_cagr_pct": 13.139815099408425,
+        "change_in_total_tax": 0.0,
+        "investor_cash_flows": [
+          {
+            "day": "2016-12-30",
+            "net_inr": -1000000.0
+          },
+          {
+            "day": "2017-03-31",
+            "net_inr": -465.6061198847217
+          },
+          {
+            "day": "2018-03-31",
+            "net_inr": -25764.574156292314
+          },
+          {
+            "day": "2022-03-31",
+            "net_inr": -29837.856070152728
+          },
+          {
+            "day": "2024-03-31",
+            "net_inr": -82044.06075454802
+          },
+          {
+            "day": "2025-03-31",
+            "net_inr": -157680.8184400291
+          },
+          {
+            "day": "2026-03-31",
+            "net_inr": -36541.98780331498
+          },
+          {
+            "day": "2026-11-20",
+            "net_inr": 3390162.3212050037
+          }
+        ],
+        "investor_xirr_pct": 11.499170582128787,
+        "tax": 332334.9033442219
+      },
+      "loss_deferred_bonus": 304501.1907330246,
+      "loss_disallowed_dividend": 8090.198369771674,
+      "per_fy": {
+        "2016": {
+          "after_accrued_tax": 1100651.1642051153,
+          "benchmark_after_accrued_tax": 1141572.6398686324,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 1042857.4983249998,
+          "cess": 13.561343297613252,
+          "fees": 1311.55,
+          "first": "2017-01-02",
+          "last": "2017-03-31",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 52.0328903563588,
+          "pre_tax_ending_value": 1101116.770325,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": 3013.631843914056,
+          "sessions": 62,
+          "short_loss_carried": 0,
+          "short_tax": 452.0447765871084,
+          "slippage": 521.1796749999435,
+          "tax": 465.6061198847217,
+          "total_cost": 1832.7296749999434
+        },
+        "2017": {
+          "after_accrued_tax": 1229166.3199738234,
+          "benchmark_after_accrued_tax": 1283389.1175927108,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 4274138.559925,
+          "cess": 750.4244899890964,
+          "fees": 6086.74,
+          "first": "2017-04-03",
+          "last": "2018-03-28",
+          "long_loss_carried": 0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 176.8730915743579,
+          "pre_tax_ending_value": 1255396.5002500005,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": 166760.99777535477,
+          "sessions": 246,
+          "short_loss_carried": 0,
+          "short_tax": 25014.149666303216,
+          "slippage": 2137.180074999726,
+          "tax": 25764.574156292314,
+          "total_cost": 8223.920074999725
+        },
+        "2018": {
+          "after_accrued_tax": 1146176.792823824,
+          "benchmark_after_accrued_tax": 1436374.512086166,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 4530274.97365,
+          "cess": 0.0,
+          "fees": 6241.96,
+          "first": "2018-04-02",
+          "last": "2019-03-29",
+          "long_loss_carried": 15.60538329544869,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 190.9185535989212,
+          "pre_tax_ending_value": 1172406.9731000012,
+          "realised_long_gain": -15.60538329544869,
+          "realised_short_gain": -152471.87841989959,
+          "sessions": 248,
+          "short_loss_carried": 152471.87841989959,
+          "short_tax": 0.0,
+          "slippage": 2265.0671499997497,
+          "tax": 0.0,
+          "total_cost": 8507.02714999975
+        },
+        "2019": {
+          "after_accrued_tax": 962389.5770238247,
+          "benchmark_after_accrued_tax": 1061639.5428802203,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 3836937.1001500003,
+          "cess": 0.0,
+          "fees": 5466.050000000001,
+          "first": "2019-04-01",
+          "last": "2020-03-31",
+          "long_loss_carried": 0.0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0.0,
+          "one_way_turnover_pct": 161.6810838721871,
+          "pre_tax_ending_value": 988619.7573000017,
+          "realised_long_gain": 28261.413388995883,
+          "realised_short_gain": 14194.934631648279,
+          "sessions": 247,
+          "short_loss_carried": 110031.13578255087,
+          "short_tax": 0.0,
+          "slippage": 1918.5157999997637,
+          "tax": 0.0,
+          "total_cost": 7384.565799999765
+        },
+        "2020": {
+          "after_accrued_tax": 1025212.7203488246,
+          "benchmark_after_accrued_tax": 1853683.9518496431,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 2574691.2894749995,
+          "cess": 0.0,
+          "fees": 3576.2299999999996,
+          "first": "2020-04-01",
+          "last": "2021-03-31",
+          "long_loss_carried": 0.0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0.0,
+          "one_way_turnover_pct": 128.089748163987,
+          "pre_tax_ending_value": 1051442.9006250016,
+          "realised_long_gain": 1299.9160906246088,
+          "realised_short_gain": -124163.40901367413,
+          "sessions": 249,
+          "short_loss_carried": 232894.6287056004,
+          "short_tax": 0.0,
+          "slippage": 1287.4266749998296,
+          "tax": 0.0,
+          "total_cost": 4863.656674999829
+        },
+        "2021": {
+          "after_accrued_tax": 1653422.106478672,
+          "benchmark_after_accrued_tax": 2249821.407820718,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 4113790.6920999996,
+          "cess": 1147.6098488520279,
+          "fees": 5564.120000000001,
+          "first": "2021-04-01",
+          "last": "2022-03-31",
+          "long_loss_carried": 0.0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 159.03768205054553,
+          "pre_tax_ending_value": 1709490.1428250019,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": 424162.93684760504,
+          "sessions": 248,
+          "short_loss_carried": 0.0,
+          "short_tax": 28690.2462213007,
+          "slippage": 2056.9777999997705,
+          "tax": 29837.856070152728,
+          "total_cost": 7621.097799999771
+        },
+        "2022": {
+          "after_accrued_tax": 1551406.4237036724,
+          "benchmark_after_accrued_tax": 2225245.218968299,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 5818390.188075,
+          "cess": 0.0,
+          "fees": 7651.180000000001,
+          "first": "2022-04-01",
+          "last": "2023-03-31",
+          "long_loss_carried": 0.0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 20238.16388976737,
+          "one_way_turnover_pct": 178.5375174036892,
+          "pre_tax_ending_value": 1607474.4600500022,
+          "realised_long_gain": 122683.51963655045,
+          "realised_short_gain": -102445.35574678308,
+          "sessions": 249,
+          "short_loss_carried": 0.0,
+          "short_tax": 0.0,
+          "slippage": 2909.152774999663,
+          "tax": 0.0,
+          "total_cost": 10560.332774999664
+        },
+        "2023": {
+          "after_accrued_tax": 2584277.9550491245,
+          "benchmark_after_accrued_tax": 3076721.295236208,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 8360869.638349999,
+          "cess": 3155.540798251847,
+          "fees": 10700.640000000001,
+          "first": "2023-04-03",
+          "last": "2024-03-28",
+          "long_loss_carried": 0.0,
+          "long_tax": 10788.575544639796,
+          "lt_exemption_used": 100000,
+          "one_way_turnover_pct": 192.89035406932393,
+          "pre_tax_ending_value": 2722390.052150002,
+          "realised_long_gain": 207885.75544639796,
+          "realised_short_gain": 453999.6294110425,
+          "sessions": 246,
+          "short_loss_carried": 0.0,
+          "short_tax": 68099.94441165637,
+          "slippage": 4180.217899999556,
+          "tax": 82044.06075454802,
+          "total_cost": 14880.857899999557
+        },
+        "2024": {
+          "after_accrued_tax": 3055422.114504097,
+          "benchmark_after_accrued_tax": 3272925.044624232,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 12800646.098885,
+          "cess": 6064.646863078042,
+          "fees": 15429.99,
+          "first": "2024-04-01",
+          "last": "2025-03-28",
+          "long_loss_carried": 0.0,
+          "long_tax": 20877.133339626263,
+          "lt_exemption_used": 125000.0,
+          "one_way_turnover_pct": 184.28338466561007,
+          "pre_tax_ending_value": 3351215.030045004,
+          "realised_long_gain": 333771.3333962626,
+          "realised_short_gain": 790644.2084937086,
+          "sessions": 249,
+          "short_loss_carried": 0.0,
+          "short_tax": 130739.03823732477,
+          "slippage": 6401.112104999251,
+          "tax": 157680.8184400291,
+          "total_cost": 21831.10210499925
+        },
+        "2025": {
+          "after_accrued_tax": 3154908.646925782,
+          "benchmark_after_accrued_tax": 3181205.816294845,
+          "benchmark_tax": 0.0,
+          "buy_sell_notional": 13187522.441724997,
+          "cess": 1405.4610693582683,
+          "fees": 15826.290000000003,
+          "first": "2025-04-01",
+          "last": "2026-03-30",
+          "long_loss_carried": 0.0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 77280.40145583516,
+          "one_way_turnover_pct": 188.37864560038147,
+          "pre_tax_ending_value": 3487243.5502700037,
+          "realised_long_gain": 77280.40145583516,
+          "realised_short_gain": 175682.63366978354,
+          "sessions": 247,
+          "short_loss_carried": 0.0,
+          "short_tax": 35136.52673395671,
+          "slippage": 6593.589774999341,
+          "tax": 36541.98780331498,
+          "total_cost": 22419.879774999343
+        },
+        "2026": {
+          "after_accrued_tax": 3059688.6241107816,
+          "benchmark_after_accrued_tax": 3453668.750622891,
+          "benchmark_tax": 289561.13234109106,
+          "buy_sell_notional": 6741888.878905,
+          "cess": 0.0,
+          "fees": 7978.679999999999,
+          "first": "2026-04-01",
+          "last": "2026-11-20",
+          "long_loss_carried": 0.0,
+          "long_tax": 0.0,
+          "lt_exemption_used": 0,
+          "one_way_turnover_pct": 97.38116652148061,
+          "pre_tax_ending_value": 3392023.5274550035,
+          "realised_long_gain": 0.0,
+          "realised_short_gain": -279496.753588415,
+          "sessions": 160,
+          "short_loss_carried": 279496.753588415,
+          "short_tax": 0.0,
+          "slippage": 3370.882814999657,
+          "tax": 0.0,
+          "total_cost": 11349.562814999656
+        }
+      },
+      "run": "A252-tax-continuous",
+      "sessions": 2451,
+      "slippage": 33641.30254499625,
+      "start_prior_close": "2016-12-30",
+      "strategy": {
+        "after_tax": 3059688.6241107816,
+        "after_tax_cagr_pct": 11.972477205723653,
+        "after_tax_return_pct": 205.96886241107816,
+        "before_tax": 3392023.5274550035,
+        "before_tax_cagr_pct": 13.14609446695101,
+        "investor_cash_flows": [
+          {
+            "day": "2016-12-30",
+            "net_inr": -1000000.0
+          },
+          {
+            "day": "2017-03-31",
+            "net_inr": -465.6061198847217
+          },
+          {
+            "day": "2018-03-31",
+            "net_inr": -25764.574156292314
+          },
+          {
+            "day": "2022-03-31",
+            "net_inr": -29837.856070152728
+          },
+          {
+            "day": "2024-03-31",
+            "net_inr": -82044.06075454802
+          },
+          {
+            "day": "2025-03-31",
+            "net_inr": -157680.8184400291
+          },
+          {
+            "day": "2026-03-31",
+            "net_inr": -36541.98780331498
+          },
+          {
+            "day": "2026-11-20",
+            "net_inr": 3392023.5274550035
+          }
+        ],
+        "investor_xirr_pct": 11.50597419925949,
+        "tax": 332334.9033442219
+      },
+      "terminal_stock_value": 1161112.5,
+      "tri_proxy": {
+        "after_tax": 3453668.750622891,
+        "after_tax_cagr_pct": 13.352343752160746,
+        "after_tax_return_pct": 245.3668750622891,
+        "before_tax": 3743229.882963982,
+        "before_tax_cagr_pct": 14.27894421013647,
+        "investor_cash_flows": [
+          {
+            "day": "2016-12-30",
+            "net_inr": -1000000.0
+          },
+          {
+            "day": "2026-11-20",
+            "net_inr": 3453668.750622891
+          }
+        ],
+        "investor_xirr_pct": 13.342911814573318,
+        "tax": 289561.13234109106
+      },
+      "tri_terminal_sale": {
+        "acquisition_nav": 5249.39,
+        "gain_kind": "long",
+        "grandfather_nav": 7301.24,
+        "redemption_stt": 37.43,
+        "sale_nav": 19649.87,
+        "tax_gain": 2352393.3257007003,
+        "units": 190.49832456723541
+      }
+    }
+  }
+}

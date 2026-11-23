@@ -1,0 +1,23 @@
+{
+  "ai_pdf_extraction_run": false,
+  "confirmed_passing_windows": [],
+  "coverage_sha256": "4258c037271a8c8be21ae40c80086d8434a1dab47893580420b82d7b30e024b6",
+  "d40_d20_historical_performance_test_run": false,
+  "decided_on_ist": "2026-11-23",
+  "earlier_nse_source_edition_decision": "data/fundamentals/d2-xbrl/decision.json",
+  "forward_job": "com.thesistally.results-filings",
+  "forward_live_evidence": "data/fundamentals/d2-forward/first-live-filing-20261123.json",
+  "forward_start_ist": "2026-11-23",
+  "independent_review": "data/fundamentals/review/d2-bse-final-1382fc21f57b.json",
+  "minimum_coverage_fraction": 0.8,
+  "minimum_passing_windows": 5,
+  "possible_passing_windows_on_recovered_figures": [
+    2025,
+    2026
+  ],
+  "rule": "D40 and D20 with the first official XBRL publication clock",
+  "source_bundle_sha256": "7ab348b5840b42e80c2cf1e12512bdb87fab3be13c768099b280bf0c780b631a",
+  "status": "parked_insufficient_verified_first_xbrl_coverage",
+  "study": "D2",
+  "tested_windows": 10
+}

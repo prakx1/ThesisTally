@@ -23,6 +23,7 @@ dependencies = [
     "pydantic>=2.11,<3",
     "openai>=1.86,<3",
     "tradingagents==0.2.5",
+    "xlrd==2.0.2",
 ]
 
 [project.scripts]

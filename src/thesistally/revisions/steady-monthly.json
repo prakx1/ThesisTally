@@ -1,0 +1,11 @@
+{
+  "version": "steady-monthly-v1",
+  "execution_convention": "stage3-v1",
+  "base_revision": "r2",
+  "base_sha256": "93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84",
+  "lookbacks": {"A126": 126, "A252": 252},
+  "portfolio_slots": 15,
+  "retention_rank": 30,
+  "qualifying_window_fraction": [2, 3],
+  "maximum_drawdown_multiple": 1.2
+}

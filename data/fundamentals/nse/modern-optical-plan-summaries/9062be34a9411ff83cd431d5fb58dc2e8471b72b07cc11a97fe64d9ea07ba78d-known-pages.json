@@ -1,0 +1,53 @@
+{
+  "description": "Four independently identified printed quarterly statement pages explicitly cited by the earlier original-clock document review. Diagnostic only. Unreadable or omitted pages elsewhere can contain original facts or contradict apparent matches.",
+  "formal_clock_decisions_sha256": "f33ce63b2ff520b4a70b8ddc7d97e797bce6c434911cead5df3088747a6ed4f3",
+  "nominated": 3,
+  "pages": [
+    {
+      "exchange_sequence": "106213571",
+      "issuer": "KPITTECH",
+      "nominated": true,
+      "original_document_decision": "The signed board outcome encloses standalone and consolidated results for the March 2025 quarter. The consolidated quarterly statement starts on page 9.",
+      "packet_eligible": true,
+      "page": 9,
+      "quarter_end": "2025-03-31",
+      "source_pdf_sha256": "2cf4283242f89dc21c8c0bf807e16aa8d37f556fd8dd3468502d91dc13422bb2",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MeghanaPhadnis_28042025125708_BMOutcome_Results_NSE.pdf"
+    },
+    {
+      "exchange_sequence": "106606491",
+      "issuer": "MAZDOCK",
+      "nominated": true,
+      "original_document_decision": "Both March 2026 quarter statements are explicitly enclosed on page 1 and presented separately on pages 3 and 6.",
+      "packet_eligible": true,
+      "page": 3,
+      "quarter_end": "2026-03-31",
+      "source_pdf_sha256": "0abf2af56c84689e7a7d71a31c408ce7e025304ff2cab004b839d40dd8872a68",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MAZDOCK_30042026210302_SE_Disc_FR_31032026.PDF"
+    },
+    {
+      "exchange_sequence": "106606491",
+      "issuer": "MAZDOCK",
+      "nominated": true,
+      "original_document_decision": "Both March 2026 quarter statements are explicitly enclosed on page 1 and presented separately on pages 3 and 6.",
+      "packet_eligible": true,
+      "page": 6,
+      "quarter_end": "2026-03-31",
+      "source_pdf_sha256": "0abf2af56c84689e7a7d71a31c408ce7e025304ff2cab004b839d40dd8872a68",
+      "source_url": "https://nsearchives.nseindia.in/corporate/MAZDOCK_30042026210302_SE_Disc_FR_31032026.PDF"
+    },
+    {
+      "exchange_sequence": "106622864",
+      "issuer": "VOLTAS",
+      "nominated": false,
+      "original_document_decision": "The mixed-agenda board resolution explicitly encloses both March 2026 quarterly statements. The standalone quarterly statement appears on page 21.",
+      "packet_eligible": true,
+      "page": 21,
+      "quarter_end": "2026-03-31",
+      "source_pdf_sha256": "d4e2e10d26d865321a664005ec13264344c977ed7b6e2633247e2123abdf7e01",
+      "source_url": "https://nsearchives.nseindia.in/corporate/VOLTAS_RB_14052026173418_01_Outcome_Signed.pdf"
+    }
+  ],
+  "plan_sha256": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "statement_pages": 4
+}

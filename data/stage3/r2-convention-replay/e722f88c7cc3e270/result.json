@@ -1,0 +1,251 @@
+{
+  "complete": true,
+  "config_hash": "e9077010d0f5842d13fd7ea000e007b80cfedefa1d7d7e28118a7c0e07b86d2d",
+  "convention": "stage3-v1",
+  "rule_revision": "r2-93e3c44aec6a@stage3-v1",
+  "snapshot_sha256": "e722f88c7cc3e270f38902fb2f531023a6d9f0955faf5d29fc3a1e2c0c08158b",
+  "windows": [
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 248,
+      "first": "2017-01-02",
+      "funded_events": {
+        "confirmed": 1204,
+        "detected": 1204,
+        "invalidated": 3,
+        "missed": 1193,
+        "watching": 1204
+      },
+      "last": "2017-12-29",
+      "scanned": 248,
+      "valuation_gaps": {},
+      "window": "walk-1"
+    },
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 246,
+      "first": "2018-01-01",
+      "funded_events": {
+        "confirmed": 215,
+        "detected": 215,
+        "missed": 210,
+        "watching": 215
+      },
+      "last": "2018-12-31",
+      "scanned": 246,
+      "valuation_gaps": {},
+      "window": "walk-2"
+    },
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 245,
+      "first": "2019-01-01",
+      "funded_events": {
+        "confirmed": 166,
+        "detected": 166,
+        "missed": 163,
+        "watching": 166
+      },
+      "last": "2019-12-31",
+      "scanned": 245,
+      "valuation_gaps": {},
+      "window": "walk-3"
+    },
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 252,
+      "first": "2020-01-01",
+      "funded_events": {
+        "active": 21,
+        "closed": 21,
+        "confirmed": 518,
+        "detected": 518,
+        "dividend": 2,
+        "entry_target": 21,
+        "exit_due": 18,
+        "exit_unknown_price_band": 13,
+        "fill": 48,
+        "first_1r": 9,
+        "invalidated": 1,
+        "missed": 488,
+        "watching": 518
+      },
+      "last": "2020-12-31",
+      "scanned": 252,
+      "valuation_gaps": {},
+      "window": "walk-4"
+    },
+    {
+      "case_events": [
+        {
+          "day": "2021-07-22",
+          "detail": "Maximum holding period",
+          "kind": "exit_due",
+          "symbol": "INDHOTEL"
+        },
+        {
+          "day": "2021-07-23",
+          "detail": "{\"convention_version\": \"stage3-v1\", \"fill\": 145.92700000000002, \"isin\": \"INE053A01029\", \"open\": 146.0}",
+          "kind": "exit_unknown_price_band",
+          "symbol": "INDHOTEL"
+        },
+        {
+          "day": "2021-07-23",
+          "detail": "sell 552 @ 145.9270, fees 98.90",
+          "kind": "fill",
+          "symbol": "INDHOTEL"
+        },
+        {
+          "day": "2021-07-23",
+          "detail": "Maximum holding period",
+          "kind": "closed",
+          "symbol": "INDHOTEL"
+        }
+      ],
+      "complete": true,
+      "expected": 248,
+      "first": "2021-01-01",
+      "funded_events": {
+        "active": 31,
+        "closed": 31,
+        "confirmed": 821,
+        "detected": 821,
+        "dividend": 2,
+        "entry_target": 31,
+        "exit_due": 30,
+        "exit_unknown_price_band": 25,
+        "fill": 70,
+        "first_1r": 11,
+        "invalidated": 2,
+        "missed": 788,
+        "watching": 821
+      },
+      "last": "2021-12-31",
+      "scanned": 248,
+      "valuation_gaps": {},
+      "window": "walk-5"
+    },
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 248,
+      "first": "2022-01-03",
+      "funded_events": {
+        "active": 10,
+        "closed": 10,
+        "confirmed": 438,
+        "detected": 438,
+        "entry_target": 10,
+        "exit_due": 8,
+        "exit_unknown_price_band": 7,
+        "fill": 22,
+        "first_1r": 4,
+        "invalidated": 2,
+        "missed": 426,
+        "watching": 438
+      },
+      "last": "2022-12-30",
+      "scanned": 248,
+      "valuation_gaps": {},
+      "window": "walk-6"
+    },
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 246,
+      "first": "2023-01-02",
+      "funded_events": {
+        "active": 36,
+        "closed": 33,
+        "confirmed": 661,
+        "detected": 661,
+        "dividend": 1,
+        "entry_target": 36,
+        "exit_due": 31,
+        "exit_unknown_price_band": 18,
+        "fill": 81,
+        "first_1r": 20,
+        "missed": 620,
+        "watching": 661
+      },
+      "last": "2023-12-29",
+      "scanned": 246,
+      "valuation_gaps": {},
+      "window": "walk-7"
+    },
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 249,
+      "first": "2024-01-01",
+      "funded_events": {
+        "active": 118,
+        "closed": 115,
+        "confirmed": 231,
+        "detected": 231,
+        "dividend": 13,
+        "entry_target": 118,
+        "exit_due": 87,
+        "exit_unknown_price_band": 4,
+        "fill": 267,
+        "first_1r": 53,
+        "missed": 113,
+        "watching": 231
+      },
+      "last": "2024-12-31",
+      "scanned": 249,
+      "valuation_gaps": {},
+      "window": "walk-8"
+    },
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 249,
+      "first": "2025-01-01",
+      "funded_events": {
+        "active": 102,
+        "closed": 98,
+        "confirmed": 110,
+        "detected": 110,
+        "dividend": 5,
+        "entry_target": 102,
+        "exit_due": 72,
+        "fill": 222,
+        "first_1r": 40,
+        "missed": 8,
+        "watching": 110
+      },
+      "last": "2025-12-31",
+      "scanned": 249,
+      "valuation_gaps": {},
+      "window": "walk-9"
+    },
+    {
+      "case_events": [],
+      "complete": true,
+      "expected": 220,
+      "first": "2026-01-01",
+      "funded_events": {
+        "active": 50,
+        "closed": 43,
+        "confirmed": 54,
+        "detected": 54,
+        "dividend": 2,
+        "entry_target": 50,
+        "exit_due": 39,
+        "fill": 98,
+        "first_1r": 10,
+        "missed": 3,
+        "watching": 54
+      },
+      "last": "2026-11-20",
+      "scanned": 220,
+      "valuation_gaps": {},
+      "window": "walk-10"
+    }
+  ]
+}

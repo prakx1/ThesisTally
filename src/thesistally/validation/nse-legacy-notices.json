@@ -1,0 +1,37 @@
+{
+  "SURV35548.zip": {
+    "action": "nse-shell-list",
+    "evidence": "SEBI supplied 331 names across exchanges. NSE named its 48 platform ISINs in Annexure II, to be moved to GSM Stage VI at the 2017-08-08 open.",
+    "sha256": "78aedde9a43e768988cdb133dccaa8de23899f78fb79fad6d8cb550af9fc6458"
+  },
+  "SURV36863.pdf": {
+    "action": "no-incoming",
+    "evidence": "NSE required ANKITMETAL to continue in Stage VI under its existing 2017-08-07 direction.",
+    "sha256": "7bd11e72f85693910a8fe074fa2f4b2a086bd3687bfd36fc6bccf37e6b1e56f3"
+  },
+  "SURV37906.pdf": {
+    "action": "no-incoming",
+    "evidence": "Foreign investor ownership-limit monitoring, separate from GSM selection.",
+    "sha256": "8c7781a2e6dd257503a5ace029dee644b11b41b1b89a53575129c4e6425a34ee"
+  },
+  "SURV38046.pdf": {
+    "action": "no-incoming",
+    "evidence": "Foreign portfolio investor limits for interest-rate futures, separate from GSM selection.",
+    "sha256": "3845fe6ba19c099b0a811b41c9e6248b88b286e2cb6b10ffbcaac91a8cac84f3"
+  },
+  "SURV39953.pdf": {
+    "action": "no-incoming",
+    "evidence": "Announced tentative dates for the 2019 quarterly reviews without naming any additions.",
+    "sha256": "6b14357c89ee4199c464b3a6be1d55bc7f47effd643ca9d2b68f24af2aa78bdf"
+  },
+  "SURV42218.pdf": {
+    "action": "no-incoming",
+    "evidence": "Additional measures relating to IBC and ICA, a separate classification from ordinary ASM and GSM.",
+    "sha256": "8f91e9953988f2f23d8a63d52f0e678b36972a2f7fe1e91ead0c04a0377f4fb5"
+  },
+  "SURV42976.pdf": {
+    "action": "no-incoming",
+    "evidence": "Shift of fifteen previously monitored securities from BE to EQ series, with no new GSM shortlist.",
+    "sha256": "339ed1eb2f79c9d5ccfae84d941c234f1dca9cfd014901276395d7c1818879ad"
+  }
+}

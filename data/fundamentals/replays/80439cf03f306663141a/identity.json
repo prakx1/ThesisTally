@@ -1,0 +1,53 @@
+{
+  "identity": "80439cf03f306663141ab7a429c63af95ea78b8a7db7251f809b80dea7994b6a",
+  "proof": {
+    "preregistration_commit": "af36fef",
+    "preregistration_sha256": "114455e79524903a67395648d45837a6d3e6dc2ef39773c275e0a79157e99101",
+    "inputs": {
+      "range-bouncers/inputs/babf7a7862a0fb38e23e/certified.json": "c25950123bbfaa1a18fae5ad523e01a05365ea6218304623285c1d9ceaebee60",
+      "range-bouncers/inputs/babf7a7862a0fb38e23e/market/corporate_actions.json": "a6c801c744ccb7e6deee364e36e845cd57e3a9a59a23a30edfb29e1fb2549c03",
+      "range-bouncers/inputs/babf7a7862a0fb38e23e/market/dip-bonus-actions.json": "beb8261f859ef2a8c050a4c0361a07e36faab2e46495349606a148b0e71eb96a",
+      "range-bouncers/cash-events.json": "4d9b93761d3c2f200b135a212975e3c34e1b9bdd4bc9bc19cb6d0a0d698d1de0",
+      "stage3/benchmark.json": "0c86d2e5d7b561cb2ecd1e5cefb513a37ed7a394437537e8f9d6676f98285419",
+      "stage3/benchmark.csv": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41"
+    },
+    "signals": "7478a22800a8a34063ae9d68a95b018abd394607afeb9a723d062763de70a035",
+    "coverage": "0e93eb357fb6e0905f52fd9a518a571f1738030a5b38ec4a97b0dca9ea7bb6ce",
+    "signal_receipt": "71d089fad3d7d09e6f2eeaf9d1b09340afd7eed082465a97e665297dfc6958ee",
+    "source": {
+      "results_replay.py": "85900c1e3dad73ea6a0b25c12fe9ffda5309348ce5449a2a53d75e993ea5b6cc",
+      "results_replay_orders.py": "b0c5c20286c5842038c8f76eb155c7252bb070ec3a77f8173b9d2f31aefca4fb",
+      "results_replay_tax.py": "f294214fe075d2c50dca7df7cc5b8fa0abdecf003fcbc2748888f68044d0217e",
+      "journal.py": "7197b13c8888c5ec4958d9bb5a53f9188a461387a573d530fe8f3611282b4b01",
+      "corporate.py": "2493340b56e924a0e7fbbcb8d6d97cccab0ade7b0594b1578a78f71083d5d001",
+      "dip_bonus.py": "499af83a17956895a90a40d16c4f150aa41e036b8c00d35e88e559bdf44e09e9",
+      "range_replay.py": "8f884d3d54d9f741caaebf53c037b8bb749df6918d3825305ec0c587973ff1ef",
+      "range_cash.py": "92ca2107e1fc0691f15f6c5312a3ac79d2d61fc6e2df3fb4d16bf117f0c30eb8",
+      "signals.py": "808787e54502b6fb45990566551aa4edf12dfd1bf01782f3e95430a5d6c13588",
+      "paper.py": "356c440dbcb37328eb0c84085eefb7fe5ce994ea97d88a1ce1513007c941114c",
+      "pilot.py": "6eaf97e5afaf038eba1f0b5ec624c85858150067434c5bdcdf2faf5c4b49ddd0",
+      "market.py": "47d443651849e2ae2307f210424f4fe06cc034303277f5c7b72439762d662419",
+      "exchange.py": "8bb2049f47d8f80101742448777f099992ce489df732542eb0c8226b0eeb3474",
+      "baseline_qualification.py": "15758f47657ad37da0226ca85a3ab821a544f178256c6e8c34924cb918409bbb",
+      "baseline_accounts.py": "4d3534f1786c3d83141410882a7c236d3fd0537ba25be09a5297623a2b0f19a6",
+      "baseline_metrics.py": "504462d4439d6e75527c85e6cbcbadd5059bad30ae400cb042f71d94295c62d4",
+      "equity_tax.py": "05503e3ea7e6165026ef626bdea39904a16852d4010ab93fe921969e8ee31466",
+      "steady_tax.py": "ea46784f686fe087f0003f9e9f5d4a6d9faf3aa63e6ba6cff05342a5e11dd817",
+      "evaluation.py": "69438d20a2594ae540db1628f29166e0c223866a05b4df01b49f2e7375c84308",
+      "ranking.py": "047ded1320a5be4db365524387d6b241aa08db92a18fc835831d4009f71522e2",
+      "brake.py": "4d7391cdb37ad18296a9b84beb0f62cae06f8f4811f5a6daf538384b5eb84c9f",
+      "conventions.py": "5e2744907e6c9a82df473343e54ea9c31b2925691b8231000d32c829b38e9944",
+      "dip_coverage.py": "aeb00f11be7128b0b72de8bff32ba355a301a27313ab2543cfd35bea0083bb49",
+      "stage3_market.py": "cffbb71590d4cfd056e1fe47e7767d346c73c7e9fe771dc1090b5ae6d772f08a",
+      "listed-equity-tax-v1.json": "c2b3fde4055f311b70297b24b1211547a19705ad34bfae14272805b58f41c658",
+      "r2.yaml": "93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84",
+      "stage-2-v1.json": "d59b67cc9fc62cb8e2c4cdefdbac6add0c7b798e09b4522dbf05b914ac7d43e9"
+    },
+    "configs": {
+      "D40-funded": "bacc8757b7c91793cef99a5025fcd8757df0e84495cdc4492be0529750fc23d1",
+      "D40-equal_risk": "15f5454f59f5eb06c5bfd219895bbcfdc3cb7538b9e46b81c4602a65179df725",
+      "D20-funded": "f8ef0df03c278cceffa0d026a226be87216f9918062b7a30174fc19d4ee906ec",
+      "D20-equal_risk": "f6fd9449b71f1130474eacf2075adcd0beb098ff424d18b6deea2503de958140"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "command": "uv run --frozen python -m thesistally.pilot --revision r2",
+  "purpose": "Idempotent repeat over two already-completed books",
+  "exit_code": 0,
+  "before_sha256": {
+    "journal.sqlite": "2c7cef7179627fd1b23c25105264a2d0086730fc8475f7e3843c42b302d7bca8",
+    "report.json": "42cfe8f85ab645e02bcbd8218f9fbcf097619fa431fdfe57cd32bbbb913e41d6",
+    "timings.json": "c77ce4fa939fedcbb7015587759c0237970d8055ab6d6ce4394918e4f760872a"
+  },
+  "after_sha256": {
+    "journal.sqlite": "2c7cef7179627fd1b23c25105264a2d0086730fc8475f7e3843c42b302d7bca8",
+    "report.json": "42cfe8f85ab645e02bcbd8218f9fbcf097619fa431fdfe57cd32bbbb913e41d6",
+    "timings.json": "c77ce4fa939fedcbb7015587759c0237970d8055ab6d6ce4394918e4f760872a"
+  },
+  "sessions": {
+    "pilot-38cd9375ea5dde47c7cd": 718,
+    "pilot-38cd9375ea5dde47c7cd-equal-risk": 718
+  }
+}

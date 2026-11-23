@@ -1,0 +1,62 @@
+{
+  "day": "2019-09-27",
+  "labels": {
+    "ENGINERSIN": {
+      "isin": "INE510A01028",
+      "percent": 20,
+      "published": "2019-09-26",
+      "sources": [
+        {
+          "effective": "2019-09-27",
+          "last_modified": "Thu, 26 Sep 2019 12:00:07 GMT",
+          "published": "2019-09-26",
+          "sha256": "d1fbf18832e0e5f72cb721a022540df109f393e38a26a542e658bb0a00a60015",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_27092019.csv"
+        }
+      ]
+    },
+    "HINDZINC": {
+      "isin": "INE267A01025",
+      "percent": 20,
+      "published": "2019-09-26",
+      "sources": [
+        {
+          "effective": "2019-09-27",
+          "last_modified": "Thu, 26 Sep 2019 12:00:07 GMT",
+          "published": "2019-09-26",
+          "sha256": "d1fbf18832e0e5f72cb721a022540df109f393e38a26a542e658bb0a00a60015",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_27092019.csv"
+        }
+      ]
+    },
+    "IDBI": {
+      "isin": "INE008A01015",
+      "percent": 20,
+      "published": "2019-09-26",
+      "sources": [
+        {
+          "effective": "2019-09-27",
+          "last_modified": "Thu, 26 Sep 2019 12:00:07 GMT",
+          "published": "2019-09-26",
+          "sha256": "d1fbf18832e0e5f72cb721a022540df109f393e38a26a542e658bb0a00a60015",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_27092019.csv"
+        }
+      ]
+    },
+    "OFSS": {
+      "isin": "INE881D01027",
+      "percent": 20,
+      "published": "2019-09-26",
+      "sources": [
+        {
+          "effective": "2019-09-27",
+          "last_modified": "Thu, 26 Sep 2019 12:00:07 GMT",
+          "published": "2019-09-26",
+          "sha256": "d1fbf18832e0e5f72cb721a022540df109f393e38a26a542e658bb0a00a60015",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_27092019.csv"
+        }
+      ]
+    }
+  },
+  "prior": "2019-09-26"
+}

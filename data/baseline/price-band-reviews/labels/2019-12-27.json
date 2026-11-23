@@ -1,0 +1,34 @@
+{
+  "day": "2019-12-27",
+  "labels": {
+    "HEXAWARE": {
+      "isin": "INE093A01033",
+      "percent": 20,
+      "published": "2019-12-26",
+      "sources": [
+        {
+          "effective": "2019-12-27",
+          "last_modified": "Thu, 26 Dec 2019 12:10:06 GMT",
+          "published": "2019-12-26",
+          "sha256": "9bca190d977c1b514e7b8554aaf1f0900225196e0dae2b78040f25a9ffdfc04f",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_27122019.csv"
+        }
+      ]
+    },
+    "UNIONBANK": {
+      "isin": "INE692A01016",
+      "percent": 20,
+      "published": "2019-12-26",
+      "sources": [
+        {
+          "effective": "2019-12-27",
+          "last_modified": "Thu, 26 Dec 2019 12:10:06 GMT",
+          "published": "2019-12-26",
+          "sha256": "9bca190d977c1b514e7b8554aaf1f0900225196e0dae2b78040f25a9ffdfc04f",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_27122019.csv"
+        }
+      ]
+    }
+  },
+  "prior": "2019-12-26"
+}

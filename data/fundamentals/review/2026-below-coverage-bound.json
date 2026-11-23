@@ -1,0 +1,1684 @@
+{
+  "source_edition": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "plan": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "evaluator": "489904c9e32cdea765c68d98637661b44096577c6c0a6586d9996923b183eb51",
+  "run": "b5964daddb1417c9f81f92daae3cb32bd5f1b08158ca1e68da219b7d784208f8",
+  "completed_job_snapshot_sha256": "1c8f93b9b2a81d44852b9c52ee3d245864521663e953981bc6f56c63c9960c94",
+  "completed_source_jobs": 441,
+  "total_jobs": 5837,
+  "matched_nominated_accessions": 715,
+  "completed_nominated_accessions_with_no_fields_contradictions_or_unreadable_pages": 703,
+  "accessions_with_an_unreadable_source_retained": 0,
+  "positive_source_receipts": 12,
+  "limitation": "Fixed source plans and recorded evaluator only. Every pending accession or other basis, any positive field, any internally inconsistent evidence, any failed physical read, all initially covered issuer-quarters, and every eligible legacy/quarantined or independently traced earlier original remains eligible in this deliberately optimistic count. A pair is removed only after all of its applicable nominated accessions have physically complete, fully matched receipts with no observed fields or conflicts. Additional collectors, archives, improved recognition or changed source rules are outside this bound.",
+  "windows": {
+    "2017": {
+      "eligible": 804,
+      "covered_in_reference_edition": 0,
+      "optimistic_before_processing": 600,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 0,
+      "optimistic_now": 600,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 644,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2018": {
+      "eligible": 804,
+      "covered_in_reference_edition": 17,
+      "optimistic_before_processing": 413,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 19,
+      "optimistic_now": 394,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 644,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2019": {
+      "eligible": 804,
+      "covered_in_reference_edition": 30,
+      "optimistic_before_processing": 432,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 16,
+      "optimistic_now": 416,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 644,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2020": {
+      "eligible": 802,
+      "covered_in_reference_edition": 57,
+      "optimistic_before_processing": 496,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 21,
+      "optimistic_now": 475,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 642,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2021": {
+      "eligible": 800,
+      "covered_in_reference_edition": 60,
+      "optimistic_before_processing": 533,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 28,
+      "optimistic_now": 505,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 640,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2022": {
+      "eligible": 800,
+      "covered_in_reference_edition": 66,
+      "optimistic_before_processing": 563,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 25,
+      "optimistic_now": 538,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 640,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2023": {
+      "eligible": 801,
+      "covered_in_reference_edition": 62,
+      "optimistic_before_processing": 504,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 20,
+      "optimistic_now": 484,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 641,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2024": {
+      "eligible": 803,
+      "covered_in_reference_edition": 62,
+      "optimistic_before_processing": 543,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 26,
+      "optimistic_now": 517,
+      "minimal_case_receipts_proving_newly_impossible_window": {},
+      "required": 643,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2025": {
+      "eligible": 800,
+      "covered_in_reference_edition": 95,
+      "optimistic_before_processing": 642,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 30,
+      "optimistic_now": 612,
+      "minimal_case_receipts_proving_newly_impossible_window": {
+        "INE002L01015/2024-12-31": [
+          {
+            "id": "legacy/SJVN/INE002L01015/2024-12-31/consolidated/1196011",
+            "symbol": "SJVN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/1_13022025191232.pdf",
+            "release_at": "2025-02-13T19:12:33+05:30",
+            "job": "f031a91d537d0a554d520f2970cb92605be1400c1f22c686ec542f8478e8689e",
+            "receipt_sha256": "dcdde21be10bcb338e2fff91f10e97851947aa92b107a17b7e2856f1d7c54246"
+          },
+          {
+            "id": "legacy/SJVN/INE002L01015/2024-12-31/standalone/1196009",
+            "symbol": "SJVN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/1_13022025191232.pdf",
+            "release_at": "2025-02-13T19:12:33+05:30",
+            "job": "f031a91d537d0a554d520f2970cb92605be1400c1f22c686ec542f8478e8689e",
+            "receipt_sha256": "aa1c277918821dde024832e4b1d0ffaeae1f35efb713c43d33318ef6f817c39a"
+          }
+        ],
+        "INE012A01025/2024-12-31": [
+          {
+            "id": "legacy/ACC/INE012A01025/2024-12-31/consolidated/1190839",
+            "symbol": "ACC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ACC_OutcomeQ3_27012025133229.pdf",
+            "release_at": "2025-01-27T13:32:30+05:30",
+            "job": "975e4780c2da717e7792fe698df643bd5b4f2d4f8cf0e6623c44cf5a19fbb9ea",
+            "receipt_sha256": "ffc164387e91f77212523fa2ad80113e9045818facbe83e063c10ce293a16c50"
+          },
+          {
+            "id": "legacy/ACC/INE012A01025/2024-12-31/standalone/1190837",
+            "symbol": "ACC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ACC_OutcomeQ3_27012025133229.pdf",
+            "release_at": "2025-01-27T13:32:30+05:30",
+            "job": "975e4780c2da717e7792fe698df643bd5b4f2d4f8cf0e6623c44cf5a19fbb9ea",
+            "receipt_sha256": "7233828298f0afca570bcc362c58c5078d4b495eb2d895505838279d6a58471b"
+          }
+        ],
+        "INE012A01025/2025-03-31": [
+          {
+            "id": "integrated/ACC/INE012A01025/2025-03-31/consolidated/86759",
+            "symbol": "ACC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ACC_1_24042025143204_ACC_Outcome.pdf",
+            "release_at": "2025-04-24T14:34:53+05:30",
+            "job": "1c2bd090cc4329b738992282b62ea4bf8a5c3b9cfd9aaf8a13c16162113a4c42",
+            "receipt_sha256": "88c507d0cfcb132a1332eda073c239b91d0bdc184ed179bff3e737ae30ee1328"
+          },
+          {
+            "id": "integrated/ACC/INE012A01025/2025-03-31/standalone/86654",
+            "symbol": "ACC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ACC_1_24042025143204_ACC_Outcome.pdf",
+            "release_at": "2025-04-24T14:34:53+05:30",
+            "job": "1c2bd090cc4329b738992282b62ea4bf8a5c3b9cfd9aaf8a13c16162113a4c42",
+            "receipt_sha256": "9944d21ee7a32063368b4189e34774562887e6c349c82e90fbc8bf8b14da7771"
+          }
+        ]
+      },
+      "required": 640,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    },
+    "2026": {
+      "eligible": 801,
+      "covered_in_reference_edition": 128,
+      "optimistic_before_processing": 728,
+      "issuer_quarters_no_longer_recoverable_in_these_queues": 96,
+      "optimistic_now": 632,
+      "minimal_case_receipts_proving_newly_impossible_window": {
+        "INE002A01018/2025-12-31": [
+          {
+            "id": "integrated/RELIANCE/INE002A01018/2025-12-31/consolidated/135487",
+            "symbol": "RELIANCE",
+            "original_url": "https://nsearchives.nseindia.in/corporate/kavinavora_16012026190810_FR_1.pdf",
+            "release_at": "2026-01-16T19:09:20+05:30",
+            "job": "7559512346078fe5363d56e78cf9ffa06a8e7d00cee7c5a1c21c0901ef195e9a",
+            "receipt_sha256": "7f333c100dd7cb7a6b841573aa102a2a86184071ca4d97710b4bb8d33bb73724"
+          },
+          {
+            "id": "integrated/RELIANCE/INE002A01018/2025-12-31/standalone/135486",
+            "symbol": "RELIANCE",
+            "original_url": "https://nsearchives.nseindia.in/corporate/kavinavora_16012026190810_FR_1.pdf",
+            "release_at": "2026-01-16T19:09:20+05:30",
+            "job": "7559512346078fe5363d56e78cf9ffa06a8e7d00cee7c5a1c21c0901ef195e9a",
+            "receipt_sha256": "59e106872e71e2eb23bbf4bb1d78cd041cbbeacfa55f164781043a2f6cad20da"
+          }
+        ],
+        "INE002A01018/2026-03-31": [
+          {
+            "id": "integrated/RELIANCE/INE002A01018/2026-03-31/consolidated/152826",
+            "symbol": "RELIANCE",
+            "original_url": "https://nsearchives.nseindia.in/corporate/kavinavora_24042026192614_SE_24042026_FR.pdf",
+            "release_at": "2026-04-24T19:26:29+05:30",
+            "job": "75229ab8aabdf5a06dc195ccb3004c42580fbcbb2780fb422bb98e354fc31c5c",
+            "receipt_sha256": "6e8155724d8a3194694b4dbdc08d0673910ec134b9a0f0fab53bb05d431ce24b"
+          },
+          {
+            "id": "integrated/RELIANCE/INE002A01018/2026-03-31/standalone/152825",
+            "symbol": "RELIANCE",
+            "original_url": "https://nsearchives.nseindia.in/corporate/kavinavora_24042026192614_SE_24042026_FR.pdf",
+            "release_at": "2026-04-24T19:26:29+05:30",
+            "job": "75229ab8aabdf5a06dc195ccb3004c42580fbcbb2780fb422bb98e354fc31c5c",
+            "receipt_sha256": "7f8c8429b81dd0c741f20338a97ccb0b8db22fbad8bb286f14bc26cbaea43fa3"
+          }
+        ],
+        "INE002A01018/2026-06-30": [
+          {
+            "id": "integrated/RELIANCE/INE002A01018/2026-06-30/consolidated/175608",
+            "symbol": "RELIANCE",
+            "original_url": "https://nsearchives.nseindia.in/corporate/kavinavora_17072026190726_SE_FR_1.pdf",
+            "release_at": "2026-07-17T19:07:45+05:30",
+            "job": "f426d8c2b50c7f25437d902e4badd954e120e5d6ac52b1104e4f82361b650a70",
+            "receipt_sha256": "2193004ab02e44a5b13366cd67f5b48fbee25bac61aa853f269d4ae92ad1a319"
+          },
+          {
+            "id": "integrated/RELIANCE/INE002A01018/2026-06-30/standalone/175606",
+            "symbol": "RELIANCE",
+            "original_url": "https://nsearchives.nseindia.in/corporate/kavinavora_17072026190726_SE_FR_1.pdf",
+            "release_at": "2026-07-17T19:07:45+05:30",
+            "job": "f426d8c2b50c7f25437d902e4badd954e120e5d6ac52b1104e4f82361b650a70",
+            "receipt_sha256": "08d64a3de6ebf4f4fccca6929205b8bd7b63ddcf232b14635f924535fec62271"
+          }
+        ],
+        "INE002A01018/2026-09-30": [
+          {
+            "id": "integrated/RELIANCE/INE002A01018/2026-09-30/consolidated/207709",
+            "symbol": "RELIANCE",
+            "original_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf",
+            "release_at": "2026-10-30T19:40:12+05:30",
+            "job": "f3fb62b81a7c0f991dcb5f5d6c4c564754e4e5327341f538e77a9ed8adecfe99",
+            "receipt_sha256": "5002d60e12889e3523e7d73ecb6fe9208aa58d757b640193de0e1a91c2cabbfb"
+          },
+          {
+            "id": "integrated/RELIANCE/INE002A01018/2026-09-30/standalone/207707",
+            "symbol": "RELIANCE",
+            "original_url": "https://nsearchives.nseindia.in/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf",
+            "release_at": "2026-10-30T19:40:12+05:30",
+            "job": "f3fb62b81a7c0f991dcb5f5d6c4c564754e4e5327341f538e77a9ed8adecfe99",
+            "receipt_sha256": "1e12e777b2ff22fe730d1a3e31867abbd397461eef4040abcab308079befb847"
+          }
+        ],
+        "INE012A01025/2025-12-31": [
+          {
+            "id": "integrated/ACC/INE012A01025/2025-12-31/consolidated/138170",
+            "symbol": "ACC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ACC_1_28012026142337_Outcome_ACC_28012026_1.pdf",
+            "release_at": "2026-01-28T14:24:46+05:30",
+            "job": "5a294145e5192dc5abb973c6ff33d9febdb1877d11be6078dc8fa3a8725e5a08",
+            "receipt_sha256": "6a7cb989f3fcaf01b79f86b28f5380a2e5562b819ca83996199d589d07cb3cae"
+          },
+          {
+            "id": "integrated/ACC/INE012A01025/2025-12-31/standalone/138169",
+            "symbol": "ACC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ACC_1_28012026142337_Outcome_ACC_28012026_1.pdf",
+            "release_at": "2026-01-28T14:24:46+05:30",
+            "job": "5a294145e5192dc5abb973c6ff33d9febdb1877d11be6078dc8fa3a8725e5a08",
+            "receipt_sha256": "24ba2a74a53e4181bd7addb3eaae2673b854f84760eac13a3f27bfc416e452e4"
+          }
+        ],
+        "INE019A01038/2026-03-31": [
+          {
+            "id": "integrated/JSWSTEEL/INE019A01038/2026-03-31/consolidated/157679",
+            "symbol": "JSWSTEEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/jessydenny_14052026153116_Results.pdf",
+            "release_at": "2026-05-14T15:32:31+05:30",
+            "job": "6e38cbe6aa5991bcfc3f8a55e3be9bbcbfb2bcbcdfa88fbaf38977d2df12fc04",
+            "receipt_sha256": "c3e4dca4609cd1b2f8a3514fb8e3cb988d8f3a0c51f29952b1a87bef327f97c6"
+          },
+          {
+            "id": "integrated/JSWSTEEL/INE019A01038/2026-03-31/standalone/157677",
+            "symbol": "JSWSTEEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/jessydenny_14052026153116_Results.pdf",
+            "release_at": "2026-05-14T15:32:31+05:30",
+            "job": "6e38cbe6aa5991bcfc3f8a55e3be9bbcbfb2bcbcdfa88fbaf38977d2df12fc04",
+            "receipt_sha256": "4ca4502e5aa0e2320237bf5ca13410c536cfc1237d7f79aaf5003151f1e2433a"
+          }
+        ],
+        "INE01EA01019/2025-12-31": [
+          {
+            "id": "integrated/VMM/INE01EA01019/2025-12-31/consolidated/137656",
+            "symbol": "VMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VMMP2024_27012026194233_Outcome_BM_Jan_27_2026_Signed.pdf",
+            "release_at": "2026-01-27T19:44:30+05:30",
+            "job": "034bc035aa3d24f0cf3a1c0f7d049a411c5add99db4ab0d79bfa1e03052579cf",
+            "receipt_sha256": "9f3f019f8412d7976d2ab71910252e20af55a27ea829b16a9491d4d333da33cf"
+          },
+          {
+            "id": "integrated/VMM/INE01EA01019/2025-12-31/standalone/137655",
+            "symbol": "VMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VMMP2024_27012026194233_Outcome_BM_Jan_27_2026_Signed.pdf",
+            "release_at": "2026-01-27T19:44:30+05:30",
+            "job": "034bc035aa3d24f0cf3a1c0f7d049a411c5add99db4ab0d79bfa1e03052579cf",
+            "receipt_sha256": "2fe71d0ce0863aa305f5d5161d9ac1db6675cfb91951f2b764d3875822cf49ba"
+          }
+        ],
+        "INE01EA01019/2026-03-31": [
+          {
+            "id": "integrated/VMM/INE01EA01019/2026-03-31/consolidated/157471",
+            "symbol": "VMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VMMP2024_14052026125505_Outcome_BM_May_14_2026_Signed.pdf",
+            "release_at": "2026-05-14T13:02:07+05:30",
+            "job": "d36d1e8cb06ba9c2d1d488ac68811253d3a8547554b65d430b5ddaed1c428b03",
+            "receipt_sha256": "1bb2ae44a119e40c2d3a2a0186d32f4f2c489c3b81c959a78ce95854608931e9"
+          },
+          {
+            "id": "integrated/VMM/INE01EA01019/2026-03-31/standalone/157470",
+            "symbol": "VMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VMMP2024_14052026125505_Outcome_BM_May_14_2026_Signed.pdf",
+            "release_at": "2026-05-14T13:02:07+05:30",
+            "job": "d36d1e8cb06ba9c2d1d488ac68811253d3a8547554b65d430b5ddaed1c428b03",
+            "receipt_sha256": "e8ef63aa6b3e6b56513977b6d0ca9e59219acdf05dfa0392c2009ff038e6ae2b"
+          }
+        ],
+        "INE01EA01019/2026-06-30": [
+          {
+            "id": "integrated/VMM/INE01EA01019/2026-06-30/consolidated/177220",
+            "symbol": "VMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VMMP2024_23072026123305_Signed_Outcome_BM_July_23_2026.pdf",
+            "release_at": "2026-07-23T12:36:11+05:30",
+            "job": "6800471647acde0a37f8fe50ebcbd8a4c3fb3c59790d4ac2677368dd045752f5",
+            "receipt_sha256": "99f6019ac4678bd6915fddb71c3af1b6cc3d4cb710a76f97329ff9c0893b86f3"
+          },
+          {
+            "id": "integrated/VMM/INE01EA01019/2026-06-30/standalone/177219",
+            "symbol": "VMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VMMP2024_23072026123305_Signed_Outcome_BM_July_23_2026.pdf",
+            "release_at": "2026-07-23T12:36:11+05:30",
+            "job": "6800471647acde0a37f8fe50ebcbd8a4c3fb3c59790d4ac2677368dd045752f5",
+            "receipt_sha256": "5f1f016351dcb7fcfc4cce9a73ebbb88ea8d79383648fe8f41576ee60c28acca"
+          }
+        ],
+        "INE01EA01019/2026-09-30": [
+          {
+            "id": "integrated/VMM/INE01EA01019/2026-09-30/consolidated/202623",
+            "symbol": "VMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VMMP2024_21102026125928_Final_Outcome_BM_Oct_21_2026.pdf",
+            "release_at": "2026-10-21T13:03:51+05:30",
+            "job": "b4e70f3dc9028b86cc4c5e506dc59f3a569995ef96fcba5da4b6d1127291ef54",
+            "receipt_sha256": "9ffb6df3a61a641021664c31f12ab52433ef1e4c50ce444c1b312dca16b1c420"
+          },
+          {
+            "id": "integrated/VMM/INE01EA01019/2026-09-30/standalone/202622",
+            "symbol": "VMM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VMMP2024_21102026125928_Final_Outcome_BM_Oct_21_2026.pdf",
+            "release_at": "2026-10-21T13:03:51+05:30",
+            "job": "b4e70f3dc9028b86cc4c5e506dc59f3a569995ef96fcba5da4b6d1127291ef54",
+            "receipt_sha256": "030b416fe8a1e92b5072c1ed04e131d0ae51668cbac54edd4b6be070a836fb7d"
+          }
+        ],
+        "INE053A01029/2025-12-31": [
+          {
+            "id": "integrated/INDHOTEL/INE053A01029/2025-12-31/consolidated/142473",
+            "symbol": "INDHOTEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bakhtawar_irani_tajhotels_com_12022026164437_bmoutcome.pdf",
+            "release_at": "2026-02-12T16:45:50+05:30",
+            "job": "cb9455cc5d314cddea556255cf2b8f1d92d5ba5b7cb8884298463d1276f9b055",
+            "receipt_sha256": "7eb422508de8eb9bb004860f63404d521679de98f52947182ac1ba24a66b9538"
+          },
+          {
+            "id": "integrated/INDHOTEL/INE053A01029/2025-12-31/standalone/142470",
+            "symbol": "INDHOTEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bakhtawar_irani_tajhotels_com_12022026164437_bmoutcome.pdf",
+            "release_at": "2026-02-12T16:45:50+05:30",
+            "job": "cb9455cc5d314cddea556255cf2b8f1d92d5ba5b7cb8884298463d1276f9b055",
+            "receipt_sha256": "249fc89d0dac3ffdd18961f74159fbf35b72a0d02d1d9c751f6b42733b257b84"
+          }
+        ],
+        "INE053A01029/2026-03-31": [
+          {
+            "id": "integrated/INDHOTEL/INE053A01029/2026-03-31/consolidated/156746",
+            "symbol": "INDHOTEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bakhtawar_irani_tajhotels_com_11052026173116_OutcomeofBM.pdf",
+            "release_at": "2026-05-11T17:32:46+05:30",
+            "job": "17b7c745bc266cfb27f138e2e7926b65c8fd34dc80e322e32e23e3dcf055fe84",
+            "receipt_sha256": "58da214672aeef633fd860217b5d21b8efaadab49ebb4cbc3689f50307680a56"
+          },
+          {
+            "id": "integrated/INDHOTEL/INE053A01029/2026-03-31/standalone/156731",
+            "symbol": "INDHOTEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bakhtawar_irani_tajhotels_com_11052026173116_OutcomeofBM.pdf",
+            "release_at": "2026-05-11T17:32:46+05:30",
+            "job": "17b7c745bc266cfb27f138e2e7926b65c8fd34dc80e322e32e23e3dcf055fe84",
+            "receipt_sha256": "01e6aac03b0cfaaefd0bbe6e243a6b930cc7121b6c52ac6fb9d7e35955d6fdb7"
+          }
+        ],
+        "INE053A01029/2026-06-30": [
+          {
+            "id": "integrated/INDHOTEL/INE053A01029/2026-06-30/consolidated/176591",
+            "symbol": "INDHOTEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rashna_master_tajhotels_com_21072026174718_OutcomeofBM.pdf",
+            "release_at": "2026-07-21T17:52:18+05:30",
+            "job": "29502e537b2b18d43e469935fcaabb61938a5b35cbfab88fff460545721842e6",
+            "receipt_sha256": "f80470384ff97a31d38e827b89f6f22faf4cf8a2880a011bc032cce274305df3"
+          },
+          {
+            "id": "integrated/INDHOTEL/INE053A01029/2026-06-30/standalone/176589",
+            "symbol": "INDHOTEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rashna_master_tajhotels_com_21072026174718_OutcomeofBM.pdf",
+            "release_at": "2026-07-21T17:52:18+05:30",
+            "job": "29502e537b2b18d43e469935fcaabb61938a5b35cbfab88fff460545721842e6",
+            "receipt_sha256": "28e47f6de3ebfe276f0ea7879d7c3a3573e2f4c4583e3075f6c3c2f1bffe87d0"
+          }
+        ],
+        "INE053A01029/2026-09-30": [
+          {
+            "id": "integrated/INDHOTEL/INE053A01029/2026-09-30/consolidated/202833",
+            "symbol": "INDHOTEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bakhtawar_irani_tajhotels_com_21102026164200_Outcome_of_BM.pdf",
+            "release_at": "2026-10-21T16:44:58+05:30",
+            "job": "4c12c2eb11af7993160048c298a4e3da3a4234ce6effea8d0b5fca237f559c2f",
+            "receipt_sha256": "11f6de2623cf07051dffecf77629fae93e2b18aebc23876f0fae69f65b01d2ca"
+          },
+          {
+            "id": "integrated/INDHOTEL/INE053A01029/2026-09-30/standalone/202832",
+            "symbol": "INDHOTEL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bakhtawar_irani_tajhotels_com_21102026164200_Outcome_of_BM.pdf",
+            "release_at": "2026-10-21T16:44:58+05:30",
+            "job": "4c12c2eb11af7993160048c298a4e3da3a4234ce6effea8d0b5fca237f559c2f",
+            "receipt_sha256": "0d970b350d883b56d9caede78f01096de95597d4aaad76adc31fdf24c894d133"
+          }
+        ],
+        "INE075A01022/2025-12-31": [
+          {
+            "id": "integrated/WIPRO/INE075A01022/2025-12-31/consolidated/135339",
+            "symbol": "WIPRO",
+            "original_url": "https://nsearchives.nseindia.in/corporate/Wipro_Secretarial_16012026153903_SEIntimationReg33.pdf",
+            "release_at": "2026-01-16T15:39:58+05:30",
+            "job": "3f673bd1c26a2cd1e42b4e227dbf479f78ab0cfe067678df2c2e28a7bee406fe",
+            "receipt_sha256": "e69fed8ea9694f11a0e42f188ba7ab409fe0187549dcd53795eb20150c017ec9"
+          },
+          {
+            "id": "integrated/WIPRO/INE075A01022/2025-12-31/standalone/135338",
+            "symbol": "WIPRO",
+            "original_url": "https://nsearchives.nseindia.in/corporate/Wipro_Secretarial_16012026153903_SEIntimationReg33.pdf",
+            "release_at": "2026-01-16T15:39:58+05:30",
+            "job": "3f673bd1c26a2cd1e42b4e227dbf479f78ab0cfe067678df2c2e28a7bee406fe",
+            "receipt_sha256": "0efacb3fef4388e0133153bc8169d93a495fa7f74e99f184e8ed83489364b431"
+          }
+        ],
+        "INE075A01022/2026-03-31": [
+          {
+            "id": "integrated/WIPRO/INE075A01022/2026-03-31/consolidated/151041",
+            "symbol": "WIPRO",
+            "original_url": "https://nsearchives.nseindia.in/corporate/Wipro_Secretarial_16042026162417_Reg33Financials.pdf",
+            "release_at": "2026-04-16T16:26:23+05:30",
+            "job": "8c57aaba4ecfee832e9cc2e090cedfee5fb1f6ed94add3580672814920bc04d6",
+            "receipt_sha256": "79e1044423cb379838a29192bbd67f00005389e1fecbae8271b97b7d724ecf63"
+          },
+          {
+            "id": "integrated/WIPRO/INE075A01022/2026-03-31/standalone/151040",
+            "symbol": "WIPRO",
+            "original_url": "https://nsearchives.nseindia.in/corporate/Wipro_Secretarial_16042026162417_Reg33Financials.pdf",
+            "release_at": "2026-04-16T16:26:23+05:30",
+            "job": "8c57aaba4ecfee832e9cc2e090cedfee5fb1f6ed94add3580672814920bc04d6",
+            "receipt_sha256": "15abdc7ff498ba4c1a06b623f31ea5465c7bb85212301fba0b5f5789199c2b57"
+          }
+        ],
+        "INE075A01022/2026-09-30": [
+          {
+            "id": "integrated/WIPRO/INE075A01022/2026-09-30/consolidated/201410",
+            "symbol": "WIPRO",
+            "original_url": "https://nsearchives.nseindia.in/corporate/Wipro_Secretarial_15102026154647_Reg33Financials.pdf",
+            "release_at": "2026-10-15T15:47:36+05:30",
+            "job": "fcf4720e7ba69e1019900533e02954ef8ef95af53fd6502be12392253bc420ea",
+            "receipt_sha256": "a0426b8c652e2ad133ed124cd53593d5e55816623919b28410c05bc6a6aae839"
+          },
+          {
+            "id": "integrated/WIPRO/INE075A01022/2026-09-30/standalone/201409",
+            "symbol": "WIPRO",
+            "original_url": "https://nsearchives.nseindia.in/corporate/Wipro_Secretarial_15102026154647_Reg33Financials.pdf",
+            "release_at": "2026-10-15T15:47:36+05:30",
+            "job": "fcf4720e7ba69e1019900533e02954ef8ef95af53fd6502be12392253bc420ea",
+            "receipt_sha256": "883f9d086c5ed32020dcd1125be9694dc4b9d4ac0477e9562f4a0ec5c872c9f6"
+          }
+        ],
+        "INE079A01024/2025-12-31": [
+          {
+            "id": "integrated/AMBUJACEM/INE079A01024/2025-12-31/consolidated/139304",
+            "symbol": "AMBUJACEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_30012026142919_ACL_Outcome.pdf",
+            "release_at": "2026-01-30T14:30:39+05:30",
+            "job": "4e22454a679f16101b9db7eb1583838373f1b167316d8be35cbd0a239c52ac3f",
+            "receipt_sha256": "5c333afa550ba1e57460e07804b5fb8a01840a6ec0b23d46fded8752a7c9c921"
+          },
+          {
+            "id": "integrated/AMBUJACEM/INE079A01024/2025-12-31/standalone/139302",
+            "symbol": "AMBUJACEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_30012026142919_ACL_Outcome.pdf",
+            "release_at": "2026-01-30T14:30:39+05:30",
+            "job": "4e22454a679f16101b9db7eb1583838373f1b167316d8be35cbd0a239c52ac3f",
+            "receipt_sha256": "18c24fba82066062cf54d0d774b92653046bcb9f0354b9b1df48ad96dd6de217"
+          }
+        ],
+        "INE079A01024/2026-03-31": [
+          {
+            "id": "integrated/AMBUJACEM/INE079A01024/2026-03-31/consolidated/155484",
+            "symbol": "AMBUJACEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_04052026140536_ACL_Outcome3.pdf",
+            "release_at": "2026-05-04T14:06:03+05:30",
+            "job": "f610f94e2b68ef641bd56ff249d6b8a3b5e1a5ddf7719e446ca9ae83878ae010",
+            "receipt_sha256": "9595f2c8da914d73229d9e5d086910b600a1e10830be63322fe2469f70851508"
+          },
+          {
+            "id": "integrated/AMBUJACEM/INE079A01024/2026-03-31/standalone/155483",
+            "symbol": "AMBUJACEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_04052026140536_ACL_Outcome3.pdf",
+            "release_at": "2026-05-04T14:06:03+05:30",
+            "job": "f610f94e2b68ef641bd56ff249d6b8a3b5e1a5ddf7719e446ca9ae83878ae010",
+            "receipt_sha256": "3f833333ab958024f5b1a63ba6c10d8575a76bbdb4f561ebcae50cd6fc71d661"
+          }
+        ],
+        "INE079A01024/2026-06-30": [
+          {
+            "id": "integrated/AMBUJACEM/INE079A01024/2026-06-30/consolidated/179370",
+            "symbol": "AMBUJACEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_28072026141319_ACl_results_Q1_28062026_1.pdf",
+            "release_at": "2026-07-28T14:16:10+05:30",
+            "job": "436c98af55713adba534e9e01e2231e912488149ef617dc8ab326ca755374aff",
+            "receipt_sha256": "d914b73a94c8509ad9085afce27b1a9c9f5df7165a69aea785133a2655ff2914"
+          },
+          {
+            "id": "integrated/AMBUJACEM/INE079A01024/2026-06-30/standalone/179374",
+            "symbol": "AMBUJACEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_28072026141319_ACl_results_Q1_28062026_1.pdf",
+            "release_at": "2026-07-28T14:16:10+05:30",
+            "job": "436c98af55713adba534e9e01e2231e912488149ef617dc8ab326ca755374aff",
+            "receipt_sha256": "e5954089dc9dde5c57591a15f40299c8ea5496138dc7adb16722a46558600f9e"
+          }
+        ],
+        "INE079A01024/2026-09-30": [
+          {
+            "id": "integrated/AMBUJACEM/INE079A01024/2026-09-30/consolidated/206530",
+            "symbol": "AMBUJACEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_29102026142342_ACL_Results_29102926.pdf",
+            "release_at": "2026-10-29T14:24:21+05:30",
+            "job": "32200017c8aca513e0f7135e51176743c42a092761eea4e5dbc0e4cd7ec4aa56",
+            "receipt_sha256": "dafaa6875983aef9981b5cfdb79df1503b6e5ccec52dcf212801b82f79a8409f"
+          },
+          {
+            "id": "integrated/AMBUJACEM/INE079A01024/2026-09-30/standalone/206529",
+            "symbol": "AMBUJACEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMBUJACEM_29102026142342_ACL_Results_29102926.pdf",
+            "release_at": "2026-10-29T14:24:21+05:30",
+            "job": "32200017c8aca513e0f7135e51176743c42a092761eea4e5dbc0e4cd7ec4aa56",
+            "receipt_sha256": "b786d740c6649ed337b56c54764af3f49fc3bc8cebef35ba1189fdcd8554dfcb"
+          }
+        ],
+        "INE0ONG01011/2025-12-31": [
+          {
+            "id": "integrated/NTPCGREEN/INE0ONG01011/2025-12-31/consolidated/138789",
+            "symbol": "NTPCGREEN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/jkalita01_29012026194552_NGELQ3.pdf",
+            "release_at": "2026-01-29T19:47:56+05:30",
+            "job": "af082ca3a231917fd46d835cd63efa52cbea6effcfdac4aae99de5711981069d",
+            "receipt_sha256": "43c96d3e87f4918842d0f7147778a1ffed3588f3e592b08b68a7a7fa4158f731"
+          },
+          {
+            "id": "integrated/NTPCGREEN/INE0ONG01011/2025-12-31/standalone/138788",
+            "symbol": "NTPCGREEN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/jkalita01_29012026194552_NGELQ3.pdf",
+            "release_at": "2026-01-29T19:47:56+05:30",
+            "job": "af082ca3a231917fd46d835cd63efa52cbea6effcfdac4aae99de5711981069d",
+            "receipt_sha256": "0a7868e61e8275c38a9f65d153cd76c999fb8d2490b05e031e995586a6fe6cf8"
+          }
+        ],
+        "INE117A01022/2026-09-30": [
+          {
+            "id": "integrated/ABB/INE117A01022/2026-09-30/consolidated/213645",
+            "symbol": "ABB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ABB_13112026174803_Reg33QuartelryResultsQ32026signed.pdf",
+            "release_at": "2026-11-13T17:50:10+05:30",
+            "job": "10bf74fe08bd59437e0cd7aa2752ee291910973cd671fe2e51717c6f39c50a4b",
+            "receipt_sha256": "ce1b84aae9a51360e81de8a19683e90b96a7e637ea533ef08eeaf7ecea8479e3"
+          },
+          {
+            "id": "integrated/ABB/INE117A01022/2026-09-30/standalone/213644",
+            "symbol": "ABB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ABB_13112026174803_Reg33QuartelryResultsQ32026signed.pdf",
+            "release_at": "2026-11-13T17:50:10+05:30",
+            "job": "10bf74fe08bd59437e0cd7aa2752ee291910973cd671fe2e51717c6f39c50a4b",
+            "receipt_sha256": "561939cdb5160376363831daa693ed1a732a5ee5986aaa2f16d81c1a6412ad49"
+          }
+        ],
+        "INE121A01024/2026-06-30": [
+          {
+            "id": "integrated/CHOLAFIN/INE121A01024/2026-06-30/consolidated/179334",
+            "symbol": "CHOLAFIN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/lakshmits_28072026143840_Outcome.pdf",
+            "release_at": "2026-07-28T14:39:31+05:30",
+            "job": "3a30d0e119534a77d36d16e6b608656b4ffe38761747ac2e81a1d34138701dda",
+            "receipt_sha256": "0586de88eb1b7e090d4ce7b1c6048a1c378e413918da39356c58b5598ccd243f"
+          },
+          {
+            "id": "integrated/CHOLAFIN/INE121A01024/2026-06-30/standalone/179339",
+            "symbol": "CHOLAFIN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/lakshmits_28072026143840_Outcome.pdf",
+            "release_at": "2026-07-28T14:39:31+05:30",
+            "job": "3a30d0e119534a77d36d16e6b608656b4ffe38761747ac2e81a1d34138701dda",
+            "receipt_sha256": "028f7a72598cffba94feecfba33eb50779729458d08adaac12e4ae880659bce3"
+          }
+        ],
+        "INE139A01034/2025-12-31": [
+          {
+            "id": "integrated/NATIONALUM/INE139A01034/2025-12-31/consolidated/139298",
+            "symbol": "NATIONALUM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bharatsahu_30012026145306_SELetter_Outcome.pdf",
+            "release_at": "2026-01-30T14:55:02+05:30",
+            "job": "9f399556d855b833253818f109950290e3f4039dee550e3e54ae5debc59c3e42",
+            "receipt_sha256": "c2fbe6335588c8da6a15b80390d11ebb170d9e1e41b4f96e5ca92c50d8b9f84f"
+          },
+          {
+            "id": "integrated/NATIONALUM/INE139A01034/2025-12-31/standalone/139297",
+            "symbol": "NATIONALUM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bharatsahu_30012026145306_SELetter_Outcome.pdf",
+            "release_at": "2026-01-30T14:55:02+05:30",
+            "job": "9f399556d855b833253818f109950290e3f4039dee550e3e54ae5debc59c3e42",
+            "receipt_sha256": "3accd338d1387db15a20c5a9e67910fbd08d9c0532f0be1c70b551761c76d8f1"
+          }
+        ],
+        "INE139A01034/2026-06-30": [
+          {
+            "id": "integrated/NATIONALUM/INE139A01034/2026-06-30/consolidated/181384",
+            "symbol": "NATIONALUM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bharatsahu_31072026210050_SELEtterOutcome.pdf",
+            "release_at": "2026-07-31T21:01:52+05:30",
+            "job": "8e9d3731fd415ea198862ea35f10a3e12e9ab1c8779835ee601c14774a729f23",
+            "receipt_sha256": "86d7f4704a3b25950426c9433f33327ebe51aac094eeed9f58ed35f29e2ceb0e"
+          },
+          {
+            "id": "integrated/NATIONALUM/INE139A01034/2026-06-30/standalone/181383",
+            "symbol": "NATIONALUM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bharatsahu_31072026210050_SELEtterOutcome.pdf",
+            "release_at": "2026-07-31T21:01:52+05:30",
+            "job": "8e9d3731fd415ea198862ea35f10a3e12e9ab1c8779835ee601c14774a729f23",
+            "receipt_sha256": "1d8c3de7f830886f5277b35e724acc54b25caaebecea7ab96b1883aef32551aa"
+          }
+        ],
+        "INE139A01034/2026-09-30": [
+          {
+            "id": "integrated/NATIONALUM/INE139A01034/2026-09-30/consolidated/208550",
+            "symbol": "NATIONALUM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bharatsahu_02112026213030_BM_OUTCOME.pdf",
+            "release_at": "2026-11-02T21:32:39+05:30",
+            "job": "9804100bdfe195c2f1593762cbd8d57053f2548a07b20e8cfd41e656cc224f9e",
+            "receipt_sha256": "a252c04feb5ccd77c522151b2b1adb69545a75d33340a7a04bdfc28c987a815f"
+          },
+          {
+            "id": "integrated/NATIONALUM/INE139A01034/2026-09-30/standalone/208549",
+            "symbol": "NATIONALUM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/bharatsahu_02112026213030_BM_OUTCOME.pdf",
+            "release_at": "2026-11-02T21:32:39+05:30",
+            "job": "9804100bdfe195c2f1593762cbd8d57053f2548a07b20e8cfd41e656cc224f9e",
+            "receipt_sha256": "56d12f67fa8104993d519d33942c80381439d1cc27d83dc6c45a4158572db68d"
+          }
+        ],
+        "INE160A01022/2025-12-31": [
+          {
+            "id": "integrated/PNB/INE160A01022/2025-12-31/consolidated/135880",
+            "symbol": "PNB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/pnb2_19012026135058_Intimation_Outcome_Board_Meeting_19012026_0001_DS.pdf",
+            "release_at": "2026-01-19T13:51:17+05:30",
+            "job": "35bd4fae4e0c898c084573d8bd91456ad875dc640871b89a28d6b45ad326a3fe",
+            "receipt_sha256": "2aecb632cabd8f32a44973dcc5386dd2927b308117c1a2b6ab399d7479f1f9f7"
+          },
+          {
+            "id": "integrated/PNB/INE160A01022/2025-12-31/standalone/135879",
+            "symbol": "PNB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/pnb2_19012026135058_Intimation_Outcome_Board_Meeting_19012026_0001_DS.pdf",
+            "release_at": "2026-01-19T13:51:17+05:30",
+            "job": "35bd4fae4e0c898c084573d8bd91456ad875dc640871b89a28d6b45ad326a3fe",
+            "receipt_sha256": "c8fc9b2b00b71f66e66c899885516c0661b38b80a3b25aa6d1b1bec9bf318417"
+          }
+        ],
+        "INE160A01022/2026-03-31": [
+          {
+            "id": "integrated/PNB/INE160A01022/2026-03-31/consolidated/155646",
+            "symbol": "PNB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/pnb2_05052026125705_Intimation_Outcome_of_Board_Meeting_05052026_DS.pdf",
+            "release_at": "2026-05-05T13:00:32+05:30",
+            "job": "72ade9c6c1fbd1088c27665a170f85ed773e95b9bbe24b1d91a9747acd36ba3b",
+            "receipt_sha256": "f36aa1afd96c4e1113e88c03905cae5343c8e646962c8e59bcd92e7ba3cacf73"
+          },
+          {
+            "id": "integrated/PNB/INE160A01022/2026-03-31/standalone/155645",
+            "symbol": "PNB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/pnb2_05052026125705_Intimation_Outcome_of_Board_Meeting_05052026_DS.pdf",
+            "release_at": "2026-05-05T13:00:32+05:30",
+            "job": "72ade9c6c1fbd1088c27665a170f85ed773e95b9bbe24b1d91a9747acd36ba3b",
+            "receipt_sha256": "f8403df0a194fa682d6ff364be8af0f9defd3b333add726181e7b665328c759a"
+          }
+        ],
+        "INE160A01022/2026-06-30": [
+          {
+            "id": "integrated/PNB/INE160A01022/2026-06-30/consolidated/175762",
+            "symbol": "PNB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/pnb2_18072026123354_Intimation_Outcome_of_Board_Meeting_18072026_DS.pdf",
+            "release_at": "2026-07-18T12:34:05+05:30",
+            "job": "6ed5b7c1974851b409553f27acdb1cc3010a1cc5b05484187ccce35cd85a4d5d",
+            "receipt_sha256": "fb7cccb217e6911d52719eb59beb972c3949ebb896765f2f7e15718e17a755a9"
+          },
+          {
+            "id": "integrated/PNB/INE160A01022/2026-06-30/standalone/175761",
+            "symbol": "PNB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/pnb2_18072026123354_Intimation_Outcome_of_Board_Meeting_18072026_DS.pdf",
+            "release_at": "2026-07-18T12:34:05+05:30",
+            "job": "6ed5b7c1974851b409553f27acdb1cc3010a1cc5b05484187ccce35cd85a4d5d",
+            "receipt_sha256": "5066775e9f77140215dbd6b464c3f5e0d4e4b4a0f93d10f9643d68a5ea627c51"
+          }
+        ],
+        "INE160A01022/2026-09-30": [
+          {
+            "id": "integrated/PNB/INE160A01022/2026-09-30/consolidated/201979",
+            "symbol": "PNB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/pnb2_16102026162335_Intimation_Outcome_Board_Meeting_16102026_DS.pdf",
+            "release_at": "2026-10-16T16:24:03+05:30",
+            "job": "6aac228f41720585d5f9f0c74fe5577eb59c99ad4f1c0fd19051f0985dbf322f",
+            "receipt_sha256": "db3c1ed6c0b5ecbf1e4e64685d8649d32344570aa8e2cf0b9cba6d3bd0cf513e"
+          },
+          {
+            "id": "integrated/PNB/INE160A01022/2026-09-30/standalone/201978",
+            "symbol": "PNB",
+            "original_url": "https://nsearchives.nseindia.in/corporate/pnb2_16102026162335_Intimation_Outcome_Board_Meeting_16102026_DS.pdf",
+            "release_at": "2026-10-16T16:24:03+05:30",
+            "job": "6aac228f41720585d5f9f0c74fe5577eb59c99ad4f1c0fd19051f0985dbf322f",
+            "receipt_sha256": "ef12695df1c8ad49c0109f9c49e18b1c83a618fd6c1902c877e2f608b69bfb0d"
+          }
+        ],
+        "INE1CDF01017/2026-09-30": [
+          {
+            "id": "integrated/VAML/INE1CDF01017/2026-09-30/consolidated/205610",
+            "symbol": "VAML",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VAML_28102026151818_2VAMLSEIntimationOutcomeofBMOctober282026Financial_Results.pdf",
+            "release_at": "2026-10-28T15:18:29+05:30",
+            "job": "fa52f8adfb7cf3b3108f755dd73289c612eac8cf9f195010692f7c38a37d4d19",
+            "receipt_sha256": "fedf534cd1e88bad022788b60aafc65a06469dbb90bba247739f99d2901297b7"
+          },
+          {
+            "id": "integrated/VAML/INE1CDF01017/2026-09-30/standalone/205613",
+            "symbol": "VAML",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VAML_28102026151818_2VAMLSEIntimationOutcomeofBMOctober282026Financial_Results.pdf",
+            "release_at": "2026-10-28T15:18:29+05:30",
+            "job": "fa52f8adfb7cf3b3108f755dd73289c612eac8cf9f195010692f7c38a37d4d19",
+            "receipt_sha256": "50dc379812341026020e79b6e24dde6f518a72d9f6fc552aa6201dd791d8dc7e"
+          }
+        ],
+        "INE205A01025/2025-12-31": [
+          {
+            "id": "integrated/VEDL/INE205A01025/2025-12-31/consolidated/139119",
+            "symbol": "VEDL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VEDL_19012026185404_VEDLSEIntimationReg30_9_HZLResultsQ3FY2026signed.pdf",
+            "release_at": "2026-01-19T18:55:52+05:30",
+            "job": "28a4749c15c30637471f0149189391ba89f7d3150459f97ee7b0bf38892f3977",
+            "receipt_sha256": "f470916a4fd55c283c1c00f6f92329e65c8de77261ec102021e39bea19a85a45"
+          },
+          {
+            "id": "integrated/VEDL/INE205A01025/2025-12-31/standalone/139118",
+            "symbol": "VEDL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VEDL_19012026185404_VEDLSEIntimationReg30_9_HZLResultsQ3FY2026signed.pdf",
+            "release_at": "2026-01-19T18:55:52+05:30",
+            "job": "28a4749c15c30637471f0149189391ba89f7d3150459f97ee7b0bf38892f3977",
+            "receipt_sha256": "2451526703fd08f5f3839da5cca2b36593c529e6b5a12096a26b64121ee8280d"
+          }
+        ],
+        "INE205A01025/2026-06-30": [
+          {
+            "id": "integrated/VEDL/INE205A01025/2026-06-30/consolidated/180504",
+            "symbol": "VEDL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VEDL_24072026163743_VEDLSEIntimationReg30_9_HZLResultsQ1FY2027.pdf",
+            "release_at": "2026-07-24T16:38:21+05:30",
+            "job": "c396188b67be1a3b9771e01d95f5af2d577f8fd97485d3bc4a9b89c085870aee",
+            "receipt_sha256": "9bdccabb76911ebd73ed2505fc6a4b856ba7a396490d3cfb2ec18971c04e2152"
+          },
+          {
+            "id": "integrated/VEDL/INE205A01025/2026-06-30/standalone/180505",
+            "symbol": "VEDL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VEDL_24072026163743_VEDLSEIntimationReg30_9_HZLResultsQ1FY2027.pdf",
+            "release_at": "2026-07-24T16:38:21+05:30",
+            "job": "c396188b67be1a3b9771e01d95f5af2d577f8fd97485d3bc4a9b89c085870aee",
+            "receipt_sha256": "92110ed23c2269b834ad21ca7b878983254b2d562726940ac2922c5c6af2f758"
+          }
+        ],
+        "INE205A01025/2026-09-30": [
+          {
+            "id": "integrated/VEDL/INE205A01025/2026-09-30/consolidated/205611",
+            "symbol": "VEDL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VEDL_20102026123223_VEDLSEIntimationReg30_9_HZLResultsQ2FY2027signed.pdf",
+            "release_at": "2026-10-20T12:33:30+05:30",
+            "job": "d9435439a73f9fb866aaea3fa1ad7cd57999675c8dcefad511f19405f6c66dcd",
+            "receipt_sha256": "784dce1376cc5188ba9b3b464df8fd1ed43e5b7a1dbddce0d709c7d585b45e63"
+          },
+          {
+            "id": "integrated/VEDL/INE205A01025/2026-09-30/standalone/205614",
+            "symbol": "VEDL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VEDL_20102026123223_VEDLSEIntimationReg30_9_HZLResultsQ2FY2027signed.pdf",
+            "release_at": "2026-10-20T12:33:30+05:30",
+            "job": "d9435439a73f9fb866aaea3fa1ad7cd57999675c8dcefad511f19405f6c66dcd",
+            "receipt_sha256": "14d0609d1b8f2800f253be8eb2d6b2aba13f3dc9b84f132f01777e28c2985953"
+          }
+        ],
+        "INE226A01021/2026-06-30": [
+          {
+            "id": "integrated/VOLTAS/INE226A01021/2026-06-30/consolidated/187729",
+            "symbol": "VOLTAS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VOLTAS_RB_14082026171531_01_Outcome_signed.pdf",
+            "release_at": "2026-08-14T17:19:57+05:30",
+            "job": "363221b6b702df58fdebf90ea8daeb4bcf34524221a7d72a0439ffcca7f48e1a",
+            "receipt_sha256": "69cfd2613dbe97aaf5246a5023ad8c74eaa78b6bab1ad1441b74ca210869d125"
+          },
+          {
+            "id": "integrated/VOLTAS/INE226A01021/2026-06-30/standalone/187724",
+            "symbol": "VOLTAS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VOLTAS_RB_14082026171531_01_Outcome_signed.pdf",
+            "release_at": "2026-08-14T17:19:57+05:30",
+            "job": "363221b6b702df58fdebf90ea8daeb4bcf34524221a7d72a0439ffcca7f48e1a",
+            "receipt_sha256": "949bf088c2d91fd320ff44c9a5927d368714df4ca29752a910d32b3ad5ec6617"
+          }
+        ],
+        "INE226A01021/2026-09-30": [
+          {
+            "id": "integrated/VOLTAS/INE226A01021/2026-09-30/consolidated/211585",
+            "symbol": "VOLTAS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VOLTAS_RB_06112026165511_01_Financial_Results_signed.pdf",
+            "release_at": "2026-11-06T16:59:41+05:30",
+            "job": "854e7006807b842949410c9274450f3d243f247dbec5ab897b9c85257278be18",
+            "receipt_sha256": "ca1cd2a5461061173f54aef15dd982a381be8274461ec390125c85da5e5397d4"
+          },
+          {
+            "id": "integrated/VOLTAS/INE226A01021/2026-09-30/standalone/211578",
+            "symbol": "VOLTAS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VOLTAS_RB_06112026165511_01_Financial_Results_signed.pdf",
+            "release_at": "2026-11-06T16:59:41+05:30",
+            "job": "854e7006807b842949410c9274450f3d243f247dbec5ab897b9c85257278be18",
+            "receipt_sha256": "2f84662d7d9b5200640927ae79f00135644e9bc4a806839d333d7b078b3e2f4e"
+          }
+        ],
+        "INE245A01021/2025-12-31": [
+          {
+            "id": "integrated/TATAPOWER/INE245A01021/2025-12-31/consolidated/140175",
+            "symbol": "TATAPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VPTPCL_04022026170516_Outcome.pdf",
+            "release_at": "2026-02-04T17:05:31+05:30",
+            "job": "db03d4e22f6913483dadf5802d2f803d52ad58f16288675e45892c4936bcdf8b",
+            "receipt_sha256": "848423a0e92fa2660077c113b35537163b2414303f252dcac07a1c6a11e0cc29"
+          },
+          {
+            "id": "integrated/TATAPOWER/INE245A01021/2025-12-31/standalone/140176",
+            "symbol": "TATAPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VPTPCL_04022026170516_Outcome.pdf",
+            "release_at": "2026-02-04T17:05:31+05:30",
+            "job": "db03d4e22f6913483dadf5802d2f803d52ad58f16288675e45892c4936bcdf8b",
+            "receipt_sha256": "9ef00b0750cee028d80964caa82b395ae7d7a773aa1f8f4bc51e491f46f4325f"
+          }
+        ],
+        "INE245A01021/2026-03-31": [
+          {
+            "id": "integrated/TATAPOWER/INE245A01021/2026-03-31/consolidated/156997",
+            "symbol": "TATAPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VPTPCL_12052026164148_Outcome.pdf",
+            "release_at": "2026-05-12T16:44:48+05:30",
+            "job": "220b81ac63a873588c7da979523d644b61ae9bd5b3af9f3b72aca2f9eef00bab",
+            "receipt_sha256": "7c1f6f3c10e7ff1ba4180cc2a3368ab6fe43eee0ba0801de9212c4807786dcf5"
+          },
+          {
+            "id": "integrated/TATAPOWER/INE245A01021/2026-03-31/standalone/156992",
+            "symbol": "TATAPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VPTPCL_12052026164148_Outcome.pdf",
+            "release_at": "2026-05-12T16:44:48+05:30",
+            "job": "220b81ac63a873588c7da979523d644b61ae9bd5b3af9f3b72aca2f9eef00bab",
+            "receipt_sha256": "18c5f91a3f7f307f404081ca48bcb65c5c268634c66ea014dc693ba3da5096c8"
+          }
+        ],
+        "INE245A01021/2026-06-30": [
+          {
+            "id": "integrated/TATAPOWER/INE245A01021/2026-06-30/consolidated/178664",
+            "symbol": "TATAPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VPTPCL_27072026164937_Outcome.pdf",
+            "release_at": "2026-07-27T16:49:52+05:30",
+            "job": "92bfe363a8d2d9ce97b385f8efc10bf9e4051c6d6c41be3bc7244bbe9ea3bf6d",
+            "receipt_sha256": "a7a9677f89092771bfbc3ed8c9a7e5726016ca219c3fb750a1b39bd93323cd7b"
+          },
+          {
+            "id": "integrated/TATAPOWER/INE245A01021/2026-06-30/standalone/178668",
+            "symbol": "TATAPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VPTPCL_27072026164937_Outcome.pdf",
+            "release_at": "2026-07-27T16:49:52+05:30",
+            "job": "92bfe363a8d2d9ce97b385f8efc10bf9e4051c6d6c41be3bc7244bbe9ea3bf6d",
+            "receipt_sha256": "b77953f634c9c3e5a11e4104c3448f38a82e0ab80afef384557607143b4fa893"
+          }
+        ],
+        "INE245A01021/2026-09-30": [
+          {
+            "id": "integrated/TATAPOWER/INE245A01021/2026-09-30/consolidated/212451",
+            "symbol": "TATAPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VPTPCL_11112026172001_outcome_final.pdf",
+            "release_at": "2026-11-11T17:20:20+05:30",
+            "job": "dc2380e049ec110eb1b1e64590690848f175c2fdcd0c010f521377668685dfe7",
+            "receipt_sha256": "8efd091adae8c4c1d7e87f15686e0ec460b819e51bf5269dcacd573e878a5518"
+          },
+          {
+            "id": "integrated/TATAPOWER/INE245A01021/2026-09-30/standalone/212449",
+            "symbol": "TATAPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/VPTPCL_11112026172001_outcome_final.pdf",
+            "release_at": "2026-11-11T17:20:20+05:30",
+            "job": "dc2380e049ec110eb1b1e64590690848f175c2fdcd0c010f521377668685dfe7",
+            "receipt_sha256": "42e2fc260eb5753058985bd08489b804456c2479d12d3e364dcfd7b001f2c1fc"
+          }
+        ],
+        "INE346A01027/2026-03-31": [
+          {
+            "id": "integrated/ICICIAMC/INE346A01027/2026-03-31/standalone/150618",
+            "symbol": "ICICIAMC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMCSECRETARIAL_13042026174441_ICICIPRUOUTCOME.pdf",
+            "release_at": "2026-04-13T17:46:21+05:30",
+            "job": "5a475c9a1e201a73fffad9dcf10f0f7488d37fe9aa6b9e3d0d337f854d1d959e",
+            "receipt_sha256": "8154c3b68603d435e5f9ab1c5eb1cfc6058ab38873ea5bded10ae14d701267d4"
+          }
+        ],
+        "INE346A01027/2026-06-30": [
+          {
+            "id": "integrated/ICICIAMC/INE346A01027/2026-06-30/standalone/174099",
+            "symbol": "ICICIAMC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMCSECRETARIAL_13072026162458_ICICIINTIMATIONFINANCIAL.pdf",
+            "release_at": "2026-07-13T16:30:53+05:30",
+            "job": "ef8d1df3216d442718f67e4f9fd4d398d06b1bdc78ea464347d53936145c275c",
+            "receipt_sha256": "8bd44047ca5f206002642f8cc2834187a648749dd6da61dd83ebcdb3b79f0211"
+          }
+        ],
+        "INE346A01027/2026-09-30": [
+          {
+            "id": "integrated/ICICIAMC/INE346A01027/2026-09-30/standalone/200614",
+            "symbol": "ICICIAMC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/AMCSECRETARIAL_12102026173412_ICICIAMCOutcomeofboardmeeting.pdf",
+            "release_at": "2026-10-12T17:42:28+05:30",
+            "job": "6b00e81caee0b329b3c2a16a6879ab6cd072a1c251e417a7d201bcfa014edec3",
+            "receipt_sha256": "392c6dc7c072fce7d5b6514a9e8b3f81d2d32c9436142ca7e3b1b097a847c0eb"
+          }
+        ],
+        "INE364U01010/2025-12-31": [
+          {
+            "id": "integrated/ADANIGREEN/INE364U01010/2025-12-31/consolidated/136970",
+            "symbol": "ADANIGREEN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIGREEN_23012026135949_Outcome_of_BM_230120261.pdf",
+            "release_at": "2026-01-23T14:00:34+05:30",
+            "job": "a436ea4be910e5d90682774e0c4d0b160ede717ecbd3382a3a47aaf38c7f6598",
+            "receipt_sha256": "cdabf61fcbec2714a5b9ed5a2e95d2eb340824065604e6d20c1acc6bf24f4d85"
+          },
+          {
+            "id": "integrated/ADANIGREEN/INE364U01010/2025-12-31/standalone/136966",
+            "symbol": "ADANIGREEN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIGREEN_23012026135949_Outcome_of_BM_230120261.pdf",
+            "release_at": "2026-01-23T14:00:34+05:30",
+            "job": "a436ea4be910e5d90682774e0c4d0b160ede717ecbd3382a3a47aaf38c7f6598",
+            "receipt_sha256": "82cc6fc5811628c85f613db2245e4882de37e20d33fd2e37eb37b99fb30339f7"
+          }
+        ],
+        "INE364U01010/2026-03-31": [
+          {
+            "id": "integrated/ADANIGREEN/INE364U01010/2026-03-31/consolidated/152669",
+            "symbol": "ADANIGREEN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIGREEN_24042026141045_Lettersigned.pdf",
+            "release_at": "2026-04-24T14:10:58+05:30",
+            "job": "b35c0637a8c9f0aaea743feee85ee3f1119e636c49baa6c456648d3a21c82e66",
+            "receipt_sha256": "a8efa3cba18fa57c5e44f4ef31e99d9e24effe7d7fab64c9f5beffb58d1ed05f"
+          }
+        ],
+        "INE364U01010/2026-06-30": [
+          {
+            "id": "integrated/ADANIGREEN/INE364U01010/2026-06-30/consolidated/176800",
+            "symbol": "ADANIGREEN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIGREEN_22072026141111_OutcomeBM22072026.pdf",
+            "release_at": "2026-07-22T14:13:09+05:30",
+            "job": "83ac61fc9d834fad0d7b44f5595272741796ddff6d88dfe9145914a61bb2f82a",
+            "receipt_sha256": "f389c91d811233a77e19957af36e95d62986d98ed8fbc616a13c9a59393655e7"
+          },
+          {
+            "id": "integrated/ADANIGREEN/INE364U01010/2026-06-30/standalone/176799",
+            "symbol": "ADANIGREEN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIGREEN_22072026141111_OutcomeBM22072026.pdf",
+            "release_at": "2026-07-22T14:13:09+05:30",
+            "job": "83ac61fc9d834fad0d7b44f5595272741796ddff6d88dfe9145914a61bb2f82a",
+            "receipt_sha256": "7cb423a5f555a351d213606c9f910ac8409ea6cb6acf5f129469c223b6ef721e"
+          }
+        ],
+        "INE364U01010/2026-09-30": [
+          {
+            "id": "integrated/ADANIGREEN/INE364U01010/2026-09-30/consolidated/202752",
+            "symbol": "ADANIGREEN",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIGREEN_21102026142038_OutcomeBM21102026.pdf",
+            "release_at": "2026-10-21T14:22:28+05:30",
+            "job": "3cadec82e95d05cf573076ed0867764b39613047e4bb30ee5f1885fa4fc57414",
+            "receipt_sha256": "9f0920211f299f2b00f4f5f12f102dc2f7e7bca838847b6d4a7b176f89801ad6"
+          }
+        ],
+        "INE377N01017/2025-12-31": [
+          {
+            "id": "integrated/WAAREEENER/INE377N01017/2025-12-31/consolidated/136581",
+            "symbol": "WAAREEENER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/WAAREE_21012026201403_OutcomeofBoardMeeting_signed.pdf",
+            "release_at": "2026-01-21T20:14:16+05:30",
+            "job": "04953914a2189b79dce530916c87750c84aa0bd1d6f2de166b15713597d294cc",
+            "receipt_sha256": "dfe061c84fb0073d7270316727311d79e3e882e491e7ab87d610ce5b1ce6bba5"
+          },
+          {
+            "id": "integrated/WAAREEENER/INE377N01017/2025-12-31/standalone/136580",
+            "symbol": "WAAREEENER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/WAAREE_21012026201403_OutcomeofBoardMeeting_signed.pdf",
+            "release_at": "2026-01-21T20:14:16+05:30",
+            "job": "04953914a2189b79dce530916c87750c84aa0bd1d6f2de166b15713597d294cc",
+            "receipt_sha256": "a82bcbc2019d73f94751caa355c902ef3152f3e33f64fa71da93bf5735f439d8"
+          }
+        ],
+        "INE377N01017/2026-03-31": [
+          {
+            "id": "integrated/WAAREEENER/INE377N01017/2026-03-31/consolidated/154498",
+            "symbol": "WAAREEENER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/WAAREE_29042026212854_Outcome_of_BM_signed.pdf",
+            "release_at": "2026-04-29T21:30:14+05:30",
+            "job": "5d24eb60bb02f2200a0a0097db74977a959790aab6ac7f3f6288622139ab883f",
+            "receipt_sha256": "a490819ffb4f174e1733fcc8158941db1f2c2a7c9da707fd7bd8296dd80ac61e"
+          },
+          {
+            "id": "integrated/WAAREEENER/INE377N01017/2026-03-31/standalone/154497",
+            "symbol": "WAAREEENER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/WAAREE_29042026212854_Outcome_of_BM_signed.pdf",
+            "release_at": "2026-04-29T21:30:14+05:30",
+            "job": "5d24eb60bb02f2200a0a0097db74977a959790aab6ac7f3f6288622139ab883f",
+            "receipt_sha256": "53a57019c730878d764a6929efeb9d36ffccc33cbc5a37492e58dada8b150825"
+          }
+        ],
+        "INE423A01024/2025-12-31": [
+          {
+            "id": "integrated/ADANIENT/INE423A01024/2025-12-31/consolidated/139978",
+            "symbol": "ADANIENT",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIENT_03022026143851_AELOutcomeofBM03022026.pdf",
+            "release_at": "2026-02-03T14:41:35+05:30",
+            "job": "1efb338b4daa29037314fe99b0ea51c1491279feff0ccf4a3b0d7d8fc795448b",
+            "receipt_sha256": "6fd25fef8ab7fbd6c0784059ca13f2902cac232c213e9689049428e0e71f7645"
+          },
+          {
+            "id": "integrated/ADANIENT/INE423A01024/2025-12-31/standalone/139988",
+            "symbol": "ADANIENT",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIENT_03022026143851_AELOutcomeofBM03022026.pdf",
+            "release_at": "2026-02-03T14:41:35+05:30",
+            "job": "1efb338b4daa29037314fe99b0ea51c1491279feff0ccf4a3b0d7d8fc795448b",
+            "receipt_sha256": "db555d4560d9ccf8a8005b6df51efc38fa41b2c9470ce2488df0314b8763086d"
+          }
+        ],
+        "INE423A01024/2026-03-31": [
+          {
+            "id": "integrated/ADANIENT/INE423A01024/2026-03-31/consolidated/155174",
+            "symbol": "ADANIENT",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIENT_30042026153306_AELBMOutcome30042026.pdf",
+            "release_at": "2026-04-30T15:35:00+05:30",
+            "job": "f30ea6e1ab1b48750f5d4ef0a85b26fc03e421b9ff99292eb481c76c3b1cdb1b",
+            "receipt_sha256": "c23ffe5ec87ff6d2b8b7dacb3bec61081f93fafdf3de44ae67ba303ad45ed35b"
+          }
+        ],
+        "INE423A01024/2026-09-30": [
+          {
+            "id": "integrated/ADANIENT/INE423A01024/2026-09-30/consolidated/205974",
+            "symbol": "ADANIENT",
+            "original_url": "https://nsearchives.nseindia.in/corporate/nishant_joshi_adani_com_28102026133333_AELBoardoutcome30092026.pdf",
+            "release_at": "2026-10-28T13:37:14+05:30",
+            "job": "0ba0b617d5d195b220a9725932be4cfa2713ca09d85c3f048303bd1df208be23",
+            "receipt_sha256": "b048eae221ed9cad8fb17ec006c92897d77a6b07bbe34c80c99923907f8f578e"
+          }
+        ],
+        "INE465A01025/2026-06-30": [
+          {
+            "id": "integrated/BHARATFORG/INE465A01025/2026-06-30/consolidated/184671",
+            "symbol": "BHARATFORG",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ANILSHINDE_10082026135525_SEIntimationOutcomeofBM_final.pdf",
+            "release_at": "2026-08-10T13:58:43+05:30",
+            "job": "43a432cc020ea9b228fd4e8bdcf10ece0fe537d697aeec74cc5f43a050198371",
+            "receipt_sha256": "5fb0a6f0226860c3a12941c728c5f2a6d79e826846abe8feb4e317aa5d6d80a1"
+          },
+          {
+            "id": "integrated/BHARATFORG/INE465A01025/2026-06-30/standalone/184668",
+            "symbol": "BHARATFORG",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ANILSHINDE_10082026135525_SEIntimationOutcomeofBM_final.pdf",
+            "release_at": "2026-08-10T13:58:43+05:30",
+            "job": "43a432cc020ea9b228fd4e8bdcf10ece0fe537d697aeec74cc5f43a050198371",
+            "receipt_sha256": "f0c0b00c20b7503ee2af83edcce0191147c333ed417d8f7b3bbe26ece1b92e06"
+          }
+        ],
+        "INE465A01025/2026-09-30": [
+          {
+            "id": "integrated/BHARATFORG/INE465A01025/2026-09-30/consolidated/210585",
+            "symbol": "BHARATFORG",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ANILSHINDE_05112026125610_SEIntimationOutcomeofBM_sd.pdf",
+            "release_at": "2026-11-05T12:57:41+05:30",
+            "job": "17fe96ef1c718bb555ed4eec03ac41cea56a0673f458bce72d4ccc2b1f02c383",
+            "receipt_sha256": "437da31ba486ce56ea709950c5047b7e8e908793b1a607c93c0f3653f29056df"
+          },
+          {
+            "id": "integrated/BHARATFORG/INE465A01025/2026-09-30/standalone/210577",
+            "symbol": "BHARATFORG",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ANILSHINDE_05112026125610_SEIntimationOutcomeofBM_sd.pdf",
+            "release_at": "2026-11-05T12:57:41+05:30",
+            "job": "17fe96ef1c718bb555ed4eec03ac41cea56a0673f458bce72d4ccc2b1f02c383",
+            "receipt_sha256": "4631b04d6774c6c5738e6d3336d15ffc37a2082c746ab56c900ce746ab7adf3f"
+          }
+        ],
+        "INE481G01011/2026-03-31": [
+          {
+            "id": "integrated/ULTRACEMCO/INE481G01011/2026-03-31/consolidated/153313",
+            "symbol": "ULTRACEMCO",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ULTRACEMCO1_27042026142549_Outcome_of_BM_Results.pdf",
+            "release_at": "2026-04-27T14:26:22+05:30",
+            "job": "45b297fe4eddfc18a5dc9630bee9c9137d1d02ad0c1ef97daf35cda6cff47284",
+            "receipt_sha256": "58137c7f62b4de33e79f8f495e60a6e4efe415a8fb4b2f4819cb78c074b75018"
+          },
+          {
+            "id": "integrated/ULTRACEMCO/INE481G01011/2026-03-31/standalone/153311",
+            "symbol": "ULTRACEMCO",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ULTRACEMCO1_27042026142549_Outcome_of_BM_Results.pdf",
+            "release_at": "2026-04-27T14:26:22+05:30",
+            "job": "45b297fe4eddfc18a5dc9630bee9c9137d1d02ad0c1ef97daf35cda6cff47284",
+            "receipt_sha256": "d8e7b67361267a9562d23bb0e87fd2ca27a0fcd96b52fa63c8e093dc8cbd2574"
+          }
+        ],
+        "INE498L01015/2025-12-31": [
+          {
+            "id": "integrated/LTF/INE498L01015/2025-12-31/consolidated/135473",
+            "symbol": "LTF",
+            "original_url": "https://nsearchives.nseindia.in/corporate/naguiyer_16012026184511_NSEBSEINTIMATION.pdf",
+            "release_at": "2026-01-16T18:45:27+05:30",
+            "job": "464ad132b3aa5989ed37d77ef7ee0ccc59dd29a2490da680191327faeb8d8172",
+            "receipt_sha256": "0a7bd0c9c12bf919625c4369b1d7861a27dc1de229db47d282cab6d6f34fffc6"
+          },
+          {
+            "id": "integrated/LTF/INE498L01015/2025-12-31/standalone/135472",
+            "symbol": "LTF",
+            "original_url": "https://nsearchives.nseindia.in/corporate/naguiyer_16012026184511_NSEBSEINTIMATION.pdf",
+            "release_at": "2026-01-16T18:45:27+05:30",
+            "job": "464ad132b3aa5989ed37d77ef7ee0ccc59dd29a2490da680191327faeb8d8172",
+            "receipt_sha256": "67ef189b9c7e6029d35224db7ae54775b33aabdb54c6bf75560ac7e7a6d3ead5"
+          }
+        ],
+        "INE498L01015/2026-03-31": [
+          {
+            "id": "integrated/LTF/INE498L01015/2026-03-31/consolidated/152787",
+            "symbol": "LTF",
+            "original_url": "https://nsearchives.nseindia.in/corporate/naguiyer_24042026184606_NSEBSEINTIMATION.pdf",
+            "release_at": "2026-04-24T18:49:47+05:30",
+            "job": "59e529bd08eb605cb3969465a588b5cb61ad23eccdf79af8846be006a34620c5",
+            "receipt_sha256": "7ea347791a7610b8357702f52529281632080e1b4e1607a0387534c8c732fcb0"
+          },
+          {
+            "id": "integrated/LTF/INE498L01015/2026-03-31/standalone/152790",
+            "symbol": "LTF",
+            "original_url": "https://nsearchives.nseindia.in/corporate/naguiyer_24042026184606_NSEBSEINTIMATION.pdf",
+            "release_at": "2026-04-24T18:49:47+05:30",
+            "job": "59e529bd08eb605cb3969465a588b5cb61ad23eccdf79af8846be006a34620c5",
+            "receipt_sha256": "d0e1d62792cae46d0e1b6a39a7929dfff50625d229df2896e7ccde620e359912"
+          }
+        ],
+        "INE498L01015/2026-06-30": [
+          {
+            "id": "integrated/LTF/INE498L01015/2026-06-30/consolidated/173700",
+            "symbol": "LTF",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ltfinance_10072026175452_NSEBSEINTIMATION.pdf",
+            "release_at": "2026-07-10T17:55:26+05:30",
+            "job": "5e3fb391a8b8fc002cd09ccabc0d22913c2c91015dba5fa37625d2afabdeb904",
+            "receipt_sha256": "cd73288deb84431f5b3a5a0ed2e4c705f5245ba43db06cbac3e9fd1765615fb7"
+          },
+          {
+            "id": "integrated/LTF/INE498L01015/2026-06-30/standalone/173701",
+            "symbol": "LTF",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ltfinance_10072026175452_NSEBSEINTIMATION.pdf",
+            "release_at": "2026-07-10T17:55:26+05:30",
+            "job": "5e3fb391a8b8fc002cd09ccabc0d22913c2c91015dba5fa37625d2afabdeb904",
+            "receipt_sha256": "14f0690721617a9e47ef2544bfa826dc17b876361468516d20aa838ceaf1fcbc"
+          }
+        ],
+        "INE498L01015/2026-09-30": [
+          {
+            "id": "integrated/LTF/INE498L01015/2026-09-30/consolidated/201574",
+            "symbol": "LTF",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ltfinance_15102026191750_NSEBSEOUTCOME.pdf",
+            "release_at": "2026-10-15T19:18:38+05:30",
+            "job": "63ea3210d15e7592442e8a83a1d91be192d90e741aa1a6d476bffa513bcfbe1a",
+            "receipt_sha256": "307c2b357280b5b8357e952924b5df0da029a30f44977870838b363c86331b45"
+          },
+          {
+            "id": "integrated/LTF/INE498L01015/2026-09-30/standalone/201577",
+            "symbol": "LTF",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ltfinance_15102026191750_NSEBSEOUTCOME.pdf",
+            "release_at": "2026-10-15T19:18:38+05:30",
+            "job": "63ea3210d15e7592442e8a83a1d91be192d90e741aa1a6d476bffa513bcfbe1a",
+            "receipt_sha256": "0c3bb433989b1be777323cfc234a81758cc4118732387f6c00957566ff61b2a2"
+          }
+        ],
+        "INE528G01035/2025-12-31": [
+          {
+            "id": "integrated/YESBANK/INE528G01035/2025-12-31/consolidated/135556",
+            "symbol": "YESBANK",
+            "original_url": "https://nsearchives.nseindia.in/corporate/YESBANK_17012026124604_YBL_SE_Intimation_Outcome_BM_17012026_signed.pdf",
+            "release_at": "2026-01-17T12:47:40+05:30",
+            "job": "edc9016600c77f18c6cbaa0be719211fbc0e57a565fd7102555cac1daaa264af",
+            "receipt_sha256": "ee0527a1d88ec5898703afebe7dba4b961f72358d029296bd6d0144516ec2ce5"
+          },
+          {
+            "id": "integrated/YESBANK/INE528G01035/2025-12-31/standalone/135555",
+            "symbol": "YESBANK",
+            "original_url": "https://nsearchives.nseindia.in/corporate/YESBANK_17012026124604_YBL_SE_Intimation_Outcome_BM_17012026_signed.pdf",
+            "release_at": "2026-01-17T12:47:40+05:30",
+            "job": "edc9016600c77f18c6cbaa0be719211fbc0e57a565fd7102555cac1daaa264af",
+            "receipt_sha256": "79bfc7aca24b1955fb74b300fb655254bee4446951ce430ffb0286452ef9ed80"
+          }
+        ],
+        "INE528G01035/2026-03-31": [
+          {
+            "id": "integrated/YESBANK/INE528G01035/2026-03-31/consolidated/151459",
+            "symbol": "YESBANK",
+            "original_url": "https://nsearchives.nseindia.in/corporate/YESBANK_18042026135748_YBL_SE_Intimation_Outcome_BM_signed.pdf",
+            "release_at": "2026-04-18T13:58:06+05:30",
+            "job": "b03fca54a5766c7e6752a4249e55b30966bcead0ce4aa06f14157559cecda10d",
+            "receipt_sha256": "4d7d9ccd30cf7b1c8a64648a129ffc89aa5bb48d2420c813c4ce5e49d7ca5185"
+          },
+          {
+            "id": "integrated/YESBANK/INE528G01035/2026-03-31/standalone/151454",
+            "symbol": "YESBANK",
+            "original_url": "https://nsearchives.nseindia.in/corporate/YESBANK_18042026135748_YBL_SE_Intimation_Outcome_BM_signed.pdf",
+            "release_at": "2026-04-18T13:58:06+05:30",
+            "job": "b03fca54a5766c7e6752a4249e55b30966bcead0ce4aa06f14157559cecda10d",
+            "receipt_sha256": "db73e33d5c835e37908711ca8ff83906dd489e9c91dbe28af221d647628513d0"
+          }
+        ],
+        "INE528G01035/2026-09-30": [
+          {
+            "id": "integrated/YESBANK/INE528G01035/2026-09-30/consolidated/202173",
+            "symbol": "YESBANK",
+            "original_url": "https://nsearchives.nseindia.in/corporate/YESBANK_17102026191757_SE_Intimation_Signed.pdf",
+            "release_at": "2026-10-17T19:19:20+05:30",
+            "job": "45a7618bb68c7b6e6d88c2657165c6f226daff21f5673ce1e0e67a069fae3975",
+            "receipt_sha256": "16af0a5cc1094e6226ceb2c3723931de2f0f977506bcc2d470975758a6ab52eb"
+          },
+          {
+            "id": "integrated/YESBANK/INE528G01035/2026-09-30/standalone/202172",
+            "symbol": "YESBANK",
+            "original_url": "https://nsearchives.nseindia.in/corporate/YESBANK_17102026191757_SE_Intimation_Signed.pdf",
+            "release_at": "2026-10-17T19:19:20+05:30",
+            "job": "45a7618bb68c7b6e6d88c2657165c6f226daff21f5673ce1e0e67a069fae3975",
+            "receipt_sha256": "56902a9a4ca99378bce198d7962ab2b5da818269b88627ef928bd3b3e3ab37be"
+          }
+        ],
+        "INE540L01014/2025-12-31": [
+          {
+            "id": "integrated/ALKEM/INE540L01014/2025-12-31/consolidated/143027",
+            "symbol": "ALKEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ALKEM_13022026135010_AlkemOutcomeofBoardMeeting13022026.pdf",
+            "release_at": "2026-02-13T13:50:24+05:30",
+            "job": "9a4970a420fbb0edfb8d28741404792864914fe266869ecf8e8f442a3136ac64",
+            "receipt_sha256": "f54c8f580aba4e61b8a78eaebb9ccb69388e5c994d0e40eb1b3e79d7a7bcab7e"
+          },
+          {
+            "id": "integrated/ALKEM/INE540L01014/2025-12-31/standalone/143026",
+            "symbol": "ALKEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ALKEM_13022026135010_AlkemOutcomeofBoardMeeting13022026.pdf",
+            "release_at": "2026-02-13T13:50:24+05:30",
+            "job": "9a4970a420fbb0edfb8d28741404792864914fe266869ecf8e8f442a3136ac64",
+            "receipt_sha256": "75585072827d6db73fddc02a15a794faf48a11b7c4261019eb2a8c1d497f12d8"
+          }
+        ],
+        "INE540L01014/2026-06-30": [
+          {
+            "id": "integrated/ALKEM/INE540L01014/2026-06-30/consolidated/187457",
+            "symbol": "ALKEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ALKEM_14082026134526_AlkemOutcomeofBM14Aug2026.pdf",
+            "release_at": "2026-08-14T13:46:00+05:30",
+            "job": "5b63dd0e79f6040131b4c91d82e83e8c2f45bae85249acd9e0ffe65d3d9808c9",
+            "receipt_sha256": "98049c5cc653e893f7db3e018d1454ffa0cb4442402d8ac8250e3555253b0493"
+          },
+          {
+            "id": "integrated/ALKEM/INE540L01014/2026-06-30/standalone/187455",
+            "symbol": "ALKEM",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ALKEM_14082026134526_AlkemOutcomeofBM14Aug2026.pdf",
+            "release_at": "2026-08-14T13:46:00+05:30",
+            "job": "5b63dd0e79f6040131b4c91d82e83e8c2f45bae85249acd9e0ffe65d3d9808c9",
+            "receipt_sha256": "e0b630babedd2091341d5558f473d1490b33281cafd95cb2e801d952797e1683"
+          }
+        ],
+        "INE628A01036/2025-12-31": [
+          {
+            "id": "integrated/UPL/INE628A01036/2025-12-31/consolidated/139658",
+            "symbol": "UPL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/UPL_02022026145044_1ResultsLetter.pdf",
+            "release_at": "2026-02-02T14:51:11+05:30",
+            "job": "bec5dbcb553736de366cc6321c4a1be277bda8dedbbd0dbaddca28a7c38fb664",
+            "receipt_sha256": "32e592a4154b971742c456f99add16cee49d479000aedf05061902f0d10940e0"
+          },
+          {
+            "id": "integrated/UPL/INE628A01036/2025-12-31/standalone/139657",
+            "symbol": "UPL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/UPL_02022026145044_1ResultsLetter.pdf",
+            "release_at": "2026-02-02T14:51:11+05:30",
+            "job": "bec5dbcb553736de366cc6321c4a1be277bda8dedbbd0dbaddca28a7c38fb664",
+            "receipt_sha256": "fcb481ea39ba2c6068f3a7292968f1396466b53f4a80fba45c3411a2358a6325"
+          }
+        ],
+        "INE628A01036/2026-03-31": [
+          {
+            "id": "integrated/UPL/INE628A01036/2026-03-31/consolidated/156632",
+            "symbol": "UPL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/UPL_11052026131826_1ResultsLetter.pdf",
+            "release_at": "2026-05-11T13:20:03+05:30",
+            "job": "e0031e244a5200a404a1c5eb2f59dd93f3a774ac763ceddd87141b78b87a818d",
+            "receipt_sha256": "6ed6ce4e2d8a1a3d4e417628b4a61342bf423ca0bb383a9d01c9d21e10fcfc2a"
+          }
+        ],
+        "INE628A01036/2026-06-30": [
+          {
+            "id": "integrated/UPL/INE628A01036/2026-06-30/consolidated/181758",
+            "symbol": "UPL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/UPL_03082026151713_Results.pdf",
+            "release_at": "2026-08-03T15:17:42+05:30",
+            "job": "6669d0203bba213b38d93f180520abecc21b47478acfb1bf6a58bd07c77f050f",
+            "receipt_sha256": "bf801f337e20c96109c101103677722c0df2621c58db6c5dab1c5776cee48aa8"
+          },
+          {
+            "id": "integrated/UPL/INE628A01036/2026-06-30/standalone/181757",
+            "symbol": "UPL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/UPL_03082026151713_Results.pdf",
+            "release_at": "2026-08-03T15:17:42+05:30",
+            "job": "6669d0203bba213b38d93f180520abecc21b47478acfb1bf6a58bd07c77f050f",
+            "receipt_sha256": "75d432bde1f805ca7441621794f9ca8786ba88b7cb6b25694efb7845bbcbd362"
+          }
+        ],
+        "INE628A01036/2026-09-30": [
+          {
+            "id": "integrated/UPL/INE628A01036/2026-09-30/consolidated/208214",
+            "symbol": "UPL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/UPL_02112026144604_Results.pdf",
+            "release_at": "2026-11-02T14:48:28+05:30",
+            "job": "3a540af99f513922a16785416b11760c9bdc0ac315b3a2dd773f657bd4979537",
+            "receipt_sha256": "dc9552d46f4774c0b336822ab971d503d0142dca3ffefb951af16fe6917c2d96"
+          }
+        ],
+        "INE674K01013/2026-03-31": [
+          {
+            "id": "integrated/ABCAPITAL/INE674K01013/2026-03-31/consolidated/155469",
+            "symbol": "ABCAPITAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ABCAPITAL_04052026143923_BM_Outcome_Financial_results_04052026signed.pdf",
+            "release_at": "2026-05-04T14:43:06+05:30",
+            "job": "8e69e03dd5c20637274fac1093e58c3da734610fecdaef9b7bab570928560d33",
+            "receipt_sha256": "bb9bcfffca56a65f500486bcae79c5176bb76eca109a7052c64f2af670009a54"
+          },
+          {
+            "id": "integrated/ABCAPITAL/INE674K01013/2026-03-31/standalone/155468",
+            "symbol": "ABCAPITAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ABCAPITAL_04052026143923_BM_Outcome_Financial_results_04052026signed.pdf",
+            "release_at": "2026-05-04T14:43:06+05:30",
+            "job": "8e69e03dd5c20637274fac1093e58c3da734610fecdaef9b7bab570928560d33",
+            "receipt_sha256": "3b3f9bb49018f8625909c5524d98bb236653fbf97c98581697705437a82e9a5d"
+          }
+        ],
+        "INE674K01013/2026-06-30": [
+          {
+            "id": "integrated/ABCAPITAL/INE674K01013/2026-06-30/consolidated/181087",
+            "symbol": "ABCAPITAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ABCAPITAL_31072026141407_BM_Outcome_Financial_results_31072026_Final_Signed.pdf",
+            "release_at": "2026-07-31T14:14:33+05:30",
+            "job": "28aced7aa92628baab25ba8e7aa75459e892bd051195ecd2ddc1f8961d6413d3",
+            "receipt_sha256": "9fd658f49904028d0ca8fc6108b1e143f94efd139cb6ef3e5ccfbe57f1b976c7"
+          },
+          {
+            "id": "integrated/ABCAPITAL/INE674K01013/2026-06-30/standalone/181086",
+            "symbol": "ABCAPITAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ABCAPITAL_31072026141407_BM_Outcome_Financial_results_31072026_Final_Signed.pdf",
+            "release_at": "2026-07-31T14:14:33+05:30",
+            "job": "28aced7aa92628baab25ba8e7aa75459e892bd051195ecd2ddc1f8961d6413d3",
+            "receipt_sha256": "b3927827022326cb9d069388a1dd1f65eefcc0463e4a44a31a5d989b9fba8110"
+          }
+        ],
+        "INE674K01013/2026-09-30": [
+          {
+            "id": "integrated/ABCAPITAL/INE674K01013/2026-09-30/consolidated/207508",
+            "symbol": "ABCAPITAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ABCAPITAL_30102026134807_BM_Outcome_Financial_results_30102026_Signedd.pdf",
+            "release_at": "2026-10-30T13:49:03+05:30",
+            "job": "c7c9db43b8d0f7caba1abf9f1f7640694b964bed8bf6f2aeaecd9c530f99e97f",
+            "receipt_sha256": "cada93ada5c1db547a3d45c7f83605ffdee2a8f9affee31d7399c149878ae89a"
+          },
+          {
+            "id": "integrated/ABCAPITAL/INE674K01013/2026-09-30/standalone/207157",
+            "symbol": "ABCAPITAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ABCAPITAL_30102026134807_BM_Outcome_Financial_results_30102026_Signedd.pdf",
+            "release_at": "2026-10-30T13:49:03+05:30",
+            "job": "c7c9db43b8d0f7caba1abf9f1f7640694b964bed8bf6f2aeaecd9c530f99e97f",
+            "receipt_sha256": "1d69cef75c888ebefa91586ce51d2590ce16a354c9a9a01563e1647e64f4c0f5"
+          }
+        ],
+        "INE692A01016/2026-03-31": [
+          {
+            "id": "integrated/UNIONBANK/INE692A01016/2026-03-31/consolidated/152438",
+            "symbol": "UNIONBANK",
+            "original_url": "https://nsearchives.nseindia.in/corporate/UNIONBANK_23042026124803_Financial_Results.pdf",
+            "release_at": "2026-04-23T12:49:56+05:30",
+            "job": "67c833a0f300249b941e926dc0953887fba265d72a4cb1c0ed5643c5bdaa8c32",
+            "receipt_sha256": "3a91ed57d91ca6270f36c12fe97ed3b7cf0f7a28cf3723ed26f84a84e59933bf"
+          },
+          {
+            "id": "integrated/UNIONBANK/INE692A01016/2026-03-31/standalone/152437",
+            "symbol": "UNIONBANK",
+            "original_url": "https://nsearchives.nseindia.in/corporate/UNIONBANK_23042026124803_Financial_Results.pdf",
+            "release_at": "2026-04-23T12:49:56+05:30",
+            "job": "67c833a0f300249b941e926dc0953887fba265d72a4cb1c0ed5643c5bdaa8c32",
+            "receipt_sha256": "ed43d9dafbbc30fb2defe25b8ea6ab5adbaa2eafca3d7ea36079225b3ab27670"
+          }
+        ],
+        "INE733E01010/2025-12-31": [
+          {
+            "id": "integrated/NTPC/INE733E01010/2025-12-31/consolidated/139216",
+            "symbol": "NTPC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/akshatjain_30012026162932_Q3FY26.pdf",
+            "release_at": "2026-01-30T16:33:06+05:30",
+            "job": "d0d8198f2920bb991f9211c2f396f50cce8aa2ed489d93552b13d8b54de3168f",
+            "receipt_sha256": "6587247f2a9f190d567ee2f83c708a9cae90d288b2c7ad6a1ec1adbd79d956fc"
+          },
+          {
+            "id": "integrated/NTPC/INE733E01010/2025-12-31/standalone/139215",
+            "symbol": "NTPC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/akshatjain_30012026162932_Q3FY26.pdf",
+            "release_at": "2026-01-30T16:33:06+05:30",
+            "job": "d0d8198f2920bb991f9211c2f396f50cce8aa2ed489d93552b13d8b54de3168f",
+            "receipt_sha256": "f6ed3d9da4b072b2ed020ad80b23b0378182076186d28a074b64810a7da76f98"
+          }
+        ],
+        "INE733E01010/2026-03-31": [
+          {
+            "id": "integrated/NTPC/INE733E01010/2026-03-31/consolidated/160541",
+            "symbol": "NTPC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/9425178051_23052026151216_NTPCAFR26.pdf",
+            "release_at": "2026-05-23T15:15:05+05:30",
+            "job": "1d20f7a0031b56b2ba3ef72f5c0142822ba159e58dcb954e4f02390d1c168552",
+            "receipt_sha256": "82502544e0a61a7bb97525a2cd6975a2c4b31e6dd53198e4acd92943ab949d13"
+          },
+          {
+            "id": "integrated/NTPC/INE733E01010/2026-03-31/standalone/160539",
+            "symbol": "NTPC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/9425178051_23052026151216_NTPCAFR26.pdf",
+            "release_at": "2026-05-23T15:15:05+05:30",
+            "job": "1d20f7a0031b56b2ba3ef72f5c0142822ba159e58dcb954e4f02390d1c168552",
+            "receipt_sha256": "0c9f5b94a4ef9a0751a09b6e33db52ec97ae743471ae731e4e0ec87cd361f8ea"
+          }
+        ],
+        "INE733E01010/2026-06-30": [
+          {
+            "id": "integrated/NTPC/INE733E01010/2026-06-30/consolidated/178098",
+            "symbol": "NTPC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/9425178051_24072026194139_QFRQ1FY27.pdf",
+            "release_at": "2026-07-24T19:43:52+05:30",
+            "job": "5f7562e34cfebab16840a45c98d7e8490f7720e39fdb7c394e4a83b2a1a9fd3e",
+            "receipt_sha256": "8b09ef61755baa599b2e7de75a91ec4daac477b74f1d7079b87278cae4ac7bec"
+          },
+          {
+            "id": "integrated/NTPC/INE733E01010/2026-06-30/standalone/178097",
+            "symbol": "NTPC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/9425178051_24072026194139_QFRQ1FY27.pdf",
+            "release_at": "2026-07-24T19:43:52+05:30",
+            "job": "5f7562e34cfebab16840a45c98d7e8490f7720e39fdb7c394e4a83b2a1a9fd3e",
+            "receipt_sha256": "34bfcf394aed76308bd32b5f156438b5920b12b45ab6f016e8aee79cbf4dff1e"
+          }
+        ],
+        "INE733E01010/2026-09-30": [
+          {
+            "id": "integrated/NTPC/INE733E01010/2026-09-30/consolidated/207855",
+            "symbol": "NTPC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/9425178051_31102026144738_QFRQ2FY27_Final.pdf",
+            "release_at": "2026-10-31T14:50:39+05:30",
+            "job": "c66e23000ad70f74db898cbe355ec88ed62ab25c00a95981ffc7605b07549335",
+            "receipt_sha256": "b0f593866ea6ecf125fc7757570c97212a7c60a9a7f60ee95ccd3e1116bccf82"
+          },
+          {
+            "id": "integrated/NTPC/INE733E01010/2026-09-30/standalone/207854",
+            "symbol": "NTPC",
+            "original_url": "https://nsearchives.nseindia.in/corporate/9425178051_31102026144738_QFRQ2FY27_Final.pdf",
+            "release_at": "2026-10-31T14:50:39+05:30",
+            "job": "c66e23000ad70f74db898cbe355ec88ed62ab25c00a95981ffc7605b07549335",
+            "receipt_sha256": "58fe9aa584b3dea355f9b9e0a812e33a404cfa226af199eedb35b273c665fbca"
+          }
+        ],
+        "INE742F01042/2025-12-31": [
+          {
+            "id": "integrated/ADANIPORTS/INE742F01042/2025-12-31/consolidated/139840",
+            "symbol": "ADANIPORTS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rkbhagia_03022026131652_OutcomeofBM.pdf",
+            "release_at": "2026-02-03T13:17:39+05:30",
+            "job": "5450e58b25122aac820397e5e647dbaa8b4a3bd59f569841897e9c993220a49c",
+            "receipt_sha256": "600f49f8a59a4f0f18518ffe865eae238ff3d819b1c405dcd825e049068c3e41"
+          },
+          {
+            "id": "integrated/ADANIPORTS/INE742F01042/2025-12-31/standalone/139841",
+            "symbol": "ADANIPORTS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rkbhagia_03022026131652_OutcomeofBM.pdf",
+            "release_at": "2026-02-03T13:17:39+05:30",
+            "job": "5450e58b25122aac820397e5e647dbaa8b4a3bd59f569841897e9c993220a49c",
+            "receipt_sha256": "aa228193996a123c9d8de59ceb424fab082823b6f654f5530cee31cfe48529b0"
+          }
+        ],
+        "INE742F01042/2026-03-31": [
+          {
+            "id": "integrated/ADANIPORTS/INE742F01042/2026-03-31/consolidated/154942",
+            "symbol": "ADANIPORTS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rkbhagia_30042026134205_OutcomeofBoardMeeting.pdf",
+            "release_at": "2026-04-30T13:43:13+05:30",
+            "job": "1afbbbda052d2bbc6c6822f2fb730677cb6daa4aa8cf119579a9bbbf5053613e",
+            "receipt_sha256": "4a3db22b7fede52f6666b53cf94c57c262a23ad6b9eeaa12dbfd48d7fd40e810"
+          },
+          {
+            "id": "integrated/ADANIPORTS/INE742F01042/2026-03-31/standalone/154948",
+            "symbol": "ADANIPORTS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rkbhagia_30042026134205_OutcomeofBoardMeeting.pdf",
+            "release_at": "2026-04-30T13:43:13+05:30",
+            "job": "1afbbbda052d2bbc6c6822f2fb730677cb6daa4aa8cf119579a9bbbf5053613e",
+            "receipt_sha256": "4ab67c359a27f7486d8e4c6138b859ef04ce0ad25ba01c7702631c6135bbc5ff"
+          }
+        ],
+        "INE742F01042/2026-06-30": [
+          {
+            "id": "integrated/ADANIPORTS/INE742F01042/2026-06-30/consolidated/180163",
+            "symbol": "ADANIPORTS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rkbhagia_29072026123138_OutcomeofBoardMeeting.pdf",
+            "release_at": "2026-07-29T12:32:49+05:30",
+            "job": "aae1cb18d57341e91b019a098dec344d31e8bf72e94b91dac3bd004efecc292a",
+            "receipt_sha256": "c3ff6b0221619c45283fb61087b5933a5e553d91583bcb0033ebb43c2bd8803c"
+          },
+          {
+            "id": "integrated/ADANIPORTS/INE742F01042/2026-06-30/standalone/180160",
+            "symbol": "ADANIPORTS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rkbhagia_29072026123138_OutcomeofBoardMeeting.pdf",
+            "release_at": "2026-07-29T12:32:49+05:30",
+            "job": "aae1cb18d57341e91b019a098dec344d31e8bf72e94b91dac3bd004efecc292a",
+            "receipt_sha256": "6b0534319fc812d8bbb41d933efeb143178aa54359719b85338102a221070dfc"
+          }
+        ],
+        "INE742F01042/2026-09-30": [
+          {
+            "id": "integrated/ADANIPORTS/INE742F01042/2026-09-30/consolidated/205453",
+            "symbol": "ADANIPORTS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rkbhagia_28102026124014_OutcomeofBoardMeeting.pdf",
+            "release_at": "2026-10-28T12:41:15+05:30",
+            "job": "f1b216691418cb183f69a8d850fd310a940e0e6eb55f0c1d9199d97e79781008",
+            "receipt_sha256": "ebdc3938aeadaf049908f0d271f4774c25798d122ec244092b1ef8e4017a0806"
+          },
+          {
+            "id": "integrated/ADANIPORTS/INE742F01042/2026-09-30/standalone/205451",
+            "symbol": "ADANIPORTS",
+            "original_url": "https://nsearchives.nseindia.in/corporate/rkbhagia_28102026124014_OutcomeofBoardMeeting.pdf",
+            "release_at": "2026-10-28T12:41:15+05:30",
+            "job": "f1b216691418cb183f69a8d850fd310a940e0e6eb55f0c1d9199d97e79781008",
+            "receipt_sha256": "4ceab67c4136e731330e3a0044a3e09e82127e61dcc1782c4fec14a7f2102ae6"
+          }
+        ],
+        "INE758T01015/2025-12-31": [
+          {
+            "id": "integrated/ETERNAL/INE758T01015/2025-12-31/consolidated/136500",
+            "symbol": "ETERNAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21012026154849_Outcomesigned.pdf",
+            "release_at": "2026-01-21T15:50:06+05:30",
+            "job": "0891757815d6ce6c702cb31ed4a64184959307105df169bb712355787b0f7f30",
+            "receipt_sha256": "9b33f26cfba247b3367c264c616822cc4d64652f692a23c0cf6c724e190bf82a"
+          },
+          {
+            "id": "integrated/ETERNAL/INE758T01015/2025-12-31/standalone/136497",
+            "symbol": "ETERNAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21012026154849_Outcomesigned.pdf",
+            "release_at": "2026-01-21T15:50:06+05:30",
+            "job": "0891757815d6ce6c702cb31ed4a64184959307105df169bb712355787b0f7f30",
+            "receipt_sha256": "9b865c2348dd3860434e6ea89cfa50891831a5a7ca297dafce43375d4c6235c4"
+          }
+        ],
+        "INE758T01015/2026-03-31": [
+          {
+            "id": "integrated/ETERNAL/INE758T01015/2026-03-31/consolidated/153832",
+            "symbol": "ETERNAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_28042026150911_Outcomesigned.pdf",
+            "release_at": "2026-04-28T15:14:25+05:30",
+            "job": "e0fa1f0edd7426f7e1270fe0483cca1c110eba58db2429fc0533d7f10d78ebbc",
+            "receipt_sha256": "ffd074c7c0e8a56c9a02ed8bde2f4b88b413b049febeb65f5e026b0f4e9a92c1"
+          },
+          {
+            "id": "integrated/ETERNAL/INE758T01015/2026-03-31/standalone/153847",
+            "symbol": "ETERNAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_28042026150911_Outcomesigned.pdf",
+            "release_at": "2026-04-28T15:14:25+05:30",
+            "job": "e0fa1f0edd7426f7e1270fe0483cca1c110eba58db2429fc0533d7f10d78ebbc",
+            "receipt_sha256": "0104cd53418751a737d33105e66bf30574f1e1a6fb8d09909e931407953318d3"
+          }
+        ],
+        "INE758T01015/2026-06-30": [
+          {
+            "id": "integrated/ETERNAL/INE758T01015/2026-06-30/consolidated/177049",
+            "symbol": "ETERNAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_22072026145650_Eternalouctomesigned.pdf",
+            "release_at": "2026-07-22T15:03:28+05:30",
+            "job": "d0eef881ad8cd1820e9a56874fb9b670afd5b6603c381938b2db68730c149195",
+            "receipt_sha256": "3d934d1cb12456d72e784ad64b20ae6920d068c58039a11bcfe95a968bc96739"
+          },
+          {
+            "id": "integrated/ETERNAL/INE758T01015/2026-06-30/standalone/177056",
+            "symbol": "ETERNAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_22072026145650_Eternalouctomesigned.pdf",
+            "release_at": "2026-07-22T15:03:28+05:30",
+            "job": "d0eef881ad8cd1820e9a56874fb9b670afd5b6603c381938b2db68730c149195",
+            "receipt_sha256": "a7d8859da40462c93e3a415185809e78f9d0d090aee932f54271217b952a7877"
+          }
+        ],
+        "INE758T01015/2026-09-30": [
+          {
+            "id": "integrated/ETERNAL/INE758T01015/2026-09-30/consolidated/202852",
+            "symbol": "ETERNAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21102026152051_OutcomeSIGNED.pdf",
+            "release_at": "2026-10-21T15:22:33+05:30",
+            "job": "203fd26bc7cfe3e6e357dda87d58e12fa5c250055e361cca7838605fd16925d4",
+            "receipt_sha256": "5965294365c8d10c16df157ecfc1ddf7893c684064cd0f06c9aee1c7ddc11af4"
+          },
+          {
+            "id": "integrated/ETERNAL/INE758T01015/2026-09-30/standalone/202851",
+            "symbol": "ETERNAL",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ZOMATO_21102026152051_OutcomeSIGNED.pdf",
+            "release_at": "2026-10-21T15:22:33+05:30",
+            "job": "203fd26bc7cfe3e6e357dda87d58e12fa5c250055e361cca7838605fd16925d4",
+            "receipt_sha256": "ec851bc357332003cd75f4a61645d7f46e0eaa8877257dd3fb9c276d631874b2"
+          }
+        ],
+        "INE814H01029/2025-12-31": [
+          {
+            "id": "integrated/ADANIPOWER/INE814H01029/2025-12-31/consolidated/138332",
+            "symbol": "ADANIPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIPOWER_29012026135547_APLOutcome31122025.pdf",
+            "release_at": "2026-01-29T13:57:38+05:30",
+            "job": "40b15844e221dce471a3c19a7e1ec883f61e01528c9c3f54194f65de9bf20173",
+            "receipt_sha256": "0a3a84587caa4d6ae455fd750989f56ad513dc0ac2effdaa4cb9099ca9b034c9"
+          },
+          {
+            "id": "integrated/ADANIPOWER/INE814H01029/2025-12-31/standalone/138331",
+            "symbol": "ADANIPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIPOWER_29012026135547_APLOutcome31122025.pdf",
+            "release_at": "2026-01-29T13:57:38+05:30",
+            "job": "40b15844e221dce471a3c19a7e1ec883f61e01528c9c3f54194f65de9bf20173",
+            "receipt_sha256": "9898265c188890f0adc3a9ef543a78617fa437d0a13aa67c9607c21a11cb4dd8"
+          }
+        ],
+        "INE814H01029/2026-03-31": [
+          {
+            "id": "integrated/ADANIPOWER/INE814H01029/2026-03-31/consolidated/154388",
+            "symbol": "ADANIPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIPOWER_29042026153252_APLOutcomeofBM29042026final.pdf",
+            "release_at": "2026-04-29T15:34:14+05:30",
+            "job": "cbb3e689b7e2047828fd8d3c5a9b1f2fa5291e6805ced1cdc31ec27f4456fbcf",
+            "receipt_sha256": "29a5b4f23599343c24cc7d2455ee76292b30480e9aa59d86edd4c037aff1e181"
+          },
+          {
+            "id": "integrated/ADANIPOWER/INE814H01029/2026-03-31/standalone/154387",
+            "symbol": "ADANIPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIPOWER_29042026153252_APLOutcomeofBM29042026final.pdf",
+            "release_at": "2026-04-29T15:34:14+05:30",
+            "job": "cbb3e689b7e2047828fd8d3c5a9b1f2fa5291e6805ced1cdc31ec27f4456fbcf",
+            "receipt_sha256": "e9a6a7140e751b9ca45932017f392a4b756908b2be8d8357e1c8ab14c5c44b67"
+          }
+        ],
+        "INE814H01029/2026-06-30": [
+          {
+            "id": "integrated/ADANIPOWER/INE814H01029/2026-06-30/consolidated/177112",
+            "symbol": "ADANIPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIPOWER_22072026135131_APLoutcomeofBM22072026.pdf",
+            "release_at": "2026-07-22T13:52:51+05:30",
+            "job": "2b69daf9f4f1026225e9730cd2502f21a7a8f60166cd9db7c40d546e467e765d",
+            "receipt_sha256": "a154da1d640003c030719684e3a5d8e5cba264c9d3659678d33d9519e57311d3"
+          },
+          {
+            "id": "integrated/ADANIPOWER/INE814H01029/2026-06-30/standalone/177111",
+            "symbol": "ADANIPOWER",
+            "original_url": "https://nsearchives.nseindia.in/corporate/ADANIPOWER_22072026135131_APLoutcomeofBM22072026.pdf",
+            "release_at": "2026-07-22T13:52:51+05:30",
+            "job": "2b69daf9f4f1026225e9730cd2502f21a7a8f60166cd9db7c40d546e467e765d",
+            "receipt_sha256": "ba01689fe22cac36f8d52eb58c265c18455a3995d5b11194505ff115d8ccc1e9"
+          }
+        ]
+      },
+      "required": 641,
+      "would_be_possible_if_every_remaining_case_recovered_all_fields": false
+    }
+  }
+}

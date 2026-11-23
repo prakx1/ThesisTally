@@ -1,0 +1,18 @@
+{
+  "day": "2015-05-04",
+  "labels": {
+    "KPIT": {
+      "isin": "INE836A01035",
+      "percent": 10,
+      "published": "2015-04-30",
+      "sources": [
+        {
+          "published": "2015-04-30",
+          "sha256": "4df76fd05cf9d42349a9a67cdb2c5f577a2c6ef9ab9de04a7de6849d43bddd61",
+          "url": "https://nsearchives.nseindia.in/content/circulars/SURV29605.zip"
+        }
+      ]
+    }
+  },
+  "prior": "2015-04-30"
+}

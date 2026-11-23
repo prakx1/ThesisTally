@@ -1,0 +1,20 @@
+{
+  "day": "2019-10-22",
+  "labels": {
+    "NIACL": {
+      "isin": "INE470Y01017",
+      "percent": 10,
+      "published": "2019-10-18",
+      "sources": [
+        {
+          "effective": "2019-10-22",
+          "last_modified": "Fri, 18 Oct 2019 12:45:04 GMT",
+          "published": "2019-10-18",
+          "sha256": "187a72231429fe228318741b88f908198c90fff52e769ae47ef21d8be667b90e",
+          "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_22102019.csv"
+        }
+      ]
+    }
+  },
+  "prior": "2019-10-18"
+}

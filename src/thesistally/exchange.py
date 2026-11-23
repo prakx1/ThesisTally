@@ -6,14 +6,57 @@ import gzip
 import json
 import re
 from datetime import date, datetime, time, timedelta
+from functools import lru_cache
 
-from .market import ARCHIVE, MarketError, csv_table, sha, staging
+from .market import ARCHIVE, MarketError, csv_table, is_strict_move, sha, staging
 
 API = "https://www.nseindia.in/api"
 AMOUNT = re.compile(
     r"(?:Rs\.?|Re\.?)\s*-?\s*(\d[\d,]*(?:\.\d+)?)\s*/?-?\s*(?:per|/-\s*per)\s*(?:equity\s+)?sh(?:are)?\b",
     re.IGNORECASE,
 )
+
+
+@lru_cache(maxsize=4)
+def _quarantine_days(raw):
+    by_day = {}
+    for row in json.loads(raw):
+        if not row.get("isin"):
+            continue
+        day = by_day.setdefault(row["day"], {})
+        isin = row["isin"]
+        if row["reason"] == "unexplained_move_over_20pct":
+            if (
+                row.get("prior_close") is not None
+                and row.get("close") is not None
+                and not is_strict_move(row["close"], row["prior_close"])
+            ):
+                # Legacy raw contexts have only a boolean. Clear a disproved jump
+                # only when no other recorded issue exists for this ISIN/date.
+                day.setdefault(isin, None)
+                continue
+            if not day.get(isin):
+                day[isin] = "unexplained_close_move"
+        else:
+            day[isin] = row["reason"]
+    return by_day
+
+
+def price_quarantines(root, day):
+    path = root / "sources" / "adjusted" / "quarantine.json"
+    return _quarantine_days(path.read_bytes()).get(str(day), {}) if path.is_file() else {}
+
+
+def apply_quarantine(context, flags, isin):
+    if isin not in flags:
+        return
+    if flags[isin] is None:
+        if context.get("quarantine_reason") in (None, "unexplained_close_move"):
+            context.update(quarantined=False)
+            context.pop("quarantine_reason", None)
+    else:
+        context["quarantined"] = True
+        context.setdefault("quarantine_reason", flags[isin])
 
 
 def settle_notices(info):
@@ -38,6 +81,20 @@ def context_file(root, day):
     return root / "context" / str(day) / "context.json"
 
 
+def _published_control(feed, url, name, gaps):
+    try:
+        raw = feed.get(url).content
+    except MarketError as error:
+        if str(error) != f"HTTP 404 from {url}":
+            raise
+        gaps[name] = {"url": url, "reason": "http_404"}
+        return None
+    if not raw.strip():
+        gaps[name] = {"url": url, "reason": "empty_response"}
+        return None
+    return raw
+
+
 def collect(root, feed, day: date, prior: date, members):
     dest = context_file(root, day).parent
     if dest.exists():
@@ -46,8 +103,9 @@ def collect(root, feed, day: date, prior: date, members):
     # The end-of-day master contains bands based on that day's close, valid
     # for the *next* opening. Read the previous trading session's master.
     security = f"{ARCHIVE}/cm/NSE_CM_security_{prior:%d%m%Y}.csv.gz"
-    raw_flags = feed.get(surveillance).content
-    raw_master = feed.get(security).content
+    gaps = {}
+    raw_flags = _published_control(feed, surveillance, "surveillance.csv", gaps)
+    raw_master = _published_control(feed, security, "security.csv.gz", gaps)
     meeting_url = API + "/corporate-board-meetings"
     action_url = API + "/corporates-corporateActions"
     # Store known events for the maximum swing holding horizon. Rules can
@@ -69,9 +127,13 @@ def collect(root, feed, day: date, prior: date, members):
             ("meetings.json", board_resp.content, str(board_resp.url)),
             ("actions.json", action_resp.content, str(action_resp.url)),
         ]:
+            if data is None:
+                continue
             (tmp / filename).write_bytes(data)
             sources[filename] = {"url": url, "sha256": sha(data)}
         data = {"day": str(day), "band_reference": str(prior), "sources": sources, "symbols": rows}
+        if gaps:
+            data["unavailable_sources"] = gaps
         raw = (json.dumps(data, indent=2) + "\n").encode()
         (tmp / "context.json").write_bytes(raw)
         (tmp / "context.sha256").write_text(sha(raw))
@@ -110,22 +172,55 @@ def read_context(root, day, verify_sources=False):
         for symbol, values in json.loads(controls).items():
             if symbol in data["symbols"]:
                 data["symbols"][symbol].update(values)
-    return {s: settle_notices(row) for s, row in data["symbols"].items()}
+    if (root / "sources/static-bands/coverage.json").is_file():
+        from .baseline_static_bands import overlay as static_overlay
+
+        for symbol, row in static_overlay(root, day).items():
+            info = data["symbols"][symbol]
+            if info.get("ceiling") is not None or info.get("floor") is not None:
+                raise MarketError(
+                    f"Static reconstruction overlaps an existing master on {day} {symbol}"
+                )
+            info.update(floor=row["floor"], ceiling=row["ceiling"])
+    calendar = root / "sources" / "earnings-by-isin"
+    if (calendar / "evidence.json").is_file():
+        events = json.loads((calendar / f"{day}.json").read_bytes())
+        raw = json.dumps(events["changes"], sort_keys=True).encode()
+        if events["day"] != str(day) or sha(raw) != events["changes_sha256"]:
+            raise MarketError(f"Invalid dated board-meeting reconciliation for {day}")
+        if (
+            verify_sources
+            and sha((root / "sessions" / str(day) / "members.csv").read_bytes())
+            != events["member_sha256"]
+        ):
+            raise MarketError(f"Dated board-meeting identities differ on {day}")
+        for symbol, row in events["changes"].items():
+            data["symbols"][symbol].update(row)
+    # Daily exchange contexts already decode their own vintage notices by security ISIN.
+    # Older annually reconstructed contexts used only the printed ticker.
+    if "actions.json" not in data["sources"]:
+        from .baseline_actions import dated_aliases
+
+        for symbol, row in dated_aliases(root, day).items():
+            if symbol in data["symbols"]:
+                data["symbols"][symbol].update(
+                    dividend=row["dividend"], other_actions=row["other_actions"]
+                )
+    from . import conventions
+
+    rows = {s: settle_notices(row) for s, row in data["symbols"].items()}
+    for item in conventions.dated(root, day).values():
+        if item["symbol"] in rows:
+            conventions.apply(rows[item["symbol"]], item)
+    return rows
 
 
 def decode(day, members, raw_flags, raw_master, board, actions):
-    flags = csv_table(raw_flags)
-    flags = flags[flags.Status == "A"].set_index(["Symbol", "Series"])
-    flag_cols = [c for c in flags if c == "GSM" or "Term ASM)" in c]
-    if len(flag_cols) != 3:
-        raise MarketError("NSE surveillance file lacks ASM/GSM classifications.")
-    master = csv_table(gzip.decompress(raw_master))
-    master = master[master.TckrSymb.isin(members.symbol) & master.SctySrs.isin(members.series)]
-    bands = dict(zip(zip(master.TckrSymb, master.SctySrs, master.ISIN), master.PricRg))
-    flag_values = {
-        key: any(v != "100" for v in row)
-        for key, row in zip(flags.index, flags[flag_cols].itertuples(index=False, name=None))
-    }
+    controls = decode_controls(members, raw_flags, raw_master)
+    if raw_flags is not None:
+        flags = csv_table(raw_flags)
+        if len([c for c in flags if c == "GSM" or "Term ASM)" in c]) != 3:
+            raise MarketError("NSE surveillance file lacks ASM/GSM classifications.")
     if not isinstance(board, list) or not isinstance(actions, list):
         raise MarketError("NSE corporate-event response is incomplete.")
     earnings = {}
@@ -148,10 +243,6 @@ def decode(day, members, raw_flags, raw_master, board, actions):
             by_isin.setdefault(a["isin"], set()).add(a["subject"])
     rows = {}
     for m in members.itertuples(index=False):
-        key = (m.symbol, m.series)
-        flagged = flag_values.get(key, "unknown")
-        band = bands.get((m.symbol, m.series, m.isin), "")
-        bounds = re.fullmatch(r"([\d.]+)-([\d.]+)", str(band))
         dividend = 0.0
         unresolved = []
         for subject in sorted(by_isin.get(m.isin, [])):
@@ -165,10 +256,8 @@ def decode(day, members, raw_flags, raw_master, board, actions):
             else:
                 unresolved.append(subject)
         rows[m.symbol] = {
-            "surveillance": flagged,
+            **controls[m.symbol],
             "earnings_in_days": (earnings[m.symbol] - day).days if m.symbol in earnings else None,
-            "floor": float(bounds[1]) if bounds else None,
-            "ceiling": float(bounds[2]) if bounds else None,
             "dividend": dividend,
             "other_actions": unresolved,
         }

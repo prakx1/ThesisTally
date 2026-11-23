@@ -1,0 +1,429 @@
+{
+  "all_source_records": 30356,
+  "as_of": "2026-11-20",
+  "candidate_formats": {
+    "board notice only": {
+      "certified_original_in_this_format": 0,
+      "covered_any_format": 9,
+      "eligible_with_format": 1780,
+      "gap_attachment_unavailable": 527,
+      "gap_facts_or_identity": 1347,
+      "gap_first_publication_or_time": 207
+    },
+    "formal catalogue without structured attachment": {
+      "certified_original_in_this_format": 0,
+      "covered_any_format": 0,
+      "eligible_with_format": 400,
+      "gap_attachment_unavailable": 400,
+      "gap_facts_or_identity": 311,
+      "gap_first_publication_or_time": 35
+    },
+    "integrated XBRL": {
+      "certified_original_in_this_format": 195,
+      "covered_any_format": 195,
+      "eligible_with_format": 1395,
+      "gap_attachment_unavailable": 194,
+      "gap_facts_or_identity": 1023,
+      "gap_first_publication_or_time": 117
+    },
+    "legacy HTML": {
+      "certified_original_in_this_format": 0,
+      "covered_any_format": 0,
+      "eligible_with_format": 3152,
+      "gap_attachment_unavailable": 802,
+      "gap_facts_or_identity": 2631,
+      "gap_first_publication_or_time": 482
+    },
+    "legacy XBRL": {
+      "certified_original_in_this_format": 225,
+      "covered_any_format": 225,
+      "eligible_with_format": 5138,
+      "gap_attachment_unavailable": 1557,
+      "gap_facts_or_identity": 3791,
+      "gap_first_publication_or_time": 355
+    },
+    "no attributed record": {
+      "certified_original_in_this_format": 0,
+      "covered_any_format": 0,
+      "eligible_with_format": 268,
+      "gap_attachment_unavailable": 0,
+      "gap_facts_or_identity": 0,
+      "gap_first_publication_or_time": 0
+    }
+  },
+  "canonical_eps_basis_records_including_warmup": 951,
+  "covered": 420,
+  "eligible": 10221,
+  "eps_is_only_known_field": 20,
+  "eps_known_while_four_field_coverage_missing": 187,
+  "filing_sources": {
+    "bse": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "nse": {
+      "checkpoint_index_sha256": "22ee66a7d6220db7b361fc58d22f06a6456ed5b3383189e3522314c1357edb82",
+      "sha256": "c3972ed02de4155f7664742921bec183c6f24cdf85dba5bce5cc1974f701cdd6",
+      "source_acquisition": {
+        "all_planned_documents_archived": false,
+        "bounded_transport_exhaustions": 0,
+        "by_status": {
+          "archived": 13168,
+          "awaiting_healthy_network_retry": 19,
+          "awaiting_official_mirror_audit": 27,
+          "pending": 1592,
+          "unavailable": 4
+        },
+        "complete": false,
+        "completed_batches": {
+          "alias": true,
+          "calendar": true,
+          "case": false,
+          "initial": false,
+          "language": true,
+          "market": true,
+          "reconcile": true
+        },
+        "planned_urls": 14810,
+        "status_definition": "Acquisition is complete after every public request is terminal. Unavailable files and exhausted healthy-network attempts remain missing source data."
+      },
+      "source_census_sha256": "b73548f67fc4786a8f51359e07d42584c9fced779983b8c2ae17eed5d2974436"
+    }
+  },
+  "first_basis_records": 1812,
+  "isins_with_quarter_end_membership": 448,
+  "known_fields": {
+    "eps": 607,
+    "net_profit": 700,
+    "operating_profit": 654,
+    "revenue": 807
+  },
+  "membership_isins": 465,
+  "membership_sha256": "f3170fbd094cfcbb6f85fac43ae6becd22a4c88940770b96d0957034c7ffb37f",
+  "notice_probe_gaps_sha256": "ddb1ddc04bcede3800b2c9dc7a6cadb1efb0f32d663ab8479fd7b73f2b52a1cf",
+  "practical_gap_groups": {
+    "attachment_unavailable": 2799,
+    "no_attributed_formal_or_board_record": 268,
+    "unresolved_fields_period_or_identity": 7635,
+    "unverified_original_or_timing": 962
+  },
+  "preflight_sha256": "13284053b8f4cc37525787410ef06ffb443f34b80f8b814ff18056cad311cb95",
+  "products": {
+    "first-releases.jsonl": "18b27a1ff21adb4c08dba32eabb998bb042b40a21ac000669cf4e91590f1d8fc",
+    "quarter-coverage.csv": "7821bfc63258220d68bae38926f062edf7caa045124e417bde1193538a9a0924",
+    "stock-coverage.csv": "cd9abae4cc45bfe3c4d704487d9c31943102539ae1887349b5667405f0f790b9",
+    "stock-format-coverage.csv": "2ce7e912c3b886aae144938c412b424e82a65c54eb2f28660429c6c8f120eb49",
+    "stock-year-coverage.csv": "ca5accc60cf41032a1887ed1b2111810d06f9f7d49e8782f37b641e64bee537a"
+  },
+  "reasons": {
+    "Current-quarter duration has no supporting contexts": 1,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|Missing independently dated current quarter|first_release_facts_unreconciled": 1,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|earliest_notice_marked_revision": 1,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|first_release_attachment_unavailable": 71,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|first_release_attachment_unavailable|structured_attachment_unavailable": 1,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|first_release_facts_unreconciled": 122,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|first_release_facts_unreconciled|missing_original_attachment": 2,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|first_release_facts_unreconciled|no_independently_corroborated_original_text_fields": 11,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|first_release_facts_unreconciled|structured_attachment_unavailable": 3,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|missing_one_or_more_quarterly_facts|no_independently_corroborated_original_text_fields": 2,
+    "Current-quarter duration has no supporting contexts|Issuer ISIN disagrees with certificate|no_independently_corroborated_original_text_fields": 4,
+    "Current-quarter duration has no supporting contexts|Missing independently dated current quarter|first_release_attachment_unavailable": 5,
+    "Current-quarter duration has no supporting contexts|Missing independently dated current quarter|first_release_attachment_unavailable|structured_attachment_unavailable": 2,
+    "Current-quarter duration has no supporting contexts|Missing independently dated current quarter|first_release_facts_unreconciled": 5,
+    "Current-quarter duration has no supporting contexts|Missing independently dated current quarter|first_release_facts_unreconciled|missing_original_attachment": 1,
+    "Current-quarter duration has no supporting contexts|first_release_attachment_unavailable": 187,
+    "Current-quarter duration has no supporting contexts|first_release_attachment_unavailable|missing_original_attachment": 3,
+    "Current-quarter duration has no supporting contexts|first_release_attachment_unavailable|missing_original_attachment|subsequent_structured_vintage": 1,
+    "Current-quarter duration has no supporting contexts|first_release_attachment_unavailable|structured_attachment_unavailable": 4,
+    "Current-quarter duration has no supporting contexts|first_release_attachment_unavailable|subsequent_structured_vintage": 3,
+    "Current-quarter duration has no supporting contexts|first_release_facts_unreconciled": 373,
+    "Current-quarter duration has no supporting contexts|first_release_facts_unreconciled|missing_one_or_more_quarterly_facts": 20,
+    "Current-quarter duration has no supporting contexts|first_release_facts_unreconciled|missing_one_or_more_quarterly_facts|missing_original_attachment|no_independently_corroborated_original_text_fields": 1,
+    "Current-quarter duration has no supporting contexts|first_release_facts_unreconciled|missing_one_or_more_quarterly_facts|no_independently_corroborated_original_text_fields": 14,
+    "Current-quarter duration has no supporting contexts|first_release_facts_unreconciled|missing_original_attachment": 13,
+    "Current-quarter duration has no supporting contexts|first_release_facts_unreconciled|structured_attachment_unavailable": 4,
+    "Current-quarter duration has no supporting contexts|first_release_facts_unreconciled|subsequent_structured_vintage": 1,
+    "Current-quarter duration has no supporting contexts|missing_one_or_more_quarterly_facts|no_independently_corroborated_original_text_fields": 7,
+    "Current-quarter duration has no supporting contexts|missing_one_or_more_quarterly_facts|no_independently_corroborated_original_text_fields|structured_attachment_unavailable": 1,
+    "Current-quarter duration has no supporting contexts|missing_one_or_more_quarterly_facts|no_independently_corroborated_original_text_fields|values_differ_from_original_notice": 1,
+    "Exchange HTML table explicitly reports no data available|first_release_facts_unreconciled": 14,
+    "HTML identity/quarter mismatch|first_release_attachment_unavailable": 1,
+    "HTML identity/quarter mismatch|first_release_facts_unreconciled": 3,
+    "HTML table is cumulative or annual|first_release_facts_unreconciled": 1,
+    "Issuer ISIN disagrees with certificate": 4,
+    "Issuer ISIN disagrees with certificate|Missing independently dated current quarter|first_release_facts_unreconciled": 2,
+    "Issuer ISIN disagrees with certificate|Not the registered three-month duration|first_release_facts_unreconciled": 1,
+    "Issuer ISIN disagrees with certificate|exchange_labels_revision|first_release_facts_unreconciled": 1,
+    "Issuer ISIN disagrees with certificate|first_release_attachment_unavailable": 273,
+    "Issuer ISIN disagrees with certificate|first_release_attachment_unavailable|missing_original_attachment": 1,
+    "Issuer ISIN disagrees with certificate|first_release_facts_unreconciled": 619,
+    "Issuer ISIN disagrees with certificate|first_release_facts_unreconciled|missing_one_or_more_quarterly_facts": 3,
+    "Issuer ISIN disagrees with certificate|first_release_facts_unreconciled|missing_original_attachment": 3,
+    "Issuer ISIN disagrees with certificate|first_release_facts_unreconciled|no_independently_corroborated_original_text_fields": 40,
+    "Issuer ISIN disagrees with certificate|missing_one_or_more_quarterly_facts": 1,
+    "Issuer ISIN disagrees with certificate|missing_one_or_more_quarterly_facts|no_independently_corroborated_original_text_fields": 3,
+    "Issuer ISIN disagrees with certificate|no_independently_corroborated_original_text_fields": 31,
+    "Issuer ISIN disagrees with certificate|original_release_unverified": 1,
+    "Missing independently dated current quarter|first_release_attachment_unavailable": 8,
+    "Missing independently dated current quarter|first_release_attachment_unavailable|missing_original_attachment": 2,
+    "Missing independently dated current quarter|first_release_facts_unreconciled": 16,
+    "Missing independently dated current quarter|first_release_facts_unreconciled|missing_original_attachment": 2,
+    "Not the registered three-month duration": 1,
+    "Not the registered three-month duration|exchange_labels_revision|first_release_attachment_unavailable": 1,
+    "Not the registered three-month duration|exchange_labels_revision|first_release_facts_unreconciled": 18,
+    "Not the registered three-month duration|first_release_attachment_unavailable": 2,
+    "Not the registered three-month duration|first_release_facts_unreconciled": 5,
+    "Old HTML lacks a current-quarter ISIN for catalogue alias|first_release_attachment_unavailable": 127,
+    "Old HTML lacks a current-quarter ISIN for catalogue alias|first_release_attachment_unavailable|missing_original_attachment": 5,
+    "Old HTML lacks a current-quarter ISIN for catalogue alias|first_release_attachment_unavailable|structured_attachment_unavailable": 1,
+    "Old HTML lacks a current-quarter ISIN for catalogue alias|first_release_facts_unreconciled": 447,
+    "Old HTML lacks a current-quarter ISIN for catalogue alias|first_release_facts_unreconciled|missing_original_attachment": 18,
+    "Old HTML lacks a current-quarter ISIN for catalogue alias|first_release_facts_unreconciled|structured_attachment_unavailable": 1,
+    "Old HTML lacks a current-quarter ISIN for catalogue alias|no_independently_corroborated_original_text_fields": 1,
+    "earliest_notice_marked_revision": 7,
+    "earliest_notice_marked_revision|missing_original_attachment": 2,
+    "exchange_labels_revision|first_release_attachment_unavailable": 14,
+    "exchange_labels_revision|first_release_facts_unreconciled": 62,
+    "exchange_labels_revision|first_release_facts_unreconciled|missing_one_or_more_quarterly_facts": 8,
+    "exchange_labels_revision|first_release_facts_unreconciled|missing_one_or_more_quarterly_facts|original_release_unverified_or_revision": 1,
+    "exchange_labels_revision|first_release_facts_unreconciled|structured_attachment_unavailable": 4,
+    "exchange_labels_revision|missing_one_or_more_quarterly_facts": 3,
+    "first_release_attachment_unavailable": 1498,
+    "first_release_attachment_unavailable|first_release_facts_unreconciled": 1,
+    "first_release_attachment_unavailable|missing_one_or_more_quarterly_facts|original_release_unverified_or_revision": 1,
+    "first_release_attachment_unavailable|missing_original_attachment": 85,
+    "first_release_attachment_unavailable|missing_original_attachment|structured_attachment_unavailable": 2,
+    "first_release_attachment_unavailable|missing_original_attachment|subsequent_structured_vintage": 2,
+    "first_release_attachment_unavailable|original_release_unverified": 1,
+    "first_release_attachment_unavailable|structured_attachment_unavailable": 13,
+    "first_release_attachment_unavailable|subsequent_structured_vintage": 77,
+    "first_release_facts_unreconciled": 3892,
+    "first_release_facts_unreconciled|missing_one_or_more_quarterly_facts": 249,
+    "first_release_facts_unreconciled|missing_one_or_more_quarterly_facts|missing_original_attachment": 5,
+    "first_release_facts_unreconciled|missing_one_or_more_quarterly_facts|missing_original_attachment|subsequent_structured_vintage": 1,
+    "first_release_facts_unreconciled|missing_one_or_more_quarterly_facts|original_release_unverified_or_revision": 1,
+    "first_release_facts_unreconciled|missing_one_or_more_quarterly_facts|original_release_unverified_or_revision|values_differ_from_original_notice": 1,
+    "first_release_facts_unreconciled|missing_one_or_more_quarterly_facts|structured_attachment_unavailable": 2,
+    "first_release_facts_unreconciled|missing_original_attachment": 240,
+    "first_release_facts_unreconciled|missing_original_attachment|no_independently_corroborated_original_text_fields": 6,
+    "first_release_facts_unreconciled|missing_original_attachment|structured_attachment_unavailable": 5,
+    "first_release_facts_unreconciled|missing_original_attachment|subsequent_structured_vintage": 21,
+    "first_release_facts_unreconciled|no_first_fields_verified": 17,
+    "first_release_facts_unreconciled|no_first_fields_verified|subsequent_structured_vintage": 8,
+    "first_release_facts_unreconciled|no_independently_corroborated_original_text_fields": 7,
+    "first_release_facts_unreconciled|structured_attachment_unavailable": 68,
+    "first_release_facts_unreconciled|subsequent_structured_vintage": 369,
+    "missing_one_or_more_quarterly_facts": 130,
+    "missing_one_or_more_quarterly_facts|no_independently_corroborated_original_text_fields": 8,
+    "missing_one_or_more_quarterly_facts|original_release_unverified_or_revision": 1,
+    "missing_one_or_more_quarterly_facts|subsequent_structured_vintage": 1,
+    "missing_one_or_more_quarterly_facts|values_differ_from_original_notice": 1,
+    "missing_original_attachment": 2,
+    "missing_original_attachment|no_independently_corroborated_original_text_fields": 1,
+    "no_independently_corroborated_original_text_fields": 1,
+    "no_verified_filing": 268,
+    "original_release_unverified": 192,
+    "structured_attachment_unavailable|subsequent_structured_vintage": 1
+  },
+  "windows": {
+    "2017": {
+      "coverage": 0.0,
+      "coverage_eligible": false,
+      "covered": 0,
+      "eligible": 804,
+      "periods": [
+        "2016-12-31",
+        "2017-03-31",
+        "2017-06-30",
+        "2017-09-30"
+      ]
+    },
+    "2018": {
+      "coverage": 0.018656716417910446,
+      "coverage_eligible": false,
+      "covered": 15,
+      "eligible": 804,
+      "periods": [
+        "2017-12-31",
+        "2018-03-31",
+        "2018-06-30",
+        "2018-09-30"
+      ]
+    },
+    "2019": {
+      "coverage": 0.03109452736318408,
+      "coverage_eligible": false,
+      "covered": 25,
+      "eligible": 804,
+      "periods": [
+        "2018-12-31",
+        "2019-03-31",
+        "2019-06-30",
+        "2019-09-30"
+      ]
+    },
+    "2020": {
+      "coverage": 0.04987531172069826,
+      "coverage_eligible": false,
+      "covered": 40,
+      "eligible": 802,
+      "periods": [
+        "2019-12-31",
+        "2020-03-31",
+        "2020-06-30",
+        "2020-09-30"
+      ]
+    },
+    "2021": {
+      "coverage": 0.05125,
+      "coverage_eligible": false,
+      "covered": 41,
+      "eligible": 800,
+      "periods": [
+        "2020-12-31",
+        "2021-03-31",
+        "2021-06-30",
+        "2021-09-30"
+      ]
+    },
+    "2022": {
+      "coverage": 0.0275,
+      "coverage_eligible": false,
+      "covered": 22,
+      "eligible": 800,
+      "periods": [
+        "2021-12-31",
+        "2022-03-31",
+        "2022-06-30",
+        "2022-09-30"
+      ]
+    },
+    "2023": {
+      "coverage": 0.046192259675405745,
+      "coverage_eligible": false,
+      "covered": 37,
+      "eligible": 801,
+      "periods": [
+        "2022-12-31",
+        "2023-03-31",
+        "2023-06-30",
+        "2023-09-30"
+      ]
+    },
+    "2024": {
+      "coverage": 0.049813200498132,
+      "coverage_eligible": false,
+      "covered": 40,
+      "eligible": 803,
+      "periods": [
+        "2023-12-31",
+        "2024-03-31",
+        "2024-06-30",
+        "2024-09-30"
+      ]
+    },
+    "2025": {
+      "coverage": 0.10125,
+      "coverage_eligible": false,
+      "covered": 81,
+      "eligible": 800,
+      "periods": [
+        "2024-12-31",
+        "2025-03-31",
+        "2025-06-30",
+        "2025-09-30"
+      ]
+    },
+    "2026": {
+      "coverage": 0.14856429463171036,
+      "coverage_eligible": false,
+      "covered": 119,
+      "eligible": 801,
+      "periods": [
+        "2025-12-31",
+        "2026-03-31",
+        "2026-06-30",
+        "2026-09-30"
+      ]
+    }
+  },
+  "years": {
+    "2014": {
+      "coverage": 0.0,
+      "coverage_eligible": false,
+      "covered": 0,
+      "eligible": 800
+    },
+    "2015": {
+      "coverage": 0.0,
+      "coverage_eligible": false,
+      "covered": 0,
+      "eligible": 800
+    },
+    "2016": {
+      "coverage": 0.0,
+      "coverage_eligible": false,
+      "covered": 0,
+      "eligible": 803
+    },
+    "2017": {
+      "coverage": 0.0,
+      "coverage_eligible": false,
+      "covered": 0,
+      "eligible": 804
+    },
+    "2018": {
+      "coverage": 0.02736318407960199,
+      "coverage_eligible": false,
+      "covered": 22,
+      "eligible": 804
+    },
+    "2019": {
+      "coverage": 0.03109452736318408,
+      "coverage_eligible": false,
+      "covered": 25,
+      "eligible": 804
+    },
+    "2020": {
+      "coverage": 0.052434456928838954,
+      "coverage_eligible": false,
+      "covered": 42,
+      "eligible": 801
+    },
+    "2021": {
+      "coverage": 0.05375,
+      "coverage_eligible": false,
+      "covered": 43,
+      "eligible": 800
+    },
+    "2022": {
+      "coverage": 0.02625,
+      "coverage_eligible": false,
+      "covered": 21,
+      "eligible": 800
+    },
+    "2023": {
+      "coverage": 0.04488778054862843,
+      "coverage_eligible": false,
+      "covered": 36,
+      "eligible": 802
+    },
+    "2024": {
+      "coverage": 0.04488778054862843,
+      "coverage_eligible": false,
+      "covered": 36,
+      "eligible": 802
+    },
+    "2025": {
+      "coverage": 0.12983770287141075,
+      "coverage_eligible": false,
+      "covered": 104,
+      "eligible": 801
+    },
+    "2026": {
+      "coverage": 0.15166666666666667,
+      "coverage_eligible": false,
+      "covered": 91,
+      "eligible": 600
+    }
+  }
+}

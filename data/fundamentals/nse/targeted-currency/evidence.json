@@ -1,0 +1,690 @@
+{
+  "capture_program_sha256": "0ea184166f0650faee87690efda34f47a6657be90c68d3380fb921de301b0dfa",
+  "ffmpeg": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "model_sha256": {
+    "eng": "7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2",
+    "hin": "4c73ffc59d497c186b19d1e90f5d721d678ea6b2e277b719bee4e2af12271825"
+  },
+  "page": 4,
+  "page_parser_sha256": "e36a1186d0ea261dfea9390195b70b8ad39b2b561ef5a236f6c7038d26b88044",
+  "page_text_sha256": "beee7dacb129be2b1f41fdb3c0818b2b1bcd284068cf5b18ff6dd73a292c3cc7",
+  "pdf_sha256": "34bef44abddf163f1dddbc7eddb0b00ae634e9e5fa2d910cf93d440a7f477853",
+  "poppler": "pdftoppm version 26.04.0",
+  "source_sha256": "34bef44abddf163f1dddbc7eddb0b00ae634e9e5fa2d910cf93d440a7f477853",
+  "source_url": "https://nsearchives.nseindia.in/corporate/resultsdec211_31012022172039.pdf",
+  "tesseract": "tesseract 5.5.4\n leptonica-1.87.0\n  libjpeg 8d (libjpeg-turbo 3.2.1) : libpng 1.6.59 : libtiff 4.7.2 : zlib 1.2.12 : libwebp 1.6.0",
+  "tesserocr_wheel_sha256": "9a172c4ec8d2eca0236bac569c8355a11b7210e34b3bc41c0d9874b9b3b19b8f",
+  "views": [
+    {
+      "crop_sha256": "d58fb6df86964456f500d68c569f9ab4e8b545e5237f5b9e7a5e287c192cff22",
+      "rendered_page_sha256": "19178c4052fb33f32dec24785b6f50b00db1973dc23382d29419f74e9d0d7f00",
+      "roi_xywh": [
+        1475,
+        358,
+        110,
+        20
+      ],
+      "size": 2400,
+      "symbols": {
+        "eng": [
+          {
+            "bounds": [
+              43,
+              43,
+              61,
+              100
+            ],
+            "character": "(",
+            "confidence": 96.76
+          },
+          {
+            "bounds": [
+              64,
+              46,
+              95,
+              93
+            ],
+            "character": "2",
+            "confidence": 97.67
+          },
+          {
+            "bounds": [
+              114,
+              45,
+              125,
+              90
+            ],
+            "character": "i",
+            "confidence": 99.44
+          },
+          {
+            "bounds": [
+              130,
+              55,
+              161,
+              89
+            ],
+            "character": "n",
+            "confidence": 99.56
+          },
+          {
+            "bounds": [
+              176,
+              44,
+              208,
+              89
+            ],
+            "character": "C",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              211,
+              54,
+              262,
+              89
+            ],
+            "character": "r",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              237,
+              43,
+              261,
+              100
+            ],
+            "character": "o",
+            "confidence": 99.55
+          },
+          {
+            "bounds": [
+              260,
+              43,
+              284,
+              100
+            ],
+            "character": "r",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              269,
+              56,
+              321,
+              93
+            ],
+            "character": "e",
+            "confidence": 99.45
+          },
+          {
+            "bounds": [
+              323,
+              56,
+              346,
+              93
+            ],
+            "character": "s",
+            "confidence": 99.56
+          },
+          {
+            "bounds": [
+              348,
+              43,
+              366,
+              100
+            ],
+            "character": ")",
+            "confidence": 98.19
+          }
+        ],
+        "hin": [
+          {
+            "bounds": [
+              43,
+              43,
+              61,
+              100
+            ],
+            "character": "(",
+            "confidence": 98.69
+          },
+          {
+            "bounds": [
+              64,
+              46,
+              95,
+              93
+            ],
+            "character": "\u20b9",
+            "confidence": 97.55
+          },
+          {
+            "bounds": [
+              114,
+              45,
+              161,
+              90
+            ],
+            "character": "\u0965",
+            "confidence": 67.68
+          },
+          {
+            "bounds": [
+              176,
+              44,
+              208,
+              89
+            ],
+            "character": "(",
+            "confidence": 91.41
+          },
+          {
+            "bounds": [
+              209,
+              43,
+              236,
+              100
+            ],
+            "character": "/",
+            "confidence": 91.7
+          },
+          {
+            "bounds": [
+              211,
+              54,
+              262,
+              89
+            ],
+            "character": "0",
+            "confidence": 96.54
+          },
+          {
+            "bounds": [
+              266,
+              43,
+              289,
+              100
+            ],
+            "character": "\u0965",
+            "confidence": 33.76
+          },
+          {
+            "bounds": [
+              269,
+              56,
+              321,
+              93
+            ],
+            "character": "8",
+            "confidence": 63.76
+          },
+          {
+            "bounds": [
+              323,
+              56,
+              346,
+              93
+            ],
+            "character": "5",
+            "confidence": 95.0
+          },
+          {
+            "bounds": [
+              348,
+              43,
+              366,
+              100
+            ],
+            "character": ")",
+            "confidence": 98.82
+          }
+        ]
+      }
+    },
+    {
+      "crop_sha256": "212e4a52e901b71fb8cda41c14420389271299647b36ebca323fdd15899a68c0",
+      "rendered_page_sha256": "d578f730a7d48eca7a522e968212eaf4f32989ac4a8a16f12c26d264372f24c6",
+      "roi_xywh": [
+        1967,
+        478,
+        147,
+        27
+      ],
+      "size": 3200,
+      "symbols": {
+        "eng": [
+          {
+            "bounds": [
+              42,
+              40,
+              66,
+              117
+            ],
+            "character": "(",
+            "confidence": 99.53
+          },
+          {
+            "bounds": [
+              70,
+              47,
+              113,
+              108
+            ],
+            "character": "2",
+            "confidence": 97.57
+          },
+          {
+            "bounds": [
+              136,
+              44,
+              153,
+              103
+            ],
+            "character": "i",
+            "confidence": 99.53
+          },
+          {
+            "bounds": [
+              159,
+              57,
+              199,
+              103
+            ],
+            "character": "n",
+            "confidence": 99.56
+          },
+          {
+            "bounds": [
+              217,
+              43,
+              264,
+              103
+            ],
+            "character": "C",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              265,
+              40,
+              297,
+              121
+            ],
+            "character": "r",
+            "confidence": 99.54
+          },
+          {
+            "bounds": [
+              267,
+              57,
+              336,
+              103
+            ],
+            "character": "o",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              327,
+              40,
+              367,
+              121
+            ],
+            "character": "r",
+            "confidence": 99.56
+          },
+          {
+            "bounds": [
+              344,
+              58,
+              411,
+              106
+            ],
+            "character": "e",
+            "confidence": 99.55
+          },
+          {
+            "bounds": [
+              415,
+              58,
+              444,
+              106
+            ],
+            "character": "s",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              448,
+              40,
+              471,
+              121
+            ],
+            "character": "}",
+            "confidence": 97.39
+          }
+        ],
+        "hin": [
+          {
+            "bounds": [
+              42,
+              40,
+              66,
+              117
+            ],
+            "character": "(",
+            "confidence": 98.66
+          },
+          {
+            "bounds": [
+              70,
+              47,
+              113,
+              108
+            ],
+            "character": "\u20b9",
+            "confidence": 98.16
+          },
+          {
+            "bounds": [
+              217,
+              43,
+              264,
+              103
+            ],
+            "character": "(",
+            "confidence": 83.73
+          },
+          {
+            "bounds": [
+              267,
+              40,
+              297,
+              121
+            ],
+            "character": "7",
+            "confidence": 83.99
+          },
+          {
+            "bounds": [
+              267,
+              57,
+              336,
+              103
+            ],
+            "character": "0",
+            "confidence": 82.25
+          },
+          {
+            "bounds": [
+              343,
+              40,
+              367,
+              121
+            ],
+            "character": "7",
+            "confidence": 95.23
+          },
+          {
+            "bounds": [
+              344,
+              58,
+              411,
+              106
+            ],
+            "character": "2",
+            "confidence": 97.65
+          },
+          {
+            "bounds": [
+              415,
+              58,
+              444,
+              106
+            ],
+            "character": "5",
+            "confidence": 99.11
+          },
+          {
+            "bounds": [
+              448,
+              40,
+              471,
+              121
+            ],
+            "character": ")",
+            "confidence": 99.0
+          }
+        ]
+      }
+    },
+    {
+      "crop_sha256": "4d4ebbdeb3e321fd6210a269b4849b5b38b4352625771d46ebdb621568b8d572",
+      "rendered_page_sha256": "5bf4566f63603cce937d52c9f1303e5c67c6d5b862221c386f9a1a84e3fe514f",
+      "roi_xywh": [
+        2581,
+        627,
+        193,
+        35
+      ],
+      "size": 4200,
+      "symbols": {
+        "eng": [
+          {
+            "bounds": [
+              46,
+              40,
+              77,
+              143
+            ],
+            "character": "(",
+            "confidence": 99.29
+          },
+          {
+            "bounds": [
+              82,
+              47,
+              138,
+              128
+            ],
+            "character": "2",
+            "confidence": 94.16
+          },
+          {
+            "bounds": [
+              167,
+              46,
+              187,
+              122
+            ],
+            "character": "i",
+            "confidence": 99.47
+          },
+          {
+            "bounds": [
+              196,
+              65,
+              249,
+              124
+            ],
+            "character": "n",
+            "confidence": 99.35
+          },
+          {
+            "bounds": [
+              276,
+              45,
+              338,
+              124
+            ],
+            "character": "C",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              339,
+              64,
+              429,
+              125
+            ],
+            "character": "r",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              386,
+              40,
+              426,
+              145
+            ],
+            "character": "o",
+            "confidence": 99.54
+          },
+          {
+            "bounds": [
+              425,
+              40,
+              475,
+              145
+            ],
+            "character": "r",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              440,
+              65,
+              528,
+              128
+            ],
+            "character": "e",
+            "confidence": 99.41
+          },
+          {
+            "bounds": [
+              533,
+              64,
+              572,
+              128
+            ],
+            "character": "s",
+            "confidence": 99.57
+          },
+          {
+            "bounds": [
+              577,
+              40,
+              608,
+              145
+            ],
+            "character": "}",
+            "confidence": 96.45
+          }
+        ],
+        "hin": [
+          {
+            "bounds": [
+              46,
+              40,
+              77,
+              143
+            ],
+            "character": "(",
+            "confidence": 98.82
+          },
+          {
+            "bounds": [
+              82,
+              47,
+              138,
+              128
+            ],
+            "character": "\u20b9",
+            "confidence": 97.1
+          },
+          {
+            "bounds": [
+              167,
+              46,
+              249,
+              124
+            ],
+            "character": "\u0965",
+            "confidence": 65.55
+          },
+          {
+            "bounds": [
+              276,
+              45,
+              338,
+              124
+            ],
+            "character": "(",
+            "confidence": 98.37
+          },
+          {
+            "bounds": [
+              339,
+              64,
+              429,
+              125
+            ],
+            "character": "/",
+            "confidence": 97.43
+          },
+          {
+            "bounds": [
+              388,
+              40,
+              433,
+              145
+            ],
+            "character": "0",
+            "confidence": 97.65
+          },
+          {
+            "bounds": [
+              432,
+              40,
+              478,
+              145
+            ],
+            "character": "7",
+            "confidence": 96.1
+          },
+          {
+            "bounds": [
+              440,
+              65,
+              528,
+              128
+            ],
+            "character": "8",
+            "confidence": 91.4
+          },
+          {
+            "bounds": [
+              533,
+              64,
+              572,
+              128
+            ],
+            "character": "5",
+            "confidence": 98.29
+          },
+          {
+            "bounds": [
+              577,
+              40,
+              608,
+              145
+            ],
+            "character": ")",
+            "confidence": 96.21
+          }
+        ]
+      }
+    }
+  ]
+}

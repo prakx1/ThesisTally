@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://www.bseindia.com/corporates/Comp_Resultsnew.aspx",
+    "resolved_url": "https://www.bseindia.com/corporates/Comp_Resultsnew",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 16912,
+    "sha256": "1460b5b7c9f597277468bc28cc4542a6d4a95e976298d5c63cf7c8055b2999e3",
+    "title": "LIVE Stock/Share Market | Indian Stock/Share Market LIVE | BSE SENSEX | BSE (formerly Bombay Stock\n      Exchange)",
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-H5BVSJ278B",
+      "https://www.googletagmanager.com/gtag/js?id=G-2VVED3VX1X",
+      "env.js",
+      "/assets/includenew/js/polyfills-MH2GNY63.js",
+      "/assets/includenew/js/scripts-DS3I3X7Y.js"
+    ],
+    "contains_data_table": false
+  },
+  {
+    "url": "https://www.bseindia.com/corporates/ann.html",
+    "resolved_url": "https://www.bseindia.com/corporates/ann",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 17100,
+    "sha256": "5b4ba52e3f9e9e87406051c576880e2b4d751df76fabe82b5cac11304d967f16",
+    "title": "LIVE Stock/Share Market | Indian Stock/Share Market LIVE | BSE SENSEX | BSE (formerly Bombay Stock\n      Exchange)",
+    "scripts": [
+      "https://www.googletagmanager.com/gtag/js?id=G-H5BVSJ278B",
+      "https://www.googletagmanager.com/gtag/js?id=G-2VVED3VX1X",
+      "env.js",
+      "/assets/includenew/js/polyfills-MH2GNY63.js",
+      "/assets/includenew/js/scripts-DS3I3X7Y.js"
+    ],
+    "contains_data_table": false
+  },
+  {
+    "url": "https://marketdata.bseindia.com/",
+    "resolved_url": "https://marketdata.bseindia.com/",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 617,
+    "sha256": "0fde71f4b521e117a2920b9a1e63b63c8af9c7801cac11e660b9f1d62c0ffa82",
+    "title": "Self Data Feed",
+    "scripts": [
+      "/assets/index-DWti0k1I.js"
+    ],
+    "contains_data_table": false
+  },
+  {
+    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1a2804ad-bc66-444b-aa4a-ea2e604971f3.pdf",
+    "resolved_url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/1a2804ad-bc66-444b-aa4a-ea2e604971f3.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 11677548,
+    "sha256": "a82d4e0374607c55c8136be37693a3ce9ef0f23f60cf8b13dc18fa17ff114a3b",
+    "title": null,
+    "scripts": [],
+    "contains_data_table": null
+  }
+]

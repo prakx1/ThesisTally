@@ -1,0 +1,25 @@
+{
+  "development_years": [
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "hypothesis": {
+    "description": "b10 entries in stop_distance_bucket = 5\u2013<7%",
+    "filters": [
+      {
+        "field": "stop_distance_bucket",
+        "values": [
+          "5\u2013<7%"
+        ]
+      }
+    ],
+    "id": "b10-962038cb",
+    "strategy": "b10"
+  },
+  "label": "EXPLORATORY \u2014 hypothesis generation only, not evidence",
+  "sample_sha256": "3685bc2e192a80ddff90daec924eddc37d2bb68c6b51d38aa175302954cff89f",
+  "status": "proposed",
+  "strategy": "b10"
+}

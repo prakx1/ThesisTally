@@ -1,0 +1,369 @@
+{
+  "r1_run": "pilot-7c67139d16a8cd5283d1",
+  "r2_run": "pilot-38cd9375ea5dde47c7cd",
+  "preflight_snapshot_sha256": "462665a5388bd9938f6bd9fa9b557e9943953f5e9ccba01164d6ce0fdcaf31a9",
+  "method": "Read-only comparison of both complete pilot journals. Joined original signal day, ISIN and strategy. Rechecked original levels, sector, symbol, features and regime except the new detector counts. Independently evaluated signal-stop bounds and non-portfolio gates, calculated integer shares at filled risk, target and per-call fees.",
+  "matched_portfolio_signals": 12143,
+  "unconstrained_eligible": 2184,
+  "unconstrained_journaled": 2184,
+  "reconciled_independent_buys": 1918,
+  "min_independent_initial_risk_inr": 3455.7600999999995,
+  "max_independent_initial_risk_inr": 4999.975729999997,
+  "reconciled_independent_fills": 4096,
+  "independent_fees_inr": 498184.67,
+  "per_strategy": {
+    "trend_pullback": {
+      "plans": 10633,
+      "valid_signal_stop": 5939,
+      "bought": 1683,
+      "sell_fills": 1928,
+      "edge_eligible": 1871,
+      "closed": 1625,
+      "missed": 165,
+      "unmeasurable": 5,
+      "invalidated": 7,
+      "active": 53,
+      "confirmed": 16
+    },
+    "vcp_breakout": {
+      "plans": 1498,
+      "valid_signal_stop": 811,
+      "bought": 235,
+      "sell_fills": 250,
+      "edge_eligible": 312,
+      "closed": 220,
+      "missed": 73,
+      "invalidated": 1,
+      "active": 15,
+      "confirmed": 3
+    },
+    "high_momentum": {
+      "plans": 12,
+      "valid_signal_stop": 2,
+      "edge_eligible": 1,
+      "missed": 1
+    }
+  },
+  "momentum_plans": [
+    {
+      "signal": "2025-07-22",
+      "isin": "INE070A01015",
+      "symbol": "SHREECEM",
+      "planned_stop_percent": 5.410418921007884,
+      "planned_stop_atr": 2.9592186615074794,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 7513,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Opening gap or slippage reduced reward/risk"
+      },
+      "r2": {
+        "id": 8954,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2025-10-09",
+      "isin": "INE081A01020",
+      "symbol": "TATASTEEL",
+      "planned_stop_percent": 5.832672032649355,
+      "planned_stop_atr": 2.9760316301491283,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 8263,
+        "allocation": "stop_out_of_bounds",
+        "status": "closed",
+        "buy": 176.088,
+        "outcome_r": -0.07469610241803856,
+        "status_reason": "Time stop without 1R"
+      },
+      "r2": {
+        "id": 9832,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2025-10-28",
+      "isin": "INE081A01020",
+      "symbol": "TATASTEEL",
+      "planned_stop_percent": 6.908310873989331,
+      "planned_stop_atr": 3.570716193286768,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 8530,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Opening gap or slippage reduced reward/risk"
+      },
+      "r2": {
+        "id": 10189,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Open above signal close + 0.5 ATR(14)"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2025-11-18",
+      "isin": "INE171A01029",
+      "symbol": "FEDERALBNK",
+      "planned_stop_percent": 6.744100445789531,
+      "planned_stop_atr": 3.7218051863240573,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 8776,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Opening gap or slippage reduced reward/risk"
+      },
+      "r2": {
+        "id": 10504,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2025-12-01",
+      "isin": "INE028A01039",
+      "symbol": "BANKBARODA",
+      "planned_stop_percent": 5.0245305362882835,
+      "planned_stop_atr": 2.4183149021988157,
+      "valid_signal_stop": true,
+      "edge_eligible": true,
+      "r1": {
+        "id": 8921,
+        "allocation": "position_limit",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Opening gap or slippage reduced reward/risk"
+      },
+      "r2": {
+        "id": 10702,
+        "allocation": "position_limit",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": {
+        "id": 10712,
+        "allocation": "unconstrained",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      }
+    },
+    {
+      "signal": "2026-05-13",
+      "isin": "INE081A01020",
+      "symbol": "TATASTEEL",
+      "planned_stop_percent": 5.063291139240508,
+      "planned_stop_atr": 2.2334743936497143,
+      "valid_signal_stop": true,
+      "edge_eligible": false,
+      "r1": {
+        "id": 10453,
+        "allocation": "upcoming_results",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Opening gap or slippage reduced reward/risk"
+      },
+      "r2": {
+        "id": 12447,
+        "allocation": "upcoming_results",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Open above signal close + 0.5 ATR(14)"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2026-07-17",
+      "isin": "INE171A01029",
+      "symbol": "FEDERALBNK",
+      "planned_stop_percent": 7.69340974212035,
+      "planned_stop_atr": 3.358690677493364,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 11066,
+        "allocation": "stop_out_of_bounds",
+        "status": "closed",
+        "buy": 341.67075,
+        "outcome_r": 0.852774495204987,
+        "status_reason": "Time stop without 1R"
+      },
+      "r2": {
+        "id": 13065,
+        "allocation": "stop_out_of_bounds",
+        "status": "closed",
+        "buy": 341.67075,
+        "outcome_r": 0.8523470446283332,
+        "status_reason": "Time stop without 1R"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2026-07-27",
+      "isin": "INE044A01036",
+      "symbol": "SUNPHARMA",
+      "planned_stop_percent": 5.340223944875112,
+      "planned_stop_atr": 3.3212464637533725,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 11155,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Opening gap or slippage reduced reward/risk"
+      },
+      "r2": {
+        "id": 13154,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2026-07-28",
+      "isin": "INE944F01028",
+      "symbol": "RADICO",
+      "planned_stop_percent": 6.4899643331701435,
+      "planned_stop_atr": 2.6393062101328586,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 11173,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Opening gap or slippage reduced reward/risk"
+      },
+      "r2": {
+        "id": 13172,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2026-08-31",
+      "isin": "INE406A01037",
+      "symbol": "AUROPHARMA",
+      "planned_stop_percent": 6.884100174723357,
+      "planned_stop_atr": 3.1197007471264553,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 11558,
+        "allocation": "stop_out_of_bounds",
+        "status": "closed",
+        "buy": 1700.85,
+        "outcome_r": -0.48097060264576214,
+        "status_reason": "Time stop without 1R"
+      },
+      "r2": {
+        "id": 13625,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2026-08-31",
+      "isin": "INE917I01010",
+      "symbol": "BAJAJ-AUTO",
+      "planned_stop_percent": 5.5564715581203625,
+      "planned_stop_atr": 3.247998412630321,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 11567,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Opening gap or slippage reduced reward/risk"
+      },
+      "r2": {
+        "id": 13634,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": null
+    },
+    {
+      "signal": "2026-09-01",
+      "isin": "INE917I01010",
+      "symbol": "BAJAJ-AUTO",
+      "planned_stop_percent": 6.690397217053636,
+      "planned_stop_atr": 3.7619472812418584,
+      "valid_signal_stop": false,
+      "edge_eligible": false,
+      "r1": {
+        "id": 11590,
+        "allocation": "stop_out_of_bounds",
+        "status": "closed",
+        "buy": 12217.1055,
+        "outcome_r": -1.2177299114119244,
+        "status_reason": "Closing stop"
+      },
+      "r2": {
+        "id": 13657,
+        "allocation": "stop_out_of_bounds",
+        "status": "missed",
+        "buy": null,
+        "outcome_r": null,
+        "status_reason": "Fill stop distance out of bounds"
+      },
+      "edge": null
+    }
+  ],
+  "discrepancies": []
+}

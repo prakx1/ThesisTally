@@ -1,0 +1,399 @@
+{
+  "cases": {
+    "integrated/ADANIENT/INE423A01024/2026-06-30/standalone/180114": {
+      "eps": "-6.84"
+    },
+    "integrated/APLAPOLLO/INE702C01027/2025-12-31/consolidated/136719": {
+      "eps": "11.17",
+      "revenue": "58151300000.00"
+    },
+    "integrated/APOLLOHOSP/INE437A01024/2025-12-31/standalone/141665": {
+      "revenue": "23637000000"
+    },
+    "integrated/APOLLOHOSP/INE437A01024/2026-06-30/consolidated/186180": {
+      "revenue": "70435000000"
+    },
+    "integrated/APOLLOHOSP/INE437A01024/2026-09-30/standalone/209699": {
+      "revenue": "29029000000"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2025-03-31/consolidated/91097": {
+      "operating_profit": "2386893000.00",
+      "revenue": "17576509000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2025-06-30/consolidated/110533": {
+      "operating_profit": "2073814000.00",
+      "revenue": "10685948000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2025-06-30/standalone/110531": {
+      "operating_profit": "2045069000.00",
+      "revenue": "9774241000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2025-09-30/consolidated/126981": {
+      "operating_profit": "427590000.00",
+      "revenue": "11185871000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2025-09-30/standalone/126980": {
+      "operating_profit": "300621000.00",
+      "revenue": "9512961000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2025-12-31/consolidated/138186": {
+      "net_profit": "1446722000.00",
+      "operating_profit": "1536786000.00",
+      "revenue": "13504099000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2025-12-31/standalone/138183": {
+      "net_profit": "1376873000.00",
+      "operating_profit": "1382543000.00",
+      "revenue": "11653722000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2026-03-31/consolidated/158091": {
+      "net_profit": "2764844000.00",
+      "operating_profit": "2777674000.00",
+      "revenue": "14842781000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2026-03-31/standalone/158175": {
+      "net_profit": "2164016000.00",
+      "operating_profit": "1921635000.00",
+      "revenue": "12135983000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2026-06-30/consolidated/187610": {
+      "operating_profit": "1608083000.00",
+      "revenue": "10942143000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2026-06-30/standalone/187602": {
+      "net_profit": "1357957000.00",
+      "operating_profit": "1295403000.00",
+      "revenue": "9099185000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2026-09-30/consolidated/212120": {
+      "operating_profit": "189910000.00",
+      "revenue": "12491909000.00"
+    },
+    "integrated/COCHINSHIP/INE704P01025/2026-09-30/standalone/212112": {
+      "net_profit": "473427000.00",
+      "operating_profit": "48005000.00",
+      "revenue": "10737886000.00"
+    },
+    "integrated/M&M/INE101A01026/2026-03-31/standalone/155573": {
+      "operating_profit": "43088700000.00",
+      "revenue": "396009200000.00"
+    },
+    "integrated/M&M/INE101A01026/2026-09-30/consolidated/210367": {
+      "revenue": "575531300000.00"
+    },
+    "integrated/MARICO/INE196A01026/2026-06-30/consolidated/182345": {
+      "net_profit": "6520000000"
+    },
+    "integrated/RADICO/INE944F01028/2025-12-31/standalone/136757": {
+      "net_profit": "1550915000.00"
+    },
+    "integrated/RADICO/INE944F01028/2026-03-31/consolidated/155855": {
+      "net_profit": "1794643000.00",
+      "revenue": "51823078000.00"
+    },
+    "integrated/RADICO/INE944F01028/2026-06-30/consolidated/179137": {
+      "net_profit": "2296014000.00"
+    },
+    "integrated/RADICO/INE944F01028/2026-09-30/consolidated/204796": {
+      "net_profit": "2323469000.00",
+      "operating_profit": "3140862000.00",
+      "revenue": "55827146000.00"
+    },
+    "integrated/RVNL/INE415G01027/2026-03-31/consolidated/161086": {
+      "revenue": "66959100000.00"
+    },
+    "integrated/SHREECEM/INE070A01015/2025-12-31/consolidated/140870": {
+      "eps": "73.92",
+      "net_profit": "2676500000.00",
+      "operating_profit": "2374800000.00",
+      "revenue": "48005200000.00"
+    },
+    "integrated/SHREECEM/INE070A01015/2025-12-31/standalone/140867": {
+      "operating_profit": "2735400000.00",
+      "revenue": "44163900000.00"
+    },
+    "integrated/SHREECEM/INE070A01015/2026-03-31/consolidated/155879": {
+      "eps": "145.70",
+      "operating_profit": "6215300000.00",
+      "revenue": "61010000000.00"
+    },
+    "integrated/SHREECEM/INE070A01015/2026-03-31/standalone/155877": {
+      "revenue": "56429500000.00"
+    },
+    "integrated/SHREECEM/INE070A01015/2026-06-30/consolidated/181278": {
+      "eps": "146.67",
+      "net_profit": "5311200000.00",
+      "operating_profit": "5862400000.00",
+      "revenue": "62331300000.00"
+    },
+    "integrated/SHREECEM/INE070A01015/2026-06-30/standalone/181277": {
+      "operating_profit": "4882700000.00",
+      "revenue": "56226800000.00"
+    },
+    "integrated/SHREECEM/INE070A01015/2026-09-30/consolidated/203667": {
+      "eps": "72.56",
+      "revenue": "58965100000.00"
+    },
+    "integrated/SHREECEM/INE070A01015/2026-09-30/standalone/203666": {
+      "eps": "56.91",
+      "net_profit": "2053300000.00",
+      "operating_profit": "2533300000.00",
+      "revenue": "51074400000.00"
+    },
+    "integrated/TATACAP/INE976I01016/2026-09-30/standalone/204913": {
+      "net_profit": "11432600000.00"
+    },
+    "integrated/TATACONSUM/INE192A01025/2026-06-30/standalone/177893": {
+      "revenue": "40283200000.00"
+    },
+    "integrated/TATACONSUM/INE192A01025/2026-09-30/consolidated/204391": {
+      "revenue": "56611300000.00"
+    },
+    "integrated/TECHM/INE669C01036/2026-06-30/consolidated/175121": {
+      "eps": "16.53"
+    },
+    "integrated/TORNTPHARM/INE685A01028/2026-03-31/consolidated/160371": {
+      "net_profit": "3640000000",
+      "operating_profit": "8480000000",
+      "revenue": "41970000000"
+    },
+    "integrated/TORNTPHARM/INE685A01028/2026-03-31/standalone/160505": {
+      "net_profit": "4670000000",
+      "operating_profit": "8060000000",
+      "revenue": "27350000000"
+    },
+    "integrated/TORNTPHARM/INE685A01028/2026-06-30/standalone/180670": {
+      "revenue": "41580000000"
+    },
+    "integrated/TORNTPHARM/INE685A01028/2026-09-30/standalone/203699": {
+      "revenue": "41450000000"
+    },
+    "integrated/TRENT/INE849A01020/2026-06-30/consolidated/183170": {
+      "net_profit": "5180700000.00",
+      "operating_profit": "7187400000.00",
+      "revenue": "57547100000.00"
+    },
+    "integrated/TRENT/INE849A01020/2026-06-30/standalone/183169": {
+      "operating_profit": "7167600000.00",
+      "revenue": "56663000000.00"
+    },
+    "integrated/TRENT/INE849A01020/2026-09-30/standalone/206711": {
+      "revenue": "57876400000.00"
+    },
+    "integrated/TVSMOTOR/INE494B01023/2025-12-31/standalone/138023": {
+      "net_profit": "9403700000.00"
+    },
+    "legacy/AARTIIND/INE769A01020/2021-03-31/standalone/1107908": {
+      "net_profit": "1338400000",
+      "operating_profit": "1862600000",
+      "revenue": "11431100000"
+    },
+    "legacy/AARTIIND/INE769A01020/2022-03-31/standalone/1135679": {
+      "net_profit": "1895100000",
+      "operating_profit": "2530800000",
+      "revenue": "17176700000"
+    },
+    "legacy/AARTIIND/INE769A01020/2022-06-30/consolidated/2549": {
+      "net_profit": "1890700000",
+      "operating_profit": "2828000000",
+      "revenue": "19720200000"
+    },
+    "legacy/AARTIIND/INE769A01020/2022-06-30/standalone/2548": {
+      "net_profit": "1858400000",
+      "operating_profit": "2780100000",
+      "revenue": "19347100000"
+    },
+    "legacy/ABFRL/INE647O01011/2019-09-30/standalone/1071906": {
+      "revenue": "22971800000.00"
+    },
+    "legacy/APLAPOLLO/INE702C01027/2022-09-30/consolidated/7298": {
+      "operating_profit": "2042500000.00",
+      "revenue": "39692100000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2018-03-31/consolidated/1040525": {
+      "operating_profit": "1416600000.00",
+      "revenue": "8533100000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2018-09-30/consolidated/1049794": {
+      "operating_profit": "2737100000.00",
+      "revenue": "11270600000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2018-12-31/consolidated/1054651": {
+      "operating_profit": "2131800000.00",
+      "revenue": "10181500000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2019-03-31/consolidated/1059784": {
+      "operating_profit": "1480900000.00",
+      "revenue": "9269500000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2019-03-31/standalone/1059782": {
+      "net_profit": "1076600000.00",
+      "operating_profit": "1255300000.00",
+      "revenue": "8487000000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2019-09-30/standalone/1069446": {
+      "revenue": "11349000000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2020-03-31/consolidated/1082006": {
+      "revenue": "12068300000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2020-09-30/consolidated/1092793": {
+      "revenue": "14571000000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2021-09-30/consolidated/1120777": {
+      "revenue": "12923200000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2022-06-30/consolidated/1466": {
+      "revenue": "12621400000.00"
+    },
+    "legacy/APLLTD/INE901L01018/2022-06-30/standalone/1488": {
+      "revenue": "11603300000.00"
+    },
+    "legacy/APOLLOTYRE/INE438A01022/2018-12-31/consolidated/1056117": {
+      "eps": "3.46",
+      "net_profit": "1979530000.00",
+      "revenue": "47182720000.00"
+    },
+    "legacy/APOLLOTYRE/INE438A01022/2018-12-31/standalone/1056113": {
+      "net_profit": "1230030000.00"
+    },
+    "legacy/APOLLOTYRE/INE438A01022/2019-06-30/standalone/1065565": {
+      "eps": "2.62"
+    },
+    "legacy/APOLLOTYRE/INE438A01022/2020-06-30/standalone/1089475": {
+      "eps": "-0.90"
+    },
+    "legacy/APOLLOTYRE/INE438A01022/2023-06-30/consolidated/1153957": {
+      "eps": "6.25"
+    },
+    "legacy/HAL/INE066F01012/2018-09-30/standalone/1052112": {
+      "net_profit": "2894200000"
+    },
+    "legacy/HAL/INE066F01012/2019-09-30/consolidated/1071538": {
+      "net_profit": "6216600000",
+      "revenue": "34510700000"
+    },
+    "legacy/HAL/INE066F01012/2019-09-30/standalone/1071534": {
+      "net_profit": "6244600000"
+    },
+    "legacy/HAL/INE066F01012/2020-03-31/consolidated/1084405": {
+      "net_profit": "12506700000"
+    },
+    "legacy/HAL/INE066F01012/2020-03-31/standalone/1084403": {
+      "net_profit": "12411100000"
+    },
+    "legacy/HAL/INE066F01012/2023-09-30/consolidated/1160813": {
+      "eps": "18.49",
+      "net_profit": "12366700000",
+      "revenue": "56357000000"
+    },
+    "legacy/HAL/INE066F01012/2023-09-30/standalone/1160807": {
+      "eps": "18.47",
+      "net_profit": "12353000000",
+      "operating_profit": "11793700000",
+      "revenue": "56358100000"
+    },
+    "legacy/MANKIND/INE634S01028/2023-06-30/consolidated/1152816": {
+      "net_profit": "4941884000.00",
+      "revenue": "25786175000.00"
+    },
+    "legacy/MANKIND/INE634S01028/2023-12-31/consolidated/1163860": {
+      "net_profit": "4598137000.00",
+      "revenue": "26069589000.00"
+    },
+    "legacy/MANKIND/INE634S01028/2023-12-31/standalone/1163856": {
+      "net_profit": "4870733000.00",
+      "revenue": "23585662000.00"
+    },
+    "legacy/NMDC/INE584A01023/2020-03-31/consolidated/1083359": {
+      "revenue": "31873400000.00"
+    },
+    "legacy/PETRONET/INE347G01014/2020-09-30/consolidated/1097717": {
+      "revenue": "62357800000"
+    },
+    "legacy/PETRONET/INE347G01014/2020-09-30/standalone/1097713": {
+      "operating_profit": "11680300000",
+      "revenue": "62357800000"
+    },
+    "legacy/SRF/INE647A01010/2023-03-31/standalone/1146438": {
+      "net_profit": "5807000000.00",
+      "revenue": "31424200000.00"
+    },
+    "legacy/SRF/INE647A01010/2023-03-31/standalone/1146439": {
+      "net_profit": "5807000000.00",
+      "revenue": "31424200000.00"
+    }
+  },
+  "evaluator": "489904c9e32cdea765c68d98637661b44096577c6c0a6586d9996923b183eb51",
+  "physical_source_pages": 83,
+  "plan": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "positive_job_markers": {
+    "07022fefe772a1b0578e22754afcb35ee46c8d80e0f02602078a2ad24137495d": "4bb94cb923c2cc9d31d5294590dee4454bf7c3cc2e284f43ad70f919bd1a1098",
+    "0990b20208f579b433a02f879729794911ef950e2887563d08abe3499b1de024": "d4c557ef6240103da8e7eae7f2748bcbcb57a8519858a8b4693be4287ec78c72",
+    "0e5aa0e75941ac11ffef46d5d61e321567ce9e4c94444863e00967aa653a94dc": "16d9326f527871df8de00ce4a76d6ef73fe15eee70b7d9d9063d2c0511ecf0d8",
+    "1029d7e365e665084fd2ca7f2cfef420c697d15090fc9e663cfc11b94ac57f00": "b948fe14f0dc3c1b71002e325c6f9fe32ab01aedafe247a643f45b041e58a01b",
+    "10b30b1de114bc0cfc4bf666ac377e7cd944f99345351596c2f45e4146b3fa40": "a4e1443afc9bad9157d4f594183991fb88e48ab7d3fd7dbf79178f7c9d40f779",
+    "15e2652245cae1b2e513013cf1b27949b89434b8b827d271a8e9e94583e674cd": "09b730e974927d019e71e96a8a880e706446f3320de490c992a48e28ed68385f",
+    "161039d33417f99316fd2dd79c59cdb841ba41319b1efc8883e41fac33380a82": "07b1fe98fc896e9e2612421141b4902de4745985268ca12838993b13e7ea69c6",
+    "171b790ddac62ee78d4d20740cd61146017712f7b69709917ea0236cec8b4f7c": "fbdaf5775bc0bd5c751d3f066d4c97eba28e3ecea6c943fdcf400662e1374311",
+    "19d4401d3d5935df0ae426f03182f997996532ea2787b52a319a4c5815cbcde4": "a7ce723f6eaf18cd087c347fb80cde02edd3931ca0f29ce48dc520261d0077d4",
+    "27d1372305125ba3d3aad9c9dedd0f0e16077aae0afab6b0cf096bd15d75f528": "9f4c8a28ea8b201085aeb851288282b4f923dfea23b6bd6f2d979ea2cfed27e9",
+    "2d716b9881c5fcc77b53f21216023695656b33627117990c2e24a9066cec3e56": "ce921f3c0d5ab2b6d1923f17df495417157fa237297412fee8c25ab420429242",
+    "2e5f36c3de65a19cc0dbe80fbdc2e46295ce4c38f3e001b139c0ecd183e36181": "bbcc908e658e17e666feeb9e205f534209a66c09b0bd737268492d1e6927e7f1",
+    "2eaf99e03a07428b3d36b4eb63c979c9dc6ca6194c275edf54a43882f4c36656": "b67d78fa107d577f25ad5df6a1dce269b28a4a9ab82ebd27c1372c5364aba5c7",
+    "326d429c1b50ede9efe0ccf043786fadc934e4a613c240db6af1713339a9c515": "d83bd9b03d52823d6312cef9511043588b1614ab49f9f5ec5546ad42e4b6a5d2",
+    "32879357afd7b0992f442a354877df85d362e4fe15eac4010b1e9bd003f2a0b2": "181e8e9adceb26e0138735ea1015b6cd3c6415a515ceed2f11796637e360967b",
+    "388af0e375927e8a9e180fd4c652755e6fbff76e366cb12702adc7183e4eb52d": "cb09eed86ad95af9770f23e1dcb06657052ee2c535df45da813fe2f0de5584af",
+    "39b265c83232861cc9fc37573eb7e33f9eb79a6857ebe35cddd9f9ef0034b738": "d814a45418b595a57387fa506e3e529b8417e3e1eb61457372177775ec4d2d85",
+    "45273148e8bfb6e067d213445252bb4d98b6b16174d0e1505a79a05824548645": "f84f6afca309f005e877bb05dd4cdfbab36a0d4dd8eb23c6b1d5290237d78369",
+    "462bca75d9fefa1d7c766a0a5aa0272ad3dda12b70a82f50054c4d809e828357": "0bc722b4a6dc400ac500891f42ca42c211c06f032e6c1506c84558bd06e02d00",
+    "46618ba67667c0cec775a2ba7842dcef33428d1bedc92936e819f551ed8a654b": "fc91d743ba04fd0551316af89d558723c15136ccfb14bdd3c65e1c3003dc2925",
+    "4a6bf1f562e48c1a05f91b294f300ceaa3c15e12a499cbf83f7bea78db48a6b8": "dd7a4e5868504ef97242314daead1c97b4549e5ae5985820e5097724b3ee95cc",
+    "52ec67b8627b9607ff80339c79760518469c68e8308c5b32c1968a62d3098a4a": "672bfe86b3c3ad436c85069ed1413dfcd42820882474a6c6ea41a04d1b647ebf",
+    "5320b04be4b0fd39dfb698684dd4282c24362c682864c188f4e60dd90c92d64f": "bc2a7f9a4ee86e4e49cdda4aecb8c7ba2d8d0f64c94b6d47f00873ae46f03739",
+    "537e7fa140c8801618ff0b280c11f9a1487bd61aa1c226d336eb27c88383f452": "81b1c931af32f406b285211ff189b6f0aa81d032e1297b7a1543acddb7ae4fd9",
+    "55adf2c5da47b6e820c7447c466aea7aca5a6f39bcf079aebb1940b639738d46": "b849f8f6a8c818865fb4c3307c6f84c438300c0bc2c781d03d861b151d8b1ee2",
+    "581996ed51c00488872c674359f80fe93f0ab59c20a22cbf8f09444774ae69cb": "2e2e189057ca1213e7250c91b37cae0f6f55085b49d6bbf7c88a2fc7f3ae0ce1",
+    "59eaa08f0b275bf207add1a152c6030a6c173bcd83b2679666ea2d845ffb3dfc": "ddcefb67a83524fef89a0c17bca006c6614f366e0ecadd5a0b83295a64703534",
+    "5ea0b28060d993ffffbde7693eae74d362c2fd8f8458af36d4b90b90d6979db9": "98b42fcc3cdbe05e718be4d1050580e02da35133a23e54b62d65a55cfe7c0cc6",
+    "6481709b6001a0782658023aa5081a672f90b0b306493b0560f73a9ebb5fb614": "8423c432094b40dc12c8b5fc0b6d61ce1b3363288d9da0b89f13a641625ed1a5",
+    "6a9564efd94fb48ebbe45ac25b18159775bd77eaa68fdf23f90d0a9deba5815b": "de5c5eef7760a7eeff45f9f965c536a8bd37522756f7cd14f7314c1d70616401",
+    "6da87071bf735181f4d107f826b74e912a4d0416fe00332bd9765ca978e7b869": "3c28ee19c94c84c56717326c685241087d2c5b22d10737854b0e44546fac7f27",
+    "72f8d79a500ad0ff41ee48505be333b1b4213d843ce8c5cd3c3ab13410aaac3d": "7834b556337e157cba680b0676671d35f348f729fe25a3f050cd00621ae6dfdc",
+    "760eafd8fac157615f5f6e6c04b3a39a3c126b174c89a50831eca40f0d6767b9": "01a600001f774b274020b678123816d7bf42e6f94fef49e561079f5f151bd4f9",
+    "77b9174d847427d91141498063d64b8ad7b81e48075702527d2aefb4a69247ba": "c9216511c47251f972734041a3f72232ca8a6507c792e67cdfee982b2afeae8b",
+    "780621b0e5dce8fb2426f19d795be4f3c91e960cf2012736b8ccf9a227777357": "e5176fbbf4a664adc9b30685f081dd492464a10527e316feba6c7a06a2878880",
+    "7850b842f2d0f41e3c978350147adf7cac27cb2500f5aa5de23f8ced3875437c": "d52b7988b03b327ce1d3d90f380bcd9d5ca6770078d953fc512a3e9c2c1e8e0e",
+    "797faffa845d040ec2570d4d37b5fdbf5324118ae6c2aee0ca6b609e071d9150": "0edd09e5c95f44cd7cb2c2c38521c0a6bd23451b36e204700f1f1cbff92375df",
+    "79ed013dfe320902fbf889a866515fd063e05d4e352aa30b31f840fb7f55b108": "ca0bb874a752239fb4cb3abd9512c547723fc566567eff740d21089cdaa80f8a",
+    "7c97a3ddada778e67838926427b29dfa04e5737904ada50134635f7d5c455a3f": "0b520e24b0fed67ddaee294c8485ff6dd6fc287334529832159e7234b0bcdde1",
+    "7fb0a2d051260e8b8933c263d7d0246b83130d2a31ea8d76b32c9b28ce681c24": "df9bf152fc4675241a12078a4d8a0960339c5577b5360a51cd78329398257380",
+    "80438bd2e0b7dcb44a125874b584113b226f00388efe13c1f1767bce63c38e5e": "f04976fbd87a5f62ee9b8d7afb2e9434456d43e4a7298834dd5f1bd8bae92efb",
+    "86120d9ab63310c59cc7a26133269d7870875195440fedfe2939d7074199f17f": "af52dc8d8a79ffdd3aed529d12bdba85048bb2942ce8ac20201d91a5e0222d27",
+    "86225047405688152fbb72012615e38037d90ba1f3b32cde89ef87b9c9df9cb2": "e66f5d60ebb738f6cbbbfdb1df7a3caf2ac0c6c9a6ea633def465ea2d1b40601",
+    "8a268584ebe4abf87eabe0a5e8465cea947286d760e9d533f9cee7b901f10779": "f2cc37083ab56d7c9caffa3844bfa54e2ded766d5173f5dde0edd9f183d17e31",
+    "8a38f3d33b8ef08d93594720a2c8d70aaef51204662e03ecbc6326def59029d3": "0bdd913f8feb810e8fac45a01656716622db4e838462367f42b162fb93bee509",
+    "9a91caa470f76e5f77afbd64f3ceb0b397d6ff89e42c649ac786652e77933eb0": "e62dc30857d14cf4aa30744c4b60810c26b61d1a32295164130c660b098662c5",
+    "9e4ebceab0cc00b435f0e7c1a581b383f523facb01623930f4901e470035fba9": "ca61474a480c6260e4f6b2bbc784609fb83193d0cae1590a35a32deac91e4634",
+    "a051cf5a5b204991aae2c520c1f35be43f9ccd97a8eb6ffba395abfadc4fbbb4": "e8140c16dc1c5ac201b2c5f3f0b49d1024fd9e9221922dc27b413360cede5ebd",
+    "aeff62b1c74585fd0713a36e4063b16bf2c1b8230fd8aafcdb5f92e06086f9a9": "a4bb882adbada2489d0cb6448206b9325635604106bd145d085eb8d87eee72dd",
+    "b373e42f641017a087d0b61639c906849237fbf158e2310ad80c0b14c387ccbb": "ddb42af4aa35850acebf7d3b3bab4b5af4039b8d57a8919516b7793f5e24e4e6",
+    "c21e457982672ace476e398c54fc8d41da9c447f3cad532d7ba3a5c1be94eeaf": "0cb8e72bc36bb4979471e9a153927d460574c3a9c90fe0e9bf7fcc995f07dee3",
+    "c28fab68bf33967679b2b58d117afdf1129d11dfecc927633a51a30ae56fac52": "7bb631c76043a3766782ee029d7d0f7e2dad0563618a3cf7b5736ad64bb9eced",
+    "c83d9946ecd2a5dd13ca052103a4d0a5b198ed7129e33d0beea23efffb21b2f5": "3dca939fb040d3c89e405013a0e893fecf211139976a4794524e7e6e6001d4d5",
+    "cff0ed53d630fba8c0eb02425fd5ec197525dffb33c045876501fca405527c57": "ca86587380667fee9a7ee0e1afc3cbc7adfcb37312bc04ec2e3a91f651ff0269",
+    "da23c490c39174dffeb6f14f573732af8bf57dc5496be2250d000a493dbb2b6d": "5a49098bf9562240eb6a71017d60d2991a7be676ef6cc4290b467933b815ce7e",
+    "e1a66fd35fd4276f6bc626efde4d52e38a771d3d7416817405b241fd8c616591": "5dfb734b021d24cd98e7f12ec37de0f23fdb80121cb3a3c15abcbbb9bde87d93",
+    "e35f0d73a6a60929a03a102d996a4a57f72c1625371eb69caca9253b83e936e4": "6cc8d075dc10b6fd41f444278a682489574423a94b9b08c9cbb9ff639b47c279",
+    "ea12ae80167d19370b6a7c3b6b353abc83487b3edd566f90a0ec07862ae32f66": "0fe7548e6bbeda866d77a1dce6aa8ff0474f0b1b40342a2b5df84021aebfc87e",
+    "ead57682e73c81ff3ba7b1184bf06cf04924a754bdbb99fe3ffc01df894276c0": "167d68577b7ad2efbff85ed6cb3dd08cd0bae02263a7e485537f7d9e058aa731",
+    "ee45aab954bb1dc9e726fdbfd6358d4776b186e62bc1e3747a6723ba88fe04c1": "11610cd895feee4c1fd9b2baeda86f6aca64e35871f23a77c7b75d8297b446c0",
+    "effc6aaec4046da19f977c818de7e96132d403c0d878f5ab19ef671aa3dc33e3": "53c31e297728a806c23a844a0a9b9804b0efb28c3e934f4ab4815e1f51ae29f1"
+  },
+  "source_edition": "67d4a8a607bbbe75236be997224a55e0d63a6c2a1fbc9a9f52e92a67c26f9e80",
+  "source_ledger": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "verified_positive_proofs": {
+    "optical_currency_and_cells": 100,
+    "optical_quarter_columns": 69
+  }
+}

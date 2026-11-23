@@ -1,0 +1,20 @@
+{
+  "previous_evidence": "evidence-followup.json",
+  "previous_sha256": "feaf7e86d3ef3c2eab35cdcad2c59d9dea230c2c1b820edb9fa172f54bb723db",
+  "cases": [
+    {
+      "isin": "INE726G01019",
+      "symbol": "ICICIPRULI",
+      "day": "2020-03-25",
+      "prior_day": "2020-03-24",
+      "prior_close": 254.45,
+      "close": 320.45,
+      "journal": "stage3/close-verification/runs/dcbf038283a46e7c3052/84e8db3dff215a6d895a/journal.sqlite",
+      "run": "A252-walk-4",
+      "last_account_state_json": "{\"cash\": 290667.74282500014, \"positions\": {\"INE127D01025\": {\"qty\": 20, \"mark\": 2026.15, \"symbol\": \"HDFCAMC\", \"basis\": 64045.97854761906, \"scheme\": {}}, \"INE298J01013\": {\"qty\": 159, \"mark\": 214.9, \"symbol\": \"NAM-INDIA\", \"basis\": 56677.48176718749, \"scheme\": {}}, \"INE123W01016\": {\"qty\": 69, \"mark\": 546.25, \"symbol\": \"SBILIFE\", \"basis\": 66697.3925, \"scheme\": {}}, \"INE603J01030\": {\"qty\": 42, \"mark\": 1010.05, \"symbol\": \"PIIND\", \"basis\": 61040.66756666667, \"scheme\": {}}, \"INE296A01024\": {\"qty\": 14, \"mark\": 2474.2, \"symbol\": \"BAJFINANCE\", \"basis\": 59527.692437499994, \"scheme\": {}}, \"INE726G01019\": {\"qty\": 136, \"mark\": 254.45, \"symbol\": \"ICICIPRULI\", \"basis\": 65730.76362318841, \"scheme\": {}}, \"INE192A01025\": {\"qty\": 182, \"mark\": 249.05, \"symbol\": \"TATACONSUM\", \"basis\": 58584.42816400965, \"scheme\": {}}, \"INE522D01027\": {\"qty\": 375, \"mark\": 84.3, \"symbol\": \"MANAPPURAM\", \"basis\": 66870.68899999998, \"scheme\": {}}, \"INE663F01024\": {\"qty\": 24, \"mark\": 1772.85, \"symbol\": \"NAUKRI\", \"basis\": 60901.830369230775, \"scheme\": {}}, \"INE463A01038\": {\"qty\": 113, \"mark\": 424.9, \"symbol\": \"BERGEPAINT\", \"basis\": 58355.488885077495, \"scheme\": {}}, \"INE716A01013\": {\"qty\": 28, \"mark\": 1666.9, \"symbol\": \"WHIRLPOOL\", \"basis\": 67022.94499999999, \"scheme\": {}}}, \"orders\": {}, \"receivables\": [], \"prior_gate\": false, \"bonuses\": []}",
+      "account_state_sha256": "d426f74265dd4a417878d7786752c46b78611ee3dc42ab92cbcb271587c05f3b",
+      "witness_method": "Replayed March 23 and 24 in a read-only source journal copy with the independently verified March 23 close. No ranking or opening orders in either session.",
+      "witness_original_day": "2020-03-20"
+    }
+  ]
+}

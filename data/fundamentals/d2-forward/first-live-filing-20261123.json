@@ -1,0 +1,22 @@
+{
+  "accession": "216205",
+  "announced_at": "2026-11-23T20:03:13+05:30",
+  "basis": "standalone",
+  "bytes": 133711,
+  "catalogues": [
+    {
+      "sha256": "295cf9e0f5c6ec9d0be51d1e80885027fd9ab5bbe195933b0b7d0e18dcc8d772",
+      "url": "https://www.nseindia.in/api/integrated-filing-results?from_date=23-11-2026&to_date=23-11-2026&page=1&size=100"
+    }
+  ],
+  "contexts": 86,
+  "feed": "integrated",
+  "first_seen": "2026-11-23T20:06:49.087160+05:30",
+  "id": "141ecb7ec3ef12dca91db487b13d735fc973ec2b9306d4dc5b3ce6e5013ce4fa",
+  "period_end": "2026-09-30",
+  "retrieved_url": "https://archives.nseindia.com/corporate/xbrl/INTEGRATED_FILING_INDAS_1760930_23112026080312_WEB.xml",
+  "sha256": "74ee42c3278fc8487963bfebc2d881312b7819b35c5f1590f0698f3c7ce2b3dd",
+  "symbol": "BCSSL",
+  "tagged_facts": 525,
+  "timestamp_source": "creation_Date"
+}

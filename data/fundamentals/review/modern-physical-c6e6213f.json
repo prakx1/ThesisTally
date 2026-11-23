@@ -1,0 +1,98 @@
+{
+  "census": {
+    "accessions_with_verified_values": 213,
+    "checked_accessions": 3711,
+    "checked_packages": 2261,
+    "packages_without_selected_pages": 271,
+    "page_accession_reads": 29105,
+    "pending_packages": 3576,
+    "unreadable_page_accession_reads": 0,
+    "verified_eps": 52,
+    "verified_net_profit": 89,
+    "verified_operating_profit": 92,
+    "verified_revenue": 168
+  },
+  "cohort": "modern-statement-pages",
+  "edition": null,
+  "evaluator": "489904c9e32cdea765c68d98637661b44096577c6c0a6586d9996923b183eb51",
+  "fieldless_page_raw_pdf_pixel_checks": [
+    {
+      "page": 17,
+      "pdf_sha256": "8b6dab96779b3f3911ce103c49d2316d3a303573782b0a2f354632fa164c2aab",
+      "rgb_sha256": "67933672ee0a9e3c3168d7f67301541d733dea6e61c8595d821e00c1b22f0705",
+      "source_sha256": "8b6dab96779b3f3911ce103c49d2316d3a303573782b0a2f354632fa164c2aab"
+    },
+    {
+      "page": 26,
+      "pdf_sha256": "d87697e33d937da3f163bbfb6f45457162f0a218e4947087ecb70daf5823adff",
+      "rgb_sha256": "eca04d82f74cf0b8a1614a996ef0d5cda3cc414f52d5eb98a4f7ac7f40d762d4",
+      "source_sha256": "d87697e33d937da3f163bbfb6f45457162f0a218e4947087ecb70daf5823adff"
+    },
+    {
+      "page": 51,
+      "pdf_sha256": "44029605c32c3377ecde79f130f7f34f70cbe56b91700e3bb63909e2d208c794",
+      "rgb_sha256": "1a68bd8abea9062025befbb79e2e669531334984c37800da0cd12c8733b1ff3d",
+      "source_sha256": "44029605c32c3377ecde79f130f7f34f70cbe56b91700e3bb63909e2d208c794"
+    },
+    {
+      "page": 30,
+      "pdf_sha256": "a606b632f7537ff0bafdc369f38f9913d7a9a452349167b392c2fd741d776b7f",
+      "rgb_sha256": "4cb534663dde077d110cba86eb554ae8221007c959a5aa63cea691403a1b0406",
+      "source_sha256": "5e1f0b5084b6e22584f3339c536ade2edae9ed6293c1afe437fa1abd33cc5c91"
+    },
+    {
+      "page": 8,
+      "pdf_sha256": "111b3deecf3dcb83847bff6101e361b2199c5eb0413ecaabd9c1dd1473410263",
+      "rgb_sha256": "797507a05fa0553400399cf57130f9dac29f86f59b3bf7ad5bd7f8948149dd2b",
+      "source_sha256": "111b3deecf3dcb83847bff6101e361b2199c5eb0413ecaabd9c1dd1473410263"
+    },
+    {
+      "page": 12,
+      "pdf_sha256": "7bc0c49269ab451818ff20e1dcf53d98b33b390915d057f92a3a4876f2466e79",
+      "rgb_sha256": "b750eddfd677199c7ce8adc7be47fff0b11888f325b66655bb252a7a228402be",
+      "source_sha256": "7bc0c49269ab451818ff20e1dcf53d98b33b390915d057f92a3a4876f2466e79"
+    },
+    {
+      "page": 3,
+      "pdf_sha256": "933763ac1de4c0dffb3edcb8a9554ea61c5bdeb7a29fa725ed298f3f4369cda1",
+      "rgb_sha256": "276f734973abe436dbca295ccefbb66063b983e512b8a63f9e02f3f680571a52",
+      "source_sha256": "933763ac1de4c0dffb3edcb8a9554ea61c5bdeb7a29fa725ed298f3f4369cda1"
+    },
+    {
+      "page": 11,
+      "pdf_sha256": "887d65ec35e38f0e3323f5436b62e7f54e930f53d02c593774fedd069af0c262",
+      "rgb_sha256": "a9d823dcc7cc2acd82774fd4994fc909d50e125b10df79bfb8ad8b93758cc85f",
+      "source_sha256": "887d65ec35e38f0e3323f5436b62e7f54e930f53d02c593774fedd069af0c262"
+    },
+    {
+      "page": 33,
+      "pdf_sha256": "e49131bde25d8d21fe9250ada72b1a6df6b50e2b9a6429edbeb1c4411cad7110",
+      "rgb_sha256": "2f753c839e9e9dd6c7c507e170bdf2042f76cbe145ed78ea44a5f23d4426618d",
+      "source_sha256": "e49131bde25d8d21fe9250ada72b1a6df6b50e2b9a6429edbeb1c4411cad7110"
+    },
+    {
+      "page": 6,
+      "pdf_sha256": "634d4a7658e3d3385ae47433b03e5b71ca93ca1bee7b2b5317847876dd844970",
+      "rgb_sha256": "6d77c55fd359347e49b34df350d77f773d49e2cd5765fc80e0e7426b029fa9f1",
+      "source_sha256": "634d4a7658e3d3385ae47433b03e5b71ca93ca1bee7b2b5317847876dd844970"
+    },
+    {
+      "page": 2,
+      "pdf_sha256": "f69b033a4b78ea205348495deb2169240c95246db577615d0583e96d97791cde",
+      "rgb_sha256": "bbe775c8caeeee522b0f1eede257c6b4609a2a4d0f20dcfc5f1aa56f4978af95",
+      "source_sha256": "f69b033a4b78ea205348495deb2169240c95246db577615d0583e96d97791cde"
+    },
+    {
+      "page": 72,
+      "pdf_sha256": "40d9339434bc3a58f54ddd29bcf26f589133fb6df0e13fe08b742453f30016e1",
+      "rgb_sha256": "4c15a75bf96b408de7b25c1b9cb742a685949d84211836399a0321fb9c47faa8",
+      "source_sha256": "40d9339434bc3a58f54ddd29bcf26f589133fb6df0e13fe08b742453f30016e1"
+    }
+  ],
+  "live_marker_snapshot": "c6e6213f1e09500699578a9a8c3dffab83220a42336dad4b5d87ebb92491bb06",
+  "plan": "9062be34a9411ff83cd431d5fb58dc2e8471b72b07cc11a97fe64d9ea07ba78d",
+  "receipt_set_sha256": "245e2c1539874cd7afa816305eb296f4643c5f4aa0d13ed65268ee04a86849d7",
+  "sampling_candidates_with_no_financial_cell_observation_at_that_accession": 14676,
+  "source_edition": "020cf89029e5df337d4de372bf949a00a010368e6abae6a8cbc338bed279fad8",
+  "unique_word_box_objects_rehashed": 14795
+}

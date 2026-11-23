@@ -1,0 +1,883 @@
+{
+  "label": "not for decisions",
+  "run": "pilot-7c67139d16a8cd5283d1",
+  "provenance": {
+    "identity": "7c67139d16a8cd5283d1f4218de48fd767a9d88aa9809ad5bf937382efab56d5",
+    "preflight_sha256": "c483cfa302f5fbceb0828017d57c937b315dcdbefb47b3c7af9c3a98162d7646",
+    "snapshot_sha256": "462665a5388bd9938f6bd9fa9b557e9943953f5e9ccba01164d6ce0fdcaf31a9",
+    "supplementary_inputs_sha256": "3ef81bd05d7bba00fbea4c7d90e7dab380862f54a7e64168f298b97bd3687657",
+    "code_hash": "e683c9026250d18534200ce1e72b8287e820587f9ded7f3aeebb23f1a747fb21",
+    "code_commit": "024ee15f05734efd536372f675cf29d989abcb4e",
+    "checkout_commit": "3ca083baca57607ca2b2a8fbe3b9ec8650179d46",
+    "revision": "research-4-c8007c0a59b4",
+    "config_hash": "c8007c0a59b474484aed340d02ed8cf4029bca54b1d4406b88b61da39585be28"
+  },
+  "complete": true,
+  "scanned": 718,
+  "expected": 718,
+  "start": "2024-01-01",
+  "end": "2026-11-20",
+  "through": "2026-11-20",
+  "valuation_gaps": {},
+  "books": {
+    "portfolio": {
+      "all": {
+        "calls": 545,
+        "closed": 116,
+        "expectancy_r": -0.15829881334890644,
+        "profit_factor": 0.7676884568327886,
+        "net_inr": -53590.28493499886,
+        "active": 0,
+        "win_rate": 0.35344827586206895,
+        "average_days": 12.413793103448276,
+        "mean_mae_r": -1.090428268976972,
+        "mean_mfe_r": 1.4333643968410554,
+        "mean_r_ci": [
+          -0.3843835859441689,
+          0.07683033113023942
+        ],
+        "statuses": {
+          "closed": 116,
+          "invalidated": 1,
+          "missed": 428
+        },
+        "entered": 116
+      },
+      "trend_pullback": {
+        "calls": 495,
+        "closed": 108,
+        "expectancy_r": -0.16232111613512518,
+        "profit_factor": 0.8049821503459026,
+        "net_inr": -42068.154059998946,
+        "active": 0,
+        "win_rate": 0.35185185185185186,
+        "average_days": 12.36111111111111,
+        "mean_mae_r": -1.098547438275868,
+        "mean_mfe_r": 1.4492635674026166,
+        "mean_r_ci": [
+          -0.3869489816326067,
+          0.08113835799833548
+        ],
+        "statuses": {
+          "closed": 108,
+          "invalidated": 1,
+          "missed": 386
+        },
+        "entered": 108
+      },
+      "high_momentum": {
+        "calls": 0,
+        "closed": 0,
+        "expectancy_r": null,
+        "profit_factor": null,
+        "net_inr": 0,
+        "active": 0,
+        "win_rate": null,
+        "average_days": null,
+        "mean_mae_r": null,
+        "mean_mfe_r": null,
+        "mean_r_ci": [
+          null,
+          null
+        ],
+        "statuses": {},
+        "entered": 0
+      },
+      "vcp_breakout": {
+        "calls": 50,
+        "closed": 8,
+        "expectancy_r": -0.10399772573495357,
+        "profit_factor": 0.23023915899379338,
+        "net_inr": -11522.130874999915,
+        "active": 0,
+        "win_rate": 0.375,
+        "average_days": 13.125,
+        "mean_mae_r": -0.9808194834418789,
+        "mean_mfe_r": 1.2187255942599802,
+        "mean_r_ci": [
+          -0.8531555510445857,
+          0.8843227228878908
+        ],
+        "statuses": {
+          "closed": 8,
+          "missed": 42
+        },
+        "entered": 8
+      }
+    },
+    "shadow": {
+      "all": {
+        "calls": 11598,
+        "closed": 1910,
+        "expectancy_r": -0.2910920878940577,
+        "profit_factor": 0.6501771912958357,
+        "net_inr": -1480772.8277499778,
+        "active": 113,
+        "win_rate": 0.34345549738219894,
+        "average_days": 10.40523560209424,
+        "mean_mae_r": -1.3705706825335782,
+        "mean_mfe_r": 1.7460779607036574,
+        "mean_r_ci": [
+          -0.41048120725305715,
+          -0.17621688398123597
+        ],
+        "statuses": {
+          "active": 89,
+          "closed": 1910,
+          "confirmed": 24,
+          "invalidated": 80,
+          "missed": 9492,
+          "unmeasurable": 3
+        },
+        "entered": 2002
+      },
+      "trend_pullback": {
+        "calls": 10138,
+        "closed": 1669,
+        "expectancy_r": -0.3096585700523772,
+        "profit_factor": 0.6461885282783169,
+        "net_inr": -1387767.816794979,
+        "active": 80,
+        "win_rate": 0.3331336129418814,
+        "average_days": 10.219892150988615,
+        "mean_mae_r": -1.453228664586332,
+        "mean_mfe_r": 1.8902206023045984,
+        "mean_r_ci": [
+          -0.4491208415145395,
+          -0.18122209380636906
+        ],
+        "statuses": {
+          "active": 63,
+          "closed": 1669,
+          "confirmed": 17,
+          "invalidated": 72,
+          "missed": 8314,
+          "unmeasurable": 3
+        },
+        "entered": 1735
+      },
+      "high_momentum": {
+        "calls": 12,
+        "closed": 4,
+        "expectancy_r": -0.23015553031768451,
+        "profit_factor": 0.5199981707111206,
+        "net_inr": -1352.2420950000014,
+        "active": 0,
+        "win_rate": 0.25,
+        "average_days": 10.75,
+        "mean_mae_r": -0.6587381715767859,
+        "mean_mfe_r": 0.2940477614398255,
+        "mean_r_ci": [
+          -0.8493502570288433,
+          0.38903919639347423
+        ],
+        "statuses": {
+          "closed": 4,
+          "missed": 8
+        },
+        "entered": 4
+      },
+      "vcp_breakout": {
+        "calls": 1448,
+        "closed": 237,
+        "expectancy_r": -0.16137178202093685,
+        "profit_factor": 0.7022020866855964,
+        "net_inr": -91652.76885999876,
+        "active": 33,
+        "win_rate": 0.4177215189873418,
+        "average_days": 11.70464135021097,
+        "mean_mae_r": -0.8004911804145112,
+        "mean_mfe_r": 0.7555043403031724,
+        "mean_r_ci": [
+          -0.28312601105029855,
+          -0.04425245047548376
+        ],
+        "statuses": {
+          "active": 26,
+          "closed": 237,
+          "confirmed": 7,
+          "invalidated": 8,
+          "missed": 1170
+        },
+        "entered": 263
+      }
+    }
+  },
+  "allocations": {
+    "regime": 1982,
+    "stop_out_of_bounds": 5391,
+    "upcoming_results": 396,
+    "drawdown": 190,
+    "portfolio": 545,
+    "position_limit": 1446,
+    "surveillance": 64,
+    "surveillance_unknown": 2126,
+    "capital_or_risk": 3
+  },
+  "equity": {
+    "max_drawdown": 0.10196841086046293,
+    "exposure_pct": 13.405534362281752,
+    "cagr": -0.018906148207832763,
+    "nifty_200_cagr": 0.07571001050671455,
+    "ending_equity": 946409.7150650012,
+    "start_capital": 1000000,
+    "ending_invested": 0.0
+  },
+  "audit": {
+    "orders_on_close_quarantine": [
+      {
+        "id": 2688,
+        "symbol": "ADANIPORTS",
+        "isin": "INE742F01042",
+        "day": "2024-06-04",
+        "book": "shadow",
+        "side": "buy",
+        "quarantine_reason": "unexplained_move_over_20pct",
+        "events": [
+          {
+            "day": "2024-06-04",
+            "kind": "missed",
+            "detail": "Opening liquidity or upper price band"
+          }
+        ]
+      },
+      {
+        "id": 2689,
+        "symbol": "ADANIPORTS",
+        "isin": "INE742F01042",
+        "day": "2024-06-04",
+        "book": "shadow",
+        "side": "buy",
+        "quarantine_reason": "unexplained_move_over_20pct",
+        "events": [
+          {
+            "day": "2024-06-04",
+            "kind": "missed",
+            "detail": "Opening liquidity or upper price band"
+          }
+        ]
+      },
+      {
+        "id": 2690,
+        "symbol": "BHEL",
+        "isin": "INE257A01026",
+        "day": "2024-06-04",
+        "book": "shadow",
+        "side": "buy",
+        "quarantine_reason": "unexplained_move_over_20pct",
+        "events": [
+          {
+            "day": "2024-06-04",
+            "kind": "missed",
+            "detail": "Opening liquidity or upper price band"
+          }
+        ]
+      },
+      {
+        "id": 2699,
+        "symbol": "PFC",
+        "isin": "INE134E01011",
+        "day": "2024-06-04",
+        "book": "shadow",
+        "side": "buy",
+        "quarantine_reason": "unexplained_move_over_20pct",
+        "events": [
+          {
+            "day": "2024-06-04",
+            "kind": "missed",
+            "detail": "Opening liquidity or upper price band"
+          }
+        ]
+      },
+      {
+        "id": 2695,
+        "symbol": "RECLTD",
+        "isin": "INE020B01018",
+        "day": "2024-06-04",
+        "book": "shadow",
+        "side": "buy",
+        "quarantine_reason": "unexplained_move_over_20pct",
+        "events": [
+          {
+            "day": "2024-06-04",
+            "kind": "missed",
+            "detail": "Opening liquidity or upper price band"
+          }
+        ]
+      },
+      {
+        "id": 2693,
+        "symbol": "SAIL",
+        "isin": "INE114A01011",
+        "day": "2024-06-04",
+        "book": "shadow",
+        "side": "buy",
+        "quarantine_reason": "unexplained_move_over_20pct",
+        "events": [
+          {
+            "day": "2024-06-04",
+            "kind": "missed",
+            "detail": "Opening liquidity or upper price band"
+          }
+        ]
+      },
+      {
+        "id": 11727,
+        "symbol": "POLICYBZR",
+        "isin": "INE417T01026",
+        "day": "2026-09-24",
+        "book": "shadow",
+        "side": "buy",
+        "quarantine_reason": "unexplained_move_over_20pct",
+        "events": [
+          {
+            "day": "2026-09-24",
+            "kind": "invalidated",
+            "detail": "Opening fill crossed the planned stop"
+          }
+        ]
+      }
+    ],
+    "minimum_opening_cash_inr": 82902.84092500026,
+    "minimum_closing_cash_inr": 82902.84092500026,
+    "stop_first_collisions": [
+      {
+        "id": 5268,
+        "book": "shadow",
+        "symbol": "JSWSTEEL",
+        "strategy": "trend_pullback",
+        "collision": "2024-11-05",
+        "exit_day": "2024-11-06",
+        "deferred_days": [],
+        "exit_fill": 999.5,
+        "net_r": 2.8601260545611833
+      },
+      {
+        "id": 5868,
+        "book": "shadow",
+        "symbol": "MARICO",
+        "strategy": "trend_pullback",
+        "collision": "2025-01-06",
+        "exit_day": "2025-01-07",
+        "deferred_days": [],
+        "exit_fill": 644.97735,
+        "net_r": 5.042618853560082
+      }
+    ],
+    "corporate_sources": [
+      {
+        "isin": "IN9155A01020",
+        "source_documents": {
+          "source_url.pdf": {
+            "url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+            "sha256": "6ec1b01b1265e878e776129c9a27f2feeaed8501594abb23078b382de30cf19c"
+          },
+          "suspension_source.pdf": {
+            "url": "https://nsearchives.nseindia.com/content/circulars/CML63585.pdf",
+            "sha256": "4d7ae41d4fd40dc386bb029c243ea7f63487071297959ab11c40f7ef7b4b19d5"
+          },
+          "credit_source.pdf": {
+            "url": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf",
+            "sha256": "229fcff83c993475bb0cbb22a5211ede3d90c8955dde8c36d9f89ac483b68e89"
+          },
+          "scheme_faq.pdf": {
+            "url": "https://www.tatamotors.com/wp-content/uploads/2024/09/FAQs-Cancellation-of-A-Ordinary-Shares.pdf",
+            "sha256": "c453b979278bfbc6bbf1143da49af63ea0b031c0ab0b42b1fa19a2fab97d97c5"
+          },
+          "trustee_sale.pdf": {
+            "url": "https://cv.tatamotors.com/assets/cv/files/investors/2024/09/NSEBSELETTER-170924.pdf",
+            "sha256": "57a90fa8dad5a3a705ed95257512e782717f4701a6e55ce04b427428d24bf73f"
+          }
+        }
+      },
+      {
+        "isin": "INE591G01017",
+        "source_documents": {
+          "source_url.pdf": {
+            "url": "https://nsearchives.nseindia.com/content/circulars/CML68318.pdf",
+            "sha256": "20b4368a09f6214c1044aa0a77580ce1413cbdfd78d0b58219cc214d6967c180"
+          },
+          "credit_source.pdf": {
+            "url": "https://www.coforge.com/hubfs/Annual-Report-2025.pdf",
+            "sha256": "c56b2748e7701f3acff3be6990501b96fb528f69f6e35a4cd1b43a2e6701a3a0"
+          },
+          "ex_date_source.pdf": {
+            "url": "https://nsearchives.nseindia.com/content/circulars/CML68170.pdf",
+            "sha256": "cb2fcd84f036798f57d237729486a3e2eb6796da9adc9bf7dc6301102cbe067d"
+          },
+          "clearing_source.pdf": {
+            "url": "https://nsearchives.nseindia.com/content/circulars/CMPT68326.pdf",
+            "sha256": "f3a14870bd3255e4a8c692ab433cafb1a8b24c65ec2ee47b90f5871c88af3f07"
+          }
+        }
+      },
+      {
+        "isin": "INE814H01011",
+        "source_documents": {
+          "source_url.pdf": {
+            "url": "https://nsearchives.nseindia.com/content/circulars/CML70203.pdf",
+            "sha256": "764b45776ce66e6fcb6f6ccf4616a1a2dd5691a617fe9b7d22f2c63a4dbabbad"
+          },
+          "credit_source.pdf": {
+            "url": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_24092025175759_APLcreditofshares24092025.pdf",
+            "sha256": "0369ce8d1489d0b44b65858a38277f2543d03e5b60c43d81eef51eceb295338e"
+          }
+        }
+      }
+    ],
+    "checks": {
+      "fee_schedule_and_DP": 4571,
+      "unique_exchange_ISIN": 4571,
+      "buy_next_session": 2118,
+      "buy_at_open": 2118,
+      "funded_buy_within_planned_risk": 116,
+      "sell_within_observed_range": 2453,
+      "sell_price_and_slippage": 2453,
+      "lifecycle_journal": 12143,
+      "fill_event_pair": 12143,
+      "position_quantity": 2115,
+      "closed_net_cash": 2026,
+      "closed_net_risk": 2026,
+      "collision_no_same_day_sale": 2,
+      "collision_next_open": 2,
+      "collision_full_exit": 2,
+      "corporate_terms": 12,
+      "conversion_quantity": 3,
+      "converted_levels": 3,
+      "freeze_has_no_fills": 3,
+      "fractional_cash": 1,
+      "fallback_close_and_flag": 1,
+      "frozen_time_exit_attempt": 3,
+      "nonnegative_opening_cash": 718,
+      "nonnegative_closing_cash": 718,
+      "funded_equity_and_cash": 718,
+      "scan_counts": 1,
+      "foreign_keys": 1,
+      "corporate_source_coverage": 3,
+      "corporate_source_checksum": 11
+    },
+    "discrepancies": 0,
+    "examples": [],
+    "costs_and_cash": {
+      "shadow": {
+        "modeled_slippage_inr": 187187.64705497894,
+        "buy_fills": 2002,
+        "fees_inr": 452191.6900000019,
+        "sell_fills": 2315,
+        "entitlements_inr": 48612.56
+      },
+      "portfolio": {
+        "modeled_slippage_inr": 8728.824934998904,
+        "buy_fills": 116,
+        "fees_inr": 21539.679999999997,
+        "sell_fills": 138,
+        "entitlements_inr": 3074.9,
+        "corporate_cash_inr": 218.53
+      }
+    },
+    "corporate_positions": [
+      {
+        "id": 4028,
+        "symbol": "TATAMTRDVR",
+        "allocation": "portfolio",
+        "status": "closed",
+        "events": [
+          {
+            "day": "2024-08-30",
+            "convention_version": "gross-entitlements-v1",
+            "effective_date": "2024-09-01",
+            "fractional_cash": null,
+            "last_traded_price": 768.65,
+            "predecessor_isin": "IN9155A01020",
+            "ratio": [
+              7,
+              10
+            ],
+            "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+            "stage": "suspended",
+            "successor_isin": "INE155A01022",
+            "suspension_date": "2024-08-30",
+            "suspension_source": "https://nsearchives.nseindia.com/content/circulars/CML63585.pdf",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded."
+          },
+          {
+            "day": "2024-09-02",
+            "convention_version": "gross-entitlements-v1",
+            "effective_date": "2024-09-01",
+            "fraction": 0.2,
+            "fractional_cash": null,
+            "original_qty": 216,
+            "predecessor_isin": "IN9155A01020",
+            "ratio": [
+              7,
+              10
+            ],
+            "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+            "stage": "converted",
+            "successor_isin": "INE155A01022",
+            "successor_qty": 151,
+            "suspension_date": "2024-08-30",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded.",
+            "translated_levels": {
+              "buy": 1040.52,
+              "entry": 1045.357142857143,
+              "stop": 1012.0714285714287,
+              "target": 1111.9285714285713
+            }
+          },
+          {
+            "day": "2024-09-25",
+            "cash_date": "2024-09-25",
+            "convention_version": "gross-entitlements-v1",
+            "credit_source": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf",
+            "credited_date": "2024-09-25",
+            "effective_date": "2024-09-01",
+            "fallback_date": "2024-09-02",
+            "flagged": true,
+            "fraction": 0.2,
+            "fractional_cash": 218.53,
+            "fractional_cash_source": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20240902_F_0000.csv.zip",
+            "outstanding_fractional_estimate": 0,
+            "predecessor_isin": "IN9155A01020",
+            "price_basis": "first_successor_close_fallback",
+            "price_per_share": 1092.65,
+            "ratio": [
+              7,
+              10
+            ],
+            "sensitivity_first_close_cash": 218.53,
+            "sensitivity_zero_fraction_cash_delta": -218.53,
+            "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+            "stage": "credited",
+            "successor_isin": "INE155A01022",
+            "suspension_date": "2024-08-30",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded.",
+            "tradable_date": "2024-09-26"
+          },
+          {
+            "day": "2024-09-26",
+            "convention_version": "gross-entitlements-v1",
+            "credit_source": "https://static-assets.tatamotors.com/Production/www-tatamotors-com-NEW/wp-content/uploads/2024/09/NSEBSELETTER-250924.pdf",
+            "effective_date": "2024-09-01",
+            "first_tradable_session": "2024-09-26",
+            "fractional_cash": null,
+            "predecessor_isin": "IN9155A01020",
+            "ratio": [
+              7,
+              10
+            ],
+            "source_url": "https://nsearchives.nseindia.com/corporate/TATAMTRDVR_19082024190721_LetterNSEBSErecorddatefinal.pdf",
+            "stage": "tradable",
+            "successor_isin": "INE155A01022",
+            "suspension_date": "2024-08-30",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded."
+          }
+        ],
+        "fills": [
+          {
+            "id": 239,
+            "call_id": 4028,
+            "day": "2024-08-12",
+            "side": "buy",
+            "qty": 216,
+            "price": 728.3639999999999,
+            "fees": 186.81,
+            "isin": "IN9155A01020"
+          },
+          {
+            "id": 581,
+            "call_id": 4028,
+            "day": "2024-09-26",
+            "side": "sell",
+            "qty": 151,
+            "price": 970.3146,
+            "fees": 167.34,
+            "isin": "INE155A01022"
+          }
+        ]
+      },
+      {
+        "id": 6560,
+        "symbol": "COFORGE",
+        "allocation": "portfolio",
+        "status": "closed",
+        "events": [
+          {
+            "day": "2025-06-04",
+            "convention_version": "gross-entitlements-v1",
+            "effective_date": "2025-06-04",
+            "fractional_cash": null,
+            "last_traded_price": 8499.0,
+            "predecessor_isin": "INE591G01017",
+            "ratio": [
+              5,
+              1
+            ],
+            "source_url": "https://nsearchives.nseindia.com/content/circulars/CML68318.pdf",
+            "stage": "suspended",
+            "successor_isin": "INE591G01025",
+            "suspension_date": "2025-06-04",
+            "suspension_source": "https://nsearchives.nseindia.com/content/circulars/CML68318.pdf",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded."
+          },
+          {
+            "day": "2025-06-04",
+            "convention_version": "gross-entitlements-v1",
+            "effective_date": "2025-06-04",
+            "fraction": 0.0,
+            "fractional_cash": null,
+            "original_qty": 3,
+            "predecessor_isin": "INE591G01017",
+            "ratio": [
+              5,
+              1
+            ],
+            "source_url": "https://nsearchives.nseindia.com/content/circulars/CML68318.pdf",
+            "stage": "converted",
+            "successor_isin": "INE591G01025",
+            "successor_qty": 15,
+            "suspension_date": "2025-06-04",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded.",
+            "translated_levels": {
+              "buy": 1511.7555,
+              "entry": 1550.9,
+              "stop": 1467.2,
+              "target": 1718.3000000000002
+            }
+          },
+          {
+            "day": "2025-06-05",
+            "cash_date": "2025-06-05",
+            "convention_version": "gross-entitlements-v1",
+            "credit_source": "https://www.coforge.com/hubfs/Annual-Report-2025.pdf",
+            "credited_date": "2025-06-05",
+            "effective_date": "2025-06-04",
+            "fallback_date": "2025-06-04",
+            "flagged": false,
+            "fraction": 0.0,
+            "fractional_cash": 0,
+            "fractional_cash_source": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250604_F_0000.csv.zip",
+            "outstanding_fractional_estimate": 0,
+            "predecessor_isin": "INE591G01017",
+            "price_basis": "whole_shares_only",
+            "price_per_share": 1724.5,
+            "ratio": [
+              5,
+              1
+            ],
+            "sensitivity_first_close_cash": 0.0,
+            "sensitivity_zero_fraction_cash_delta": 0,
+            "source_url": "https://nsearchives.nseindia.com/content/circulars/CML68318.pdf",
+            "stage": "credited",
+            "successor_isin": "INE591G01025",
+            "suspension_date": "2025-06-04",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded.",
+            "tradable_date": "2025-06-06"
+          },
+          {
+            "day": "2025-06-06",
+            "convention_version": "gross-entitlements-v1",
+            "credit_source": "https://www.coforge.com/hubfs/Annual-Report-2025.pdf",
+            "effective_date": "2025-06-04",
+            "first_tradable_session": "2025-06-06",
+            "fractional_cash": null,
+            "predecessor_isin": "INE591G01017",
+            "ratio": [
+              5,
+              1
+            ],
+            "source_url": "https://nsearchives.nseindia.com/content/circulars/CML68318.pdf",
+            "stage": "tradable",
+            "successor_isin": "INE591G01025",
+            "suspension_date": "2025-06-04",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded."
+          }
+        ],
+        "fills": [
+          {
+            "id": 1477,
+            "call_id": 6560,
+            "day": "2025-05-09",
+            "side": "buy",
+            "qty": 5,
+            "price": 7558.777499999999,
+            "fees": 44.88,
+            "isin": "INE591G01017"
+          },
+          {
+            "id": 1565,
+            "call_id": 6560,
+            "day": "2025-05-29",
+            "side": "sell",
+            "qty": 2,
+            "price": 8587.20425,
+            "fees": 33.16,
+            "isin": "INE591G01017"
+          },
+          {
+            "id": 1599,
+            "call_id": 6560,
+            "day": "2025-06-06",
+            "side": "sell",
+            "qty": 15,
+            "price": 1778.6102500000002,
+            "fees": 43.02,
+            "isin": "INE591G01025"
+          }
+        ]
+      },
+      {
+        "id": 7787,
+        "symbol": "ADANIPOWER",
+        "allocation": "stop_out_of_bounds",
+        "status": "closed",
+        "events": [
+          {
+            "day": "2025-09-22",
+            "convention_version": "gross-entitlements-v1",
+            "effective_date": "2025-09-22",
+            "fractional_cash": null,
+            "last_traded_price": 709.4,
+            "predecessor_isin": "INE814H01011",
+            "ratio": [
+              5,
+              1
+            ],
+            "source_url": "https://nsearchives.nseindia.com/content/circulars/CML70203.pdf",
+            "stage": "suspended",
+            "successor_isin": "INE814H01029",
+            "suspension_date": "2025-09-22",
+            "suspension_source": "https://nsearchives.nseindia.com/content/circulars/CML70203.pdf",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded."
+          },
+          {
+            "day": "2025-09-22",
+            "convention_version": "gross-entitlements-v1",
+            "effective_date": "2025-09-22",
+            "fraction": 0.0,
+            "fractional_cash": null,
+            "original_qty": 77,
+            "predecessor_isin": "INE814H01011",
+            "ratio": [
+              5,
+              1
+            ],
+            "source_url": "https://nsearchives.nseindia.com/content/circulars/CML70203.pdf",
+            "stage": "converted",
+            "successor_isin": "INE814H01029",
+            "successor_qty": 385,
+            "suspension_date": "2025-09-22",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded.",
+            "translated_levels": {
+              "buy": 121.04049,
+              "entry": 121.13,
+              "stop": 118.02000000000001,
+              "target": 127.34999999999998
+            }
+          },
+          {
+            "day": "2025-09-23",
+            "cash_date": "2025-09-23",
+            "convention_version": "gross-entitlements-v1",
+            "credit_source": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_24092025175759_APLcreditofshares24092025.pdf",
+            "credited_date": "2025-09-23",
+            "effective_date": "2025-09-22",
+            "fallback_date": "2025-09-22",
+            "flagged": false,
+            "fraction": 0.0,
+            "fractional_cash": 0,
+            "fractional_cash_source": "https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_20250922_F_0000.csv.zip",
+            "outstanding_fractional_estimate": 0,
+            "predecessor_isin": "INE814H01011",
+            "price_basis": "whole_shares_only",
+            "price_per_share": 170.25,
+            "ratio": [
+              5,
+              1
+            ],
+            "sensitivity_first_close_cash": 0.0,
+            "sensitivity_zero_fraction_cash_delta": 0,
+            "source_url": "https://nsearchives.nseindia.com/content/circulars/CML70203.pdf",
+            "stage": "credited",
+            "successor_isin": "INE814H01029",
+            "suspension_date": "2025-09-22",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded.",
+            "tradable_date": "2025-09-24"
+          },
+          {
+            "day": "2025-09-24",
+            "convention_version": "gross-entitlements-v1",
+            "credit_source": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_24092025175759_APLcreditofshares24092025.pdf",
+            "effective_date": "2025-09-22",
+            "first_tradable_session": "2025-09-24",
+            "fractional_cash": null,
+            "predecessor_isin": "INE814H01011",
+            "ratio": [
+              5,
+              1
+            ],
+            "source_url": "https://nsearchives.nseindia.com/content/circulars/CML70203.pdf",
+            "stage": "tradable",
+            "successor_isin": "INE814H01029",
+            "suspension_date": "2025-09-22",
+            "tax_note": "Pre-tax. Holder-specific TDS and other investor-specific taxes excluded."
+          }
+        ],
+        "fills": [
+          {
+            "id": 2067,
+            "call_id": 7787,
+            "day": "2025-08-26",
+            "side": "buy",
+            "qty": 154,
+            "price": 605.20245,
+            "fees": 110.67,
+            "isin": "INE814H01011"
+          },
+          {
+            "id": 2113,
+            "call_id": 7787,
+            "day": "2025-09-08",
+            "side": "sell",
+            "qty": 77,
+            "price": 636.4316249999999,
+            "fees": 66.18,
+            "isin": "INE814H01011"
+          },
+          {
+            "id": 2171,
+            "call_id": 7787,
+            "day": "2025-09-24",
+            "side": "sell",
+            "qty": 385,
+            "price": 163.168375,
+            "fees": 80.51,
+            "isin": "INE814H01029"
+          }
+        ]
+      }
+    ]
+  },
+  "timings": [
+    {
+      "year": 2024,
+      "sessions": 249,
+      "seconds": 23.511515958001837,
+      "journal_growth_bytes": 6660096
+    },
+    {
+      "year": 2025,
+      "sessions": 249,
+      "seconds": 27.382368084043264,
+      "journal_growth_bytes": 4214784
+    },
+    {
+      "year": 2026,
+      "sessions": 220,
+      "seconds": 19.976070625009015,
+      "journal_growth_bytes": 3629056
+    }
+  ],
+  "runtime_sessions_measured": 718,
+  "journal_bytes": 14684160
+}

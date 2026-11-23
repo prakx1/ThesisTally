@@ -1,0 +1,21 @@
+{
+  "evidence": "docs/discovery-families/discovery-v1.json",
+  "family": "discovery-v1",
+  "hypothesis": {
+    "description": "b5 entries in signal_rank_quintile = Q5",
+    "filters": [
+      {
+        "field": "signal_rank_quintile",
+        "values": [
+          "Q5"
+        ]
+      }
+    ],
+    "id": "b5-5d4dc82e",
+    "strategy": "b5"
+  },
+  "id": "b5-5d4dc82e",
+  "registration_commit": "fbf15eca292d569c58272217d86dfdbeca29e9d5",
+  "registration_sha256": "bed32ec1ce3713865261602f431a5e00f410955e7f33b7b71818b5b9c18c8cc2",
+  "status": "proposed"
+}

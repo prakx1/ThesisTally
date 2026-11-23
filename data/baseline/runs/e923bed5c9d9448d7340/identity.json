@@ -1,0 +1,20 @@
+{
+  "identity": "e923bed5c9d9448d7340ed0a4e05370a70d32478438c13a5fec52cb4057dcf09",
+  "study": "full-history-walk-forward-v1",
+  "code_hash": "d32669740c11c833070e2d21a83bd41d2151a1f99f34da5640257a5da2e07e72",
+  "code_commit": "c38db1b38e1ae987581bfa807b154f5219ad83cc",
+  "checkout_commit": "a4ad0fdd54dfefe719e618f04674aa9076c75ef8",
+  "preflight_sha256": "13284053b8f4cc37525787410ef06ffb443f34b80f8b814ff18056cad311cb95",
+  "snapshot_sha256": "8b5d16971f271232e9ca8a2803e46da109409ee714738b871b4dac515f175102",
+  "supplementary_inputs_sha256": "3ef81bd05d7bba00fbea4c7d90e7dab380862f54a7e64168f298b97bd3687657",
+  "configs": {
+    "r2": {
+      "rule_revision": "r2-93e3c44aec6a",
+      "config_hash": "93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84"
+    },
+    "r1": {
+      "rule_revision": "research-4-c8007c0a59b4",
+      "config_hash": "c8007c0a59b474484aed340d02ed8cf4029bca54b1d4406b88b61da39585be28"
+    }
+  }
+}

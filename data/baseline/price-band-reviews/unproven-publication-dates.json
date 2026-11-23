@@ -1,0 +1,764 @@
+{
+  "2014-01-07": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:23 GMT",
+      "sha256": "1077f8172998e704aeb1110f8f5dffe1689a4d5f0a0ced24be62570db5ea6dbe",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07012014.csv"
+    },
+    "symbols": [
+      "FINANTECH",
+      "INDIANB"
+    ]
+  },
+  "2014-01-10": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:24 GMT",
+      "sha256": "50273b92b4e76c99df32bce768afbf8534897afbf49c27b2e31962d72d441e67",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_10012014.csv"
+    },
+    "symbols": [
+      "FINANTECH"
+    ]
+  },
+  "2014-02-04": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:21 GMT",
+      "sha256": "2f7e32ecd068cb451c1644cc83d19190b89765508f83d86a7b9b491d99705229",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04022014.csv"
+    },
+    "symbols": [
+      "ABB",
+      "CUMMINSIND",
+      "GODREJCP"
+    ]
+  },
+  "2014-03-07": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:23 GMT",
+      "sha256": "70fda1ef229c9b31bfb882ec8d6343f6cef43826cb979badc8ac2d3a70b2a557",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07032014.csv"
+    },
+    "symbols": [
+      "GITANJALI",
+      "SUZLON"
+    ]
+  },
+  "2014-03-13": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:26 GMT",
+      "sha256": "3e6626527b2d4c87f2d9e8c3c5e5c67e9cbe9ca29a37c0979c1145787df43ff9",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_13032014.csv"
+    },
+    "symbols": [
+      "L&TFH"
+    ]
+  },
+  "2014-05-23": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:32 GMT",
+      "sha256": "c881a6e9fe6479d97936fd70c974bf3f055804b1566135e4e5b229048ab5b962",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_23052014.csv"
+    },
+    "symbols": [
+      "SUZLON"
+    ]
+  },
+  "2014-05-30": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:36 GMT",
+      "sha256": "617157298f7e71d80f18f19324a930f1624b51066290c9db247c8f8cd2c57d30",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_30052014.csv"
+    },
+    "symbols": [
+      "GSKCONS"
+    ]
+  },
+  "2014-06-05": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:22 GMT",
+      "sha256": "6e79439b4f38fde3cffcf4275e2c057af39188df9bd3c25b024f91e9ab91d66e",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05062014.csv"
+    },
+    "symbols": [
+      "SUZLON"
+    ]
+  },
+  "2014-08-04": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:22 GMT",
+      "sha256": "b69e9382ee3fc86d4d0fe656dc27fbe101f207544b14d2dd47da925935b1d565",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04082014.csv"
+    },
+    "symbols": [
+      "TV18BRDCST"
+    ]
+  },
+  "2014-08-08": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:24 GMT",
+      "sha256": "716c809a6ef9ca8abda29877173d30873bf3a51ae63a7737cdf15b5c5ff90965",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_08082014.csv"
+    },
+    "symbols": [
+      "BHUSANSTL"
+    ]
+  },
+  "2014-08-13": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:26 GMT",
+      "sha256": "5f8dddb0647c3b8c69d51e10ef48e5fc7fba7b9d736f6f5e692064e4f8efa179",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_13082014.csv"
+    },
+    "symbols": [
+      "BHUSANSTL"
+    ]
+  },
+  "2014-09-05": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:22 GMT",
+      "sha256": "7d1b6458f3a52543edcb3f5b83221dcae21471cee2691273816ad10868621f0d",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05092014.csv"
+    },
+    "symbols": [
+      "SUZLON",
+      "TV18BRDCST"
+    ]
+  },
+  "2014-09-10": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:25 GMT",
+      "sha256": "e0956a4d969dd477d467c5fb014786ba84b3b9632ae9f069534e42599ef3d3cc",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_10092014.csv"
+    },
+    "symbols": [
+      "EICHERMOT",
+      "MINDTREE",
+      "MOTHERSUMI"
+    ]
+  },
+  "2014-09-24": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:33 GMT",
+      "sha256": "df7d6371dae59e948bc57511a087787f65e6b6ac04bcb20b3aa8980d34bad799",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_24092014.csv"
+    },
+    "symbols": [
+      "SUZLON"
+    ]
+  },
+  "2014-10-08": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:24 GMT",
+      "sha256": "5a88870c524662e43692dcc01cd664a3ea5679e40ee8ddc0642b0f202ed6ccf6",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_08102014.csv"
+    },
+    "symbols": [
+      "EDELWEISS",
+      "WABAG"
+    ]
+  },
+  "2014-11-11": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:26 GMT",
+      "sha256": "e4d8ab99b3a30f7f03ada50a5587c74045adf307e2955b70a8d59b3d5d1d63e8",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_11112014.csv"
+    },
+    "symbols": [
+      "SUZLON"
+    ]
+  },
+  "2014-11-28": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:35 GMT",
+      "sha256": "1e6e8ac889a36ab2a3d0b64ec37a1d7d163449c29e12752258b928a750e98b0b",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_28112014.csv"
+    },
+    "symbols": [
+      "AMTEKAUTO",
+      "BOSCHLTD",
+      "ENGINERSIN",
+      "IBULHSGFIN",
+      "STAR",
+      "WOCKPHARMA"
+    ]
+  },
+  "2014-12-05": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:22 GMT",
+      "sha256": "4e3df666a576a371e5810f83f0c4d4484823b8e1e4445fd353e294422d125e3f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05122014.csv"
+    },
+    "symbols": [
+      "PIPAVAVDOC",
+      "SUZLON"
+    ]
+  },
+  "2015-01-02": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:20 GMT",
+      "sha256": "03ed03f8e72fa5e347f829cd165350b65e606f9296a6f8516ca74ceef6e8c402",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_02012015.csv"
+    },
+    "symbols": [
+      "PIPAVAVDOC"
+    ]
+  },
+  "2015-02-19": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:30 GMT",
+      "sha256": "e3b0ef1b019b8cbcb92e902ff341d4288416982a64934dcb2a530be3350231d7",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_19022015.csv"
+    },
+    "symbols": [
+      "SUZLON"
+    ]
+  },
+  "2015-02-20": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:30 GMT",
+      "sha256": "3ab80640bf1c774dd7b196fa873fa362bfc0a5825d127f9b3b3c47c4cecfaacb",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_20022015.csv"
+    },
+    "symbols": [
+      "PIPAVAVDOC"
+    ]
+  },
+  "2015-03-09": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:24 GMT",
+      "sha256": "f57bc99aafca821bf47f624266d36109860dc669662eeb51ccd09471ad434c97",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_09032015.csv"
+    },
+    "symbols": [
+      "PIPAVAVDOC",
+      "SUZLON"
+    ]
+  },
+  "2015-05-04": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:21 GMT",
+      "sha256": "f7cd0fff5b2223fb2e39363666a904be7f5408a39b1353940c28072ff7884051",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_04052015.csv"
+    },
+    "symbols": [
+      "KPIT"
+    ]
+  },
+  "2015-05-29": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:35 GMT",
+      "sha256": "f6695c352e4ed2caedd7216db46414b0228f36b13c1733bca67bd4a9f66d12d3",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_29052015.csv"
+    },
+    "symbols": [
+      "AMARAJABAT",
+      "BAJFINANCE",
+      "BEL",
+      "BRITANNIA",
+      "CASTROLIND",
+      "DHFL",
+      "KSCL",
+      "OIL",
+      "PAGEIND",
+      "PIDILITIND",
+      "SOUTHBANK"
+    ]
+  },
+  "2015-06-05": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:22 GMT",
+      "sha256": "18a913b6da95a3a92b4f9761b9c4583ce5b21f40b902f26886957d6be06fcc1f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05062015.csv"
+    },
+    "symbols": [
+      "KPIT"
+    ]
+  },
+  "2015-08-25": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:33 GMT",
+      "sha256": "a9e57ffc1c55fbeec6c580c9e1521647f60bd2217dc104b143409522e862442a",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_25082015.csv"
+    },
+    "symbols": [
+      "VAKRANGEE"
+    ]
+  },
+  "2015-09-28": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:35 GMT",
+      "sha256": "a67c17536887a2bc646f2af043b8708d1133dd453ae9f6ba62c41aebbb9bdb84",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_28092015.csv"
+    },
+    "symbols": [
+      "CADILAHC",
+      "INFRATEL",
+      "MARICO",
+      "NCC",
+      "TV18BRDCST"
+    ]
+  },
+  "2015-10-05": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:22 GMT",
+      "sha256": "6fa9ff680664a9c3ef32c91cba322d4c2faf88f9f12a9479808abc787dd36c5a",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05102015.csv"
+    },
+    "symbols": [
+      "VAKRANGEE"
+    ]
+  },
+  "2015-10-13": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:26 GMT",
+      "sha256": "3ee30b507e3e8ff3dabc3218cea4c780bdeffc6a8cf2d6b3d5d0ee9c43fc50be",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_13102015.csv"
+    },
+    "symbols": [
+      "RAJESHEXPO"
+    ]
+  },
+  "2015-10-16": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:28 GMT",
+      "sha256": "157bc7417e794b3546927384815921fbc3c2c6284db567511d88db850e933954",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_16102015.csv"
+    },
+    "symbols": [
+      "DCBBANK"
+    ]
+  },
+  "2015-10-30": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:36 GMT",
+      "sha256": "680b5ab6db3be3ccc5015e21f0c4b66822693b0daa0bca01bef3793ea313fc60",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_30102015.csv"
+    },
+    "symbols": [
+      "AMTEKAUTO"
+    ]
+  },
+  "2015-11-06": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:23 GMT",
+      "sha256": "cfc2a0e50eeb55500aa8d879aba48b717655927b14bd70908ec58b6852c03b82",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06112015.csv"
+    },
+    "symbols": [
+      "DCBBANK",
+      "RAJESHEXPO"
+    ]
+  },
+  "2016-01-01": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:20 GMT",
+      "sha256": "bd198a2b5653c140f66648516f4e6f601e9be080d402899edca3d592aff0c3e7",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01012016.csv"
+    },
+    "symbols": [
+      "CONCOR",
+      "GODREJCP",
+      "TORNTPHARM"
+    ]
+  },
+  "2016-02-26": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:34 GMT",
+      "sha256": "0f6b8aef8b34f2518d896c3188e9cdf6cdf9eeb17127f5c1ba160e3e777a9ae1",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_26022016.csv"
+    },
+    "symbols": [
+      "CUMMINSIND",
+      "KPIT",
+      "MCDOWELL-N"
+    ]
+  },
+  "2016-07-01": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:20 GMT",
+      "sha256": "7b03ebfc9eb83bcf965108f8f3905702d01b9b22e1dd4a52c6390b5161ad2344",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01072016.csv"
+    },
+    "symbols": [
+      "IOB",
+      "UCOBANK"
+    ]
+  },
+  "2016-08-24": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:33 GMT",
+      "sha256": "edcdff9127924dc75d2b73a17f5370daf6ec3792c4ebcb13f7b88903f1abe4e1",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_24082016.csv"
+    },
+    "symbols": [
+      "WELSPUNIND"
+    ]
+  },
+  "2016-08-26": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:34 GMT",
+      "sha256": "e6f03cb2a586fdb4498c7e5b446bba571cafd8ebffdf9ff827a0bfb6d3a03349",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_26082016.csv"
+    },
+    "symbols": [
+      "JUBILANT"
+    ]
+  },
+  "2016-08-29": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:35 GMT",
+      "sha256": "d970a34df28f46613bc5b4396c577d5cf371c10ddeaff2fd70ff07aa0451fe51",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_29082016.csv"
+    },
+    "symbols": [
+      "WELSPUNIND"
+    ]
+  },
+  "2016-09-30": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:36 GMT",
+      "sha256": "4e50988a5b9e5488edc10e8297ab1baf69e2d93355d792d91c9bf2f935104511",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_30092016.csv"
+    },
+    "symbols": [
+      "TORNTPOWER"
+    ]
+  },
+  "2016-10-07": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:23 GMT",
+      "sha256": "4d2fa516d8135e833804b1d51ae90c2148c74259017176ad03f3501052f1f413",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07102016.csv"
+    },
+    "symbols": [
+      "JUBILANT",
+      "WELSPUNIND"
+    ]
+  },
+  "2017-03-31": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:36 GMT",
+      "sha256": "1df0d7daa26c44a38425238ce4033c2fe89c89fe6ffcccb9b515f1ae774622a7",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_31032017.csv"
+    },
+    "symbols": [
+      "INDIANB",
+      "INDIGO",
+      "MUTHOOTFIN",
+      "PEL",
+      "SHREECEM",
+      "SUZLON"
+    ]
+  },
+  "2017-04-28": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:35 GMT",
+      "sha256": "1bd04be74bcfa55c29b323c2bcb38c5f3832fcb78672a305d519c5045c8aa6fd",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_28042017.csv"
+    },
+    "symbols": [
+      "BAJAJFINSV",
+      "BERGEPAINT",
+      "CHOLAFIN",
+      "FORTIS",
+      "NBCC"
+    ]
+  },
+  "2017-05-26": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:34 GMT",
+      "sha256": "8f30e3004d9b13d2285a7aa8f25f9dd5d0569603c44bd9d954bac617f9b9bf8c",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_26052017.csv"
+    },
+    "symbols": [
+      "NATIONALUM",
+      "RAMCOCEM",
+      "RBLBANK"
+    ]
+  },
+  "2017-06-30": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:36 GMT",
+      "sha256": "2b44d9af3b75584d8d1905ead971ae2d7e27b6bd8ca5f362b722f2d88e6cbe95",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_30062017.csv"
+    },
+    "symbols": [
+      "ICICIPRULI",
+      "MANAPPURAM"
+    ]
+  },
+  "2018-01-29": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:35 GMT",
+      "sha256": "59892b0eb7181d746f3065d55d12f6319a3b2561c71d947276a6d27cb53a9787",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_29012018.csv"
+    },
+    "symbols": [
+      "JSWENERGY"
+    ]
+  },
+  "2018-02-02": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:20 GMT",
+      "sha256": "fd6bc54e6e5b6d58f39357595dfd5192bfe37d02fdc21f188df432fa37b7ab11",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_02022018.csv"
+    },
+    "symbols": [
+      "VAKRANGEE"
+    ]
+  },
+  "2018-02-07": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:23 GMT",
+      "sha256": "da4b736316c685cfa6cd8b815a8c466b7341a2863852b8498e09e447a2e317d5",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07022018.csv"
+    },
+    "symbols": [
+      "VAKRANGEE"
+    ]
+  },
+  "2018-04-20": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:30 GMT",
+      "sha256": "e20b8c0cd5f4de2c8eabecf19ecfdf586bea51a07fc3e77432ead06a07f2e9df",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_20042018.csv"
+    },
+    "symbols": [
+      "IBVENTURES"
+    ]
+  },
+  "2018-05-14": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:27 GMT",
+      "sha256": "60aaf5dcdfa4dec37f16c9459e8cb386b51c92a9b183716f94555bbb74adb24c",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_14052018.csv"
+    },
+    "symbols": [
+      "IBVENTURES"
+    ]
+  },
+  "2018-06-01": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:20 GMT",
+      "sha256": "7822ae0ccddf971489af92cc072537e819f32111c70555255c995cb5299f0028",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_01062018.csv"
+    },
+    "symbols": [
+      "DBL"
+    ]
+  },
+  "2018-08-02": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:21 GMT",
+      "sha256": "51c29698d84eb5c2c3ce02f8bf0ccaadd043bead2a0681b366289e56fe37409f",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_02082018.csv"
+    },
+    "symbols": [
+      "DBL"
+    ]
+  },
+  "2018-08-07": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:23 GMT",
+      "sha256": "b2a2ee4525ecc9b80cc478295c5907cf3f2c039ed64ad3995157345c5d329d48",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07082018.csv"
+    },
+    "symbols": [
+      "VAKRANGEE"
+    ]
+  },
+  "2018-08-16": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:28 GMT",
+      "sha256": "89b50ce06cf68aca72f71c1a329ee3ad5661c3c9043a009952ab24b43d7365a6",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_16082018.csv"
+    },
+    "symbols": [
+      "VAKRANGEE"
+    ]
+  },
+  "2018-09-25": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:33 GMT",
+      "sha256": "1772e4680e7e862fb104de1c2425f0a4c0784aa421bfc0d0ee6cea78f87349ff",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_25092018.csv"
+    },
+    "symbols": [
+      "CENTRALBK"
+    ]
+  },
+  "2018-09-26": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:34 GMT",
+      "sha256": "90368b6c3200fdea183bea6f66894ca5b41c5978788e0bf3361f7320ab37b35c",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_26092018.csv"
+    },
+    "symbols": [
+      "VAKRANGEE"
+    ]
+  },
+  "2018-10-08": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:24 GMT",
+      "sha256": "39d834602f8b4b0f3fe2abb3f3533689b0c9da49d5142ef3b121068d7f147b21",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_08102018.csv"
+    },
+    "symbols": [
+      "CENTRALBK"
+    ]
+  },
+  "2018-10-09": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:24 GMT",
+      "sha256": "f2607ba300212e3c1f6d1de4272a86e0d21aae0e6fef5bc33eecb6079c03e4de",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_09102018.csv"
+    },
+    "symbols": [
+      "EDELWEISS"
+    ]
+  },
+  "2018-10-17": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:29 GMT",
+      "sha256": "b3f4428517024c010445d9508842d49db74b86e5b60add0ec98ab19160c6b357",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_17102018.csv"
+    },
+    "symbols": [
+      "HEG"
+    ]
+  },
+  "2018-10-24": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:33 GMT",
+      "sha256": "7cb3695863a62d234d29fd0d8438c59d79be91de975e5d7caca3c5b41fbc6a72",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_24102018.csv"
+    },
+    "symbols": [
+      "EDELWEISS"
+    ]
+  },
+  "2018-10-26": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:34 GMT",
+      "sha256": "53c01d55f60f90828775073c2b598ef93a8891c01d497f0c2d2373493b8afd70",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_26102018.csv"
+    },
+    "symbols": [
+      "DBL"
+    ]
+  },
+  "2018-10-30": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:36 GMT",
+      "sha256": "4728812d856b2f67b5331f46f628daf94d6147d446f3f0fdc4cd4d4ab19d2872",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_30102018.csv"
+    },
+    "symbols": [
+      "GRAPHITE"
+    ]
+  },
+  "2018-12-07": {
+    "source": {
+      "last_modified": "Thu, 17 Jan 2019 13:26:23 GMT",
+      "sha256": "7ae699a844242bad579a1397931c07cf9cc4b700bff035ff2acf85daed181329",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07122018.csv"
+    },
+    "symbols": [
+      "CENTRALBK",
+      "DBL",
+      "EDELWEISS",
+      "GRAPHITE",
+      "HEG",
+      "IBVENTURES"
+    ]
+  },
+  "2019-01-29": {
+    "source": {
+      "last_modified": "Wed, 06 Mar 2019 09:55:39 GMT",
+      "sha256": "1d1b6af907e04e753246039c66944876f5b30fe278383755c8b255b7590c275a",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_29012019.csv"
+    },
+    "symbols": [
+      "HEG"
+    ]
+  },
+  "2019-01-30": {
+    "source": {
+      "last_modified": "Wed, 06 Mar 2019 09:55:39 GMT",
+      "sha256": "ae4f9554209771a5f8b51dc1a612b6b4565cca0ee159ebe77bef8ab36993f307",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_30012019.csv"
+    },
+    "symbols": [
+      "GRAPHITE"
+    ]
+  },
+  "2019-02-07": {
+    "source": {
+      "last_modified": "Wed, 06 Mar 2019 09:55:39 GMT",
+      "sha256": "5c26aa89665a52efde23dfefa9a634d851443dd33ddec4a1b1b7515d945c595a",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07022019.csv"
+    },
+    "symbols": [
+      "CENTRALBK",
+      "EDELWEISS",
+      "VAKRANGEE"
+    ]
+  },
+  "2019-03-07": {
+    "source": {
+      "last_modified": "Mon, 17 Jun 2019 09:31:40 GMT",
+      "sha256": "06e580b60cde314150c116fda6496e25a277a25b0d7c1100c2e31b514bdef894",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_07032019.csv"
+    },
+    "symbols": [
+      "DBL"
+    ]
+  },
+  "2019-04-05": {
+    "source": {
+      "last_modified": "Mon, 17 Jun 2019 09:31:40 GMT",
+      "sha256": "2fec36c07baf7ba418edb276c83d2401a243c4b315052e9e3525ac0bc741cc3c",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_05042019.csv"
+    },
+    "symbols": [
+      "GRAPHITE",
+      "HEG"
+    ]
+  },
+  "2019-05-06": {
+    "source": {
+      "last_modified": "Mon, 17 Jun 2019 09:31:40 GMT",
+      "sha256": "921005703a8f536590d5c36623148411dbb3898083261e74cde4bc78ecf77a3c",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_06052019.csv"
+    },
+    "symbols": [
+      "DBL"
+    ]
+  },
+  "2019-06-10": {
+    "source": {
+      "last_modified": "Mon, 17 Jun 2019 09:31:40 GMT",
+      "sha256": "b54aa04484239700ff79b1cd2d552425b6264cf53163e320920a75bea03ecd48",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_10062019.csv"
+    },
+    "symbols": [
+      "DBL"
+    ]
+  },
+  "2019-06-28": {
+    "source": {
+      "last_modified": "Wed, 31 Jul 2019 10:52:20 GMT",
+      "sha256": "03a703c7427ba35dc34d547d0cf66a69942f33f77be697e16117b6e0200a00a3",
+      "url": "https://nsearchives.nseindia.in/content/equities/eq_band_changes_28062019.csv"
+    },
+    "symbols": [
+      "AJANTPHARM",
+      "GODREJIND",
+      "INDIANB",
+      "MRPL",
+      "NHPC",
+      "RPOWER",
+      "VGUARD"
+    ]
+  }
+}

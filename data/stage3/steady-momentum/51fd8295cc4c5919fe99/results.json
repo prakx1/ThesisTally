@@ -1,0 +1,3878 @@
+{
+  "benchmark": {
+    "from": "2016-12-30",
+    "missing_tri_dates": [],
+    "series": "Nifty 200 gross total return",
+    "sessions": 2452,
+    "sha256": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41",
+    "source_page": "https://www.niftyindices.com/reports/historical-data",
+    "sources": [
+      {
+        "query": {
+          "endDate": "31-Dec-2016",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "30-Dec-2016"
+        },
+        "sha256": "8c276341f29f39424d0514e48972a283b0d72c22c6a538edc137c940480653e5",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2017",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2017"
+        },
+        "sha256": "1429bb44a208a034d5c0b4533eafa2972619d758ddcd40e81a8ec712e084e568",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2017",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2017"
+        },
+        "sha256": "36c57621689af85ab519ed632457dae95d8b450cdea30aa73bfe152fed95a34a",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2018",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2018"
+        },
+        "sha256": "9bcc6a97d3cc4236f5cfa11d0dee54ed53f277605cdb6b79be165179790766dd",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2018",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2018"
+        },
+        "sha256": "adf51b9de8e8b39c3f29be332e01032c18ea0e238d6f3355d00559a364047b6f",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2019",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2019"
+        },
+        "sha256": "2546d86cf4c9e851c6c43bffb25184beb8533276d39bbe858f0f836bfe803429",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2019",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2019"
+        },
+        "sha256": "60f5b061207e3f2cd29f2cfedce878adb441b140e7377920af37107abf805ff4",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2020",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2020"
+        },
+        "sha256": "97a26c9aaebf1efc2e58e63d18a390e11ed3afd4188f50639867e21e25dd6ec1",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2020",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2020"
+        },
+        "sha256": "5c0959b8e69079e0e6aaaaaf649f397af6cd7482e49f24ac6a9782444279ee1c",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2021",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2021"
+        },
+        "sha256": "37dc600e7161f18bddcd70f5fb0ff2dcfa45d718ccfceda0693508d4055e5129",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2021",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2021"
+        },
+        "sha256": "f024ceff2d9a60545c7cd9d92ab202133a119b9432b2afe68b2083583e4cd0e1",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2022",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2022"
+        },
+        "sha256": "e115332baac36b39a4a17e63629894ab3ab00b9c8949dda0adaa1a6c27a388db",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2022",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2022"
+        },
+        "sha256": "cf93b37e5de858ee844c2d117dd0fea08966291e7bd0cdf78b56009c8d72ab18",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2023",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2023"
+        },
+        "sha256": "d50fd28de38934d83b834645bc25d2b91795b223135f38dde8b4904240e4163d",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2023",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2023"
+        },
+        "sha256": "4e893a357c2838e519603be9e35fba3fe02f0ef1a42b5538928d9c97769df146",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2024",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2024"
+        },
+        "sha256": "9e9aa975f7964121dac36267f1e3db676a3d59ae8e1aa7576d3401c5037326a6",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2024",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2024"
+        },
+        "sha256": "0f2f1094c852f280e417dc3aefbdc2144cf74dd23e94fc4a973c7e1896f25bd9",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2025",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2025"
+        },
+        "sha256": "4f156ea6d2fa66f83d9b4b90a1a78a33321d6f50c1c102fdf1f18f84643662e1",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "31-Dec-2025",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2025"
+        },
+        "sha256": "2245fbf57c1456d7bec8a6a376047e4df4b0f035ec2c2dfe28f97ed275e286fb",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "30-Jun-2026",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jan-2026"
+        },
+        "sha256": "fd657e657bf0ebe812daea60c90f77bd8a3913d2b71c70566ecdb1fd36681a12",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      },
+      {
+        "query": {
+          "endDate": "20-Nov-2026",
+          "indexName": "NIFTY 200",
+          "name": "NIFTY 200",
+          "startDate": "01-Jul-2026"
+        },
+        "sha256": "9a1f2a91b9e1f93532d8a0e93eff4cf38e2de1386a11ea2dc6a650705af04e7a",
+        "url": "https://www.niftyindices.com/BackPage/getTotalReturnIndexString"
+      }
+    ],
+    "to": "2026-11-20"
+  },
+  "funded_valuation_gaps": {},
+  "identity": "51fd8295cc4c5919fe9996b079f29a11670a94888786aa72944317ccdf0e846e",
+  "journal": "journal.sqlite",
+  "journal_sha256": "b1e891c47afb3f5a8d364793dc9c15ab92d14013ad6945a460ca05499cf7e27d",
+  "launch_git_commit": "0fd7ff20152cf0675f5606d609954d2736ac802b",
+  "methods": {
+    "gate": "Gate at the prior close for the arrival of each marked return. Gate subsets use trading-session annualization.",
+    "gross": "Same fills and quantities. Restore their charged fees and adverse execution slippage in that day's return.",
+    "turnover": "One half of absolute traded opening notional divided by preceding marked equity.",
+    "verdict": "All scheduled windows must complete. At least seven must beat the benchmark, aggregate CAGR must exceed the benchmark, and drawdown cannot exceed 1.2 times benchmark drawdown."
+  },
+  "proof": {
+    "benchmark_sha256": "cc869e48f7049102cf7a3ef770614ff02e05afcf912415e48849b476f4ee8f41",
+    "code_sha256": "e694086804b8fb745f659482fa34bf7223f6ed173bf452859e3f5651c41e8d62",
+    "cost_config_hash": "93e3c44aec6a71bb72287e3f0b4fdf64e324f1071b4543f25b9e538c3b524c84",
+    "market_snapshot_sha256": "e722f88c7cc3e270f38902fb2f531023a6d9f0955faf5d29fc3a1e2c0c08158b",
+    "preregistration_sha256": "1235886595a5e91789f7370d976ec0c8e03d79ada8692002e5d426761ba38cfc",
+    "strategy_config_sha256": "b1665bc27e3171db356c4d91ac77faf3b60a36c1cacff48c0c8f36e2cd62f390"
+  },
+  "study": "stage3-steady-momentum",
+  "variants": {
+    "A126": {
+      "by_regime": {
+        "off": {
+          "annualized_one_way_turnover_pct": 30.717039592473057,
+          "benchmark": {
+            "annual_volatility_pct": 20.436744930281282,
+            "cagr_pct": 9.126073769463519,
+            "drawdown_peak": "2017-12-14",
+            "drawdown_trough": "2020-03-23",
+            "max_drawdown_pct": 37.752000113709194,
+            "return_pct": 48.656357003820446,
+            "sharpe": 0.530518648799968
+          },
+          "cost_drag_cagr_pp": 0.12420589330328013,
+          "excess_return_pp": -27.150181271337388,
+          "fee_inr": 4325.37,
+          "first": "2017-01-02",
+          "gross_same_fills": {
+            "annual_volatility_pct": 7.69105633160036,
+            "cagr_pct": 4.508534294356805,
+            "drawdown_peak": "2024-10-14",
+            "drawdown_trough": "2024-11-13",
+            "max_drawdown_pct": 9.392169785590276,
+            "return_pct": 22.163902146527505,
+            "sharpe": 0.6116384714549252
+          },
+          "last": "2026-11-04",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.5352544480306345,
+            "negative_months": 19,
+            "negative_sessions": 154,
+            "observed_months": 95,
+            "underperforming_months": 55,
+            "underperforming_sessions": 596,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -3.2887581466814586,
+                "day": "2025-04-07",
+                "net_pct": -4.0630189776913905
+              },
+              {
+                "benchmark_pct": -1.6943539242405325,
+                "day": "2024-10-22",
+                "net_pct": -2.766755049857994
+              },
+              {
+                "benchmark_pct": -0.5524070150474292,
+                "day": "2024-03-15",
+                "net_pct": -2.6706015905552216
+              },
+              {
+                "benchmark_pct": -1.1505117006714083,
+                "day": "2024-10-25",
+                "net_pct": -2.1700634948065067
+              },
+              {
+                "benchmark_pct": -1.1936098312191223,
+                "day": "2025-12-08",
+                "net_pct": -1.9532937541723472
+              }
+            ]
+          },
+          "mean_exposure_pct": 13.390904522685098,
+          "net": {
+            "annual_volatility_pct": 7.682025288961479,
+            "cagr_pct": 4.384328401053525,
+            "drawdown_peak": "2024-10-14",
+            "drawdown_trough": "2024-11-13",
+            "max_drawdown_pct": 9.43942078904021,
+            "return_pct": 21.506175732483058,
+            "sharpe": 0.5967904173669611
+          },
+          "one_way_turnover_pct": 139.4456083086872,
+          "sessions": 1144,
+          "slippage_inr": 1501.3673999998537
+        },
+        "on": {
+          "annualized_one_way_turnover_pct": 98.52489561789523,
+          "benchmark": {
+            "annual_volatility_pct": 11.375833767149715,
+            "cagr_pct": 19.489289189194857,
+            "drawdown_peak": "2021-01-11",
+            "drawdown_trough": "2021-05-14",
+            "max_drawdown_pct": 11.765745008730011,
+            "return_pct": 151.8067433112043,
+            "sharpe": 1.6229095510278
+          },
+          "cost_drag_cagr_pp": 0.3607232716678954,
+          "excess_return_pp": -127.67890900497864,
+          "fee_inr": 14248.0,
+          "first": "2017-01-06",
+          "gross_same_fills": {
+            "annual_volatility_pct": 8.15677336958798,
+            "cagr_pct": 4.6161630239661005,
+            "drawdown_peak": "2025-04-22",
+            "drawdown_trough": "2025-11-13",
+            "max_drawdown_pct": 8.436610066199124,
+            "return_pct": 26.371536775978612,
+            "sharpe": 0.5945414978238889
+          },
+          "last": "2026-11-20",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.4372450701375675,
+            "negative_months": 16,
+            "negative_sessions": 280,
+            "observed_months": 93,
+            "underperforming_months": 54,
+            "underperforming_sessions": 739,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -6.7504860391534365,
+                "day": "2024-06-04",
+                "net_pct": -6.936389101556706
+              },
+              {
+                "benchmark_pct": -2.316954334771515,
+                "day": "2024-03-13",
+                "net_pct": -5.767441497785364
+              },
+              {
+                "benchmark_pct": -2.939500980791232,
+                "day": "2024-08-05",
+                "net_pct": -3.7196614977317632
+              },
+              {
+                "benchmark_pct": 0.18987862030970248,
+                "day": "2024-07-18",
+                "net_pct": -2.6202516546281363
+              },
+              {
+                "benchmark_pct": -0.9930013757357914,
+                "day": "2024-05-07",
+                "net_pct": -2.6061924473588016
+              }
+            ]
+          },
+          "mean_exposure_pct": 20.85909512268607,
+          "net": {
+            "annual_volatility_pct": 8.149873855855045,
+            "cagr_pct": 4.255439752298205,
+            "drawdown_peak": "2025-04-22",
+            "drawdown_trough": "2025-11-13",
+            "max_drawdown_pct": 8.826892920432172,
+            "return_pct": 24.127834306225648,
+            "sharpe": 0.5525908085819575
+          },
+          "one_way_turnover_pct": 511.0001530658296,
+          "sessions": 1307,
+          "slippage_inr": 5677.869404999391
+        }
+      },
+      "by_year": {
+        "2017": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 9.549152638594483,
+            "cagr_pct": 35.349676103238956,
+            "drawdown_peak": "2017-09-19",
+            "drawdown_trough": "2017-09-27",
+            "max_drawdown_pct": 4.638692010787193,
+            "return_pct": 35.21037682473609,
+            "sharpe": 3.259493121971255
+          },
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -35.21037682473609,
+          "fee_inr": 0.0,
+          "first": "2017-01-02",
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2017-12-29",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 151,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.17259148205790442,
+                "day": "2017-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.30465251167168805,
+                "day": "2017-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.006635737808735609,
+                "day": "2017-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 1.1126026711565151,
+                "day": "2017-01-05",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.3365961596159539,
+                "day": "2017-01-06",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "sessions": 248,
+          "slippage_inr": 0.0
+        },
+        "2018": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 13.31678931965209,
+            "cagr_pct": 0.31464145966085694,
+            "drawdown_peak": "2018-08-28",
+            "drawdown_trough": "2018-10-26",
+            "max_drawdown_pct": 15.159884079337871,
+            "return_pct": 0.3161578647790986,
+            "sharpe": 0.0906834279767059
+          },
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -0.3161578647790986,
+          "fee_inr": 0.0,
+          "first": "2018-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2018-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 6,
+            "underperforming_sessions": 127,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -0.7102280732404154,
+                "day": "2018-01-01",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.10656548385128417,
+                "day": "2018-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.1664820023296043,
+                "day": "2018-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.6828315029950849,
+                "day": "2018-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.6803133103369552,
+                "day": "2018-01-05",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "sessions": 246,
+          "slippage_inr": 0.0
+        },
+        "2019": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 13.84773364603292,
+            "cagr_pct": 10.041456300883803,
+            "drawdown_peak": "2019-06-03",
+            "drawdown_trough": "2019-08-22",
+            "max_drawdown_pct": 11.07392309157258,
+            "return_pct": 10.034465517628943,
+            "sharpe": 0.7788829917198123
+          },
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -10.034465517628943,
+          "fee_inr": 0.0,
+          "first": "2019-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2019-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 7,
+            "underperforming_sessions": 129,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.31825127525224595,
+                "day": "2019-01-01",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -1.0669455481168488,
+                "day": "2019-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -1.0348667890261454,
+                "day": "2019-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.4868820672969676,
+                "day": "2019-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.32742656381403723,
+                "day": "2019-01-07",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "sessions": 245,
+          "slippage_inr": 0.0
+        },
+        "2020": {
+          "annualized_one_way_turnover_pct": 18.104938705594865,
+          "benchmark": {
+            "annual_volatility_pct": 29.975801782504142,
+            "cagr_pct": 16.78948805319878,
+            "drawdown_peak": "2020-01-17",
+            "drawdown_trough": "2020-03-23",
+            "max_drawdown_pct": 38.033598147550784,
+            "return_pct": 16.82708692050552,
+            "sharpe": 0.6716295082164444
+          },
+          "cost_drag_cagr_pp": 0.06548720229280214,
+          "excess_return_pp": -20.40359772050554,
+          "fee_inr": 489.76,
+          "first": "2020-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 3.2445899806903857,
+            "cagr_pct": -3.5037550962838853,
+            "drawdown_peak": "2020-02-20",
+            "drawdown_trough": "2020-03-24",
+            "max_drawdown_pct": 5.280973643095388,
+            "return_pct": -3.5108926797288054,
+            "sharpe": -1.0852571203143389
+          },
+          "last": "2020-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.2294680203709657,
+            "negative_months": 4,
+            "negative_sessions": 51,
+            "observed_months": 12,
+            "underperforming_months": 7,
+            "underperforming_sessions": 154,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -12.781855649783648,
+                "day": "2020-03-23",
+                "net_pct": -1.2798017955985341
+              },
+              {
+                "benchmark_pct": -5.481018708179697,
+                "day": "2020-03-18",
+                "net_pct": -1.019970076735277
+              },
+              {
+                "benchmark_pct": -2.430426286024434,
+                "day": "2020-03-06",
+                "net_pct": -0.7867194059528737
+              },
+              {
+                "benchmark_pct": -7.147956189346516,
+                "day": "2020-03-16",
+                "net_pct": -0.7782250650155143
+              },
+              {
+                "benchmark_pct": -4.791429350142906,
+                "day": "2020-03-09",
+                "net_pct": -0.7462797067429139
+              }
+            ]
+          },
+          "mean_exposure_pct": 3.593002400770905,
+          "net": {
+            "annual_volatility_pct": 3.2459349148193324,
+            "cagr_pct": -3.5692422985766874,
+            "drawdown_peak": "2020-02-20",
+            "drawdown_trough": "2020-03-24",
+            "max_drawdown_pct": 5.283664902450513,
+            "return_pct": -3.576510800000021,
+            "sharpe": -1.105749216872885
+          },
+          "one_way_turnover_pct": 18.10493870559487,
+          "sessions": 252,
+          "slippage_inr": 177.54799999998878
+        },
+        "2021": {
+          "annualized_one_way_turnover_pct": 45.33522130911346,
+          "benchmark": {
+            "annual_volatility_pct": 15.40306000044501,
+            "cagr_pct": 28.90459380412822,
+            "drawdown_peak": "2021-10-18",
+            "drawdown_trough": "2021-12-20",
+            "max_drawdown_pct": 10.172812814153476,
+            "return_pct": 28.882865343161757,
+            "sharpe": 1.7515577676102776
+          },
+          "cost_drag_cagr_pp": 0.18530922331261834,
+          "excess_return_pp": -16.092699608161777,
+          "fee_inr": 1286.25,
+          "first": "2021-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 4.606746622439367,
+            "cagr_pct": 12.984494530231572,
+            "drawdown_peak": "2021-09-15",
+            "drawdown_trough": "2021-11-30",
+            "max_drawdown_pct": 2.531386108245526,
+            "return_pct": 12.975337014988963,
+            "sharpe": 2.7145716719844795
+          },
+          "last": "2021-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.21842375436744352,
+            "negative_months": 5,
+            "negative_sessions": 99,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 138,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -1.2713652669339548,
+                "day": "2021-01-18",
+                "net_pct": -0.8126769411864299
+              },
+              {
+                "benchmark_pct": -3.94086278190926,
+                "day": "2021-04-12",
+                "net_pct": -0.6614987001958839
+              },
+              {
+                "benchmark_pct": -1.966062387212364,
+                "day": "2021-10-28",
+                "net_pct": -0.6435229001123255
+              },
+              {
+                "benchmark_pct": 0.005589073655176691,
+                "day": "2021-05-25",
+                "net_pct": -0.5494222664418236
+              },
+              {
+                "benchmark_pct": -0.4805845935248243,
+                "day": "2021-10-21",
+                "net_pct": -0.4909453793097929
+              }
+            ]
+          },
+          "mean_exposure_pct": 13.168840272061862,
+          "net": {
+            "annual_volatility_pct": 4.60126984373167,
+            "cagr_pct": 12.799185306918954,
+            "drawdown_peak": "2021-09-15",
+            "drawdown_trough": "2021-12-01",
+            "max_drawdown_pct": 2.554015036492996,
+            "return_pct": 12.79016573499998,
+            "sharpe": 2.6815048300584974
+          },
+          "one_way_turnover_pct": 44.61561462166721,
+          "sessions": 248,
+          "slippage_inr": 479.0126499999588
+        },
+        "2022": {
+          "annualized_one_way_turnover_pct": 6.704190172991553,
+          "benchmark": {
+            "annual_volatility_pct": 17.521879216356087,
+            "cagr_pct": 4.933942049898268,
+            "drawdown_peak": "2022-01-17",
+            "drawdown_trough": "2022-06-20",
+            "max_drawdown_pct": 16.549462250405345,
+            "return_pct": 4.91675150742461,
+            "sharpe": 0.3659353709239538
+          },
+          "cost_drag_cagr_pp": 0.02239137816267861,
+          "excess_return_pp": -4.594442507424512,
+          "fee_inr": 156.74,
+          "first": "2022-01-03",
+          "gross_same_fills": {
+            "annual_volatility_pct": 1.6214931271318056,
+            "cagr_pct": 0.3458023446927765,
+            "drawdown_peak": "2022-12-09",
+            "drawdown_trough": "2022-12-23",
+            "max_drawdown_pct": 1.1780562691245722,
+            "return_pct": 0.3446239524809158,
+            "sharpe": 0.22367592775655076
+          },
+          "last": "2022-12-30",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.17918178878882973,
+            "negative_months": 0,
+            "negative_sessions": 20,
+            "observed_months": 12,
+            "underperforming_months": 5,
+            "underperforming_sessions": 128,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -2.3389290235128923,
+                "day": "2022-12-23",
+                "net_pct": -0.8285835150222964
+              },
+              {
+                "benchmark_pct": -0.29183742473256613,
+                "day": "2022-11-09",
+                "net_pct": -0.39861936335715553
+              },
+              {
+                "benchmark_pct": -1.1843135635353441,
+                "day": "2022-12-21",
+                "net_pct": -0.3811371798667196
+              },
+              {
+                "benchmark_pct": -1.2069827152692336,
+                "day": "2022-12-15",
+                "net_pct": -0.37984733525933123
+              },
+              {
+                "benchmark_pct": -0.806966236648099,
+                "day": "2022-11-10",
+                "net_pct": -0.34678069123189603
+              }
+            ]
+          },
+          "mean_exposure_pct": 1.7745000191922056,
+          "net": {
+            "annual_volatility_pct": 1.6201453133263686,
+            "cagr_pct": 0.3234109665300979,
+            "drawdown_peak": "2022-12-09",
+            "drawdown_trough": "2022-12-23",
+            "max_drawdown_pct": 1.1780562691245722,
+            "return_pct": 0.3223090000000983,
+            "sharpe": 0.20989933497385696
+          },
+          "one_way_turnover_pct": 6.59777445595994,
+          "sessions": 248,
+          "slippage_inr": 65.96999999998661
+        },
+        "2023": {
+          "annualized_one_way_turnover_pct": 13.996871195826396,
+          "benchmark": {
+            "annual_volatility_pct": 9.77772497610151,
+            "cagr_pct": 24.754603710325508,
+            "drawdown_peak": "2023-01-03",
+            "drawdown_trough": "2023-03-28",
+            "max_drawdown_pct": 8.425042140454252,
+            "return_pct": 24.66077168079812,
+            "sharpe": 2.3591277663681858
+          },
+          "cost_drag_cagr_pp": 0.05098180346592951,
+          "excess_return_pp": -22.22338138829807,
+          "fee_inr": 359.69,
+          "first": "2023-01-02",
+          "gross_same_fills": {
+            "annual_volatility_pct": 2.159694294209595,
+            "cagr_pct": 2.49679296086441,
+            "drawdown_peak": "2023-12-07",
+            "drawdown_trough": "2023-12-12",
+            "max_drawdown_pct": 0.9495642142485994,
+            "return_pct": 2.4881944441906167,
+            "sharpe": 1.1765530245955977
+          },
+          "last": "2023-12-29",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.1279713720386862,
+            "negative_months": 1,
+            "negative_sessions": 41,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 141,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -1.8926420762944596,
+                "day": "2023-12-20",
+                "net_pct": -0.699923541978309
+              },
+              {
+                "benchmark_pct": 0.0913072776280277,
+                "day": "2023-12-08",
+                "net_pct": -0.5220494201923276
+              },
+              {
+                "benchmark_pct": -0.7164679402899443,
+                "day": "2023-10-04",
+                "net_pct": -0.2990004319912587
+              },
+              {
+                "benchmark_pct": -1.617832039018785,
+                "day": "2023-10-23",
+                "net_pct": -0.29089018263611655
+              },
+              {
+                "benchmark_pct": -0.1655308117113896,
+                "day": "2023-11-20",
+                "net_pct": -0.25291624854365535
+              }
+            ]
+          },
+          "mean_exposure_pct": 2.9488521153174605,
+          "net": {
+            "annual_volatility_pct": 2.15930808769337,
+            "cagr_pct": 2.4458111573984804,
+            "drawdown_peak": "2023-12-07",
+            "drawdown_trough": "2023-12-12",
+            "max_drawdown_pct": 0.9495642142485883,
+            "return_pct": 2.4373902925000523,
+            "sharpe": 1.1532347922358455
+          },
+          "one_way_turnover_pct": 13.663612357830528,
+          "sessions": 246,
+          "slippage_inr": 136.70707499998548
+        },
+        "2024": {
+          "annualized_one_way_turnover_pct": 273.279951629257,
+          "benchmark": {
+            "annual_volatility_pct": 14.883065068048804,
+            "cagr_pct": 14.631202528882959,
+            "drawdown_peak": "2024-09-26",
+            "drawdown_trough": "2024-11-21",
+            "max_drawdown_pct": 11.107556009514719,
+            "return_pct": 14.74943919775935,
+            "sharpe": 1.010585608041209
+          },
+          "cost_drag_cagr_pp": 1.2958246552195192,
+          "excess_return_pp": 22.99461245774048,
+          "fee_inr": 8469.27,
+          "first": "2024-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 20.0308007652906,
+            "cagr_pct": 38.70975188177348,
+            "drawdown_peak": "2024-03-05",
+            "drawdown_trough": "2024-03-19",
+            "max_drawdown_pct": 9.953543166484991,
+            "return_pct": 39.05284254711192,
+            "sharpe": 1.7672541425089232
+          },
+          "last": "2024-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.9467277342526186,
+            "negative_months": 1,
+            "negative_sessions": 90,
+            "observed_months": 12,
+            "underperforming_months": 4,
+            "underperforming_sessions": 113,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -6.7504860391534365,
+                "day": "2024-06-04",
+                "net_pct": -6.936389101556706
+              },
+              {
+                "benchmark_pct": -2.316954334771515,
+                "day": "2024-03-13",
+                "net_pct": -5.767441497785364
+              },
+              {
+                "benchmark_pct": -2.939500980791232,
+                "day": "2024-08-05",
+                "net_pct": -3.7196614977317632
+              },
+              {
+                "benchmark_pct": -1.6943539242405325,
+                "day": "2024-10-22",
+                "net_pct": -2.766755049857994
+              },
+              {
+                "benchmark_pct": -0.5524070150474292,
+                "day": "2024-03-15",
+                "net_pct": -2.6706015905552216
+              }
+            ]
+          },
+          "mean_exposure_pct": 72.71722479911521,
+          "net": {
+            "annual_volatility_pct": 19.986540156730108,
+            "cagr_pct": 37.41392722655396,
+            "drawdown_peak": "2024-03-05",
+            "drawdown_trough": "2024-03-19",
+            "max_drawdown_pct": 9.953543166485012,
+            "return_pct": 37.74405165549983,
+            "sharpe": 1.7227902527130747
+          },
+          "one_way_turnover_pct": 270.02661887176583,
+          "sessions": 249,
+          "slippage_inr": 3340.233444999625
+        },
+        "2025": {
+          "annualized_one_way_turnover_pct": 216.3892356836351,
+          "benchmark": {
+            "annual_volatility_pct": 12.938646928907776,
+            "cagr_pct": 9.574189643943937,
+            "drawdown_peak": "2025-01-02",
+            "drawdown_trough": "2025-02-28",
+            "max_drawdown_pct": 11.288872263745164,
+            "return_pct": 9.5675381048266,
+            "sharpe": 0.7792249749890892
+          },
+          "cost_drag_cagr_pp": 0.7847808118522429,
+          "excess_return_pp": -9.533570030826576,
+          "fee_inr": 5663.66,
+          "first": "2025-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 12.083130729645248,
+            "cagr_pct": 0.8187714575172941,
+            "drawdown_peak": "2025-06-30",
+            "drawdown_trough": "2025-08-01",
+            "max_drawdown_pct": 10.73231257050351,
+            "return_pct": 0.8182256224262607,
+            "sharpe": 0.12856270064674874
+          },
+          "last": "2025-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.6128439512483558,
+            "negative_months": 3,
+            "negative_sessions": 95,
+            "observed_months": 12,
+            "underperforming_months": 6,
+            "underperforming_sessions": 138,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -3.2887581466814586,
+                "day": "2025-04-07",
+                "net_pct": -4.0630189776913905
+              },
+              {
+                "benchmark_pct": -1.3583961810417544,
+                "day": "2025-04-25",
+                "net_pct": -2.5875022671326686
+              },
+              {
+                "benchmark_pct": -1.0222060617487094,
+                "day": "2025-05-08",
+                "net_pct": -2.266332296763174
+              },
+              {
+                "benchmark_pct": -1.2573360016628232,
+                "day": "2025-05-20",
+                "net_pct": -2.1741679447441764
+              },
+              {
+                "benchmark_pct": -1.1936098312191223,
+                "day": "2025-12-08",
+                "net_pct": -1.9532937541723472
+              }
+            ]
+          },
+          "mean_exposure_pct": 59.407758857770396,
+          "net": {
+            "annual_volatility_pct": 12.105578651914497,
+            "cagr_pct": 0.033990645665051195,
+            "drawdown_peak": "2025-06-30",
+            "drawdown_trough": "2025-08-01",
+            "max_drawdown_pct": 10.923488283386673,
+            "return_pct": 0.03396807400002366,
+            "sharpe": 0.06326138029486095
+          },
+          "one_way_turnover_pct": 213.81317335406803,
+          "sessions": 249,
+          "slippage_inr": 2147.4992599997777
+        },
+        "2026": {
+          "annualized_one_way_turnover_pct": 95.78752413601295,
+          "benchmark": {
+            "annual_volatility_pct": 15.558477860377632,
+            "cagr_pct": 1.4629717611691284,
+            "drawdown_peak": "2026-01-02",
+            "drawdown_trough": "2026-03-30",
+            "max_drawdown_pct": 14.75597368058359,
+            "return_pct": 1.2967095621116087,
+            "sharpe": 0.17235641538122756
+          },
+          "cost_drag_cagr_pp": 0.3317475642706076,
+          "excess_return_pp": -3.3619011996114945,
+          "fee_inr": 2148.0,
+          "first": "2026-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 6.013133396171212,
+            "cagr_pct": -1.9932471558738336,
+            "drawdown_peak": "2026-08-27",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 6.895973081192119,
+            "return_pct": -1.770178132556821,
+            "sharpe": -0.3102335986476035
+          },
+          "last": "2026-11-20",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.5072329061381127,
+            "negative_months": 3,
+            "negative_sessions": 38,
+            "observed_months": 11,
+            "underperforming_months": 6,
+            "underperforming_sessions": 116,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -0.28561649867712147,
+                "day": "2026-08-31",
+                "net_pct": -1.8500057131774494
+              },
+              {
+                "benchmark_pct": -1.5791561185566794,
+                "day": "2026-09-15",
+                "net_pct": -1.7971818273533113
+              },
+              {
+                "benchmark_pct": -1.9618053692526227,
+                "day": "2026-10-08",
+                "net_pct": -1.2056856990253273
+              },
+              {
+                "benchmark_pct": -0.32857868318050265,
+                "day": "2026-08-19",
+                "net_pct": -1.1083213668215408
+              },
+              {
+                "benchmark_pct": -0.5285501152137884,
+                "day": "2026-09-01",
+                "net_pct": -1.0678516703869434
+              }
+            ]
+          },
+          "mean_exposure_pct": 19.755038868838888,
+          "net": {
+            "annual_volatility_pct": 6.035895827829877,
+            "cagr_pct": -2.324994720144441,
+            "drawdown_peak": "2026-08-27",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 6.991164615326584,
+            "return_pct": -2.0651916374998858,
+            "sharpe": -0.3659114706368703
+          },
+          "one_way_turnover_pct": 83.62402900763036,
+          "sessions": 220,
+          "slippage_inr": 832.2663749999222
+        }
+      },
+      "company_events": {
+        "bonus_credited": 2,
+        "bonus_entitlement": 2,
+        "bonus_tradable": 2,
+        "converted": 2,
+        "credited": 2,
+        "dividend": 35,
+        "quarantine_release": 1,
+        "suspended": 2,
+        "tradable": 2
+      },
+      "fills": {
+        "buy": 161,
+        "sell": 161,
+        "unknown_band_sales": 20
+      },
+      "order_exceptions": {
+        "missed/unknown_upper_band": 661
+      },
+      "overall": {
+        "annualized_one_way_turnover_pct": 66.87569639591115,
+        "benchmark": {
+          "annual_volatility_pct": 16.244754104439416,
+          "cagr_pct": 14.279059760458592,
+          "drawdown_peak": "2020-01-17",
+          "drawdown_trough": "2020-03-23",
+          "max_drawdown_pct": 38.033598147550784,
+          "return_pct": 274.32673129639704,
+          "sharpe": 0.9175507212034946
+        },
+        "cost_drag_cagr_pp": 0.24602941397270772,
+        "excess_return_pp": -223.50374681134898,
+        "fee_inr": 18573.37,
+        "first": "2017-01-02",
+        "gross_same_fills": {
+          "annual_volatility_pct": 7.941192513558491,
+          "cagr_pct": 4.48893100209247,
+          "drawdown_peak": "2025-06-30",
+          "drawdown_trough": "2025-08-01",
+          "max_drawdown_pct": 10.73231257050351,
+          "return_pct": 54.38040052806941,
+          "sharpe": 0.6021359767530526
+        },
+        "last": "2026-11-20",
+        "loss_diagnosis": {
+          "mean_loss_session_pct": -0.47202259132543,
+          "negative_months": 17,
+          "negative_sessions": 434,
+          "observed_months": 119,
+          "underperforming_months": 65,
+          "underperforming_sessions": 1335,
+          "worst_sessions": [
+            {
+              "benchmark_pct": -6.7504860391534365,
+              "day": "2024-06-04",
+              "net_pct": -6.936389101556706
+            },
+            {
+              "benchmark_pct": -2.316954334771515,
+              "day": "2024-03-13",
+              "net_pct": -5.767441497785364
+            },
+            {
+              "benchmark_pct": -3.2887581466814586,
+              "day": "2025-04-07",
+              "net_pct": -4.0630189776913905
+            },
+            {
+              "benchmark_pct": -2.939500980791232,
+              "day": "2024-08-05",
+              "net_pct": -3.7196614977317632
+            },
+            {
+              "benchmark_pct": -1.6943539242405325,
+              "day": "2024-10-22",
+              "net_pct": -2.766755049857994
+            }
+          ]
+        },
+        "mean_exposure_pct": 17.37333010987452,
+        "net": {
+          "annual_volatility_pct": 7.933333458241408,
+          "cagr_pct": 4.2429015881197625,
+          "drawdown_peak": "2025-06-30",
+          "drawdown_trough": "2025-08-01",
+          "max_drawdown_pct": 10.923488283386684,
+          "return_pct": 50.822984485048075,
+          "sharpe": 0.5724401235897163
+        },
+        "one_way_turnover_pct": 650.4457613745168,
+        "sessions": 2451,
+        "slippage_inr": 7179.236804999245
+      },
+      "qualification": {
+        "breadth_pass": false,
+        "cagr_pass": false,
+        "complete_windows": 10,
+        "drawdown_multiple_limit": 1.2,
+        "drawdown_pass": true,
+        "planned_windows": 10,
+        "qualified": false,
+        "verdict": "does not qualify",
+        "winning_windows": 1,
+        "winning_windows_required": 7
+      },
+      "realized_sales_excluding_income": {
+        "losing": 55,
+        "net_realized_inr": 270988.03187590576,
+        "sales": 161
+      },
+      "windows": {
+        "walk-1": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 9.549152638594483,
+            "cagr_pct": 35.349676103238956,
+            "drawdown_peak": "2017-09-19",
+            "drawdown_trough": "2017-09-27",
+            "max_drawdown_pct": 4.638692010787193,
+            "return_pct": 35.21037682473609,
+            "sharpe": 3.259493121971255
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -35.21037682473609,
+          "fee_inr": 0.0,
+          "first": "2017-01-02",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2017-12-29",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 151,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.17259148205790442,
+                "day": "2017-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.30465251167168805,
+                "day": "2017-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.006635737808735609,
+                "day": "2017-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 1.1126026711565151,
+                "day": "2017-01-05",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.3365961596159539,
+                "day": "2017-01-06",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "scheduled": [
+            "2017-01-02",
+            "2017-12-29"
+          ],
+          "scheduled_sessions": 248,
+          "sessions": 248,
+          "slippage_inr": 0.0
+        },
+        "walk-10": {
+          "annualized_one_way_turnover_pct": 95.78752413601295,
+          "benchmark": {
+            "annual_volatility_pct": 15.558477860377632,
+            "cagr_pct": 1.4629717611691284,
+            "drawdown_peak": "2026-01-02",
+            "drawdown_trough": "2026-03-30",
+            "max_drawdown_pct": 14.75597368058359,
+            "return_pct": 1.2967095621116087,
+            "sharpe": 0.17235641538122756
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.3317475642706076,
+          "excess_return_pp": -3.3619011996114945,
+          "fee_inr": 2148.0,
+          "first": "2026-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 6.013133396171212,
+            "cagr_pct": -1.9932471558738336,
+            "drawdown_peak": "2026-08-27",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 6.895973081192119,
+            "return_pct": -1.770178132556821,
+            "sharpe": -0.3102335986476035
+          },
+          "last": "2026-11-20",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.5072329061381127,
+            "negative_months": 3,
+            "negative_sessions": 38,
+            "observed_months": 11,
+            "underperforming_months": 6,
+            "underperforming_sessions": 116,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -0.28561649867712147,
+                "day": "2026-08-31",
+                "net_pct": -1.8500057131774494
+              },
+              {
+                "benchmark_pct": -1.5791561185566794,
+                "day": "2026-09-15",
+                "net_pct": -1.7971818273533113
+              },
+              {
+                "benchmark_pct": -1.9618053692526227,
+                "day": "2026-10-08",
+                "net_pct": -1.2056856990253273
+              },
+              {
+                "benchmark_pct": -0.32857868318050265,
+                "day": "2026-08-19",
+                "net_pct": -1.1083213668215408
+              },
+              {
+                "benchmark_pct": -0.5285501152137884,
+                "day": "2026-09-01",
+                "net_pct": -1.0678516703869434
+              }
+            ]
+          },
+          "mean_exposure_pct": 19.755038868838888,
+          "net": {
+            "annual_volatility_pct": 6.035895827829877,
+            "cagr_pct": -2.324994720144441,
+            "drawdown_peak": "2026-08-27",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 6.991164615326584,
+            "return_pct": -2.0651916374998858,
+            "sharpe": -0.3659114706368703
+          },
+          "one_way_turnover_pct": 83.62402900763036,
+          "scheduled": [
+            "2026-01-01",
+            "2026-11-20"
+          ],
+          "scheduled_sessions": 220,
+          "sessions": 220,
+          "slippage_inr": 832.2663749999222
+        },
+        "walk-2": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 13.31678931965209,
+            "cagr_pct": 0.31464145966085694,
+            "drawdown_peak": "2018-08-28",
+            "drawdown_trough": "2018-10-26",
+            "max_drawdown_pct": 15.159884079337871,
+            "return_pct": 0.3161578647790986,
+            "sharpe": 0.0906834279767059
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -0.3161578647790986,
+          "fee_inr": 0.0,
+          "first": "2018-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2018-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 6,
+            "underperforming_sessions": 127,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -0.7102280732404154,
+                "day": "2018-01-01",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.10656548385128417,
+                "day": "2018-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.1664820023296043,
+                "day": "2018-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.6828315029950849,
+                "day": "2018-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.6803133103369552,
+                "day": "2018-01-05",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "scheduled": [
+            "2018-01-01",
+            "2018-12-31"
+          ],
+          "scheduled_sessions": 246,
+          "sessions": 246,
+          "slippage_inr": 0.0
+        },
+        "walk-3": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 13.84773364603292,
+            "cagr_pct": 10.041456300883803,
+            "drawdown_peak": "2019-06-03",
+            "drawdown_trough": "2019-08-22",
+            "max_drawdown_pct": 11.07392309157258,
+            "return_pct": 10.034465517628943,
+            "sharpe": 0.7788829917198123
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -10.034465517628943,
+          "fee_inr": 0.0,
+          "first": "2019-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2019-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 7,
+            "underperforming_sessions": 129,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.31825127525224595,
+                "day": "2019-01-01",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -1.0669455481168488,
+                "day": "2019-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -1.0348667890261454,
+                "day": "2019-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.4868820672969676,
+                "day": "2019-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.32742656381403723,
+                "day": "2019-01-07",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "scheduled": [
+            "2019-01-01",
+            "2019-12-31"
+          ],
+          "scheduled_sessions": 245,
+          "sessions": 245,
+          "slippage_inr": 0.0
+        },
+        "walk-4": {
+          "annualized_one_way_turnover_pct": 18.104938705594865,
+          "benchmark": {
+            "annual_volatility_pct": 29.975801782504142,
+            "cagr_pct": 16.78948805319878,
+            "drawdown_peak": "2020-01-17",
+            "drawdown_trough": "2020-03-23",
+            "max_drawdown_pct": 38.033598147550784,
+            "return_pct": 16.82708692050552,
+            "sharpe": 0.6716295082164444
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.06548720229280214,
+          "excess_return_pp": -20.40359772050554,
+          "fee_inr": 489.76,
+          "first": "2020-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 3.2445899806903857,
+            "cagr_pct": -3.5037550962838853,
+            "drawdown_peak": "2020-02-20",
+            "drawdown_trough": "2020-03-24",
+            "max_drawdown_pct": 5.280973643095388,
+            "return_pct": -3.5108926797288054,
+            "sharpe": -1.0852571203143389
+          },
+          "last": "2020-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.2294680203709657,
+            "negative_months": 4,
+            "negative_sessions": 51,
+            "observed_months": 12,
+            "underperforming_months": 7,
+            "underperforming_sessions": 154,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -12.781855649783648,
+                "day": "2020-03-23",
+                "net_pct": -1.2798017955985341
+              },
+              {
+                "benchmark_pct": -5.481018708179697,
+                "day": "2020-03-18",
+                "net_pct": -1.019970076735277
+              },
+              {
+                "benchmark_pct": -2.430426286024434,
+                "day": "2020-03-06",
+                "net_pct": -0.7867194059528737
+              },
+              {
+                "benchmark_pct": -7.147956189346516,
+                "day": "2020-03-16",
+                "net_pct": -0.7782250650155143
+              },
+              {
+                "benchmark_pct": -4.791429350142906,
+                "day": "2020-03-09",
+                "net_pct": -0.7462797067429139
+              }
+            ]
+          },
+          "mean_exposure_pct": 3.593002400770905,
+          "net": {
+            "annual_volatility_pct": 3.2459349148193324,
+            "cagr_pct": -3.5692422985766874,
+            "drawdown_peak": "2020-02-20",
+            "drawdown_trough": "2020-03-24",
+            "max_drawdown_pct": 5.283664902450513,
+            "return_pct": -3.576510800000021,
+            "sharpe": -1.105749216872885
+          },
+          "one_way_turnover_pct": 18.10493870559487,
+          "scheduled": [
+            "2020-01-01",
+            "2020-12-31"
+          ],
+          "scheduled_sessions": 252,
+          "sessions": 252,
+          "slippage_inr": 177.54799999998878
+        },
+        "walk-5": {
+          "annualized_one_way_turnover_pct": 45.33522130911346,
+          "benchmark": {
+            "annual_volatility_pct": 15.40306000044501,
+            "cagr_pct": 28.90459380412822,
+            "drawdown_peak": "2021-10-18",
+            "drawdown_trough": "2021-12-20",
+            "max_drawdown_pct": 10.172812814153476,
+            "return_pct": 28.882865343161757,
+            "sharpe": 1.7515577676102776
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.18530922331261834,
+          "excess_return_pp": -16.092699608161777,
+          "fee_inr": 1286.25,
+          "first": "2021-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 4.606746622439367,
+            "cagr_pct": 12.984494530231572,
+            "drawdown_peak": "2021-09-15",
+            "drawdown_trough": "2021-11-30",
+            "max_drawdown_pct": 2.531386108245526,
+            "return_pct": 12.975337014988963,
+            "sharpe": 2.7145716719844795
+          },
+          "last": "2021-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.21842375436744352,
+            "negative_months": 5,
+            "negative_sessions": 99,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 138,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -1.2713652669339548,
+                "day": "2021-01-18",
+                "net_pct": -0.8126769411864299
+              },
+              {
+                "benchmark_pct": -3.94086278190926,
+                "day": "2021-04-12",
+                "net_pct": -0.6614987001958839
+              },
+              {
+                "benchmark_pct": -1.966062387212364,
+                "day": "2021-10-28",
+                "net_pct": -0.6435229001123255
+              },
+              {
+                "benchmark_pct": 0.005589073655176691,
+                "day": "2021-05-25",
+                "net_pct": -0.5494222664418236
+              },
+              {
+                "benchmark_pct": -0.4805845935248243,
+                "day": "2021-10-21",
+                "net_pct": -0.4909453793097929
+              }
+            ]
+          },
+          "mean_exposure_pct": 13.168840272061862,
+          "net": {
+            "annual_volatility_pct": 4.60126984373167,
+            "cagr_pct": 12.799185306918954,
+            "drawdown_peak": "2021-09-15",
+            "drawdown_trough": "2021-12-01",
+            "max_drawdown_pct": 2.554015036492996,
+            "return_pct": 12.79016573499998,
+            "sharpe": 2.6815048300584974
+          },
+          "one_way_turnover_pct": 44.61561462166721,
+          "scheduled": [
+            "2021-01-01",
+            "2021-12-31"
+          ],
+          "scheduled_sessions": 248,
+          "sessions": 248,
+          "slippage_inr": 479.0126499999588
+        },
+        "walk-6": {
+          "annualized_one_way_turnover_pct": 6.704190172991553,
+          "benchmark": {
+            "annual_volatility_pct": 17.521879216356087,
+            "cagr_pct": 4.933942049898268,
+            "drawdown_peak": "2022-01-17",
+            "drawdown_trough": "2022-06-20",
+            "max_drawdown_pct": 16.549462250405345,
+            "return_pct": 4.91675150742461,
+            "sharpe": 0.3659353709239538
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.02239137816267861,
+          "excess_return_pp": -4.594442507424512,
+          "fee_inr": 156.74,
+          "first": "2022-01-03",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 1.6214931271318056,
+            "cagr_pct": 0.3458023446927765,
+            "drawdown_peak": "2022-12-09",
+            "drawdown_trough": "2022-12-23",
+            "max_drawdown_pct": 1.1780562691245722,
+            "return_pct": 0.3446239524809158,
+            "sharpe": 0.22367592775655076
+          },
+          "last": "2022-12-30",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.17918178878882973,
+            "negative_months": 0,
+            "negative_sessions": 20,
+            "observed_months": 12,
+            "underperforming_months": 5,
+            "underperforming_sessions": 128,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -2.3389290235128923,
+                "day": "2022-12-23",
+                "net_pct": -0.8285835150222964
+              },
+              {
+                "benchmark_pct": -0.29183742473256613,
+                "day": "2022-11-09",
+                "net_pct": -0.39861936335715553
+              },
+              {
+                "benchmark_pct": -1.1843135635353441,
+                "day": "2022-12-21",
+                "net_pct": -0.3811371798667196
+              },
+              {
+                "benchmark_pct": -1.2069827152692336,
+                "day": "2022-12-15",
+                "net_pct": -0.37984733525933123
+              },
+              {
+                "benchmark_pct": -0.806966236648099,
+                "day": "2022-11-10",
+                "net_pct": -0.34678069123189603
+              }
+            ]
+          },
+          "mean_exposure_pct": 1.7745000191922056,
+          "net": {
+            "annual_volatility_pct": 1.6201453133263686,
+            "cagr_pct": 0.3234109665300979,
+            "drawdown_peak": "2022-12-09",
+            "drawdown_trough": "2022-12-23",
+            "max_drawdown_pct": 1.1780562691245722,
+            "return_pct": 0.3223090000000983,
+            "sharpe": 0.20989933497385696
+          },
+          "one_way_turnover_pct": 6.59777445595994,
+          "scheduled": [
+            "2022-01-03",
+            "2022-12-30"
+          ],
+          "scheduled_sessions": 248,
+          "sessions": 248,
+          "slippage_inr": 65.96999999998661
+        },
+        "walk-7": {
+          "annualized_one_way_turnover_pct": 13.996871195826396,
+          "benchmark": {
+            "annual_volatility_pct": 9.77772497610151,
+            "cagr_pct": 24.754603710325508,
+            "drawdown_peak": "2023-01-03",
+            "drawdown_trough": "2023-03-28",
+            "max_drawdown_pct": 8.425042140454252,
+            "return_pct": 24.66077168079812,
+            "sharpe": 2.3591277663681858
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.05098180346592951,
+          "excess_return_pp": -22.22338138829807,
+          "fee_inr": 359.69,
+          "first": "2023-01-02",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 2.159694294209595,
+            "cagr_pct": 2.49679296086441,
+            "drawdown_peak": "2023-12-07",
+            "drawdown_trough": "2023-12-12",
+            "max_drawdown_pct": 0.9495642142485994,
+            "return_pct": 2.4881944441906167,
+            "sharpe": 1.1765530245955977
+          },
+          "last": "2023-12-29",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.1279713720386862,
+            "negative_months": 1,
+            "negative_sessions": 41,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 141,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -1.8926420762944596,
+                "day": "2023-12-20",
+                "net_pct": -0.699923541978309
+              },
+              {
+                "benchmark_pct": 0.0913072776280277,
+                "day": "2023-12-08",
+                "net_pct": -0.5220494201923276
+              },
+              {
+                "benchmark_pct": -0.7164679402899443,
+                "day": "2023-10-04",
+                "net_pct": -0.2990004319912587
+              },
+              {
+                "benchmark_pct": -1.617832039018785,
+                "day": "2023-10-23",
+                "net_pct": -0.29089018263611655
+              },
+              {
+                "benchmark_pct": -0.1655308117113896,
+                "day": "2023-11-20",
+                "net_pct": -0.25291624854365535
+              }
+            ]
+          },
+          "mean_exposure_pct": 2.9488521153174605,
+          "net": {
+            "annual_volatility_pct": 2.15930808769337,
+            "cagr_pct": 2.4458111573984804,
+            "drawdown_peak": "2023-12-07",
+            "drawdown_trough": "2023-12-12",
+            "max_drawdown_pct": 0.9495642142485883,
+            "return_pct": 2.4373902925000523,
+            "sharpe": 1.1532347922358455
+          },
+          "one_way_turnover_pct": 13.663612357830528,
+          "scheduled": [
+            "2023-01-02",
+            "2023-12-29"
+          ],
+          "scheduled_sessions": 246,
+          "sessions": 246,
+          "slippage_inr": 136.70707499998548
+        },
+        "walk-8": {
+          "annualized_one_way_turnover_pct": 273.279951629257,
+          "benchmark": {
+            "annual_volatility_pct": 14.883065068048804,
+            "cagr_pct": 14.631202528882959,
+            "drawdown_peak": "2024-09-26",
+            "drawdown_trough": "2024-11-21",
+            "max_drawdown_pct": 11.107556009514719,
+            "return_pct": 14.74943919775935,
+            "sharpe": 1.010585608041209
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 1.2958246552195192,
+          "excess_return_pp": 22.99461245774048,
+          "fee_inr": 8469.27,
+          "first": "2024-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 20.0308007652906,
+            "cagr_pct": 38.70975188177348,
+            "drawdown_peak": "2024-03-05",
+            "drawdown_trough": "2024-03-19",
+            "max_drawdown_pct": 9.953543166484991,
+            "return_pct": 39.05284254711192,
+            "sharpe": 1.7672541425089232
+          },
+          "last": "2024-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.9467277342526186,
+            "negative_months": 1,
+            "negative_sessions": 90,
+            "observed_months": 12,
+            "underperforming_months": 4,
+            "underperforming_sessions": 113,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -6.7504860391534365,
+                "day": "2024-06-04",
+                "net_pct": -6.936389101556706
+              },
+              {
+                "benchmark_pct": -2.316954334771515,
+                "day": "2024-03-13",
+                "net_pct": -5.767441497785364
+              },
+              {
+                "benchmark_pct": -2.939500980791232,
+                "day": "2024-08-05",
+                "net_pct": -3.7196614977317632
+              },
+              {
+                "benchmark_pct": -1.6943539242405325,
+                "day": "2024-10-22",
+                "net_pct": -2.766755049857994
+              },
+              {
+                "benchmark_pct": -0.5524070150474292,
+                "day": "2024-03-15",
+                "net_pct": -2.6706015905552216
+              }
+            ]
+          },
+          "mean_exposure_pct": 72.71722479911521,
+          "net": {
+            "annual_volatility_pct": 19.986540156730108,
+            "cagr_pct": 37.41392722655396,
+            "drawdown_peak": "2024-03-05",
+            "drawdown_trough": "2024-03-19",
+            "max_drawdown_pct": 9.953543166485012,
+            "return_pct": 37.74405165549983,
+            "sharpe": 1.7227902527130747
+          },
+          "one_way_turnover_pct": 270.02661887176583,
+          "scheduled": [
+            "2024-01-01",
+            "2024-12-31"
+          ],
+          "scheduled_sessions": 249,
+          "sessions": 249,
+          "slippage_inr": 3340.233444999625
+        },
+        "walk-9": {
+          "annualized_one_way_turnover_pct": 216.3892356836351,
+          "benchmark": {
+            "annual_volatility_pct": 12.938646928907776,
+            "cagr_pct": 9.574189643943937,
+            "drawdown_peak": "2025-01-02",
+            "drawdown_trough": "2025-02-28",
+            "max_drawdown_pct": 11.288872263745164,
+            "return_pct": 9.5675381048266,
+            "sharpe": 0.7792249749890892
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.7847808118522429,
+          "excess_return_pp": -9.533570030826576,
+          "fee_inr": 5663.66,
+          "first": "2025-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 12.083130729645248,
+            "cagr_pct": 0.8187714575172941,
+            "drawdown_peak": "2025-06-30",
+            "drawdown_trough": "2025-08-01",
+            "max_drawdown_pct": 10.73231257050351,
+            "return_pct": 0.8182256224262607,
+            "sharpe": 0.12856270064674874
+          },
+          "last": "2025-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.6128439512483558,
+            "negative_months": 3,
+            "negative_sessions": 95,
+            "observed_months": 12,
+            "underperforming_months": 6,
+            "underperforming_sessions": 138,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -3.2887581466814586,
+                "day": "2025-04-07",
+                "net_pct": -4.0630189776913905
+              },
+              {
+                "benchmark_pct": -1.3583961810417544,
+                "day": "2025-04-25",
+                "net_pct": -2.5875022671326686
+              },
+              {
+                "benchmark_pct": -1.0222060617487094,
+                "day": "2025-05-08",
+                "net_pct": -2.266332296763174
+              },
+              {
+                "benchmark_pct": -1.2573360016628232,
+                "day": "2025-05-20",
+                "net_pct": -2.1741679447441764
+              },
+              {
+                "benchmark_pct": -1.1936098312191223,
+                "day": "2025-12-08",
+                "net_pct": -1.9532937541723472
+              }
+            ]
+          },
+          "mean_exposure_pct": 59.407758857770396,
+          "net": {
+            "annual_volatility_pct": 12.105578651914497,
+            "cagr_pct": 0.033990645665051195,
+            "drawdown_peak": "2025-06-30",
+            "drawdown_trough": "2025-08-01",
+            "max_drawdown_pct": 10.923488283386673,
+            "return_pct": 0.03396807400002366,
+            "sharpe": 0.06326138029486095
+          },
+          "one_way_turnover_pct": 213.81317335406803,
+          "scheduled": [
+            "2025-01-01",
+            "2025-12-31"
+          ],
+          "scheduled_sessions": 249,
+          "sessions": 249,
+          "slippage_inr": 2147.4992599997777
+        }
+      }
+    },
+    "A252": {
+      "by_regime": {
+        "off": {
+          "annualized_one_way_turnover_pct": 22.930539315133064,
+          "benchmark": {
+            "annual_volatility_pct": 20.436744930281282,
+            "cagr_pct": 9.126073769463519,
+            "drawdown_peak": "2017-12-14",
+            "drawdown_trough": "2020-03-23",
+            "max_drawdown_pct": 37.752000113709194,
+            "return_pct": 48.656357003820446,
+            "sharpe": 0.530518648799968
+          },
+          "cost_drag_cagr_pp": 0.09318885216168704,
+          "excess_return_pp": -38.927946782998646,
+          "fee_inr": 3355.18,
+          "first": "2017-01-02",
+          "gross_same_fills": {
+            "annual_volatility_pct": 8.375887891443078,
+            "cagr_pct": 2.1592786884638353,
+            "drawdown_peak": "2024-10-14",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 14.915930352524164,
+            "return_pct": 10.183952627068926,
+            "sharpe": 0.2967830190421052
+          },
+          "last": "2026-11-04",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.594374382980564,
+            "negative_months": 17,
+            "negative_sessions": 167,
+            "observed_months": 95,
+            "underperforming_months": 55,
+            "underperforming_sessions": 602,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -3.2887581466814586,
+                "day": "2025-04-07",
+                "net_pct": -4.022163126357525
+              },
+              {
+                "benchmark_pct": -1.6943539242405325,
+                "day": "2024-10-22",
+                "net_pct": -3.098279993404618
+              },
+              {
+                "benchmark_pct": -1.5791561185566794,
+                "day": "2026-09-15",
+                "net_pct": -2.8359772494484403
+              },
+              {
+                "benchmark_pct": -1.8797926101553508,
+                "day": "2025-04-04",
+                "net_pct": -2.831031495672043
+              },
+              {
+                "benchmark_pct": -1.682198281527747,
+                "day": "2024-11-13",
+                "net_pct": -2.2798651955987848
+              }
+            ]
+          },
+          "mean_exposure_pct": 15.458330084617577,
+          "net": {
+            "annual_volatility_pct": 8.370595514617788,
+            "cagr_pct": 2.0660898363021483,
+            "drawdown_peak": "2024-10-14",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 15.132894649385875,
+            "return_pct": 9.728410220821804,
+            "sharpe": 0.2860172271784117
+          },
+          "one_way_turnover_pct": 104.0973689544136,
+          "sessions": 1144,
+          "slippage_inr": 1122.3099849998837
+        },
+        "on": {
+          "annualized_one_way_turnover_pct": 80.99222986030863,
+          "benchmark": {
+            "annual_volatility_pct": 11.375833767149715,
+            "cagr_pct": 19.489289189194857,
+            "drawdown_peak": "2021-01-11",
+            "drawdown_trough": "2021-05-14",
+            "max_drawdown_pct": 11.765745008730011,
+            "return_pct": 151.8067433112043,
+            "sharpe": 1.6229095510278
+          },
+          "cost_drag_cagr_pp": 0.3134361272267032,
+          "excess_return_pp": -115.7593144443328,
+          "fee_inr": 12199.91,
+          "first": "2017-01-06",
+          "gross_same_fills": {
+            "annual_volatility_pct": 8.74626904697576,
+            "cagr_pct": 6.428383023214139,
+            "drawdown_peak": "2024-05-03",
+            "drawdown_trough": "2024-06-04",
+            "max_drawdown_pct": 9.803245356529466,
+            "return_pct": 38.14454851299545,
+            "sharpe": 0.7570393584232936
+          },
+          "last": "2026-11-20",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.3898315086092673,
+            "negative_months": 21,
+            "negative_sessions": 322,
+            "observed_months": 93,
+            "underperforming_months": 52,
+            "underperforming_sessions": 725,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -6.7504860391534365,
+                "day": "2024-06-04",
+                "net_pct": -9.711561789821921
+              },
+              {
+                "benchmark_pct": -2.316954334771515,
+                "day": "2024-03-13",
+                "net_pct": -5.867336920105926
+              },
+              {
+                "benchmark_pct": -2.939500980791232,
+                "day": "2024-08-05",
+                "net_pct": -4.186351537898114
+              },
+              {
+                "benchmark_pct": -0.9930013757357914,
+                "day": "2024-05-07",
+                "net_pct": -3.1802948240722273
+              },
+              {
+                "benchmark_pct": -2.1660711626828477,
+                "day": "2024-10-03",
+                "net_pct": -2.7076452975815846
+              }
+            ]
+          },
+          "mean_exposure_pct": 23.128844892477428,
+          "net": {
+            "annual_volatility_pct": 8.742442259966293,
+            "cagr_pct": 6.114946895987436,
+            "drawdown_peak": "2024-05-03",
+            "drawdown_trough": "2024-06-04",
+            "max_drawdown_pct": 9.803245356529434,
+            "return_pct": 36.04742886687149,
+            "sharpe": 0.7235902809800133
+          },
+          "one_way_turnover_pct": 420.06684296596575,
+          "sessions": 1307,
+          "slippage_inr": 4601.118929999508
+        }
+      },
+      "by_year": {
+        "2017": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 9.549152638594483,
+            "cagr_pct": 35.349676103238956,
+            "drawdown_peak": "2017-09-19",
+            "drawdown_trough": "2017-09-27",
+            "max_drawdown_pct": 4.638692010787193,
+            "return_pct": 35.21037682473609,
+            "sharpe": 3.259493121971255
+          },
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -35.21037682473609,
+          "fee_inr": 0.0,
+          "first": "2017-01-02",
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2017-12-29",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 151,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.17259148205790442,
+                "day": "2017-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.30465251167168805,
+                "day": "2017-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.006635737808735609,
+                "day": "2017-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 1.1126026711565151,
+                "day": "2017-01-05",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.3365961596159539,
+                "day": "2017-01-06",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "sessions": 248,
+          "slippage_inr": 0.0
+        },
+        "2018": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 13.31678931965209,
+            "cagr_pct": 0.31464145966085694,
+            "drawdown_peak": "2018-08-28",
+            "drawdown_trough": "2018-10-26",
+            "max_drawdown_pct": 15.159884079337871,
+            "return_pct": 0.3161578647790986,
+            "sharpe": 0.0906834279767059
+          },
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -0.3161578647790986,
+          "fee_inr": 0.0,
+          "first": "2018-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2018-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 6,
+            "underperforming_sessions": 127,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -0.7102280732404154,
+                "day": "2018-01-01",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.10656548385128417,
+                "day": "2018-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.1664820023296043,
+                "day": "2018-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.6828315029950849,
+                "day": "2018-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.6803133103369552,
+                "day": "2018-01-05",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "sessions": 246,
+          "slippage_inr": 0.0
+        },
+        "2019": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 13.84773364603292,
+            "cagr_pct": 10.041456300883803,
+            "drawdown_peak": "2019-06-03",
+            "drawdown_trough": "2019-08-22",
+            "max_drawdown_pct": 11.07392309157258,
+            "return_pct": 10.034465517628943,
+            "sharpe": 0.7788829917198123
+          },
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -10.034465517628943,
+          "fee_inr": 0.0,
+          "first": "2019-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2019-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 7,
+            "underperforming_sessions": 129,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.31825127525224595,
+                "day": "2019-01-01",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -1.0669455481168488,
+                "day": "2019-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -1.0348667890261454,
+                "day": "2019-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.4868820672969676,
+                "day": "2019-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.32742656381403723,
+                "day": "2019-01-07",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "sessions": 245,
+          "slippage_inr": 0.0
+        },
+        "2020": {
+          "annualized_one_way_turnover_pct": 15.025055998273478,
+          "benchmark": {
+            "annual_volatility_pct": 29.975801782504142,
+            "cagr_pct": 16.78948805319878,
+            "drawdown_peak": "2020-01-17",
+            "drawdown_trough": "2020-03-23",
+            "max_drawdown_pct": 38.033598147550784,
+            "return_pct": 16.82708692050552,
+            "sharpe": 0.6716295082164444
+          },
+          "cost_drag_cagr_pp": 0.055054335556991685,
+          "excess_return_pp": -19.980159295505516,
+          "fee_inr": 412.79,
+          "first": "2020-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 3.253633861194749,
+            "cagr_pct": -3.0915959812027243,
+            "drawdown_peak": "2020-02-20",
+            "drawdown_trough": "2020-03-24",
+            "max_drawdown_pct": 5.280973643095388,
+            "return_pct": -3.0979074842520604,
+            "sharpe": -0.9508994215699758
+          },
+          "last": "2020-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.2557266144131269,
+            "negative_months": 3,
+            "negative_sessions": 45,
+            "observed_months": 12,
+            "underperforming_months": 7,
+            "underperforming_sessions": 152,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -12.781855649783648,
+                "day": "2020-03-23",
+                "net_pct": -1.2798017955985341
+              },
+              {
+                "benchmark_pct": -5.481018708179697,
+                "day": "2020-03-18",
+                "net_pct": -1.019970076735277
+              },
+              {
+                "benchmark_pct": -2.430426286024434,
+                "day": "2020-03-06",
+                "net_pct": -0.7867194059528737
+              },
+              {
+                "benchmark_pct": -7.147956189346516,
+                "day": "2020-03-16",
+                "net_pct": -0.7782250650155143
+              },
+              {
+                "benchmark_pct": -4.791429350142906,
+                "day": "2020-03-09",
+                "net_pct": -0.7462797067429139
+              }
+            ]
+          },
+          "mean_exposure_pct": 3.646565073658973,
+          "net": {
+            "annual_volatility_pct": 3.254410356915832,
+            "cagr_pct": -3.146650316759716,
+            "drawdown_peak": "2020-02-20",
+            "drawdown_trough": "2020-03-24",
+            "max_drawdown_pct": 5.283664902450513,
+            "return_pct": -3.153072374999999,
+            "sharpe": -0.9681602722302439
+          },
+          "one_way_turnover_pct": 15.025055998273478,
+          "sessions": 252,
+          "slippage_inr": 147.8337499999797
+        },
+        "2021": {
+          "annualized_one_way_turnover_pct": 26.023126267588136,
+          "benchmark": {
+            "annual_volatility_pct": 15.40306000044501,
+            "cagr_pct": 28.90459380412822,
+            "drawdown_peak": "2021-10-18",
+            "drawdown_trough": "2021-12-20",
+            "max_drawdown_pct": 10.172812814153476,
+            "return_pct": 28.882865343161757,
+            "sharpe": 1.7515577676102776
+          },
+          "cost_drag_cagr_pp": 0.10456134331005806,
+          "excess_return_pp": -24.899407003161777,
+          "fee_inr": 762.25,
+          "first": "2021-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 3.4801360556899343,
+            "cagr_pct": 4.090718288255901,
+            "drawdown_peak": "2021-09-15",
+            "drawdown_trough": "2021-12-06",
+            "max_drawdown_pct": 3.3065241916402033,
+            "return_pct": 4.0879475139977695,
+            "sharpe": 1.1872654772419897
+          },
+          "last": "2021-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.1721616120163998,
+            "negative_months": 5,
+            "negative_sessions": 112,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 139,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -1.2713652669339548,
+                "day": "2021-01-18",
+                "net_pct": -0.6151333368479173
+              },
+              {
+                "benchmark_pct": -3.94086278190926,
+                "day": "2021-04-12",
+                "net_pct": -0.5880837273435247
+              },
+              {
+                "benchmark_pct": -0.5354465100113615,
+                "day": "2021-10-22",
+                "net_pct": -0.5014741723407878
+              },
+              {
+                "benchmark_pct": -0.18954413791164582,
+                "day": "2021-07-28",
+                "net_pct": -0.4854915968458662
+              },
+              {
+                "benchmark_pct": 0.060130000516944726,
+                "day": "2021-08-23",
+                "net_pct": -0.4473108166786699
+              }
+            ]
+          },
+          "mean_exposure_pct": 12.396245597939826,
+          "net": {
+            "annual_volatility_pct": 3.478144520267253,
+            "cagr_pct": 3.9861569449458427,
+            "drawdown_peak": "2021-09-15",
+            "drawdown_trough": "2021-12-06",
+            "max_drawdown_pct": 3.3157814662081897,
+            "return_pct": 3.983458339999979,
+            "sharpe": 1.158578777165858
+          },
+          "one_way_turnover_pct": 25.61006077127721,
+          "sessions": 248,
+          "slippage_inr": 259.2965999999671
+        },
+        "2022": {
+          "annualized_one_way_turnover_pct": 19.3589312026341,
+          "benchmark": {
+            "annual_volatility_pct": 17.521879216356087,
+            "cagr_pct": 4.933942049898268,
+            "drawdown_peak": "2022-01-17",
+            "drawdown_trough": "2022-06-20",
+            "max_drawdown_pct": 16.549462250405345,
+            "return_pct": 4.91675150742461,
+            "sharpe": 0.3659353709239538
+          },
+          "cost_drag_cagr_pp": 0.06570807983491855,
+          "excess_return_pp": -6.741017712424535,
+          "fee_inr": 470.31,
+          "first": "2022-01-03",
+          "gross_same_fills": {
+            "annual_volatility_pct": 2.912549148181377,
+            "cagr_pct": -1.7647278461468339,
+            "drawdown_peak": "2022-09-13",
+            "drawdown_trough": "2022-12-23",
+            "max_drawdown_pct": 3.5462697951220368,
+            "return_pct": -1.7587776131552713,
+            "sharpe": -0.6044542451993719
+          },
+          "last": "2022-12-30",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.20228134926877822,
+            "negative_months": 3,
+            "negative_sessions": 41,
+            "observed_months": 12,
+            "underperforming_months": 5,
+            "underperforming_sessions": 129,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -2.3389290235128923,
+                "day": "2022-12-23",
+                "net_pct": -1.963286678434184
+              },
+              {
+                "benchmark_pct": -1.1843135635353441,
+                "day": "2022-12-21",
+                "net_pct": -0.6626028290783292
+              },
+              {
+                "benchmark_pct": -0.33956609299296003,
+                "day": "2022-12-30",
+                "net_pct": -0.5009828017596973
+              },
+              {
+                "benchmark_pct": 0.6674311849017789,
+                "day": "2022-10-17",
+                "net_pct": -0.47964937018336595
+              },
+              {
+                "benchmark_pct": 1.0378582181837626,
+                "day": "2022-10-18",
+                "net_pct": -0.4081227480426497
+              }
+            ]
+          },
+          "mean_exposure_pct": 3.84204367111495,
+          "net": {
+            "annual_volatility_pct": 2.915138120664001,
+            "cagr_pct": -1.8304359259817524,
+            "drawdown_peak": "2022-09-13",
+            "drawdown_trough": "2022-12-23",
+            "max_drawdown_pct": 3.6003607774259483,
+            "return_pct": -1.8242662049999248,
+            "sharpe": -0.6271335863318018
+          },
+          "one_way_turnover_pct": 19.051646580370065,
+          "sessions": 248,
+          "slippage_inr": 188.35204999997677
+        },
+        "2023": {
+          "annualized_one_way_turnover_pct": 30.48803891644557,
+          "benchmark": {
+            "annual_volatility_pct": 9.77772497610151,
+            "cagr_pct": 24.754603710325508,
+            "drawdown_peak": "2023-01-03",
+            "drawdown_trough": "2023-03-28",
+            "max_drawdown_pct": 8.425042140454252,
+            "return_pct": 24.66077168079812,
+            "sharpe": 2.3591277663681858
+          },
+          "cost_drag_cagr_pp": 0.12143144697166353,
+          "excess_return_pp": -17.343072520798074,
+          "fee_inr": 854.0500000000001,
+          "first": "2023-01-02",
+          "gross_same_fills": {
+            "annual_volatility_pct": 2.9740927049929704,
+            "cagr_pct": 7.465004831299347,
+            "drawdown_peak": "2023-09-29",
+            "drawdown_trough": "2023-10-26",
+            "max_drawdown_pct": 2.3105727089265615,
+            "return_pct": 7.438688112345582,
+            "sharpe": 2.4864908147807694
+          },
+          "last": "2023-12-29",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.13321208292888104,
+            "negative_months": 2,
+            "negative_sessions": 80,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 137,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.26164830237696,
+                "day": "2023-08-29",
+                "net_pct": -0.49293517464227277
+              },
+              {
+                "benchmark_pct": -0.7284155153623684,
+                "day": "2023-10-25",
+                "net_pct": -0.4908561905893061
+              },
+              {
+                "benchmark_pct": 1.0016759972837574,
+                "day": "2023-05-08",
+                "net_pct": -0.3960342583434806
+              },
+              {
+                "benchmark_pct": -1.617832039018785,
+                "day": "2023-10-23",
+                "net_pct": -0.39108357567101404
+              },
+              {
+                "benchmark_pct": -0.05990337292818282,
+                "day": "2023-07-13",
+                "net_pct": -0.34421542799535354
+              }
+            ]
+          },
+          "mean_exposure_pct": 10.141342842818284,
+          "net": {
+            "annual_volatility_pct": 2.9693732256004637,
+            "cagr_pct": 7.343573384327684,
+            "drawdown_peak": "2023-09-29",
+            "drawdown_trough": "2023-10-26",
+            "max_drawdown_pct": 2.3379343784880713,
+            "return_pct": 7.317699160000046,
+            "sharpe": 2.4515132912320046
+          },
+          "one_way_turnover_pct": 29.76213322795877,
+          "sessions": 246,
+          "slippage_inr": 305.4083999999825
+        },
+        "2024": {
+          "annualized_one_way_turnover_pct": 205.60691443988418,
+          "benchmark": {
+            "annual_volatility_pct": 14.883065068048804,
+            "cagr_pct": 14.631202528882959,
+            "drawdown_peak": "2024-09-26",
+            "drawdown_trough": "2024-11-21",
+            "max_drawdown_pct": 11.107556009514719,
+            "return_pct": 14.74943919775935,
+            "sharpe": 1.010585608041209
+          },
+          "cost_drag_cagr_pp": 0.9935143064491996,
+          "excess_return_pp": 19.89346658674087,
+          "fee_inr": 6622.5,
+          "first": "2024-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 21.78717072312703,
+            "cagr_pct": 35.33664887959051,
+            "drawdown_peak": "2024-09-23",
+            "drawdown_trough": "2024-11-13",
+            "max_drawdown_pct": 14.005684835117528,
+            "return_pct": 35.646182492813594,
+            "sharpe": 1.5272304266205543
+          },
+          "last": "2024-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.9987232444672315,
+            "negative_months": 2,
+            "negative_sessions": 93,
+            "observed_months": 12,
+            "underperforming_months": 5,
+            "underperforming_sessions": 121,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -6.7504860391534365,
+                "day": "2024-06-04",
+                "net_pct": -9.711561789821921
+              },
+              {
+                "benchmark_pct": -2.316954334771515,
+                "day": "2024-03-13",
+                "net_pct": -5.867336920105926
+              },
+              {
+                "benchmark_pct": -2.939500980791232,
+                "day": "2024-08-05",
+                "net_pct": -4.186351537898114
+              },
+              {
+                "benchmark_pct": -0.9930013757357914,
+                "day": "2024-05-07",
+                "net_pct": -3.1802948240722273
+              },
+              {
+                "benchmark_pct": -1.6943539242405325,
+                "day": "2024-10-22",
+                "net_pct": -3.098279993404618
+              }
+            ]
+          },
+          "mean_exposure_pct": 75.4353769147814,
+          "net": {
+            "annual_volatility_pct": 21.762785141028136,
+            "cagr_pct": 34.34313457314131,
+            "drawdown_peak": "2024-09-23",
+            "drawdown_trough": "2024-11-13",
+            "max_drawdown_pct": 14.103399296944852,
+            "return_pct": 34.64290578450022,
+            "sharpe": 1.4941385414061095
+          },
+          "one_way_turnover_pct": 203.15921307750457,
+          "sessions": 249,
+          "slippage_inr": 2466.0721549997184
+        },
+        "2025": {
+          "annualized_one_way_turnover_pct": 151.3291466497351,
+          "benchmark": {
+            "annual_volatility_pct": 12.938646928907776,
+            "cagr_pct": 9.574189643943937,
+            "drawdown_peak": "2025-01-02",
+            "drawdown_trough": "2025-02-28",
+            "max_drawdown_pct": 11.288872263745164,
+            "return_pct": 9.5675381048266,
+            "sharpe": 0.7792249749890892
+          },
+          "cost_drag_cagr_pp": 0.6122344080062518,
+          "excess_return_pp": -1.174344259826631,
+          "fee_inr": 4274.53,
+          "first": "2025-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 12.253983297691459,
+            "cagr_pct": 9.011232437799316,
+            "drawdown_peak": "2025-04-03",
+            "drawdown_trough": "2025-04-07",
+            "max_drawdown_pct": 6.73932591711508,
+            "return_pct": 9.004987859552305,
+            "sharpe": 0.7734796247006898
+          },
+          "last": "2025-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.6837901077196736,
+            "negative_months": 4,
+            "negative_sessions": 82,
+            "observed_months": 12,
+            "underperforming_months": 6,
+            "underperforming_sessions": 126,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -3.2887581466814586,
+                "day": "2025-04-07",
+                "net_pct": -4.022163126357525
+              },
+              {
+                "benchmark_pct": -1.8797926101553508,
+                "day": "2025-04-04",
+                "net_pct": -2.831031495672043
+              },
+              {
+                "benchmark_pct": -1.0222060617487094,
+                "day": "2025-05-08",
+                "net_pct": -2.4559358874699955
+              },
+              {
+                "benchmark_pct": -1.1936098312191223,
+                "day": "2025-12-08",
+                "net_pct": -2.2593415746907097
+              },
+              {
+                "benchmark_pct": -1.2573360016628232,
+                "day": "2025-05-20",
+                "net_pct": -2.1388815847302234
+              }
+            ]
+          },
+          "mean_exposure_pct": 63.52041955735538,
+          "net": {
+            "annual_volatility_pct": 12.271791096661683,
+            "cagr_pct": 8.398998029793065,
+            "drawdown_peak": "2025-04-03",
+            "drawdown_trough": "2025-04-07",
+            "max_drawdown_pct": 6.7393259171150905,
+            "return_pct": 8.393193844999969,
+            "sharpe": 0.7261051426902367
+          },
+          "one_way_turnover_pct": 149.5276091896192,
+          "sessions": 249,
+          "slippage_inr": 1550.2315499998476
+        },
+        "2026": {
+          "annualized_one_way_turnover_pct": 93.9599102499762,
+          "benchmark": {
+            "annual_volatility_pct": 15.558477860377632,
+            "cagr_pct": 1.4629717611691284,
+            "drawdown_peak": "2026-01-02",
+            "drawdown_trough": "2026-03-30",
+            "max_drawdown_pct": 14.75597368058359,
+            "return_pct": 1.2967095621116087,
+            "sharpe": 0.17235641538122756
+          },
+          "cost_drag_cagr_pp": 0.32728428539837084,
+          "excess_return_pp": -4.891984003111583,
+          "fee_inr": 2158.66,
+          "first": "2026-01-01",
+          "gross_same_fills": {
+            "annual_volatility_pct": 8.052513497633312,
+            "cagr_pct": -3.7162658989611788,
+            "drawdown_peak": "2026-08-27",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 11.447884589396685,
+            "return_pct": -3.303646270184457,
+            "sharpe": -0.43755195562625726
+          },
+          "last": "2026-11-20",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.7248310281309617,
+            "negative_months": 2,
+            "negative_sessions": 36,
+            "observed_months": 11,
+            "underperforming_months": 6,
+            "underperforming_sessions": 116,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -1.5791561185566794,
+                "day": "2026-09-15",
+                "net_pct": -2.8359772494484403
+              },
+              {
+                "benchmark_pct": -1.9618053692526227,
+                "day": "2026-10-08",
+                "net_pct": -2.02594910267595
+              },
+              {
+                "benchmark_pct": -0.7578255375221943,
+                "day": "2026-10-21",
+                "net_pct": -2.0141365650565124
+              },
+              {
+                "benchmark_pct": -0.5285501152137884,
+                "day": "2026-09-01",
+                "net_pct": -1.979442301625911
+              },
+              {
+                "benchmark_pct": -1.6451369726858456,
+                "day": "2026-09-28",
+                "net_pct": -1.8376544933155436
+              }
+            ]
+          },
+          "mean_exposure_pct": 26.695164059488658,
+          "net": {
+            "annual_volatility_pct": 8.055062406103135,
+            "cagr_pct": -4.04355018435955,
+            "drawdown_peak": "2026-08-27",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 11.504167136373134,
+            "return_pct": -3.5952744409999737,
+            "sharpe": -0.48033202123230584
+          },
+          "one_way_turnover_pct": 82.02849307537605,
+          "sessions": 220,
+          "slippage_inr": 806.2344099999189
+        }
+      },
+      "company_events": {
+        "bonus_credited": 2,
+        "bonus_entitlement": 2,
+        "bonus_fraction_paid": 1,
+        "bonus_tradable": 2,
+        "converted": 2,
+        "credited": 2,
+        "dividend": 42,
+        "quarantine_release": 3,
+        "suspended": 2,
+        "tradable": 2
+      },
+      "fills": {
+        "buy": 147,
+        "sell": 173,
+        "unknown_band_sales": 24
+      },
+      "order_exceptions": {
+        "missed/unknown_upper_band": 647
+      },
+      "overall": {
+        "annualized_one_way_turnover_pct": 53.89203647651391,
+        "benchmark": {
+          "annual_volatility_pct": 16.244754104439416,
+          "cagr_pct": 14.279059760458592,
+          "drawdown_peak": "2020-01-17",
+          "drawdown_trough": "2020-03-23",
+          "max_drawdown_pct": 38.033598147550784,
+          "return_pct": 274.32673129639704,
+          "sharpe": 0.9175507212034946
+        },
+        "cost_drag_cagr_pp": 0.2049046760117159,
+        "excess_return_pp": -225.0440504544755,
+        "fee_inr": 15555.09,
+        "first": "2017-01-02",
+        "gross_same_fills": {
+          "annual_volatility_pct": 8.574630513441496,
+          "cagr_pct": 4.339657730845406,
+          "drawdown_peak": "2024-09-23",
+          "drawdown_trough": "2025-04-07",
+          "max_drawdown_pct": 14.115960238391745,
+          "return_pct": 52.21312389043682,
+          "sharpe": 0.547085548650467
+        },
+        "last": "2026-11-20",
+        "loss_diagnosis": {
+          "mean_loss_session_pct": -0.4596856190796283,
+          "negative_months": 21,
+          "negative_sessions": 489,
+          "observed_months": 119,
+          "underperforming_months": 66,
+          "underperforming_sessions": 1327,
+          "worst_sessions": [
+            {
+              "benchmark_pct": -6.7504860391534365,
+              "day": "2024-06-04",
+              "net_pct": -9.711561789821921
+            },
+            {
+              "benchmark_pct": -2.316954334771515,
+              "day": "2024-03-13",
+              "net_pct": -5.867336920105926
+            },
+            {
+              "benchmark_pct": -2.939500980791232,
+              "day": "2024-08-05",
+              "net_pct": -4.186351537898114
+            },
+            {
+              "benchmark_pct": -3.2887581466814586,
+              "day": "2025-04-07",
+              "net_pct": -4.022163126357525
+            },
+            {
+              "benchmark_pct": -0.9930013757357914,
+              "day": "2024-05-07",
+              "net_pct": -3.1802948240722273
+            }
+          ]
+        },
+        "mean_exposure_pct": 19.548645406475114,
+        "net": {
+          "annual_volatility_pct": 8.57004327900377,
+          "cagr_pct": 4.13475305483369,
+          "drawdown_peak": "2024-09-23",
+          "drawdown_trough": "2025-04-07",
+          "max_drawdown_pct": 14.38376792637749,
+          "return_pct": 49.28268084192153,
+          "sharpe": 0.5240090156771893
+        },
+        "one_way_turnover_pct": 524.1642119203794,
+        "sessions": 2451,
+        "slippage_inr": 5723.428914999391
+      },
+      "qualification": {
+        "breadth_pass": false,
+        "cagr_pass": false,
+        "complete_windows": 10,
+        "drawdown_multiple_limit": 1.2,
+        "drawdown_pass": true,
+        "planned_windows": 10,
+        "qualified": false,
+        "verdict": "does not qualify",
+        "winning_windows": 1,
+        "winning_windows_required": 7
+      },
+      "realized_sales_excluding_income": {
+        "losing": 43,
+        "net_realized_inr": 126937.41118719622,
+        "sales": 173
+      },
+      "windows": {
+        "walk-1": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 9.549152638594483,
+            "cagr_pct": 35.349676103238956,
+            "drawdown_peak": "2017-09-19",
+            "drawdown_trough": "2017-09-27",
+            "max_drawdown_pct": 4.638692010787193,
+            "return_pct": 35.21037682473609,
+            "sharpe": 3.259493121971255
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -35.21037682473609,
+          "fee_inr": 0.0,
+          "first": "2017-01-02",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2017-12-29",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 151,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.17259148205790442,
+                "day": "2017-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.30465251167168805,
+                "day": "2017-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.006635737808735609,
+                "day": "2017-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 1.1126026711565151,
+                "day": "2017-01-05",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.3365961596159539,
+                "day": "2017-01-06",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "scheduled": [
+            "2017-01-02",
+            "2017-12-29"
+          ],
+          "scheduled_sessions": 248,
+          "sessions": 248,
+          "slippage_inr": 0.0
+        },
+        "walk-10": {
+          "annualized_one_way_turnover_pct": 93.9599102499762,
+          "benchmark": {
+            "annual_volatility_pct": 15.558477860377632,
+            "cagr_pct": 1.4629717611691284,
+            "drawdown_peak": "2026-01-02",
+            "drawdown_trough": "2026-03-30",
+            "max_drawdown_pct": 14.75597368058359,
+            "return_pct": 1.2967095621116087,
+            "sharpe": 0.17235641538122756
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.32728428539837084,
+          "excess_return_pp": -4.891984003111583,
+          "fee_inr": 2158.66,
+          "first": "2026-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 8.052513497633312,
+            "cagr_pct": -3.7162658989611788,
+            "drawdown_peak": "2026-08-27",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 11.447884589396685,
+            "return_pct": -3.303646270184457,
+            "sharpe": -0.43755195562625726
+          },
+          "last": "2026-11-20",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.7248310281309617,
+            "negative_months": 2,
+            "negative_sessions": 36,
+            "observed_months": 11,
+            "underperforming_months": 6,
+            "underperforming_sessions": 116,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -1.5791561185566794,
+                "day": "2026-09-15",
+                "net_pct": -2.8359772494484403
+              },
+              {
+                "benchmark_pct": -1.9618053692526227,
+                "day": "2026-10-08",
+                "net_pct": -2.02594910267595
+              },
+              {
+                "benchmark_pct": -0.7578255375221943,
+                "day": "2026-10-21",
+                "net_pct": -2.0141365650565124
+              },
+              {
+                "benchmark_pct": -0.5285501152137884,
+                "day": "2026-09-01",
+                "net_pct": -1.979442301625911
+              },
+              {
+                "benchmark_pct": -1.6451369726858456,
+                "day": "2026-09-28",
+                "net_pct": -1.8376544933155436
+              }
+            ]
+          },
+          "mean_exposure_pct": 26.695164059488658,
+          "net": {
+            "annual_volatility_pct": 8.055062406103135,
+            "cagr_pct": -4.04355018435955,
+            "drawdown_peak": "2026-08-27",
+            "drawdown_trough": "2026-10-23",
+            "max_drawdown_pct": 11.504167136373134,
+            "return_pct": -3.5952744409999737,
+            "sharpe": -0.48033202123230584
+          },
+          "one_way_turnover_pct": 82.02849307537605,
+          "scheduled": [
+            "2026-01-01",
+            "2026-11-20"
+          ],
+          "scheduled_sessions": 220,
+          "sessions": 220,
+          "slippage_inr": 806.2344099999189
+        },
+        "walk-2": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 13.31678931965209,
+            "cagr_pct": 0.31464145966085694,
+            "drawdown_peak": "2018-08-28",
+            "drawdown_trough": "2018-10-26",
+            "max_drawdown_pct": 15.159884079337871,
+            "return_pct": 0.3161578647790986,
+            "sharpe": 0.0906834279767059
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -0.3161578647790986,
+          "fee_inr": 0.0,
+          "first": "2018-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2018-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 6,
+            "underperforming_sessions": 127,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -0.7102280732404154,
+                "day": "2018-01-01",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -0.10656548385128417,
+                "day": "2018-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.1664820023296043,
+                "day": "2018-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.6828315029950849,
+                "day": "2018-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.6803133103369552,
+                "day": "2018-01-05",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "scheduled": [
+            "2018-01-01",
+            "2018-12-31"
+          ],
+          "scheduled_sessions": 246,
+          "sessions": 246,
+          "slippage_inr": 0.0
+        },
+        "walk-3": {
+          "annualized_one_way_turnover_pct": 0.0,
+          "benchmark": {
+            "annual_volatility_pct": 13.84773364603292,
+            "cagr_pct": 10.041456300883803,
+            "drawdown_peak": "2019-06-03",
+            "drawdown_trough": "2019-08-22",
+            "max_drawdown_pct": 11.07392309157258,
+            "return_pct": 10.034465517628943,
+            "sharpe": 0.7788829917198123
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.0,
+          "excess_return_pp": -10.034465517628943,
+          "fee_inr": 0.0,
+          "first": "2019-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "last": "2019-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": null,
+            "negative_months": 0,
+            "negative_sessions": 0,
+            "observed_months": 12,
+            "underperforming_months": 7,
+            "underperforming_sessions": 129,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.31825127525224595,
+                "day": "2019-01-01",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -1.0669455481168488,
+                "day": "2019-01-02",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": -1.0348667890261454,
+                "day": "2019-01-03",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.4868820672969676,
+                "day": "2019-01-04",
+                "net_pct": 0.0
+              },
+              {
+                "benchmark_pct": 0.32742656381403723,
+                "day": "2019-01-07",
+                "net_pct": 0.0
+              }
+            ]
+          },
+          "mean_exposure_pct": 0.0,
+          "net": {
+            "annual_volatility_pct": 0.0,
+            "cagr_pct": 0.0,
+            "drawdown_peak": null,
+            "drawdown_trough": null,
+            "max_drawdown_pct": 0.0,
+            "return_pct": 0.0,
+            "sharpe": null
+          },
+          "one_way_turnover_pct": 0.0,
+          "scheduled": [
+            "2019-01-01",
+            "2019-12-31"
+          ],
+          "scheduled_sessions": 245,
+          "sessions": 245,
+          "slippage_inr": 0.0
+        },
+        "walk-4": {
+          "annualized_one_way_turnover_pct": 15.025055998273478,
+          "benchmark": {
+            "annual_volatility_pct": 29.975801782504142,
+            "cagr_pct": 16.78948805319878,
+            "drawdown_peak": "2020-01-17",
+            "drawdown_trough": "2020-03-23",
+            "max_drawdown_pct": 38.033598147550784,
+            "return_pct": 16.82708692050552,
+            "sharpe": 0.6716295082164444
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.055054335556991685,
+          "excess_return_pp": -19.980159295505516,
+          "fee_inr": 412.79,
+          "first": "2020-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 3.253633861194749,
+            "cagr_pct": -3.0915959812027243,
+            "drawdown_peak": "2020-02-20",
+            "drawdown_trough": "2020-03-24",
+            "max_drawdown_pct": 5.280973643095388,
+            "return_pct": -3.0979074842520604,
+            "sharpe": -0.9508994215699758
+          },
+          "last": "2020-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.2557266144131269,
+            "negative_months": 3,
+            "negative_sessions": 45,
+            "observed_months": 12,
+            "underperforming_months": 7,
+            "underperforming_sessions": 152,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -12.781855649783648,
+                "day": "2020-03-23",
+                "net_pct": -1.2798017955985341
+              },
+              {
+                "benchmark_pct": -5.481018708179697,
+                "day": "2020-03-18",
+                "net_pct": -1.019970076735277
+              },
+              {
+                "benchmark_pct": -2.430426286024434,
+                "day": "2020-03-06",
+                "net_pct": -0.7867194059528737
+              },
+              {
+                "benchmark_pct": -7.147956189346516,
+                "day": "2020-03-16",
+                "net_pct": -0.7782250650155143
+              },
+              {
+                "benchmark_pct": -4.791429350142906,
+                "day": "2020-03-09",
+                "net_pct": -0.7462797067429139
+              }
+            ]
+          },
+          "mean_exposure_pct": 3.646565073658973,
+          "net": {
+            "annual_volatility_pct": 3.254410356915832,
+            "cagr_pct": -3.146650316759716,
+            "drawdown_peak": "2020-02-20",
+            "drawdown_trough": "2020-03-24",
+            "max_drawdown_pct": 5.283664902450513,
+            "return_pct": -3.153072374999999,
+            "sharpe": -0.9681602722302439
+          },
+          "one_way_turnover_pct": 15.025055998273478,
+          "scheduled": [
+            "2020-01-01",
+            "2020-12-31"
+          ],
+          "scheduled_sessions": 252,
+          "sessions": 252,
+          "slippage_inr": 147.8337499999797
+        },
+        "walk-5": {
+          "annualized_one_way_turnover_pct": 26.023126267588136,
+          "benchmark": {
+            "annual_volatility_pct": 15.40306000044501,
+            "cagr_pct": 28.90459380412822,
+            "drawdown_peak": "2021-10-18",
+            "drawdown_trough": "2021-12-20",
+            "max_drawdown_pct": 10.172812814153476,
+            "return_pct": 28.882865343161757,
+            "sharpe": 1.7515577676102776
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.10456134331005806,
+          "excess_return_pp": -24.899407003161777,
+          "fee_inr": 762.25,
+          "first": "2021-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 3.4801360556899343,
+            "cagr_pct": 4.090718288255901,
+            "drawdown_peak": "2021-09-15",
+            "drawdown_trough": "2021-12-06",
+            "max_drawdown_pct": 3.3065241916402033,
+            "return_pct": 4.0879475139977695,
+            "sharpe": 1.1872654772419897
+          },
+          "last": "2021-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.1721616120163998,
+            "negative_months": 5,
+            "negative_sessions": 112,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 139,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -1.2713652669339548,
+                "day": "2021-01-18",
+                "net_pct": -0.6151333368479173
+              },
+              {
+                "benchmark_pct": -3.94086278190926,
+                "day": "2021-04-12",
+                "net_pct": -0.5880837273435247
+              },
+              {
+                "benchmark_pct": -0.5354465100113615,
+                "day": "2021-10-22",
+                "net_pct": -0.5014741723407878
+              },
+              {
+                "benchmark_pct": -0.18954413791164582,
+                "day": "2021-07-28",
+                "net_pct": -0.4854915968458662
+              },
+              {
+                "benchmark_pct": 0.060130000516944726,
+                "day": "2021-08-23",
+                "net_pct": -0.4473108166786699
+              }
+            ]
+          },
+          "mean_exposure_pct": 12.396245597939826,
+          "net": {
+            "annual_volatility_pct": 3.478144520267253,
+            "cagr_pct": 3.9861569449458427,
+            "drawdown_peak": "2021-09-15",
+            "drawdown_trough": "2021-12-06",
+            "max_drawdown_pct": 3.3157814662081897,
+            "return_pct": 3.983458339999979,
+            "sharpe": 1.158578777165858
+          },
+          "one_way_turnover_pct": 25.61006077127721,
+          "scheduled": [
+            "2021-01-01",
+            "2021-12-31"
+          ],
+          "scheduled_sessions": 248,
+          "sessions": 248,
+          "slippage_inr": 259.2965999999671
+        },
+        "walk-6": {
+          "annualized_one_way_turnover_pct": 19.3589312026341,
+          "benchmark": {
+            "annual_volatility_pct": 17.521879216356087,
+            "cagr_pct": 4.933942049898268,
+            "drawdown_peak": "2022-01-17",
+            "drawdown_trough": "2022-06-20",
+            "max_drawdown_pct": 16.549462250405345,
+            "return_pct": 4.91675150742461,
+            "sharpe": 0.3659353709239538
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.06570807983491855,
+          "excess_return_pp": -6.741017712424535,
+          "fee_inr": 470.31,
+          "first": "2022-01-03",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 2.912549148181377,
+            "cagr_pct": -1.7647278461468339,
+            "drawdown_peak": "2022-09-13",
+            "drawdown_trough": "2022-12-23",
+            "max_drawdown_pct": 3.5462697951220368,
+            "return_pct": -1.7587776131552713,
+            "sharpe": -0.6044542451993719
+          },
+          "last": "2022-12-30",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.20228134926877822,
+            "negative_months": 3,
+            "negative_sessions": 41,
+            "observed_months": 12,
+            "underperforming_months": 5,
+            "underperforming_sessions": 129,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -2.3389290235128923,
+                "day": "2022-12-23",
+                "net_pct": -1.963286678434184
+              },
+              {
+                "benchmark_pct": -1.1843135635353441,
+                "day": "2022-12-21",
+                "net_pct": -0.6626028290783292
+              },
+              {
+                "benchmark_pct": -0.33956609299296003,
+                "day": "2022-12-30",
+                "net_pct": -0.5009828017596973
+              },
+              {
+                "benchmark_pct": 0.6674311849017789,
+                "day": "2022-10-17",
+                "net_pct": -0.47964937018336595
+              },
+              {
+                "benchmark_pct": 1.0378582181837626,
+                "day": "2022-10-18",
+                "net_pct": -0.4081227480426497
+              }
+            ]
+          },
+          "mean_exposure_pct": 3.84204367111495,
+          "net": {
+            "annual_volatility_pct": 2.915138120664001,
+            "cagr_pct": -1.8304359259817524,
+            "drawdown_peak": "2022-09-13",
+            "drawdown_trough": "2022-12-23",
+            "max_drawdown_pct": 3.6003607774259483,
+            "return_pct": -1.8242662049999248,
+            "sharpe": -0.6271335863318018
+          },
+          "one_way_turnover_pct": 19.051646580370065,
+          "scheduled": [
+            "2022-01-03",
+            "2022-12-30"
+          ],
+          "scheduled_sessions": 248,
+          "sessions": 248,
+          "slippage_inr": 188.35204999997677
+        },
+        "walk-7": {
+          "annualized_one_way_turnover_pct": 30.48803891644557,
+          "benchmark": {
+            "annual_volatility_pct": 9.77772497610151,
+            "cagr_pct": 24.754603710325508,
+            "drawdown_peak": "2023-01-03",
+            "drawdown_trough": "2023-03-28",
+            "max_drawdown_pct": 8.425042140454252,
+            "return_pct": 24.66077168079812,
+            "sharpe": 2.3591277663681858
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.12143144697166353,
+          "excess_return_pp": -17.343072520798074,
+          "fee_inr": 854.0500000000001,
+          "first": "2023-01-02",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 2.9740927049929704,
+            "cagr_pct": 7.465004831299347,
+            "drawdown_peak": "2023-09-29",
+            "drawdown_trough": "2023-10-26",
+            "max_drawdown_pct": 2.3105727089265615,
+            "return_pct": 7.438688112345582,
+            "sharpe": 2.4864908147807694
+          },
+          "last": "2023-12-29",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.13321208292888104,
+            "negative_months": 2,
+            "negative_sessions": 80,
+            "observed_months": 12,
+            "underperforming_months": 8,
+            "underperforming_sessions": 137,
+            "worst_sessions": [
+              {
+                "benchmark_pct": 0.26164830237696,
+                "day": "2023-08-29",
+                "net_pct": -0.49293517464227277
+              },
+              {
+                "benchmark_pct": -0.7284155153623684,
+                "day": "2023-10-25",
+                "net_pct": -0.4908561905893061
+              },
+              {
+                "benchmark_pct": 1.0016759972837574,
+                "day": "2023-05-08",
+                "net_pct": -0.3960342583434806
+              },
+              {
+                "benchmark_pct": -1.617832039018785,
+                "day": "2023-10-23",
+                "net_pct": -0.39108357567101404
+              },
+              {
+                "benchmark_pct": -0.05990337292818282,
+                "day": "2023-07-13",
+                "net_pct": -0.34421542799535354
+              }
+            ]
+          },
+          "mean_exposure_pct": 10.141342842818284,
+          "net": {
+            "annual_volatility_pct": 2.9693732256004637,
+            "cagr_pct": 7.343573384327684,
+            "drawdown_peak": "2023-09-29",
+            "drawdown_trough": "2023-10-26",
+            "max_drawdown_pct": 2.3379343784880713,
+            "return_pct": 7.317699160000046,
+            "sharpe": 2.4515132912320046
+          },
+          "one_way_turnover_pct": 29.76213322795877,
+          "scheduled": [
+            "2023-01-02",
+            "2023-12-29"
+          ],
+          "scheduled_sessions": 246,
+          "sessions": 246,
+          "slippage_inr": 305.4083999999825
+        },
+        "walk-8": {
+          "annualized_one_way_turnover_pct": 205.60691443988418,
+          "benchmark": {
+            "annual_volatility_pct": 14.883065068048804,
+            "cagr_pct": 14.631202528882959,
+            "drawdown_peak": "2024-09-26",
+            "drawdown_trough": "2024-11-21",
+            "max_drawdown_pct": 11.107556009514719,
+            "return_pct": 14.74943919775935,
+            "sharpe": 1.010585608041209
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.9935143064491996,
+          "excess_return_pp": 19.89346658674087,
+          "fee_inr": 6622.5,
+          "first": "2024-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 21.78717072312703,
+            "cagr_pct": 35.33664887959051,
+            "drawdown_peak": "2024-09-23",
+            "drawdown_trough": "2024-11-13",
+            "max_drawdown_pct": 14.005684835117528,
+            "return_pct": 35.646182492813594,
+            "sharpe": 1.5272304266205543
+          },
+          "last": "2024-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.9987232444672315,
+            "negative_months": 2,
+            "negative_sessions": 93,
+            "observed_months": 12,
+            "underperforming_months": 5,
+            "underperforming_sessions": 121,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -6.7504860391534365,
+                "day": "2024-06-04",
+                "net_pct": -9.711561789821921
+              },
+              {
+                "benchmark_pct": -2.316954334771515,
+                "day": "2024-03-13",
+                "net_pct": -5.867336920105926
+              },
+              {
+                "benchmark_pct": -2.939500980791232,
+                "day": "2024-08-05",
+                "net_pct": -4.186351537898114
+              },
+              {
+                "benchmark_pct": -0.9930013757357914,
+                "day": "2024-05-07",
+                "net_pct": -3.1802948240722273
+              },
+              {
+                "benchmark_pct": -1.6943539242405325,
+                "day": "2024-10-22",
+                "net_pct": -3.098279993404618
+              }
+            ]
+          },
+          "mean_exposure_pct": 75.4353769147814,
+          "net": {
+            "annual_volatility_pct": 21.762785141028136,
+            "cagr_pct": 34.34313457314131,
+            "drawdown_peak": "2024-09-23",
+            "drawdown_trough": "2024-11-13",
+            "max_drawdown_pct": 14.103399296944852,
+            "return_pct": 34.64290578450022,
+            "sharpe": 1.4941385414061095
+          },
+          "one_way_turnover_pct": 203.15921307750457,
+          "scheduled": [
+            "2024-01-01",
+            "2024-12-31"
+          ],
+          "scheduled_sessions": 249,
+          "sessions": 249,
+          "slippage_inr": 2466.0721549997184
+        },
+        "walk-9": {
+          "annualized_one_way_turnover_pct": 151.3291466497351,
+          "benchmark": {
+            "annual_volatility_pct": 12.938646928907776,
+            "cagr_pct": 9.574189643943937,
+            "drawdown_peak": "2025-01-02",
+            "drawdown_trough": "2025-02-28",
+            "max_drawdown_pct": 11.288872263745164,
+            "return_pct": 9.5675381048266,
+            "sharpe": 0.7792249749890892
+          },
+          "complete": true,
+          "cost_drag_cagr_pp": 0.6122344080062518,
+          "excess_return_pp": -1.174344259826631,
+          "fee_inr": 4274.53,
+          "first": "2025-01-01",
+          "gap": null,
+          "gross_same_fills": {
+            "annual_volatility_pct": 12.253983297691459,
+            "cagr_pct": 9.011232437799316,
+            "drawdown_peak": "2025-04-03",
+            "drawdown_trough": "2025-04-07",
+            "max_drawdown_pct": 6.73932591711508,
+            "return_pct": 9.004987859552305,
+            "sharpe": 0.7734796247006898
+          },
+          "last": "2025-12-31",
+          "loss_diagnosis": {
+            "mean_loss_session_pct": -0.6837901077196736,
+            "negative_months": 4,
+            "negative_sessions": 82,
+            "observed_months": 12,
+            "underperforming_months": 6,
+            "underperforming_sessions": 126,
+            "worst_sessions": [
+              {
+                "benchmark_pct": -3.2887581466814586,
+                "day": "2025-04-07",
+                "net_pct": -4.022163126357525
+              },
+              {
+                "benchmark_pct": -1.8797926101553508,
+                "day": "2025-04-04",
+                "net_pct": -2.831031495672043
+              },
+              {
+                "benchmark_pct": -1.0222060617487094,
+                "day": "2025-05-08",
+                "net_pct": -2.4559358874699955
+              },
+              {
+                "benchmark_pct": -1.1936098312191223,
+                "day": "2025-12-08",
+                "net_pct": -2.2593415746907097
+              },
+              {
+                "benchmark_pct": -1.2573360016628232,
+                "day": "2025-05-20",
+                "net_pct": -2.1388815847302234
+              }
+            ]
+          },
+          "mean_exposure_pct": 63.52041955735538,
+          "net": {
+            "annual_volatility_pct": 12.271791096661683,
+            "cagr_pct": 8.398998029793065,
+            "drawdown_peak": "2025-04-03",
+            "drawdown_trough": "2025-04-07",
+            "max_drawdown_pct": 6.7393259171150905,
+            "return_pct": 8.393193844999969,
+            "sharpe": 0.7261051426902367
+          },
+          "one_way_turnover_pct": 149.5276091896192,
+          "scheduled": [
+            "2025-01-01",
+            "2025-12-31"
+          ],
+          "scheduled_sessions": 249,
+          "sessions": 249,
+          "slippage_inr": 1550.2315499998476
+        }
+      }
+    }
+  }
+}
