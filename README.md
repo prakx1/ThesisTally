@@ -2,9 +2,9 @@
 
 ThesisTally tests trading ideas on the Nifty 200 stocks that belonged to the index at the time. Its local terminal tracks paper trades after costs. **Paper trading only. No broker orders. No investment advice.**
 
-[![Terminal tour showing changing prices, the entry and stop for a sample call, a saved momentum report, and paper P&L updating as a price moves.](docs/figures/terminal-tour.gif)](docs/figures/terminal-tour.gif)
+[![Terminal tour showing changing prices, how to read and refresh a stock report, a sample call, a saved momentum study and paper P&L.](docs/figures/terminal-tour.gif)](docs/figures/terminal-tour.gif)
 
-The tour uses simulated quotes and paper trades. The Reports tab shows the published monthly momentum study. [View a still screenshot](docs/figures/terminal-prices.png)
+The tour uses example quotes, stock research and paper trades. The Reports tab shows the published monthly momentum study. [View a still screenshot](docs/figures/terminal-prices.png)
 
 [Quick start](#quick-start) · [Architecture](#architecture) · [Full research diary](docs/RESEARCH_SUMMARY.md)
 
@@ -66,6 +66,8 @@ Clone the repository, then run these commands with Python 3.11 or newer and uv i
 uv sync --frozen
 uv run --frozen radar
 ```
+
+In **Prices**, select a stock and press **Enter** to read its saved research. Press **A** to analyze it again. From the shell, `uv run radar research SBIN` opens a fresh SBI report. [Stock report controls](docs/operations.md#stock-reports)
 
 Press **3** for Reports, select **Monthly momentum**, then press **Enter**. Saved reports open without credentials. For live quotes, choose **Log in to Kite (F6)**, then **Check status (F5)** to verify your session. [Login and daily operation](docs/operations.md#kite-login-and-status)
 

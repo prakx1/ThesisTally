@@ -28,6 +28,7 @@ from textual.widgets import (
 from . import kite_session, market
 from .dashboard import Dashboard
 from .paper_quotes import paper_live_view
+from .stock_screen import StockReportScreen
 
 LABELS = {
     "trend_pullback": "Trend pullback",
@@ -317,6 +318,7 @@ class RadarTerminal(App):
         self.paper_data = None
         self.overview_data = {}
         self.quote_data = {}
+        self.stock_research_running = set()
         self.run_name = "observations"
         self.run_options = []
         self.loading_local = self.loading_quotes = False
@@ -329,6 +331,9 @@ class RadarTerminal(App):
             with TabPane("Prices", id="prices"):
                 yield Static("Connecting to Kite…", id="quote-status", classes="note", markup=False)
                 yield Input(placeholder="Filter symbol or sector", id="filter")
+                yield Static(
+                    "Select a stock and press Enter for its research report", classes="note"
+                )
                 yield DataTable(id="prices-table", cursor_type="row", zebra_stripes=True)
             with TabPane("Calls", id="calls-pane"):
                 yield Select(
@@ -455,7 +460,17 @@ class RadarTerminal(App):
 
     @on(Input.Submitted, "#filter")
     def enter_prices(self):
-        self.query_one("#prices-table", DataTable).focus()
+        table = self.query_one("#prices-table", DataTable)
+        symbol = self.query_one("#filter", Input).value.strip().upper()
+        if symbol and not table.row_count:
+            # A copied report archive can be read without a quote feed or market snapshot.
+            folders = (self.data.root / "research").glob("*/")
+            if not symbol.isdigit() and any(folder.name == symbol for folder in folders):
+                self.push_screen(StockReportScreen(symbol, ""))
+            else:
+                self.notify("No matching stock or saved report.", severity="information")
+            return
+        table.focus()
 
     def action_reload(self):
         self.poll_local()
@@ -818,15 +833,17 @@ class RadarTerminal(App):
                 self.push_screen(Detail("Backtest report", report_text(self.data.report(key))))
             elif event.data_table.id == "prices-table":
                 q = self.quote_data.get("quotes", {}).get(key)
+                quote = ""
                 if q:
-                    self.push_screen(
-                        Detail(
-                            key,
-                            f"Last price   ₹{num(q['price'])}\nPrevious close   ₹{num(q['previous_close'])}\n"
-                            f"Open   ₹{num(q['open'])}\nHigh   ₹{num(q['high'])}\nLow   ₹{num(q['low'])}\n"
-                            f"Volume   {num(q['volume'], 0)}\nExchange time   {stamp(q['timestamp'])} IST",
-                        )
+                    quote = (
+                        f"Last ₹{num(q.get('price'))} · Previous close ₹{num(q.get('previous_close'))} · "
+                        f"Open ₹{num(q.get('open'))} · High ₹{num(q.get('high'))} · Low ₹{num(q.get('low'))}\n"
+                        f"Volume {num(q.get('volume'), 0)} · Exchange time {stamp(q.get('timestamp'))} IST"
                     )
+                if key not in market.BENCHMARKS:
+                    self.push_screen(StockReportScreen(key, quote))
+                elif q:
+                    self.push_screen(Detail(key, quote))
                 else:
                     self.notify("No broker quote for this instrument yet.")
         except (KeyError, OSError, ValueError, sqlite3.Error):

@@ -615,8 +615,20 @@ def run_report(root, target, as_of=None):
             if as_of and as_of != day:
                 raise market.MarketError("Use the original call's detection date.")
         else:
-            symbol = str(target).upper()
-            day = as_of or max(market.sessions(root))
+            symbol = str(target).strip().upper()
+            if as_of is None:
+                sessions = market.sessions(root)
+                if not sessions:
+                    raise market.MarketError(
+                        "No archived market sessions. Run radar sync for a completed trading day."
+                    )
+                day = sessions[-1]
+            else:
+                day = as_of
+                if not (root / "sessions" / str(day) / "manifest.json").is_file():
+                    raise market.MarketError(
+                        f"No archived session for {day}. Run radar sync --day {day}."
+                    )
             member = market.read_members(
                 (root / "sessions" / str(day) / "members.csv").read_bytes()
             )

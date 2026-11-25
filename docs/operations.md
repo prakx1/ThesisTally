@@ -6,6 +6,19 @@ Press **4** for the forward paper account. The daily scan automatically attempts
 
 While the terminal is open, the funded swing portfolio updates its estimated P&L on the five-second Kite quote poll. The estimate applies price changes to shares still held after any partial sales. Pending plans acquire P&L only after a fill. The price source beside each holding shows whether it uses a live quote, an older quote or the recorded mark. The dated close and daily history remain the official paper record.
 
+## Stock reports
+
+In **Prices**, press **/**, type the NSE symbol (for example, **SBIN**), and press **Enter** to focus the results. Select the stock and press **Enter** to open its most recently generated report. Use the arrow keys or Page Down to read it. **A** runs a fresh analysis. You can close the report with **Esc** and keep using the terminal while the analysis runs.
+
+From the project directory:
+
+```sh
+uv run --frozen radar research SBIN          # Generate and read a fresh report
+uv run --frozen radar research SBIN --saved  # Read the most recent saved report offline
+```
+
+The report shows the market date, rating, analyst views, bull case, bear case, risks and cited filings. A fresh analysis uses the latest archived market session by default. Add `--date YYYY-MM-DD` to analyze a specific archived session or to read a saved report for that exact market date. Press **q** to leave the command-line pager. Saved reports stay in `data/research/<symbol>/`. For use in scripts, add `--json` or `--csv`.
+
 ## Kite login and status
 
 **Check status (F5)** verifies the session with Kite. A successful check shows **Connected to Kite** in green with the time of verification. When sign-in is needed, choose **Log in to Kite (F6)**, finish in the browser, then press **F5**. A network outage can leave the status unavailable even with a valid login.

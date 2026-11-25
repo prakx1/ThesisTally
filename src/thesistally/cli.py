@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 import os
-from contextlib import closing
+from contextlib import closing, nullcontext
 from datetime import date, timedelta
 from functools import wraps
 from pathlib import Path
@@ -700,11 +700,36 @@ def research(
     as_of: Annotated[date | None, typer.Option("--date")] = None,
     as_json: JSON = False,
     as_csv: CSV = False,
+    saved: Annotated[
+        bool, typer.Option("--saved", help="Read the latest saved report for a symbol.")
+    ] = False,
 ):
-    """Run dated shadow research for a symbol or a journal call."""
-    from .research import run_report
+    """Read a stock report in the terminal. By default, run fresh research for a symbol or call."""
+    from .stock_report import render_stock_report
 
-    emit(run_report(root(), target, as_of), as_json, as_csv)
+    if as_json and as_csv:
+        raise typer.BadParameter("Choose one output format.")
+    if saved:
+        from .saved_research import latest_stock_report
+
+        if target.isdigit():
+            raise typer.BadParameter("Use an NSE stock symbol with --saved.")
+        result = latest_stock_report(root(), target, as_of)
+        if result is None:
+            when = f" on {as_of}" if as_of else ""
+            raise market.MarketError(f"No saved report for {target.upper()}{when}.")
+    else:
+        from .research import run_report
+
+        progress = out.is_terminal and not (as_json or as_csv)
+        with out.status("Preparing stock research…") if progress else nullcontext():
+            result = run_report(root(), target, as_of)
+    if as_json or as_csv:
+        emit(result, as_json, as_csv)
+        return
+    pager = out.pager() if out.is_terminal and result.get("report") else nullcontext()
+    with pager:
+        out.print(render_stock_report(result))
 
 
 @command
