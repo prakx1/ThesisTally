@@ -44,6 +44,14 @@ class MarketError(ValueError):
     pass
 
 
+class KiteCredentialsMissing(MarketError):
+    pass
+
+
+class KiteLoginRequired(MarketError):
+    pass
+
+
 def today() -> date:
     return datetime.now(IST).date()
 
@@ -56,15 +64,16 @@ def credentials() -> dict:
         }
     path = Path(os.environ.get("RADAR_CREDENTIALS", ".radar-credentials")).expanduser()
     try:
-        kite = json.loads(path.read_text())["kite"]
+        saved = json.loads(path.read_text())
+        kite = saved.get("kite", saved)
         if not all(
             isinstance(kite.get(k), str) and kite[k].strip() for k in ("api_key", "access_token")
         ):
             raise ValueError()
         return kite
     except (KeyError, ValueError, OSError, TypeError, AttributeError):
-        raise MarketError(
-            "Set RADAR_CREDENTIALS to the local JSON handoff with a Kite session."
+        raise KiteCredentialsMissing(
+            "Set RADAR_CREDENTIALS to a readable local Kite session file."
         ) from None
 
 
@@ -97,17 +106,34 @@ class Feed:
                 if response.status_code == 200:
                     return response
                 if kite and response.status_code in (401, 403):
+                    try:
+                        body = response.json()
+                    except ValueError:
+                        body = None
+                    if response.status_code == 401 or (
+                        isinstance(body, dict) and body.get("error_type") == "TokenException"
+                    ):
+                        raise KiteLoginRequired("Kite rejected the session. Log in to Kite again.")
                     raise MarketError(
-                        "Kite rejected the session or data entitlement. Refresh the local handoff."
+                        "Kite denied access to this request. Check the account's permissions."
                     )
                 if response.status_code not in (429, 500, 502, 503, 504) or attempt + 1 == attempts:
                     raise MarketError(f"HTTP {response.status_code} from {url}")
             time.sleep(2**attempt)
         raise AssertionError("unreachable")
 
-    def session(self):
-        response = self.get(KITE + "/user/profile", kite=True)
-        if response.json().get("status") != "success":
+    def session(self, *, attempts=4):
+        response = self.get(KITE + "/user/profile", kite=True, attempts=attempts)
+        try:
+            body = response.json()
+        except ValueError:
+            body = None
+        if not (
+            isinstance(body, dict)
+            and body.get("status") == "success"
+            and isinstance(body.get("data"), dict)
+            and body["data"].get("user_id")
+        ):
             raise MarketError("Kite did not confirm the session.")
 
     def instruments(self) -> bytes:

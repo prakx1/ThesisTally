@@ -1,11 +1,13 @@
 import asyncio
 import json
+import threading
 from contextlib import closing
 
 import httpx
-from textual.widgets import DataTable, TabbedContent
+from textual import events
+from textual.widgets import Button, DataTable, Static, TabbedContent
 
-from thesistally import market
+from thesistally import kite_session, market
 from thesistally.dashboard import Dashboard, parse_quotes
 from thesistally.journal import journal
 from thesistally.terminal import Detail, RadarTerminal
@@ -51,6 +53,7 @@ def test_quote_refresh_missing_symbol_and_expired_session(tmp_path, monkeypatch)
 
 def test_terminal_navigation_when_feed_offline(tmp_path, monkeypatch):
     data = Dashboard(tmp_path)
+    monkeypatch.setattr(kite_session, "check_status", lambda: "Status unavailable")
     starts = []
     monkeypatch.setattr(data, "start_automatic", lambda: starts.append(True))
     folder = tmp_path / "backtests"
@@ -121,6 +124,77 @@ def test_terminal_navigation_when_feed_offline(tmp_path, monkeypatch):
             history.focus()
             await pilot.press("enter")
             assert app.screen.body == "No fills this session."
+
+    asyncio.run(interact())
+
+
+def test_kite_login_and_status_in_the_terminal(tmp_path, monkeypatch):
+    data = Dashboard(tmp_path)
+    monkeypatch.setattr(data, "start_automatic", lambda: None)
+    monkeypatch.setattr(data, "quotes", lambda: {"quotes": {}})
+    started, release = threading.Event(), threading.Event()
+    session = "Login required"
+    opened = []
+
+    def check():
+        started.set()
+        if not release.wait(timeout=5):
+            raise TimeoutError()
+        return session
+
+    def login():
+        opened.append(True)
+        return "Complete sign-in in the browser."
+
+    monkeypatch.setattr(kite_session, "check_status", check)
+    monkeypatch.setattr(kite_session, "open_login", login)
+
+    async def interact():
+        nonlocal session
+        app = RadarTerminal(data)
+        notices = []
+        monkeypatch.setattr(
+            app.kite_controls, "notify", lambda message, **kwargs: notices.append(message)
+        )
+        async with app.run_test(size=(80, 24)) as pilot:
+            assert await asyncio.to_thread(started.wait, 2)
+            status = app.query_one("#kite-status", Static)
+            assert "Checking" in str(status.content)
+            assert app.query_one("#kite-check", Button).disabled
+            # Navigating away must work while the profile request is in flight.
+            await pilot.press("3")
+            assert app.query_one("#tabs", TabbedContent).active == "reports-pane"
+            release.set()
+            await app.workers.wait_for_complete()
+            assert "Login required" in str(status.content) and "IST" in str(status.content)
+
+            await pilot.click("#kite-login")
+            await app.workers.wait_for_complete()
+            assert opened == [True] and notices == ["Complete sign-in in the browser."]
+            assert "Login required" in str(status.content)
+            session = "Connected"
+            app.post_message(events.AppFocus())
+            await pilot.pause()
+            await app.workers.wait_for_complete()
+            assert "Connected" in str(status.content)
+
+            session = "Status unavailable"
+            await pilot.click("#kite-check")
+            await app.workers.wait_for_complete()
+            assert "Status unavailable" in str(status.content)
+            session = "Login required"
+            await pilot.press("f5")
+            await app.workers.wait_for_complete()
+            assert "Login required" in str(status.content)
+
+            def unavailable():
+                raise market.MarketError("Login helper unavailable.")
+
+            monkeypatch.setattr(kite_session, "open_login", unavailable)
+            await pilot.press("f6")
+            await app.workers.wait_for_complete()
+            assert notices[-1] == "Login helper unavailable."
+            assert not app.query_one("#kite-login", Button).disabled
 
     asyncio.run(interact())
 

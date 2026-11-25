@@ -63,7 +63,7 @@ uv sync --frozen
 uv run --frozen radar
 ```
 
-Press **3** for Reports, select **Monthly momentum**, then press **Enter**. Saved reports open without credentials. Live quotes use your own Kite account. [Setup and daily operation](docs/operations.md)
+Press **3** for Reports, select **Monthly momentum**, then press **Enter**. Saved reports open without credentials. For live quotes, choose **Log in to Kite (F6)**, then **Check status (F5)** to verify your session. [Login and daily operation](docs/operations.md#kite-login-and-status)
 
 ![The Reports tab with the monthly momentum study selected.](docs/figures/terminal-reports.png)
 

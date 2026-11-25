@@ -4,6 +4,16 @@
 
 Press **4** for the forward paper account. The daily scan automatically attempts the next-open entry for each allocated call and tracks partial sales, stops, costs and exits. The account uses the saved rule version for the life of each call and runs independently of Taken or Skipped feedback. Cash includes settled proceeds and dividends. Equity also includes held positions and outstanding corporate-action receivables. Press **Enter** on a trade for fills and daily position values, or on a date for that session’s executions. Older sessions without a recorded valuation display a dash when equity cannot be established.
 
+## Kite login and status
+
+**Check status (F5)** asks Kite to verify the current session. **Log in to Kite (F6)** opens your login helper in a browser. Complete the Zerodha sign-in there, return to the terminal and press **F5**. The time beside the status shows when it was checked. A network outage can leave the status unavailable even with a valid login.
+
+For live prices, renew the session on each day you use Kite. Zerodha normally expires the access token at 06:00 IST the following day. Reading saved research reports works offline. [Kite Connect session lifetime](https://kite.trade/docs/connect/v3/user/#authentication-and-token-exchange)
+
+From the shell, `uv run --frozen radar login` opens the helper and `uv run --frozen radar session` checks the session. The default helper address is `http://127.0.0.1:8000/login`. On a different installation, set `RADAR_KITE_LOGIN_URL` to your own running Kite Connect login helper. The helper completes the token exchange and saves the fresh session.
+
+Point `RADAR_CREDENTIALS` or the ignored `.radar-credentials` symlink at the session file your helper refreshes. It can contain `api_key` and `access_token` at the top level or under `kite`. ThesisTally rereads the file for the next check. If you supply both `KITE_API_KEY` and `KITE_ACCESS_TOKEN` as environment variables, they take precedence and you must update them when you relaunch after login.
+
 ## Private notifications and unattended collection
 
 Keep `uv run radar` open for the after-close scan and automatic research. For the full unattended scheduler, start `uv run radar run` in a persistent terminal. The scheduler checks the Kite session at 08:30 IST, caches instruments and dated exclusion lists, looks for the exchange final from 15:45, and advances the journal once per session. The exchange calendar includes Muhurat sessions. In December it requests the following year's published NSE calendar. Calendar files live under `data/calendars/` and include their official source. Daily Kite login is an operator step.

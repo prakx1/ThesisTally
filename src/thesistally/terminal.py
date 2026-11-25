@@ -10,6 +10,7 @@ from datetime import datetime
 from rich.text import Text
 from textual import on, work
 from textual.app import App, ComposeResult
+from textual.binding import Binding
 from textual.containers import Horizontal, Vertical, VerticalScroll
 from textual.screen import ModalScreen
 from textual.widgets import (
@@ -24,7 +25,7 @@ from textual.widgets import (
     TabPane,
 )
 
-from . import market
+from . import kite_session, market
 from .dashboard import Dashboard
 
 LABELS = {
@@ -205,6 +206,61 @@ class Detail(ModalScreen):
         self.dismiss(decision if decision in ("taken", "skip") else None)
 
 
+class KiteControls(Horizontal):
+    DEFAULT_CSS = """
+    KiteControls { height: auto; align-vertical: middle; padding: 0 1; }
+    KiteControls Static { width: 1fr; height: auto; }
+    KiteControls Button { min-width: 0; margin-left: 1; }
+    """
+
+    def compose(self) -> ComposeResult:
+        yield Static("Kite · Checking…", id="kite-status", markup=False)
+        yield Button(
+            "Log in to Kite", id="kite-login", compact=True, tooltip="F6 · Open Kite login"
+        )
+        yield Button("Check status", id="kite-check", compact=True, tooltip="F5 · Check session")
+
+    def on_mount(self):
+        self.check()
+        self.set_interval(60, self.check)
+
+    @on(Button.Pressed, "#kite-check")
+    @work(group="kite-status")
+    async def check(self):
+        button = self.query_one("#kite-check", Button)
+        if button.disabled:
+            return
+        button.disabled = True
+        status = self.query_one("#kite-status", Static)
+        status.update("Kite · Checking…")
+        try:
+            result = await asyncio.to_thread(kite_session.check_status)
+        except Exception:  # noqa: BLE001 - transport errors may contain private request details
+            result = "Status unavailable"
+        finally:
+            button.disabled = False
+        checked = datetime.now(market.IST).strftime("%H:%M IST")
+        status.update(f"Kite · {result} · checked {checked}")
+
+    @on(Button.Pressed, "#kite-login")
+    @work(group="kite-login")
+    async def login(self):
+        button = self.query_one("#kite-login", Button)
+        if button.disabled:
+            return
+        button.disabled = True
+        try:
+            message = await asyncio.to_thread(kite_session.open_login)
+        except market.MarketError as exc:
+            self.notify(str(exc), title="Kite login", severity="warning", markup=False)
+        except Exception:  # noqa: BLE001 - browser errors may contain private login URLs
+            self.notify("Could not open Kite login.", title="Kite login", severity="warning")
+        else:
+            self.notify(message, title="Kite login", markup=False)
+        finally:
+            button.disabled = False
+
+
 class RadarTerminal(App):
     TITLE = "ThesisTally"
     SUB_TITLE = "Market monitor"
@@ -233,12 +289,15 @@ class RadarTerminal(App):
         ("slash", "search", "Find"),
         ("r", "reload", "Refresh"),
         ("d", "daily", "Daily scan"),
+        Binding("f5", "check_kite", "Check Kite status", show=False),
+        Binding("f6", "login_kite", "Log in to Kite", show=False),
         ("q", "quit", "Quit"),
     )
 
     def __init__(self, dashboard: Dashboard):
         super().__init__()
         self.data = dashboard
+        self.kite_controls = KiteControls()
         self.overview_data = {}
         self.quote_data = {}
         self.run_name = "observations"
@@ -247,6 +306,7 @@ class RadarTerminal(App):
 
     def compose(self) -> ComposeResult:
         yield Header(show_clock=True)
+        yield self.kite_controls
         yield Static("NSE   ·   Connecting", id="indices", markup=False)
         with TabbedContent(id="tabs"):
             with TabPane("Prices", id="prices"):
@@ -339,6 +399,16 @@ class RadarTerminal(App):
 
     def update_activity(self):
         self.query_one("#activity", Static).update(self.data.activity()["message"])
+
+    def on_app_focus(self):
+        if self.kite_controls.is_mounted:
+            self.kite_controls.check()
+
+    def action_check_kite(self):
+        self.kite_controls.check()
+
+    def action_login_kite(self):
+        self.kite_controls.login()
 
     def action_pane(self, pane):
         self.query_one("#tabs", TabbedContent).active = pane

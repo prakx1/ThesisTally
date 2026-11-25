@@ -187,10 +187,21 @@ def journal_path():
 
 @command
 def session():
-    """Verify that the externally supplied Kite session is usable."""
-    with market.Feed() as feed:
-        feed.session()
+    """Check the configured session against Kite."""
+    from . import kite_session
+
+    status = kite_session.check_status()
+    if status != kite_session.CONNECTED:
+        raise market.MarketError(f"Kite: {status}.")
     typer.echo("Kite session accepted.")
+
+
+@command
+def login():
+    """Open the configured Kite login helper in your browser."""
+    from . import kite_session
+
+    typer.echo(kite_session.open_login())
 
 
 @command
