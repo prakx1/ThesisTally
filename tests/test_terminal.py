@@ -159,7 +159,9 @@ def test_kite_login_and_status_in_the_terminal(tmp_path, monkeypatch):
         async with app.run_test(size=(80, 24)) as pilot:
             assert await asyncio.to_thread(started.wait, 2)
             status = app.query_one("#kite-status", Static)
+            login_button = app.query_one("#kite-login", Button)
             assert "Checking" in str(status.content)
+            assert not login_button.display
             assert app.query_one("#kite-check", Button).disabled
             # Navigating away must work while the profile request is in flight.
             await pilot.press("3")
@@ -167,6 +169,7 @@ def test_kite_login_and_status_in_the_terminal(tmp_path, monkeypatch):
             release.set()
             await app.workers.wait_for_complete()
             assert "Login required" in str(status.content) and "IST" in str(status.content)
+            assert login_button.display and not status.has_class("connected")
 
             await pilot.click("#kite-login")
             await app.workers.wait_for_complete()
@@ -176,16 +179,23 @@ def test_kite_login_and_status_in_the_terminal(tmp_path, monkeypatch):
             app.post_message(events.AppFocus())
             await pilot.pause()
             await app.workers.wait_for_complete()
-            assert "Connected" in str(status.content)
-
-            session = "Status unavailable"
-            await pilot.click("#kite-check")
+            assert "Connected to Kite" in str(status.content)
+            assert status.has_class("connected") and not login_button.display
+            assert status.styles.color.g > max(status.styles.color.r, status.styles.color.b)
+            await pilot.press("f6")
             await app.workers.wait_for_complete()
-            assert "Status unavailable" in str(status.content)
+            assert opened == [True]
+
             session = "Login required"
             await pilot.press("f5")
             await app.workers.wait_for_complete()
             assert "Login required" in str(status.content)
+            assert login_button.display and not status.has_class("connected")
+            session = "Status unavailable"
+            await pilot.click("#kite-check")
+            await app.workers.wait_for_complete()
+            assert "Status unavailable" in str(status.content)
+            assert login_button.display and not status.has_class("connected")
 
             def unavailable():
                 raise market.MarketError("Login helper unavailable.")

@@ -14,6 +14,7 @@ import pandas as pd
 
 from . import market, paper
 from .journal import journal, metrics, read_call, record_action, run_report
+from .paper_quotes import quote_identities
 
 
 def _published_report(path):
@@ -88,6 +89,7 @@ class Dashboard:
                 pass
         self._archive_lock = threading.Lock()
         self._bootstrap_members = []
+        self._held_isins = frozenset()
         self._archive_key = None
         self._archive = None
         self._quote_state = {
@@ -245,7 +247,13 @@ class Dashboard:
             if db is None:
                 return {"capital": None, "history": [], "trades": [], "comparisons": []}
             db.execute("BEGIN")
-            return paper.portfolio(db)
+            account = paper.portfolio(db)
+            self._held_isins = frozenset(
+                t["isin"]
+                for t in account["trades"]
+                if t["status"] == "active" and t["remaining"] > 0
+            )
+            return account
 
     def paper_trade(self, call_id, *, comparison=False):
         with self.db() as db:
@@ -287,8 +295,18 @@ class Dashboard:
             record_action(db, call_id, decision)
 
     def quotes(self):
-        members = self.archive()["members"]
+        archive = self.archive()
+        members = archive["members"]
         symbols = list(dict.fromkeys([*market.BENCHMARKS, *(r["symbol"] for r in members)]))
+        identities = {}
+        if self._held_isins and archive.get("session"):
+            try:
+                ids = quote_identities(self.root / "sessions" / archive["session"])
+            except (OSError, ValueError):
+                ids = {}
+            held = self._held_isins
+            identities = {symbol: pair for symbol, pair in ids.items() if pair[0] in held}
+            symbols.extend(symbol for symbol in identities if symbol not in symbols)
         try:
             with market.Feed(timeout=5) as feed:
                 if not members:
@@ -311,6 +329,13 @@ class Dashboard:
             ):
                 raise market.MarketError("Kite returned an incomplete quote response.")
             quotes = parse_quotes(result["data"], symbols)
+            for symbol, (isin, token) in identities.items():
+                if (
+                    symbol in quotes
+                    and result["data"][f"NSE:{symbol}"].get("last_trade_time")
+                    and result["data"][f"NSE:{symbol}"].get("instrument_token") == token
+                ):
+                    quotes[symbol]["isin"] = isin
             if not quotes:
                 raise market.MarketError("Kite returned no usable quotes.")
             self._quote_state = {

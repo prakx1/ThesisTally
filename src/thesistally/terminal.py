@@ -27,6 +27,7 @@ from textual.widgets import (
 
 from . import kite_session, market
 from .dashboard import Dashboard
+from .paper_quotes import paper_live_view
 
 LABELS = {
     "trend_pullback": "Trend pullback",
@@ -121,7 +122,14 @@ def report_text(report):
     return "\n".join(lines)
 
 
-def call_text(c):
+def paper_price_source(mark):
+    source, as_of = mark["source"], mark["as_of"]
+    if as_of and source in ("Live", "Last quote"):
+        return f"{source} {stamp(as_of)} IST"
+    return f"{source} {as_of}" if as_of else source
+
+
+def call_text(c, *, paper_mark=None):
     plan_target = c.get("planned_target", c["target"])
     plan_size = c.get("planned_size", c["size"])
     execution = []
@@ -130,13 +138,16 @@ def call_text(c):
             f"Fill ₹{num(c['buy'])}   Stop ₹{num(c['stop'])}   Target ₹{num(c['target'])}"
             f"   Shares {c['size']}   Remaining {c['remaining']}"
         )
+    profit = f"Net ₹{num(c['net'])}"
+    if paper_mark and c["status"] == "active":
+        profit = f"Snapshot P&L ₹{num(paper_mark['pnl'])} · {paper_price_source(paper_mark)}"
     lines = [
         f"{c['symbol']}   ·   {LABELS.get(c['strategy'], c['strategy'])}   ·   {c['day']}",
         f"{c['sector']}   /   {c['status']}   /   {c['allocation']}   /   {c['action']}",
         "",
         f"Plan ₹{num(c['entry'])}   Stop ₹{num(c['stop'])}   Target ₹{num(plan_target)}   Shares {plan_size}",
         *execution,
-        f"Net ₹{num(c['net'])}       Outcome {num(c['outcome_r'])} R       Held {c['age']} sessions",
+        f"{profit}       Outcome {num(c['outcome_r'])} R       Held {c['age']} sessions",
         f"MAE {num(c['mae'])} R       MFE {num(c['mfe'])} R",
         "",
         "Events",
@@ -210,6 +221,8 @@ class KiteControls(Horizontal):
     DEFAULT_CSS = """
     KiteControls { height: auto; align-vertical: middle; padding: 0 1; }
     KiteControls Static { width: 1fr; height: auto; }
+    KiteControls #kite-status.connected { color: #7ee787; text-style: bold; }
+    KiteControls #kite-login { display: none; }
     KiteControls Button { min-width: 0; margin-left: 1; }
     """
 
@@ -232,7 +245,6 @@ class KiteControls(Horizontal):
             return
         button.disabled = True
         status = self.query_one("#kite-status", Static)
-        status.update("Kite · Checking…")
         try:
             result = await asyncio.to_thread(kite_session.check_status)
         except Exception:  # noqa: BLE001 - transport errors may contain private request details
@@ -240,13 +252,17 @@ class KiteControls(Horizontal):
         finally:
             button.disabled = False
         checked = datetime.now(market.IST).strftime("%H:%M IST")
-        status.update(f"Kite · {result} · checked {checked}")
+        connected = result == kite_session.CONNECTED
+        status.set_class(connected, "connected")
+        self.query_one("#kite-login", Button).display = not connected
+        label = "Connected to Kite" if connected else f"Kite · {result}"
+        status.update(f"{label} · checked {checked}")
 
     @on(Button.Pressed, "#kite-login")
     @work(group="kite-login")
     async def login(self):
         button = self.query_one("#kite-login", Button)
-        if button.disabled:
+        if not button.display or button.disabled:
             return
         button.disabled = True
         try:
@@ -298,6 +314,7 @@ class RadarTerminal(App):
         super().__init__()
         self.data = dashboard
         self.kite_controls = KiteControls()
+        self.paper_data = None
         self.overview_data = {}
         self.quote_data = {}
         self.run_name = "observations"
@@ -331,8 +348,9 @@ class RadarTerminal(App):
                 )
                 yield DataTable(id="reports-table", cursor_type="row", zebra_stripes=True)
             with TabPane("Paper Trading", id="paper-pane"):
+                yield Static("", id="paper-estimate", classes="kicker", markup=False)
                 yield Static(
-                    "Loading paper account…", id="paper-balance", classes="kicker", markup=False
+                    "Loading paper account…", id="paper-balance", classes="note", markup=False
                 )
                 yield Static("", id="paper-status", classes="note", markup=False)
                 yield DataTable(id="paper-trades", cursor_type="row", zebra_stripes=True)
@@ -367,10 +385,11 @@ class RadarTerminal(App):
             "Status",
             "Planned",
             "Held",
+            "Mark ₹",
+            "Net P&L ₹",
+            "Price source",
             "Entry plan ₹",
             "Fill ₹",
-            "Close ₹",
-            "Net P&L ₹",
         )
         comparison = self.query_one("#entry-comparison", DataTable)
         comparison.add_columns(
@@ -453,9 +472,12 @@ class RadarTerminal(App):
             self.quote_data = await asyncio.to_thread(self.data.quotes)
             self.render_prices()
         except (OSError, ValueError, sqlite3.Error) as exc:
+            self.quote_data = {**self.quote_data, "error": str(exc)}
             self.query_one("#quote-status", Static).update(str(exc))
         finally:
             self.loading_quotes = False
+        if self.paper_data is not None:
+            self.render_paper_estimate()
 
     def poll_local(self):
         if not self.loading_local:
@@ -543,12 +565,13 @@ class RadarTerminal(App):
                 self.poll_local()
 
     def render_paper(self, account):
+        self.paper_data = account
         history, trades = account["history"], account["trades"]
         balance = self.query_one("#paper-balance", Static)
         if history:
             last = history[0]
             balance.update(
-                f"{last['day']} close   ·   Equity ₹{num(last['equity'])}   ·   "
+                f"Recorded close {last['day']}   ·   Equity ₹{num(last['equity'])}   ·   "
                 f"Cash ₹{num(last['cash'])}   ·   Total P&L ₹{num(last['total_pnl'])}"
             )
         else:
@@ -559,30 +582,7 @@ class RadarTerminal(App):
             f"{pending} funded plans awaiting entry   ·   {held} open   ·   "
             "V switches funded trades / all entry comparisons   ·   Enter for detail"
         )
-        rows = []
-        for t in trades:
-            status = {"confirmed": "Awaiting entry", "active": "Open"}.get(
-                t["status"], t["status"].replace("_", " ").capitalize()
-            )
-            if t["pending_exit"] and t["status"] == "active":
-                status = "Exit pending"
-            rows.append(
-                (
-                    str(t["id"]),
-                    [
-                        str(t["id"]),
-                        t["symbol"],
-                        status,
-                        str(t["size"]),
-                        str(t["remaining"]),
-                        num(t["entry"]),
-                        num(t["buy"]),
-                        num(t["eod_close"]),
-                        num(t["net"] if t["net"] is not None else t["marked_pnl"]),
-                    ],
-                )
-            )
-        self.rows("paper-trades", rows)
+        self.render_paper_estimate()
         self.rows(
             "entry-comparison",
             [
@@ -621,6 +621,58 @@ class RadarTerminal(App):
                 for h in history
             ],
         )
+
+    def render_paper_estimate(self):
+        view = paper_live_view(self.paper_data, self.quote_data)
+        estimate = self.query_one("#paper-estimate", Static)
+        held, quoted, live = view["held_count"], view["quoted_count"], view["live_count"]
+        feed = " · Kite unavailable" if self.quote_data.get("error") else ""
+        estimate.display = held > 0
+        if held and not quoted:
+            estimate.update(f"No usable quote for open holdings{feed} · see recorded marks below")
+        elif held:
+            if live == held:
+                source = "Live estimate"
+            elif quoted == held and not live:
+                source = "Last quote estimate"
+            else:
+                source = f"Mixed marks · {live}/{held} live"
+            balance = (
+                f"Total P&L ₹{num(view['total_pnl'])} · Equity ₹{num(view['equity'])}"
+                if view["total_pnl"] is not None and view["equity"] is not None
+                else "Portfolio estimate unavailable"
+            )
+            holdings_day = self.paper_data["history"][0]["day"]
+            estimate.update(
+                f"{source} · {balance} · Holdings at {holdings_day} close"
+                f" · Oldest quote {stamp(view['as_of'])} IST{feed}"
+            )
+        rows = []
+        for t in self.paper_data["trades"]:
+            mark = view["positions"][t["id"]]
+            status = {"confirmed": "Awaiting entry", "active": "Open"}.get(
+                t["status"], t["status"].replace("_", " ").capitalize()
+            )
+            if t["pending_exit"] and t["status"] == "active":
+                status = "Exit pending"
+            rows.append(
+                (
+                    str(t["id"]),
+                    [
+                        str(t["id"]),
+                        t["symbol"],
+                        status,
+                        str(t["size"]),
+                        str(t["remaining"]),
+                        num(mark["price"]),
+                        num(mark["pnl"]),
+                        paper_price_source(mark),
+                        num(t["entry"]),
+                        num(t["buy"]),
+                    ],
+                )
+            )
+        self.rows("paper-trades", rows)
 
     def rows(self, widget, rows):
         table = self.query_one("#" + widget, DataTable)
@@ -737,9 +789,9 @@ class RadarTerminal(App):
                     feedback,
                 )
             elif event.data_table.id == "paper-trades":
-                self.push_screen(
-                    Detail(f"Paper trade #{key}", call_text(self.data.paper_trade(int(key))))
-                )
+                trade = self.data.paper_trade(int(key))
+                mark = paper_live_view(self.paper_data, self.quote_data)["positions"].get(int(key))
+                self.push_screen(Detail(f"Paper trade #{key}", call_text(trade, paper_mark=mark)))
             elif event.data_table.id == "entry-comparison":
                 original, shadow = (
                     self.data.paper_trade(int(i), comparison=True) for i in key.split("/")

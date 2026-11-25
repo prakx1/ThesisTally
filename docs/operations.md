@@ -4,9 +4,11 @@
 
 Press **4** for the forward paper account. The daily scan automatically attempts the next-open entry for each allocated call and tracks partial sales, stops, costs and exits. The account uses the saved rule version for the life of each call and runs independently of Taken or Skipped feedback. Cash includes settled proceeds and dividends. Equity also includes held positions and outstanding corporate-action receivables. Press **Enter** on a trade for fills and daily position values, or on a date for that session’s executions. Older sessions without a recorded valuation display a dash when equity cannot be established.
 
+While the terminal is open, the funded swing portfolio updates its estimated P&L on the five-second Kite quote poll. The estimate applies price changes to shares still held after any partial sales. Pending plans acquire P&L only after a fill. The price source beside each holding shows whether it uses a live quote, an older quote or the recorded mark. The dated close and daily history remain the official paper record.
+
 ## Kite login and status
 
-**Check status (F5)** asks Kite to verify the current session. **Log in to Kite (F6)** opens your login helper in a browser. Complete the Zerodha sign-in there, return to the terminal and press **F5**. The time beside the status shows when it was checked. A network outage can leave the status unavailable even with a valid login.
+**Check status (F5)** verifies the session with Kite. A successful check shows **Connected to Kite** in green with the time of verification. When sign-in is needed, choose **Log in to Kite (F6)**, finish in the browser, then press **F5**. A network outage can leave the status unavailable even with a valid login.
 
 For live prices, renew the session on each day you use Kite. Zerodha normally expires the access token at 06:00 IST the following day. Reading saved research reports works offline. [Kite Connect session lifetime](https://kite.trade/docs/connect/v3/user/#authentication-and-token-exchange)
 
