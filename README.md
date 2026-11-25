@@ -2,9 +2,9 @@
 
 ThesisTally tests trading ideas on the Nifty 200 stocks that belonged to the index at the time. Its local terminal tracks paper trades after costs. **Paper trading only. No broker orders. No investment advice.**
 
-[![ThesisTally’s Prices tab. The Nifty indices sit above a searchable stock table showing price, daily change, open, high and low. Keyboard shortcuts run along the bottom.](docs/figures/terminal-prices.png)](docs/figures/terminal-prices.png)
+[![Terminal tour showing changing prices, the entry and stop for a sample call, a saved momentum report, and paper P&L updating as a price moves.](docs/figures/terminal-tour.gif)](docs/figures/terminal-tour.gif)
 
-*Prices at the NSE close on 22 November 2024. Click the screenshot to open it at full size.*
+The tour uses simulated quotes and paper trades. The Reports tab shows the published monthly momentum study. [View a still screenshot](docs/figures/terminal-prices.png)
 
 [Quick start](#quick-start) · [Architecture](#architecture) · [Full research diary](docs/RESEARCH_SUMMARY.md)
 
