@@ -8,9 +8,19 @@ The Paper Trading tab estimates P&L on shares still held using the selected term
 
 ## Terminal price sources
 
-Run `uv run --frozen radar` for NSE Official. Radar reads the official NSE cash-market service directly, with no account, API key or AI call. It requests Nifty 200 equity quotes and the Nifty 50, Nifty 200 and India VIX indices every two minutes. NSE describes its feed as 1–3 minutes delayed for informational, non-commercial use. Each row shows the exchange time in IST. After a missed refresh, the screen identifies cached prices or falls back to a dated close when available. [NSE Official MCP documentation](https://www.nseindia.in/nse-mcp)
+| What you want | Connection Radar uses | What you need |
+| --- | --- | --- |
+| Watch prices and estimated paper P&L | NSE Official cash-market feed. Radar polls every two minutes. NSE publishes quotes with a 1–3 minute delay. | Run `uv run --frozen radar`. No account or API key. |
+| Watch the same screen with faster updates | Zerodha Kite Connect. Radar requests quotes every five seconds. | Run `uv run --frozen radar --quote-provider kite` with a Kite Connect session that has market-data access. [Login and status](#kite-login-and-status) |
+| Generate daily swing calls and settle paper trades | NSE’s final equity price file (the *bhavcopy*) and index closing file. Kite supplies historical daily prices for indicators and a price cross-check. | NSE archives are public. Collecting a new swing session also requires Kite historical-data access. Verified sessions can be read offline. |
 
-Run `uv run --frozen radar --quote-provider kite` for authenticated Kite quotes every five seconds. To remember that choice in your shell, set `export RADAR_QUOTE_PROVIDER=kite`. Use `unset RADAR_QUOTE_PROVIDER` to restore the NSE default. This setting selects prices for the terminal and its paper P&L estimates. The separate swing-session collector uses Kite history for indicator warm-up and checks against the official NSE final.
+**Reading the Prices tab.** Check the exchange time in IST beside the stock. Press **R** to request the latest available snapshot. The two-minute timer keeps requests across the full index manageable. Polling faster can display a newly published quote sooner, but calls and paper fills follow the completed daily session. During an outage, Radar labels cached quotes and shows a verified closing price when available. To keep Kite as your terminal preference, set `export RADAR_QUOTE_PROVIDER=kite`. Run `unset RADAR_QUOTE_PROVIDER` to restore the NSE default.
+
+### Where Radar connects
+
+- **NSE quotes.** Radar calls `https://mcp.nseindia.in/cmmkt/mcp` directly. It requests stock quotes in groups with `cm_get_equity_stocks` and reads Nifty 50, Nifty 200 and India VIX with `cm_get_live_indices`. NSE provides this feed for informational, non-commercial use. [NSE Official MCP](https://www.nseindia.in/nse-mcp)
+- **NSE files.** Radar reads the current Nifty 200 constituent list and, when needed, the equity security list from `nsearchives.nseindia.com` to match symbols to securities. For recent sessions, final equity files come from `/content/cm/` and index closes from `/content/indices/`. The daily scan checks for the final file from 15:45 IST on trading days. [Constituent list](https://nsearchives.nseindia.com/content/indices/ind_nifty200list.csv) · [Daily archive reader](../src/thesistally/market.py)
+- **Kite Connect.** Radar calls `api.kite.trade/quote` for optional terminal quotes. The swing collector uses `/instruments/NSE` to identify each security and `/instruments/historical/{instrument_token}/day` for daily candles. The terminal provider setting only controls the displayed quotes and estimated paper P&L. [Kite quote API](https://kite.trade/docs/connect/v3/market-quotes/) · [Kite historical API](https://kite.trade/docs/connect/v3/historical/)
 
 ## Stock reports
 

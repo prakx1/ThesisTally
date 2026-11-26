@@ -6,7 +6,7 @@ ThesisTally tests trading ideas on the Nifty 200 stocks that belonged to the ind
 
 The tour uses example quotes, stock research and paper trades. The Reports tab shows the published monthly momentum study. [View a still screenshot](docs/figures/terminal-prices.png)
 
-[Quick start](#quick-start) · [Architecture](#architecture) · [Full research diary](docs/RESEARCH_SUMMARY.md)
+[Quick start](#quick-start) · [Price connections](docs/operations.md#terminal-price-sources) · [Architecture](#architecture) · [Full research diary](docs/RESEARCH_SUMMARY.md)
 
 ## What the experiments found
 
@@ -69,7 +69,7 @@ uv run --frozen radar
 
 In **Prices**, select a stock and press **Enter** to read its saved research. Press **A** to analyze it again. From the shell, `uv run radar research SBIN` opens a fresh SBI report. [Stock report controls](docs/operations.md#stock-reports)
 
-**Prices** opens on NSE Official, with no account or API key. It refreshes every two minutes and shows the exchange time in IST. For the optional Kite feed, launch `uv run radar --quote-provider kite`. [Price sources and login](docs/operations.md#terminal-price-sources)
+**Where prices come from.** NSE Official supplies free quotes with a 1–3 minute delay. Radar checks every two minutes, or when you press **R**. For five-second polling with a Kite login, run `uv run radar --quote-provider kite`. The daily swing scan uses NSE’s closing files and Kite price history. [Price connections and setup](docs/operations.md#terminal-price-sources)
 
 Press **3** for Reports, select **Monthly momentum**, then press **Enter**. Saved reports also open offline.
 
