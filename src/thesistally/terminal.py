@@ -5,7 +5,7 @@ from __future__ import annotations
 import asyncio
 import json
 import sqlite3
-from datetime import datetime
+from datetime import date, datetime, time
 
 from rich.text import Text
 from textual import on, work
@@ -27,7 +27,7 @@ from textual.widgets import (
 
 from . import kite_session, market
 from .dashboard import Dashboard
-from .paper_quotes import paper_live_view
+from .paper_quotes import paper_live_view, quote_freshness
 from .stock_screen import StockReportScreen
 
 LABELS = {
@@ -35,6 +35,33 @@ LABELS = {
     "high_momentum": "52-week high",
     "vcp_breakout": "VCP breakout",
 }
+QUOTE_FEEDS = {"nse": "NSE Official", "kite": "Kite"}
+
+
+def feed_label(provider):
+    return "NSE Official · 1–3 min delayed" if provider == "nse" else "Kite"
+
+
+def price_for_display(symbol, member, archive, quote, final_at):
+    """Choose a single source for the entire row, including the stock detail."""
+    if final_at is None or archive.get("close") is None:
+        return quote
+    if symbol not in market.BENCHMARKS and (quote or member is not archive):
+        isin = member.get("isin") or quote.get("isin")
+        series = archive.get("series", "EQ")
+        if (
+            not isin
+            or isin != archive.get("isin")
+            or quote.get("isin", isin) != isin
+            or member.get("series", series) != series
+            or quote.get("series", series) != series
+        ):
+            return quote
+    if quote:
+        stamp = quote.get("timestamp")
+        if not stamp or datetime.fromisoformat(stamp) > final_at:
+            return quote
+    return {"price": archive["close"], "recorded": final_at.date().isoformat()}
 
 
 def num(value, decimals=2):
@@ -123,14 +150,14 @@ def report_text(report):
     return "\n".join(lines)
 
 
-def paper_price_source(mark):
+def paper_price_source(mark, provider):
     source, as_of = mark["source"], mark["as_of"]
-    if as_of and source in ("Live", "Last quote"):
-        return f"{source} {stamp(as_of)} IST"
+    if as_of and source in ("Live", "Delayed", "Last quote"):
+        return f"{source} · {QUOTE_FEEDS[provider]} · {stamp(as_of)} IST"
     return f"{source} {as_of}" if as_of else source
 
 
-def call_text(c, *, paper_mark=None):
+def call_text(c, *, paper_mark=None, provider="kite"):
     plan_target = c.get("planned_target", c["target"])
     plan_size = c.get("planned_size", c["size"])
     execution = []
@@ -141,7 +168,9 @@ def call_text(c, *, paper_mark=None):
         )
     profit = f"Net ₹{num(c['net'])}"
     if paper_mark and c["status"] == "active":
-        profit = f"Snapshot P&L ₹{num(paper_mark['pnl'])} · {paper_price_source(paper_mark)}"
+        profit = (
+            f"Snapshot P&L ₹{num(paper_mark['pnl'])} · {paper_price_source(paper_mark, provider)}"
+        )
     lines = [
         f"{c['symbol']}   ·   {LABELS.get(c['strategy'], c['strategy'])}   ·   {c['day']}",
         f"{c['sector']}   /   {c['status']}   /   {c['allocation']}   /   {c['action']}",
@@ -314,10 +343,11 @@ class RadarTerminal(App):
     def __init__(self, dashboard: Dashboard):
         super().__init__()
         self.data = dashboard
-        self.kite_controls = KiteControls()
+        self.kite_controls = KiteControls() if dashboard.quote_provider == "kite" else None
         self.paper_data = None
         self.overview_data = {}
-        self.quote_data = {}
+        self.quote_data = {"provider": dashboard.quote_provider}
+        self.displayed_prices = {}
         self.stock_research_running = set()
         self.run_name = "observations"
         self.run_options = []
@@ -325,11 +355,17 @@ class RadarTerminal(App):
 
     def compose(self) -> ComposeResult:
         yield Header(show_clock=True)
-        yield self.kite_controls
+        if self.kite_controls is not None:
+            yield self.kite_controls
         yield Static("NSE   ·   Connecting", id="indices", markup=False)
         with TabbedContent(id="tabs"):
             with TabPane("Prices", id="prices"):
-                yield Static("Connecting to Kite…", id="quote-status", classes="note", markup=False)
+                yield Static(
+                    f"Connecting to {QUOTE_FEEDS[self.data.quote_provider]}…",
+                    id="quote-status",
+                    classes="note",
+                    markup=False,
+                )
                 yield Input(placeholder="Filter symbol or sector", id="filter")
                 yield Static(
                     "Select a stock and press Enter for its research report", classes="note"
@@ -417,7 +453,7 @@ class RadarTerminal(App):
         self.action_reload()
         self.data.start_automatic()
         self.set_interval(300, self.data.start_automatic)
-        self.set_interval(5, self.poll_quotes)
+        self.set_interval(self.data.interval, self.poll_quotes)
         self.set_interval(10, self.poll_local)
         self.set_interval(1, self.update_activity)
 
@@ -425,14 +461,16 @@ class RadarTerminal(App):
         self.query_one("#activity", Static).update(self.data.activity()["message"])
 
     def on_app_focus(self):
-        if self.kite_controls.is_mounted:
+        if self.kite_controls is not None and self.kite_controls.is_mounted:
             self.kite_controls.check()
 
     def action_check_kite(self):
-        self.kite_controls.check()
+        if self.kite_controls is not None:
+            self.kite_controls.check()
 
     def action_login_kite(self):
-        self.kite_controls.login()
+        if self.kite_controls is not None:
+            self.kite_controls.login()
 
     def action_pane(self, pane):
         self.query_one("#tabs", TabbedContent).active = pane
@@ -484,13 +522,13 @@ class RadarTerminal(App):
     @work(group="quotes")
     async def fetch_quotes(self):
         try:
-            self.quote_data = await asyncio.to_thread(self.data.quotes)
-            self.render_prices()
+            payload = await asyncio.to_thread(self.data.quotes)
+            self.quote_data = {"provider": self.data.quote_provider, **payload}
         except (OSError, ValueError, sqlite3.Error) as exc:
             self.quote_data = {**self.quote_data, "error": str(exc)}
-            self.query_one("#quote-status", Static).update(str(exc))
         finally:
             self.loading_quotes = False
+        self.render_prices()
         if self.paper_data is not None:
             self.render_paper_estimate()
 
@@ -641,17 +679,31 @@ class RadarTerminal(App):
         view = paper_live_view(self.paper_data, self.quote_data)
         estimate = self.query_one("#paper-estimate", Static)
         held, quoted, live = view["held_count"], view["quoted_count"], view["live_count"]
-        feed = " · Kite unavailable" if self.quote_data.get("error") else ""
+        delayed = view["delayed_count"]
+        provider = self.quote_data["provider"]
+        feed = QUOTE_FEEDS[provider]
+        if self.quote_data.get("error"):
+            feed += " unavailable"
         estimate.display = held > 0
         if held and not quoted:
-            estimate.update(f"No usable quote for open holdings{feed} · see recorded marks below")
+            estimate.update(
+                f"No usable quote for open holdings · {feed} · see recorded marks below"
+            )
         elif held:
             if live == held:
                 source = "Live estimate"
-            elif quoted == held and not live:
+            elif delayed == held:
+                source = "Delayed estimate"
+            elif quoted == held and not (live or delayed):
                 source = "Last quote estimate"
             else:
-                source = f"Mixed marks · {live}/{held} live"
+                parts = [
+                    (live, "live"),
+                    (delayed, "delayed"),
+                    (quoted - live - delayed, "last quote"),
+                    (held - quoted, "journal"),
+                ]
+                source = "Mixed marks · " + ", ".join(f"{n} {label}" for n, label in parts if n)
             balance = (
                 f"Total P&L ₹{num(view['total_pnl'])} · Equity ₹{num(view['equity'])}"
                 if view["total_pnl"] is not None and view["equity"] is not None
@@ -660,7 +712,7 @@ class RadarTerminal(App):
             holdings_day = self.paper_data["history"][0]["day"]
             estimate.update(
                 f"{source} · {balance} · Holdings at {holdings_day} close"
-                f" · Oldest quote {stamp(view['as_of'])} IST{feed}"
+                f" · {feed} · Oldest quote {stamp(view['as_of'])} IST"
             )
         rows = []
         for t in self.paper_data["trades"]:
@@ -681,7 +733,7 @@ class RadarTerminal(App):
                         str(t["remaining"]),
                         num(mark["price"]),
                         num(mark["pnl"]),
-                        paper_price_source(mark),
+                        paper_price_source(mark, provider),
                         num(t["entry"]),
                         num(t["buy"]),
                     ],
@@ -717,65 +769,104 @@ class RadarTerminal(App):
 
     def render_prices(self):
         quotes = self.quote_data.get("quotes", {})
-        members = {m["symbol"]: m for m in self.overview_data.get("members", [])}
+        archived = {m["symbol"]: m for m in self.overview_data.get("members", [])}
+        members = {m["symbol"]: m for m in self.quote_data.get("members", [])} or archived
+        session = self.overview_data.get("session")
+        final_at = (
+            datetime.combine(date.fromisoformat(session), time(15, 30), market.IST)
+            if session
+            else None
+        )
+        symbols = dict.fromkeys([*market.BENCHMARKS, *members, *quotes])
+        self.displayed_prices = {}
+        for symbol in symbols:
+            member, quote = members.get(symbol, {}), quotes.get(symbol, {})
+            canonical = member.get("exchange_symbol", quote.get("symbol", symbol))
+            self.displayed_prices[symbol] = price_for_display(
+                symbol, member, archived.get(canonical, {}), quote, final_at
+            )
         summary = Text()
         for symbol in market.BENCHMARKS:
-            quote = quotes.get(symbol, {})
+            quote = self.displayed_prices[symbol]
             change = quote.get("change_pct")
-            value = quote.get("price", members.get(symbol, {}).get("close"))
+            value = quote.get("price")
             summary.append(f"{symbol}  {num(value)}", style="bold")
             if change is not None:
                 summary.append(f" {change:+.2f}%", style="green" if change >= 0 else "red")
             summary.append("    ")
         self.query_one("#indices", Static).update(summary)
-        symbols = dict.fromkeys([*market.BENCHMARKS, *members, *quotes])
         search = self.query_one("#filter", Input).value.strip().upper()
         rows = []
         for s in symbols:
             member = members.get(s, {})
             if search not in (s + " " + member.get("sector", "")).upper():
                 continue
-            q = quotes.get(s, {})
+            q = self.displayed_prices[s]
             change = q.get("change_pct")
             move = (
                 Text("—")
                 if change is None
                 else Text(f"{change:+.2f}%", style="green" if change >= 0 else "red")
             )
-            fallback = member.get("close")
+            exchange_time = stamp(q.get("timestamp"))
+            if q.get("recorded"):
+                exchange_time = f"EOD {q['recorded']}"
+            elif q and (self.quote_data.get("error") or q.get("cached")):
+                exchange_time = f"Cached · {exchange_time}"
             rows.append(
                 (
                     s,
                     [
                         s,
-                        num(q.get("price", fallback)),
+                        num(q.get("price")),
                         move,
                         num(q.get("open")),
                         num(q.get("high")),
                         num(q.get("low")),
-                        stamp(q.get("timestamp"))
-                        if q
-                        else (f"EOD {self.overview_data['session']}" if fallback else "—"),
+                        exchange_time,
                     ],
                 )
             )
         self.rows("prices-table", rows)
-        if self.quote_data.get("error"):
-            msg = f"Kite unavailable · {self.quote_data['error']} · showing last available prices"
-        elif quotes:
-            latest = max(
-                (q["timestamp"] for q in quotes.values() if q.get("timestamp")), default=None
+        provider = self.quote_data["provider"]
+        parts = [feed_label(provider)]
+        error = self.quote_data.get("error")
+        requested = self.quote_data.get("requested", 0)
+        if error:
+            parts.append(f"Refresh failed · {error}")
+        if quotes:
+            cached = sum(bool(error or q.get("cached")) for q in quotes.values())
+            refreshed = len(quotes) - cached
+            count = f"{refreshed}/{requested}" if requested else str(refreshed)
+            parts.append(f"{count} quoted" + (f" · {cached} cached" if cached else ""))
+            latest_quote = max(
+                (q for q in quotes.values() if q.get("timestamp")),
+                key=lambda q: q["timestamp"],
+                default=None,
             )
-            recent = (
-                latest
-                and abs((datetime.now(market.IST) - datetime.fromisoformat(latest)).total_seconds())
-                <= 120
-            )
-            feed = "Live quotes" if recent else "Last exchange quotes"
-            msg = f"{feed} · Kite {len(quotes)}/{self.quote_data['requested']} · fetched {stamp(self.quote_data['fetched_at'])} IST · 5s poll"
+            if latest_quote:
+                latest = latest_quote["timestamp"]
+                freshness = quote_freshness(
+                    provider,
+                    datetime.fromisoformat(latest),
+                    datetime.now(market.IST),
+                    cached=bool(error or latest_quote.get("cached")),
+                    interval=self.data.interval,
+                )
+                if freshness != "Delayed":
+                    parts.append(freshness)
+                parts.append(f"Latest exchange time {stamp(latest)} IST")
+            else:
+                parts.append("Exchange time unavailable")
+        elif error or self.quote_data.get("fetched_at") or requested:
+            parts.append(f"0/{requested} quoted" if requested else "No quotes")
+            parts.append("Showing recorded closes where available")
         else:
-            msg = "Connecting to Kite…"
-        self.query_one("#quote-status", Static).update(msg)
+            parts.append("Waiting for quotes")
+        if self.quote_data.get("warning"):
+            parts.append(self.quote_data["warning"])
+        parts.append(f"{self.data.interval}s poll")
+        self.query_one("#quote-status", Static).update(" · ".join(parts))
 
     @on(Select.Changed, "#run-select")
     def choose_run(self, event):
@@ -806,7 +897,12 @@ class RadarTerminal(App):
             elif event.data_table.id == "paper-trades":
                 trade = self.data.paper_trade(int(key))
                 mark = paper_live_view(self.paper_data, self.quote_data)["positions"].get(int(key))
-                self.push_screen(Detail(f"Paper trade #{key}", call_text(trade, paper_mark=mark)))
+                self.push_screen(
+                    Detail(
+                        f"Paper trade #{key}",
+                        call_text(trade, paper_mark=mark, provider=self.quote_data["provider"]),
+                    )
+                )
             elif event.data_table.id == "entry-comparison":
                 original, shadow = (
                     self.data.paper_trade(int(i), comparison=True) for i in key.split("/")
@@ -832,20 +928,33 @@ class RadarTerminal(App):
             elif event.data_table.id == "reports-table":
                 self.push_screen(Detail("Backtest report", report_text(self.data.report(key))))
             elif event.data_table.id == "prices-table":
-                q = self.quote_data.get("quotes", {}).get(key)
+                q = self.displayed_prices.get(key, {})
                 quote = ""
-                if q:
+                if q.get("recorded"):
+                    quote = f"Recorded close ₹{num(q['price'])} · EOD {q['recorded']}"
+                elif q:
+                    source = feed_label(self.quote_data["provider"])
+                    if self.quote_data.get("error") or q.get("cached"):
+                        source += " · Cached"
                     quote = (
-                        f"Last ₹{num(q.get('price'))} · Previous close ₹{num(q.get('previous_close'))} · "
+                        f"{source} · Last ₹{num(q.get('price'))} · Previous close ₹{num(q.get('previous_close'))} · "
                         f"Open ₹{num(q.get('open'))} · High ₹{num(q.get('high'))} · Low ₹{num(q.get('low'))}\n"
                         f"Volume {num(q.get('volume'), 0)} · Exchange time {stamp(q.get('timestamp'))} IST"
                     )
                 if key not in market.BENCHMARKS:
-                    self.push_screen(StockReportScreen(key, quote))
+                    symbol = next(
+                        (
+                            r.get("exchange_symbol", key)
+                            for r in self.quote_data.get("members", [])
+                            if r["symbol"] == key
+                        ),
+                        self.quote_data.get("quotes", {}).get(key, {}).get("symbol", key),
+                    )
+                    self.push_screen(StockReportScreen(symbol, quote))
                 elif q:
                     self.push_screen(Detail(key, quote))
                 else:
-                    self.notify("No broker quote for this instrument yet.")
+                    self.notify("No exchange quote for this instrument yet.")
         except (KeyError, OSError, ValueError, sqlite3.Error):
             self.notify("Unable to read the selected record.", severity="warning")
 

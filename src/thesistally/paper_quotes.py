@@ -1,4 +1,4 @@
-"""Indicative values for journaled holdings, using identified Kite quotes."""
+"""Indicative values for journaled holdings, using identified exchange quotes."""
 
 from datetime import datetime, time
 from functools import lru_cache
@@ -62,16 +62,29 @@ def _newer_mark(quote, close, day, now):
     return price, at.astimezone(market.IST)
 
 
+def quote_freshness(provider, at, now, *, cached=False, interval=120):
+    """Classify the exchange timestamp independently of when the HTTP request completed."""
+    # Allow one polling interval on top of NSE's published three-minute delay.
+    max_age = 180 + interval if provider == "nse" else 120
+    if (
+        cached
+        or not time(9, 15) <= now.astimezone(market.IST).time() < time(15, 30)
+        or not 0 <= (now - at).total_seconds() <= max_age
+    ):
+        return "Last quote"
+    return "Delayed" if provider == "nse" else "Live"
+
+
 def paper_live_view(account, quote_data, *, now=None):
     """Overlay price changes on settled marks without changing journal balances or fills."""
     now = (now or datetime.now(market.IST)).astimezone(market.IST)
-    regular_hours = time(9, 15) <= now.time() < time(15, 30)
+    provider = quote_data.get("provider", "kite")
     last = next(iter(account["history"]), {})
     day = last.get("day")
     quotes = {q["isin"]: q for q in quote_data.get("quotes", {}).values() if q.get("isin")}
     equity, total_pnl = last.get("equity"), last.get("total_pnl")
     change = 0.0
-    live_count = held_count = 0
+    live_count = delayed_count = held_count = 0
     stamps = []
     positions = {}
     for trade in account["trades"]:
@@ -84,7 +97,8 @@ def paper_live_view(account, quote_data, *, now=None):
             held_count += 1
             if price is not None or pnl is not None:
                 source, stamp = ("Frozen" if price is None else "EOD"), day
-            mark = _newer_mark(quotes.get(trade["isin"]), price, day, now)
+            quote = quotes.get(trade["isin"])
+            mark = _newer_mark(quote, price, day, now)
             if mark and pnl is not None:
                 ltp, at = mark
                 # Adjust only shares still held. Booked proceeds, fees, dividends and
@@ -92,13 +106,15 @@ def paper_live_view(account, quote_data, *, now=None):
                 delta = qty * (ltp - price)
                 price, pnl, stamp = ltp, pnl + delta, at.isoformat()
                 change += delta
-                live = (
-                    regular_hours
-                    and not quote_data.get("error")
-                    and (now - at).total_seconds() <= 120
+                source = quote_freshness(
+                    provider,
+                    at,
+                    now,
+                    cached=bool(quote_data.get("error") or quote.get("cached")),
+                    interval=quote_data.get("interval", 120),
                 )
-                source = "Live" if live else "Last quote"
-                live_count += int(live)
+                live_count += int(source == "Live")
+                delayed_count += int(source == "Delayed")
                 stamps.append(stamp)
         positions[trade["id"]] = {"price": price, "pnl": pnl, "source": source, "as_of": stamp}
     return {
@@ -108,5 +124,6 @@ def paper_live_view(account, quote_data, *, now=None):
         "as_of": min(stamps, default=None),
         "held_count": held_count,
         "live_count": live_count,
+        "delayed_count": delayed_count,
         "quoted_count": len(stamps),
     }

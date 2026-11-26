@@ -14,8 +14,11 @@ from thesistally.terminal import Detail, RadarTerminal
 
 
 def test_quote_refresh_missing_symbol_and_expired_session(tmp_path, monkeypatch):
+    monkeypatch.setenv("RADAR_QUOTE_PROVIDER", "kite")
     dashboard = Dashboard(tmp_path)
-    monkeypatch.setattr(dashboard, "archive", lambda: {"members": [{"symbol": "INFY"}]})
+    monkeypatch.setattr(
+        dashboard, "archive", lambda: {"members": [{"symbol": "INFY", "isin": "INE009A01021"}]}
+    )
     responses = [
         {
             "data": {
@@ -129,6 +132,7 @@ def test_terminal_navigation_when_feed_offline(tmp_path, monkeypatch):
 
 
 def test_kite_login_and_status_in_the_terminal(tmp_path, monkeypatch):
+    monkeypatch.setenv("RADAR_QUOTE_PROVIDER", "kite")
     data = Dashboard(tmp_path)
     monkeypatch.setattr(data, "start_automatic", lambda: None)
     monkeypatch.setattr(data, "quotes", lambda: {"quotes": {}})

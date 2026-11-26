@@ -9,6 +9,7 @@ from thesistally.paper_quotes import paper_live_view
 
 
 def test_quote_poll_updates_paper_pnl_without_changing_the_close(tmp_path, monkeypatch):
+    monkeypatch.setenv("RADAR_QUOTE_PROVIDER", "kite")
     now = datetime(2026, 11, 23, 11, tzinfo=market.IST)
     monkeypatch.setattr(
         terminal,

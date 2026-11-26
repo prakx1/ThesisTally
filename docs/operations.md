@@ -4,7 +4,13 @@
 
 Press **4** for the forward paper account. The daily scan automatically attempts the next-open entry for each allocated call and tracks partial sales, stops, costs and exits. The account uses the saved rule version for the life of each call and runs independently of Taken or Skipped feedback. Cash includes settled proceeds and dividends. Equity also includes held positions and outstanding corporate-action receivables. Press **Enter** on a trade for fills and daily position values, or on a date for that session’s executions. Older sessions without a recorded valuation display a dash when equity cannot be established.
 
-While the terminal is open, the funded swing portfolio updates its estimated P&L on the five-second Kite quote poll. The estimate applies price changes to shares still held after any partial sales. Pending plans acquire P&L only after a fill. The price source beside each holding shows whether it uses a live quote, an older quote or the recorded mark. The dated close and daily history remain the official paper record.
+The Paper Trading tab estimates P&L on shares still held using the selected terminal price feed. Look for the source and exchange time beside each holding. When Radar cannot verify the security identity, a newer trading session and a matching previous close, it shows the recorded mark. Paper fills, costs and settled balances come from the daily journal.
+
+## Terminal price sources
+
+Run `uv run --frozen radar` for NSE Official. Radar reads the official NSE cash-market service directly, with no account, API key or AI call. It requests Nifty 200 equity quotes and the Nifty 50, Nifty 200 and India VIX indices every two minutes. NSE describes its feed as 1–3 minutes delayed for informational, non-commercial use. Each row shows the exchange time in IST. After a missed refresh, the screen identifies cached prices or falls back to a dated close when available. [NSE Official MCP documentation](https://www.nseindia.in/nse-mcp)
+
+Run `uv run --frozen radar --quote-provider kite` for authenticated Kite quotes every five seconds. To remember that choice in your shell, set `export RADAR_QUOTE_PROVIDER=kite`. Use `unset RADAR_QUOTE_PROVIDER` to restore the NSE default. This setting selects prices for the terminal and its paper P&L estimates. The separate swing-session collector uses Kite history for indicator warm-up and checks against the official NSE final.
 
 ## Stock reports
 
@@ -21,9 +27,9 @@ The report shows the market date, rating, analyst views, bull case, bear case, r
 
 ## Kite login and status
 
-**Check status (F5)** verifies the session with Kite. A successful check shows **Connected to Kite** in green with the time of verification. When sign-in is needed, choose **Log in to Kite (F6)**, finish in the browser, then press **F5**. A network outage can leave the status unavailable even with a valid login.
+In Kite mode, **Check status (F5)** verifies the session with Kite. A successful check shows **Connected to Kite** in green with the time of verification. When sign-in is needed, choose **Log in to Kite (F6)**, finish in the browser, then press **F5**. A network outage can leave the status unavailable even with a valid login.
 
-For live prices, renew the session on each day you use Kite. Zerodha normally expires the access token at 06:00 IST the following day. Reading saved research reports works offline. [Kite Connect session lifetime](https://kite.trade/docs/connect/v3/user/#authentication-and-token-exchange)
+Renew the session on each day you choose the Kite feed. Zerodha normally expires the access token at 06:00 IST the following day. Reading saved research reports works offline. [Kite Connect session lifetime](https://kite.trade/docs/connect/v3/user/#authentication-and-token-exchange)
 
 From the shell, `uv run --frozen radar login` opens the helper and `uv run --frozen radar session` checks the session. The default helper address is `http://127.0.0.1:8000/login`. On a different installation, set `RADAR_KITE_LOGIN_URL` to your own running Kite Connect login helper. The helper completes the token exchange and saves the fresh session.
 

@@ -2,7 +2,7 @@
 
 ThesisTally tests trading ideas on the Nifty 200 stocks that belonged to the index at the time. Its local terminal tracks paper trades after costs. **Paper trading only. No broker orders. No investment advice.**
 
-[![Terminal tour showing changing prices, how to read and refresh a stock report, a sample call, a saved momentum study and paper P&L.](docs/figures/terminal-tour.gif)](docs/figures/terminal-tour.gif)
+[![Terminal tour showing delayed NSE prices, how to read and refresh a stock report, a sample call, a saved momentum study and paper P&L.](docs/figures/terminal-tour.gif)](docs/figures/terminal-tour.gif)
 
 The tour uses example quotes, stock research and paper trades. The Reports tab shows the published monthly momentum study. [View a still screenshot](docs/figures/terminal-prices.png)
 
@@ -69,7 +69,9 @@ uv run --frozen radar
 
 In **Prices**, select a stock and press **Enter** to read its saved research. Press **A** to analyze it again. From the shell, `uv run radar research SBIN` opens a fresh SBI report. [Stock report controls](docs/operations.md#stock-reports)
 
-Press **3** for Reports, select **Monthly momentum**, then press **Enter**. Saved reports open without credentials. For live quotes, choose **Log in to Kite (F6)**, then **Check status (F5)** to verify your session. [Login and daily operation](docs/operations.md#kite-login-and-status)
+**Prices** opens on NSE Official, with no account or API key. It refreshes every two minutes and shows the exchange time in IST. For the optional Kite feed, launch `uv run radar --quote-provider kite`. [Price sources and login](docs/operations.md#terminal-price-sources)
+
+Press **3** for Reports, select **Monthly momentum**, then press **Enter**. Saved reports also open offline.
 
 ![The Reports tab with the monthly momentum study selected.](docs/figures/terminal-reports.png)
 

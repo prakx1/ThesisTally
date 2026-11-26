@@ -8,7 +8,7 @@ ThesisTally is a local research terminal for long swing trades in the Nifty 200.
 
 ```mermaid
 flowchart TB
-    Q["Kite quotes"] --> P["Prices tab"]
+    Q["NSE Official delayed quotes or optional Kite quotes"] --> P["Prices and paper P&L estimates"]
     E["NSE finals and dated membership"] --> A["Verified session archive"]
     A --> D["Setup rules and portfolio allocation"]
     D --> J[("SQLite call and paper journal")]
@@ -31,7 +31,7 @@ Launch `uv run radar` in the project directory. Typer starts the Textual interfa
 
 | Key | View | What changes it |
 | --- | --- | --- |
-| 1 | Prices | A batched Kite quote request every five seconds. Each quote has an exchange timestamp. Cached or end-of-day prices are labelled when the feed is unavailable. |
+| 1 | Prices | NSE Official quotes every two minutes by default, or authenticated Kite quotes every five seconds. The grid shows the exchange time in IST and labels cached quotes and dated closing prices. |
 | 2 | Calls | A scan, fill, lifecycle event, research verdict or user annotation. Select Observations for forward calls, or choose a historical run. |
 | 3 | Reports | A completed backtest or ranker study writes a report. Open a row to inspect windows, portfolio outcomes and qualification. |
 | 4 | Paper Trading | A completed forward scan updates positions, cash and equity. Open a trade for its history, or a session for its executions. |

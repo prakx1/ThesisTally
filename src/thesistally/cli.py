@@ -140,9 +140,21 @@ def data_check(
 
 
 @app.callback(invoke_without_command=True)
-def launch(ctx: typer.Context):
+def launch(
+    ctx: typer.Context,
+    quote_provider: Annotated[
+        str,
+        typer.Option(
+            "--quote-provider",
+            envvar="RADAR_QUOTE_PROVIDER",
+            help="Terminal prices: nse (delayed, no login) or kite (authenticated).",
+        ),
+    ] = "nse",
+):
     """Open the live terminal, or select a command for automation."""
     if ctx.invoked_subcommand is None:
+        if quote_provider.strip().lower() not in {"nse", "kite"}:
+            raise typer.BadParameter("Choose nse or kite.", param_hint="--quote-provider")
         import sys
 
         if not sys.stdin.isatty() or not sys.stdout.isatty():
@@ -151,7 +163,7 @@ def launch(ctx: typer.Context):
         from .dashboard import Dashboard
         from .terminal import RadarTerminal
 
-        RadarTerminal(Dashboard(root())).run()
+        RadarTerminal(Dashboard(root(), quote_provider=quote_provider)).run()
 
 
 def command(func):

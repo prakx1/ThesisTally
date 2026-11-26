@@ -4,12 +4,14 @@ from __future__ import annotations
 
 import json
 import math
+import os
 import sqlite3
 import threading
 from contextlib import closing, contextmanager
 from datetime import datetime
 from pathlib import Path
 
+import httpx
 import pandas as pd
 
 from . import market, paper
@@ -75,24 +77,39 @@ def parse_quotes(data, symbols):
     return quotes
 
 
+def _quote_key(row):
+    return row["symbol"] if row.get("series", "EQ") == "EQ" else f"{row['symbol']}-{row['series']}"
+
+
 def _scan(row):
     return {**dict(row), "regime": json.loads(row["regime"])}
 
 
 class Dashboard:
-    interval = 5
-
-    def __init__(self, root: Path):
+    def __init__(self, root: Path, quote_provider: str | None = None):
+        selected = (
+            os.environ.get("RADAR_QUOTE_PROVIDER", "nse")
+            if quote_provider is None
+            else quote_provider
+        )
+        self.quote_provider = selected.strip().lower()
+        if self.quote_provider not in {"nse", "kite"}:
+            raise ValueError("Choose nse or kite for the terminal quote provider.")
+        self.interval = 120 if self.quote_provider == "nse" else 5
         self.root = root.resolve()
         if (self.root / "journal.sqlite").is_file():
             with closing(journal(self.root / "journal.sqlite")):
                 pass
         self._archive_lock = threading.Lock()
-        self._bootstrap_members = []
+        self._roster_cache = {}
+        self._quote_owners = {}
+        self._identity_changed_on = {}
         self._held_isins = frozenset()
         self._archive_key = None
         self._archive = None
         self._quote_state = {
+            "provider": self.quote_provider,
+            "members": [],
             "quotes": {},
             "fetched_at": None,
             "error": None,
@@ -133,7 +150,13 @@ class Dashboard:
                     for s in market.BENCHMARKS
                 ]
                 members.extend(
-                    {"symbol": r.symbol, "sector": r.sector, "close": _number(closes.get(r.symbol))}
+                    {
+                        "symbol": r.symbol,
+                        "sector": r.sector,
+                        "isin": r.isin,
+                        "series": r.series,
+                        "close": _number(closes.get(r.symbol)),
+                    }
                     for r in frame.itertuples(index=False)
                 )
             self._archive = {"session": day, "members": members}
@@ -294,63 +317,185 @@ class Dashboard:
         with closing(journal(self.root / "journal.sqlite")) as db:
             record_action(db, call_id, decision)
 
+    def _current_roster(self, *, all_equities=False):
+        """Read a public NSE identity file once per IST day for the terminal only."""
+        day = datetime.now(market.IST).date()
+        previous = self._roster_cache.get(all_equities)
+        if previous and previous[0] == day:
+            return previous[1]
+        url = market.ARCHIVE + "/equities/EQUITY_L.csv" if all_equities else market.UNIVERSE_URL
+        response = httpx.get(
+            url,
+            timeout=15,
+            follow_redirects=True,
+            headers={"User-Agent": "ThesisTally/0.1", "Accept": "text/csv,*/*"},
+        )
+        response.raise_for_status()
+        if all_equities:
+            frame = market.csv_table(response.content)
+            frame.columns = frame.columns.str.strip()
+            required = {"SYMBOL": "symbol", "SERIES": "series", "ISIN NUMBER": "isin"}
+            if not required.keys() <= set(frame):
+                raise market.MarketError("NSE equity list has no security identifiers.")
+            frame = frame.rename(columns=required)[list(required.values())]
+            frame = frame.apply(lambda column: column.str.strip())
+            frame = frame[frame["isin"].str.fullmatch(r"IN[A-Z0-9]{10}")]
+            frame = frame[~frame.duplicated(["symbol", "series"], keep=False)]
+        else:
+            frame = market.read_members(response.content)
+        rows = frame.to_dict("records")
+        self._roster_cache[all_equities] = (day, rows)
+        return rows
+
+    def _kite_quotes(self, symbols, identities):
+        with market.Feed(timeout=5) as feed:
+            result = feed.get(
+                market.KITE + "/quote",
+                kite=True,
+                attempts=1,
+                params=[("i", f"NSE:{s}") for s in symbols],
+            ).json()
+        if (
+            not isinstance(result, dict)
+            or result.get("status") != "success"
+            or not isinstance(result.get("data"), dict)
+        ):
+            raise market.MarketError("Kite returned an incomplete quote response.")
+        quotes = parse_quotes(result["data"], symbols)
+        for symbol, (isin, token) in identities.items():
+            if (
+                symbol in quotes
+                and result["data"][f"NSE:{symbol}"].get("last_trade_time")
+                and result["data"][f"NSE:{symbol}"].get("instrument_token") == token
+            ):
+                quotes[symbol]["isin"] = isin
+        return quotes
+
+    def _nse_snapshot(self, symbols, verified, archived, archive_day):
+        from . import nse_quotes
+
+        quotes, warning = nse_quotes.fetch_quotes(symbols)
+        today = datetime.now(market.IST).date().isoformat()
+        for key in list(quotes):
+            if key in market.BENCHMARKS:
+                continue
+            quote = quotes[key]
+            identity = verified.get(key)
+            historical = archived.get(key, {})
+            if not identity or (quote.get("symbol"), quote.get("series")) != (
+                identity["symbol"],
+                identity["series"],
+            ):
+                del quotes[key]
+                continue
+            when = (quote.get("timestamp") or "")[:10]
+            prior_isin = historical.get("isin")
+            if when < self._identity_changed_on.get(key, "") or (
+                when != today and prior_isin and prior_isin != identity["isin"]
+            ):
+                # An older tick can belong to a previous holder of this symbol.
+                del quotes[key]
+            elif when == today or (when and when == archive_day and prior_isin == identity["isin"]):
+                quote["isin"] = identity["isin"]
+        return quotes, warning
+
     def quotes(self):
         archive = self.archive()
+        archived = {_quote_key(r): r for r in archive["members"]}
         members = archive["members"]
-        symbols = list(dict.fromkeys([*market.BENCHMARKS, *(r["symbol"] for r in members)]))
-        identities = {}
-        if self._held_isins and archive.get("session"):
+        current = []
+        warnings = []
+        if self.quote_provider == "nse" or not members:
+            try:
+                current = self._current_roster()
+                members = current
+            except (httpx.HTTPError, ValueError, OSError):
+                prior_day, prior = self._roster_cache.get(False, (archive.get("session"), members))
+                members = prior
+                warnings.append(
+                    f"Using NSE constituents from {prior_day}."
+                    if members
+                    else "Current NSE constituents unavailable. Showing indices."
+                )
+
+        roster = {_quote_key(r): r for r in members}
+        held = self._held_isins
+        verified = {_quote_key(r): r for r in current}
+        if self.quote_provider == "nse" and (
+            (members and not current) or held - {r["isin"] for r in current}
+        ):
+            try:
+                for row in self._current_roster(all_equities=True):
+                    key = _quote_key(row)
+                    if (key not in roster and row["isin"] in held) or roster.get(key, {}).get(
+                        "isin"
+                    ) == row["isin"]:
+                        verified.setdefault(key, row)
+            except (httpx.HTTPError, OSError, ValueError):
+                warnings.append("NSE security list unavailable for identity checks.")
+
+        symbols = list(dict.fromkeys([*market.BENCHMARKS, *roster, *verified]))
+        kite_ids = {}
+        if self.quote_provider == "kite" and held and archive.get("session"):
             try:
                 ids = quote_identities(self.root / "sessions" / archive["session"])
-            except (OSError, ValueError):
+            except (ValueError, OSError):
                 ids = {}
-            held = self._held_isins
-            identities = {symbol: pair for symbol, pair in ids.items() if pair[0] in held}
-            symbols.extend(symbol for symbol in identities if symbol not in symbols)
+            kite_ids = {s: pair for s, pair in ids.items() if pair[0] in held}
+            symbols.extend(s for s in kite_ids if s not in symbols)
+
+        # A cached price belongs to the security that produced it, even on a total outage.
+        owners = {
+            k: r.get("isin")
+            for k, r in (verified if self.quote_provider == "nse" else roster).items()
+        }
+        owners.update({k: pair[0] for k, pair in kite_ids.items()})
+        for key, isin in owners.items():
+            if isin and self._quote_owners.get(key) not in (None, isin):
+                self._identity_changed_on[key] = market.today().isoformat()
+        old = self._quote_state["quotes"]
+        cached = {
+            k: q
+            for k, q in old.items()
+            if k in symbols
+            and (
+                k in market.BENCHMARKS or (owners.get(k) and self._quote_owners.get(k) == owners[k])
+            )
+        }
+        fetched_at = self._quote_state["fetched_at"]
+        error = None
         try:
-            with market.Feed(timeout=5) as feed:
-                if not members:
-                    if not self._bootstrap_members:
-                        current = market.read_members(
-                            feed.get(market.UNIVERSE_URL, attempts=1).content
-                        )
-                        self._bootstrap_members = current.symbol.tolist()
-                    symbols.extend(self._bootstrap_members)
-                result = feed.get(
-                    market.KITE + "/quote",
-                    kite=True,
-                    attempts=1,
-                    params=[("i", f"NSE:{s}") for s in symbols],
-                ).json()
-            if (
-                not isinstance(result, dict)
-                or result.get("status") != "success"
-                or not isinstance(result.get("data"), dict)
-            ):
-                raise market.MarketError("Kite returned an incomplete quote response.")
-            quotes = parse_quotes(result["data"], symbols)
-            for symbol, (isin, token) in identities.items():
-                if (
-                    symbol in quotes
-                    and result["data"][f"NSE:{symbol}"].get("last_trade_time")
-                    and result["data"][f"NSE:{symbol}"].get("instrument_token") == token
-                ):
-                    quotes[symbol]["isin"] = isin
+            if self.quote_provider == "nse":
+                quotes, partial = self._nse_snapshot(
+                    symbols, verified, archived, archive.get("session")
+                )
+                if partial:
+                    warnings.append(partial)
+            else:
+                quotes = self._kite_quotes(symbols, kite_ids)
             if not quotes:
-                raise market.MarketError("Kite returned no usable quotes.")
-            self._quote_state = {
-                "quotes": quotes,
-                "fetched_at": datetime.now(market.IST).isoformat(),
-                "error": None,
-                "interval": self.interval,
-                "requested": len(symbols),
-            }
-        except (ValueError, OSError) as exc:
-            self._quote_state = {
-                **self._quote_state,
-                "error": str(exc),
-                "requested": len(symbols),
-            }
+                raise market.MarketError(
+                    f"{self.quote_provider.upper()} returned no usable quotes."
+                )
+            fetched_at = datetime.now(market.IST).isoformat()
+            cached = {k: {**q, "cached": True} for k, q in cached.items() if k not in quotes}
+            quotes = {**cached, **quotes}
+        except (OSError, ValueError) as exc:
+            error = str(exc)
+            quotes = cached
+        self._quote_owners.update({k: v for k, v in owners.items() if v})
+        self._quote_state = {
+            "provider": self.quote_provider,
+            "interval": self.interval,
+            "members": [
+                {**r, "symbol": k, "exchange_symbol": r["symbol"]} for k, r in roster.items()
+            ],
+            "requested": len(symbols),
+            "quotes": quotes,
+            "fetched_at": fetched_at,
+            "error": error,
+            "warning": " ".join(warnings) or None,
+        }
         return self._quote_state
 
     def activity(self):

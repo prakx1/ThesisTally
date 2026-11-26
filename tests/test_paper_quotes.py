@@ -164,7 +164,7 @@ def test_market_close_keeps_the_last_trade_without_calling_it_live():
 def test_held_isin_outside_current_universe_is_quoted_only_with_an_identified_last_trade(
     tmp_path, monkeypatch
 ):
-    dash = Dashboard(tmp_path)
+    dash = Dashboard(tmp_path, quote_provider="kite")
     day = "2026-10-03"
     folder = tmp_path / "sessions" / day
     folder.mkdir(parents=True)
