@@ -205,7 +205,8 @@ def scan_after_close(root, day):
     def collect():
         if not (root / "sessions" / str(day) / "manifest.json").exists():
             url = f"{market.ARCHIVE}/cm/BhavCopy_NSE_CM_0_0_0_{day:%Y%m%d}_F_0000.csv.zip"
-            resp = httpx.head(url, timeout=10)
+            with market.Feed(timeout=10) as feed:
+                resp = feed.http.head(url)
             if resp.status_code == 404:
                 return False
             resp.raise_for_status()

@@ -6,6 +6,12 @@ Press **4** for the forward paper account. The daily scan automatically attempts
 
 The Paper Trading tab estimates P&L on shares still held using the selected terminal price feed. Look for the source and exchange time beside each holding. When Radar cannot verify the security identity, a newer trading session and a matching previous close, it shows the recorded mark. Paper fills, costs and settled balances come from the daily journal.
 
+## When to expect new calls
+
+The **Calls** tab keeps the daily swing journal. Trend pullback, volatility breakout and 52-week-high momentum were retired after the baseline study. A completed scan can still detect those patterns and update earlier paper calls while issuing zero new calls. Check the scan date first. A missing session and a completed session with zero calls mean different things. [Retirement decision](../src/thesistally/revisions/retirements.json)
+
+The active A126 paper portfolio ranks stocks at the last trading close of each month. Eligible purchases are simulated at the next session’s open if the allocation gate permits them. A126 has its own ledger. Run `uv run radar report --since-freeze` to see its progress. [Frozen portfolio](#frozen-a126-forward-paper-account)
+
 ## Terminal price sources
 
 | What you want | Connection Radar uses | What you need |
